@@ -16,14 +16,14 @@ In the following demo, Employee doing analysis from 9.00 AM to 10.00 AM, so that
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/spanning-cs1" %}
 
 ## Change the border color while column spanning
 
@@ -31,14 +31,14 @@ You can change the border color for the spanned cells by the using [QueryCellInf
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/spanning-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/spanning-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/spanning-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/spanning-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/spanning-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/spanning-cs3" %}
 
 ## Limitations
 
@@ -59,14 +59,14 @@ Here is an example of how to use the `enableColumnSpan` property to merge cells 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/column-spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/column-spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/column-spanning-cs1" %}
 
 > You can also control spanning at the column level. To prevent merging for specific columns, set `enableColumnSpan` to **false** in the column definition.
 

@@ -73,14 +73,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs1" %}
 
 ## Single column selection 
 
@@ -97,20 +97,20 @@ To enable single column selection, set the [selectionSettings.allowColumnSelecti
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs6/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-cs6" %}
 
 ## Multiple column selection 
 
@@ -127,20 +127,20 @@ To enable multiple column selection, set the [selectionSettings.allowColumnSelec
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs2" %}
 
 ## Select columns programmatically
 
@@ -236,14 +236,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs3" %}
 
 ### Selecting multiple columns
 
@@ -343,14 +343,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs4" %}
 
 ### Selecting a range of columns
 
@@ -456,14 +456,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs5" %}
 
 ### Selecting an existing column
 
@@ -553,14 +553,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs6" %}
 
 ## Clear column selection programmatically 
 
@@ -572,20 +572,20 @@ The following example demonstrates clearing column selection by calling the `cle
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs7" %}
 
 
 ## Column selection events 
@@ -604,20 +604,20 @@ In the following example, column selection is canceled when the value of `field`
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/selection-column-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/selection-column-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/selection-column-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/selection-column-cs8" %}
 
 ## See also
 - [Selection overview](./selection)

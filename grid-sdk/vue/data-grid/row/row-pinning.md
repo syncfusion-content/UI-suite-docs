@@ -20,14 +20,14 @@ The following example pins rows with "Critical" priority and "Open" status at th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs1" %}
 
 > Pinning rows requires a primary key column for mapping the pinned rows to their original records. To define the primary key, set [columns->isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/grid/column#isprimarykey) to **true** in particular column.
 
@@ -37,14 +37,14 @@ Row pinning in the Grid control keeps important rows visible at the top while na
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs2" %}
 
 ## Pinned rows selection
 
@@ -52,14 +52,14 @@ Pinned rows can be selected in the same way as regular rows. Their selection sta
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs3" %}
 
 > The [selectionSettings->persistSelection](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionsettings#persistselection) will be automatically enabled when pinning the rows using the `isRowPinned` callback function.
 
@@ -71,14 +71,14 @@ When sorting is applied to any column, pinned rows are reordered using the same 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs4" %}
 
 ## CRUD operations with row pinning
 
@@ -86,14 +86,14 @@ Row pinning fully supports CRUD operations by keeping pinned rows and their corr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs5" %}
 
 ## Dynamic row pinning
 
@@ -101,14 +101,14 @@ Row pinning provides dynamic control through the built-in context menu, allowing
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-pinning-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-pinning-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-pinning-cs6" %}
 
 ## Limitation
 

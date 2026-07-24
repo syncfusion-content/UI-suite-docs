@@ -21,27 +21,27 @@ To use the column resize, inject **Resize** module in the grid.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs10/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs10/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs10/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs10" %}
 {% endif %}
 
 >* You can disable Resizing for a particular column, by specifying [columns->allowResizing](../../api/grid/column/#allowresizing) to **false**.
@@ -60,27 +60,27 @@ In the below code, **OrderID**, **Ship Name** and **Ship Country** columns are d
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs11/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs11/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs11" %}
 {% endif %}
 
 >* The [columns->minWidth](../../api/grid/column/#minwidth) and [columns->maxWidth](../../api/grid/column/#maxwidth) properties will be considered only when the user resizes the column. When resizing the window, these properties will not be considered. This is because columns cannot be re-rendered when resizing the window.
@@ -97,27 +97,27 @@ You can disable resizing for a particular column by setting the [allowResizing](
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-prevent/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-prevent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-prevent/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-prevent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-prevent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-prevent" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-prevent/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-prevent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-prevent/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-prevent/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-prevent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-prevent" %}
 {% endif %}
 
 > You can also prevent resizing by setting `args.cancel` to **true** in the [resizeStart](../../api/grid/#resizestart) event.
@@ -132,27 +132,27 @@ In this below code, we have disabled resize for **Ship City** column.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-header/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-header/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-header/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-header" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-header/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-header/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-header/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-header/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-header" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-header" %}
 {% endif %}
 
 ## Resizing modes
@@ -169,27 +169,27 @@ The following example demonstrates how to set the [resizeSettings->mode](../../a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-resizing/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-resizing/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-resizing/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-resizing/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-resizing" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-resizing" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-resizing/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-resizing/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-resizing/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-resizing/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-resizing" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-resizing" %}
 {% endif %}
 
 > When the [autoFit](../../api/grid/#autofit) property is set to **true**, the Grid will automatically adjust its column width based on the content inside them. In `normal` resize mode, if the `autoFit` property is set to **true**, the Grid will maintain any empty space that is left over after resizing the columns. However, in `auto` resize mode, the Grid will ignore any empty space.
@@ -222,27 +222,27 @@ The following example demonstrates how to resize the columns in a grid. This is 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs12/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs12" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs12/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs12/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs12" %}
 {% endif %}
 
 >  The [refreshColumns](../../api/grid#refreshcolumns) method is used to refresh the grid after the column widths are updated. Column resizing externally is useful when you want to provide a custom interface to the user for resizing columns.
@@ -263,27 +263,27 @@ The following is an example of using the resizing events, the [resizeStart](../.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs13/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs13" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs13/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs13/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/row-template-cs13/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/row-template-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/row-template-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/row-template-cs13" %}
 {% endif %}
 
 >The ResizeArgs object passed to the events contains information such as the current column width, new column width, column index, and the original event. The [resizing](../../api/grid/#resizing) event is triggered multiple times during a single resize operation, so be careful when performing heavy operations in this event.

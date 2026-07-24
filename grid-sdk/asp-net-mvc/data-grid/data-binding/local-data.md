@@ -18,10 +18,10 @@ The following example demonstrates how to utilize the local data binding feature
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -342,10 +342,10 @@ The following example demonstrates how to import Excel data into the Grid by uti
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-upload/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-upload/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-upload/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-upload/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -598,10 +598,10 @@ The following example demonstrates how to display the loading indicator in the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-loading-indicator/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-loading-indicator/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-loading-indicator/databind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-loading-indicator/databind.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -853,10 +853,10 @@ The following example demonstrates how to display the loading indicator in the G
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-indicator/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-indicator/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Databind.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-indicator/databind.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-indicator/databind.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -870,10 +870,10 @@ The following example demonstrates how to show and hide the spinner during data 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-spinner/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-spinner/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/localdata-spinner/local.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/localdata-spinner/local.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -895,10 +895,10 @@ The following example demonstrates how to enable immutable mode in an ASP.NET MV
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/immutable-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/immutable-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Immutable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/immutable-mode/immutable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/immutable-mode/immutable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -914,10 +914,10 @@ The following sample demonstrates ExpandoObject binding:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/expandoObject-Binding/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/expandoObject-Binding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="expandoObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/expandoObject-Binding/expandoObject.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/expandoObject-Binding/expandoObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -929,10 +929,10 @@ In the following example, the fields **Customer.CustomerID**, **Customer.OrderDa
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/expandoObject-ComplexBinding/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/expandoObject-ComplexBinding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="expandoObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/expandoObject-ComplexBinding/expandoObject.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/expandoObject-ComplexBinding/expandoObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -950,10 +950,10 @@ Here's an example of how to bind a list of DynamicObject to the Grid:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/dynamicObject-Binding/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/dynamicObject-Binding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="dynamicObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/dynamicObject-Binding/dynamicObject.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/dynamicObject-Binding/dynamicObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -965,10 +965,10 @@ In the following example, **Customer.OrderDate**, **Customer.Freight**, and **Cu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/dynamicObject-ComplexBinding/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/dynamicObject-ComplexBinding/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="dynamicObject.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/data-binding/dynamicObject-ComplexBinding/dynamicObject.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/data-binding/dynamicObject-ComplexBinding/dynamicObject.cs %}
 {% endhighlight %}
 {% endtabs %}
 

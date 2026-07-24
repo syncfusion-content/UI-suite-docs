@@ -18,14 +18,14 @@ The following example demonstrates the local data binding feature in the Vue Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/default-cs4" %}
 
 ## Data binding with SignalR 
 
@@ -542,14 +542,14 @@ The following example demonstrates importing Excel data into the grid by utilizi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/local-data-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/local-data-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/local-data-cs4" %}
 
 ## Binding data and performing CRUD actions via Fetch request
 
@@ -2153,14 +2153,14 @@ The following example demonstrates showing and hiding the spinner during data lo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/local-data-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/databind/local-data-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/local-data-cs5" %}
 
 ## Immutable mode  
 
@@ -2453,7 +2453,7 @@ provide: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/databind/local-data-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/databind/local-data-cs6" %}
 
 ### Limitations
 

@@ -18,10 +18,10 @@ The following example demonstrates how to perform a PDF export action in the gri
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/pdf-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/pdf-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/pdf-export/pdf-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/pdf-export/pdf-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The following example demonstrates how to show and hide the spinner during PDF e
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/show-spinner-while-exporting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/show-spinner-while-exporting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-spinner.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/show-spinner-while-exporting/show-spinner.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/show-spinner-while-exporting/show-spinner.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ The following example demonstrates how to render custom data source during PDF e
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/custom-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/custom-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/custom-data/custom-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/custom-data/custom-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ The following example shows how to export the grid with a custom aggregate that 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/custom-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/custom-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/custom-aggregate/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/custom-aggregate/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -100,10 +100,10 @@ The following example demonstrates how to perform export with cell and row spann
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/pdf-spanning/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/pdf-spanning/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/pdf-spanning/pdf-spanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/pdf-spanning/pdf-spanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,10 +119,10 @@ Here’s an example demonstrating how to merge duplicate cells in the **OrderID*
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/export-duplicate-cell/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/export-duplicate-cell/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/export-duplicate-cell/export-duplicate-cell.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/export-duplicate-cell/export-duplicate-cell.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ The following example demonstrates how to export the grid data with custom date 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/export-date-format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/export-date-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Spanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/export-date-format/export-date-format.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/export-date-format/export-date-format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ The following example demonstrates how to export multiple grids to the same page
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/same-page/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/same-page/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiple.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/same-page/same-page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/same-page/same-page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ The following example demonstrates how to export multiple grids to a PDF file wh
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/multiple/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/multiple/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Multiple.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/multiple/multiple.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/multiple/multiple.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -215,10 +215,10 @@ The following example demonstrates how to export hierarchical grid to PDF docume
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/hierarchy/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/hierarchy/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/hierarchy/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/hierarchy/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -232,10 +232,10 @@ In the following example, the `ExportDetailDataBound` event is used to modify th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/format/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/format/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -249,10 +249,10 @@ The following example demonstrates how to perform export without header using `P
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/remove-header/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/remove-header/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Pdf-Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/pdf-export/remove-header/remove-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/pdf-export/remove-header/remove-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -50,14 +50,14 @@ Here is an example code to change the component id dynamically to restore initia
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs1" %}
 
 ### Clearing local storage
 
@@ -67,14 +67,14 @@ Here is an example code on how to clear local storage to retain its default stat
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs2" %}
 
 ## Restore to specific state version
 
@@ -224,7 +224,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs3" %}
 
 ## Restore to previous state
 
@@ -383,7 +383,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs4" %}
 
 ## Maintaining custom query in a persistent state
 
@@ -391,10 +391,10 @@ When [enablePersistence](https://ej2.syncfusion.com/vue/documentation/api/grid/#
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -425,14 +425,14 @@ The following example demonstrates how to prevent Grid columns from persisting. 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs6" %}
 
 ## Add to persist
 
@@ -446,14 +446,14 @@ Here's an example of how to add a new column to a list of persisted columns:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/state-management/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/state-management/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs7" %}
 
 > Adding new columns using `ColumnDirectives` directly in the grid initialization is not recommended if you intend to persist the new columns with the existing columns list 
 
@@ -627,4 +627,4 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/state-management/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/state-management/default-cs8" %}

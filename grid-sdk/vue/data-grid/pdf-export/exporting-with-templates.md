@@ -182,7 +182,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/column-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/column-template-export-cs1" %}
 
 ![ColumnTemplateExport](../images/colTemp_pdf_expt.gif)
 
@@ -660,7 +660,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/detail-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/detail-template-export-cs1" %}
 
 ![DetailTemplateExport](../images/detailTemp_pdf_expt.gif)
 
@@ -672,13 +672,13 @@ In the following sample, the customized caption text is exported to PDF using [c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/caption-template-export-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/caption-template-export-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/pdf/caption-template-export-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/pdf/caption-template-export-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/pdf/caption-template-export-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/pdf/caption-template-export-cs1" %}
 
 ![CaptionTemplateExport](../images/captionTemp_pdf_expt.gif)

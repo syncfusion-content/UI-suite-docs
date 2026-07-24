@@ -21,27 +21,27 @@ To further enhance the search functionality, you can integrate a search text box
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs155/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs155/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs155/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs155/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs155" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs155" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs155/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs155/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs155/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs155/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs155" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs155" %}
 {% endif %}
 
 > The clear icon is shown in the Data Grid search text box when it is focused on search text or after typing the single character in the search text box. A single click of the clear icon clears the text in the search box as well as the search results in the Grid.
@@ -72,27 +72,27 @@ The following example demonstrates how to set an initial search in the grid usin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs156/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs156/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs156/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs156/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs156" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs156" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs156/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs156/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs156/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs156/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs156" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs156" %}
 {% endif %}
 
 > By default, grid searches all the bound column values. However, you can customize this behavior by definining the [searchSettings->fields](../api/grid/searchSettings/#fields) property.
@@ -129,27 +129,27 @@ The following example demonstrates how to set the `searchSettings->operator` pro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/search-operator-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-operator-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-operator-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/search-operator-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-operator-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-operator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-operator-cs1" %}
 {% endif %}
 
 ## Search by external button
@@ -167,27 +167,27 @@ The `search` method allows you to perform a search operation based on a search k
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-method-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/search-method-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-method-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-method-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/search-method-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-method-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-method-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-method-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-method-cs1" %}
 {% endif %}
 
 ## Search specific columns
@@ -200,27 +200,27 @@ The following example demonstrates how to search specific columns such as **Cust
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs1" %}
 {% endif %}
 
 ## Search on each key stroke
@@ -235,27 +235,27 @@ In the following example, the `created` event is bound to the grid control, and 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs2" %}
 {% endif %}
 
 > Search on each key stroke approach may affect the performance of the application when dealing with a large number of records.
@@ -270,27 +270,27 @@ The following example demonstrates how to implement searching based on column fo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/search-formatting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-formatting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/search-formatting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-formatting-cs1" %}
 {% endif %}
 
 ## Perform search operation in Grid using multiple keywords
@@ -305,27 +305,27 @@ On the other hand, the [actionComplete](../api/grid/#actioncomplete) event is us
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs4" %}
 {% endif %}
 
 > By using this approach, you can perform a search operation in the grid using multiple keywords.
@@ -348,27 +348,27 @@ The following example demonstrates how to define the `ignoreAccent` property wit
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/search-ignoreAccent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/search-ignoreAccent-cs1" %}
 {% endif %}
 
 > * You can set [searchSettings->ignoreAccent](../api/grid/searchSettings/#ignoreaccent) property along with other search settings such as [fields](../api/grid/searchSettings/#fields), [operator](../api/grid/searchSettings/#operator), and [ignoreCase](../api/grid/searchSettings/#ignoreaccent) to achieve the desired search behavior.
@@ -387,27 +387,27 @@ The following example demonstrates how to highlight search text in grid using th
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/column-search-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/column-search-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/column-search-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/column-search-cs3" %}
 {% endif %}
 
 ## Clear search by external button
@@ -422,27 +422,27 @@ The following example demonstrates how to clear the searched records using an ex
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-search-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-search-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-search-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-search-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/clear-search-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/clear-search-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/clear-search-cs1" %}
 {% endif %}
 
 > You can also clear the searched records by using the clear icon within the search input field.
@@ -459,27 +459,27 @@ The following example demonstrates how to retrieve searched records using an ext
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/retrieve-searched-records-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/retrieve-searched-records-cs1" %}
 {% endif %}
 
 ## See Also

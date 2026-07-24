@@ -32,27 +32,27 @@ Here's an example that demonstrates how to add CRUD action buttons in a column u
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/command-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/command-column-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/command-column-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/command-column-cs1" %}
 {% endif %}
 
 ## Custom command column
@@ -67,25 +67,25 @@ Here's an example that demonstrates how to add custom command buttons using the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/command-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/command-column-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/command-column-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/command-column-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/command-column-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/command-column-cs2" %}
 {% endif %}

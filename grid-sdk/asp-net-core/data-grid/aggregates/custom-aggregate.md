@@ -26,10 +26,10 @@ Here's an example that demonstrates how to use the custom aggregate feature in t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/custom-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/custom-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/custom-aggregate/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/custom-aggregate/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ Here's an example that demonstrates how to show the count of distinct values for
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/custom-aggregate-distinct/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/custom-aggregate-distinct/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/custom-aggregate-distinct/custom-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/custom-aggregate-distinct/custom-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -18,10 +18,10 @@ To further enhance the search functionality, you can integrate a search text box
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="search.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search/search.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search/search.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -53,10 +53,10 @@ The following example demonstrates how to set an initial search in the grid usin
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/initial-search/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/initial-search/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="initial-search.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/initial-search/initial-search.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/initial-search/initial-search.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ The following example demonstrates how to set the `SearchSettings.Operator` prop
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-operators/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-operators/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Html.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-operators/search-operators.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-operators/search-operators.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ The `search` method allows you to perform a search operation based on a search k
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/external-btn/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/external-btn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="external-btn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/external-btn/external-btn.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/external-btn/external-btn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,10 +125,10 @@ The following example demonstrates how to search specific columns such as **Cust
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-a-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-a-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="search-a-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-a-column/search-a-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-a-column/search-a-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -144,10 +144,10 @@ In the following example, the `Created` event is bound to the grid component, an
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-each-key/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-each-key/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="search-each-key.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-each-key/search-each-key.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-each-key/search-each-key.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,10 +163,10 @@ The following example demonstrates how to implement searching based on column fo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/column-formatting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/column-formatting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-formatting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/column-formatting/column-formatting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/column-formatting/column-formatting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -182,10 +182,10 @@ On the other hand, the [ActionComplete](https://help.syncfusion.com/cr/aspnetmvc
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-multiple-keywords/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-multiple-keywords/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="search-multiple-keywords.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/search-multiple-keywords/search-multiple-keywords.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/search-multiple-keywords/search-multiple-keywords.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,10 +201,10 @@ The following example demonstrates how to define the `IgnoreAccent` property wit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/ignore-accent/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/ignore-accent/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ignore-accent.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/ignore-accent/ignore-accent.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/ignore-accent/ignore-accent.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -224,10 +224,10 @@ The following example demonstrates how to highlight search text in grid using th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/high-light-text/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/high-light-text/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="highlight-text.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/high-light-text/high-light-text.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/high-light-text/high-light-text.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,10 +243,10 @@ The following example demonstrates how to clear the searched records using an ex
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/clear-search/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/clear-search/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="clear-search.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/clear-search/clear-search.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/clear-search/clear-search.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -264,10 +264,10 @@ The following example demonstrates how to retrieve searched records using an ext
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/retrieve-records/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/retrieve-records/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="retrieve-records.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/search/retrieve-records/retrieve-records.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/search/retrieve-records/retrieve-records.cs %}
 {% endhighlight %}
 {% endtabs %}
 

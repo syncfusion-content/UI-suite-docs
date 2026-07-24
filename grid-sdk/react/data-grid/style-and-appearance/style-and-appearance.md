@@ -66,20 +66,20 @@ The DataGrid components support two size modes to optimize user experience acros
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/style-appearance-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/style-appearance-cs2" %}
 
 ## Theme customization
 
@@ -149,20 +149,20 @@ The Fluent 2 theme leverages modern CSS custom properties to provide a clean and
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/style-appearance-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/style-appearance-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/style-appearance-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/style-appearance-cs1" %}
 
 ### Using Theme Studio
 

@@ -72,14 +72,14 @@ When applied the changes in dataSource then refresh Grid at own.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs11" %}
 
 ## Enable/Disable Grid and its actions
 
@@ -124,14 +124,14 @@ In the below demo, the button click will enable/disable the Grid and its actions
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs37/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs37/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs37/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs37/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs37" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs37" %}
 
 ## Columns
 
@@ -168,14 +168,14 @@ Add the custom css class to particular column by using [`customAttributes`](http
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs12" %}
 
 ### Custom Tooltip for Columns
 
@@ -195,14 +195,14 @@ tooltip (args) {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs13" %}
 
 ### Render other components in a column
 
@@ -210,14 +210,14 @@ You can render any component in a grid column using the [`template`](https://ej2
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/dropdown-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/dropdown-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/dropdown-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/dropdown-cs2" %}
 
 ### How to change the Orientation of Header Text
 
@@ -260,14 +260,14 @@ setHeaderHeight(args) {
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs14/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs14/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs14/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs14/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs14" %}
 
 ### Customize the icon for column menu
 
@@ -283,14 +283,14 @@ In the below sample, grid is rendered with a customized column menu icon.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs15/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs15/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs15/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs15/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs15" %}
 
 ### How to get grid column instance in column template
 
@@ -300,14 +300,14 @@ In the below example, we have defined template column in grid column definition 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/template-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/template-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/template-cs3" %}
 
 ## Editing
 
@@ -319,14 +319,14 @@ In the below demo, the `ShipCountry` column is rendered with the template.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs16/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs16/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs16/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs16/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs16" %}
 
 ### Customize the Edit Dialog
 
@@ -336,14 +336,14 @@ In the below example, we have changed the dialog's header text for editing and a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs38/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs38/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs38/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs38/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs38" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs38" %}
 
 ### Show or Hide columns in Dialog editing
 
@@ -357,14 +357,14 @@ In the below example, we have rendered the grid columns `CustomerID` as hidden c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs39/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs39/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs39/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs39/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs39" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs39" %}
 
 ### Cascading DropDownList with Grid editing
 
@@ -374,14 +374,14 @@ In the below demo, Cascading DropDownList rendered for `ShipCountry` and `ShipSt
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs17/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs17/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs17/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs17/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs17" %}
 
 ### Provide custom data source and enabling filtering to DropDownList
 
@@ -407,14 +407,14 @@ In the below demo, DropDownList is rendered with custom Datasource for the `Ship
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs18/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs18/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs18/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs18/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs18" %}
 
 ### Disable editing for a particular row/cell
 
@@ -424,27 +424,27 @@ In the below demo, the rows which are having the value for `ShipCountry` column 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs40/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs40/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs40/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs40/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs40" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs40" %}
 
 For batch mode of editing, you can use [`cellEdit`](https://ej2.syncfusion.com/vue/documentation/api/grid/#celledit) event of Grid. In the below demo, the cells which are having the value as "France" is prevented from editing.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs41/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs41/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs41/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs41/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs41" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs41" %}
 
 ### Perform Grid actions by keyboard shortcut keys
 
@@ -456,14 +456,14 @@ The following example demonstrates on `Adding` a new row when `Enter` key is pre
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs42/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs42/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs42/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs42/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs42" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs42" %}
 
 ### Make a cell editable on a single click with batch editing
 
@@ -473,14 +473,14 @@ Bind the click event for the Grid and in the click event handler call the **edit
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs43/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs43/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs43/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs43/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs43" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs43" %}
 
 ## Filter
 
@@ -497,14 +497,14 @@ Bind the click event for the Grid and in the click event handler call the **edit
 In the following sample, we have customized string filter operators.
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs19/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs19/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs19/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs19/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs19" %}
 
 ## Sort
 
@@ -533,14 +533,14 @@ In the below demo, click on the corresponding button to perform single-column or
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/sort-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/sort-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/sort-cs1" %}
 
 ### Dynamically clear sort for particular/entire sorted columns in Grid
 
@@ -572,14 +572,14 @@ In the below demo, click on the corresponding button to clear sort for particula
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/sort-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/sort-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/sort-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/sort-cs2" %}
 
 ## Foreign Key
 
@@ -593,14 +593,14 @@ In the following example, The `Employee Name` is a foreign key column and while 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs4" %}
 
 ### Customize filter UI in foreign key column
 
@@ -611,14 +611,14 @@ In the following example, The `Employee Name` is a foreign key column. DropDownL
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs5" %}
 
 ### Perform aggregation in Foreign Key Column
 
@@ -630,14 +630,14 @@ In the following example, The `Employee Name` is a foreign key column and the ag
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs6" %}
 
 ### Bind foreign key dataSource on dropdown edit
 
@@ -645,14 +645,14 @@ When editing, you can bind foreign key datasource to a dropdown list by using [`
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/foreigncolumn-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/foreigncolumn-cs3" %}
 
 > * By default, the foreign key column's `editType` will be set as `dropdownedit`.
 
@@ -664,14 +664,14 @@ Cordova application does not support direct file download. So we have to use the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/foreignKey-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/foreignKey-cs7" %}
 
 ### Exporting Filtered Data Only
 
@@ -681,14 +681,14 @@ In the below Pdf exporting demo, We have gotten the filtered data by applying fi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/export-filtered-data-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/export-filtered-data-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/export-filtered-data-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/export-filtered-data-cs2" %}
 
 ## Pager
 
@@ -698,14 +698,14 @@ To customize default values of pager dropdown, you need to define `pageSizes` as
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/pagerdropdown-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/pagerdropdown-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/pagerdropdown-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/pagerdropdown-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/pagerdropdown-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/pagerdropdown-cs1" %}
 
 ## Hide the expand/collapse icon in parent row when no records in child grid
 
@@ -751,11 +751,11 @@ In the below demo, the expand/collapse icon in the row with `EmployeeID` as `1` 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs44/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs44/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-cs44/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-cs44/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-cs44" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-cs44" %}

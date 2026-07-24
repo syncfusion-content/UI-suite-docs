@@ -279,27 +279,27 @@ The following example demonstrates how to add a header and footer to the exporte
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs137/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs137/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs137/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs137/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs137" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs137" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs137/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs137/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs137/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs137/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs137" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs137" %}
 {% endif %}
 
 ## Repeat column header on every page
@@ -314,25 +314,25 @@ The following example demonstrates how to repeat the column header on every page
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs138/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs138/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs138/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs138/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs138" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs138" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs138/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs138/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs138/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs138/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs138" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs138" %}
 {% endif %}

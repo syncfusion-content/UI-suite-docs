@@ -18,10 +18,10 @@ Here is an example that demonstrates the default filtering feature of the grid:
  
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ Here is an example of how to configure the initial filter using the `Predicate` 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/initialfilter/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/initialfilter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="initialfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/initialfilter/initialfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/initialfilter/initialfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ The following example demonstrates, how to perform an initial filter with multip
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-multiple-same-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-multiple-same-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-multiple-same-column/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-multiple-same-column/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ The following example demonstrates how to perform an initial filter with multipl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-multiple-different-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-multiple-different-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-multiple-different-column/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-multiple-different-column/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,10 +163,10 @@ Consider the following sample where the `IgnoreAccent` property is set to true i
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-diacritics/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-diacritics/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-diacritics/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-diacritics/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -194,10 +194,10 @@ Below is an example demonstrating how to filter enum-type data in a Syncfusion A
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/enum-filtering/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/enum-filtering/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter-bar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/enum-filtering/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/enum-filtering/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -211,10 +211,10 @@ Below is an example code demonstrating how to enable or disable case sensitivity
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-case-sensitivity/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-case-sensitivity/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-case-sensitivity/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-case-sensitivity/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -230,10 +230,10 @@ Here's an example where the menu filter is enabled by default for all columns, b
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/Enable-different-filter-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/Enable-different-filter-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/Enable-different-filter-column/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/Enable-different-filter-column/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -247,10 +247,10 @@ Here's an example that demonstrates how to change the default filter operator co
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-operator-particular/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-operator-particular/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-operator-particular/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-operator-particular/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -266,10 +266,10 @@ The following example demostrates, how to programmatically filter the Grid using
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-programmatically/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-programmatically/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-programmatically/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-programmatically/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -289,10 +289,10 @@ Here's an example of how to get the filtering data in a Syncfusion<sup style="fo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/get-filtered-records/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/get-filtered-records/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/get-filtered-records/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/get-filtered-records/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -326,10 +326,10 @@ Here's an example of how to clear the filtering in a Syncfusion<sup style="font-
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/clear-filtering/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/clear-filtering/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/clear-filtering/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/clear-filtering/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -345,10 +345,10 @@ In the given example, the filtering is prevented for **ShipCity** column during 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-events/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-events/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="filter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/filtering/filter-events/filter.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/filtering/filter-events/filter.cs %}
 {% endhighlight %}
 {% endtabs %}
 

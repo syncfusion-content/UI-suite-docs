@@ -22,14 +22,14 @@ Here's an example of how to enable drag and drop within the Grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-drop/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-drop/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-drop/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-drop/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-drag-drop" %}
 
 ## Drag and drop to grid 
 
@@ -41,14 +41,14 @@ Here's an example code snippet that demonstrates how to enable Row drag and drop
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-grid/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-grid/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-grid/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-grid/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-drag-grid" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-drag-grid" %}
 
 > * The row drag and drop feature is not supported in virtual scrolling and frozen rows and columns mode.
 > * In order to use row drag and drop, you need to inject the **RowDDService** in the provider section of **AppModule**.
@@ -61,14 +61,14 @@ In the below example, the selected grid row is dragged and dropped in to the Tre
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-custom/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-custom/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-custom/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-custom/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-drag-custom" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-drag-custom" %}
 
 > * The `rowDrop` event is fired when a row is dropped onto a custom component, regardless of whether the drop is successful or not. You can use the `args.cancel` property to prevent the default action.
 
@@ -82,14 +82,14 @@ Here's an example of how to hide the drag and drop icon in the Vue Data Grid:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-icons/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-icons/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/row/row-drag-icons/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/row/row-drag-icons/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-drag-icons" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-drag-icons" %}
 
 > * The selection feature must be enabled in the Grid to allow users to select rows before performing the drag and drop operation.
 > * Multiple rows can be selected by clicking and dragging inside the grid. For multiple row selection, the [type](https://ej2.syncfusion.com/vue/documentation/api/grid/selectionSettings/#type) property must be set to **Multiple**.
@@ -271,7 +271,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-drag-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-drag-event" %}
 
 ## Limitations
 

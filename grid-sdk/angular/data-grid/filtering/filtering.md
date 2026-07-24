@@ -44,15 +44,15 @@ The following example demonstrates basic filtering functionality:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs1" %}
 
 > * Apply and clear filtering programmatically using [filterByColumn](https://ej2.syncfusion.com/angular/documentation/api/grid/filter#filterbycolumn) and [clearFiltering](https://ej2.syncfusion.com/angular/documentation/api/grid/filter#clearfiltering) methods.
 > * Disable filtering for specific columns by setting [columns.allowFiltering](https://ej2.syncfusion.com/angular/documentation/api/grid/column#allowfiltering) to `false`.
@@ -65,15 +65,15 @@ The following example demonstrates initial filter configuration:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs2" %}
 
 ### Initial filter with multiple values for same column
 
@@ -85,15 +85,15 @@ The following example filters the "Customer ID" column to show only specific cus
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs3" %}
 
 ### Initial filter with multiple values for different columns 
 
@@ -105,15 +105,15 @@ The following example demonstrates to perform an initial filter with multiple va
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs12" %}
 
 ## Filter operators
 
@@ -195,15 +195,15 @@ The following example demonstrates diacritics filtering with the `ignoreAccent` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs4" %}
 
 ## Perform ENUM column filtering
 
@@ -279,14 +279,14 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filtering-enum/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filtering-enum/src/datasource.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filtering-enum/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filtering-enum/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filtering-enum" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filtering-enum" %}
 
 ## Filtering with case sensitivity
 
@@ -296,15 +296,15 @@ Below is an example code demonstrating to enable or disable case sensitivity whi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs5" %}
 
 ## Enable different filter for a column
 
@@ -316,18 +316,18 @@ Here's an example where the menu filter is enabled by default for all columns, a
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs6/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs6/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs6" %}
 
 ## Change default filter operator for particular column
 
@@ -337,18 +337,18 @@ Here's an example that demonstrates to change the default filter operator column
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs7/src/app.component.html %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs7/src/app.component.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs7" %}
 
 ## Filter grid programmatically with single and multiple values using method 
 
@@ -358,15 +358,15 @@ The following example demonstrates programmatic filtering using single and multi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs8" %}
 
 ## Get filtered records
 
@@ -380,18 +380,18 @@ The following example demonstrates getting filtered data using the `getFilteredR
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs9/src/app.template.html %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs9/src/app.template.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs9" %}
 
 **2. Using the properties in the FilterEventArgs object**
 
@@ -419,15 +419,15 @@ The following example demonstrates clearing filters using the `clearFiltering` m
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs10" %}
 
 ## Filtering events
 
@@ -498,11 +498,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-cs11" %}
 
 ## See Also
 

@@ -18,10 +18,10 @@ In the following example, Employee Information with Employee Photo is presented 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template/row-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template/row-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,10 +39,10 @@ Here is an example of how to define a global formatting function for a date colu
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/format-row-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/format-row-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/format-row-template/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/format-row-template/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ Here is an example that demonstrates rendering Syncfusion<sup style="font-size:7
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template-component/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template-component/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template-component/template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template-component/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -79,10 +79,10 @@ Here is an example that demonstrates rendering Syncfusion Chart within a row tem
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template-chart/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template-chart/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/row/row-template-chart/template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/row/row-template-chart/template.cs %}
 {% endhighlight %}
 {% endtabs %}
 

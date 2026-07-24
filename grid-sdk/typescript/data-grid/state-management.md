@@ -70,27 +70,27 @@ Here is an example code to change the control id dynamically to restore initial 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs1" %}
 {% endif %}
 
 ### Clearing local storage
@@ -103,27 +103,27 @@ Here is an example code on how to clear local storage to retain its default stat
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/initial-grid-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/initial-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/initial-grid-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/initial-grid-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/initial-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/initial-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/initial-grid-cs1" %}
 {% endif %}
 
 ## Restore to specific state version
@@ -138,27 +138,27 @@ Here is an example of how to integrate version-based persistence into your TypeS
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs3" %}
 {% endif %}
 
 ## Restore to previous state
@@ -173,27 +173,27 @@ The provided code demonstrates how to save and restore the previous state of a T
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs4" %}
 {% endif %}
 
 ## Maintaining custom query in a persistent state
@@ -204,10 +204,10 @@ When [enablePersistence](../api/grid/#enablepersistence) is enabled, the Grid do
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grouping-event-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grouping-event-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grouping-event-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grouping-event-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -215,10 +215,10 @@ When [enablePersistence](../api/grid/#enablepersistence) is enabled, the Grid do
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grouping-event-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grouping-event-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grouping-event-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grouping-event-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -242,37 +242,37 @@ Except for the initial render, state persistence ensures that manually performed
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/index.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="order-service.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/order-service.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/order-service.ts %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/index.js %}
 {% endhighlight %}
 
 {% highlight js tabtitle="es5-order-service.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/es5-order-service.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/es5-order-service.js %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs8/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs8" %}
 {% endif %}
 
 ## Get or set local storage value
@@ -315,27 +315,27 @@ The following example demonstrates how to prevent Grid columns from persisting. 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs5" %}
 {% endif %}
 
 ## Add to persist
@@ -352,27 +352,27 @@ Here's an example of how to add a new column to a list of persisted columns:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs6" %}
 {% endif %}
 
 > * Adding new columns using `Columns` directly in the grid initialization is not recommended if you intend to persist the new columns with the existing columns list 
@@ -387,25 +387,25 @@ To restore these column properties and achieve persistence, you can follow the a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/state-management-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/state-management-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/state-management-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/state-management-cs7" %}
 {% endif %}

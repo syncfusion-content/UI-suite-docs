@@ -16,10 +16,10 @@ In the following demo, Employee **Davolio** doing analysis from 9.00 AM to 10.00
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnspanning/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/columnspanning/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnspanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/columnspanning/columnspanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/columnspanning/columnspanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ You can change the border color for the spanned cells by the using [queryCellInf
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-spanning-color/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/column-spanning-color/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnspanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-spanning-color/column-spanning-color.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/column-spanning-color/column-spanning-color.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ Here is an example of how to use the `enableColumnSpan` property to merge cells 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-spanning-using-property/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/column-spanning-using-property/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnspanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/columns/column-spanning-using-property/columnspanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/columns/column-spanning-using-property/columnspanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 

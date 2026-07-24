@@ -20,10 +20,10 @@ Here's an example how to enable batch editing in the ASP.NET Core grid component
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch/batch.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch/batch.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ In the following example, the **TotalCost** column value is updated based on cha
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-autoupdate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-autoupdate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="autoupdate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-autoupdate/autoupdate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-autoupdate/autoupdate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-cancel-edit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-cancel-edit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="canceleditbatch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-cancel-edit/canceleditbatch.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-cancel-edit/canceleditbatch.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -85,10 +85,10 @@ Here's an example that demonstrates how to enable adding new rows at the bottom 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-newrow-bottom/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-newrow-bottom/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-position.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-newrow-bottom/batch-position.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-newrow-bottom/batch-position.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ Here's an example that demonstrates how to enable/disable the confirmation dialo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batchconfirm/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batchconfirm/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="showconfirmationdialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batchconfirm/showconfirmationdialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batchconfirm/showconfirmationdialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -129,10 +129,10 @@ Here's an example that demonstrates how to achieve both single-click editing and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-single/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-single/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-single.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-single/batch-single.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-single/batch-single.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ Here's an example demonstrating how you can disable editing for cells containing
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-particular/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-particular/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-particular.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-particular/batch-particular.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-particular/batch-particular.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ Here's an example that demonstrates how to achieve immediate saving or updating 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-save-update/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-save-update/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="save-update.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/edit/batch-save-update/save-update.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/edit/batch-save-update/save-update.cs %}
 {% endhighlight %}
 {% endtabs %}
 

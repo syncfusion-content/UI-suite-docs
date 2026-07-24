@@ -52,14 +52,14 @@ The following sample code demonstrates the customization applied to TextBox comp
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type1" %}
 
 ## Customize NumericTextBox component of numericedit type 
 
@@ -73,14 +73,14 @@ The following sample code demonstrates the customization applied to NumericTextB
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type2" %}
 
 ### Restrict to type decimal points in a NumericTextBox while editing the numeric column
 
@@ -94,14 +94,14 @@ In the below demo, while editing the row the decimal point value is restricted t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-numeric1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-numeric1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-numeric1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-numeric1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-customize-numeric1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-customize-numeric1" %}
 
 ## Customize DropDownList component of DropDownEdit type 
 
@@ -115,14 +115,14 @@ The following sample code demonstrates the customization applied to DropDownList
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type3" %}
 
 ### Provide custom data source for DropDownList component
 
@@ -136,14 +136,14 @@ In the below demo, DropDownList is rendered with custom data source for the **Sh
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown1" %}
 
 ### Apply filtering for DropDownList component
 
@@ -155,14 +155,14 @@ In the following demo, filtering is enabled for the **ShipCountry** column:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown2" %}
 
 ### Open popup while focusing in the edit cell
 
@@ -176,14 +176,14 @@ The following sample demonstrates how to open the popup when focusing on the edi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-customize-dropdown3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-customize-dropdown3" %}
 
 ## Customize CheckBox component of booleanedit type 
 
@@ -197,14 +197,14 @@ The following sample code demonstrates the customization applied to CheckBox com
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type4" %}
 
 ## Customize DatePicker component of datepickeredit type 
 
@@ -218,14 +218,14 @@ The following sample code demonstrates the customization applied to DatePicker c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type5" %}
 
 ### Disable the date value prior to the selected date value in DatePicker
 
@@ -235,14 +235,14 @@ The following example demonstrates how to configure the `DatePicker` within the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-hide-dates/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-hide-dates/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-hide-dates/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-hide-dates/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-hide-dates" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-hide-dates" %}
 
 ## Customize DateTimePicker component of datetimepickeredit type 
 
@@ -256,14 +256,14 @@ The following sample code demonstrates the customization applied to DatePicker c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-edit-type6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-edit-type6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-edit-type6" %}
 
 ## Access editor components using instance
 
@@ -275,14 +275,14 @@ In the below demo, you can access the editor component instance while adding or 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-editor-instance/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-editor-instance/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-editor-instance/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-editor-instance/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-editor-instance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-editor-instance" %}
 
 ## Render custom cell editors
 
@@ -302,14 +302,14 @@ The following example demonstrates how to render a TextArea component in the **S
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-textarea/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-textarea/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-textarea/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-textarea/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-textarea" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-textarea" %}
 
 **Prevent the enter key functionality in multiline textbox while editing** 
 
@@ -321,14 +321,14 @@ The following example demonstrates how to prevent the enter key functionality in
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-key/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-key/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-key/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-key/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-key" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-key" %}
 
 ### Render AutoComplete component in edit form 
 
@@ -340,14 +340,14 @@ The following example demonstrates how to render an AutoComplete component in th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-autocomplete/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-autocomplete/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-autocomplete/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-autocomplete/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-autocomplete" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-autocomplete" %}
 
 ### Render MaskedTextBox component in edit form 
 
@@ -359,14 +359,14 @@ Here's an example of how to render a MaskedTextBox component in the **CustomerNu
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-masked/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-masked/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-masked/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-masked/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-masked" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-masked" %}
 
 ### Render DropDownList component in edit form 
 
@@ -378,14 +378,14 @@ The following example demonstrates how to render a DropDownList component in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-dropdown/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-dropdown/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-dropdown/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-dropdown/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-dropdown" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-dropdown" %}
 
 ### Render images in the DropDownList editor component using the item template 
 
@@ -399,14 +399,14 @@ The following example demonstrates how to render images in the DropDownList edit
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-image/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-image/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-image/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-image/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-image" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-image" %}
 
 ### Render Multiple columns in DropDownList component  
 
@@ -420,14 +420,14 @@ The following example demonstrates how to render a DropDownList component with m
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-multicolumn/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-multicolumn/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-multicolumn/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-multicolumn/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-multicolumn" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-multicolumn" %}
 
 ### Render ComboBox component in edit form 
 
@@ -439,14 +439,14 @@ The following example demonstrates how to render a ComboBox component in the **S
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-combox/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-combox/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-combox/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-combox/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-combox" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-combox" %}
 
 ### Render TimePicker component in edit form 
 
@@ -458,14 +458,14 @@ The following example demonstrates how to render a TimePicker component in the *
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-datepicker/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-datepicker/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-datepicker/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-datepicker/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-datepicker" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-datepicker" %}
 
 ### Render MultiSelect component in edit form 
 
@@ -477,14 +477,14 @@ The following example demonstrates how to render a MultiSelect component in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-multiselect/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-multiselect/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-multiselect/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-multiselect/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-multiselect" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-multiselect" %}
 
 ### Render RichTextEditor component in edit form
 
@@ -498,14 +498,14 @@ The following example demonstrates how to render a RichTextEditor component in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-richtexteditor/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-richtexteditor/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-richtexteditor/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-richtexteditor/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-richtexteditor" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-richtexteditor" %}
 
 ### Render Upload component in edit form  
 
@@ -517,14 +517,14 @@ The following example demonstrates how to render a Upload component in the **Emp
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-upload/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-template-upload/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-template-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-template-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-template-upload" %}
 
 > By default, the grid saves the cell when clicking outside the editor component. If your components, like multiple popups, are dynamically rendered, the grid may not recognize them, causing the editor to close when the popup is clicked. To prevent this, apply the `edit-custom-template` class to both your main component and sub-components. If you are using Syncfusion<sup style="font-size:70%">&reg;</sup> components, set their `cssClass` property to include the `edit-custom-template` class.
 
@@ -553,16 +553,16 @@ The following example demonstrates how to render a Autocomplete in the **Custome
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-custom-autocomplete/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-custom-autocomplete/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-custom-autocomplete/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-custom-autocomplete/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-custom-autocomplete" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-custom-autocomplete" %}
 
 ### Render cascading DropDownList in edit form 
 
@@ -575,13 +575,13 @@ In the below demo, cascading DropDownList rendered for **ShipCountry** and **Shi
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-custom-cascading/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-custom-cascading/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
-{% include code-snippet/grid-sdk/vue/data-grid/edit/default-custom-cascading/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/edit/default-custom-cascading/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/edit/default-custom-cascading" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/edit/default-custom-cascading" %}

@@ -22,20 +22,20 @@ The following example demonstrates defining a `template` for the "Employee Image
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/column-template-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/column-template-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/column-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/column-template-cs1" %}
 
 
 ## Render hyperlink in a column
@@ -112,14 +112,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/header-template-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/header-template-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/header-template-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/header-template-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/header-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/header-template-cs3" %}
 
 > The `window.open()` method is a built-in JavaScript function that opens a new browser window or tab with the specified URL.
 
@@ -233,14 +233,14 @@ export default App;
 {% endraw %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs6/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs6/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs6/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs6/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs6" %}
 
 ### Render ColorPicker component in a column
 
@@ -254,20 +254,20 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> [ColorPicker](https://ej2.s
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs1" %}
 
 ### Render DropDownList component in a column
 
@@ -282,20 +282,20 @@ The following example shows the DropDownList component in the Grid "Order Status
 ```
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs2" %}
 
 ### Render Chip component in a column
 
@@ -311,20 +311,20 @@ The following example shows the Chips component in the Grid "First Name" column.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs3" %}
 
 ### Render ProgressBar component in a column
 
@@ -341,20 +341,20 @@ The following example shows the Progress Bar component in the Grid "Freight" col
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs8/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs8/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs8/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs8/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs8/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs8" %}
 
 ### Render RadioButton in a column 
 
@@ -370,20 +370,20 @@ The following example demonstrates rendering a RadioButton in the "Order Status"
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-radiobutton/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-radiobutton/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-radiobutton/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-radiobutton/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-radiobutton/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-radiobutton/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-radiobutton/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-radiobutton/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-radiobutton" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-radiobutton" %}
 
 ## Using condition template
 
@@ -399,20 +399,20 @@ The following example demonstrates rendering a checkbox conditionally based on t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs4/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs4/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs4/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs4/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs4/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs4" %}
 
 > Any template element or custom component can replace the checkbox in the conditional template based on specific requirements.
 
@@ -424,20 +424,20 @@ The following example demonstrates a button element rendered in the "Employee Da
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs7/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs7/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs7/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs7/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs7/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs7" %}
 
 ## Use custom helper inside the template
 The Grid allows custom helper functions within a column's `template` property. These JavaScript methods enable formatting, calculations, or transformations on row data.
@@ -453,20 +453,20 @@ The following example shows a custom helper function inside the `template` prope
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs5" %}
 
 > Custom helpers can only be used inside the `template` method of a column.
 
@@ -478,20 +478,20 @@ The following example demonstrates adding a template column using an external bu
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs9/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs9/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-cs9/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-cs9/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-cs9" %}
 
 ## Enhancing Grid performance by enabling or disabling Aria Labels
 
@@ -503,17 +503,17 @@ The following example enables Aria labels for the "Employee Image" column and di
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-aria-label/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-aria-label/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-aria-label/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-aria-label/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-aria-label/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/template-aria-label/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/template-aria-label/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/template-aria-label/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/template-aria-label" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/template-aria-label" %}

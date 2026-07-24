@@ -219,27 +219,27 @@ The following example demonstrates how to prevent the default behavior of the **
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/keyboard-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/keyboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/keyboard-cs1" %}
 {% endif %}
 
 ### Custom shortcut keys to perform grid actions
@@ -270,27 +270,27 @@ You can add more custom shortcuts and actions as needed to enhance the functiona
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/keyboard-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/keyboard-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/keyboard-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/keyboard-cs2" %}
 {% endif %}
 
 ## Ensuring accessibility
@@ -303,27 +303,27 @@ The accessibility compliance of the Grid control is shown in the following sampl
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/ensuring-accessibility-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/ensuring-accessibility-cs1" %}
 {% endif %}
 
 ## See also

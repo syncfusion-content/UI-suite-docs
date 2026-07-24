@@ -27,10 +27,10 @@ The default column menu items are displayed in following table.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,10 +50,10 @@ The following example demonstrates how to prevent the column menu for a specific
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/prevent-column-menu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/prevent-column-menu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/prevent-column-menu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/prevent-column-menu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ Consider the following example, which demonstrates how to add a custom column me
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/customcolumnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/customcolumnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/customcolumnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/customcolumnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -84,10 +84,10 @@ The following sample, **Filter** item was hidden in column menu when opens for t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/customizecolumnmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/customizecolumnmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/customizecolumnmenu/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/customizecolumnmenu/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ Here is an example of how to configure the `ColumnMenuItems` property to include
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenu-stacked/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenu-stacked/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenu-stacked/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenu-stacked/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -131,10 +131,10 @@ Here is an example that demonstrates how to customize the column menu icon in th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/custom-column-menu-icon/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/custom-column-menu-icon/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/custom-column-menu-icon/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/custom-column-menu-icon/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -150,10 +150,10 @@ The column menu in Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenuevents/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenuevents/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/columns/columnmenuevents/columnmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/columns/columnmenuevents/columnmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 

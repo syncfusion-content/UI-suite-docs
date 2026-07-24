@@ -35,15 +35,15 @@ The following example demonstrates basic filter bar activation in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs1" %}
 
 > To enable or dynamically switch the filter type, set the [filterSettings.type](https://ej2.syncfusion.com/angular/documentation/api/grid/filtersettings#type) as `FilterBar` mode.
 
@@ -69,15 +69,15 @@ When [filterSettings.mode](https://ej2.syncfusion.com/angular/documentation/api/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs2" %}
 
 ## Display filter text in pager
 
@@ -89,15 +89,15 @@ The following example shows filter status display in the pager:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs3" %}
 
 ## Show or hide filter bar operator in filter bar cell
 
@@ -107,15 +107,15 @@ To display the operator dropdown in filter bar cells, set the [showFilterBarOper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs4" %}
 
 ## Prevent filtering for particular column
 
@@ -125,15 +125,15 @@ The following example disables filtering for the "Customer ID" column.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs5" %}
 
 ## Hide filter bar for template column
 
@@ -143,15 +143,15 @@ The following example demonstrates to hide the filter bar for a template column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs6" %}
 
 ## Filter bar template with custom component
 
@@ -167,18 +167,18 @@ To implement a custom filter bar template, define the `filterBarTemplate` proper
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.template.html" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs8/src/app.template.html %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs8/src/app.template.html %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/filter-bar-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/filter-bar-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/filter-bar-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/filter-bar-cs8" %}
 
 ## See also
 
