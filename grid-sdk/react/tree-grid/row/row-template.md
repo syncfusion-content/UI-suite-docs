@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Row template in React TreeGrid component | Syncfusion
 description: Learn here all about Row template in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -21,7 +21,7 @@ The [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/treegrid/#r
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rowtemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rowtemplate-cs1" %}
 
 The [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/treegrid/#rowtemplate) must return a single tr element.
 
@@ -38,7 +38,7 @@ When using [rowTemplate](https://ej2.syncfusion.com/react/documentation/api/tree
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/rowtemplateformat-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/rowtemplateformat-cs1" %}
 
 ## Limitations
 

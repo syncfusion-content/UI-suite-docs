@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Excel export in Angular TreeGrid component | Syncfusion
 description: Learn about exporting data from the Syncfusion Angular TreeGrid component of Essential JS 2 to Excel documents.

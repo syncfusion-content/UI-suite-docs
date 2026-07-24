@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Selection in React TreeGrid component | Syncfusion
 description: Learn here all about Selection in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -32,7 +32,7 @@ For multi-selection, hold Ctrl key and click the desired rows or cells. To selec
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/selection-cs8" %}
 
 ## Selection mode
 
@@ -51,7 +51,7 @@ TreeGrid supports three selection modes configured via [selectionSettings.mode](
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/selection-cs9" %}
 
 ## Touch interaction
 

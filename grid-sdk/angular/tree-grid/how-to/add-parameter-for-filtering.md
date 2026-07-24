@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Add parameter for filtering in Angular TreeGrid component | Syncfusion
 description: Learn how to add parameters for filtering in the Syncfusion Angular TreeGrid component of Essential JS 2, including menu filter customization and parameter handling.

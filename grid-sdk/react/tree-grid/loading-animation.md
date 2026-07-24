@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Loading animation in React TreeGrid | Syncfusion
 description: Learn here all about Loading animation in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -18,10 +18,10 @@ In the following sample, the `Shimmer` indicator is shown while the TreeGrid loa
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/indicator-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/indicator-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/indicator-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/indicator-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/indicator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/indicator-cs1" %}

@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Getting started with Angular Tree Grid component | Syncfusion
 description: Learn how to get started with the Angular Tree Grid component in Syncfusion Essential JS 2, including installation, configuration, and basic usage.

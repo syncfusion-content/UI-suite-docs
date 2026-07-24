@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Sorting in React TreeGrid component | Syncfusion
 description: Learn here all about Sorting in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -20,14 +20,14 @@ To use sorting, inject the **Sort** module in the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/sorting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/sorting-cs1" %}
 
 > * Columns are sorted in ascending order by default. Clicking an already sorted column toggles the sort direction.
 > * Sorting can be applied or cleared by invoking [sortByColumn](https://ej2.syncfusion.com/react/documentation/api/treegrid/#sortbycolumn) and [clearSorting](https://ej2.syncfusion.com/react/documentation/api/treegrid/#clearsorting).
@@ -39,14 +39,14 @@ To sort at initial render, set [field](https://ej2.syncfusion.com/react/document
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/sorting-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/sorting-cs2" %}
 
 ## Sorting Events
 
@@ -54,14 +54,14 @@ During sorting, the TreeGrid triggers two events: [actionBegin](https://ej2.sync
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/sorting-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/sorting-cs3" %}
 
 > The `args.requestType` value indicates the current action. For sorting, `args.requestType` is **sorting**.
 
@@ -73,14 +73,14 @@ In the following example, a custom comparer is defined for the Category column.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/sorting-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/sorting-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/sorting-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/sorting-cs4" %}
 
 > The sort comparer function applies only to local data.
 
@@ -93,20 +93,20 @@ The example below places null date values at the bottom of the TreeGrid when sor
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/null-date-value-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/null-date-value-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/null-date-value-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/null-date-value-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/null-date-value-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/null-date-value-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/null-date-value-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/null-date-value-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/null-date-value-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/null-date-value-cs1" %}
 
 ## Touch Interaction
 

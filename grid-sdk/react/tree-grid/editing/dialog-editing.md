@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Dialog editing in React TreeGrid component | Syncfusion
 description: Learn here all about Dialog editing in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -21,7 +21,7 @@ In dialog edit mode, starting an edit on the selected row displays the row data 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs5" %}
 
 ## Customize edit dialog
 
@@ -44,7 +44,7 @@ The following example demonstrates customizing the edit dialog using the `action
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/customizedialog-cs1" %} 
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/customizedialog-cs1" %} 
 
 ## Use wizard like dialog editing
 
@@ -70,7 +70,7 @@ The following example demonstrates wizard-like dialog editing with unobtrusive v
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/wizardediting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/wizardediting-cs1" %}
 
 ## Using Tab inside the dialog editing
 
@@ -93,4 +93,4 @@ The following example demonstrates using Tab inside the dialog template:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/tabediting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/tabediting-cs1" %}

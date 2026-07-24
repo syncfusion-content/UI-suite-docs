@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Filter bar in React TreeGrid component | Syncfusion
 description: Learn here all about Filter bar in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -38,7 +38,7 @@ N/A | N/A | **Equal** operator is always used for Boolean columns | Boolean
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs3" %}
 
 > By default, [filterSettings.columns.operator](https://ej2.syncfusion.com/react/documentation/api/treegrid/filterSettingsModel/#operators) is `equal`.
 
@@ -57,7 +57,7 @@ The following example demonstrates the way to use filter template for a column w
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs4" %}
 
 ### Change default filter bar operator
 
@@ -74,4 +74,4 @@ In the following sample, the default operator for string columns is changed from
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs5" %}

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Print in React TreeGrid | Syncfusion
 description: Learn here all about Print in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -14,13 +14,13 @@ Print the TreeGrid by calling the [print](https://ej2.syncfusion.com/react/docum
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/print-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/print-cs1" %}
 
 ## Page setup
 
@@ -37,13 +37,13 @@ To print the TreeGrid from an external button, invoke the [print](https://ej2.sy
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/print-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/print-cs2" %}
 
 ## Print the visible page
 
@@ -51,13 +51,13 @@ By default, the TreeGrid prints all pages. To print only the current page, set [
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/print-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/print-cs3" %}
 
 ## Print large number of columns
 
@@ -79,13 +79,13 @@ In the following example, the **Duration** column is initially hidden. During pr
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/print-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/print-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/print-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/print-cs4" %}
 
 ## Limitations of Printing Large Data
 

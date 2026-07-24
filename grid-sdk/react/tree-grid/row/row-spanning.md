@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Row spanning in React TreeGrid | Syncfusion
 description: Learn here all about Row spanning in Syncfusion React TreeGrid of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/row-spanning-cs1" %}
 
 ## Limitations
 
@@ -51,7 +51,7 @@ The row spanning feature in the Syncfusion React TreeGrid can be enabled using `
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/row-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/row-spanning-cs2" %}
 
 > In the sample, row spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableRowSpan` property to **false**.
 

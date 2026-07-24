@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Filtering in React TreeGrid component | Syncfusion
 description: Learn here all about Filtering in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -19,14 +19,14 @@ The following video provides a quick overview of filtering:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs8" %}
 
 > * Apply and clear filtering programmatically using [filterByColumn](https://ej2.syncfusion.com/react/documentation/api/treegrid/#filterbycolumn) and [clearFiltering](https://ej2.syncfusion.com/react/documentation/api/treegrid/#clearfiltering).
 > * To disable filtering for a specific column, set [columns.allowFiltering](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#allowfiltering) to **false**.
@@ -42,14 +42,14 @@ TreeGrid provides support for a set of filtering modes with [filterSettings.filt
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs9/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs9" %}
 
 ## Initial filter
 
@@ -57,14 +57,14 @@ Apply filters on initial render by specifying **predicate** objects in [filterSe
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs10" %}
 
 ## Filter operators
 
@@ -92,13 +92,13 @@ In the following example, type **aero** in the Name column to match diacritic ch
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/filtering-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/filtering-cs11/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/filtering-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/filtering-cs11" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-components/react-tree-grid) feature tour for key capabilities. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

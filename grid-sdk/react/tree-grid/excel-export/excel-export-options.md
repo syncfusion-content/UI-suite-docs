@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Excel export options in React TreeGrid | Syncfusion
 description: Learn here all about Excel export options in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -47,7 +47,7 @@ The following example demonstrates exporting selected records to an Excel docume
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs12" %}
 
 ### Export hidden columns
 
@@ -62,7 +62,7 @@ Export hidden columns by setting `includeHiddenColumn` to **true**.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs4" %}
 
 ### Show or hide columns on exported excel
 
@@ -83,7 +83,7 @@ In the following example, the **Duration** column is hidden in the TreeGrid. Dur
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs5" %}
 
 ### File name for exported document
 
@@ -98,7 +98,7 @@ Assign a file name for the exported document by defining the `fileName` property
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs6" %}
 
 ## Conditional cell formatting
 
@@ -117,7 +117,7 @@ The following example demonstrates customizing the background color of the Freig
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs2" %}
 
 ## Theme
 
@@ -134,6 +134,6 @@ To apply a theme, define `theme` in `ExcelExportProperties`.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs3" %}
 
 > By default, the Material theme is applied to the exported Excel document.

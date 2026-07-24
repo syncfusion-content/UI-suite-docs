@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Data binding in Angular TreeGrid component | Syncfusion
 description: Learn about data binding in the Syncfusion Angular TreeGrid component, covering local and remote data integration, expand state mapping, and best practices.

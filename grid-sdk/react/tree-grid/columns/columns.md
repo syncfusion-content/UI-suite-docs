@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Columns in React TreeGrid component | Syncfusion
 description: Learn here all about Columns in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -30,7 +30,7 @@ To format cell values based on culture, use the [columns.format](https://ej2.syn
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs10" %}
 
 > By default, [number](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#number-formatting) and [date](https://ej2.syncfusion.com/react/documentation/common/globalization/internationalization#manipulating-datetime) values are formatted using the en-US locale.
 
@@ -71,7 +71,7 @@ Format | Formatted value
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs11" %}
 
 ## Lock Columns
 
@@ -88,7 +88,7 @@ In the following example, the Duration column is locked and its reordering is di
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/lock-column-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/lock-column-cs1" %}
 
 ## Column Type
 
@@ -121,7 +121,7 @@ To use `autoFitColumns` method, inject the **Resize** module into the TreeGrid.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs1" %}
 
 > To autofit all columns, invoke the `autoFitColumns` method without specifying a column name.
 
@@ -138,7 +138,7 @@ Enable or disable TreeGrid actions for a specific column by setting the [allowFi
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs13" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs13" %}
 
 ## Show/Hide Columns by External Button
 
@@ -153,7 +153,7 @@ Show or hide TreeGrid columns dynamically using external buttons by invoking the
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs14" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs14" %}
 
 ## ValueAccessor
 
@@ -168,7 +168,7 @@ The [valueAccessor](https://ej2.syncfusion.com/react/documentation/api/treegrid/
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs15" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs15" %}
 
 ### Display Array type Columns
 
@@ -183,7 +183,7 @@ Bind an array of objects to a column using the [valueAccessor](https://ej2.syncf
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs16" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs16" %}
 
 ### Expression Column
 
@@ -198,7 +198,7 @@ An expression column can be achieved using the [valueAccessor](https://ej2.syncf
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs17" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs17" %}
 
 ## Render boolean value as checkbox
 
@@ -213,7 +213,7 @@ To render boolean values as checkboxes in columns, set the [displayAsCheckBox](h
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs18" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs18" %}
 
 ## Responsive columns
 
@@ -228,6 +228,6 @@ The Syncfusion React TreeGrid provides a built-in feature to toggle column visib
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs22" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs22" %}
 
 > Refer to our [React TreeGrid](https://www.syncfusion.com/react-components/react-tree-grid) feature tour page for its groundbreaking feature representations. Explore our [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/bootstrap5/treegrid/treegrid-overview) to knows how to present and manipulate data.

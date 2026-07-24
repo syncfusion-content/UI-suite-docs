@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Column resizing in React TreeGrid | Syncfusion
 description: Learn here all about Column resizing in Syncfusion React TreeGrid of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ To use column resizing, inject the **Resize** module in the TreeGrid.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs5" %}
 
 > Resizing can be disabled for a specific column by setting [columns.allowResizing](https://ej2.syncfusion.com/react/documentation/api/treegrid/columnModel/#allowresizing) to false.  
 > In RTL mode, drag the left edge of the header cell to resize the column.
@@ -43,7 +43,7 @@ In the following sample, minimum and maximum widths are defined for the **Durati
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs6" %}
 
 ## Resize stacked column
 
@@ -58,7 +58,7 @@ Stacked columns can be resized by dragging the right edge of the stacked header.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs7" %}
 
 ## Touch interaction
 

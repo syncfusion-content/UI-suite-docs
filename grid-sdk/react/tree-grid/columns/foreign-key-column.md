@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Foreign key column in React TreeGrid | Syncfusion
 description: Learn here all about Foreign key column in Syncfusion React TreeGrid of Syncfusion Essential JS 2 and more.
@@ -29,4 +29,4 @@ To display foreign key values during initial render, handle the [queryCellInfo](
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/foreignkey-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/foreignkey-cs1" %}

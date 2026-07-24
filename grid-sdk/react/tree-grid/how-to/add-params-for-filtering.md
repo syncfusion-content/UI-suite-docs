@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Add params for filtering in React TreeGrid | Syncfusion
 description: Learn here all about Add params for filtering in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -29,6 +29,6 @@ In the following example, TaskID and Duration are numeric columns. When the filt
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs1" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

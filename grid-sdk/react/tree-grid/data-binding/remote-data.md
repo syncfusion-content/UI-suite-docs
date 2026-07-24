@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Remote data in React TreeGrid | Syncfusion
 description: Learn here all about Remote data in Syncfusion React TreeGrid of Syncfusion Essential JS 2 and more.
@@ -38,7 +38,7 @@ When navigating to a new page, the root nodes for that page are requested from t
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs4" %}
 
  **Service code snippet:**
 
@@ -280,7 +280,7 @@ With remote data binding, actions such as paging and loading child records on de
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs5" %}
 
 ## Custom adaptor
 
@@ -301,7 +301,7 @@ Create a custom adaptor by extending the built-in adaptors. The following demons
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs6" %}
 
 ## Sending additional parameters to the server
 
@@ -316,7 +316,7 @@ To add custom parameters to the data request, use the [addParams](https://ej2.sy
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs7" %}
 
 ## Handling HTTP error
 
@@ -333,7 +333,7 @@ The argument passed to the `actionFailure` event contains the error details retu
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs8" %}
 
 > The `actionFailure` event is triggered not only for server errors, but also when exceptions occur during TreeGrid action processing.
 

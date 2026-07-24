@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Searching in React TreeGrid component | Syncfusion
 description: Learn here all about Searching in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -23,7 +23,7 @@ To enable searching, inject the **Filter** module into the TreeGrid.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/searching-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/searching-cs1" %}
 
 ## Initial search
 
@@ -38,7 +38,7 @@ Apply search on initial render by setting [fields](https://ej2.syncfusion.com/re
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/searching-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/searching-cs2" %}
 
 > By default, searching targets all bound column values. To customize this behavior define the [searchSettings.fields](https://ej2.syncfusion.com/react/documentation/api/treegrid/searchSettingsModel/#fields) property.
 
@@ -71,7 +71,7 @@ Trigger a search from external UI by invoking the [search](https://ej2.syncfusio
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/searching-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/searching-cs3" %}
 
 ## Search specific columns
 
@@ -86,6 +86,6 @@ By default, searching targets all visible columns. To search specific columns, l
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/searching-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/searching-cs4" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour for key capabilities. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

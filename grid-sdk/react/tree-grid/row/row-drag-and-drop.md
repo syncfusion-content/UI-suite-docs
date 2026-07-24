@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Row drag and drop in React TreeGrid component | Syncfusion
 description: Learn here all about Row drag and drop in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -20,14 +20,14 @@ Row drag and drop supports reordering within the same TreeGrid using the drag ic
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs1/app/index.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs1/app/index.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/row-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/row-cs1" %}
 
 > * Selection must be enabled for row drag and drop.
 > * Multiple rows can be selected by clicking and dragging inside the TreeGrid.
@@ -40,14 +40,14 @@ To drag and drop between two TreeGrids, enable [allowRowDragAndDrop](https://ej2
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs2/app/index.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs2/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs2/app/index.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs2/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/row-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/row-cs2" %}
 
 ## Drag and drop events
 
@@ -66,11 +66,11 @@ In the following example, the drop action is canceled and the row is dropped abo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs3/app/index.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/row-cs3/app/index.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/row-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/row-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/row-cs3" %}

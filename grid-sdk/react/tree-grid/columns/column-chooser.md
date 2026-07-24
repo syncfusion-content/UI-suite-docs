@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Column Chooser in React TreeGrid | Syncfusion
 description: Learn about configuring and customizing the Column Chooser in the Syncfusion React TreeGrid, including header, content, and footer templates.
@@ -26,11 +26,11 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs23/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs23/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs23/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs23/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs23" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs23" %}

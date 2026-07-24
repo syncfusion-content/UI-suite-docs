@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Template editing in React TreeGrid component | Syncfusion
 description: Learn here all about Template editing in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -23,26 +23,26 @@ The following sample enables dialog template editing in the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="ordermodel.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/orderModel.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/orderModel.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="ordermodel.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/orderModel.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/orderModel.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="template.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/template.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/template.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="template.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1/app/template.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1/app/template.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/dialogtemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/dialogtemplate-cs1" %}
 
 > Template form editors must include a **name** attribute.
 

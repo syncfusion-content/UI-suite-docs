@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Data binding in React TreeGrid | Syncfusion
 description: Learn about Data binding in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -33,7 +33,7 @@ Use the TreeGrid [dataSource](https://ej2.syncfusion.com/react/documentation/api
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/data-binding-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/data-binding-cs1" %}
 
 > When data is bound using this approach, it is treated as a local datasource in the TreeGrid. Server-side CRUD operations are not performed automatically.
 
@@ -730,6 +730,6 @@ The following example demonstrates how to add and delete records from the dataso
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs8" %}
 
 > Refer to our [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for key feature highlights. Explore our [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Column rendering in Angular TreeGrid component | Syncfusion
 description: Learn here all about column rendering in Syncfusion Angular TreeGrid component of Syncfusion Essential JS 2 and more.

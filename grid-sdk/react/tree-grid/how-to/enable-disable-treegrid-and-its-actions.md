@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Enable disable treegrid and its actions in React TreeGrid | Syncfusion
 description: Learn here all about Enable disable treegrid and its actions in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -64,6 +64,6 @@ In the following demo, clicking the button enables or disables the TreeGrid and 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/enable-disable-actions-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/enable-disable-actions-cs1" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Pdf export in React TreeGrid | Syncfusion
 description: Learn here all about Pdf export in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -17,14 +17,14 @@ For a quick start with exporting functionalities, refer to this video:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs10" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs10" %}
 
 ## Custom data source
 
@@ -32,14 +32,14 @@ PDF export supports defining a datasource dynamically before exporting. To expor
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs11/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs11/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs11/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs11/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs11" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs11" %}
 
 ## Exporting Custom Aggregates in TreeGrid
 
@@ -49,13 +49,13 @@ In the example, the `customAggregateFn` function computes the item count for a s
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs12/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs12/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs12/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs12/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs12" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs12" %}
  
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Row editing in React TreeGrid component | Syncfusion
 description: Learn here all about Row editing in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -21,4 +21,4 @@ In row edit mode, starting an edit on the selected record switches the entire ro
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/editing-cs14" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/editing-cs14" %}

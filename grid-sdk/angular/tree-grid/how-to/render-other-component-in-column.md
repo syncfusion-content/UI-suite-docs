@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Render other component in a column in Angular TreeGrid component | Syncfusion
 description: Learn how to render custom components in columns using the template property of the Syncfusion Angular TreeGrid component.

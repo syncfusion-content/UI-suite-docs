@@ -1,4 +1,4 @@
----
+https://help.syncfusion.com/code-snippet/grid-sdk/react/treegridcode-snippet/grid-sdk/react/treegrid---
 layout: post
 title: Check box selection in React TreeGrid component | Syncfusion
 description: Learn here all about Check box selection in Syncfusion React TreeGrid component of Syncfusion Essential JS 2 and more.
@@ -16,14 +16,14 @@ To render a checkbox in each TreeGrid row, add a column with the [type](https://
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/selection-cs2" %}
 
 > By default, selection is allowed by clicking a TreeGrid row or its checkbox. To allow selection only through checkboxes, set [selectionSettings.checkboxOnly](https://ej2.syncfusion.com/react/documentation/api/treegrid/selectionSettings#checkboxonly) to "true".
 > Selection can be persisted on all the operations using [selectionSettings.persistSelection](https://ej2.syncfusion.com/react/documentation/api/treegrid/selectionSettings#persistselection). To enable persistence, define at least one column as a primary key using [columns.isPrimaryKey](https://ej2.syncfusion.com/react/documentation/api/treegrid/column#isprimarykey) property.
@@ -37,14 +37,14 @@ In checkbox selection, rows can also be selected by clicking anywhere on the row
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/selection-cs3" %}
 
 > Checkbox selection applies to row selection only and is not compatible with cell selection mode.
 
@@ -60,11 +60,11 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs10/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs10/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/selection-cs10/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/selection-cs10/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/selection-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/selection-cs10" %}

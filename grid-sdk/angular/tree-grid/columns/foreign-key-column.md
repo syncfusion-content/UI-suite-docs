@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Display foreign key values in Angular TreeGrid | Syncfusion
 description: Learn to display foreign key values and render dropdowns in Syncfusion Angular TreeGrid using external data for hierarchical structures.

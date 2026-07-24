@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Remote data in Angular TreeGrid component | Syncfusion
 description: Learn how to bind remote data in the Syncfusion Angular TreeGrid component, including load on demand, paging, virtualization, adaptors, and error handling.

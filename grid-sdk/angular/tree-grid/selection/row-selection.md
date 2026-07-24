@@ -1,4 +1,4 @@
----
+code-snippet/grid-sdk/angular/treegrid---
 layout: post
 title: Row selection in Angular TreeGrid component | Syncfusion
 description: Learn how to use row selection in the Syncfusion Angular TreeGrid component, including programmatic selection, getting selected indexes and records, and persistent selection.
