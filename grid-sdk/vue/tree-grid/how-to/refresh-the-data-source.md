@@ -49,11 +49,11 @@ Refresh the Tree Grid after the datasource change by assign the modified data to
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs18/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs18/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs18/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs18/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs18" %}

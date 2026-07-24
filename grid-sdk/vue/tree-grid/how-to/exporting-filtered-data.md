@@ -16,11 +16,11 @@ In the below Pdf exporting demo, We have gotten the filtered data from the filte
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs13" %}

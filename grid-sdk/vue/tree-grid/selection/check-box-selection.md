@@ -17,10 +17,10 @@ column [`type`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -43,10 +43,10 @@ In checkbox selection, selection can also be done by clicking on rows. This sele
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -66,10 +66,10 @@ In the following sample, selection is disabled for rows where the "Progress" col
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/selection/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/selection/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 

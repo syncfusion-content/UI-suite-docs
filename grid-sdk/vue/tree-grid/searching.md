@@ -16,10 +16,10 @@ To search records, inject the [`Filter`](https://ej2.syncfusion.com/vue/document
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -31,10 +31,10 @@ To apply search at initial rendering, set the fields, operator, key, and ignoreC
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -64,10 +64,10 @@ To search treegrid records from an external button, invoke the [`search`](https:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -79,10 +79,10 @@ By default, treegrid searches all visible columns. You can search specific colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/searching/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/searching/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

@@ -23,14 +23,14 @@ The available built-in command buttons are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs3" %}
 
 ## Custom command
 
@@ -39,11 +39,11 @@ the action for the custom buttons can be defined in the [`buttonOption.click`](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs4" %}

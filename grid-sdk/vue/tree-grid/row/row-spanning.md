@@ -16,10 +16,10 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -44,10 +44,10 @@ To enable row spanning, set the `enableRowSpan` property to `true` in the TreeGr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

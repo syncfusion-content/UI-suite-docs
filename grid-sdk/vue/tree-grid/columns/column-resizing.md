@@ -16,10 +16,10 @@ To use the column resize, inject `Resize` module in the treegrid.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -36,10 +36,10 @@ In the following sample, minimum and maximum width are defined for `Duration`, a
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -51,10 +51,10 @@ Stacked columns can be resized by clicking and dragging the right edge of the st
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

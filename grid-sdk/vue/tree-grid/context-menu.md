@@ -39,10 +39,10 @@ Items| Description
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -58,10 +58,10 @@ In the below sample, we have shown context menu item for parent rows to expand o
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -73,10 +73,10 @@ You can enable and disable the context menu items using the [`enableItems`](http
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/contextMenu/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/contextMenu/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

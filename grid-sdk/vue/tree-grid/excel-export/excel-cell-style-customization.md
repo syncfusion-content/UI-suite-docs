@@ -18,10 +18,10 @@ In the below sample, we have set the background color for `Duration` column in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -35,10 +35,10 @@ To apply theme in exported Excel, define the `theme` in `exportProperties`.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

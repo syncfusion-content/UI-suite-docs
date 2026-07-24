@@ -21,10 +21,10 @@ To sort, inject the [`Sort`](https://ej2.syncfusion.com/vue/documentation/api/tr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -41,10 +41,10 @@ To sort at initial rendering, set the [`field`](https://ej2.syncfusion.com/vue/d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
@@ -56,10 +56,10 @@ During the sort action, the treegrid component triggers two events. The [`action
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
