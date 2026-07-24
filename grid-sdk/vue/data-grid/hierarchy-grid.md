@@ -26,14 +26,14 @@ The following example demonstrates how to enable the hierarchy feature in the gr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs2" %}
 
 > * Grid supports n level of child grids.
 > * Hierarchical binding is not supported when [DetailTemplate](https://ej2.syncfusion.com/vue/documentation/api/grid#detailtemplate) is enabled.
@@ -48,14 +48,14 @@ In the following example, the `load` event is utilized to customize the mapping 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs6" %}
 
 > Make sure to adjust the field name according to your specific scenario.
 
@@ -69,14 +69,14 @@ In the provided example, expand the third record of the grid by utilizing the `e
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs4" %}
 
 > Index values begin with **"0"**, allowing you to provide the desired target index to expand a specific child grid initially.
 
@@ -90,14 +90,14 @@ The following example demonstrates how to dynamically load child grid data using
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs5" %}
 
 ## Dynamically bind data to child grid based on parent row Data
 
@@ -109,14 +109,14 @@ In the `detailDataBound` event handler, you can filter the child grid's dataSour
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs8/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs8/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs8/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs8/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs8" %}
 
 ## Adding record in child grid
 
@@ -128,14 +128,14 @@ In the following example, the parent and child grids are related by the **Employ
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs7" %}
 
 ## Template column in child grid
 
@@ -147,14 +147,14 @@ The following example demonstrates, how to show a custom image in the **Employee
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs11" %}
 
 ## How to get parent detail in child grid
 
@@ -166,14 +166,14 @@ The following example demonstrates how to obtain parent details in a child grid 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs12/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs12/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs12" %}
 
 ## Render aggregates in child grid
 
@@ -185,14 +185,14 @@ The following example demonstrates how to render aggregates in a child grid to d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-hierarchy/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-hierarchy/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-hierarchy/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-hierarchy/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-hierarchy" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-hierarchy" %}
 
 ## Expand all by external button
 
@@ -204,14 +204,14 @@ The following example demonstrates how to expand and collapse the hierarchy grid
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs3" %}
 
 > The `expandAll` and `collapseAll` methods are not recommended for large datasets due to the considerable time it takes to update the changes in the UI.
 
@@ -255,14 +255,14 @@ The following example demonstrates how to hide the expand/collapse icon in the r
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs13/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs13/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs13/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs13/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-cs13" %}
 
 ## Change hierarchy grid icon in Grid
 
@@ -284,14 +284,14 @@ In the demo below, the expand/collapse icons have been changed to arrow-down and
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-icon/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-icon/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-icon/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-icon/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/default-icon" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/default-icon" %}
 
 ## Detail row events
 
@@ -307,14 +307,14 @@ In the example below, expansion is prevented for the **Nancy** row, and collapse
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/detail-row-events/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/detail-row-events/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/detail-row-events/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/hierarchy-grid/detail-row-events/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/hierarchy-grid/detail-row-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/hierarchy-grid/detail-row-events" %}
 
 ## Customize the child grid
 

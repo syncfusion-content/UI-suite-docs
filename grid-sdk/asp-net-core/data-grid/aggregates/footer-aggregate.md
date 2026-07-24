@@ -14,10 +14,10 @@ The [ASP.NET Core DataGrid](https://www.syncfusion.com/aspnet-core-ui-controls/g
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/footer-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/footer-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="footer-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/footer-aggregate/footer-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/footer-aggregate/footer-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ To format the aggregate value result in the ASP.NET Core DataGrid component, you
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/format-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/format-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="format-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/format-aggregate/format-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/format-aggregate/format-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ In the following, footer content is appended to the header content using the `da
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/top-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/top-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="top-aggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/aggregate/top-aggregate/top-aggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/aggregate/top-aggregate/top-aggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 

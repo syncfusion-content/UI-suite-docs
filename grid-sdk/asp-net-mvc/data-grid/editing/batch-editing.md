@@ -20,10 +20,10 @@ Here's an example how to enable batch editing in the ASP.NET MVC grid component:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Batch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch/batch.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch/batch.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ In the following example, the **TotalCost** column value is updated based on cha
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-autoupdate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-autoupdate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="autoupdate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-autoupdate/autoupdate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-autoupdate/autoupdate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -62,10 +62,10 @@ In the below demo, prevent the CRUD operation based on the **Role** column value
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-cancel-edit/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-cancel-edit/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="canceleditbatch.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-cancel-edit/canceleditbatch.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-cancel-edit/canceleditbatch.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -85,10 +85,10 @@ Here's an example that demonstrates how to enable adding new rows at the bottom 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-newrow-bottom/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-newrow-bottom/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-position.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-newrow-bottom/batch-position.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-newrow-bottom/batch-position.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ Here's an example that demonstrates how to enable/disable the confirmation dialo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batchconfirm/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batchconfirm/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="showconfirmationdialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batchconfirm/showconfirmationdialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batchconfirm/showconfirmationdialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -129,10 +129,10 @@ Here's an example that demonstrates how to achieve both single-click editing and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-single/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-single/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-single.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-single/batch-single.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-single/batch-single.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ Here's an example demonstrating how you can disable editing for cells containing
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-particular/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-particular/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="batch-particular.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-particular/batch-particular.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-particular/batch-particular.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ Here's an example that demonstrates how to achieve immediate saving or updating 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-save-update/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-save-update/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="save-update.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/batch-save-update/save-update.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/batch-save-update/save-update.cs %}
 {% endhighlight %}
 {% endtabs %}
 

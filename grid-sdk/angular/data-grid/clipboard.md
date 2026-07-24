@@ -21,15 +21,15 @@ Examples below show grid configuration for clipboard operations. Configure the g
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/copy/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/copy/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/copy/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/copy/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/copy" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/copy" %}
 
 ## Copy to clipboard by external buttons
 
@@ -39,15 +39,15 @@ To copy selected rows or cells data to the clipboard using external buttons, uti
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/copy-with-header/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/copy-with-header/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/copy-with-header/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/copy-with-header/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/copy-with-header" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/copy-with-header" %}
 
 ## AutoFill
 
@@ -69,11 +69,11 @@ The following example demonstrates to enable the autofill feature in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/autofill/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/autofill/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/autofill/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/autofill/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -104,11 +104,11 @@ Follow these steps to use the paste feature in the grid:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paste/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paste/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/paste/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/paste/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -18,15 +18,15 @@ To use the sorting feature, inject the `SortService` to the providers array.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs1" %}
 
 > * Grid column sorted in `Ascending` order. If a click occurs on an already sorted column, the sort direction toggles.
 > * Apply and clear sorting by using the [sortColumn](https://ej2.syncfusion.com/angular/documentation/api/grid#sortcolumn) and [clearSorting](https://ej2.syncfusion.com/angular/documentation/api/grid#clearsorting) methods.
@@ -40,15 +40,15 @@ The following example demonstrates setting `sortSettings.columns` for "Order ID"
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs2" %}
 
 > The initial sorting defined in [sortSettings.columns](https://ej2.syncfusion.com/angular/documentation/api/grid/sortSettings#columns) will override any sorting applied through user interaction.
 
@@ -63,15 +63,15 @@ To clear multi-column sorting for a particular column, press <kbd>Shift</kbd> wh
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs3" %}
 
 ## Prevent sorting for particular column
 
@@ -81,15 +81,15 @@ This is achieved by setting the [allowSorting](https://ej2.syncfusion.com/angula
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs11" %}
 
 ## Sort order
 
@@ -105,15 +105,15 @@ The following example demonstrates defining a custom `sortComparer` function for
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs5" %}
 
 > The "customSortComparer" function takes two parameters: a and b, which are the values being compared. The function returns "-1", "0", or "1", depending on the comparison result.
 
@@ -125,15 +125,15 @@ The example below demonstrates displaying "null" values at the bottom of the gri
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/null-date-value-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/null-date-value-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/null-date-value-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/null-date-value-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/null-date-value-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/null-date-value-cs1" %}
 
 ## Touch interaction
 
@@ -157,15 +157,15 @@ The following example demonstrates sorting with a foreign key column enabled, wh
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs10/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs10" %}
 
 > Make sure to inject the `ForeignKeyService` in the provider section to ensure its availability throughout the application.
 
@@ -264,15 +264,15 @@ In the following example, sorting is performed based on the "ar" locale using th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/localization-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/localization-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/localization-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/localization-cs4" %}
 
 ## Customizing the sort icon
 
@@ -291,15 +291,15 @@ The following sample demonstrates a grid rendered with a customized sort icon.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs7/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs7" %}
 
 ## Sort columns externally
 
@@ -313,15 +313,15 @@ The following example demonstrates adding sort columns to a grid. The `DropDownL
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs9" %}
 
 ### Remove sort columns
 
@@ -331,15 +331,15 @@ The following example demonstrates removing sort columns. The `DropDownList` com
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs8" %}
 
 ### Clear sorting 
 
@@ -349,15 +349,15 @@ The following example demonstrates to clear the sorting using `clearSorting` met
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs6" %}
 
 ## Sorting events
 
@@ -414,11 +414,11 @@ export class AppComponent implements OnInit {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting1-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting1-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting1-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting1-cs4" %}
 
 > [args.requestType](https://ej2.syncfusion.com/angular/documentation/api/grid/sortEventArgs#requesttype) refers to the current action being performed. For example in sorting, the `args.requestType` value is `sorting`.
 

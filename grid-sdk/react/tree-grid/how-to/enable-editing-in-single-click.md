@@ -18,20 +18,20 @@ Bind the **mousedown** event for the TreeGrid and, in the event handler, call [s
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs2" %}
 
 ## Cell Editing
 
@@ -41,19 +41,19 @@ Bind the **mousedown** event for the TreeGrid and, in the event handler, call th
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs3/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs3/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs3/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs3/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs3/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs3" %}
 
 > Refer to the [React TreeGrid](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for highlights. Explore the [React TreeGrid example](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to learn how to present and manipulate data.

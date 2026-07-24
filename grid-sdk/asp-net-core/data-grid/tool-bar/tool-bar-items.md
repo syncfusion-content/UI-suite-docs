@@ -37,10 +37,10 @@ The following example demonstrates how to enable built-in toolbar items such as 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/builtin-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/builtin-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/builtin-toolbar/builtin-custom.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/builtin-toolbar/builtin-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ This is demonstrated in the following sample:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/toolbaricon/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/toolbaricon/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="toolbaricon.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/toolbaricon/toolbaricon.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/toolbaricon/toolbaricon.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -84,10 +84,10 @@ The following example demonstrate how to customize the toolbar by disabling and 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/customize-builtin-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/customize-builtin-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/customize-builtin-toolbar/builtin-custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/customize-builtin-toolbar/builtin-custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ By default, custom toolbar items are positioned on the **left** side of the tool
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar/custom-toolbar.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar/custom-toolbar.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,10 +126,10 @@ The following example demonstrates, how to use both built-in and custom toolbar 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/builtin-custom-items/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/builtin-custom-items/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/builtin-custom-items/builtin-custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/builtin-custom-items/builtin-custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -145,10 +145,10 @@ Additionally, the [change](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar-items/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar-items/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="builtin-custom-items.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar-items/custom-items.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar-items/custom-items.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -164,10 +164,10 @@ In the following sample, the **Collapse All** toolbar item is positioned on the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar-position/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar-position/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="custom-toolbar-position.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/toolbar/custom-toolbar-position/custom-toolbar-position.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/toolbar/custom-toolbar-position/custom-toolbar-position.cs %}
 {% endhighlight %}
 {% endtabs %}
 

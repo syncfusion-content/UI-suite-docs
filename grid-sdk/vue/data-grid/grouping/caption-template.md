@@ -18,14 +18,14 @@ The following example illustrates displaying the `headerText`, `key`, and `count
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/default-cs1" %}
 
 ## Adding custom text in group caption
 
@@ -35,14 +35,14 @@ In the example below, the data parameter is used to display the `key`, `count`, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/custom-group-caption/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/custom-group-caption/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/custom-group-caption/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/custom-group-caption/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/custom-group-caption" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/custom-group-caption" %}
 
 ## Customize group caption text using locale
 
@@ -52,14 +52,14 @@ Localization can be achieved using the `L10n.load()` and `setCulture()` methods 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/locale-group-caption/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/locale-group-caption/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/locale-group-caption/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/locale-group-caption/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/locale-group-caption" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/locale-group-caption" %}
 
 ## Render custom component in group caption 
 
@@ -69,11 +69,11 @@ In the example below, the [Chips](https://ej2.syncfusion.com/vue/documentation/c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/component-group-caption/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/component-group-caption/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/group/component-group-caption/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/group/component-group-caption/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/group/component-group-caption" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/group/component-group-caption" %}

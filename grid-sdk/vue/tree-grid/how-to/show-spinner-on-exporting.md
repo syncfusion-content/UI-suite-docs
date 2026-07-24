@@ -20,11 +20,11 @@ In the below demo, we have rendered the default spinner component when exporting
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs21/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs21/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs21/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/how-to/default-cs21/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/how-to/default-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/how-to/default-cs21" %}

@@ -18,10 +18,10 @@ The following example demonstrates how to resize the Grid on external button cli
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/keyboard-dimension/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/keyboard-dimension/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dimension.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/keyboard-dimension/dimension.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/keyboard-dimension/dimension.cs %}
 {% endhighlight %}
 {% endtabs %}
 

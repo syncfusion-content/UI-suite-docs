@@ -16,14 +16,14 @@ In the following example, Employee **Davolio** is scheduled for analysis from "9
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-spanning-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-spanning-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-spanning-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-spanning-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-spanning-cs1" %}
 
 ## Limitations
 
@@ -44,14 +44,14 @@ The column spanning feature in the Syncfusion React TreeGrid can be enabled usin
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-spanning-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-spanning-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-spanning-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-spanning-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-spanning-cs2" %}
 
 > In the sample, column spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableColumnSpan` property to **false**.
 

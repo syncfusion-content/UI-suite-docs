@@ -28,19 +28,19 @@ In the following sample, grid enabled with dialog template editing.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialogtemplate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialogtemplate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="AddPartial.cshtml" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialogtemplate/addpatialMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialogtemplate/addpatialMVC.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditPartial.cshtml" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialogtemplate/editpartialMVC.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialogtemplate/editpartialMVC.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="dialogData.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialogtemplate/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialogtemplate/dialog.cs %}
 {% endhighlight %}
 {% highlight c# tabtitle="DialogTemplateModel.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/dialogtemplate/dialogtemplatemodel.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/dialogtemplate/dialogtemplatemodel.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,10 +174,10 @@ The following example renders a tab component inside the edit dialog. The tab co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/tabediting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/tabediting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/edit/tabediting/dialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/edit/tabediting/dialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 

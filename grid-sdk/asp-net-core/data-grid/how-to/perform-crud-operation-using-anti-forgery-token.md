@@ -93,10 +93,10 @@ Now assign the custom adaptor to the grid as follows.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/anti-forgery-token/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/anti-forgery-token/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Anti-forgery-token.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/anti-forgery-token/anti-forgery-token.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/anti-forgery-token/anti-forgery-token.cs %}
 {% endhighlight %}
 {% endtabs %}
 

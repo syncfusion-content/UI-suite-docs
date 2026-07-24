@@ -14,12 +14,12 @@ Custom aggregates calculate summary values using application-defined functions. 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/aggregate-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/aggregate-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/aggregate-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/aggregate-cs2" %}
 
 > To access the custom aggregate value inside a template, use the key **Custom**.

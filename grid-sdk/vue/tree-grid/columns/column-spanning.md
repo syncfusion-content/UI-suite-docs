@@ -16,14 +16,14 @@ In the following example, Employee **Davolio** is scheduled for analysis from "9
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs1" %}
 
 ## Limitations
 
@@ -44,14 +44,14 @@ To enable column spanning, set the `enableColumnSpan` property to `true` in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/column-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/column-spanning-cs2" %}
 
 > In the sample, column spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableColumnSpan` property to `false`.
 

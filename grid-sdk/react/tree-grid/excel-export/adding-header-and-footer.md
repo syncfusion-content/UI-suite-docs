@@ -14,11 +14,11 @@ Excel export supports adding header and footer content to the exported Excel doc
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/excel-export-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/excel-export-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/excel-export-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/excel-export-cs1" %}

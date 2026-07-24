@@ -27,27 +27,27 @@ The following example demonstrates how to export current page to a PDF document 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs141/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs141/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs141/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs141/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs141" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs141" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs141/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs141/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs141/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs141/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs141" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs141" %}
 {% endif %}
 
 ## Export selected records
@@ -72,27 +72,27 @@ The following example demonstrates how to export the selected records to a PDF d
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs142/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs142/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs142/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs142/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs142" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs142" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs142/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs142/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs142/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs142/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs142" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs142" %}
 {% endif %}
 
 ## Export filtered records
@@ -117,27 +117,27 @@ The following example demonstrates how to export the filtered records to a PDF d
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/exporting-filtered-data-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/exporting-filtered-data-cs2" %}
 {% endif %}
 
 ## Export with hidden columns
@@ -160,27 +160,27 @@ The following example demonstrates how to export hidden columns to a PDF file. I
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs143/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs143/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs143/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs143/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs143" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs143" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs143/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs143/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs143/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs143/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs143" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs143" %}
 {% endif %}
 
 ## Show or hide columns while exporting
@@ -203,27 +203,27 @@ In the following example, the **CustomerID** is initially a hidden column in the
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs144/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs144/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs144/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs144/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs144" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs144" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs144/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs144/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs144/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs144/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs144" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs144" %}
 {% endif %}
 
 ## Show or hide columns while exporting with stacked header
@@ -246,27 +246,27 @@ In the following example, the **ShipName** is initially a hidden column in the S
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/pdf-stackedheader/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/pdf-stackedheader/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/pdf-stackedheader" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/pdf-stackedheader/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/pdf-stackedheader/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/pdf-stackedheader" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/pdf-stackedheader" %}
 {% endif %}
 
 ## Change page orientation
@@ -287,27 +287,27 @@ The following example demonstrates how to export the grid into PDF document by s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs145/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs145/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs145/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs145/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs145" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs145" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs145/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs145/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs145/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs145/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs145" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs145" %}
 {% endif %}
 
 ## Change page size
@@ -352,27 +352,27 @@ The following example demonstrates how to export the grid into PDF document by s
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs146/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs146/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs146/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs146/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs146" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs146" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs146/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs146/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs146/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs146/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs146" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs146" %}
 {% endif %}
 
 ## Define file name
@@ -387,27 +387,27 @@ The following example demonstrates how to define a file name using `pdfExportPro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs147/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs147/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs147/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs147/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs147" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs147" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs147/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs147/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs147/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs147/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs147" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs147" %}
 {% endif %}
 
 ## Enabling horizontal overflow
@@ -430,27 +430,27 @@ In the following example, the [EJ2 Toggle Switch Button](../../switch/es5-gettin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-horizontal-overflow" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-horizontal-overflow" %}
 {% endif %}
 
 ## Customizing columns on export
@@ -471,27 +471,27 @@ The following example demonstrates how to customize the grid columns when export
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-customize-column/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-customize-column/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-customize-column/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-customize-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-customize-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-customize-column" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-customize-column/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-customize-column/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-customize-column/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-customize-column/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-customize-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-customize-column" %}
 {% endif %}
 
 ## Font and color customization
@@ -522,27 +522,27 @@ The following example demonstrates, how to change the default font when exportin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-default-fonts/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-default-fonts/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-default-fonts" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-default-fonts/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-default-fonts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-default-fonts" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-default-fonts" %}
 {% endif %}
 
 ### Add custom font
@@ -557,27 +557,27 @@ The following example demonstrates how to use the custom **Algeria** font for ex
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs1" %}
 {% endif %}
 
 > **PdfTrueTypeFont** accepts base64 format of the custom font.
@@ -594,27 +594,27 @@ The following example demonstrate how to customize the background color of the *
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/gridcustomfont-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/gridcustomfont-cs2" %}
 {% endif %}
 
 ## Export grid as blob
@@ -627,25 +627,25 @@ The following example demonstrates how to obtain the blob data of the exported g
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/export-grid-as-blob-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/export-grid-as-blob-cs1" %}
 {% endif %}

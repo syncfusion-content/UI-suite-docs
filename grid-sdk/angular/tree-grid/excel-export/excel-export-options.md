@@ -20,15 +20,15 @@ Excel export enables the inclusion of hidden columns from the TreeGrid in the ex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/excel-export-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/excel-export-cs4" %}
 
 ### Show or hide columns in exported Excel
 
@@ -42,15 +42,15 @@ In the following example, the `Duration` column is hidden in the TreeGrid. While
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/excel-export-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/excel-export-cs5" %}
 
 ### File name for the exported document
 
@@ -58,15 +58,15 @@ Assign a specific file name to the exported document by defining the `fileName` 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/excel-export-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/excel-export-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/excel-export-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/excel-export-cs6" %}
 
 ### Exporting selected data only
 
@@ -88,12 +88,12 @@ The following example demonstrates how to export the selected records to a Excel
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/refresh-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/refresh-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/refresh-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/refresh-cs9" %}

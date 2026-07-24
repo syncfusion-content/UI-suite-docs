@@ -115,14 +115,14 @@ The following example demonstrates the TreeGrid in `Deutsch` culture.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/local/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/local/default-cs1" %}
 
 ### Localization of dependent components in TreeGrid
 
@@ -200,14 +200,14 @@ The [`Internationalization`](../common/internationalization/) library is used to
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/local/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/local/default-cs2" %}
 
 > * In the above sample, `Price` column is formatted by `NumberFormatOptions`.
 > * By default, [`locale`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#locale) value is `en-US`. If you want to change the `en-US` culture to a different culture, you have to change  the [`locale`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#locale) accordingly.
@@ -218,11 +218,11 @@ RTL provides an option to switch the text direction and layout of the TreeGrid c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/local/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/local/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/local/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/local/default-cs3" %}

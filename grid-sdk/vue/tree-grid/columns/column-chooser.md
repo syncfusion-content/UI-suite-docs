@@ -31,11 +31,11 @@ The column chooser footer is customized using `columnChooserSettings.footerTempl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs24/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs24/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs24/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs24/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs24" %}

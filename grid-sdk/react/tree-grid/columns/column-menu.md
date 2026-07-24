@@ -26,14 +26,14 @@ The default items are listed below.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/column-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/column-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/column-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/column-cs2" %}
 
 > Disable the column menu for a specific column by setting [columns.showColumnMenu](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#showcolumnmenu) to **false**.
 
@@ -51,17 +51,17 @@ Example demonstrating a custom column menu icon in the Syncfusion TreeGrid:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/custom-column-menu-icon-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/custom-column-menu-icon-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/custom-column-menu-icon-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/custom-column-menu-icon-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/custom-column-menu-icon-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/custom-column-menu-icon-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/custom-column-menu-icon-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/custom-column-menu-icon-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/custom-column-menu-icon-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/custom-column-menu-icon-cs1" %}

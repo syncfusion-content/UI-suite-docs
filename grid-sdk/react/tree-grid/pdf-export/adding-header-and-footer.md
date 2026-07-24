@@ -124,17 +124,17 @@ The following example illustrates PDF export customization.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="image.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs1/app/image.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs1/app/image.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="image.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs1/app/image.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs1/app/image.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs1" %}

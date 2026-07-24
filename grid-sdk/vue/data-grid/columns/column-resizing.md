@@ -18,14 +18,14 @@ To use the column resize, inject **ResizeService** in the provider section of **
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-column/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-column/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-column/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-column/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-column" %}
 
 >* You can disable Resizing for a particular column, by specifying [columns.allowResizing](https://ej2.syncfusion.com/vue/documentation/api/grid/column#allowresizing) to **false**.
 >* In RTL mode, you can click and drag the left edge of header cell to resize the column.
@@ -41,14 +41,14 @@ In the below code, **OrderID**, **Ship Name** and **Ship Country** columns are d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-min-max/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-min-max/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-min-max/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-min-max/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-min-max" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-min-max" %}
 
 >* The [columns.minWidth](https://ej2.syncfusion.com/vue/documentation/api/grid/column#minwidth) and [columns.maxWidth](https://ej2.syncfusion.com/vue/documentation/api/grid/column#maxwidth) properties will be considered only when the user resizes the column. When resizing the window, these properties will not be considered. This is because columns cannot be re-rendered when resizing the window.
 >* When setting the `minWidth` and `maxWidth` properties, ensure that the values are appropriate for your data and layout requirements.
@@ -62,14 +62,14 @@ You can disable resizing for a particular column by setting the [allowResizing](
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/prevent-resize/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/prevent-resize/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/prevent-resize/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/prevent-resize/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/prevent-resize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/prevent-resize" %}
 
 > You can also prevent resizing by setting `args.cancel` to **true** in the [resizeStart](https://ej2.syncfusion.com/vue/documentation/api/grid#resizestart) event.
 
@@ -85,14 +85,14 @@ The following example demonstrates how to set the [resizeSettings.mode](https://
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-mode/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-mode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-mode/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-mode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-mode" %}
 
 ## Resize stacked header column
 
@@ -102,14 +102,14 @@ In this below code, we have disabled resize for **Ship City** column.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-stack-column/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-stack-column/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-stack-column/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-stack-column/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-stack-column" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-stack-column" %}
 
 > When the [autoFit](https://ej2.syncfusion.com/vue/documentation/api/grid#autofit) property is set to **true**, the Grid will automatically adjust its column width based on the content inside them. In `normal` resize mode, if the `autoFit` property is set to **true**, the Grid will maintain any empty space that is left over after resizing the columns. However, in `auto` resize mode, the Grid will ignore any empty space.
 
@@ -139,14 +139,14 @@ The following example demonstrates how to resize the columns in a grid. This is 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-externally/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-externally/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/column/resize-externally/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/column/resize-externally/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-externally" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-externally" %}
 
 >  The [refreshColumns](https://ej2.syncfusion.com/vue/documentation/api/grid#refreshcolumns) method is used to refresh the grid after the column widths are updated. Column resizing externally is useful when you want to provide a custom interface to the user for resizing columns.
 
@@ -300,6 +300,6 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/column/resize-event" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/column/resize-event" %}
 
 >The ResizeArgs object passed to the events contains information such as the current column width, new column width, column index, and the original event. The [resizing](https://ej2.syncfusion.com/vue/documentation/api/grid#resizing) event is triggered multiple times during a single resize operation, so be careful when performing heavy operations in this event.

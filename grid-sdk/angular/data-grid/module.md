@@ -42,14 +42,14 @@ The following example demonstrates how to enable basic features such as Paging, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting-cs1/src/main.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sorting-cs1/src/datasource.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sorting-cs1/src/datasource.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sorting-cs1" %}

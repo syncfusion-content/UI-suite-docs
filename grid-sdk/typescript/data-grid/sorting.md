@@ -21,27 +21,27 @@ To use the sorting feature, you need to inject the [Sort](../api/grid/sort/) mod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs166/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs166/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs166/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs166/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs166" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs166" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs166/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs166/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs166/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs166/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs166" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs166" %}
 {% endif %}
 
 > * Grid column sorted in **Ascending** order. If you click on an already sorted column, then toggles the sort direction.
@@ -58,27 +58,27 @@ The following example demonstrates how to set [sortSettings->columns](../api/gri
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs167/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs167/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs167/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs167/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs167" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs167" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs167/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs167/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs167/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs167/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs167" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs167" %}
 {% endif %}
 
 > The initial sorting defined in [sortSettings->columns](../api/grid/sortSettings/#columns) will override any sorting applied through user interaction.
@@ -96,27 +96,27 @@ To clear multi-column sorting for a particular column, press the "Shift + mouse 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs168/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs168/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs168/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs168/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs168" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs168" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs168/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs168/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/grid-cs168/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/grid-cs168/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/grid-cs168" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/grid-cs168" %}
 {% endif %}
 
 ## Prevent sorting for particular column
@@ -131,27 +131,27 @@ The following example demonstrates, how to disable sorting for **CustomerID** co
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs1" %}
 {% endif %}
 
 ## Sort order
@@ -170,27 +170,27 @@ The following example demonstrates how to define custom sort comparer function f
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-comparer-cs2" %}
 {% endif %}
 
 > The customSortComparer function takes two parameters: a and b. The a and b parameters are the values to be compared. The function returns -1, 0, or 1, depending on the comparison result.
@@ -205,27 +205,27 @@ The example below demonstrates how to display null values at the bottom of the g
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sort-comparer-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sort-comparer-cs1" %}
 {% endif %}
 
 ## Touch interaction
@@ -252,27 +252,27 @@ The following example demonstrates how to perform sorting by enabling a foreign 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs2/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs2/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs2/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs2" %}
 {% endif %}
 
 > Make sure to inject the **ForeignKey** module in the grid to ensure its availability throughout your application.
@@ -395,27 +395,27 @@ In the following example, sorting is performed based on the **"ar"** locale usin
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs7/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs7/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs7/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs7" %}
 {% endif %}
 
 ## How to customize sort icon
@@ -437,27 +437,27 @@ In the below sample, grid is rendered with a customized sort icon.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs3" %}
 {% endif %}
 
 ## Sort columns externally
@@ -474,27 +474,27 @@ The following example demonstrates how to add sort columns to a grid. It utilize
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs4/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs4/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs4/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs4" %}
 {% endif %}
 
 ### Remove sort columns
@@ -507,27 +507,27 @@ The following example demonstrates how to remove sort columns. It utilizes the *
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs5/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs5/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs5/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs5" %}
 {% endif %}
 
 ### Clear sorting 
@@ -540,27 +540,27 @@ The following example demonstrates how to clear the sorting using `clearSorting`
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs6/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs6/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-cs6/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-cs6" %}
 {% endif %}
 
 ## Sorting Events
@@ -577,27 +577,27 @@ The following example demonstrates how the [actionBegin](../api/grid/#actionbegi
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-event-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-event-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-event-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/sorting-event-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/sorting-event-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/sorting-event-cs1" %}
 {% endif %}
 
 > [args.requestType](../api/grid/sortEventArgs/#requesttype) refers to the current action being performed. For example in sorting, the `args.requestType` value is **sorting**.

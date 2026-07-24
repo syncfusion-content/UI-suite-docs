@@ -16,14 +16,14 @@ In the following demo, the **Lunch Break** cell spans multiple rows in the "1:00
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs1" %}
 
 ## Limitations
 
@@ -44,14 +44,14 @@ To enable row spanning, set the `enableRowSpan` property to `true` in the TreeGr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/row/row-spanning-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/row/row-spanning-cs2" %}
 
 > In the sample, row spanning is disabled at the column level for the price based columns such as "Planned Budget" and "Actual Spend" by setting each column's `enableRowSpan` property to `false`.
 

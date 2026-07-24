@@ -20,14 +20,14 @@ The excel export provides an option to export hidden columns of treegrid by defi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs4" %}
 
 ### Show or hide columns on exported excel
 
@@ -41,14 +41,14 @@ In the below example, we have `Duration` as a hidden column in the treegrid. Whi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs5" %}
 
 ### File name for exported document
 
@@ -56,14 +56,14 @@ You can assign the file name for the exported document by defining `fileName` pr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs6" %}
 
 ### Persist collapsed state
 
@@ -71,11 +71,11 @@ You can persist the collapsed state in the exported document by defining `isColl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs7/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs7/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/excel/default-cs7/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/excel/default-cs7/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/excel/default-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/excel/default-cs7" %}

@@ -16,10 +16,10 @@ Here's an example of using the `detailTemplate` property in the grid component:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/detail-temp/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/detail-temp/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Detail-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/detail-temp/detail-temp.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/detail-temp/detail-temp.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ For example, to render grid inside the detail row, place an HTML div element as 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/custom-component/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/custom-component/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-component.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/custom-component/custom-component.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/custom-component/custom-component.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -56,10 +56,10 @@ Here is an example of how to use the `expand` method to expand a detail row:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/expand-external/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/expand-external/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Expand-external.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/expand-external/expand-external.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/expand-external/expand-external.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -82,10 +82,10 @@ Here is an example of how to customize the detail template icon:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/expand-icon/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/expand-icon/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Icon.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/row/expand-icon/icon.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/row/expand-icon/icon.cs %}
 {% endhighlight %}
 {% endtabs %}
 

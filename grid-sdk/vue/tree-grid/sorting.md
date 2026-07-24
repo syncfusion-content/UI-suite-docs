@@ -21,14 +21,14 @@ To sort, inject the [`Sort`](https://ej2.syncfusion.com/vue/documentation/api/tr
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs1" %}
 
 > * TreeGrid columns are sorted in the `Ascending` order. If you click the already sorted column, the sort direction toggles.
 > * You can apply and clear sorting by invoking [`sortByColumn`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/#sortbycolumn) and
@@ -41,14 +41,14 @@ To sort at initial rendering, set the [`field`](https://ej2.syncfusion.com/vue/d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs2" %}
 
 ## Sorting events
 
@@ -56,14 +56,14 @@ During the sort action, the treegrid component triggers two events. The [`action
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/sorting/default-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/sorting/default-cs3" %}
 
 > The `args.requestType` is the current action name. For example, in sorting the `args.requestType` value is 'sorting'.
 

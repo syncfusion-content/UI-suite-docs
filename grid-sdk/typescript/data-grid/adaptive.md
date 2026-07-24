@@ -25,27 +25,27 @@ The following sample demonstrates how to enable and utilize adaptive dialogs in 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/adaptive-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/adaptive-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/adaptive-cs1" %}
 {% endif %}
 
 ## Vertical row rendering
@@ -60,27 +60,27 @@ The following sample demonstrates how to dynamically change the row rendering mo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/vertical-rendering-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/vertical-rendering-cs1" %}
 {% endif %}
 
 > [enableAdaptiveUI](../api/grid#enableadaptiveui) property must be enabled for vertical row rendering.
@@ -116,25 +116,25 @@ By default, adaptive UI layout is rendered in both mobile devices and desktop mo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3/index.ts %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/adaptive-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3/index.js %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3/index.html %}
+{% include code-snippet/grid-sdk/typescript/grid/adaptive-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/data-grid/adaptive-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/grid/adaptive-cs3" %}
 {% endif %}

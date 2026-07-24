@@ -27,15 +27,15 @@ The default column menu items are displayed in the following table.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs6/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grid-cs6" %}
 
 > * The column menu can be disabled for a particular column by setting [columns.showColumnMenu](https://ej2.syncfusion.com/angular/documentation/api/grid/column#showcolumnmenu) to `false`.
 > * The default items can be customized by defining the [columnMenuItems](https://ej2.syncfusion.com/angular/documentation/api/grid#columnmenuitems) with required items.
@@ -48,14 +48,14 @@ The following example demonstrates disabling the column menu for the "Order ID" 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/prevent-column-menu/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/prevent-column-menu/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/prevent-column-menu/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/prevent-column-menu/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/prevent-column-menu" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/prevent-column-menu" %}
 
 ## Adding custom column menu items
 
@@ -67,15 +67,15 @@ The following example demonstrates adding a custom column menu item to clear sor
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs8/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grid-cs8" %}
 
 ## Customize menu items for particular columns
 
@@ -85,15 +85,15 @@ The following example demonstrates hiding the `Filter` item in the column menu f
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs9/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grid-cs9" %}
 
 ## Render nested column menu
 
@@ -103,15 +103,15 @@ The `columnMenuItems` property can be set up to include a nested menu, such as "
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-menu-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/column-menu-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/column-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/column-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/column-menu-cs1" %}
 
 ## Customize the icon of column menu
 
@@ -138,15 +138,15 @@ Here is an example that demonstrates customizing the column menu icon in the Syn
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-column-menu-icon-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-column-menu-icon-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/custom-column-menu-icon-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/custom-column-menu-icon-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/custom-column-menu-icon-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/custom-column-menu-icon-cs1" %}
 
 ## Column menu events
 
@@ -211,8 +211,8 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grid-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grid-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grid-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grid-cs7" %}

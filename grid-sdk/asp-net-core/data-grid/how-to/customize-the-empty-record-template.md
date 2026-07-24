@@ -19,10 +19,10 @@ In the following example, an image and text have been rendered as a template to 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/empty-record-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/empty-record-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="empty-record-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/data-grid/how-to/empty-record-template/empty-record-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/grid/how-to/empty-record-template/empty-record-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 

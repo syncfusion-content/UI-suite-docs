@@ -16,14 +16,14 @@ Here is an example that showcasing how to render the excel like filter within th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs1/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs1/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs1" %}
 
 >* The Excel-like filter feature supports various filter conditions, including text-based, number-based, date-based, and boolean-based filters.
 >* The filter dialog provides additional options, such as sorting filter values, searching for specific values, and clearing applied filters.
@@ -36,14 +36,14 @@ Here is an example that showcasing how to render the check box filter within the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs2/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs2/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs2" %}
 
 ## Customize the filter choice count
 
@@ -57,14 +57,14 @@ The following example demonstrates how to customize the filter choice count in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs3/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs3/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs3" %}
 
 > The specified filter choice count value determines the display of unique items as a checkbox list in the Excel/checkbox type filter dialog. This can result in a delay in rendering these checkbox items when opening the filter dialog. Therefore, it is advisable to set a restricted filter choice count value.
 
@@ -213,7 +213,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs4" %}
 
 ## Show template in checkbox list data
 
@@ -373,7 +373,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs5" %}
 
 ## Customize the excel filter dialog using CSS
 
@@ -394,14 +394,14 @@ The following example demonstrates how to remove the context menu option in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs6/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs6/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs6/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs6/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs6" %}
 
 ## Bind custom remote datasource for excel/checkbox filtering
 
@@ -411,14 +411,14 @@ The following example demonstrates how to dynamically change the remote custom d
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excelfilter-custom-datasource/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excelfilter-custom-datasource/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/filter/excelfilter-custom-datasource/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/filter/excelfilter-custom-datasource/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/filter/excel-filter-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/filter/excel-filter-cs6" %}
 
 ## Hide sorting option in filter dialog
 
@@ -436,14 +436,14 @@ Here is a simple example demonstrating how to hide the sorting options in the Ex
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs21/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs21/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/how-to/default-cs21/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/how-to/default-cs21/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/how-to/default-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/how-to/default-cs21" %}
 
 ## Render checkbox list data in on-demand for excel/checkbox filtering
 
@@ -475,14 +475,14 @@ In the provided example, On-Demand Excel filter has been enabled for the Vue Gri
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/checkbox-excel-filter/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/checkbox-excel-filter/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/checkbox-excel-filter/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/checkbox-excel-filter/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/checkbox-excel-filter" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/checkbox-excel-filter" %}
 
 ## See also
 

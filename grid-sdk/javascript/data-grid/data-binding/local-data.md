@@ -21,27 +21,27 @@ The following example demonstrates how to utilize the local data binding feature
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs11/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs11" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs11/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/grid-cs11/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/grid-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/grid-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/grid-cs11" %}
 {% endif %}
 
 ## Data binding with SignalR
@@ -1224,27 +1224,27 @@ The following example demonstrates how to import Excel data into the grid by uti
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/local-binding-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/local-binding-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/local-binding-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/local-binding-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/local-binding-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/local-binding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/local-binding-cs2" %}
 {% endif %}
 
 ## Binding data and performing CRUD actions via Fetch request
@@ -3223,27 +3223,27 @@ The following example demonstrates how to show and hide the spinner during data 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/show-hide-spinner-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/show-hide-spinner-cs1" %}
 {% endif %}
 
 ## Immutable mode  
@@ -3264,27 +3264,27 @@ The following example demonstrates how to enable immutable mode in an JavaScript
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/data-grid/immutable-grid-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/grid/immutable-grid-cs1" %}
 {% endif %}
 
 ### Limitations

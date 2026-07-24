@@ -30,20 +30,20 @@ The following example demonstrates how to export the selected records to a PDF d
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs5/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs5/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs5/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/refresh-cs5/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/refresh-cs5/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/refresh-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/refresh-cs5" %}
 
 ## Export hidden columns
 
@@ -51,14 +51,14 @@ Export hidden columns by setting `includeHiddenColumn` to **true**.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs4" %}
 
 ## Show or hide columns on exported PDF
 
@@ -72,14 +72,14 @@ In the following example, **Duration** is hidden in the TreeGrid. During export,
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs5" %}
 
 ## How to change page orientation
 
@@ -87,14 +87,14 @@ Change page orientation to Landscape (default: Portrait) for the exported docume
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs6/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs6/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs6/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs6/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs6" %}
 
 ## How to change page size
 
@@ -132,14 +132,14 @@ Supported page sizes are:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs7/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs7/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs7/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs7/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs7" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs7" %}
 
 ## To customize PDF export
 
@@ -151,14 +151,14 @@ Assign a file name for the exported document by defining the `fileName` property
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs8/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs8/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs8/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs8/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs8" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs8" %}
 
 ### Default fonts for PDF exporting
 
@@ -195,20 +195,20 @@ In the following example, the Advent Pro font is applied to export the TreeGrid 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs9/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs9/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs9/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs9/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="font.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs9/app/font.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs9/app/font.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="font.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs9/app/font.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs9/app/font.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs9" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs9" %}
 
 > **PdfTrueTypeFont** accepts base 64 format of the Custom Font.
 
@@ -222,14 +222,14 @@ The following example demonstrates customizing the background color of the **Fre
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs2" %}
 
 ## Theme
 
@@ -239,13 +239,13 @@ To apply a theme, define `theme` in `PdfExportProperties`.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/pdfexport-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/pdfexport-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/pdfexport-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/pdfexport-cs3" %}
 
 > By default, material theme is applied to exported PDF document.

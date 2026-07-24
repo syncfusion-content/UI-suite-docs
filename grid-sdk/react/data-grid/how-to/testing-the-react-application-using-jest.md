@@ -128,28 +128,28 @@ The following example illustrates how to create the grid sample and how to write
 
 {% tabs %}
 {% highlight js tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.test.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/App.test.tsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/App.test.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Snap.test.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/Snap.test.tsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/Snap.test.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight js tabtitle="App.test.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/App.test.jsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/App.test.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="Snap.test.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/Snap.test.jsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/Snap.test.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/testcase-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/testcase-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% endtabs %}
 

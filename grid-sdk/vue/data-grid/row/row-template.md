@@ -253,7 +253,7 @@ td {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-template" %}
 
 ## Row template with formatting
 
@@ -537,7 +537,7 @@ td {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-template-format" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-template-format" %}
 
 
 >When using the `rowTemplate` feature in Vue Data Grid, keep in mind that any formatting applied to columns using the `columns.format` property will not work inside the template.
@@ -705,7 +705,7 @@ components: {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-template-custom" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-template-custom" %}
 
 ## Render Syncfusion<sup style="font-size:70%">&reg;</sup> Chart in row template
 
@@ -898,7 +898,7 @@ export default {
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/row/row-template-chart" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/row/row-template-chart" %}
 
 ## Limitations
 

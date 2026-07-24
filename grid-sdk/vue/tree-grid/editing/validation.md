@@ -17,14 +17,14 @@ TreeGrid uses `Form Validator` component for column validation. You can set vali
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs14/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs14/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs14/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs14/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs14" %}
 
 ## Custom validation
 
@@ -34,11 +34,11 @@ In the below demo, custom validation applied for `Priority` column.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs15/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs15/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/editing/default-cs15/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/editing/default-cs15/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/editing/default-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/editing/default-cs15" %}

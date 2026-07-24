@@ -22,10 +22,10 @@ In the following sample, the hyperlinks and images are exported to Excel using `
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/column-template-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/column-template-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="column-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/column-template-export/column-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/column-template-export/column-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ In the following sample, the detail row content is formatted by specifying the `
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/detail-template-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/detail-template-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="detail-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/detail-template-export/detail-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/detail-template-export/detail-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ In the following sample, the customized caption text is exported to Excel using 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/caption-template-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/caption-template-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="caption-template-export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/excel-export/caption-template-export/caption-template-export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/excel-export/caption-template-export/caption-template-export.cs %}
 {% endhighlight %}
 {% endtabs %}
 

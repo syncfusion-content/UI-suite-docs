@@ -22,14 +22,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs1" %}
 
 > Cell edit mode is the default editing mode.
 > The following events are triggered during cell editing:
@@ -45,14 +45,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs2" %}
 
 ## Automatically update a specific column based on another column's edited value
 
@@ -62,14 +62,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs3/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs3" %}
 
 ## Cancel edit based on condition
 
@@ -81,14 +81,14 @@ In the following demo, the CRUD operation is prevented based on the **priority**
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs4/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs4" %}
 
 ## Perform CRUD action programmatically
 
@@ -104,14 +104,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs5" %}
 
 ## Show confirmation dialog while deleting
 
@@ -121,14 +121,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs6" %}
 
 ## Display default value for columns while adding
 
@@ -140,14 +140,14 @@ Here's an example of how to set a default value for a column:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs7/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs7/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs7" %}
 
 ## Delete multiple rows
 
@@ -159,14 +159,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs8/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs8/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs8/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs8/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs8" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs8" %}
 
 > Also delete the selected records using keyboard shortcut key **delete**.
 
@@ -194,14 +194,14 @@ You can delete multiple rows programmatically by using following method.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs9/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs9/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs9/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs9/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs9" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs9" %}
 
 ## Move the focus to a particular cell instead of first cell while editing a row
 
@@ -211,14 +211,14 @@ Example:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs10/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs10/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs10/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs10/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs10" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs10" %}
 
 ## Enable editing with single click
 
@@ -228,11 +228,11 @@ Example for single-click editing:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs11/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/inline-edit-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/inline-edit-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/inline-edit-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/inline-edit-cs11" %}

@@ -22,13 +22,13 @@ Expand and collapse state of any child record is persisted.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/virtualscroll-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/virtualscroll-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/virtualscroll-cs1" %}
 
 ### Limitations
 
@@ -61,13 +61,13 @@ To set up column virtualization, set both [enableVirtualization](https://ej2.syn
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/virtualscroll-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/virtualscroll-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/virtualscroll-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/virtualscroll-cs2" %}
 
 > Column's [width](https://ej2.syncfusion.com/react/documentation/api/treegrid/column/#width) is required for column virtualization. If a column width is not defined, TreeGrid considers `200px`.
 

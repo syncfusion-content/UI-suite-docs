@@ -25,14 +25,14 @@ To select range of rows or cells or columns, press and hold the SHIFT key and cl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-type/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-type/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-type/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-type/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-type" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-type" %}
 
 > By default, the Grid will be rendered with only the basic features such as Grid rendering and selection. The default module, including the `SelectionService`, is automatically loaded. Therefore, there is no need to inject the `SelectionService` module separately as it will be injected by default.
 
@@ -52,14 +52,14 @@ The following example, demonstrates how to dynamically enable and change the `se
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-mode/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-mode/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-mode/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-mode/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-mode" %}
   
 ## Touch interaction
 
@@ -97,14 +97,14 @@ The following example demonstrates how to enable the toggle selection for both c
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-type/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-type/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-type/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-type/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-toggle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-toggle" %}
 
 > * The `enableToggle` property defaults to **true**.
 > * If multi selection is enabled, then first click on any selected row (without pressing Ctrl key), it will clear the multi selection and in second click on the same row, it will be unselected.
@@ -120,14 +120,14 @@ In the following example, it demonstrates how to clear all selection by calling 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-clear/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-clear/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-clear/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-clear/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-clear" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-clear" %}
 
 >* In **Both** mode, if you call `clearCellSelection` first, it will clear cell selections, and then if you call `clearRowSelection`, it will clear row selections. The order of method calls determines which type of selection is cleared first.
 >* To remove a specific selection in a row, cell, or column, utilize the following methods: [clearRowSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/selection/#clearrowselection) for clearing row selections, [clearCellSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/selection/#clearcellselection) for clearing cell selections, and [clearColumnSelection](https://ej2.syncfusion.com/angular/documentation/api/grid/selection/#clearcolumnselection) for clearing column selections.
@@ -146,14 +146,14 @@ In the following example, it demonstrates how to enable the persist selection fe
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-persist/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-persist/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/data-grid/select/selection-persist/app.vue %}
+{% include code-snippet/grid-sdk/vue/grid/select/selection-persist/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/data-grid/select/selection-persist" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/grid/select/selection-persist" %}
 
 ## See Also
 

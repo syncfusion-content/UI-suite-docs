@@ -16,14 +16,14 @@ To use reordering, inject the [`Reorder`](https://ej2.syncfusion.com/vue/documen
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs4/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs4/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs4" %}
 
 > You can disable reordering a particular column by setting the [`columns.allowReordering`](https://ej2.syncfusion.com/vue/documentation/api/treegrid/column/#reordermodule) to false.
 
@@ -33,11 +33,11 @@ Multiple columns can be reordered at a time by using the [`reorderColumns`](http
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs5/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs5/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/tree-grid/columns/default-cs5/app.vue %}
+{% include code-snippet/grid-sdk/vue/treegrid/columns/default-cs5/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/tree-grid/columns/default-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/treegrid/columns/default-cs5" %}

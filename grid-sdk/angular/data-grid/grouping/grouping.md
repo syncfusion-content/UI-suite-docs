@@ -24,15 +24,15 @@ The [groupSettings](https://ej2.syncfusion.com/angular/documentation/api/grid/gr
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs2/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs2" %}
 
 > - Columns can be grouped and ungrouped dynamically using the [groupColumn](https://ej2.syncfusion.com/angular/documentation/api/grid/group#groupcolumn) and [ungroupColumn](https://ej2.syncfusion.com/angular/documentation/api/grid/group#ungroupcolumn) methods.
 > - To disable grouping for a specific column, set the [allowGrouping](https://ej2.syncfusion.com/angular/documentation/api/grid/column#allowgrouping) property to `false` in column configuration.
@@ -45,15 +45,15 @@ The example below demonstrates grouping by "Customer ID" and "Ship City", render
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs3/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs3" %}
 
 > To group multiple columns, specify an array of column names in the `groupSettings.columns` property.
 
@@ -65,15 +65,15 @@ The following example prevents grouping on the "Customer ID" column. While other
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs20/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs20/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs20/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs20/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs20" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs20" %}
 
 ## Hide drop area
 
@@ -85,15 +85,15 @@ In this example, the Syncfusion Angular<sup style="font-size:70%">&reg;</sup> [S
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs4/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs4/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs4" %}
 
 > The drop area is displayed only if at least one column is available for grouping.
 
@@ -105,15 +105,15 @@ In the example below, a Syncfusion Angular<sup style="font-size:70%">&reg;</sup>
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs16/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs16/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs16/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs16/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs16" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs16" %}
 
 ## Reordering on grouped columns 
 
@@ -123,15 +123,15 @@ To allow reordering, set [groupSettings.allowReordering](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping-anim-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping-anim-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping-anim-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping-anim-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping-anim-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping-anim-cs1" %}
 
 ## Sort grouped columns in descending order during initial grouping
 
@@ -141,15 +141,15 @@ The following example demonstrates sorting the "Customer ID" column in descendin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sort-group/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sort-group/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/sort-group/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/sort-group/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/sort-group" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/sort-group" %}
 
 ## Group with paging
 
@@ -167,15 +167,15 @@ The following example demonstrates grouping the "Order Date" and "Freight" colum
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs5/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs5" %}
 
 > Numeric columns can be grouped based on formats such as currency or percentage, while datetime columns can be grouped based on specific date or time formats.
 
@@ -195,15 +195,15 @@ To collapse all grouped rows on initial render, use the [dataBound](https://ej2.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/collapse-all-initial-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/collapse-all-initial-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/collapse-all-initial-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/collapse-all-initial-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/collapse-all-initial-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/collapse-all-initial-cs1" %}
 
 > All grouped rows can also be collapsed at the initial rendering using the [groupCollapseAll](https://ej2.syncfusion.com/angular/documentation/api/grid#groupcollapseall) method within the [dataBound](https://ej2.syncfusion.com/angular/documentation/api/grid#databound) event. The following code snippet demonstrates this approach:
 
@@ -225,15 +225,15 @@ The following example demonstrates implementing programmatic grouping and ungrou
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs17/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs17/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs17/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs17" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs17" %}
 
 ## Expand or collapse externally
 
@@ -247,15 +247,15 @@ In the example below, the [EJ2 Toggle Switch Button](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs18/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs18/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs18/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs18/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs18" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs18" %}
 
 ### Expand or collapse selected grouped row
 
@@ -344,11 +344,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs7/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs7/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs7" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs7" %}
 
 ## Clear grouping 
 
@@ -358,15 +358,15 @@ The following example demonstrates executing `clearGrouping` through an external
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs15/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs15/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs15/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs15/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 	  
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs15" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs15" %}
 
 ## Grouping events
 
@@ -431,11 +431,11 @@ export class AppComponent implements OnInit {
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/data-grid/grouping1-cs6/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/grid/grouping1-cs6/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/data-grid/grouping1-cs6" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/grid/grouping1-cs6" %}
 
 > The [args.requestType](https://ej2.syncfusion.com/angular/documentation/api/grid/sortEventArgs#requesttype) property represents the name of the current action being performed. For instance, during grouping, the `args.requestType` value will be "grouping".
 

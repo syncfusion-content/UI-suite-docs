@@ -16,14 +16,14 @@ To use paging, inject the **Page** module in the TreeGrid.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/paging-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/paging-cs2" %}
 
 > Paging improves performance by fetching only a defined number of records per request.
 
@@ -38,14 +38,14 @@ With [pageSizeMode](https://ej2.syncfusion.com/react/documentation/api/treegrid/
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs3/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs3/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/paging-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/paging-cs3" %}
 
 ## Template
 
@@ -53,14 +53,14 @@ Custom elements can be rendered inside the pager using the [template](https://ej
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs4/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs4/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/paging-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/paging-cs4" %}
 
 ## Pager with Page Size Dropdown
 
@@ -78,14 +78,14 @@ By default, the pager is rendered at the bottom. Render the pager at the top usi
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs5/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs5/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/grid-sdk/react/tree-grid/paging-cs5/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/treegrid/paging-cs5/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/tree-grid/paging-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/treegrid/paging-cs5" %}
 
 > During paging, the pager triggers these events:
 > * [created](https://ej2.syncfusion.com/react/documentation/api/pager/#created): Triggered when the pager is created.

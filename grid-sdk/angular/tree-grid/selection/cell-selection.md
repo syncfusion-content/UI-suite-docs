@@ -19,15 +19,15 @@ TreeGrid supports two types of cell selection modes, which can be set using the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/selection-cs1" %}
 
 > For cell selection, set [`selectionSettings.mode`](https://ej2.syncfusion.com/angular/documentation/api/grid/selectionSettings/#mode) to `Cell` or `Both`.
 
@@ -37,15 +37,15 @@ To programmatically select a cell, use the [`selectCell`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs11/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs11/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs11/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs11/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs11" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/selection-cs11" %}
 
 ## Get selected row cell indexes
 
@@ -53,12 +53,12 @@ To retrieve the indexes of selected row cells, use the [`getSelectedRowCellIndex
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs12/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs12/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/selection-cs12/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/selection-cs12/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/selection-cs12" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/selection-cs12" %}

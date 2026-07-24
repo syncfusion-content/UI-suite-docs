@@ -130,7 +130,7 @@ export default App;
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/loading-indicator-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/loading-indicator-cs1" %}
 
 ## Refresh the datasource using property
 
@@ -157,20 +157,20 @@ The following example demonstrates adding a new record to the data source throug
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/editing-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/editing-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/editing-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/editing-cs1" %}
 
 ## Dynamically change the datasource or columns or both
 
@@ -260,20 +260,20 @@ gridInstance.changeDataSource(employeeData);
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/data-datasource/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/data-datasource/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/data-datasource/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/data-datasource/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/data-datasource/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/grid/data-datasource/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/data-datasource/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/grid/data-datasource/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/data-datasource" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/data-datasource" %}
 
 >* The Grid state persistence feature does not support the `changeDataSource` method.
 >* In this document, the above sample uses local data for the `changeDataSource` method. For remote data sources, refer to the [FlexibleData](https://ej2.syncfusion.com/react/demos/#/bootstrap5/grid/flexible-data) resource.
@@ -290,23 +290,23 @@ The following example demonstrates setting custom headers using the custom adapt
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/custom-headers-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/grid/custom-headers-cs1/app/App.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/custom-headers-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/grid/custom-headers-cs1/app/App.tsx %}
 {% endhighlight %}
 
 {% highlight js tabtitle="CustomAdaptor.jsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/custom-headers-cs1/app/CustomAdaptor.jsx %}
+{% include code-snippet/grid-sdk/react/grid/custom-headers-cs1/app/CustomAdaptor.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="CustomAdaptor.tsx" %}
-{% include code-snippet/grid-sdk/react/data-grid/custom-headers-cs1/app/CustomAdaptor.tsx %}
+{% include code-snippet/grid-sdk/react/grid/custom-headers-cs1/app/CustomAdaptor.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/custom-headers-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/custom-headers-cs1" %}
 
 ## Prevent conversion to local time zone for date columns
 
@@ -512,5 +512,5 @@ export default App;
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/data-grid/databinding-timezone" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/grid/databinding-timezone" %}
 

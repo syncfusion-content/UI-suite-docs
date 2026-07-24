@@ -16,10 +16,10 @@ To add the printing option to the grid's toolbar, simply include the [Toolbar](h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,10 +40,10 @@ You can print the grid's content using an external button by utilizing the `prin
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/external-btn/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/external-btn/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="External-btn.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/external-btn/external-btn.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/external-btn/external-btn.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ By default, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Gri
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/current-page/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/current-page/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Current-page.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/current-page/current-page.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/current-page/current-page.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,10 +72,10 @@ Below is an example code that demonstrates how to print only the selected record
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-select/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-select/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-select/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-select/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,10 +95,10 @@ The `HierarchyPrintMode` property in the ASP.NET MVC Grid lets you control the p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/hierarchyprint/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/hierarchyprint/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchyprint.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/hierarchyprint/hierarchyprint.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/hierarchyprint/hierarchyprint.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -112,10 +112,10 @@ The [BeforePrint](https://help.syncfusion.com/cr/aspnetmvc-js2/syncfusion.ej2.gr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/masterdetailgrid/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/masterdetailgrid/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Master-Detail.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/masterdetailgrid/masterdetailgrid.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/masterdetailgrid/masterdetailgrid.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,10 +141,10 @@ Here's a code example that demonstrates how to show a hidden column (CustomerID)
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/show-hide-columns/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/show-hide-columns/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/show-hide-columns/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/show-hide-columns/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -158,10 +158,10 @@ Here’s an example of how to add a title to your Grid when using the print func
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-add-title/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-add-title/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-add-title/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-add-title/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -173,10 +173,10 @@ The following example demonstrates how to print the expanded child grids from ot
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-expanded-state/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-expanded-state/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchyprint.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-expanded-state/hierarchyprint.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-expanded-state/hierarchyprint.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -194,10 +194,10 @@ The Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Grid provides a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-style/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-style/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-style/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-style/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -211,10 +211,10 @@ Here is an example of how to print grid along with chart component:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-custom/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-custom/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="print.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/data-grid/print/print-custom/print.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/grid/print/print-custom/print.cs %}
 {% endhighlight %}
 {% endtabs %}
 

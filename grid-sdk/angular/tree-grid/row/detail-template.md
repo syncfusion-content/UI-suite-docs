@@ -72,11 +72,11 @@ export interface DateFormat extends Window {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/row-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/row-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/row-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/row-cs2" %}
 
 ## Rendering custom component
 
@@ -90,14 +90,14 @@ For example, to render grid inside the detail row, place an HTML div element as 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/detail-template-cs1/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/detail-template-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/detail-template-cs1/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/detail-template-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/detail-template-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/detail-template-cs1" %}
 
 ## Custom button in custom column to hide or show detail template 
 
@@ -198,11 +198,11 @@ export interface DateFormat extends Window {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/detail-template-cs2/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/detail-template-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/detail-template-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/detail-template-cs2" %}
 
 ## Render detail template for only parent records 
 
@@ -272,11 +272,11 @@ export interface DateFormat extends Window {
 {% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/tree-grid/detail-template-cs3/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/detail-template-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/tree-grid/detail-template-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/grid-sdk/angular/treegrid/detail-template-cs3" %}
 
 ## Limitations 
 
