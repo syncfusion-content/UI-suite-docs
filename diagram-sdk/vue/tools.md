@@ -52,7 +52,7 @@ The following code example illustrates how to draw a path shape.
 
 ### Text Nodes
 
-Similarly, you can draw a text node by setting the type of shape as 'Text' in the [`drawingObject`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#drawingobject) property. The [`text`](https://ej2.syncfusion.com/vue/documentation/api/diagram/textModel/) type node contains a property called content, which specifies the text within the node. You can add the content to the text node once you finish drawing the node. Here is how you can draw a text node at runtime:
+Similarly, you can draw a text node by setting the type of shape as 'Text' in the [`drawingObject`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#drawingobject) property. The [`text`](https://ej2.syncfusion.com/vue/documentation/api/diagram/textmodel) type node contains a property called content, which specifies the text within the node. You can add the content to the text node once you finish drawing the node. Here is how you can draw a text node at runtime:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -121,11 +121,11 @@ The following code illustrates how to draw a polyline connector.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs6" %}
 
- The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints/) constraint for the connector.
+ The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorconstraints) constraint for the connector.
 
 ![Polyline connector drawing](images/polyline-draw.gif)
 
-N> To make the segment thumb visible, inject the [`ConnectorEditing`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorEditing/) module into the diagram.
+N> To make the segment thumb visible, inject the [`ConnectorEditing`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorediting) module into the diagram.
 
 ### Freehand Drawing
 
@@ -146,7 +146,7 @@ The following code illustrates how to draw a freehand drawing.
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/Tools/tools-cs7" %}
 
-The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorConstraints/) constraint for the connector.
+The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorconstraints) constraint for the connector.
 
 ![Freehand connector drawing](images/freehand-draw.gif)
 
@@ -190,7 +190,7 @@ N> Please note that panning the diagram is not possible when 'multiplePage' is s
 
 ## Events
 
-[`elementDraw`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iElementDrawEventArgs/) event is triggered when node or connector is drawn using drawing tool.
+[`elementDraw`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#elementdraw) event is triggered when node or connector is drawn using drawing tool.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

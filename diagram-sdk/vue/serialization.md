@@ -100,7 +100,7 @@ Users can perform customizations or modifications to the diagram elements once t
 
 ## Prevent default values
 
-The [`preventDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel/#preventdefaults) property of [`serializationSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel/) is used to simplify the saved JSON object by excluding default properties that are inherent to the diagram. This helps reduce the size of the serialized data and improves efficiency when saving and loading diagrams.
+The [`preventDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationsettingsmodel#preventdefaults) property of [`serializationSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationsettingsmodel) is used to simplify the saved JSON object by excluding default properties that are inherent to the diagram. This helps reduce the size of the serialized data and improves efficiency when saving and loading diagrams.
 
 By enabling preventDefaults, only properties that you set in diagram are included in the serialized JSON object. This optimization is useful for scenarios where minimizing data size is crucial, such as in applications with large diagrams or when optimizing network transfers.
 

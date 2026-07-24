@@ -14,7 +14,7 @@ Diagram allows you to customize the position of the port efficiently. Port can b
 
 ## Port offset
 
-The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointModel/) property is used to align the ports based on fractions. 0 represents top/left corner, 1 represents bottom/right corner, and 0.5 represents half of width/height.
+The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#offset) property is used to align the ports based on fractions. 0 represents top/left corner, 1 represents bottom/right corner, and 0.5 represents half of width/height.
 
 The following table shows the position of port within the shape.
 
@@ -34,7 +34,7 @@ The following table shows the position of port within the shape.
 
 ## Horizontal and vertical alignment
 
-The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/horizontalAlignment/) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/verticalAlignment/) property is used to set how the port is vertically aligned at the port position.
+The [`horizontalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#horizontalalignment) property of the port is used to set how the port is horizontally aligned at the port position. The [`verticalAlignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#verticalalignment) property is used to set how the port is vertically aligned at the port position.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -64,7 +64,7 @@ The following table shows all the possible alignments visually with offset (0, 0
 
 ## Margin for port
 
-[`Margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginModel/) is an absolute value used to add some blank space to any one of its four sides. The ports can be displaced with the margin property. The following code example explains how to align a port based on its offset and margin values.
+[`Margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointportmodel#margin) is an absolute value used to add some blank space to any one of its four sides. The ports can be displaced with the margin property. The following code example explains how to align a port based on its offset and margin values.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

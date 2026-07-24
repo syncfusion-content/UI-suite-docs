@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # UML Sequence Diagram in Vue Diagram component
 
-A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) control provides comprehensive support for creating and visualizing UML sequence diagrams through the [UmlSequenceDiagramModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceDiagramModel/). To enable this functionality, assign the `UmlSequenceDiagramModel` to the [model](https://ej2.syncfusion.com/vue/documentation/api/diagram/#model) property of the diagram control.
+A UML sequence diagram is an interaction diagram that demonstrates how objects interact with each other and the order of these interactions. The [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) control provides comprehensive support for creating and visualizing UML sequence diagrams through the [UmlSequenceDiagramModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequencediagrammodel). To enable this functionality, assign the `UmlSequenceDiagramModel` to the [model](https://ej2.syncfusion.com/vue/documentation/api/diagram/#model) property of the diagram control.
 
 ## UML Sequence Diagram Elements
 
@@ -18,7 +18,7 @@ A sequence diagram includes several key elements such as participants, messages,
 
 ### Participants
 
-[UmlSequenceParticipantModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceParticipantModel/) in a sequence diagram represent the entities that interact with each other, appearing at the top of the diagram with lifelines extending vertically downward.
+[UmlSequenceParticipantModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequenceparticipantmodel) in a sequence diagram represent the entities that interact with each other, appearing at the top of the diagram with lifelines extending vertically downward.
 
 #### UmlSequenceParticipantModel Properties
 
@@ -45,7 +45,7 @@ The following code example illustrates how to create participants:
 
 ### Messages
 
-[UmlSequenceMessageModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceMessageModel/) represents communication between participants and are displayed as arrows connecting lifelines.
+[UmlSequenceMessageModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequencemessagemodel) represents communication between participants and are displayed as arrows connecting lifelines.
 
 #### Types of Messages
 
@@ -83,7 +83,7 @@ The following code example illustrates how to create messages:
 
 ### Activation Boxes
 
-[UmlSequenceActivationBoxModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceActivationBoxModel/) represents periods when a participant is active and processing a message. They appear as thin rectangles on participant lifelines.
+[UmlSequenceActivationBoxModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequenceactivationboxmodel) represents periods when a participant is active and processing a message. They appear as thin rectangles on participant lifelines.
 
 #### UmlSequenceActivationBoxModel Properties
 
@@ -108,11 +108,11 @@ The following code example illustrates how to create activation boxes:
 
 ### Fragments
 
-[UmlSequenceFragmentModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceFragmentModel/) groups a set of messages based on specific conditions in a sequence diagram. They are displayed as rectangular enclosures that visually separate conditional or looping interactions.
+[UmlSequenceFragmentModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequencefragmentmodel) groups a set of messages based on specific conditions in a sequence diagram. They are displayed as rectangular enclosures that visually separate conditional or looping interactions.
 
 #### Types of Fragments
 
-The [UmlSequenceFragmentType](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceFragmentType/) enum defines the following fragment types:
+The [UmlSequenceFragmentType](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequencefragmenttype) enum defines the following fragment types:
 
 | Fragment Type  | Description  | Example  |  
 |---------------|-------------|--------|  
@@ -151,7 +151,7 @@ The following code example illustrates how to create fragments:
 
 ### Customizing Participant Spacing in Sequence Diagram 
 
-The [spaceBetweenParticipants](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlSequenceDiagramModel/#spaceBetweenParticipants) property in `UmlSequenceDiagramModel` controls the horizontal spacing between participants. The default value is 100, and it can be adjusted based on your layout requirements.
+The [spaceBetweenParticipants](https://ej2.syncfusion.com/vue/documentation/api/diagram/umlsequencediagrammodel#spacebetweenparticipants) property in `UmlSequenceDiagramModel` controls the horizontal spacing between participants. The default value is 100, and it can be adjusted based on your layout requirements.
 
 ```javascript
 // Define the UML Sequence Diagram model

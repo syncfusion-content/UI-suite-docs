@@ -87,12 +87,12 @@ N> To edit a connector segment, you need to inject the `ConnectorEditing` module
 
 ## Flip
 
-The diagram Provides support to flip the connector. The [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#flip) is performed to give the mirrored image of the original element.
+The diagram Provides support to flip the connector. The [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#flip) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 
 * HorizontalFlip
- [`Horizontal`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flipdirection) is used to interchange the connector source and target x points.
+[`Horizontal`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flipdirection) is used to interchange the connector source and target x points.
 
 * VerticalFlip
 [`Vertical`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flipdirection) is used to interchange the connector source and target y points.
@@ -111,4 +111,4 @@ The flip types are as follows:
         
 {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs2" %}
 
- N> The flip is not applicable when the connectors connect in nodes
+N> The flip is not applicable when the connectors connect in nodes

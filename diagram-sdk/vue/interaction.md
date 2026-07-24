@@ -384,7 +384,7 @@ export default {
 
 ## Allow drop
 
-The diagram supports dropping a node or connector onto another node or connector. To determine the target where the node or connector is dropped, you need to enable the [`allowDrop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) constraint in the node's or connector's constraints property. This setting enables a highlighter to indicate potential drop targets when dragging any node or connector over another one. Upon dropping the node or connector, the [`drop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idropeventargs) event is triggered to indicate which element was dropped over which other element.
+The diagram supports dropping a node or connector onto another node or connector. To determine the target where the node or connector is dropped, you need to enable the [`allowDrop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) constraint in the node's or connector's constraints property. This setting enables a highlighter to indicate potential drop targets when dragging any node or connector over another one. Upon dropping the node or connector, the [`drop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#drop) event is triggered to indicate which element was dropped over which other element.
 
 ## Zoom pan
 
