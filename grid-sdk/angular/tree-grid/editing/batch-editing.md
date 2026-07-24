@@ -92,10 +92,10 @@ Example for single-click editing and arrow key navigation:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs5/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs5/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs5/src/main.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs5/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,7 +109,7 @@ Example for disabling editing for specific values:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/grid-sdk/angular/treegridbatch-edit-cs6/src/app.component.ts %}
+{% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs6/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
 {% include code-snippet/grid-sdk/angular/treegrid/batch-edit-cs6/src/main.ts %}
