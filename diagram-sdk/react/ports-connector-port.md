@@ -14,7 +14,7 @@ Connector ports serve as connection points along connectors, enabling other conn
 
 ## Create Connector Port
 
-Connector ports serve as connection points along connectors, enabling other connectors to attach at specific locations rather than just the endpoints. Creating connector ports follows the same pattern as node ports - define a port collection and assign it to the connector's [`ports`](https://ej2.syncfusion.com/react/documentation/api/diagram/connector#ports) property.
+Connector ports serve as connection points along connectors, enabling other connectors to attach at specific locations rather than just the endpoints. Creating connector ports follows the same pattern as node ports - define a port collection and assign it to the connector's [`ports`](https://ej2.syncfusion.com/react/documentation/api/diagram/pathportmodel) property.
 
 The following code example shows how to create connector port.
 

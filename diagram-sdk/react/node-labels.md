@@ -77,7 +77,7 @@ offset|image|
 
 ## Annotation alignment
 
-After determining the annotation position using offset values, the [`horizontalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/annotationModel#horizontalalignment) property of annotation is used to set how the annotation is horizontally aligned at the annotation position determined from the fraction values. The [`verticalAlignment`](https://helpej2.syncfusion.com/react/documentation/api/diagram/annotationModel#verticalalignment) properties control how the annotation aligns at that calculated position.
+After determining the annotation position using offset values, the [`horizontalAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/annotationModel#horizontalalignment) property of annotation is used to set how the annotation is horizontally aligned at the annotation position determined from the fraction values. The [`verticalAlignment`](https://ej2.syncfusion.com/react/documentation/api/diagram/annotationModel#verticalalignment) properties control how the annotation aligns at that calculated position.
 
 The horizontal alignment determines the annotation's horizontal positioning relative to the calculated point, while vertical alignment controls the vertical positioning. This two-step positioning system (offset calculation followed by alignment) provides precise control over annotation placement.
 

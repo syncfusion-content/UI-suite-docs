@@ -35,7 +35,7 @@ The following code example illustrates how to define a swimlane with lane.
 
 ### Create Lane Header
 
-* The [`header`](https://ej2.syncfusion.com/react/documentation/api/diagram/laneModel#header) property of lane allows you to textually describe the lane and to customize the appearance of the description.
+* The [`header`](https://ej2.syncfusion.com/react/documentation/api/diagram/headermodel) property of lane allows you to textually describe the lane and to customize the appearance of the description.
 
 The following code example illustrates how to define a lane header.
 
@@ -54,7 +54,7 @@ The following code example illustrates how to define a lane header.
 
 * The size of lane can be controlled by using [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/headerModel#width) and [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/headerModel#height) properties of lane.
 
-* The appearance of lane can be set by using the [`style`](https://ej2.syncfusion.com/react/documentation/api/diagram/headerModel#style) properties.
+* The appearance of lane can be set by using the [`style`](https://ej2.syncfusion.com/react/documentation/api/diagram/textstylemodel) properties.
 
 * The appearance of header annotation can be customized by using the `style` property of header annotation.
 
