@@ -40,7 +40,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -53,7 +53,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs16" %}
 {% endif %}
 
 ### Text annotation in palette.
@@ -71,7 +71,7 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -84,7 +84,7 @@ Text annotation node can be rendered in symbol palette like other bpmn shapes. T
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette" %}
 {% endif %}
 
 
@@ -123,7 +123,7 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -136,5 +136,5 @@ Text annotations can be added dynamically using either the [`addTextAnnotation`]
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-textAnnotationPalette-runtime" %}
 {% endif %}

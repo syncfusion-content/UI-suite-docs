@@ -47,7 +47,7 @@ In the below example, a set of prompts and texts are configured to demonstrate t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/commands/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/commands/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ In the below example, a set of prompts and texts are configured to demonstrate t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/commands/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/commands/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/commands/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/commands/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -75,7 +75,7 @@ In the below sample, the `Prompts` and `Suggestions` properties of the `AiAssist
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompts/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompts/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -83,10 +83,10 @@ In the below sample, the `Prompts` and `Suggestions` properties of the `AiAssist
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompts/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompts/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompts/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompts/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -121,7 +121,7 @@ In the below sample, the toolbar settings are configured to modify the order and
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -129,10 +129,10 @@ In the below sample, the toolbar settings are configured to modify the order and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/toolbar-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -149,7 +149,7 @@ In the below sample, the popup width and maximum height are configured.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ In the below sample, the popup width and maximum height are configured.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/popup-dimensions/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -176,7 +176,7 @@ In the below sample, the maximum prompt history is configured to `30`, and when 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -184,10 +184,10 @@ In the below sample, the maximum prompt history is configured to `30`, and when 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/prompt-history/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -202,7 +202,7 @@ To set the banner content displayed on top of the AI Assistant popup, use the `B
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/banner/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/banner/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -210,10 +210,10 @@ To set the banner content displayed on top of the AI Assistant popup, use the `B
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/banner/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/banner/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/ai-assistant/banner/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/ai-assistant/banner/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

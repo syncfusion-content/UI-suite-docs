@@ -21,10 +21,10 @@ When you enable the [`enableAdaptiveUI`](https://help.syncfusion.com/cr/aspnetco
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/adaptive/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/adaptive/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/adaptive/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/adaptive/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ When you enable the [`enableAdaptiveUI`](https://help.syncfusion.com/cr/aspnetco
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/adaptive/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/adaptive/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/adaptive/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/adaptive/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

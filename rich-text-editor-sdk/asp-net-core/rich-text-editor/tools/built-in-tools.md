@@ -181,10 +181,10 @@ Remove the build-in tools from the toolbar by using the [toolbarSettings](https:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-buildin-tool/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-buildin-tool/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-buildin-tool/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-buildin-tool/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -192,10 +192,10 @@ Remove the build-in tools from the toolbar by using the [toolbarSettings](https:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-buildin-tool/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-buildin-tool/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-buildin-tool/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-buildin-tool/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

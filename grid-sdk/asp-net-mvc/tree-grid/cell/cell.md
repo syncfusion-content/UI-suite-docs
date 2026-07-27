@@ -20,10 +20,10 @@ The [`QueryCellInfo`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/query-cell/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/query-cell/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="QueryCell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/query-cell/queryCell.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/query-cell/queryCell.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ The [`QueryCellInfo`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/query-cell/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/query-cell/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="QueryCell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/query-cell/queryCell.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/query-cell/queryCell.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -63,10 +63,10 @@ In the following example, the `textWrapSettings.wrapMode` is set to `Content`.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/auto-wrap/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/auto-wrap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoWrap.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/auto-wrap/autoWrap.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/auto-wrap/autoWrap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ In the following example, the `textWrapSettings.wrapMode` is set to `Content`.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/auto-wrap/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/auto-wrap/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="AutoWrap.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/auto-wrap/autoWrap.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/auto-wrap/autoWrap.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -100,10 +100,10 @@ In the below example, we have customized the cells of `TaskID` and `StartDate` c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/custom-attr/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/custom-attr/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomAttr.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/custom-attr/customAttr.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/custom-attr/customAttr.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ In the below example, we have customized the cells of `TaskID` and `StartDate` c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/custom-attr/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/custom-attr/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomAttr.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/custom-attr/customAttr.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/custom-attr/customAttr.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -139,10 +139,10 @@ The available modes of grid lines are:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/grid-lines/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/grid-lines/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="GridLines.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/grid-lines/gridLines.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/grid-lines/gridLines.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -150,10 +150,10 @@ The available modes of grid lines are:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/grid-lines/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/grid-lines/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="GridLines.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/grid-lines/gridLines.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/grid-lines/gridLines.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -176,10 +176,10 @@ There are three types of [`clipMode`](https://help.syncfusion.com/cr/cref_files/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/clip-mode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/clip-mode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ClipMode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/clip-mode/clipMode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/clip-mode/clipMode.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -187,10 +187,10 @@ There are three types of [`clipMode`](https://help.syncfusion.com/cr/cref_files/
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/clip-mode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/clip-mode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ClipMode.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/cell/clip-mode/clipMode.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/cell/clip-mode/clipMode.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

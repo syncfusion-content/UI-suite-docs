@@ -32,7 +32,7 @@ The following example shows how to align the layout within specified layout boun
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-bounds-cs1" %}
 
 
 For more information about bounds, refer to [`bounds`](https://ej2.syncfusion.com/react/documentation/api/diagram/layoutModel#bounds).
@@ -56,7 +56,7 @@ The following code illustrates how to configure layout alignment and modify alig
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-alignment-cs1" %}
 
 
 ## Layout Spacing
@@ -77,7 +77,7 @@ The following code illustrates how to set initial horizontal and vertical spacin
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-spacing-cs1" %}
 
 ## Layout Margin
 
@@ -97,7 +97,7 @@ The following code demonstrates how to set initial layout margin and modify marg
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-margin-cs1" %}
 
 
 ## Layout Orientation
@@ -128,7 +128,7 @@ The following code demonstrates how to set the initial orientation for the layou
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-orientation-cs1" %}
 
 
 ## Exclude From Layout
@@ -149,7 +149,7 @@ The following code example demonstrates how to exclude a node from the layout an
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-exclude-cs1" %}
 
 ## Fixed Node
 
@@ -167,7 +167,7 @@ This feature is particularly beneficial during expand/collapse operations, where
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-fixed-cs1" %}
 
 ## Expand and Collapse
 
@@ -187,7 +187,7 @@ The following code example shows how to expand/collapse the children of a node:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-expandandcollapse-cs1" %}
 
 
 For more details about customizing the expand and collapse icon refer [`expand Collapse`](./nodes-expandAndCollapse).
@@ -210,7 +210,7 @@ The following example demonstrates how layout animation enhances the visual expe
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-animation-cs1" %}
 
 
 N> To enable layout animation, inject the LayoutAnimation module in the diagram.
@@ -233,7 +233,7 @@ The following code example creates parent-child relationships between source and
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-parentChildren-cs1" %}
 
 
 ![Layout drag and drop](images/drag-drop-layout.gif)
@@ -258,7 +258,7 @@ The [`orientation`](https://ej2.syncfusion.com/react/documentation/api/diagram/s
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/layout-setNodeTemplete-cs1" %}
 
 
 ## Refresh Layout

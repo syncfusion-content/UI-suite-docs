@@ -73,11 +73,11 @@ In the below code sample, we replicate the older theme style.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/theme-switch-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/theme-switch-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/theme-switch-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/theme-switch-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/theme-switch-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/theme-switch-cs2" %}

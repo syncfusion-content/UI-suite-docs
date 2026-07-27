@@ -41,7 +41,7 @@ The `association` property allows you to define the type of association. The fol
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Association-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Association-cs1" %}
 
 The following table demonstrates the visual representation of association flows.
 
@@ -74,7 +74,7 @@ The `sequence` property allows you to define the type of sequence flow. The foll
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Sequence-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Sequence-cs1" %}
 
 The following table contains various representations of sequence flows:
 
@@ -107,7 +107,7 @@ The `message` property allows you to define the type of message flow. The follow
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Message-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5Message-cs1" %}
 
 The following table contains various representations of message flows:
 

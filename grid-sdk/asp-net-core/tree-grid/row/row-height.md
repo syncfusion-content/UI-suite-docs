@@ -18,10 +18,10 @@ In the below example, the rowHeight is set as **60px**.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="RowHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-height/rowHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-height/rowHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ In the below example, the rowHeight is set as **60px**.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="RowHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-height/rowHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-height/rowHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -49,10 +49,10 @@ In the below example, the row height for the row with Task ID as '3' is set as '
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-row-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-row-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizeRowHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-row-height/customizeRowHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-row-height/customizeRowHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,10 +60,10 @@ In the below example, the row height for the row with Task ID as '3' is set as '
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-row-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-row-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizeRowHeight.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/customize-row-height/customizeRowHeight.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/customize-row-height/customizeRowHeight.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

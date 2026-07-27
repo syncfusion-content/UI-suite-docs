@@ -23,7 +23,7 @@ The following code example shows how to create connector port.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con1" %}
 
 ## Port alignment
 
@@ -40,7 +40,7 @@ The following code example shows how to set alignment to the connector port.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con2" %}
 
 ## Port displacement
 
@@ -57,7 +57,7 @@ The following code example shows how to set displacement to the connector port.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con3" %}
 
 N> The displacement will work only if we set alignment as after or before.
 
@@ -76,7 +76,7 @@ The following code example explains how to connect connector to the connector po
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/ports/ports-con4" %}
 
 ## See also
 

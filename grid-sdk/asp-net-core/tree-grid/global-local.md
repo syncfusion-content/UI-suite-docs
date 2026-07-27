@@ -116,10 +116,10 @@ The following example demonstrates the TreeGrid in **Deutsch** culture.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/global/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/global/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Global.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/global/global.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/global/global.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -127,10 +127,10 @@ The following example demonstrates the TreeGrid in **Deutsch** culture.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/global/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/global/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Global.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/global/global.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/global/global.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -145,10 +145,10 @@ The [`Internationalization`](../../common/internationalization/) library is used
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/internalization/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/internalization/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Internalization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/internalization/internalization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/internalization/internalization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -156,10 +156,10 @@ The [`Internationalization`](../../common/internationalization/) library is used
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/internalization/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/internalization/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Internalization.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/internalization/internalization.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/internalization/internalization.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -177,10 +177,10 @@ RTL provides an option to switch the text direction and layout of the TreeGrid c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/enableRtl/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/enableRtl/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EnableRtl.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/enableRtl/enableRtl.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/enableRtl/enableRtl.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,10 +188,10 @@ RTL provides an option to switch the text direction and layout of the TreeGrid c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/enableRtl/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/enableRtl/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EnableRtl.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/global-local/enableRtl/enableRtl.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/global-local/enableRtl/enableRtl.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

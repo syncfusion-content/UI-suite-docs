@@ -41,7 +41,7 @@ To create a text node, set the shape property to [`text`](https://ej2.syncfusion
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/text-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/text-cs1" %}
 
 ## Image Nodes
 
@@ -59,7 +59,7 @@ To create an image node, set the shape property to [`image`](https://ej2.syncfus
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/image-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/image-cs1" %}
 
 ### Base64 Encoded Images
 
@@ -75,7 +75,7 @@ For scenarios where you need to embed images directly without external dependenc
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/image-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/image-cs2" %}
 
 N> When deploying applications with image nodes, ensure your HTML files are served from a web server. Local file access restrictions in Chrome and Firefox may prevent image export functionality due to security policies. For more information, refer to browser-specific documentation on local image handling.
 
@@ -95,7 +95,7 @@ The [`scale`](https://ej2.syncfusion.com/angular/documentation/api/diagram/image
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/alignment-cs1" %}
 
 **Available scaling options:**
 
@@ -130,7 +130,7 @@ Define HTML content directly within the [`content`](https://ej2.syncfusion.com/a
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/html-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/html-cs1" %}
 
 ### HTML Node with Node Template
 
@@ -146,7 +146,7 @@ For complex HTML structures, use the [`nodeTemplate`](https://ej2.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/html-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/html-cs2" %}
 
 ## Native Nodes
 
@@ -164,7 +164,7 @@ To create a [`native`](https://ej2.syncfusion.com/angular/documentation/api/diag
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/native-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/native-cs1" %}
 
 N> Similar to HTML nodes, native nodes cannot be exported to image formats due to canvas rendering limitations. Fill colors of native nodes can be overridden by inline SVG styles or fill attributes specified in the SVG template.
 
@@ -197,7 +197,7 @@ To create [`basic`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/basic-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/basic-cs1" %}
 
 N> The shape property defaults to **basic** when not specified. If no specific shape is defined for a basic shape node, it defaults to **rectangle**.
 
@@ -223,7 +223,7 @@ To create a [`path`](https://ej2.syncfusion.com/angular/documentation/api/diagra
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/path-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/path-cs1" %}
 
 ## Flow Shapes
 
@@ -241,7 +241,7 @@ To create [`flow`](https://ej2.syncfusion.com/angular/documentation/api/diagram/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/shapes/path-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/shapes/path-cs2" %}
 
 The list of flow shapes are as follows.
 

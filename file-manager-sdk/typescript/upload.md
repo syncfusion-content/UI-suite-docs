@@ -21,33 +21,33 @@ Enable folder uploads by setting [`directoryUpload`](../api/file-manager/uploadS
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/directory-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/directory-upload" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/directory-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/directory-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/directory-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/directory-upload" %}
 {% endif %}
 
 >**Note:** When [`directoryUpload`](../api/file-manager/uploadSettingsModel#directoryupload) is set to `true`, only folders can be uploaded. When it is set to `false`, only individual files can be uploaded. Simultaneous uploading of files and folders is not supported.
@@ -66,33 +66,33 @@ When set to `true`, the selected files will process sequentially (one after the 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/sequential-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/sequential-upload" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/sequential-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/sequential-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/sequential-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/sequential-upload" %}
 {% endif %}
 
 The screenshot below shows that each file begins uploading only after the previous one completes. This demonstrates how the `sequentialUpload` property works in the File Manager control.
@@ -111,33 +111,33 @@ In the following example, the chunkSize is set to 5 MB (5,242,880 bytes), and th
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/chunk-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/chunk-upload" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/chunk-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/chunk-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/chunk-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/chunk-upload" %}
 {% endif %}
 
 Chunk upload provides pause and resume options, offering users enhanced control over the file upload process.
@@ -156,33 +156,33 @@ Control automatic uploading with [`autoUpload`](../api/file-manager/uploadSettin
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-upload" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-upload/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/auto-upload/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-upload" %}
 {% endif %}
 
 ## Auto close
@@ -193,33 +193,33 @@ Use [`autoClose`](../api/file-manager/uploadSettingsModel#autoclose) to automati
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-close" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-close" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/auto-close/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/auto-close/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-close" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/auto-close" %}
 {% endif %}
 
 ## Prevent upload based on file extensions
@@ -236,33 +236,33 @@ If you want to allow only image files like .jpg and .png, you should set the pro
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/file-extension" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/file-extension" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/file-extension/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/file-extension/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/file-extension" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/file-extension" %}
 {% endif %}
 
 ## Restrict external drag-and-drop upload
@@ -279,33 +279,33 @@ The following example demonstrates how to prevent the external drag-and-drop upl
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/upload-feature-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/upload-feature-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/upload-feature-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/upload-feature-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/upload-feature-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/upload-feature-cs1" %}
 {% endif %}
 
 ## See also

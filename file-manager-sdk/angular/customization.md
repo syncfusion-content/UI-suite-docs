@@ -32,17 +32,17 @@ The context menu settings, such as items to be displayed on files, folders, and 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/context-menu-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/context-menu-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/context-menu-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/context-menu-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/context-menu-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/context-menu-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/context-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/context-menu-cs1" %}
 
 ## Details view customization
 
@@ -50,17 +50,17 @@ The details view settings like column width, header text, and template for each 
 This allows you to control how file and folder information is displayed in the details view.
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/detailsview-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/detailsview-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/detailsview-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/detailsview-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/detailsview-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/detailsview-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/detailsview-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/detailsview-cs1" %}
 
 ## Navigation pane customization
 
@@ -68,17 +68,17 @@ The navigation pane settings like minimum and maximum width, visibility, and sor
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/navigationpane-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/navigationpane-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/navigationpane-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/navigationpane-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/navigationpane-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/navigationpane-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/navigationpane-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/navigationpane-cs1" %}
 
 ## Show/Hide file extension
 
@@ -88,17 +88,17 @@ In File Manager, the [fileLoad](https://ej2.syncfusion.com/angular/documentation
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/fileextension-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/fileextension-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/fileextension-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/fileextension-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/fileextension-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/fileextension-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/fileextension-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/fileextension-cs1" %}
 
 ## Show/Hide hidden items
 
@@ -106,17 +106,17 @@ The File Manager provides support to show/hide the hidden items by enabling/disa
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/hiddenitems-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/hiddenitems-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/hiddenitems-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/hiddenitems-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/hiddenitems-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/hiddenitems-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/hiddenitems-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/hiddenitems-cs1" %}
 
 ## Show/Hide thumbnail images in large icons view
 
@@ -124,17 +124,17 @@ The thumbnail images are displayed in the File Manager's large icons view by def
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablethumbnail-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/disablethumbnail-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablethumbnail-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/disablethumbnail-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablethumbnail-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/disablethumbnail-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/disablethumbnail-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/disablethumbnail-cs1" %}
 
 ## Toolbar customization
 
@@ -142,17 +142,17 @@ The toolbar settings like items to be displayed in the toolbar and their visibil
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/toolbar-customize-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/toolbar-customize-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/toolbar-customize-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/toolbar-customize-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/toolbar-customize-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/toolbar-customize-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/toolbar-customize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/toolbar-customize-cs1" %}
 
 ### See Also
 
@@ -164,17 +164,17 @@ The upload settings like minimum and maximum file size and enabling auto upload 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/upload-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload-cs1" %}
 
 ## Tooltip customization
 
@@ -182,17 +182,17 @@ The tooltip value can be customized by adding extra content to the title of the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/tooltip-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/tooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/tooltip-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/tooltip-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/tooltip-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/tooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/tooltip-cs1" %}
 
 ## Maintaining Component State on Page Reload
 
@@ -205,17 +205,17 @@ For every operation in File Manager, ajax request will be sent to the server whi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/persistence-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/persistence-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/persistence-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/persistence-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/persistence-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/persistence-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/persistence-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/persistence-cs1" %}
 
 >**Note:** The files of the current folder opened in the File Manager can be refreshed programatically by calling [refreshFiles](https://ej2.syncfusion.com/angular/documentation/api/file-manager#refreshfiles) method.
 

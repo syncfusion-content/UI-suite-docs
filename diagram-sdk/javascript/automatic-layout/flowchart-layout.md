@@ -65,7 +65,7 @@ To render `flowchart` layout, you need to set the [`layoutType`](../../api/diagr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -78,7 +78,7 @@ To render `flowchart` layout, you need to set the [`layoutType`](../../api/diagr
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs1" %}
 {% endif %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_Layout.png)
@@ -143,7 +143,7 @@ The following example demonstrates how to render a flowchart layout using nodes 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -156,7 +156,7 @@ The following example demonstrates how to render a flowchart layout using nodes 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs2" %}
 {% endif %}
 
 ## Customize flowchart layout orientation
@@ -268,7 +268,7 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -281,7 +281,7 @@ The following example shows flowchart layout with `yesBranchDirection` as `SameA
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs3" %}
 {% endif %}
 
 The following table will explain the pictorial representation of the behavior:
@@ -317,7 +317,7 @@ The following example shows how to set custom text to the yes branch and no bran
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -330,7 +330,7 @@ The following example shows how to set custom text to the yes branch and no bran
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-flowchart-cs4" %}
 {% endif %}
 
 ![EJ2 Flowchart layout diagram](../images/flowchart-images/Flowchart_CustomYesOrNoBranches.png)

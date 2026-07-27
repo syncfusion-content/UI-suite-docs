@@ -46,7 +46,7 @@ After setting the root directory of the file system, just build and run the proj
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/file-system-provider/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/file-system-provider/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-system-provider.cs" %}
 {% endhighlight %}
@@ -56,7 +56,7 @@ After setting the root directory of the file system, just build and run the proj
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/file-system-provider/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/file-system-provider/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-system-provider.cs" %}
 {% endhighlight %}
@@ -101,7 +101,7 @@ After setting the blob container references, build and run the project. The proj
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/azure-file-system/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/azure-file-system/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Azure-file-system.cs" %}
 {% endhighlight %}
@@ -111,7 +111,7 @@ After setting the blob container references, build and run the project. The proj
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/azure-file-system/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/azure-file-system/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Azure-file-system.cs" %}
 {% endhighlight %}
@@ -148,7 +148,7 @@ After registering the Amazon client account details, just build and run the proj
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/amazon-file-system/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/amazon-file-system/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Amazon-file-system.cs" %}
 {% endhighlight %}
@@ -158,7 +158,7 @@ After registering the Amazon client account details, just build and run the proj
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/amazon-file-system/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/amazon-file-system/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Amazon-file-system.cs" %}
 {% endhighlight %}
@@ -226,7 +226,7 @@ After configuring the SharePoint file provider, build and run the project. Now, 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/share-point-provider/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/share-point-provider/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Share-point-provider.cs" %}
 {% endhighlight %}
@@ -236,7 +236,7 @@ After configuring the SharePoint file provider, build and run the project. Now, 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/share-point-provider/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/share-point-provider/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Share-point-provider.cs" %}
 {% endhighlight %}
@@ -270,7 +270,7 @@ After registering the File Transfer Protocol details, just build and run the pro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/ftp-file-system/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/ftp-file-system/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ftp-file-system.cs" %}
 {% endhighlight %}
@@ -280,7 +280,7 @@ After registering the File Transfer Protocol details, just build and run the pro
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/ftp-file-system/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/ftp-file-system/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ftp-file-system.cs" %}
 {% endhighlight %}
@@ -335,7 +335,7 @@ After configuring the connection, just build and run the project. Now, the proje
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/sql-file-system/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/sql-file-system/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Sql-file-system.cs" %}
 {% endhighlight %}
@@ -345,7 +345,7 @@ After configuring the connection, just build and run the project. Now, the proje
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/sql-file-system/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/sql-file-system/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Sql-file-system.cs" %}
 {% endhighlight %}
@@ -411,7 +411,7 @@ Now, just mapping the **ajaxSettings** property of the File Manager control to t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/node-js/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/node-js/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node-js.cs" %}
 {% endhighlight %}
@@ -421,7 +421,7 @@ Now, just mapping the **ajaxSettings** property of the File Manager control to t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/node-js/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/node-js/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node-js.cs" %}
 {% endhighlight %}
@@ -458,7 +458,7 @@ After updating the credentials, just build and run the project. Now, the project
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/google-drive-file-system/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/google-drive-file-system/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Google-drive-file-system.cs" %}
 {% endhighlight %}
@@ -468,7 +468,7 @@ After updating the credentials, just build and run the project. Now, the project
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/google-drive-file-system/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/google-drive-file-system/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Google-drive-file-system.cs" %}
 {% endhighlight %}
@@ -606,7 +606,7 @@ After configuring the Firebase Realtime Database service link, build and run the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fire-base/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fire-base/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Fire-base.cs" %}
 {% endhighlight %}
@@ -616,7 +616,7 @@ After configuring the Firebase Realtime Database service link, build and run the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fire-base/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fire-base/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Fire-base.cs" %}
 {% endhighlight %}
@@ -673,7 +673,7 @@ Now, just mapping the **ajaxSettings** property of the File Manager control to t
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/ibm-js/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/ibm-js/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ibm-js.cs" %}
 {% endhighlight %}
@@ -683,7 +683,7 @@ Now, just mapping the **ajaxSettings** property of the File Manager control to t
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/ibm-js/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/ibm-js/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ibm-js.cs" %}
 {% endhighlight %}

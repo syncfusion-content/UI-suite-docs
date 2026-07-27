@@ -27,7 +27,7 @@ Connectors can be selected programmatically at runtime using the **select** meth
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5SelectUnselect-cs1" %}
 
 ## Drag Connector
 
@@ -46,7 +46,7 @@ A connector can be dragged at runtime by using the Drag method. The following co
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5DragConnector-cs1" %}
 
 ## End Point Dragging
 
@@ -67,7 +67,7 @@ The following code example demonstrates how to drag connector end points at runt
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5dragEnd-cs1" %}
 
 ## Segment Editing
 
@@ -106,6 +106,6 @@ The available flip types are:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectNode-cs3" %}
 
  N> The flip operation is not applicable when connectors are connected to nodes.

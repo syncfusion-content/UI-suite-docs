@@ -21,14 +21,14 @@ The example below shows the File Manager rendered inside a Dialog. Use the Uploa
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/file-upload-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/file-upload-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/file-upload-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/file-upload-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/file-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/file-upload-cs1" %}
 
 ## Adding File Manager inside the tab
 
@@ -36,11 +36,11 @@ The following example demonstrates placing the File Manager inside a Tab's conte
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/file-tab-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/file-tab-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/file-tab-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/file-tab-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/file-tab-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/file-tab-cs1" %}

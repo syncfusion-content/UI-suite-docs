@@ -31,7 +31,7 @@ The [`keyDown`](https://ej2.syncfusion.com/documentation/api/diagram/iKeyEventAr
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyDown" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyDown" %}
 
 ## KeyUp event
 
@@ -46,7 +46,7 @@ The [`keyUp`](https://ej2.syncfusion.com/documentation/api/diagram/iKeyEventArgs
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyUp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyUp" %}
 
 ## Double click event
 
@@ -61,7 +61,7 @@ The [`doubleClick`](https://ej2.syncfusion.com/documentation/api/diagram/idouble
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-doubleClick" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-doubleClick" %}
 
 ## TextEdit event
 
@@ -76,7 +76,7 @@ The [`textEdit`](https://ej2.syncfusion.com/documentation/api/diagram/iTextEditE
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-textEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-textEdit" %}
 
 You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](https://ej2.syncfusion.com/documentation/api/diagram/iTextEditEventArgs) to true.
 

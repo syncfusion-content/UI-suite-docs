@@ -50,4 +50,4 @@ The following code example demonstrates how to enable Virtualization mode in the
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/virtualization/virtualization-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/virtualization/virtualization-cs1" %}

@@ -25,7 +25,7 @@ The example below shows a large collection of files in the **Documents** and **T
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/virtualization/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/virtualization/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ The example below shows a large collection of files in the **Documents** and **T
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/virtualization/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/virtualization/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/virtualization/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/virtualization/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -27,7 +27,7 @@ The following code example illustrates how to create a default straight segment.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegments-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegments-cs1" %}
 
 ## Defining Segment End Points
 
@@ -42,7 +42,7 @@ The [`point`](https://ej2.syncfusion.com/react/documentation/api/diagram/straigh
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegmentsPoints-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsSegmentsPoints-cs1" %}
 
 ## Straight Segment Editing
 
@@ -73,6 +73,6 @@ The following example shows how to add segments at runtime for the straight conn
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5StraightSegEdit-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5StraightSegEdit-cs1" %}
 
 ![Straight Segment editing GIF](images/StraightSegEdit.gif)

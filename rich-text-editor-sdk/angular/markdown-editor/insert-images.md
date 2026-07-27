@@ -32,12 +32,12 @@ The following example demonstrates how to enable image insertion in the Syncfusi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-image-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-image-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/markdown-image-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/markdown-image-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-image-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/markdown-image-cs1" %}

@@ -43,7 +43,7 @@ Let's say you have diagram data stored as `mxGraph` XML format. To migrate this 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/mxgraph-to-ej2-migration" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/mxgraph-to-ej2-migration" %}
 
 Next, let's closely examine how the `mxGraph` diagram elements are rendered and how you can achieve the same output using Syncfusion® JavaScript Diagram.
 

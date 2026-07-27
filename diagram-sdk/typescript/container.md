@@ -30,7 +30,7 @@ The following code illustrates how to create a container node:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/container-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/container-1" %}
 
 
 
@@ -51,7 +51,7 @@ The following code example explains how to define a container header and its cus
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/container-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/container-2" %}
 
 
 

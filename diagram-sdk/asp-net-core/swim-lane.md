@@ -27,10 +27,10 @@ N> By using this header, the swimlane interaction will be performed, like select
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/swimlaneheader/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/swimlaneheader/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Swimlaneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/swimlaneheader/swimlaneheader.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/swimlaneheader/swimlaneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,7 +38,7 @@ N> By using this header, the swimlane interaction will be performed, like select
 
 {% tabs %}
 {% highlight c# tabtitle="Swimlaneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/swimlaneheader/swimlaneheader.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/swimlaneheader/swimlaneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ N> By default the swimlane orientation has Horizontal.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/headercustomize/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/headercustomize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/headercustomize/headercustomize.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/headercustomize/headercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,7 +66,7 @@ N> By default the swimlane orientation has Horizontal.
 
 {% tabs %}
 {% highlight c# tabtitle="Headercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/headercustomize/headercustomize.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/headercustomize/headercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -105,10 +105,10 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/emptylane/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/emptylane/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Emptylane.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/emptylane/emptylane.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/emptylane/emptylane.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,7 +116,7 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight c# tabtitle="Emptylane.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/emptylane/emptylane.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/emptylane/emptylane.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -131,10 +131,10 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheader/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheader/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Laneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheader/laneheader.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheader/laneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -142,7 +142,7 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight c# tabtitle="Laneheader.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheader/laneheader.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheader/laneheader.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -158,10 +158,10 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheadercustomize/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheadercustomize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Laneheadercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheadercustomize/laneheadercustomize.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheadercustomize/laneheadercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -169,7 +169,7 @@ The number of [`lanes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion
 
 {% tabs %}
 {% highlight c# tabtitle="Laneheadercustomize.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/laneheadercustomize/laneheadercustomize.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/laneheadercustomize/laneheadercustomize.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -198,10 +198,10 @@ To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/lanechildren/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/lanechildren/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Lanechildren.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/lanechildren/lanechildren.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/lanechildren/lanechildren.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -209,10 +209,10 @@ To add nodes to lane, you should add [`children`](https://help.syncfusion.com/cr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/lanechildren/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/lanechildren/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Lanechildren.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/lanechildren/lanechildren.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/lanechildren/lanechildren.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -311,10 +311,10 @@ Phase are the subprocess which will split each lane as horizontally or verticall
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/phase.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -322,7 +322,7 @@ Phase are the subprocess which will split each lane as horizontally or verticall
 
 {% tabs %}
 {% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/phase.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -352,10 +352,10 @@ You can add the phase at runtime by using client side API method called `addPhas
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/phase.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -363,7 +363,7 @@ You can add the phase at runtime by using client side API method called `addPhas
 
 {% tabs %}
 {% highlight c# tabtitle="Phase.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/swimlane/phase/phase.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/swimlane/phase/phase.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -396,10 +396,10 @@ Diagram provides support to add swimlane and phases to symbol palette.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -407,7 +407,7 @@ Diagram provides support to add swimlane and phases to symbol palette.
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

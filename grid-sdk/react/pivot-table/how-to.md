@@ -24,11 +24,11 @@ In the below example, the data in the member editor limits to 100. So, the membe
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs1" %}

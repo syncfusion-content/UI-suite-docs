@@ -26,7 +26,7 @@ Triggers when the connector is clicked. The following code example explains how 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clickEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-clickEvent" %}
 
 ## Selection change event
 
@@ -42,7 +42,7 @@ The following code example explains how to get the [`selectionChange`](https://e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SelectEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SelectEvent" %}
 
  You can prevent selection by setting the `cancel` property of [`SelectionChangeEventArgs`](https://ej2.syncfusion.com/javascript/documentation/api/diagram/iselectionchangeeventargs) to true, as shown in the code snippet below.
 
@@ -71,7 +71,7 @@ The following code example explains how to get the [`positionChange`](../../api/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-PositionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-PositionEvent" %}
 
  You can prevent dragging by setting the `cancel` property of [`DraggingEventArgs`](../../api/diagram/iDraggingEventArgs) to true, as shown in the code snippet below.
 
@@ -99,7 +99,7 @@ The following code example explains how to get the [`connectionChange`](../../ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-ConnectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-ConnectionEvent" %}
 
 ## Source Point change event
 
@@ -115,7 +115,7 @@ The following code example explains how to get the [`sourcePointChange`](../../a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SourcePointEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SourcePointEvent" %}
 
  You can prevent source point dragging by setting the `cancel` property of [`EndChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -145,7 +145,7 @@ The following code example explains how to get the [`targetPointChange`](../../a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-TargetPointEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-TargetPointEvent" %}
 
  You can prevent target point dragging by setting the `cancel` property of [`EndChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -177,7 +177,7 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SegmentEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SegmentEvent" %}
 
 ## Segment Change event
 
@@ -194,7 +194,7 @@ The following code example explains how to get the [`segmentChange`](../../api/d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SegmentEditEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-SegmentEditEvent" %}
 
  You can prevent segment editing by setting the `cancel` property of [`SegmentChangeEventArgs`](../../api/diagram/iEndChangeEventArgs) to true, as shown in the code snippet below.
 
@@ -222,7 +222,7 @@ The following code example explains how to get the [`collectionChange`](../../ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-CollectionEvent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-CollectionEvent" %}
 
 You can prevent changes to the diagram collection, such as adding or deleting connectors, by setting the `cancel` property of [`CollectionChangeEventArgs`](../../api/diagram/iCollectionChangeEventArgs) to true, as shown in the code snippet below.
 

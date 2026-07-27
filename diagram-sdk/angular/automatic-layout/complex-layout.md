@@ -28,7 +28,7 @@ This example demonstrates how to create a complex hierarchical tree layout by ma
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs1" %}
 
 ## Complex hierarchical tree layout with DataSource
 
@@ -44,7 +44,7 @@ When working with large datasets, binding the layout to a data source provides b
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs2" %}
 
 ![Complex hierarchical tree layout](../images/complex-2.png)
 
@@ -69,7 +69,7 @@ The [`connectionPointOrigin`](https://ej2.syncfusion.com/angular/documentation/a
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs3" %}
 
 > **Note:** Line distribution requires the LineDistribution module to be injected in the diagram.
 
@@ -94,7 +94,7 @@ When line distribution is enabled, linear arrangement activates automatically. T
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs4" %}
 > **Note:** Linear arrangement requires the LineDistribution module and is applicable only for complex hierarchical tree layouts.
 
 ## Enable routing for layout
@@ -113,7 +113,7 @@ Set the [`enableRouting`](https://ej2.syncfusion.com/angular/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs5" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/complexhiertree-cs5" %}
 
 ## Best Practices
 

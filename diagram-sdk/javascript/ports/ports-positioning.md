@@ -46,7 +46,7 @@ The [`horizontalAlignment`](../../api/diagram/horizontalAlignment) property of t
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -59,7 +59,7 @@ The [`horizontalAlignment`](../../api/diagram/horizontalAlignment) property of t
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-horVerAlign" %}
 
 {% endif %}
 
@@ -95,7 +95,7 @@ The following table shows all the possible alignments visually with offset (0, 0
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -108,7 +108,7 @@ The following table shows all the possible alignments visually with offset (0, 0
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-margin" %}
 
 {% endif %}
 

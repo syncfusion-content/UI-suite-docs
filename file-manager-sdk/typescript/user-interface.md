@@ -39,24 +39,24 @@ The following example shows the File Manager with all feature modules.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/overview-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/overview-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/overview-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/overview-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/overview-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/es5-getting-started-cs3/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/es5-getting-started-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/es5-getting-started-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/es5-getting-started-cs3" %}
 
 {% endif %}
 

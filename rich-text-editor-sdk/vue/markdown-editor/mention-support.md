@@ -32,11 +32,11 @@ The following example demonstrates how to enable Mention support in the Vue Mark
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-mention-support/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-mention-support/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/markdown-mention-support/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-mention-support/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-mention-support" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/markdown-editor/markdown-mention-support" %}

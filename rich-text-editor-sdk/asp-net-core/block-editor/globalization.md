@@ -50,10 +50,10 @@ The below example shows adding the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/globalization/locale/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/globalization/locale/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Locale.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/globalization/locale/locale.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/globalization/locale/locale.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ RTL provides an option to switch the text direction and layout of the Block Edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/globalization/rtl/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/globalization/rtl/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rtl.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/globalization/rtl/rtl.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/globalization/rtl/rtl.cs %}
 {% endhighlight %}
 {% endtabs %}
 

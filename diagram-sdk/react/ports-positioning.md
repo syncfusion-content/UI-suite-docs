@@ -47,7 +47,7 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/react/documentation/api/d
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos1" %}
 
 
 The following table shows all possible alignment combinations when using offset (0, 0):
@@ -79,7 +79,7 @@ The following table shows all possible alignment combinations when using offset 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ports/ports-pos2" %}
 
 ## See also
 

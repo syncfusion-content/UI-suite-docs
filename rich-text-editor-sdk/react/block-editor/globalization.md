@@ -52,14 +52,14 @@ The below example shows adding the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/globalization/localization/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/globalization/localization/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/globalization/localization/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/globalization/localization/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/globalization/localization" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/globalization/localization" %}
 
 ## RTL
 
@@ -67,11 +67,11 @@ The Block Editor supports Right-to-Left (RTL) mode, which reverses the layout of
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/globalization/rtl/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/globalization/rtl/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/globalization/rtl/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/globalization/rtl/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/globalization/rtl" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/globalization/rtl" %}

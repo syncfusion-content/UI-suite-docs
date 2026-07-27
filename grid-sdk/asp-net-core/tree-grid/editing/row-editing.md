@@ -18,10 +18,10 @@ To enable Row edit, set the [`mode`](https://help.syncfusion.com/cr/cref_files/a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-row/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-row/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditRow.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-row/editRow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-row/editRow.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ To enable Row edit, set the [`mode`](https://help.syncfusion.com/cr/cref_files/a
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditRow.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/editing/edit-row/editRow.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/editing/edit-row/editRow.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

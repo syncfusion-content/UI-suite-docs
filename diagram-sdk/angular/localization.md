@@ -85,7 +85,7 @@ The following code example demonstrates the complete locale settings for the con
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/locale/localcontextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/locale/localcontextmenu-cs1" %}
 
 ## Localize Symbol palette
 
@@ -137,6 +137,6 @@ The following code example shows the complete locale settings for the symbol pal
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/locale/localsymbolpalette-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/locale/localsymbolpalette-cs1" %}
 
 For comprehensive information about localization implementation across all Syncfusion components, refer to the [`localization`](https://ej2.syncfusion.com/angular/documentation/common/localization) documentation.

@@ -16,10 +16,10 @@ The column [`template`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columntemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-template/columntemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-template/columntemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ The column [`template`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2
 
 {% tabs %}
 {% highlight c# tabtitle="Columntemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/column-template/columntemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/column-template/columntemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -46,10 +46,10 @@ In the following code, checkbox is rendered based on **Approved** field value.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/conditional-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/conditional-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/conditional-template/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/conditional-template/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,7 +57,7 @@ In the following code, checkbox is rendered based on **Approved** field value.
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/conditional-template/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/conditional-template/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

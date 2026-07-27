@@ -23,8 +23,6 @@ In a dashboard, the data to be held by the panel in a cell may be of different s
 
 The following sample demonstrates how to modify cell size using the [`columns`](../api/dashboard-layout#columns) and [`cellAspectRatio`](../api/dashboard-layout#cellaspectratio) properties. In the sample below, the width of the parent element is divided into 5 equal cells based on the columns property value, resulting in the width of each cell as 100px. The height of these cells will be 50px based on the cellAspectRatio value 100/50 (i.e., for every 100px of width, 50px will be the height of the cell).
 
-{% if page.publishingplatform == "typescript" %}
-
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-edited-cs1/index.ts %}
@@ -36,26 +34,10 @@ The following sample demonstrates how to modify cell size using the [`columns`](
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-edited-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-edited-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-edited-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-edited-cs1" %}
-{% endif %}
-
 ## Setting cell spacing
 The spacing between panels is defined by the [`cellSpacing`](../api/dashboard-layout#cellspacing) property. Adding spacing between the panels improves readability and visual separation between panels.
 
 The following sample demonstrates the usage of the [`cellSpacing`](../api/dashboard-layout#cellspacing) property, for clearer data presentation.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -68,27 +50,11 @@ The following sample demonstrates the usage of the [`cellSpacing`](../api/dashbo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/cell-spacing-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/cell-spacing-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/cell-spacing-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/cell-spacing-cs1" %}
-{% endif %}
-
 ## Graphical representation of layout
 
 Cells together form the grid that underlies the layout; the grid is hidden by default. This grid-structured layout can be made visible by enabling the [`showGridLines`](../api/dashboard-layout#showgridlines) property, which clearly pictures the cells' split-up within the layout. Visible gridlines assist in panel sizing and placement during dashboard design.
 
 In the following sample, the grid lines indicate the cells' split-up of the layout, and the data containers placed over these cells are known as panels.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -101,27 +67,11 @@ In the following sample, the grid lines indicate the cells' split-up of the layo
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-cs2" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/sizing-of-cells-cs2" %}
-{% endif %}
-
 ## Rendering control in right-to-left direction
 
 It is possible to render the Dashboard Layout in a right-to-left direction by setting the [`enableRtl`](../api/dashboard-layout#enablertl) API to **true**.
 
 The following sample demonstrates the Dashboard Layout rendered in right-to-left direction.
-
-{% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
@@ -134,26 +84,4 @@ The following sample demonstrates the Dashboard Layout rendered in right-to-left
         
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/rtl-cs1" %}
 
-{% elsif page.publishingplatform == "javascript" %}
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/rtl-cs1/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/dashboard-layout/rtl-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/dashboard-layout/rtl-cs1" %}
-{% endif %}
-
-{% if page.publishingplatform == "typescript" %}
-
 > Refer to the [TypeScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [TypeScript Dashboard Layout example](https://ej2.syncfusion.com/demos/#/fluent2/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% elsif page.publishingplatform == "javascript" %}
-
-> Refer to the [JavaScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [JavaScript Dashboard Layout example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% endif %}

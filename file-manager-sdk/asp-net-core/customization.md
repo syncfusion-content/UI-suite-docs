@@ -31,10 +31,10 @@ The context menu settings, such as items to be displayed on files, folders, layo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/contextmenu/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/contextmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/contextmenu/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/contextmenu/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -42,10 +42,10 @@ The context menu settings, such as items to be displayed on files, folders, layo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/contextmenu/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/contextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/contextmenu/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/contextmenu/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -64,10 +64,10 @@ The details view settings like, column width, header text, template for each fie
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/details-view/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/details-view/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/details-view/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/details-view/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -75,10 +75,10 @@ The details view settings like, column width, header text, template for each fie
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/details-view/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/details-view/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/details-view/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/details-view/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -95,10 +95,10 @@ The navigation pane settings like, minimum and maximum width, visibility and sor
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/navigationpane/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/navigationpane/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/navigationpane/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/navigationpane/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -106,10 +106,10 @@ The navigation pane settings like, minimum and maximum width, visibility and sor
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/navigationpane/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/navigationpane/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/navigationpane/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/navigationpane/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -130,10 +130,10 @@ In File Manager `fileLoad` and `fileOpen` events are triggered before the file/f
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fileextension/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fileextension/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fileextension/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fileextension/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -141,10 +141,10 @@ In File Manager `fileLoad` and `fileOpen` events are triggered before the file/f
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fileextension/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fileextension/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/fileextension/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/fileextension/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -163,10 +163,10 @@ The File Manager provides support to show/hide the hidden items by enabling/disa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/hiddenitems/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/hiddenitems/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/hiddenitems/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/hiddenitems/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,10 +174,10 @@ The File Manager provides support to show/hide the hidden items by enabling/disa
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/hiddenitems/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/hiddenitems/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/hiddenitems/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/hiddenitems/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -196,10 +196,10 @@ The thumbnail images are displayed in the File Manager's large icons view by def
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/disablethumbnail/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/disablethumbnail/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/disablethumbnail/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/disablethumbnail/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -207,10 +207,10 @@ The thumbnail images are displayed in the File Manager's large icons view by def
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/disablethumbnail/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/disablethumbnail/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/disablethumbnail/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/disablethumbnail/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -229,10 +229,10 @@ The toolbar settings, such as items to be displayed in the toolbar and visibilit
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/toolbar/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/toolbar/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/toolbar/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -240,10 +240,10 @@ The toolbar settings, such as items to be displayed in the toolbar and visibilit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/toolbar/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/toolbar/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/toolbar/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -267,10 +267,10 @@ The upload settings, such as minimum and maximum file size and enabling auto upl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/upload/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/upload/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/upload/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/upload/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -278,10 +278,10 @@ The upload settings, such as minimum and maximum file size and enabling auto upl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/upload/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/upload/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/upload/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/upload/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -304,10 +304,10 @@ The tooltip value can be customized by adding extra content to the title of the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/tooltip/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/tooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/tooltip/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/tooltip/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -315,10 +315,10 @@ The tooltip value can be customized by adding extra content to the title of the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/tooltip/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/tooltip/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/tooltip/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/tooltip/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -342,7 +342,7 @@ For every operation in File Manager, ajax request will be sent to the server whi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/persistence/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/persistence/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -362,10 +362,10 @@ For every operation in File Manager, ajax request will be sent to the server whi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/persistence/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/persistence/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/persistence/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/persistence/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -385,7 +385,7 @@ The following code snippet demonstrates specifying the current path in File Mana
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/path/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/path/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -399,10 +399,10 @@ The current path of the File Manager can be specified initially or dynamically u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/path/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/path/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/path/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/path/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 

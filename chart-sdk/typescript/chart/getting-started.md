@@ -197,4 +197,9 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 
 The following screenshot shows the output of the Syncfusion Chart quick start application:
 
+<<<<<<<< HEAD:chart-sdk/typescript/chart/getting-started.md
 ![Syncfusion Chart Quick Start Output](./images/chart.png)
+========
+![Syncfusion Chart Quick Start Output](../images/chart.png)
+
+>>>>>>>> origin/hotfix/hotfix-v34.1.29:chart-sdk/typescript/charts/getting-started.md

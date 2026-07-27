@@ -42,7 +42,7 @@ The default tooltip that appears while interacting with nodes can be disabled by
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/disabletooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/disabletooltip-cs1" %}
 
 ## Tooltip for specific nodes and connectors
 
@@ -58,7 +58,7 @@ The tooltip can be customized for each node and connector. To show different too
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltip-cs1" %}
 
 ## Inherit diagram tooltip
 
@@ -74,7 +74,7 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipnodes-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipnodes-cs1" %}
 
 ### Disable tooltip at runtime
 
@@ -141,7 +141,7 @@ Here, the code provided below demonstrates the port tooltip interaction.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipports-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipports-cs1" %}
 
 The following image illustrates how the diagram displays tooltips during an interaction with ports:
 
@@ -163,7 +163,7 @@ The following code example illustrates how to add formatted HTML content to the 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltiptemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltiptemplate-cs1" %}
 
 ## Tooltip alignments
 
@@ -183,7 +183,7 @@ The following code example illustrates how to position the tooltip around object
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipobject-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipobject-cs1" %}
 
 ### Tooltip relative to mouse position
 
@@ -201,7 +201,7 @@ The following code example illustrates how to show tooltip at mouse position.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipmouse-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipmouse-cs1" %}
 
 ## Tooltip animation
 
@@ -219,7 +219,7 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipanimation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipanimation-cs1" %}
 
 ## Sticky tooltip
 
@@ -237,7 +237,7 @@ The following example shows how to render sticky tooltip.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/stickytooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/stickytooltip-cs1" %}
 
 ## Hide tooltip pointer
 
@@ -253,7 +253,7 @@ The [`showTipPointer`](https://helpej2.syncfusion.com/angular/documentation/api/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/hidetooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/hidetooltip-cs1" %}
 
 ## Tooltip size
 
@@ -271,7 +271,7 @@ The following code example shows how to set the size for the tooltip:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipsize-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/tooltipsize-cs1" %}
 
 ## Show/Hide tooltip at runtime
 
@@ -289,7 +289,7 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/showhidetooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/showhidetooltip-cs1" %}
 
 ## Tooltip for Annotation
 
@@ -307,4 +307,4 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tooltip/annotationtooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tooltip/annotationtooltip-cs1" %}

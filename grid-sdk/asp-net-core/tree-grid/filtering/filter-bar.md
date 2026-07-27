@@ -34,10 +34,10 @@ N/A |N/A |`Equal` operator will always be used for Boolean filter. |Boolean
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filtering/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filtering/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultFiltering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -45,10 +45,10 @@ N/A |N/A |`Equal` operator will always be used for Boolean filter. |Boolean
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filtering/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filtering/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultFiltering.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filtering/defaultFiltering.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -67,10 +67,10 @@ In the following sample, the dropdown is used as a custom component in the Durat
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/ui-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/ui-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="UiTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/ui-template/uiTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/ui-template/uiTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -78,10 +78,10 @@ In the following sample, the dropdown is used as a custom component in the Durat
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/ui-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/ui-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="UiTemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/ui-template/uiTemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/ui-template/uiTemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -97,10 +97,10 @@ In the following sample, we have changed the default operator for string typed c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filter-operator/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filter-operator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-filter-operator.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filter-operator/default-filter-operator.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filter-operator/default-filter-operator.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -108,10 +108,10 @@ In the following sample, we have changed the default operator for string typed c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filter-operator/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filter-operator/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-filter-operator.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/default-filter-operator/default-filter-operator.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/default-filter-operator/default-filter-operator.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

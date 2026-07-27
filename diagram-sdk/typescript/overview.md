@@ -38,7 +38,7 @@ The following code illustrates how to create an overview:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-create" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-create" %}
 
 
 
@@ -65,7 +65,7 @@ You can interact with the overview as follows:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/overview-cs1" %}
 
 
 

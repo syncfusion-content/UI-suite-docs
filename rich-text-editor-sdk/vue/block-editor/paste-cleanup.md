@@ -33,14 +33,14 @@ In the below example, any `<script>` or `<iframe>` tags found in the pasted cont
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/paste-cleanup/allowedstyle/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/allowedstyle/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/paste-cleanup/allowedstyle/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/allowedstyle/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/allowedstyle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/allowedstyle" %}
 
 ## Disable Keep format
 
@@ -52,14 +52,14 @@ To paste content as plain text, stripping all HTML tags and inline styles, set t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/paste-cleanup/plaintext/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/plaintext/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/paste-cleanup/plaintext/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/plaintext/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/plaintext" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/paste-cleanup/plaintext" %}
 
 ### Events
 

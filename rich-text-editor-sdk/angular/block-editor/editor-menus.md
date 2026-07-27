@@ -46,18 +46,18 @@ The following example demonstrates how to customize the Slash Command menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/slash-command/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/slash-command" %}
 
 ## Context menu
 
@@ -75,7 +75,7 @@ The Context menu offers the following built-in options:
 
 ### Customize Context menu
 
-You can use the [contextMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#contextmenusettings) property to customize the Context menu. This allows you to add specific actions or modify existing items based on your application needs.
+You can use the [contextMenuSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#contextmenusettings) property to customize the Context menu. This allows you to add specific actions or modify existing items based on your application needs.
 
 ### Events
 
@@ -91,18 +91,18 @@ The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/context-menu/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/context-menu" %}
 
 ## Block action menu
 
@@ -139,18 +139,18 @@ The following example demonstrates how to customize the Block action menu.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/block-action/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/block-action" %}
 
 ## Inline Toolbar
 
@@ -172,7 +172,7 @@ The inline toolbar can handle custom items like `Transform`, `InlineCode`, `Link
 
 #### Transform block options
 
-The inline toolbar now includes `transform` options to quickly convert blocks between different types. You can use the [transformSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#transformsettings) property to handle customization of the transform menu in the inline toolbar. This allows you to configure available block transformations, define custom menu items with text and icons, and control their behavior.
+The inline toolbar now includes `transform` options to quickly convert blocks between different types. You can use the [transformSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#transformSettings) property to handle customization of the transform menu in the inline toolbar. This allows you to configure available block transformations, define custom menu items with text and icons, and control their behavior.
 
 #### Built-in default transform block options
 
@@ -208,39 +208,39 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/transform-item" %}
 
 #### Font and background color support
 
-Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#fontColorSettings), [backgroundColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor#backgroundColorSettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
+Enhanced font and background color options in the inline toolbar with integrated ColorPicker. You can use the [fontColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#fontColorSettings), [backgroundColorSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#backgroundColorSettings) properties to handle for text customization, highlighting, predefined palettes, custom inputs, and quick previews.
 
 The following example demonstrates how to customize the font and background color toolbar items.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/color-item" %}
 
 ### Customize Inline Toolbar
 
@@ -258,15 +258,15 @@ The following example demonstrates how to customize the Inline Toolbar.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/editor-menus/inline-toolbar/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/editor-menus/inline-toolbar" %}

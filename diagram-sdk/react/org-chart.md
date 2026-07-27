@@ -27,7 +27,7 @@ This approach is ideal when working with dynamic data from databases, APIs, or w
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs1" %}
 
 
 N> When using organizational chart layout, both HierarchicalTree and DataBinding modules must be injected into the diagram component.
@@ -47,7 +47,7 @@ You can render an org-chart layout without using DataSource. The following code 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs2" %}
 
 ![Organizational chart](images/org-chart.png)
 
@@ -109,7 +109,7 @@ The following example demonstrates customizing subtree alignment for horizontal 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs3" %}
 
 ### Vertical Subtree Orientation Example
 
@@ -125,7 +125,7 @@ This example shows how to implement vertical arrangement for leaf-level organiza
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs4" %}
 
 
 ### Assistant Nodes
@@ -145,7 +145,7 @@ The following code example illustrates how to add assistants to layout.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/organizationalchart-cs5" %}
 
 
 ![Assistant](images/assistant.png)

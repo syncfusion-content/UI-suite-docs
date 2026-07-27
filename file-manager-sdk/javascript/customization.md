@@ -31,33 +31,33 @@ Context menu settings—such as the items displayed for files, folders, and layo
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/contextmenu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/contextmenu-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/contextmenu-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/contextmenu-cs1" %}
 {% endif %}
 
 ## Details view customization
@@ -67,33 +67,33 @@ Details view settings—such as column width, header text, and templates for eac
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/detailsview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/detailsview-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/detailsview-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/detailsview-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/detailsview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/detailsview-cs1" %}
 {% endif %}
 
 ## Navigation pane customization
@@ -104,33 +104,33 @@ Navigation pane settings—such as minimum and maximum width, visibility, and so
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigationpane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigationpane-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/navigationpane-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/navigationpane-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigationpane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/navigationpane-cs1" %}
 {% endif %}
 
 ## Show/hide file extension
@@ -143,33 +143,33 @@ In the File Manager component, the [`fileLoad`](../api/file-manager#fileload) an
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/fileextension-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/fileextension-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/fileextension-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/fileextension-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/fileextension-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/fileextension-cs1" %}
 {% endif %}
 
 ## Show/hide hidden items
@@ -180,33 +180,33 @@ The File Manager component supports showing or hiding hidden items by enabling o
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/hiddenitems-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/hiddenitems-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/hiddenitems-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/hiddenitems-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/hiddenitems-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/hiddenitems-cs1" %}
 {% endif %}
 
 ## Show/hide thumbnail images in Large Icons view
@@ -217,33 +217,33 @@ Thumbnail images are displayed in the File Manager component's Large Icons view 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablethumbnail-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablethumbnail-cs1" %}
 {% endif %}
 
 ## Toolbar customization
@@ -254,33 +254,33 @@ Toolbar settings—such as the items displayed and their visibility—can be cus
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/toolbar-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/toolbar-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/toolbar-cs1" %}
 {% endif %}
 
 ### See Also
@@ -295,33 +295,33 @@ Upload settings—such as minimum and maximum file size and auto upload behavior
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/upload-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/upload-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/upload-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/upload-cs1" %}
 {% endif %}
 
 ## Tooltip customization
@@ -332,33 +332,33 @@ Tooltip values can be customized by adding extra content to the title attributes
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/tooltip-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/tooltip-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/tooltip-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/tooltip-cs1" %}
 {% endif %}
 
 ## Maintaining control state on page reload
@@ -372,24 +372,24 @@ The File Manager can maintain its state on page reload. Enable the [`enablePersi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/persistence-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/persistence-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/persistence-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/persistence-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/persistence-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/persistence-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/es5-getting-started-cs5/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/es5-getting-started-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs5" %}
 
 {% endif %}
 

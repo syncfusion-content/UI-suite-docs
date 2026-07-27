@@ -30,7 +30,7 @@ While interacting with multiple bezier segments, maintain their control points a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/BezierControlPoint-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/BezierControlPoint-cs1" %}
 
 ## How to show or hide the bezier segment’s control points
 

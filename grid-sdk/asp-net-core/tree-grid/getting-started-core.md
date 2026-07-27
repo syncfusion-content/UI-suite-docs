@@ -178,7 +178,7 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Tree 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/getting-start-core/columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/getting-start-core/columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CSHTML.cs" %}
 public class IndexModel : PageModel

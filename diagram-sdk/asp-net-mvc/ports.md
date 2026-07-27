@@ -35,10 +35,10 @@ To add a connection port, define the port object and add it to node’s ports co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,7 +46,7 @@ To add a connection port, define the port object and add it to node’s ports co
 
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -63,10 +63,10 @@ The port’s ID property is used to define the unique ID for the port and its fu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/run/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,7 +74,7 @@ The port’s ID property is used to define the unique ID for the port and its fu
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -129,10 +129,10 @@ Remove ports at runtime by using client-side method [`removePorts`](../api/diagr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/remove/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Remove.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/remove.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/remove/remove.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,7 +140,7 @@ Remove ports at runtime by using client-side method [`removePorts`](../api/diagr
 
 {% tabs %}
 {% highlight c# tabtitle="Remove.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/remove/remove.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/remove/remove.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -170,10 +170,10 @@ You can change any port properties at runtime and update it through the client-s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,7 +181,7 @@ You can change any port properties at runtime and update it through the client-s
 
 {% tabs %}
 {% highlight c# tabtitle="Port.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/port/port.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/port/port.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -212,10 +212,10 @@ diagram.dataBind();
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/appear/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -223,7 +223,7 @@ diagram.dataBind();
 
 {% tabs %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -284,10 +284,10 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/automaticPort/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -295,10 +295,10 @@ The following example shows how to enable automatic port creation:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/automaticPort/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Container.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ports/automaticPort/AutoPort.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

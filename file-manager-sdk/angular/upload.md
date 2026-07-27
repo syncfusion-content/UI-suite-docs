@@ -22,15 +22,15 @@ When set to `true`, this property enables directory upload in the File Manager, 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/directory-upload-cs2/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/directory-upload-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/directory-upload-cs2/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/directory-upload-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/directory-upload-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/directory-upload-cs2" %}
 
 > **Note:** When `directoryUpload` is set to `true`, only folders can be uploaded. When it is set to `false`, only individual files can be uploaded. The File Manager does not support simultaneous uploading of both files and folders in a single operation.
 
@@ -46,15 +46,15 @@ When set to `true`, the selected files will process sequentially (one after the 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/sequential-upload-cs2/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/sequential-upload-cs2/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/sequential-upload-cs2/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/sequential-upload-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/sequential-upload-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/sequential-upload-cs2" %}
 
 The screenshot below shows that each file begins uploading only after the previous one completes. This demonstrates how the `sequentialUpload` property works in the File Manager component.
 
@@ -77,15 +77,15 @@ In the following example, the chunkSize is set to 5 MB (5,242,880 bytes), and th
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/chunk-upload/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/chunk-upload/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/chunk-upload/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/chunk-upload/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/chunk-upload" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/chunk-upload" %}
 
 With chunk upload enabled, users gain access to pause and resume controls during the upload process, providing enhanced control over file uploads.
 
@@ -103,15 +103,15 @@ The default value is `true`, the File Manager will automatically upload files as
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/auto-upload/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/auto-upload/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/auto-upload/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/auto-upload/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/auto-upload" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/auto-upload" %}
 
 ## Auto Close
 
@@ -121,15 +121,15 @@ The default value is set to `false`, the upload dialog remains open even after t
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/auto-close/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/auto-close/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/auto-close/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/auto-close/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/auto-close" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/auto-close" %}
 
 ## Prevent upload based on file extensions
 
@@ -143,15 +143,15 @@ If you want to allow only image files like .jpg and .png, you would set the prop
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/prevent-upload/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/prevent-upload/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/prevent-upload/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/prevent-upload/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/prevent-upload" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/prevent-upload" %}
 
 ## Restrict drag and drop upload
 
@@ -165,17 +165,17 @@ To disable external drag-and-drop uploads completely, you need to set the `dropA
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/upload-feature-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/upload-feature-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/upload-feature-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/upload/upload-feature-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/upload/upload-feature-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/upload/upload-feature-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/upload/upload-feature-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/upload/upload-feature-cs1" %}
 
 > **Note:** Setting the `allowDragAndDrop` property to false only prevents drag-and-drop operations within the File Manager itself (such as moving files between folders). It does not prevent external drag-and-drop uploads. To disable external drag-and-drop uploads, you must set the `dropArea` property to null as shown in the example.
 

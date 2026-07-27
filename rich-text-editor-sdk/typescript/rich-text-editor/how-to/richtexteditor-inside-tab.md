@@ -17,25 +17,25 @@ Integrating a Rich Text Editor within Tab control provides a versatile and organ
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-tab/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-tab/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-tab/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/richtexteditor-inside-tab/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/richtexteditor-inside-tab" %}
 {% endif %}

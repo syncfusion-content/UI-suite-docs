@@ -29,10 +29,10 @@ After adding the script file in the `layout` page, render the File Manager contr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/filemanager-in-ie/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/filemanager-in-ie/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cshtml" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/filemanager-in-ie/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/filemanager-in-ie/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,10 +40,10 @@ After adding the script file in the `layout` page, render the File Manager contr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/filemanager-in-ie/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/filemanager-in-ie/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Layout_mvc.cshtml" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/filemanager-in-ie/Layout_mvc.cshtml %}
+{% include code-snippet/file-manager-sdk/asp-net-core/filemanager-in-ie/Layout_mvc.cshtml %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

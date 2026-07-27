@@ -24,11 +24,11 @@ In the below sample, pivot grid is rendered with a customized pivot button icons
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/icon-customization-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/icon-customization-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/icon-customization-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/icon-customization-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/icon-customization-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/icon-customization-cs1" %}

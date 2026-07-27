@@ -73,27 +73,27 @@ For more details on Toolbar ARIA attributes, refer to the [Accessibility of Tool
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/getting-started-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/getting-started-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs2" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/getting-started-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/getting-started-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/getting-started-cs1" %}
 
 ## Keyboard navigation
 
@@ -109,27 +109,27 @@ You can customize shortcut keys using the [formatter](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-customkey-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-customkey-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-customkey-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-customkey-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-customkey-cs2" %}
 
 ## Implementing accessibility best practices
 

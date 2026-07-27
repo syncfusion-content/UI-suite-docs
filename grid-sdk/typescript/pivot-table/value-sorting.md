@@ -22,27 +22,27 @@ Value sorting can be configured using the `valueSortSettings` option through cod
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/typescript/pivot-table/typescript/pivot-table/typescript/pivot-table/pivot-table-cs488/index.ts %}
+{% include code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/pivot-table/typescript/pivot-table/typescript/pivot-table/pivot-table-cs488/index.html %}
+{% include code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/typescript/pivot-table/typescript/pivot-table/typescript/pivot-table/pivot-table-cs488/index.js %}
+{% include code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/typescript/pivot-table/typescript/pivot-table/typescript/pivot-table/pivot-table-cs488/index.html %}
+{% include code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/typescript/pivot-table/pivot-table-cs488" %}
 {% endif %}
 
 ## See Also

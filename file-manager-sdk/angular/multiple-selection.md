@@ -27,17 +27,17 @@ The [fileSelect](https://ej2.syncfusion.com/angular/documentation/api/file-manag
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/multiselect-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/multiselect-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/multiselect-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/multiselect-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/multiselect-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/multiselect-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/multiselect-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/multiselect-cs1" %}
 
 >Note: You can programmatically select specific files and folders either initially or dynamically by providing their names in the [selectedItems](https://ej2.syncfusion.com/angular/documentation/api/file-manager#selecteditems) property.
 
@@ -51,17 +51,17 @@ To enable range selection, set the [enableRangeSelection](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rangeselection-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/rangeselection-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rangeselection-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/rangeselection-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/rangeselection-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/rangeselection-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/rangeselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/rangeselection-cs1" %}
 
 ## Disable Multi selection
 
@@ -73,14 +73,14 @@ There are two ways to control multiple selection capabilities in the File Manage
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablemultiselection/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/disablemultiselection/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablemultiselection/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/disablemultiselection/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/disablemultiselection/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/disablemultiselection/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/disablemultiselection" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/disablemultiselection" %}

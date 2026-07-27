@@ -23,7 +23,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phase-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phase-cs1" %}
 
 ### Dynamically add/remove phase to Lane
 
@@ -38,7 +38,7 @@ You can add a phase at runtime by using [`addPhases`](https://ej2.syncfusion.com
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addphases-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addphases-cs1" %}
 
 ### Customizing phase
 
@@ -58,7 +58,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phasecustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phasecustomize-cs1" %}
 
 #### Dynamic customization of phase
 
@@ -75,7 +75,7 @@ The following code example illustrates how to customize the phase at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phasecustomize-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/phasecustomize-cs2" %}
 
 ### Phase interaction
 

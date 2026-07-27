@@ -33,7 +33,7 @@ In the example below, the vertical scrollbar is scrolled down by 100 px, and the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scroll-cs1" %}
 
 ## Update scroll offset at runtime
 
@@ -57,7 +57,7 @@ You can programmatically change the scroll offsets of diagram by customizing the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs1" %}
 
 ## Update zoom at runtime
 
@@ -96,7 +96,7 @@ The following example shows how to zoom-in and zoom-out the diagram using zoomTo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollSettings-cs2" %}
 
 For more information on various ways to zoom and pan the diagram, refer to [`zoomPan with various ways`](https://support.syncfusion.com/kb/article/15192/how-to-zoom-and-pan-in-vue-diagram-with-various-ways?highlight=How%20to%20zoom%20and%20pan%20in%20JavaScript%20Diagram%20with%20various%20ways)
 
@@ -129,7 +129,7 @@ The following example demonstrates how to configure autoscroll:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/autoScroll-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/autoScroll-cs1" %}
 
 N> To use auto scroll the scrollLimit should be set as 'Infinity'
 
@@ -164,7 +164,7 @@ The following code example illustrates how to specify the scroll limit and custo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollArea-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollArea-cs1" %}
 
 ## Scroll Padding
 
@@ -181,7 +181,7 @@ The following code example illustrates how to set scroll padding for the diagram
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs2" %}
 
 ## Reset scroll
 
@@ -218,4 +218,4 @@ The [`scrollChange`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iS
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/scroll-settings/scrollLimit-cs1" %}

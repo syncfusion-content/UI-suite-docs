@@ -185,7 +185,7 @@ function App() {
     // Clone the data to avoid mutating the original datasource
     const data = extend([], kanbanData, null, true);
     return (<KanbanComponent id="kanban" keyField="Status" dataSource={data} 
-        cardSettings={{ contentField: "Summary", headerField: "Id" }}>
+        cardSettings={% raw %}{{ contentField: "Summary", headerField: "Id" }}{% endraw %}>
         <ColumnsDirective>
           <ColumnDirective headerText="To Do" keyField="Open"/>
           <ColumnDirective headerText="In Progress" keyField="InProgress"/>

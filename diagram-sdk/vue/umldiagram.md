@@ -41,7 +41,7 @@ The method’s [`name`](https://ej2.syncfusion.com/vue/documentation/api/diagram
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/class-cs1" %}
 
 ### Interface
 
@@ -66,7 +66,7 @@ The following code example illustrates how to create an interface:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/interface-cs1" %}
 
 ### Enumeration
 
@@ -85,7 +85,7 @@ The following code example illustrates how to create an enumeration.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/enumeration-cs1" %}
 
 ## UML Class Relationships
 
@@ -117,7 +117,7 @@ The association property allows you to define the type of association. The defau
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/association-cs1" %}
 
 ### Aggregation
 
@@ -134,7 +134,7 @@ The following code example illustrates how to create an aggregation.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/aggregation-cs1" %}
 
 ### Composition
 
@@ -151,7 +151,7 @@ The following code example illustrates how to create a composition.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/composition-cs1" %}
 
 ### Inheritance
 
@@ -170,7 +170,7 @@ The following code example illustrates how to create an inheritance.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/inheritance-cs1" %}
 
 ### Dependency
 
@@ -187,7 +187,7 @@ The following code example illustrates how to create an dependency.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/dependency-cs1" %}
 
 ### Multiplicity
 
@@ -219,7 +219,7 @@ The [`lowerBounds`](https://ej2.syncfusion.com/vue/documentation/api/diagram/mul
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/multiplicity-cs1" %}
 
 ## How to add UML child at runtime
 
@@ -241,7 +241,7 @@ The following code example illustrates how to add members, methods and attribute
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlMethod-cs1" %}
 
 ### Adding UML child through user interaction
 
@@ -264,7 +264,7 @@ The following code example showcases the rendering of UML built-in shapes in a s
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlClass-cs1" %}
 
 ## Editing in UML nodes
 
@@ -317,7 +317,7 @@ The following code illustrates how to create a UMLActivity shapes.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivity-cs1" %}
 
 ### UMLActivity connector
 
@@ -334,4 +334,4 @@ The following code illustrates how to create a UMLActivity connector.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/umldiagramshapes/UmlActivityConnector-cs1" %}

@@ -25,14 +25,14 @@ It can be configured using the `filterSettings` option through code-behind. The 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs154/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs154/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs154/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs154/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs154" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs154" %}
 
 ### On demand member loading
 
@@ -42,14 +42,14 @@ Users can load members on demand by setting the [`loadOnDemandInMemberEditor`](h
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs288/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs288/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs288/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs288/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs288" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs288" %}
 
 ![output](images/ondemand_member.png)
 
@@ -65,14 +65,14 @@ User can load the members based on the level count by using the property [`level
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs289/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs289/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs289/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs289/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs289" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs289" %}
 
 ![output](images/level-count.png)
 

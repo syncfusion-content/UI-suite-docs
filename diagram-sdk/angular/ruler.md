@@ -32,7 +32,7 @@ The following code shows how to add a ruler to the diagram.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs1" %}
 
 ## Customizing the Ruler
 
@@ -64,7 +64,7 @@ The following code shows how the diagram ruler can be customized.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs2" %}
 
 ### Arrange tick
 
@@ -82,7 +82,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ruler/ruler-cs3" %}
 
 ### Marker color
 

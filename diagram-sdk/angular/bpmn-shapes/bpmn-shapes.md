@@ -26,7 +26,7 @@ To create a BPMN shape, set the node's shape type property to **BPMN** and speci
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/bpmn-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/bpmn-cs1" %}
 
 N> The default value for the shape property is "event".
 
