@@ -28,37 +28,37 @@ The shiftEnterKey property accepts the following values:
 
 ## Enter key configuration
 
-By default, pressing the Enter key in the Rich Text Editor creates a new `<p>` tag. You can customize this behavior using the [enterKey](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#enterkey) property.
+By default, pressing the Enter key in the Rich Text Editor creates a new `<p>` tag. You can customize this behavior using the [enterKey](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#enterkey) property.
 
 When you customize the Enter key, the editor will create the specified tag when the Enter key is pressed. This configuration also affects the default content structure of the Rich Text Editor.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs3/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs3/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs3" %}
 
 ## Shift+Enter key configuration
 
-By default, pressing Shift+Enter in the Rich Text Editor inserts a `<br>` tag. You can customize this behavior using the [shiftEnterKey](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#shiftEnterkey) property.
+By default, pressing Shift+Enter in the Rich Text Editor inserts a `<br>` tag. You can customize this behavior using the [shiftEnterKey](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#shiftEnterkey) property.
 
 When you customize the Shift+Enter key, the editor will create the specified tag when the key combination is pressed. This configuration also affects the default content structure of the Rich Text Editor.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs4/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs4/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs4" %}
 
 ## Preventing enter key actions
 
@@ -66,11 +66,11 @@ In some cases, you may want to prevent the default Enter key behavior entirely. 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/prevent-enter-key-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-enter-key-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/prevent-enter-key-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-enter-key-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/prevent-enter-key-cs1" %}

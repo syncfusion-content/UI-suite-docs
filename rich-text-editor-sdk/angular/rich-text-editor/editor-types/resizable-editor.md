@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Resizable Editor in the Angular Rich Text Editor Component
 
-The resizable editor feature allows dynamic resizing of the editor. Enable or disable this feature using the [enableResize](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor#enableresize) property in the Rich Text Editor. When `enableResize` is set to `true`, a grip appears at the bottom right corner for diagonal resizing.
+The resizable editor feature allows dynamic resizing of the editor. Enable or disable this feature using the [enableResize](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#enableresize) property in the Rich Text Editor. When `enableResize` is set to `true`, a grip appears at the bottom right corner for diagonal resizing.
 
 >To use the Resizable feature, inject `ResizeService` in the configure section.
 
@@ -18,15 +18,15 @@ The following sample demonstrates enabling the resizable feature:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/toolbar/multirow-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/toolbar/multirow-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/toolbar/multirow-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/toolbar/multirow-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/toolbar/multirow-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/toolbar/multirow-cs1" %}
 
 ## Restrict resize
 
@@ -49,15 +49,15 @@ For example, add the following to the `app.component.css` file:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/how-to/rename-image-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/how-to/rename-image-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/how-to/rename-image-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/how-to/rename-image-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/how-to/rename-image-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/how-to/rename-image-cs1" %}
 
 ## See also
 

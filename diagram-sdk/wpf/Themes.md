@@ -38,7 +38,7 @@ To change the DiagramTheme,
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 //Instance of SfDiagram
 SfDiagram diagram = new SfDiagram();
 DiagramTheme theme = new OfficeTheme();
@@ -73,7 +73,7 @@ To change the Variant and Style,
 </syncfusion:SfDiagram>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.Theme = new OfficeTheme();
 NodeViewModel node = new NodeViewModel()

@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with React Rich Text Editor Component | Syncfusion
 description: Learn how to set up and configure the Syncfusion React Rich Text Editor component of Syncfusion Essential JS 2 and more details.
-canonical_url: "https://www.syncfusion.com/react-components/react-rich-text-editor"
+canonical_url: "https://www.syncfusion.com/rich-text-editor-sdk/react-rich-text-editor"
 control: Getting started
 platform: rich-text-editor-sdk
 documentation: ug
@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 The [React Rich Text Editor](https://www.syncfusion.com/react-components/react-rich-text-editor) is a <abbr title="What You See Is What You Get">WYSIWYG</abbr> editor that enables users to create, edit, and format rich text content with features like multimedia insertion, lists, and links. This section explains the steps to create a simple React Rich Text Editor and demonstrates the basic usage of the Rich Text Editor control using a Vite-based React project scaffolded with the latest Vite version.
 
-> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/ai-coding-assistant/overview)
+> **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> React development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> React components with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/react/documentation/mcp-server/ai-coding-assistant/getting-started)
 
 To get started quickly with the React Rich Text Editor, refer to this video tutorial:
 

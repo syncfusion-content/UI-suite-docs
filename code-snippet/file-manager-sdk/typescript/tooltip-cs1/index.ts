@@ -4,7 +4,7 @@ import { Tooltip, TooltipEventArgs } from '@syncfusion/ej2-popups';
 
 FileManager.Inject(Toolbar, NavigationPane, DetailsView)
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager control
 let fileObj: FileManager = new FileManager({
     ajaxSettings: {

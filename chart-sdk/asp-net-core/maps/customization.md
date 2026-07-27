@@ -14,8 +14,6 @@ documentation: ug
 
 The width and height of the Maps can be set using the `Width` and `Height` properties in the Maps component. Percentage or pixel values can be used for the height and width values.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/size/tagHelper %}
@@ -24,18 +22,6 @@ The width and height of the Maps can be set using the `Width` and `Height` prope
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/size/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/size/size.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -51,8 +37,6 @@ The title for the Maps can be set using the `MapsTitleSettings`. It can be custo
 * `TextStyle` - To customize the text of the title in Maps.
 * `SubtitleSettings` - To customize the subtitle for the Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/title/tagHelper %}
@@ -61,18 +45,6 @@ The title for the Maps can be set using the `MapsTitleSettings`. It can be custo
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/title/title.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -95,8 +67,6 @@ The Maps component supports following themes.
 
 By default, the Maps are rendered by the **Material** theme. The theme of the Maps component is changed using the `Theme` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/theme/tagHelper %}
@@ -105,18 +75,6 @@ By default, the Maps are rendered by the **Material** theme. The theme of the Ma
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/theme/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/theme/theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -130,8 +88,6 @@ The following properties are available to customize the container in the Maps.
 * `Border` - To customize the color, width and opacity of the border of the Maps.
 * `Margin` - To customize the margins of the Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-container/tagHelper %}
@@ -141,25 +97,11 @@ The following properties are available to customize the container in the Maps.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-container/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Map-container.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-container/map-container.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![Customizing Maps container](./images/Customization/mapcontainer.PNG)
 
 ## Customizing Maps area
 
 By default, the background color of the shape maps is set as **white**. To modify the background color of the Maps area, the `Background` property in the `MapsMapsAreaSettings` is used. The border of the Maps area can be customized using the `Border` property in the `MapsMapsAreaSettings` class.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -169,18 +111,6 @@ By default, the background color of the shape maps is set as **white**. To modif
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-area/map-area.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-area/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Map-area.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/map-area/map-area.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Customizing Maps area](./images/Customization/map-area.PNG)
 
@@ -195,8 +125,6 @@ The following properties are available in `MapsShapeSettings` class to customize
 * `Opacity` - To customize the transparency for the shapes.
 * `Border` - To customize the color, width and opacity of the border of the shapes.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-customization/tagHelper %}
@@ -206,25 +134,11 @@ The following properties are available in `MapsShapeSettings` class to customize
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-customization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shape-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-customization/shape-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![Customizing the shapes](./images/Customization/shape-customization.PNG)
 
 ## Setting color to the shapes from the data source
 
 The color for each shape in the Maps can be set using the `ColorValuePath` property of `MapsShapeSettings` class. The value for the `ColorValuePath` property is the field name from the data source of the `MapsShapeSettings` class which contains the color values.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -235,25 +149,11 @@ The color for each shape in the Maps can be set using the `ColorValuePath` prope
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-colorDs/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shape-colorDs.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-colorDs/shape-colorDs.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ![Setting color to the shapes from the data source](./images/Customization/shape-color.PNG)
 
 ## Applying border to individual shapes
 
 The border of each shape in the Maps can be customized using the `BorderColorValuePath` and `BorderWidthValuePath` properties to modify the color and the width of the border respectively. The field name in the data source of the layer which contains the color and the width values must be set in the `BorderColorValuePath` and `BorderWidthValuePath` properties respectively. If the values of `BorderWidthValuePath` and `BorderColorValuePath` do not match with the field name from the data source, then the color and width of the border will be applied to the shapes using the `Border` property in the `MapsShapeSettings` class.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -263,18 +163,6 @@ The border of each shape in the Maps can be customized using the `BorderColorVal
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-border/shape-border.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Shape-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/shape-border/shape-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -295,8 +183,6 @@ The Maps component supports the following projection types:
 
 By default, the Maps are rendered by the **Mercator** projection type in which the Maps are rendered based on the coordinates. So, the Maps is not stretched. To change the type of projection in the Maps, the `ProjectionType` property is used.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/projection/tagHelper %}
@@ -305,18 +191,6 @@ By default, the Maps are rendered by the **Mercator** projection type in which t
 {% include code-snippet/chart-sdk/asp-net-core/maps/customization/projection/projection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/projection/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Projection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/customization/projection/projection.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

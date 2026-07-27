@@ -70,10 +70,10 @@ The below sample demonstrates the configuration of collapsibleHeading and collap
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/toggle-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/toggle-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toggle.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/toggle-block/toggle.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/toggle-block/toggle.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -139,10 +139,10 @@ The below sample demonstrates the configuration of quote block in the Block Edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/quote-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/quote-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Quote.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/quote-block/quote.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/quote-block/quote.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -181,10 +181,10 @@ The below sample demonstrates the configuration of callout block in the Block Ed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/callout-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/callout-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Callout.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/children-types/callout-block/callout.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/children-types/callout-block/callout.cs %}
 {% endhighlight %}
 {% endtabs %}
 

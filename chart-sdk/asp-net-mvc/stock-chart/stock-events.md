@@ -14,19 +14,6 @@ documentation: ug
 
 Stock Events visualizes stockevents in stockchart. 'SplineSeries' is used to represent selected data value. You can customize the specific data value using `StockEvents` event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="StockEvents.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events/stockEvents.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events/razor %}
@@ -35,26 +22,12 @@ Stock Events visualizes stockevents in stockchart. 'SplineSeries' is used to rep
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events/stockEvents.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **Stock Events for individual series**
 
 By default, stock events will be showed for all series. Now, you can set the stock events for particular series using `SeriesIndexes` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events-2/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stock-events-2.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events-2/stock-events-2.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -64,6 +37,5 @@ By default, stock events will be showed for all series. Now, you can set the sto
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/stock-events-2/stock-events-2.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

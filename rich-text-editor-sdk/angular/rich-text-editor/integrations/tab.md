@@ -73,23 +73,23 @@ Below is the example integration of tab with the Angular Rich Text Editor.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/tab-integration/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/tab-integration/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/tab-integration/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/tab-integration/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/tab-integration/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/tab-integration/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tab-integration" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tab-integration" %}
 
 ## Additional resources
 
 - GitHub Repository: [Angular Rich Text Editor with Tab Component](https://github.com/SyncfusionExamples/angular-richtexteditor-tab-integration)
 - Syncfusion Tab getting started: https://ej2.syncfusion.com/angular/documentation/tab/getting-started
-- Syncfusion Tab API: https://ej2.syncfusion.com/angular/documentation/tab/mention/  
-- Syncfusion Rich Text Editor API: https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/
+- Syncfusion Tab API: https://ej2.syncfusion.com/angular/documentation/api/tab/index-default 
+- Syncfusion Rich Text Editor API: https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default

@@ -112,27 +112,27 @@ Programmatically highlight a portion of the text in the editor by setting the ba
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/highlight-specific-lines-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/highlight-specific-lines-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/highlight-specific-lines-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/highlight-specific-lines-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/highlight-specific-lines-cs2" %}
 
 
 ## See also

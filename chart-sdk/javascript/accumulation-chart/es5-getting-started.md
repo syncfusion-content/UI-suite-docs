@@ -107,4 +107,4 @@ Open the `quickstart/index.html` file in your web browser. You should see the Sy
 
 The following screenshot shows the output of the Syncfusion Accumulation Chart quick start application:
 
-![Syncfusion Accumulation Chart Quick Start Output](../images/accumulation.png)
+![Syncfusion Accumulation Chart Quick Start Output](./images/accumulation.png)

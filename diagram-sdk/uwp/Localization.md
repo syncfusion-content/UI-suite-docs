@@ -17,7 +17,7 @@ Localization is the process of providing controls in different cultures to help 
 
 The following code illustrates how to provide localization support for Context Menu items.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Sets the Culture 
 System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr");//French

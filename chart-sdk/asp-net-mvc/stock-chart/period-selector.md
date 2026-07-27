@@ -29,19 +29,6 @@ Periods is an array of objects that allows users to specify the range of [`Perio
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/period/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Period.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/period/period.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/period/razor %}
@@ -50,26 +37,12 @@ Periods is an array of objects that allows users to specify the range of [`Perio
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/period/period.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Visibility of period selector
 
 The [`EnablePeriodSelector`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChart.html#Syncfusion_EJ2_Charts_StockChart_EnablePeriodSelector) property allows users to toggle the visibility of period selector.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/visiblityperiod/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Visiblityperiod.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/visiblityperiod/visiblityperiod.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -79,5 +52,4 @@ The [`EnablePeriodSelector`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncf
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/visiblityperiod/visiblityperiod.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

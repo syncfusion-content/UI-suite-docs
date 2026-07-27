@@ -177,16 +177,16 @@ This section contains miscellaneous tools such as full-screen mode, print, previ
 
 ## Customizing toolbar items
 
-Customize the toolbar by specifying desired items in [toolbarSettings.items](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarSettings/#items), removing unwanted tools. Below is an example of a tailored toolbar:
+Customize the toolbar by specifying desired items in [toolbarSettings.items](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarsettings#items), removing unwanted tools. Below is an example of a tailored toolbar:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/built-in-toolbar/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/built-in-toolbar/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/built-in-toolbar/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/built-in-toolbar/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/built-in-toolbar" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/built-in-toolbar" %}

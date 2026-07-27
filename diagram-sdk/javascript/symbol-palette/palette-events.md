@@ -19,14 +19,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs19/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs19/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs19" %}
 
 ## DragLeave event
 
@@ -34,14 +34,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs20/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs20/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs20" %}
 
 ## DragOver event
 
@@ -49,14 +49,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs21/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs21" %}
 
 ## Drop event
 
@@ -64,14 +64,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs22/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs22/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs22/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs22" %}
 
 ## PaletteExpanding event
 
@@ -79,14 +79,14 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs23/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs23/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs23/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs23/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs23" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs23" %}
 
 ## PaletteSelectionChange event
 
@@ -94,12 +94,12 @@ There are some events which will get triggered while interacting with the symbol
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs24/index.js %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs24/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/symbol-palette-cs24/index.html %}
+{% include code-snippet/diagram-sdk/javascript/symbol-palette-cs24/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs24" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs24" %}
 

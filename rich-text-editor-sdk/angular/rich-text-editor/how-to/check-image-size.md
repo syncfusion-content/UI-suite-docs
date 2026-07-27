@@ -10,18 +10,18 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Check the Image Size in the Angular Rich Text Editor Component
 
-By using the Rich Text Editor's [imageUploading](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#imageuploading) event, you can get the image size before uploading and restrict the upload if the image size is greater than the allowed size.
+By using the Rich Text Editor's [imageUploading](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#imageuploading) event, you can get the image size before uploading and restrict the upload if the image size is greater than the allowed size.
 
 In the following example, we validate the image size before uploading and determine whether the image is uploaded or not.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/how-to/check-image-size-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/how-to/check-image-size-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/how-to/check-image-size-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/how-to/check-image-size-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/how-to/check-image-size-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/how-to/check-image-size-cs1" %}

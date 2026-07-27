@@ -7,7 +7,7 @@ platform: rich-text-editor-sdk
 control: Getting started 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Getting started in TypeScript Rich Text Editor control
@@ -16,7 +16,7 @@ The TypeScript Rich Text Editor is a WYSIWYG (What You See Is What You Get) edit
 
 ## Prerequisites
 
-This guide uses Vite as the bundler and development environment. Install Node.js `24.13.0` or `higher` before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vitejs.dev/).
+This guide uses Vite as the bundler and development environment. Install Node.js `24.13.0` or `higher` before proceeding. For detailed information about Vite’s capabilities and configuration options, refer to the [Vite documentation](https://vite.dev/).
 
 ## Create a TypeScript application
 

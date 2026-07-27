@@ -39,10 +39,10 @@ Add a custom icon for HTML source editor in the toolbar of Rich Text Editor usin
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/code-mirror-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/code-mirror-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/code-mirror-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/code-mirror-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -50,16 +50,16 @@ Add a custom icon for HTML source editor in the toolbar of Rich Text Editor usin
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/code-mirror-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/code-mirror-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/code-mirror-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/code-mirror-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
 ## Embedly integration
 
-This can be achieved by binding the [actionComplete](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#actioncomplete) event to the toolbar items in the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#toolbarsettings) property. In the event handler, create an element and add the appropriate class. The below script is have to add in the sample to embed the content,
+This can be achieved by binding the [actionComplete](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#actioncomplete) event to the toolbar items in the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#toolbarsettings) property. In the event handler, create an element and add the appropriate class. The below script is have to add in the sample to embed the content,
 
 Include `embedly` javascript.
 
@@ -75,24 +75,24 @@ The above script is added to the page.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/embedly-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/embedly-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/embedly-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/embedly-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/embedly-cs2" %}

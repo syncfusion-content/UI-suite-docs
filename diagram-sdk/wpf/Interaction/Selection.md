@@ -53,13 +53,13 @@ Multiple selected elements are visually represented as shown.
 |ToggleSelection|Enables or disables single selection mode as ToggleSelection.It is used to perform selection or unselection again click the same node.|
 
 {% tabs %}
-{% highlight Xaml %}
+{% highlight xaml %}
 
 <Syncfusion:SfDiagram x:Name="Diagram" 
                       SingleSelectionMode="Select">
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 SfDiagram Diagram = new SfDiagram();
 
@@ -85,7 +85,7 @@ The `IsSelected` Property is used to select/unselect the elements at runtime.
 The following code example illustrates how to select/unselect an item  programmatically.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 // Selects an elements 
 node.IsSelected = true;
@@ -111,7 +111,7 @@ Multiple Selection will show the preview for the selected items. We have provide
 | [FirstSelectionIndicatorStyle](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.SfDiagram.html#Syncfusion_UI_Xaml_Diagram_SfDiagram_FirstSelectionIndicatorStyle) | Defines the customization option for selection preview of first selected item.|
 
 {% tabs %}
-{% highlight Xaml %}
+{% highlight xaml %}
 
     <Style TargetType="Shape" x:Key="FirstSelectionindicatorstyle">
         <Setter Property="StrokeThickness" Value="2"/>
@@ -137,7 +137,7 @@ Multiple Selection will show the preview for the selected items. We have provide
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 SfDiagram Diagram = new SfDiagram();
 

@@ -10,13 +10,13 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Serialization in Vue Diagram component
 
-**Serialization** is the process of converting the state of the [Vue Diagram](https://www.syncfusion.com/vue-components/vue-diagram) into a format that can be saved and later restored. This ensures that the diagram's current state, including its nodes, connectors, and configurations, can be persisted across sessions.
+**Serialization** is the process of converting the state of the [Vue Diagram](https://ej2.syncfusion.com/vue/documentation/api/diagram) into a format that can be saved and later restored. This ensures that the diagram's current state, including its nodes, connectors, and configurations, can be persisted across sessions.
 
 Serialization involves saving the diagram's state as a JSON string, which can then be stored in a database, file, or other storage medium. When needed, the serialized string can be deserialized to recreate the diagram in its previous state.
 
 ## Save
 
-The diagram is serialized as string while saving. The client-side method, [`saveDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#savediagram), helps to serialize the diagram as a string. This method captures the entire diagram's configuration and content, converting it into a string 
+The diagram is serialized as string while saving. The client-side method, [`saveDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram#savediagram), helps to serialize the diagram as a string. This method captures the entire diagram's configuration and content, converting it into a string 
 
 The following code illustrates how to save the diagram:
 
@@ -42,7 +42,7 @@ The diagram can also be saved as raster or vector image files. For more informat
 
 ## Load
 
-Diagram is loaded from the serialized string data by client-side method, [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#loaddiagram) method. The saved string should be passed as the parameter of the loadDiagram method. The following code illustrates how to load the diagram from serialized string data:
+Diagram is loaded from the serialized string data by client-side method, [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram#loaddiagram) method. The saved string should be passed as the parameter of the loadDiagram method. The following code illustrates how to load the diagram from serialized string data:
 
 ```ts
 
@@ -59,7 +59,7 @@ N> Before loading a new diagram, existing diagram is cleared.
 
 ## Loaded Event 
 
-The [`loaded`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#loaddiagram) method. You can use this event to customize diagram elements during the loading process.
+The [`loaded`](https://ej2.syncfusion.com/vue/documentation/api/diagram#loaded) event triggers when all diagram elements are loaded using [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram#loaddiagram) method. You can use this event to customize diagram elements during the loading process.
 
 ```ts
 <ejs-diagram id="diagram" :width='width' :height='height' :loaded='loaded'>
@@ -100,7 +100,7 @@ Users can perform customizations or modifications to the diagram elements once t
 
 ## Prevent default values
 
-The [`preventDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel/#preventdefaults) property of [`serializationSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel/) is used to simplify the saved JSON object by excluding default properties that are inherent to the diagram. This helps reduce the size of the serialized data and improves efficiency when saving and loading diagrams.
+The [`preventDefaults`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel#preventdefaults) property of [`serializationSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/serializationSettingsModel) is used to simplify the saved JSON object by excluding default properties that are inherent to the diagram. This helps reduce the size of the serialized data and improves efficiency when saving and loading diagrams.
 
 By enabling preventDefaults, only properties that you set in diagram are included in the serialized JSON object. This optimization is useful for scenarios where minimizing data size is crucial, such as in applications with large diagrams or when optimizing network transfers.
 
@@ -113,28 +113,46 @@ let diagram: Diagram = new Diagram({
 });
 ```
 
+## Detect unsaved changes
+
+The [isModified](https://ej2.syncfusion.com/vue/documentation/api/diagram#ismodified) property indicates whether the diagram has unsaved changes. It becomes **true** when the diagram is changed, such as when nodes, connectors, or diagram properties are updated, or when undo and redo actions are performed.
+
+For example, this property can be used to show a save indicator or display a warning message before closing or navigating away from a diagram with unsaved changes.
+
+```ts
+// Check whether the diagram has unsaved changes.
+if (diagram.isModified) {
+    const confirmed = confirm('There are unsaved changes. Discard them?');
+
+    if (!confirmed) {
+        return;
+    }
+}
+```
+
+N> Transient interactions such as zooming, panning, or selecting elements do not affect the `isModified` state.
 
 ## Save and load diagram using Uploader control
 
 The JSON files can be uploaded using the Uploader component, where they are parsed to extract the JSON data they contain. To achieve this, configure the Uploader component with the saveUrl property to receive uploaded files and store them on the server. Similarly, use the removeUrl property to handle file removal operations on the server.
 
-When a JSON file is uploaded, it undergoes parsing to extract its JSON data. This data is then loaded into the diagram using the [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#loaddiagram) method.
+When a JSON file is uploaded, it undergoes parsing to extract its JSON data. This data is then loaded into the diagram using the [`loadDiagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram#loaddiagram) method.
 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs1/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs1/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs1" %}
 
 ## Importing and Exporting Diagrams using Mermaid Syntax
 
-The [`Diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/) supports saving diagrams in Mermaid syntax format. Mermaid is a Markdown-inspired syntax that automatically generates diagrams. With this functionality, you can easily create mind maps, flowcharts, and UML sequence diagrams from Mermaid syntax data, simplifying the visualization of complex ideas and processes without manual drawing. Additionally, you can export your mind maps, flowcharts, and UML sequence diagrams to Mermaid syntax, allowing for easy sharing, editing, and use across different platforms.
+The [`Diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram) supports saving diagrams in Mermaid syntax format. Mermaid is a Markdown-inspired syntax that automatically generates diagrams. With this functionality, you can easily create mind maps, flowcharts, and UML sequence diagrams from Mermaid syntax data, simplifying the visualization of complex ideas and processes without manual drawing. Additionally, you can export your mind maps, flowcharts, and UML sequence diagrams to Mermaid syntax, allowing for easy sharing, editing, and use across different platforms.
 
 ### Save diagram as Mermaid syntax
 
@@ -148,7 +166,7 @@ let data = diagramInstance.saveDiagramAsMermaid();
 
 ### Load diagram from Mermaid syntax
 
-You can load a [`diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram/) from the serialized Mermaid syntax data using the `loadDiagramFromMermaid` method. The following code illustrates how to load a diagram from a Mermaid string data.
+You can load a [`diagram`](https://ej2.syncfusion.com/vue/documentation/api/diagram) from the serialized Mermaid syntax data using the `loadDiagramFromMermaid` method. The following code illustrates how to load a diagram from a Mermaid string data.
 
 #### Load Flowchart layout
 
@@ -156,14 +174,14 @@ The following example shows how to load flowchart diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs2/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs2/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs2" %}
 
 
 #### Load Mind Map layout
@@ -172,14 +190,14 @@ The following example shows how to load mind map diagram from mermaid syntax.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs3/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs3/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs3" %}
 
 #### Load UML Sequence diagram
 
@@ -187,13 +205,13 @@ The following example shows how to load UML Sequence diagram from mermaid syntax
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs4/app-composition.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/diagram-sdk/vue/vue/vue/serialisation/serialisation-cs4/app.vue %}
+{% include code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/serialisation/serialisation-cs4" %}
 
 N> Mermaid syntax-based serialization and deserialization is supported only for Flowchart layout, Mind map layout, and UML Sequence Diagram. Ensure that your Mermaid data aligns with one of these supported layouts to enable successful diagram loading.

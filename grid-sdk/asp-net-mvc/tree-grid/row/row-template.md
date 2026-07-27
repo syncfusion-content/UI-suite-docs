@@ -16,10 +16,10 @@ The **RowTemplate** has an option to customize the look and behavior of the tree
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/row-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/row-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/row-template/row-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/row-template/row-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ The **RowTemplate** has an option to customize the look and behavior of the tree
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/row-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/row-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Row-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/row-template/row-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/row-template/row-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -47,10 +47,10 @@ If the [`RowTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/rowtemplate-formatting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/rowtemplate-formatting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rowtemplate-formatting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/rowtemplate-formatting/rowtemplate-formatting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/rowtemplate-formatting/rowtemplate-formatting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,10 +58,10 @@ If the [`RowTemplate`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/rowtemplate-formatting/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/rowtemplate-formatting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Rowtemplate-formatting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/row/rowtemplate-formatting/rowtemplate-formatting.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/row/rowtemplate-formatting/rowtemplate-formatting.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

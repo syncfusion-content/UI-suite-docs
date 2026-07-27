@@ -14,7 +14,7 @@ The [Undo](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IDiagra
 `Undo` and `Redo` actions are disabled by default, to enable this you can use the `Constraints` property of the SfDiagram.  Please refer to the [GraphConstraints](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.GraphConstraints.html).
 
 {% tabs %}
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Syncfusion:SfDiagram x:Name="diagramcontrol" Constraints="Default,Undoable"/>
 
@@ -23,7 +23,7 @@ The [Undo](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IDiagra
 <Button Height="50" Content="Redo" Name="Redo" Command="Syncfusion:DiagramCommands.Redo"></Button>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 // To enable the Undo and Redo action
 diagramcontrol.Constraints |= GraphConstraints.Undoable;

@@ -13,13 +13,13 @@ The [`Flip`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IDiag
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="Flip" Name="Flip" Command="Syncfusion:DiagramCommands.Flip"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
             IGraphInfo graphinfo = Diagram.Info as IGraphInfo;
             // Apply flip to selected objects.

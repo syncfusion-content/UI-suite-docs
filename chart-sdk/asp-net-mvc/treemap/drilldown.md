@@ -16,19 +16,6 @@ The TreeMap supports drill-down to expose the hierarchy, achieved by clicking a 
 
 The TreeMap items can be drilled by setting the `enableDrillDown` property to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Drilldown.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown/drilldown.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown/razor %}
@@ -37,7 +24,6 @@ The TreeMap items can be drilled by setting the `enableDrillDown` property to **
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown/drilldown.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -47,19 +33,6 @@ The TreeMap items can be drilled by setting the `enableDrillDown` property to **
 
 All the child items are rendered during the normal drill-down process, and visible at the initial rendering of the TreeMap. But on-demand data loading, it will not render child items at initial rendering, and child nodes will be rendered during the drill-down process by setting the `drillDownView` property to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-demand/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Drilldown-demand.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-demand/drilldown-demand.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-demand/razor %}
@@ -68,7 +41,6 @@ All the child items are rendered during the normal drill-down process, and visib
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-demand/drilldown-demand.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -78,19 +50,6 @@ All the child items are rendered during the normal drill-down process, and visib
 
 TreeMap items are drilled, up to any level of parent using breadcrumb navigation and the level from root parent to current level is displayed at the top of item layout. It can be enabled by using the `enableBreadcrumb` property to **true** and customize the breadcrumb connector using the `breadcrumbConnector` property. By default, **-**(hyphen) is the connector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-breadcrumb/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Drilldown-breadcrumb.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-breadcrumb/drilldown-breadcrumb.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-breadcrumb/razor %}
@@ -99,7 +58,6 @@ TreeMap items are drilled, up to any level of parent using breadcrumb navigation
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/drilldown/drilldown-breadcrumb/drilldown-breadcrumb.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

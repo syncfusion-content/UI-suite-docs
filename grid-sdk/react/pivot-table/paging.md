@@ -30,14 +30,14 @@ You can also change the position, visibility, compact view, and template of the 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs201/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs201/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs201/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs201/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs201" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs201" %}
 
 ### Show pager UI at top or bottom
 
@@ -47,14 +47,14 @@ The following code demonstrates how to configure the pager UI to appear at the t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs202/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs202/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs202/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs202/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs202" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs202" %}
 
 ### Inverse pager
 
@@ -62,14 +62,14 @@ The Pivot Table allows you to toggle the positions of the row and column pagers 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs203/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs203/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs203/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs203/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs203" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs203" %}
 
 ### Compact view
 
@@ -77,14 +77,14 @@ The Pivot Table provides a compact view for the pager UI, displaying only the pr
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs204/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs204/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs204/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs204/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs204" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs204" %}
 
 ### Show or hide paging option
 
@@ -94,14 +94,14 @@ The following code demonstrates how to hide the row pager by setting the [`showR
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs205/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs205/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs205/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs205/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs205" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs205" %}
 
 ### Show or hide page size
 
@@ -109,14 +109,14 @@ The Pivot Table allows you to control the visibility of the "Rows per page" and 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs206/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs206/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs206/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs206/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs206" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs206" %}
 
 ### Customize page size
 
@@ -126,14 +126,14 @@ The following example sets the "Rows per page" dropdown with page sizes of 10, 2
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs207/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs207/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs207/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs207/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs207" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs207" %}
 
 ### Template
 
@@ -143,11 +143,11 @@ This following example shows how to create a custom template for both row and co
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/pagingTemplate-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/pagingTemplate-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/pagingTemplate-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/pagingTemplate-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/pagingTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/pagingTemplate-cs1" %}

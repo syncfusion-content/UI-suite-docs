@@ -16,7 +16,7 @@ The column [`Template`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2
 
 {% tabs %}
 {% highlight c# tabtitle="Column-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-template/column-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-template/column-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -24,10 +24,10 @@ The column [`Template`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Column-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-template/column-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-template/column-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -56,7 +56,7 @@ In the following code, checkbox is rendered based on **Approved** field value.
 
 {% tabs %}
 {% highlight c# tabtitle="Using-condition-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/using-condition-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/using-condition-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ In the following code, checkbox is rendered based on **Approved** field value.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Using-condition-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/using-condition-template.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/using-condition-template/using-condition-template.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -102,7 +102,7 @@ Refer to the below complete code example about how to render dropdown component 
 
 {% tabs %}
 {% highlight c# tabtitle="Using-condition-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/render-other-comp.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/render-other-comp.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ Refer to the below complete code example about how to render dropdown component 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Using-condition-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/render-other-comp.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/render-other-comp/render-other-comp.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

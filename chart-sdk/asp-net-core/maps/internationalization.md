@@ -27,8 +27,6 @@ Globalization is the process of designing and developing a component that works 
 
 The numeric formats such as currency, percentage and so on can be displayed in the tooltip and data labels of the Maps using the `Format` property in the `Maps`. In the below example, the tooltip is globalized to **German** culture. When setting the `UseGroupingSeparator` property as **true**, the numeric text in the Maps separates with the comma separator.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/Internationalization/tagHelper %}
@@ -37,18 +35,6 @@ The numeric formats such as currency, percentage and so on can be displayed in t
 {% include code-snippet/chart-sdk/asp-net-core/maps/Internationalization/internationalization.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/Internationalization/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Internationalization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/Internationalization/internationalization.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

@@ -17,10 +17,10 @@ You can enable filter menu by setting the [`type`](https://help.syncfusion.com/c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterMenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu/filterMenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu/filterMenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ You can enable filter menu by setting the [`type`](https://help.syncfusion.com/c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterMenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu/filterMenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu/filterMenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -55,10 +55,10 @@ In the following sample, dropdown is used  as custom component in the duration c
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu-ui/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu-ui/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterMenuUI.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu-ui/filterMenuUI.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu-ui/filterMenuUI.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -66,10 +66,10 @@ In the following sample, dropdown is used  as custom component in the duration c
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu-ui/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu-ui/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FilterMenuUI.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/filter-menu-ui/filterMenuUI.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/filter-menu-ui/filterMenuUI.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -86,10 +86,10 @@ In the following sample menu filter is enabled by default and excel filter is en
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/diffcolumnfilter/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/diffcolumnfilter/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Diffcolumnfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/diffcolumnfilter/diffcolumnfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/diffcolumnfilter/diffcolumnfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -97,10 +97,10 @@ In the following sample menu filter is enabled by default and excel filter is en
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/diffcolumnfilter/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/diffcolumnfilter/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Diffcolumnfilter.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/filtering/diffcolumnfilter/diffcolumnfilter.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/filtering/diffcolumnfilter/diffcolumnfilter.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

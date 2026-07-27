@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Resizable Editor in the React Rich Text Editor Component
 
-The resizable editor feature allows dynamic resizing of the editor. Enable or disable this feature using the [enableResize](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#enableresize) property in the Rich Text Editor. When `enableResize` is set to `true`, a grip appears at the bottom right corner for diagonal resizing.
+The resizable editor feature allows dynamic resizing of the editor. Enable or disable this feature using the [enableResize](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#enableresize) property in the Rich Text Editor. When `enableResize` is set to `true`, a grip appears at the bottom right corner for diagonal resizing.
 
 > To use the Resizable feature, inject resize module using the `RichTextEditor.Inject(Resize)`.
 
@@ -20,27 +20,27 @@ The following sample demonstrates enabling the resizable feature:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs56/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs56/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs56/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs56/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs56" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs56" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs57/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs57/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs57/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs57/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs57" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs57" %}
 
 ## Restrict resize
 
@@ -65,27 +65,27 @@ For example, add the following to the `app.component.css` file:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/resizable-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/resizable-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/resizable-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/resizable-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/resizable-cs2" %}
 
 
 ## See also

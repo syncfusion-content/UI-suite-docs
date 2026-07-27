@@ -16,10 +16,10 @@ Integrating a Rich Text Editor within Tab control provides a versatile and organ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ Integrating a Rich Text Editor within Tab control provides a versatile and organ
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/richtexteditor-inside-tab/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

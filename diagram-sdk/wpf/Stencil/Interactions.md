@@ -59,7 +59,7 @@ Stencil allows users to clone symbols from one [SymbolGroup](https://help.syncfu
 Stencil provides support to reorder the symbols within the specific [SymbolGroup](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.SymbolGroup.html). By default, symbols reordering will be enabled. Symbol reordering can be disabled by removing `AllowDragDrop` constraint from
 [`StencilConstraints`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.StencilConstraints.html) property of stencil class.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Enables the the symbols reordering.
 stencil.StencilConstraints |= StencilConstraints.AllowDragDrop;
@@ -86,7 +86,7 @@ To explore about arguments, refer to this [ItemDropEventArgs](https://help.syncf
 
 When you drag an item from the stencil to the diagram, a preview of the dragged item will be displayed. Preview of the item can be enabled or disabled by using `ShowPreview` constraint from [`StencilConstraints`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.StencilConstraints.html) property.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Enables the drag and drop preview.
 stencil.Constraints = stencil.Constraints | StencilConstraints.ShowPreview;
@@ -105,7 +105,7 @@ Here, the stencil is an instance of Stencil.
 You can customize the preview content by overriding the [PrepareDragDropPreview](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.Stencil.html#Syncfusion_UI_Xaml_Diagram_Stencil_Stencil_PrepareDragDropPreview) method of the stencil. You can also define your customized preview to the [`SymbolPreview`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Stencil.Stencil.html#Syncfusion_UI_Xaml_Diagram_Stencil_Stencil_SymbolPreview) property of the stencil.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 public class CustomStencil : Stencil
 {
     //Virtual method to customize the preview of dragging the symbol from a stencil.
@@ -145,7 +145,7 @@ The following code example explains how to cancel item drop of basic shapes from
 ExpandMode="ZeroOrMore" BorderBrush="#dfdfdf" BorderThickness="1">
 </local:CustomStencil>
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 //Creating the diagram instance.
 SfDiagram diagram = new SfDiagram();
 //Hook the item drop event of diagram.
@@ -175,7 +175,7 @@ By default, the cursor appears as a block cursor when dragging the symbol (from 
 The Diagram control allows you to drag and drop elements from a stencil using the serialization and deserialization approach, but it does not serialize the framework properties like the [`Content`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.NodeViewModel.html#Syncfusion_UI_Xaml_Diagram_NodeViewModel_Content) and [`ContentTemplate`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.NodeViewModel.html#Syncfusion_UI_Xaml_Diagram_NodeViewModel_ContentTemplate) properties. So, you need to retain templates as a resource and reassign them once it loaded back in the diagram. This can be achieved by using the `ItemAddedEvent` to restore the `Content` and `ContentTemplate` property values.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 private void MainWindow_ItemAdded(object sender, ItemAddedEventArgs args) 
 { 

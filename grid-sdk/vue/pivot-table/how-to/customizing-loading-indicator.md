@@ -16,14 +16,14 @@ The [`spinnerTemplate`](https://ej2.syncfusion.com/vue/documentation/api/pivotvi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/common-cs11/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/common-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/common-cs11/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/common-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/common-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/common-cs11" %}
 
 ## Disabling the loading indicator
 

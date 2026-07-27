@@ -15,21 +15,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The Code 39 character set includes the digits 0-9, the letters A-Z (upper case only), and the symbols: space, minus (-), plus (+), period (.), dollar sign ($), slash (/), and percent (%). A special start / stop character is placed at the beginning and ending of each barcode. The barcode can be of any length; even more than 25 characters begin to push the bounds. Code 39 is the only type of barcode that does not require a checksum for common use.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs1/index.js %}
@@ -40,26 +25,10 @@ The Code 39 character set includes the digits 0-9, the letters A-Z (upper case o
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs1" %}
-{% endif %}
 
 ## Code39 Extended
 
 Code 39 Extended is an extended version of Code 39 that supports ASCII character set. In Code 39 Extended, you can also code 26 lower letters (a-z) and the special characters in the keyboard.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,26 +40,10 @@ Code 39 Extended is an extended version of Code 39 that supports ASCII character
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs2" %}
-{% endif %}
 
 ## Code 11
 
 Code 11 is used primarily for labeling the telecommunication equipment’s. The character set includes the digits 0 to 9, a dash (-), and a start / stop code.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -102,7 +55,6 @@ Code 11 is used primarily for labeling the telecommunication equipment’s. The 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs3" %}
-{% endif %}
 
 ## Codabar
 
@@ -111,21 +63,6 @@ Codabar is a variable length symbol that encodes the following 20 characters:
 0123456789-$:/.+ABCD
 
 The characters, A, B, C and D are used as start and stop characters. Codabar is used in libraries, blood banks, the package delivery industry and a variety of other information processing applications.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -137,7 +74,6 @@ The characters, A, B, C and D are used as start and stop characters. Codabar is 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs4" %}
-{% endif %}
 
 ## Code 32
 
@@ -147,21 +83,6 @@ Code 32 is mainly used for coding pharmaceuticals, cosmetics and dietetics. It i
 * 1 digit for checksum module 10, that is automatically calculated by barcode.
 
 The value to be encoded must be 8 digits Pharmacode (prefix it with ‘0’ if necessary) and the 9th digit (the checksum) is automatically calculated by barcode.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -173,26 +94,10 @@ The value to be encoded must be 8 digits Pharmacode (prefix it with ‘0’ if n
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs5" %}
-{% endif %}
 
 ## Code 93
 
 Code 93 is designed to complement and improve upon Code 39. It can represent the entire ASCII character set by using combinations of 2 characters. Code 93 is a continuous, variable-length symbology and produces denser code. The Standard Mode (default implementation) can encode uppercase letters (A-Z), digits (0-9), and special characters like *, -, $, %, (Space), ., /, and +.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -204,7 +109,6 @@ Code 93 is designed to complement and improve upon Code 39. It can represent the
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs6" %}
-{% endif %}
 
 ## Code 93 Extended
 
@@ -224,21 +128,6 @@ Code 128 is a variable length, high density, alphanumeric, linear bar code symbo
 
 The last seven characters of Code Sets A and B (character values 96 - 102) and the last three characters of Code Set C (character values 100 - 102) are special non-data characters with no ASCII character equivalents that have a particular significance to the Barcode reading device.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs7/index.js %}
@@ -249,26 +138,10 @@ The last seven characters of Code Sets A and B (character values 96 - 102) and t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs7" %}
-{% endif %}
 
 ## Customizing the Barcode color
 
 A page or printed media with barcode often appears colorful in the background and surrounding region with other contents. In such cases the barcode can also be customized to suit the needs. You can achieve this by using for forecolor property .
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -280,26 +153,10 @@ A page or printed media with barcode often appears colorful in the background an
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs8" %}
-{% endif %}
 
 ## Customizing the Barcode dimension
 
 The dimension of the barcode can be changed using the height and width property of the barcodegenerator.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -311,26 +168,10 @@ The dimension of the barcode can be changed using the height and width property 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs9" %}
-{% endif %}
 
 ## Customizing the text
 
 In barcode generators you can customize the barcode text by using display text property .
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -342,4 +183,3 @@ In barcode generators you can customize the barcode text by using display text p
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/barcode-generator/BarcodeGenerator-cs10" %}
-{% endif %}

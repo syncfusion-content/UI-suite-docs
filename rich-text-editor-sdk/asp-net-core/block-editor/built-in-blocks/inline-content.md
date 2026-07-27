@@ -132,10 +132,10 @@ The below sample demonstrates the customization of labels in the Block Editor.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/label-settings/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/label-settings/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Label.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/label-settings/label.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/label-settings/label.cs %}
 {% endhighlight %}
 {% endtabs %}
 

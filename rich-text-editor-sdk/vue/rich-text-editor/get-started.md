@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Getting Started with the Vue richtexteditor Component in Vue 3
 
-This article provides a step-by-step guide for setting up a [Vite](https://vitejs.dev/) project with a JavaScript environment and integrating the Syncfusion Vue Rich Text Editor component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
+This article provides a step-by-step guide for setting up a [Vite](https://vite.dev/) project with a JavaScript environment and integrating the Syncfusion Vue Rich Text Editor component using the [Composition API](https://vuejs.org/guide/introduction.html#composition-api) / [Options API](https://vuejs.org/guide/introduction.html#options-api).
 
 The `Composition API` is a new feature introduced in Vue.js 3 that provides an alternative way to organize and reuse component logic. It allows developers to write components as functions that use smaller, reusable functions called composition functions to manage their properties and behavior.
 
@@ -22,7 +22,7 @@ The `Options API` is the traditional way of writing Vue.js components, where the
 
 ## Set up the Vite project
 
-A recommended approach for beginning with Vue is to scaffold a project using [Vite](https://vitejs.dev/). To create a new Vite project, use one of the commands that are specific to either NPM or Yarn.
+A recommended approach for beginning with Vue is to scaffold a project using [Vite](https://vite.dev/). To create a new Vite project, use one of the commands that are specific to either NPM or Yarn.
 
 ```bash
 npm create vite@latest
@@ -85,7 +85,7 @@ Now that `my-project` is ready to run with default settings, let's add Syncfusio
 
 Syncfusion Vue component packages are available at [npmjs.com](https://www.npmjs.com/search?q=ej2-vue). To use Syncfusion Vue components in the project, install the corresponding npm package.
 
-This article uses the [Vue Rich Text Editor component](https://www.syncfusion.com/vue-components/vue-richtexteditor) as an example. To use the Vue Rich Text Editor component in the project, the `@syncfusion/ej2-vue-richtexteditor` package needs to be installed using the following command:
+This article uses the [Vue Rich Text Editor component](https://www.syncfusion.com/rich-text-editor-sdk/vue-rich-text-editor) as an example. To use the Vue Rich Text Editor component in the project, the `@syncfusion/ej2-vue-richtexteditor` package needs to be installed using the following command:
 
 ```bash
 npm install @syncfusion/ej2-vue-richtexteditor --save

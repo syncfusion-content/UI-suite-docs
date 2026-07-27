@@ -38,27 +38,27 @@ Refer to the sample below to configure these basic text styling options in the R
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-text-styling-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-text-styling-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-text-styling-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-text-styling-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-text-styling-cs2" %}
 
 ## Text alignments
 
@@ -86,27 +86,27 @@ Refer to the sample and code snippets below to configure these alignment options
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/text-alignments-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/text-alignments-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/text-alignments-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/text-alignments-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/text-alignments-cs2" %}
 
 ## Lists and formatting
 
@@ -137,7 +137,7 @@ For more detailed control over the numbering style, use the `numberFormatList` d
 * `Lower Alpha`: Uses lowercase letters (a, b, c, ...)
 * `Upper Roman`: Employs uppercase Roman numerals (I, II, III, ...)
 
-You can customize the available number formats using the [numberFormatList](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#numberformatlist) property of the Rich Text Editor.
+You can customize the available number formats using the [numberFormatList](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#numberformatlist) property of the Rich Text Editor.
 
 The following example demonstrates how to configure both ordered and unordered list formats in the Rich Text Editor.
 
@@ -145,27 +145,27 @@ The following example demonstrates how to configure both ordered and unordered l
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs2" %}
 
 ### Unordered lists
 
@@ -192,27 +192,27 @@ The following example demonstrates how to customize the bullet format lists in t
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs3" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-lists-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-lists-cs4" %}
 
 ### Checklist
 
@@ -237,27 +237,27 @@ Below is an example of how to configure the Checklist in the Rich Text Editor:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/checklist-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/checklist-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/checklist-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/checklist-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/checklist-cs2" %}
 
 ## Nested list creation using Tab key
 
@@ -271,7 +271,7 @@ Please refer to the below video for visual behavior and interaction examples:
 
 The Rich Text Editor allows you to set indentation for text blocks such as paragraphs, headings, or lists. This feature helps you visually organize and structure your content, making it easier to read and understand.
 
-The Rich Text Editor allows you to configure two types of indentation tools, `Indent` and `Outdent` tool in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) property.
+The Rich Text Editor allows you to configure two types of indentation tools, `Indent` and `Outdent` tool in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 | Options | Description |
 |----------------|---------|
@@ -290,27 +290,27 @@ To configure the `Indent` and `Outdent` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/indent-and-outdent-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/indent-and-outdent-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/indent-and-outdent-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/indent-and-outdent-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/indent-and-outdent-cs2" %}
 
 ### Indentation in lists
 
@@ -363,27 +363,27 @@ Below are examples and code snippets demonstrating how to integrate and utilize 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs2" %}
 
 ### Custom format
 
@@ -402,27 +402,27 @@ Below are examples demonstrating how to customize the format dropdown.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs3" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/headings-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/headings-cs4" %}
 
 ## Quotation formatting
 
@@ -436,27 +436,27 @@ Use the `Blockquote` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/quotation-formatting-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/quotation-formatting-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/quotation-formatting-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/quotation-formatting-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/quotation-formatting-cs2" %}
 
 > In a markdown editor, blockquotes are represented using the `>` symbol.
 
@@ -474,27 +474,27 @@ While the toolbar does not provide a direct method to apply blockquote formattin
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/nested-blockquote-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/nested-blockquote-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/nested-blockquote-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/nested-blockquote-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/nested-blockquote-cs2" %}
 
 ## Line Height
 
@@ -502,67 +502,67 @@ The Rich Text Editor supports line height feature which allows users to adjust t
 
 ### Built-in line height
 
-You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 `[Class-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height" %}
 
-The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#lineheight) property.
+The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#lineheight) property.
 
 ### Custom line height
 
-The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#lineheight) property. This allows you to extend the available line height options beyond the default selection.
+The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#lineheight) property. This allows you to extend the available line height options beyond the default selection.
 
-The [`supportAllValues`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
+The [`supportAllValues`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
 
 `[Class-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/line-height-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/line-height-cs1" %}
 
 ## Horizontal line
 
@@ -576,27 +576,27 @@ Use the `HorizontalLine` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/horizontal-line/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/horizontal-line/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/horizontal-line/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/horizontal-line/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/horizontal-line" %}
 
 ## Format painter
 
@@ -604,7 +604,7 @@ The Format Painter tool enables users to replicate formatting from one text segm
 
 ### Configuring format painter tool in the toolbar
 
-You can add the `FormatPainter` tool in the Rich Text Editor using the [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add the `FormatPainter` tool in the Rich Text Editor using the [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 > To use Format Painter feature, inject Format Painter module using the `<Inject services={[FormatPainter]} />`.
 
@@ -616,31 +616,31 @@ The following code example shows how to add the format painter tool in the Rich 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs3" %}
 
 ### Customizing copy and paste format
 
-You can customize the format painter tool in the Rich Text Editor using the [formatPainterSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/formatPainterSettings) property.
+You can customize the format painter tool in the Rich Text Editor using the [formatPainterSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/formatpaintersettings) property.
 
 The [allowedFormats](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/formatpaintersettingsmodel#allowedformats) property helps you to specify tag names that allow the formats to be copied from the selected text. For instance, you can include formats from the selected text using tags like `p` `h1` `h2` `h3` `div` `ul` `ol` `li` `span` `strong` `em` `code`. The following example demonstrates how to customize this functionality.
 
@@ -660,27 +660,27 @@ The following example illustrates how to configure `allowedFormats` and `deniedF
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs2" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/format-painter-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/format-painter-cs4" %}
 
 ### Shortcut keys for copy and paste format
 
@@ -705,7 +705,7 @@ This feature is particularly useful when you need to:
 To enable the `ClearFormat` feature in your Rich Text Editor, you need to add it to the toolbar items. Follow these steps:
 
 1. Open your component file where you've implemented the Rich Text Editor.
-2. Locate the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) property in your Rich Text Editor configuration.
+2. Locate the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) property in your Rich Text Editor configuration.
 3. Add `'ClearFormat'` to the `items` array within `toolbarSettings`.
 
 Here's an example of how to configure the Clear Format feature:
@@ -714,10 +714,10 @@ Here's an example of how to configure the Clear Format feature:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -725,10 +725,10 @@ Here's an example of how to configure the Clear Format feature:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -746,27 +746,27 @@ Using `Clear Format` makes it easy to undo styling changes and keep your text lo
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs3" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/remove-formatting-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/remove-formatting-cs4" %}
 
 ## Markdown Auto Format
 
@@ -811,24 +811,24 @@ Elements such as headings, lists, blockquotes, and code block are converted **on
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/markdown-autoformat-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/markdown-autoformat-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/markdown-autoformat-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/markdown-autoformat-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/markdown-autoformat-cs2" %}

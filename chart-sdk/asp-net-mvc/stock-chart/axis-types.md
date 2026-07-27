@@ -15,19 +15,6 @@ documentation: ug
 
 DateTime axis uses date time scale and displays the date time values as axis labels in the specified format. To use DateTime axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTime`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Datetime.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/datetime.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/razor %}
@@ -36,26 +23,12 @@ DateTime axis uses date time scale and displays the date time values as axis lab
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetime/datetime.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## DateTimeCategory axis
 
 DateTimeCategory axis in the stock chart is used to display only business days. To use DateTimeCategory axis, set the [`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `DateTimeCategory`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetimecategory/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Datetimecategory.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetimecategory/datetimecategory.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,7 +38,6 @@ DateTimeCategory axis in the stock chart is used to display only business days. 
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/datetimecategory/datetimecategory.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -75,19 +47,6 @@ DateTimeCategory axis in the stock chart is used to display only business days. 
 
 Logarithmic axis uses logarithmic scale and it is very useful in visualizing data, when it has numerical values in both lower order of magnitude (eg: 10<sup>-6</sup>) and higher order of magnitude (eg: 10<sup>6</sup>). To use Logarithmic axis, set the[`ValueType`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.StockChartStockChartAxis.html#Syncfusion_EJ2_Charts_StockChartStockChartAxis_ValueType) of axis to `Logarithmic`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Log.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/log.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/razor %}
@@ -96,7 +55,6 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing dat
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/log/log.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

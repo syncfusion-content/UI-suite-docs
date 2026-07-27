@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Clipboard Cleanup in Angular Rich Text Editor Component
 
-The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor#enableClipboardCleanup) property.
+The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#enableClipboardCleanup) property.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To enable clipboard cleanup, include the `ClipboardCleanupService` in the providers section.
 
@@ -20,33 +20,33 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/clipboard-cleanup-default/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup-default/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/clipboard-cleanup-default/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup-default/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup-default" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup-default" %}
 
 ## Customizing Copied/Cut Content
 
-You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor#beforeClipboardWrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
+You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#beforeClipboardWrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
 
 In this example, the `beforeClipboardWrite` event is used to customize the selected content only during a copy operation, while the cut operation remains unaffected. To observe this behavior, try copying any text within the Rich Text Editor.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/clipboard-cleanup/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/clipboard-cleanup/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/clipboard-cleanup" %}
 
 ## Best Practices & Troubleshooting
 

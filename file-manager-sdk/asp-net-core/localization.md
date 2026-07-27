@@ -114,10 +114,10 @@ The example below shows how to add the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/locale/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/locale/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/locale/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/locale/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -125,10 +125,10 @@ The example below shows how to add the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/locale/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/locale/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/locale/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/locale/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -147,7 +147,7 @@ It is possible to render the File Manager in right-to-left direction by setting 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/rtl/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/rtl/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,10 +159,10 @@ It is possible to render the File Manager in right-to-left direction by setting 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/rtl/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/rtl/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/rtl/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-core/rtl/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 

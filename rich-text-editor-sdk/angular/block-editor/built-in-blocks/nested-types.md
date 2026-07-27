@@ -67,18 +67,18 @@ This example shows how to configure `CollapsibleHeading` and `CollapsibleParagra
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/toggle-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/toggle-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/toggle-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/toggle-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/toggle-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/toggle-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/toggle-block" %}
 
 ### Configure placeholder
 
@@ -125,18 +125,18 @@ The following sample demonstrates how to configure quote block.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/quote/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/quote/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/quote/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/quote/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/quote/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/quote/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/quote" %}
 
 ## Configure callout block
 
@@ -164,15 +164,15 @@ The following sample demonstrates how to configure callout block.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/callout/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/callout/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/callout/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/callout/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/children/callout/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/children/callout/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/children/callout" %}

@@ -19,10 +19,10 @@ To enable Dialog edit, set the [`Mode`](https://help.syncfusion.com/cr/cref_file
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-dialog/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-dialog/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditDialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-dialog/editDialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-dialog/editDialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ To enable Dialog edit, set the [`Mode`](https://help.syncfusion.com/cr/cref_file
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-dialog/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-dialog/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EditDialog.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/editing/edit-dialog/editDialog.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/editing/edit-dialog/editDialog.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -118,21 +118,6 @@ chart.appendTo('#element');
 
 By default, the pie series will be rendered when assigning the JSON data to the series using the [`dataSource`](../api/accumulation-chart/accumulationSeries/#datasource) property. Map the field names in the JSON data to the [`xName`](../api/accumulation-chart/accumulationSeries/#xname) and [`yName`](../api/accumulation-chart/accumulationSeries/#yname) properties of the series.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs25/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs25/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs25" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs25/index.js %}
@@ -143,7 +128,6 @@ By default, the pie series will be rendered when assigning the JSON data to the 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/accumulation-chart/chart-types-cs25" %}
-{% endif %}
 
 Now, use the `npm run start` command to run the application in the browser.
 

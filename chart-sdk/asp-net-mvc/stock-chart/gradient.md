@@ -44,19 +44,6 @@ Properties for `ChartGradientColorStop`:
 
 Apply a linear gradient to a series by adding `LinearGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-linear/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-linear/series-linear.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-linear/razor %}
@@ -65,24 +52,10 @@ Apply a linear gradient to a series by adding `LinearGradient` inside the target
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-linear/series-linear.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Technical Indicators
 
 Apply a linear gradient to a technical indicator by adding `LinearGradient` inside the target Indicator.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-linear/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-linear/indicators-linear.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -92,7 +65,6 @@ Apply a linear gradient to a technical indicator by adding `LinearGradient` insi
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-linear/indicators-linear.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Radial gradient
 
@@ -118,19 +90,6 @@ In the `ChartGradientColorStop`:
 
 Apply a radial gradient to a series by adding `RadialGradient` inside the target Series. The same gradient is applied to the series markers, legend symbol and tooltip marker for visual consistency.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-radial/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-radial/series-radial.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-radial/razor %}
@@ -139,24 +98,10 @@ Apply a radial gradient to a series by adding `RadialGradient` inside the target
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/series-radial/series-radial.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Technical Indicators
 
 Apply a radial gradient to a technical indicator by adding `RadialGradient` inside the target Indicator.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-radial/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-radial/indicators-radial.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -166,5 +111,4 @@ Apply a radial gradient to a technical indicator by adding `RadialGradient` insi
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/gradient/indicators-radial/indicators-radial.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

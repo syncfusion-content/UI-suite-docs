@@ -44,18 +44,18 @@ Additionally add below styles in the `[src/styles.css]` file.
 The following example explains about how to configure the file browser within the Rich Text Editor.
 
 * Configure the `FileManager` toolbar item in the `toolbarSettings` API `items` property.
-* Set the `enable` property as `true` on [fileManagerSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#filemanagersettings) property to make the file browser in the  Rich Text Editor to appear on the `FileManager` toolbar click action.
+* Set the `enable` property as `true` on [fileManagerSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#filemanagersettings) property to make the file browser in the  Rich Text Editor to appear on the `FileManager` toolbar click action.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To use the file browser tool, configure `FileManagerService` in providers.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/file-browser-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/file-browser-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/file-browser-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/file-browser-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/file-browser-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/file-browser-cs1" %}

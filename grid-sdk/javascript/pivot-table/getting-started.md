@@ -36,7 +36,7 @@ To use local scripts and styles for Syncfusion<sup style="font-size:70%">&reg;</
 
 **1. Download Essential<sup style="font-size:70%">&reg;</sup> Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2):** Obtain the global scripts and styles from the [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installation location.
 
-**2. Copy Files to Resources Folder:** After installing the Essential<sup style="font-size:70%">&reg;</sup> JS 2 product build, copy the pivot table's scripts, and dependencies scripts and style file into the designated folders:
+**2. Copy Files to Resources Folder:** After installing the Essential<sup style="font-size:70%">&reg;</sup> JS 2 product build, copy the pivot table's scripts, dependent component scripts, and style files into the designated folders:
 
 **Scripts:** Copy the scripts to the **resources/scripts** folder.
 **Styles:** Copy the styles to the **resources/styles** folder.
@@ -55,7 +55,7 @@ To use local scripts and styles for Syncfusion<sup style="font-size:70%">&reg;</
 
 Here's an example of referencing the pivot table's scripts and styles in an HTML file:
 
-**a.Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
+**a. Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
 
 This setup includes only the necessary scripts and styles required to render the Syncfusion<sup style="font-size:70%">&reg;</sup> Pivot Table. Use this setup for a lightweight application that requires basic pivot table functionality.
 
@@ -67,7 +67,7 @@ This setup includes only the necessary scripts and styles required to render the
 <head>
     <title>Essential JS 2 Pivot Table</title>
 
-    <!-- Essential JS 2 Pivot Table's dependent bootstrap5.3 theme -->
+    <!-- Essential JS 2 Pivot Table's dependent tailwind3 theme -->
     <link href="resources/base/styles/tailwind3.css" rel="stylesheet" type="text/css" />
     <link href="resources/popups/styles/tailwind3.css" rel="stylesheet" type="text/css" />
     <link href="resources/grids/styles/tailwind3.css" rel="stylesheet" type="text/css" />
@@ -88,8 +88,9 @@ This setup includes only the necessary scripts and styles required to render the
 
 ```
 
-**b.Extended Dependency (Additional Components)**
-This setup includes additional dependencies required for more advanced functionalities of the pivot table, such as buttons, dropdowns, navigations, and other components. Use this setup when you need to integrate additional features like field list, grouping bar, filtering, sorting and more.
+**b. Extended Dependency (Additional Components)**
+
+This setup includes additional dependencies required for more advanced functionalities of the pivot table, such as buttons, dropdowns, navigations, and other components. Use this setup when you need to integrate additional features like filtering, paging, column menu, and more.
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +99,7 @@ This setup includes additional dependencies required for more advanced functiona
 <head>
     <title>Essential JS 2 Pivot Table</title>
 
-    <!-- Essential JS 2 Pivot Table's dependent bootstrap5.3 theme -->
+    <!-- Essential JS 2 Pivot Table's dependent tailwind3 theme -->
     <link href="resources/base/styles/tailwind3.css" rel="stylesheet" type="text/css" />
     <link href="resources/popups/styles/tailwind3.css" rel="stylesheet" type="text/css" />
     <link href="resources/grids/styles/tailwind3.css" rel="stylesheet" type="text/css" />
@@ -127,7 +128,7 @@ This setup includes additional dependencies required for more advanced functiona
     <script src="resources/scripts/ej2-dropdowns.min.js" type="text/javascript"></script>
     <script src="resources/scripts/ej2-lists.min.js" type="text/javascript"></script>
     <script src="resources/scripts/ej2-inputs.min.js" type="text/javascript"></script>
-    <script src="resources/scripts/ej2-calenders.min.js" type="text/javascript"></script>
+    <script src="resources/scripts/ej2-calendars.min.js" type="text/javascript"></script>
     <script src="resources/scripts/ej2-notifications.min.js" type="text/javascript"></script>
     <script src="resources/scripts/ej2-splitbuttons.min.js" type="text/javascript"></script>
 
@@ -149,7 +150,7 @@ This setup includes all possible dependencies for Syncfusion<sup style="font-siz
 <head>
     <title>Essential JS 2 Pivot Table</title>
 
-    <!-- Essential JS 2 bootstrap5.3 theme -->
+    <!-- Essential JS 2 tailwind3 theme -->
     <link href="resources/styles/tailwind3.css" rel="stylesheet" type="text/css" />
     <!-- Essential JS 2 script -->
     <script src="resources/scripts/ej2.min.js" type="text/javascript"></script>
@@ -162,24 +163,24 @@ This setup includes all possible dependencies for Syncfusion<sup style="font-siz
 
 ### Using CDN link for script and style
 
-Using CDN links, you can directly refer the pivot table control's script and style into the `index.html`.
+Using CDN links, you can directly reference the pivot table control's script and style in the `index.html`.
 
-Refer the pivot table's CDN links as below
+Refer to the pivot table's CDN links below.
 
 **Syntax:**
 
-> Script: `http://cdn.syncfusion.com/ej2/{PACKAGE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-> Styles: `http://cdn.syncfusion.com/ej2/{PACKAGE_VERSION}/{PACKAGE_NAME}/styles/tailwind3.css`
+> Script: `https://cdn.syncfusion.com/ej2/{PACKAGE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
+> Styles: `https://cdn.syncfusion.com/ej2/{PACKAGE_VERSION}/{PACKAGE_NAME}/styles/tailwind3.css`
 
 **Example:**
 
-> Script: [https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/dist/global/ej2-pivotview.min.js](http://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/dist/global/ej2-pivotview.min.js)
+> Script: [https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/dist/global/ej2-pivotview.min.js](http://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/dist/global/ej2-pivotview.min.js)
 >
-> Styles: [https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/styles/tailwind3.css](http://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/styles/tailwind3.css)
+> Styles: [https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/styles/tailwind3.css](http://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/styles/tailwind3.css)
 
 Here's an example of referencing the pivot table's scripts and styles in an HTML file using CDN links:
 
-**a.Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
+**a. Essential<sup style="font-size:70%">&reg;</sup> Dependency (Minimal Setup)**
 
 This setup includes only the necessary scripts and styles required to render the Syncfusion<sup style="font-size:70%">&reg;</sup> Pivot Table. Use this setup for a lightweight application that requires basic pivot table functionality.
 
@@ -189,29 +190,29 @@ This setup includes only the necessary scripts and styles required to render the
        <head>
           <title>Essential JS 2 Pivot Table</title>
           
-          <!-- Essential JS 2 Pivot Table's dependent bootstrap5.3 theme -->
-          <link href="http://cdn.syncfusion.com/ej2/33.1.44/ej2-base/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="http://cdn.syncfusion.com/ej2/33.1.44/ej2-popups/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-grids/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
-          <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
+          <!-- Essential JS 2 Pivot Table's dependent tailwind3 theme -->
+          <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
+          <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
+          <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
+          <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/styles/tailwind3.css" rel="stylesheet" type="text/css"/>
 
           <!-- Essential JS 2 Pivot Table's dependent script -->
-          <script src="http://cdn.syncfusion.com/ej2/33.1.44/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-          <script src="http://cdn.syncfusion.com/ej2/33.1.44/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-          <script src="http://cdn.syncfusion.com/ej2/33.1.44/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
-          <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
+          <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+          <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+          <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+          <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
 
           <!-- Essential JS 2 Pivot Table's global script -->
-          <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/dist/global/ej2-pivotview.min.js" type="text/javascript"></script>
+          <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/dist/global/ej2-pivotview.min.js" type="text/javascript"></script>
        </head>
        <body>
        </body>
   </html>
 ```
 
-**b.Extended Dependency (Additional Components)**
+**b. Extended Dependency (Additional Components)**
 
-This setup includes additional dependencies required for more advanced functionalities of the pivot table, such as buttons, dropdowns, navigations and other components. Use this setup when you need to integrate additional features like filtering, paging, column menu and more.
+This setup includes additional dependencies required for more advanced functionalities of the pivot table, such as buttons, dropdowns, navigations, and other components. Use this setup when you need to integrate additional features like filtering, paging, column menu, and more.
 
 ```html
 <!DOCTYPE html>
@@ -219,45 +220,45 @@ This setup includes additional dependencies required for more advanced functiona
 
 <head>
     <title>Essential JS 2 Pivot Table</title>
-    <!-- Essential JS 2 Pivot Table's dependent bootstrap5.3 theme -->
-    <link href="http://cdn.syncfusion.com/ej2/33.1.44/ej2-base/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="http://cdn.syncfusion.com/ej2/33.1.44/ej2-popups/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="http://cdn.syncfusion.com/ej2/33.1.44/ej2-grids/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-buttons/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-navigations/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-dropdowns/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-lists/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-inputs/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-calendars/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-notifications/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-splitbuttons/styles/tailwind3.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <!-- Essential JS 2 Pivot Table's dependent tailwind3 theme -->
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/styles/tailwind3.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/styles/tailwind3.css" rel="stylesheet" type="text/css" />
 
     <!-- Essential JS 2 Pivot Table's dependent scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-popups/dist/global/ej2-popups.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/dist/global/ej2-popups.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
 
     <!-- Essential JS 2 Pivot Table's global script -->
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-pivotview/dist/global/ej2-pivotview.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pivotview/dist/global/ej2-pivotview.min.js" type="text/javascript"></script>
 
     <!-- Include Essential JS 2 other component's script based on features used -->
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-buttons/dist/global/ej2-buttons.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/dist/global/ej2-buttons.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-navigations/dist/global/ej2-navigations.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/dist/global/ej2-navigations.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-dropdowns/dist/global/ej2-dropdowns.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-dropdowns/dist/global/ej2-dropdowns.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-inputs/dist/global/ej2-inputs.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/dist/global/ej2-inputs.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-calenders/dist/global/ej2-calenders.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/dist/global/ej2-calendars.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-notifications/dist/global/ej2-notifications.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-notifications/dist/global/ej2-notifications.min.js"
         type="text/javascript"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js"
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js"
         type="text/javascript"></script>
 
 </head>
@@ -280,10 +281,10 @@ This setup includes all possible dependencies for Syncfusion<sup style="font-siz
 <head>
     <title>Essential JS 2 Pivot Table</title>
 
-    <!-- Essential JS 2 bootstrap5.3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/tailwind3.css" rel="stylesheet" type="text/css" />
+    <!-- Essential JS 2 tailwind3 theme -->
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/tailwind3.css" rel="stylesheet" type="text/css" />
     <!-- Essential JS 2 all script -->
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/dist/ej2.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -300,7 +301,7 @@ Based on your requirement, additional dependencies can be included as needed. In
 You can start adding Essential<sup style="font-size:70%">&reg;</sup> JS 2 pivot table component to the application. To get started, add the pivot table component in **index.js** file using the following code.
 
 {% tabs %}
-{% highlight ts tabtitle="index.js" %}
+{% highlight js tabtitle="index.js" %}
 
 var pivotData = [
     { 'Sold': 31, 'Amount': 52824, 'Country': 'France', 'Products': 'Mountain Bikes', 'Year': 'FY 2025', 'Quarter': 'Q1' },
@@ -330,10 +331,10 @@ pivotTableObj.appendTo('#PivotTable');
 <head>
     <title>Essential JS 2 Pivot Table</title>
 
-    <!-- Essential JS 2 bootstrap5.3 theme -->
-    <link href="https://cdn.syncfusion.com/ej2/33.1.44/tailwind3.css" rel="stylesheet" type="text/css" />
+    <!-- Essential JS 2 tailwind3 theme -->
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/tailwind3.css" rel="stylesheet" type="text/css" />
     <!-- Essential JS 2 all script -->
-    <script src="https://cdn.syncfusion.com/ej2/33.1.44/dist/ej2.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 
 </head>
 

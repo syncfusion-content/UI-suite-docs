@@ -44,33 +44,33 @@ The example below shows enabling/disabling directory upload via a DropDownButton
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/directory-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/directory-upload-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/directory-upload-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/directory-upload-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/directory-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/directory-upload-cs1" %}
 {% endif %}
 ### Physical file service provider
 
@@ -840,7 +840,7 @@ The following table represents the request parameters of *download* operations.
             permission:null,
             _fm_created:"2019-07-22T12:15:45.081Z",
             _fm_modified:"2019-07-22T12:15:45.097Z",
-            _fm_imageUrl:"https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage?path=/1.png",
+            _fm_imageUrl:"https://physical-service.syncfusion.com/api/FileManager/GetImage?path=/1.png",
             _fm_imageAttr:
             {
                 alt:"1.png"
@@ -962,7 +962,7 @@ To perform the download operation, initialize the [`downloadUrl`](../api/file-ma
 
 import { FileManager } from '@syncfusion/ej2-filemanager';
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
@@ -981,7 +981,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 ```html
 <script>
-        var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+        var hostUrl = 'https://physical-service.syncfusion.com/';
         // initialize File Manager Control
         var filemanagerInstance = new ej.filemanager.FileManager({
             ajaxSettings: {
@@ -1007,7 +1007,7 @@ To perform the upload operation, initialize the [`uploadUrl`](../api/file-manage
 
 import { FileManager } from '@syncfusion/ej2-filemanager';
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {
@@ -1026,7 +1026,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 ```html
 <script>
-        var hostUrl = 'https://ej2-aspcore-service.azurewebsites.net/';
+        var hostUrl = 'https://physical-service.syncfusion.com/';
         // initialize File Manager Control
         var filemanagerInstance = new ej.filemanager.FileManager({
             ajaxSettings: {
@@ -1049,23 +1049,23 @@ To enable image preview in the File Manager component, initialize the [`getImage
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/getting-started-cs2/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/getting-started-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/getting-started-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/getting-started-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/getting-started-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/es5-getting-started-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/es5-getting-started-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs2" %}
 
 {% endif %}

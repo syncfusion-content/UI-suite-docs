@@ -32,21 +32,6 @@ By default, the bubble with small size denotes the data value with small magnitu
 
 To render a bubble HeatMap with size series, set the [bubbleType](../api/heatmap/cellSettings/#bubbletype) property to **Size**.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs1/index.js %}
@@ -57,28 +42,12 @@ To render a bubble HeatMap with size series, set the [bubbleType](../api/heatmap
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs1" %}
-{% endif %}
 
 ### Bubble color
 
 In HeatMap, defined with this tile type, the data points will be represented with same sized bubbles and the data value variations are represented with the bubble colors.
 
 To represent the data points with variations in bubble colors, set the [bubbleType](../api/heatmap/cellSettings/#bubbletype) property to **Color**.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -90,28 +59,12 @@ To represent the data points with variations in bubble colors, set the [bubbleTy
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs2" %}
-{% endif %}
 
 ### Bubble sector
 
 In this bubble HeatMap type, the sector of the bubble decides the magnitude of data point. If the sector is large, then the data point value will be high.
 
 To render the data points with bubble sector, set the [bubbleType](../api/heatmap/cellSettings/#bubbletype) property to **Sector**.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,7 +76,6 @@ To render the data points with bubble sector, set the [bubbleType](../api/heatma
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs3" %}
-{% endif %}
 
 ### Combining size and color bubble types
 
@@ -141,21 +93,6 @@ When an array of numbers is specified as the data source, the bubble HeatMap can
 
 The following example illustrates how to render a bubble HeatMap with different sizes and colors using array table binding.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs4/index.js %}
@@ -166,27 +103,11 @@ The following example illustrates how to render a bubble HeatMap with different 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs4" %}
-{% endif %}
 
 <!-- markdownlint-disable MD036 -->
 **Cell**
 
 The following example illustrates how to render a bubble HeatMap with different sizes and colors using array cell binding.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -198,7 +119,6 @@ The following example illustrates how to render a bubble HeatMap with different 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs5" %}
-{% endif %}
 
 <!-- markdownlint-disable MD036 -->
 **JSON binding**
@@ -210,21 +130,6 @@ When a list of JSON objects are specified as data source, the bubble HeatMap can
 
 The following example illustrates how to render a bubble HeatMap with different sizes and colors using JSON table binding.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs6/index.js %}
@@ -235,27 +140,11 @@ The following example illustrates how to render a bubble HeatMap with different 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs6" %}
-{% endif %}
 
 <!-- markdownlint-disable MD036 -->
 **Cell**
 
 The following example illustrates how to render a bubble HeatMap with different sizes and colors using JSON cell binding.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -267,7 +156,6 @@ The following example illustrates how to render a bubble HeatMap with different 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs7" %}
-{% endif %}
 
 <!-- markdownlint-disable MD036 -->
 **Binding size and color values from datasource**
@@ -275,21 +163,6 @@ The following example illustrates how to render a bubble HeatMap with different 
 The size and color of the bubbles in the **SizeAndColor** bubble HeatMap type can be customized by binding the datasource field name that holds the size and color values to the [size](../api/heatmap/bubbleDataModel/#size) and [color](../api/heatmap/bubbleDataModel/#color) properties in the [bubbleDataMapping](../api/heatmap/dataModel/#bubbledatamapping).
 
 >The `bubbleDataMapping` supports only for the JSON data with cell adaptor type.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -301,4 +174,3 @@ The size and color of the bubbles in the **SizeAndColor** bubble HeatMap type ca
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/bubble-heatmap-cs8" %}
-{% endif %}

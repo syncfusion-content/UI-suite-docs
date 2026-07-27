@@ -93,7 +93,7 @@ To access these settings, click the **Printer Properties** button in the Print P
 property. 
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Here, 0 denotes Single Page and 1 denotes Multiple Page.
 
@@ -136,7 +136,7 @@ N> Collation applicable when more than one copy of multiple page diagram is prin
 SfDiagram provides support to switch between Portrait and Landscape orientation while printing. Orientation can be changed by setting the [`PageSettings.PageOrientation`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PageSettings.html#Syncfusion_UI_Xaml_Diagram_PageSettings_PageOrientation) Property.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.PageSettings=new PageSettings();
 diagram.PageSettings.PageOrientation = PageOrientation.Landscape;
@@ -156,7 +156,7 @@ The orientation can be changed in print preview window at runtime using orientat
 SfDiagram provides support to change the page size. Page size can be changed by setting the [`PageSettings.PageWidth`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PageSettings.html#Syncfusion_UI_Xaml_Diagram_PageSettings_PageWidth) and [`PageSettings.PageHeight`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.PageSettings.html#Syncfusion_UI_Xaml_Diagram_PageSettings_PageHeight) properties.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.PageSettings=new PageSettings();
 diagram.PageSettings.PageWidth = 800;
@@ -174,7 +174,7 @@ Page size can be changed in print preview window also by selecting any value fro
 SfDiagram provides support to change the page margins to adjust content in printed page. Page margin can be changed by setting `PrintingService.PrintSettings.PageMargin` property.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.PrintingService.PrintSettings.PageMargin=new Thickness(5);
 
@@ -195,7 +195,7 @@ Steps for setting Header for printing:
 
 {% capture codesnippet1 %}
 {% tabs %}
-{% highlight XAML%}
+{% highlight xaml%}
 
 <DataTemplate x:Key="PrintHeaderTemplate">
     <TextBlock Text="PageHeader" FontSize="12" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>

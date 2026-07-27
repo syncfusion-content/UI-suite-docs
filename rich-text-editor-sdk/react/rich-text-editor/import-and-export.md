@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 The Rich Text Editor provides functionality to import content directly from Microsoft Word documents, preserving the original formatting and structure. This feature ensures a smooth transition of content from Word to the editor, maintaining elements such as headings, lists, tables, and text styles.
 
-To integrate an `ImportWord` option into the Rich Text Editor toolbar, you can add it as a custom toolbar  [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) using the items property in toolbarSettings.
+To integrate an `ImportWord` option into the Rich Text Editor toolbar, you can add it as a custom toolbar  [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) using the items property in toolbarSettings.
 
 The following example shows how to configure `ImportWord`:
 
@@ -22,27 +22,27 @@ The following example shows how to configure `ImportWord`:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/import-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/import-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/import-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/import-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/import-cs2" %}
 
 ## Secure importing with authentication
 
@@ -212,7 +212,7 @@ public class RichTextEditorController : Controller
 
 The Rich Text Editor's export functionality allows users to convert their edited content into PDF or Word documents with a single click, preserving all text styles, images, tables, and other formatting elements.
 
-You can add `ExportWord` and `ExportPdf` tools to the Rich Text Editor toolbar using the toolbarSettings  [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add `ExportWord` and `ExportPdf` tools to the Rich Text Editor toolbar using the toolbarSettings  [toolbarSettings.items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 The following example demonstrates how to configure the `ExportWord` and `ExportPdf` tools in the Rich Text Editor, facilitating the export of content into Word or PDF documents:
 
@@ -220,27 +220,27 @@ The following example demonstrates how to configure the `ExportWord` and `Export
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/export-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/export-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/export-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/export-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/export-cs2" %}
 
 ## Secure exporting with authentication
 

@@ -14,20 +14,20 @@ The tooltip displays contextual information when users hover over value cells in
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs305/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs305/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs305/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs305/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs305/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs305/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs305/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs305/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs305" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs305" %}
 
 ## Tooltip Template
 
@@ -47,20 +47,20 @@ The example below shows how to define the Pivot Table tooltip template in `index
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/tooltipTemplate-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/tooltipTemplate-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/tooltipTemplate-cs1/index.html %}
+{% include code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1/index.html %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/tooltipTemplate-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/tooltipTemplate-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/tooltipTemplate-cs1" %}

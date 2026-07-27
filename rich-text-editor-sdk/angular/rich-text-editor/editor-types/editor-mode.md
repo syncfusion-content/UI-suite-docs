@@ -19,25 +19,25 @@ The Rich Text Editor component allows you to create and edit content, returning 
 
 Rich Text Editor is a WYSIWYG editing control for formatting the word content as HTML.
 
-HTML editing is the default mode of the Rich Text Editor. In this mode, you can format content using the available toolbar commands, and the editor will return valid HTML markup. To explicitly set this mode, set the [editorMode](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#editormode) property as `HTML`.
+HTML editing is the default mode of the Rich Text Editor. In this mode, you can format content using the available toolbar commands, and the editor will return valid HTML markup. To explicitly set this mode, set the [editorMode](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#editormode) property as `HTML`.
 
 >To use HTML editing feature, inject `HtmlEditorService` in the provider section.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/html-editor/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/html-editor/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/html-editor/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/html-editor/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/html-editor" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/html-editor" %}
 
 ## Markdown editor
 
-To create or edit content in Markdown format, set the [editorMode](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#editormode) property value as `Markdown`.
+To create or edit content in Markdown format, set the [editorMode](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#editormode) property value as `Markdown`.
 
 The third-party library such as `Marked` or any other library is used to convert markdown into HTML content.
 
@@ -49,15 +49,15 @@ For further details on Markdown editing, refer to the [Markdown](../../markdown-
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/markdown-editor/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/markdown-editor/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/markdown-editor/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/markdown-editor/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/markdown-editor" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/markdown-editor" %}
 
 ## See also
 

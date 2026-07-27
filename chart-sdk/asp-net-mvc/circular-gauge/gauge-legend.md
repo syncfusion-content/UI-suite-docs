@@ -82,16 +82,6 @@ The `font` of the legend item text can be customized using the following propert
 * color
 * size
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/legend/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/legend/razor %}
@@ -100,7 +90,6 @@ The `font` of the legend item text can be customized using the following propert
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/legend/legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 <!-- markdownlint-disable MD036 -->
@@ -108,16 +97,6 @@ The `font` of the legend item text can be customized using the following propert
 ## Toggle option in legend
 
 The toggle option has been provided for legend. So, if you toggle the legend, the given color will be changed to the corresponding circular gauge range. You can enable the toggle option using `toggleVisibility` in the `legendSettings` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/toggle-legend/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -127,7 +106,6 @@ The toggle option has been provided for legend. So, if you toggle the legend, th
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/toggle-legend/toggle-legend.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 <!-- markdownlint-disable MD036 -->
@@ -135,16 +113,6 @@ The toggle option has been provided for legend. So, if you toggle the legend, th
 ## Paging support in legend
 
 By default, paging will be enabled if the legend items exceed the legend bounds. You can view each legend item by navigating between the pages using navigation buttons.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/paging-support/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -154,7 +122,6 @@ By default, paging will be enabled if the legend items exceed the legend bounds.
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/paging-support/paging-support.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 <!-- markdownlint-disable MD036 -->
@@ -162,16 +129,6 @@ By default, paging will be enabled if the legend items exceed the legend bounds.
 ## Legend text customization
 
 You can customize the legend text using `legendText` property in `ranges`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/legend-text-custom/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -181,7 +138,6 @@ You can customize the legend text using `legendText` property in `ranges`.
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-legend/legend-text-custom/legend-text-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 <!-- markdownlint-disable MD036 -->

@@ -94,24 +94,24 @@ These shortcuts provide additional functionalities like fullscreen mode.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/basic-cs38/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs38/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/basic-cs38/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs38/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs38" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs38" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/basic-cs39/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs39/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/basic-cs39/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs39/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs39" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/basic-cs39" %}

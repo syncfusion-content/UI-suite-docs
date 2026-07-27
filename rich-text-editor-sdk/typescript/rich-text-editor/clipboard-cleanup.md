@@ -6,12 +6,12 @@ platform: rich-text-editor-sdk
 control: Clipboard cleanup 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Clipboard Cleanup in TypeScript Rich Text Editor control
 
-The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/documentation/api/rich-text-editor#enableClipboardCleanup) property.
+The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#enableclipboardcleanup) property.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To use clipboard cleanup, inject ClipboardCleanup module using the `RichTextEditor.Inject(ClipboardCleanup)`.
 
@@ -23,32 +23,32 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup" %}
 {% endif %}
 
 ## Customizing Copied/Cut Content
 
-You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/documentation/api/rich-text-editor#beforeClipboardWrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
+You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#beforeclipboardwrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
 
 In this example, the `beforeClipboardWrite` event is used to customize the selected content only during a copy operation, while the cut operation remains unaffected. To observe this behavior, try copying any text within the Rich Text Editor.
 
@@ -56,27 +56,27 @@ In this example, the `beforeClipboardWrite` event is used to customize the selec
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup-customize/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup-customize/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup-customize/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/clipboard-cleanup-customize/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/clipboard-cleanup-customize" %}
 {% endif %}
 
 ## Best Practices & Troubleshooting

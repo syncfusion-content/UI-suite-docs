@@ -20,7 +20,7 @@ Autoscroll feature automatically scrolls the Diagram whenever the Node or Connec
 
 The Autoscroll border is used to specify the maximum distance between the object and Diagram edge to trigger Autoscroll. The default value is set as 20 for all sides (left, right, top, and bottom) and it can be changed by using the `AutoScrollBorder` property of ScrollSettings. The following code example illustrates how to set Autoscroll border.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Specifies AutoScroll Border
 diagram.ScrollSettings.AutoScrollBorder = new Thickness(150, 15, 15, 15);
@@ -39,7 +39,7 @@ The scroll limit allows you to define the scrollable region of the Diagram. It i
 
 The following code example illustrates how to specify the scroll limit.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Sets the ScrollLimit
 diagram.ScrollSettings.ScrollLimit = ScrollLimit.Infinity;
@@ -50,7 +50,7 @@ diagram.ScrollSettings.ScrollLimit = ScrollLimit.Infinity;
 
 You can restrict scrolling beyond any particular rectangle area by using the `ScrollableArea` property of ScrollSettings. To restrict scrolling beyond any custom region, you have to set the `ScrollLimit` as “limited”. The following code example illustrated how to customize scrollable area.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Sets ScrollLimit as limited
 diagram.ScrollSettings.ScrollLimit = ScrollLimit.Limited;

@@ -234,10 +234,20 @@ N> [View Sample in GitHub](https://github.com/SyncfusionExamples/Blazor-Getting-
 
 ## See also
 
-1. [Getting Started with Blazor WebAssembly App](https://blazor.syncfusion.com/documentation/getting-started/blazor-webassembly-app)
-2. [Getting Started with Blazor Server App](https://blazor.syncfusion.com/documentation/getting-started/blazor-server-side-visual-studio)
-3. [How to insert Emoticons](https://blazor.syncfusion.com/demos/rich-text-editor/insert-emoticons?theme=bootstrap5)
-4. [Blog posting using Rich Text Editor](https://blazor.syncfusion.com/demos/rich-text-editor/usecase?theme=bootstrap5)
-5. [Accessibility in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/accessibility)
-6. [Keyboard support in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/keyboard-support)
-7. [Globalization in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/globalization)
+* [Getting Started with Blazor for client-side in .NET Core CLI](../getting-started/blazor-webassembly-app)
+
+* [Getting Started with Blazor for server-side in Visual Studio](../getting-started/blazor-server-side-visual-studio)
+
+* [Getting Started with Blazor for server-side in .NET Core CLI](../getting-started/blazor-web-app)
+
+* [How to insert Emoticons](https://blazor.syncfusion.com/demos/rich-text-editor/insert-emoticons?theme=fluent2)
+
+* [Blog posting using Rich Text Editor](https://blazor.syncfusion.com/demos/rich-text-editor/usecase?theme=fluent2)
+
+* [Accessibility in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/accessibility)
+
+* [Keyboard support in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/keyboard-support)
+
+* [Globalization in Rich text editor](https://blazor.syncfusion.com/documentation/rich-text-editor/globalization)
+
+N> Looking for the full Blazor Rich Text Editor component overview, features, pricing, and documentation? Visit the [Blazor Rich Text Editor](https://www.syncfusion.com/rich-text-editor-sdk/blazor-rich-text-editor) page.

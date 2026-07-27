@@ -16,8 +16,6 @@ Color mapping is used to customize the color for each group or item based on the
 
 Range color mapping is used to apply color to the items by giving specific ranges in the DataSource, and it should be specifying the data source properties to the `rangeColorValuePath`. The color mapping ranges to be specified in the `from` and `to` properties of the `colorMapping`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/range/tagHelper %}
@@ -27,18 +25,6 @@ Range color mapping is used to apply color to the items by giving specific range
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/range/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap with color mapping](images/Colormapping/Range.png)
@@ -46,8 +32,6 @@ Range color mapping is used to apply color to the items by giving specific range
 ## Equal color mapping
 
 Equal color mapping is used to fill colors to each item by specifying equal value present in the data source, that can be specified in the `equalColorValuePath` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -58,18 +42,6 @@ Equal color mapping is used to fill colors to each item by specifying equal valu
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/equal/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Equal.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/equal/equal.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap with equal color mapping](images/Colormapping/EqualColor.png)
@@ -77,8 +49,6 @@ Equal color mapping is used to fill colors to each item by specifying equal valu
 ## Desaturation color mapping
 
 Desaturation color mapping is used to apply colors to the items based on `minOpacity` and `maxOpacity` properties in the `colorMapping`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -89,18 +59,6 @@ Desaturation color mapping is used to apply colors to the items based on `minOpa
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/desaturation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Desaturation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/desaturation/desaturation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap with desaturation color mapping](images/Colormapping/Desaturation.png)
@@ -108,8 +66,6 @@ Desaturation color mapping is used to apply colors to the items based on `minOpa
 ## Palette color mapping
 
 The palette color mapping is used to fill the color to each group or leaf item by given colors in the `palette` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -119,18 +75,6 @@ The palette color mapping is used to fill the color to each group or leaf item b
 {% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/pallete.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pallete.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/pallete.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -140,8 +84,6 @@ The palette color mapping is used to fill the color to each group or leaf item b
 
 Multiple colors are used as gradient effect to specific shapes based on the ranges in datasource. By using [`color`] property, you can set n number of colors.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/tagHelper %}
@@ -151,18 +93,6 @@ Multiple colors are used as gradient effect to specific shapes based on the rang
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Pallete.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/pallete/pallete.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Multiple color mapping in TreeMap with desaturation](images/Colormapping/DesaturationwithMultiplecolor.png)
@@ -170,8 +100,6 @@ Multiple colors are used as gradient effect to specific shapes based on the rang
 ## Color for items excluded from color mapping
 
 Get the excluded ranges from data source using the color mapping and apply the specific color to those items, without specifying the `from` and `to` properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -182,18 +110,6 @@ Get the excluded ranges from data source using the color mapping and apply the s
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/excludecolor/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Excludecolor.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/excludecolor/excludecolor.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![TreeMap color mapping for excluded items](images/Colormapping/ExcludeItem.png)
@@ -201,8 +117,6 @@ Get the excluded ranges from data source using the color mapping and apply the s
 ## Bind the colors to the items from data source
 
 To set the color for each item from the data source, bind the data source property to the `colorValuePath`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -212,18 +126,6 @@ To set the color for each item from the data source, bind the data source proper
 {% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/multiplecolor/multiplecolor.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/multiplecolor/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiplecolor.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/treemap/colormapping/multiplecolor/multiplecolor.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

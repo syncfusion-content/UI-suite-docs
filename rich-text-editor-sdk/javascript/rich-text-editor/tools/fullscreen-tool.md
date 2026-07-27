@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Fullscreen mode
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Fullscreen Mode in JavaScript Rich Text Editor control
@@ -27,25 +27,25 @@ Click the fullscreen icon in the toolbar to toggle fullscreen mode. When enabled
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/fullscreen-mode/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/fullscreen-mode/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/fullscreen-mode/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/fullscreen-mode/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/fullscreen-mode" %}
 {% endif %}

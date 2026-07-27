@@ -36,21 +36,6 @@ Panels can be positioned or ordered using the [`row`](../../api/dashboard-layout
 
 The following sample demonstrates positioning panels within the Dashboard Layout using the row and column properties.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs1/index.js %}
@@ -61,28 +46,12 @@ The following sample demonstrates positioning panels within the Dashboard Layout
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs1" %}
-{% endif %}
 
 ## Sizing of panels
 
 A panel's size is defined by the [`sizeX`](../../api/dashboard-layout/panelModel#sizex) and [`sizeY`](../../api/dashboard-layout/panelModel#sizey) properties. The [`sizeX`](../../api/dashboard-layout/panelModel#sizex) property sets the width and the [`sizeY`](../../api/dashboard-layout/panelModel#sizey) property sets the height of a panel in cells count. These properties assist in designing  dashboards, where the content of each panel may vary in size.
 
 The following sample demonstrates sizing panels within the Dashboard Layout using the sizeX and sizeY properties.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -94,14 +63,5 @@ The following sample demonstrates sizing panels within the Dashboard Layout usin
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs2" %}
-{% endif %}
-
-{% if page.publishingplatform == "typescript" %}
-
-> Refer to the [TypeScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [TypeScript Dashboard Layout example](https://ej2.syncfusion.com/demos/#/fluent2/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% elsif page.publishingplatform == "javascript" %}
 
 > Refer to the [JavaScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [JavaScript Dashboard Layout example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% endif %}

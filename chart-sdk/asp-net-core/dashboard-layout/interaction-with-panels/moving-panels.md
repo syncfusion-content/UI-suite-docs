@@ -27,8 +27,6 @@ Each time a panel's position is changed (Programatically or through UI interacti
 
 The following sample demonstrates moving a panel programatically to a new position in the Dashboard Layout's [created](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Layouts.DashboardLayout~Created.html) event.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/moving/tagHelper %}
@@ -37,18 +35,6 @@ The following sample demonstrates moving a panel programatically to a new positi
 {% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/moving/CSHTML.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/moving/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/dashboard-layout/moving/HomeController.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ![Moving of panels](./../images/moving.PNG)
 

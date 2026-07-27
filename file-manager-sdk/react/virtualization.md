@@ -23,7 +23,7 @@ import { FileManagerComponent, Inject, Virtualization } from '@syncfusion/ej2-re
 import * as React from 'react';
 
 function App() {
-    let hostUrl: string = "https://ej2-aspcore-service.azurewebsites.net/";
+    let hostUrl: string = "https://physical-service.syncfusion.com/";
     return (
             // specifies the tag to render the File Manager component
             <FileManagerComponent id="filemanager" ajaxSettings={{
@@ -51,20 +51,20 @@ In the instance below, a sizable collection of files can be found in the folders
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/virtual-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/virtual-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/virtual-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/virtual-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/virtual-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/virtual-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/virtual-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/virtual-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/virtual-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/virtual-cs1" %}
 
 ## Limitations for Virtualization
 

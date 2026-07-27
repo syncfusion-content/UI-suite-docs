@@ -41,7 +41,7 @@ Use [Vite](https://vite.dev) to create and manage React applications. Vite provi
 
 Create a new React application using the following command:
 
-```bash
+```
 npm create vite@latest my-diagram-app --template react-ts
 ```
 
@@ -49,7 +49,7 @@ If Vite prompts you to install dependencies and start the project immediately, c
 
 Navigate to the project folder:
 
-```bash
+```
 cd my-diagram-app
 ```
 
@@ -61,7 +61,7 @@ All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https:
 
 Install the React Diagram package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-react-diagrams
 ```
 
@@ -71,13 +71,13 @@ N> Installing `@syncfusion/ej2-react-diagrams` automatically installs the requir
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Add the following import to the **src/App.css** file:
 
-```css
+```
 @import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css';
 ```
 
@@ -93,7 +93,7 @@ Import `DiagramComponent` from `@syncfusion/ej2-react-diagrams` and add it to th
 
 Update the **src/App.tsx** file as follows:
 
-```tsx
+```
 import { DiagramComponent } from '@syncfusion/ej2-react-diagrams';
 import './App.css';
 
@@ -124,7 +124,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Replace the entire contents of **src/App.tsx** with the following code:
 
-```tsx
+```
 import {
   DiagramComponent,
   type ConnectorModel,
@@ -263,7 +263,7 @@ In this example:
 
 Run the application using the following command:
 
-```bash
+```
 npm run dev
 ```
 Open the generated local URL (by default, `http://localhost:5173`) in the browser. The application displays the diagram as shown below:

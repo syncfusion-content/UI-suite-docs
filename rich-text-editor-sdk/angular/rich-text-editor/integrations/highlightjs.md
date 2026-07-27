@@ -93,22 +93,22 @@ The following examples demonstrate how Highlight.js can be seamlessly integrated
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/highlightjs/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/highlightjs/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/highlightjs/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/highlightjs/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/highlightjs/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/highlightjs/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/highlightjs" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/highlightjs" %}
 
 ## Additional Resources
 
 - GitHub Repository: [Angular Rich Text Editor with Highlight.js](https://github.com/SyncfusionExamples/angular-richtexteditor-highlightjs/tree/master)
 - [Highlight.js](https://highlightjs.org)
-- [Syncfusion RichTextEditor API](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor)
+- [Syncfusion RichTextEditor API](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default)

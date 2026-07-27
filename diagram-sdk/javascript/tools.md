@@ -29,27 +29,27 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](../api/diag
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
 
 The following code example illustrates how to draw a path shape.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs2" %}
 
 ### Text Nodes
 
@@ -57,14 +57,14 @@ Similarly, you can draw a text node by setting the type of shape as **Text** in 
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs4" %}
 
 ### Draw Connectors
 
@@ -72,14 +72,14 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs3" %}
 
 
 ### Polygon shape
@@ -92,14 +92,14 @@ The following code illustrates how to draw a polygon shape at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs5" %}
 
 ![Polygon drawing](images/polygon-drawing.gif)
 
@@ -113,14 +113,14 @@ The following code illustrates how to draw a Polyline connector at runtime:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs6" %}
 
 The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
 
@@ -136,14 +136,14 @@ The following code illustrates how to perform freehand drawing:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs9" %}
 
 The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
 
@@ -176,14 +176,14 @@ To activate panning mode set the [`tool`](../api/diagram#tool) property of the d
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs7" %}
 
 N> Please note that panning the diagram is not possible when `multiplePage` is set to **false** if any diagram object (node or connector) is outside the defined page break area.
 
@@ -193,12 +193,12 @@ The [`elementDraw`](../api/diagram/iElementDrawEventArgs) event is triggered whe
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/Tools-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/Tools-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs8" %}
 

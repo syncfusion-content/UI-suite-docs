@@ -30,10 +30,10 @@ To Export the tree grid in server side, You need to call the [`serverExcelExport
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ To Export the tree grid in server side, You need to call the [`serverExcelExport
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ In the below demo, we have invoked the above method inside the [`toolbarClick`](
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-csv-export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-csv-export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-csv-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-csv-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,10 +70,10 @@ In the below demo, we have invoked the above method inside the [`toolbarClick`](
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-csv-export/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-csv-export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-exportCore.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-csv-export/server-exportCore.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-csv-export/server-exportCore.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -92,10 +92,10 @@ In the following demo, using the `HeaderCellRotate` method of the `TreeGridExcel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-rotate-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-rotate-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-RotateHeader.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ In the following demo, using the `HeaderCellRotate` method of the `TreeGridExcel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-rotate-header/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-rotate-header/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Server-RotateHeader.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/excel-export/server-rotate-header/server-rotate-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

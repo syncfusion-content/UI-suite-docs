@@ -18,10 +18,10 @@ The following example shows enabling and disabling toolbar items on button click
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/toolbar-items/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/toolbar-items/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/toolbar-items/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/toolbar-items/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,10 +29,10 @@ The following example shows enabling and disabling toolbar items on button click
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/toolbar-items/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/toolbar-items/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/toolbar-items/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/toolbar-items/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

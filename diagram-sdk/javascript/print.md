@@ -45,14 +45,14 @@ The following code example illustrates how to print the diagram based on region.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-1" %}
 
 ### Multiple page
 
@@ -62,14 +62,14 @@ The following code example demonstrates how to set multiplePage to true:
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-2" %}
 
 ### Margin
 
@@ -77,14 +77,14 @@ The margin for the print region can be set using the [`margin`](../api/diagram/i
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-4" %}
 
 ### Page width and Page height
 
@@ -92,14 +92,14 @@ The [`pageWidth`](../api/diagram/iPrintOptions#pageheight) and [`pageHeight`](..
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-3" %}
 
 ### Page Orientation
 
@@ -112,14 +112,14 @@ The following example shows how to set pageOrientation for the printOptions.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/print-cs-5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/print-cs-5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/print-cs-5" %}
 
 
 ## Limitations

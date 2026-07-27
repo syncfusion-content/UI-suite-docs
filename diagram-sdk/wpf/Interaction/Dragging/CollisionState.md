@@ -14,7 +14,7 @@ Using [CollisionState](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Dia
 
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 // Invoking SelectorChanged Event
 (this.diagram.Info as IGraphInfo).SelectorChangedEvent += OnSelectorChangedEvent;
@@ -51,7 +51,7 @@ private void OnSelectorChangedEvent(object sender, SelectorChangedEventArgs args
 In some cases, there may be requirement for repositioning overlapping objects, rather than selected object. Using [GetOverlappingObjects](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.IGraphInfo.html#Syncfusion_UI_Xaml_Diagram_IGraphInfo_GetOverlappingObjects_Syncfusion_UI_Xaml_Diagram_CollisionState_) method, you can able to find all overlapping objects(such as Node or Connector or Annotation) for a given node.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 private void OnSelectorChangedEvent(object sender, SelectorChangedEventArgs args)
 {
@@ -97,7 +97,7 @@ private void OnSelectorChangedEvent(object sender, SelectorChangedEventArgs args
 The [`Space`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.CollisionState.html#Syncfusion_UI_Xaml_Diagram_CollisionState_Space) property of [CollisionState](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.CollisionState.html) allows you to change the spacing distance.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 var selectedNode = (NodeViewModel)selectedNodes[0];
 var collisionState = new CollisionState() { Item = selectedNode, Space = 5 };
@@ -111,7 +111,7 @@ var collisionState = new CollisionState() { Item = selectedNode, Space = 5 };
 By default, annotation's of other elements were also considered as an intercepts for any given node. This can be disabled with the help of [IncludeSubElements](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.CollisionState.html#Syncfusion_UI_Xaml_Diagram_CollisionState_IncludeSubElements) property of CollisionState.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 var selectedNode = (NodeViewModel)selectedNodes[0];
 var collisionState = new CollisionState() { Item = selectedNode, IncludeSubElements = false };

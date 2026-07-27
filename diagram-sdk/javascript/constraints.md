@@ -152,14 +152,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs1" %}
 
 For more information about node constraints, refer to [`NodeConstraints`](../api/diagram/nodeConstraints).
 
@@ -274,14 +274,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs2" %}
 
 For more information about connector constraints, refer to [`ConnectorConstraints`](../api/diagram/connectorConstraints).
 
@@ -359,14 +359,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs3" %}
 
 For more information about port constraints, refer to [`PortConstraints`](../api/diagram/portConstraints).
 
@@ -431,14 +431,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs4" %}
 
 For more details about annotation constraints, refer to [`AnnotationConstraints`](../api/diagram/annotationConstraints#AnnotationConstraints).
 
@@ -496,14 +496,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs5" %}
 
 For more information about selector constraints, refer to [`SelectorConstraints`](../api/diagram/selectorConstraints).
 
@@ -555,14 +555,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs6" %}
 
 For more information about snap constraints, refer to [`SnapConstraints`](../api/diagram/snapConstraints).
 
@@ -602,14 +602,14 @@ Refer sample below
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/constraints-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/constraints-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/constraints-cs7" %}
 
 For more information about selector constraints, refer to [`BoundaryConstraints`](../api/diagram/boundaryConstraints).
 

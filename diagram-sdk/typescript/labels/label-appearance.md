@@ -23,14 +23,14 @@ The [`visible`](https://ej2.syncfusion.com/documentation/api/diagram/annotationM
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs14/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs14" %}
 
 ## Horizontal and vertical alignment
 
@@ -52,14 +52,14 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
 
 ## Annotation Margin
 
@@ -67,14 +67,14 @@ The following codes illustrates how to align annotations.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs8" %}
 
 
 ## Hyperlink
@@ -88,14 +88,14 @@ The [`textDecoration`](https://ej2.syncfusion.com/documentation/api/diagram/text
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs10" %}
 
 ## Rotate Annotation
 
@@ -103,14 +103,14 @@ Annotation can be rotated by setting the [`rotateAngle`](https://ej2.syncfusion.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-rotate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-rotate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-rotate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-rotate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-rotate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-rotate" %}
 
 ## Template support for annotation
 
@@ -124,14 +124,14 @@ The following code illustrates how to define a template in annotation.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs11/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs11/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs11/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs11" %}
 
 N> For the proper alignment of template, we need to mention width and height for the annotation while using template.
 
@@ -143,14 +143,14 @@ The following code illustrates how to define a annotationTemplate in annotation 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-annotationTemplate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-annotationTemplate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-annotationTemplate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-annotationTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-annotationTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-annotationTemplate" %}
 
 ### Functional template
 
@@ -160,14 +160,14 @@ The following code illustrates how to define a functional template.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-functionalTemplate/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-functionalTemplate/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-functionalTemplate/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-functionalTemplate/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-functionalTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-functionalTemplate" %}
 
 ## Text align
 
@@ -175,14 +175,14 @@ The [`textAlign`](https://ej2.syncfusion.com/documentation/api/diagram/textalign
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs9" %}
 
 The following table shows the different text alignment.
 
@@ -199,14 +199,14 @@ When text overflows node boundaries, you can control it by using [`text wrapping
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs12/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs12/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs12/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs12" %}
 
 | Value | Description | Image |
 | -------- | -------- | -------- |
@@ -232,12 +232,12 @@ Types of text overflow are shown in below table.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs13" %}
 

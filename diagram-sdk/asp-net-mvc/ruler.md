@@ -24,7 +24,7 @@ The Ruler provides a horizontal and vertical guide for measuring in the Diagram 
 
 {% tabs %}
 {% highlight c# tabtitle="Ruler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/ruler/ruler.cshtml %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ruler/ruler/ruler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,7 +32,7 @@ The Ruler provides a horizontal and vertical guide for measuring in the Diagram 
 
 {% tabs %}
 {% highlight c# tabtitle="Ruler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/ruler/ruler.cshtml %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ruler/ruler/ruler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -57,7 +57,7 @@ By default, the ruler segments are arranged based on pixel values.
 
 {% tabs %}
 {% highlight c# tabtitle="CustomRuler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,7 +65,7 @@ By default, the ruler segments are arranged based on pixel values.
 
 {% tabs %}
 {% highlight c# tabtitle="CustomRuler.cshtml" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/ruler/customRuler/customRuler.cshtml %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

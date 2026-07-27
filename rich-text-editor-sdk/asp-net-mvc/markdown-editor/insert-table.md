@@ -23,10 +23,10 @@ This ensures that users can start formatting and adding content immediately.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ This ensures that users can start formatting and adding content immediately.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -52,10 +52,10 @@ The following example demonstrates how to customize the table content in the Mar
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table-constants/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table-constants/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table-constants/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table-constants/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ The following example demonstrates how to customize the table content in the Mar
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table-constants/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table-constants/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-table-constants/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-table-constants/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

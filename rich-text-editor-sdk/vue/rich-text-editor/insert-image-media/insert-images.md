@@ -10,11 +10,11 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Images in Vue Rich Text Editor Component
 
-Rich Text Editor allows to insert images in your content from online sources as well as local computer. For inserting an image to the Rich Text Editor, the following list of options have been provided in the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel)
+Rich Text Editor allows to insert images in your content from online sources as well as local computer. For inserting an image to the Rich Text Editor, the following list of options have been provided in the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel)
 
 ## Configuring image tool in the toolbar
 
-You can add an `Image` tool in the Rich Text Editor toolbar using the `toolbarSettings` [items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add an `Image` tool in the Rich Text Editor toolbar using the `toolbarSettings` [items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 > To use Image feature, inject `Image` in the provider section.
 
@@ -22,18 +22,18 @@ To configure the `Image` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs3/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs3/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs3" %}
 
 ## Supported image save formats
 
-The images can be saved as `Blob` or `Base64` URL by using the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#saveformat) property, which is of enum type, and the generated URL will be set to the `src` attribute of the `<source>` tag.
+The images can be saved as `Blob` or `Base64` URL by using the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#saveformat) property, which is of enum type, and the generated URL will be set to the `src` attribute of the `<source>` tag.
 
 ```HTML
 
@@ -43,18 +43,18 @@ The images can be saved as `Blob` or `Base64` URL by using the [insertImageSetti
 
 ```
 
-The code snippet below illustrates the configuration of the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#saveformat) property in the Rich Text Editor.
+The code snippet below illustrates the configuration of the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#saveformat) property in the Rich Text Editor.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/save-format-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/save-format-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/save-format-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/save-format-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/save-format-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/save-format-cs1" %}
 
 > The default `saveFormat` property is set to `Blob` format.
 
@@ -73,13 +73,13 @@ To insert images from a file manager, enable the `FileManager` tool on the edito
 To integrate the file manager into the Rich Text Editor, follow these steps:
 
 * Configure the `FileManager` toolbar item in the `toolbarSettings` API `items` property.
-* Set the [enable](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/fileManagerSettings#enable) property to `true` in the [fileManagerSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#fileManagerSettings) property to ensure the file browser appears upon clicking the `FileManager` toolbar item.
+* Set the [enable](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/filemanagersettings#enable) property to `true` in the [fileManagerSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#fileManagerSettings) property to ensure the file browser appears upon clicking the `FileManager` toolbar item.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To use the file browser tool, configure `FileManager` in providers.
 
 ## Maximum file size restriction
 
-You can restrict the image uploaded from the local machine when the uploaded image file size is greater than the allowed size by using the [maxFileSize](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#maxfilesize) property. By default, the maximum file size is 30000000 bytes. You can configure this size as follows.
+You can restrict the image uploaded from the local machine when the uploaded image file size is greater than the allowed size by using the [maxFileSize](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#maxfilesize) property. By default, the maximum file size is 30000000 bytes. You can configure this size as follows.
 
 In the following example, the Image size has been validated before uploading and determined whether the Image has been uploaded or not.
 
@@ -129,18 +129,18 @@ provide('richtexteditor', [Toolbar, Link, Image, QuickToolbar, HtmlEditor, Table
 
 ## Saving images to server
 
-Upload the selected image to a specified destination using the controller action specified in [insertImageSettings.saveUrl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#saveurl). Ensure to map this method name appropriately and provide the required destination path through the [insertImageSettings.path](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#path) properties.
+Upload the selected image to a specified destination using the controller action specified in [insertImageSettings.saveUrl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#saveurl). Ensure to map this method name appropriately and provide the required destination path through the [insertImageSettings.path](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#path) properties.
 
-Configure [insertImageSettings.removeUrl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#removeurl) to point to the endpoint responsible for deleting image files.
+Configure [insertImageSettings.removeUrl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#removeurl) to point to the endpoint responsible for deleting image files.
 
-Set the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#saveformat) property to determine whether the image should be saved as Blob or Base64, aligning with your application's requirements.
+Set the [insertImageSettings.saveFormat](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#saveformat) property to determine whether the image should be saved as Blob or Base64, aligning with your application's requirements.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/image-server/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-server/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/image-server/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-server/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -207,22 +207,22 @@ public class HomeController : Controller
 
 ### Rename images before inserting
 
-You can use the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#insertimagesettings) property, to specify the server handler to upload the selected image. Then by binding the [imageUploadSuccess](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#imageuploadsuccess) event, you can receive the modified file name from the server and update it in the Rich Text Editor's insert image dialog.
+You can use the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#insertimagesettings) property, to specify the server handler to upload the selected image. Then by binding the [imageUploadSuccess](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#imageuploadsuccess) event, you can receive the modified file name from the server and update it in the Rich Text Editor's insert image dialog.
 
 Refer the section [Rename images before inserting it in Rich Text Editor](../how-to/tailwind-preflight) for code snippets and examples.
 
 ### Secure image upload with authentication
 
-You can add additional data with the image uploaded from the Rich Text Editor on the client side, which can even be received on the server side. By using the [imageUploading](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#imageuploading) event and it's arguments you can access the current request and set the request header within these event. On the server side, you can fetch the custom headers by accessing the form collection from the current request, which retrieves the values sent using the POST method.
+You can add additional data with the image uploaded from the Rich Text Editor on the client side, which can even be received on the server side. By using the [imageUploading](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#imageuploading) event and it's arguments you can access the current request and set the request header within these event. On the server side, you can fetch the custom headers by accessing the form collection from the current request, which retrieves the values sent using the POST method.
 
 > By default, it doesn't support the `UseDefaultCredentials` property, you can manually append the default credentials with the upload request.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/authentication-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/authentication-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/authentication-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/authentication-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -237,7 +237,7 @@ public void SaveFiles(IList<IFormFile> UploadFiles)
 
 ## Image replacement functionality
 
-Once a image file has been inserted, you can replace it using the Rich Text Editor [quickToolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/quickToolbarSettings#quicktoolbarsettings) `imageReplace` option. You can replace the image file either by using the web URL or the browse option in the image dialog.
+Once a image file has been inserted, you can replace it using the Rich Text Editor [quickToolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/quicktoolbarsettings#quicktoolbarsettings) `imageReplace` option. You can replace the image file either by using the web URL or the browse option in the image dialog.
 
 ## Deleting image
 
@@ -251,14 +251,14 @@ The following sample explains, how to configure the `removeUrl` to remove a save
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs18/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs18/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs18/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs18/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs18" %}
 
 ## Deleting Images from Server Using Keyboard and Quick Toolbar Actions
 
@@ -345,7 +345,7 @@ export default {
 
 ## Adjusting image dimensions
 
-Sets the default width and height of the image when it is inserted in the Rich Text Editor using [width](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#width) and [height](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#height) of the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel) property.
+Sets the default width and height of the image when it is inserted in the Rich Text Editor using [width](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#width) and [height](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#height) of the [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel) property.
 
 Through the quick toolbar, change the width and height using `Change Size` option. Once you click, the Image Size dialog box will open as follows. In that you can specify the width and height of the image in pixel.
 
@@ -353,7 +353,7 @@ Through the quick toolbar, change the width and height using `Change Size` optio
 
 ## Adding captions and Alt text
 
-Image caption and alternative text can be specified for the inserted image in the Rich Text Editor through the [quickToolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#quickToolbarSettings) property. It has following two options,
+Image caption and alternative text can be specified for the inserted image in the Rich Text Editor through the [quickToolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#quickToolbarSettings) property. It has following two options,
 
 * Image Caption
 * Alternative Text.
@@ -364,18 +364,18 @@ The `Alternative Text` option lets you provide descriptive text that appears whe
 
 ## Configuring image display position
 
-Sets the default display for an image when it is inserted in the Rich Text Editor using [display](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel#display) field in [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imageSettingsModel). It has two possible options: 'inline' and 'block'.
+Sets the default display for an image when it is inserted in the Rich Text Editor using [display](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel#display) field in [insertImageSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/imagesettingsmodel). It has two possible options: 'inline' and 'block'.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs4/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs4/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-cs4/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs4/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-cs4" %}
 
 ## Configuring image alignment
 
@@ -383,14 +383,14 @@ Images in the Rich Text Editor can be aligned using the alignment options in the
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/image-alignment-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-alignment-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/image-alignment-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-alignment-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-alignment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/image-alignment-cs1" %}
 
 ## Text wrapping around images
 
@@ -398,14 +398,14 @@ The Rich Text Editor provides control over how text flows around images using th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/wrap-text-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/wrap-text-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/wrap-text-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/wrap-text-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/wrap-text-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/wrap-text-cs1" %}
 
 ## Hyperlinking images
 
@@ -442,14 +442,14 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs19/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs19/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs19/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs19/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs19" %}
 
 ### Disabling image drag and drop
 

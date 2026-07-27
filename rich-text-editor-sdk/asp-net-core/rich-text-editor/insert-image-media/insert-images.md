@@ -10,7 +10,7 @@ documentation: ug
 
 # Images in ASP.NET Core Rich Text Editor Control
 
-Rich Text Editor allows to insert images in your content from online sources as well as local computer. For inserting an image to the Rich Text Editor, the following list of options have been provided in the [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorBuilder.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorBuilder_InsertImageSettings_Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings)
+Rich Text Editor allows to insert images in your content from online sources as well as local computer. For inserting an image to the Rich Text Editor, the following list of options have been provided in the [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditor.html#Syncfusion_EJ2_RichTextEditor_RichTextEditor_InsertImageSettings)
 
 ## Configuring Image Tool in the Toolbar
 
@@ -22,10 +22,10 @@ To configure the `Image` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -33,10 +33,10 @@ To configure the `Image` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -47,7 +47,7 @@ The images can be saved as `Blob` or `Base64` URL by using the [insertImageSetti
 
 ```HTML
 
-<img src="blob:http://ej2.syncfusion.com/3ab56a6e-ec0d-490f-85a5-f0aeb0ad8879" >
+<img src="blob:https://ej2.syncfusion.com/3ab56a6e-ec0d-490f-85a5-f0aeb0ad8879" >
 
 <img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHA" >
 
@@ -88,10 +88,10 @@ Set the [insertImageSettings.saveFormat](https://help.syncfusion.com/cr/aspnetco
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -99,10 +99,10 @@ Set the [insertImageSettings.saveFormat](https://help.syncfusion.com/cr/aspnetco
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -123,10 +123,10 @@ You can add additional data with the image uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-authenticate/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-authenticate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-authenticate/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-authenticate/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ You can add additional data with the image uploaded from the Rich Text Editor on
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-authenticate/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-authenticate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="SaveFile.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-authenticate/saveFile.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-authenticate/saveFile.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -152,10 +152,10 @@ In the following example, the image  size has been validated before uploading an
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-image-size/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-image-size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-image-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-image-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -163,10 +163,10 @@ In the following example, the image  size has been validated before uploading an
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-image-size/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-image-size/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/check-image-size/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/check-image-size/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -194,10 +194,10 @@ The following sample explains, how to configure `removeUrl` to remove a saved im
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-url/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-url/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-url/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-url/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -205,17 +205,17 @@ The following sample explains, how to configure `removeUrl` to remove a saved im
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-url/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-url/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/remove-url/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/remove-url/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
 
 ## Adjusting Image Dimensions
 
-Sets the default width and height of the image when it is inserted in the Rich Text Editor using [width](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Width) and [height](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Height) of the [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorBuilder.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorBuilder_InsertImageSettings_Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings) property.
+Sets the default width and height of the image when it is inserted in the Rich Text Editor using [width](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Width) and [height](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Height) of the [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditor.html#Syncfusion_EJ2_RichTextEditor_RichTextEditor_InsertImageSettings) property.
 
 Through the quick toolbar, change the width and height using `Change Size` option. Once you click, the Image Size dialog box will open as follows. In that you can specify the width and height of the image in pixel.
 
@@ -234,16 +234,16 @@ The `Alternative Text` option lets you provide descriptive text that appears whe
 
 ## Configuring Image Display Position
 
-Sets the default display for an image when it is inserted in the Rich Text Editor using [display](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Display) field in [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorBuilder.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorBuilder_InsertImageSettings_Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings). It has two possible options: 'inline' and 'block'.
+Sets the default display for an image when it is inserted in the Rich Text Editor using [display](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorImageSettings.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorImageSettings_Display) field in [insertImageSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditor.html#Syncfusion_EJ2_RichTextEditor_RichTextEditor_InsertImageSettings). It has two possible options: 'inline' and 'block'.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-settings/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-settings/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -251,10 +251,10 @@ Sets the default display for an image when it is inserted in the Rich Text Edito
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-settings/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-settings/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-settings/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-settings/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -267,10 +267,10 @@ Images in the Rich Text Editor can be aligned using the alignment options in the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-alignment-cs1/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-alignment-cs1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-alignment-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-alignment-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -278,10 +278,10 @@ Images in the Rich Text Editor can be aligned using the alignment options in the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-alignment-cs1/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-alignment-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-alignment-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-alignment-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -294,10 +294,10 @@ The Rich Text Editor provides control over how text flows around images using th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/wrap-text-cs1/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/wrap-text-cs1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/wrap-text-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/wrap-text-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -305,10 +305,10 @@ The Rich Text Editor provides control over how text flows around images using th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/wrap-text-cs1/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/wrap-text-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/wrap-text-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/wrap-text-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -349,10 +349,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -360,10 +360,10 @@ In the following sample, you can see feature demo.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/drag-drop/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/drag-drop/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -393,10 +393,10 @@ By configuring these options in the [quickToolbarSettings](https://help.syncfusi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-quick-toolbar/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-quick-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-quick-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-quick-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -404,10 +404,10 @@ By configuring these options in the [quickToolbarSettings](https://help.syncfusi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-quick-toolbar/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-quick-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/image-quick-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/image-quick-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

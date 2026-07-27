@@ -42,8 +42,6 @@ Properties for `ChartGradientColorStop`:
 
 A linear gradient may be applied directly at the series level. The same gradient is applied uniformly to all data points, legend symbols and tooltip markers.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-linear/tagHelper %}
@@ -53,23 +51,9 @@ A linear gradient may be applied directly at the series level. The same gradient
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-linear/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-linear/series-linear.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Apply a gradient per point using the point render event
 
 A diagonal linear gradient can be applied per data point using the pointRender event for a clear light-to-shadow transition.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -79,18 +63,6 @@ A diagonal linear gradient can be applied per data point using the pointRender e
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-linear/point-linear.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-linear/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="LinearGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-linear/point-linear.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Radial gradient
 
@@ -116,8 +88,6 @@ In the `gradientColorStop`:
 
 A radial gradient can be applied directly at the series level. The same gradient is applied uniformly to all data points, legend symbols and tooltip markers.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-radial/tagHelper %}
@@ -127,23 +97,9 @@ A radial gradient can be applied directly at the series level. The same gradient
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-radial/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/series-radial/series-radial.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Apply a radial gradient per point using the point render event
 
 The following example uses a distinct color palette and an off-center radial gradient to create a clear light-to-shadow effect on each data point. The gradient is configured in pointRender, so each data point receives its own radial gradient derived from its base color.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -153,15 +109,3 @@ The following example uses a distinct color palette and an off-center radial gra
 {% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-radial/point-radial.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-radial/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="RadialGradient.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/accumulation-chart/accumulation-charts/gradient/point-radial/point-radial.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}

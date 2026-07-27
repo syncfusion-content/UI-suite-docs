@@ -25,19 +25,6 @@ The following properties are available in `MapsNavigationLine` to customize the 
 
 To navigate the line between two cities on the world map, `Latitude` and `Longitude` values are used to indicate the start and end points of navigation lines drawn on Maps.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Navigation-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/navigation-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/razor %}
@@ -46,7 +33,6 @@ To navigate the line between two cities on the world map, `Latitude` and `Longit
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/navigation-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -61,19 +47,6 @@ To enable the arrow in the navigation line, set the `ShowArrow` property of `Map
 * `Position` - To customize the position of the arrow in navigation line. The possible values can be **Start** and **End**.
 * `Size` - To customize the size of the arrow in pixels.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/arrowSettings/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Arrow.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/arrowSettings/arrow.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/arrowSettings/razor %}
@@ -82,7 +55,6 @@ To enable the arrow in the navigation line, set the `ShowArrow` property of `Map
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/navigation-line/arrowSettings/arrow.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

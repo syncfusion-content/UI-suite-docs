@@ -16,7 +16,7 @@ Please refer to the sample from Dashboard->Desktop->WPF->Diagram->GettingStarted
 ## Define Rulers
 
 {% tabs %}
-{% highlight XAML %}
+{% highlight xaml %}
 
 <syncfusion:SfDiagram x:Name="diagram">
     <syncfusion:SfDiagram.HorizontalRuler>
@@ -28,7 +28,7 @@ Please refer to the sample from Dashboard->Desktop->WPF->Diagram->GettingStarted
 </syncfusion:SfDiagram>
 		
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.HorizontalRuler = new Ruler();
 diagram.VerticalRuler = new Ruler() { Orientation = Orientation.Vertical };
@@ -53,7 +53,7 @@ Segment width, the textual description of the ruler segment, and the appearance 
 You can change the color of the ruler's position indicator marker to any preferred shade by using [`MarkerBrush`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Controls.Ruler.html#Syncfusion_UI_Xaml_Diagram_Controls_Ruler_MarkerBrush) property of the `Ruler` class.
 
 {% tabs %}
-{% highlight XAML %}
+{% highlight xaml %}
 
 <syncfusion:SfDiagram x:Name="diagram">
     <syncfusion:SfDiagram.HorizontalRuler>
@@ -65,7 +65,7 @@ You can change the color of the ruler's position indicator marker to any preferr
 </syncfusion:SfDiagram>
 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 diagram.HorizontalRuler = new Ruler() { MarkerBrush = Brushes.Red };
 diagram.VerticalRuler = new Ruler() { Orientation = Orientation.Vertical,  MarkerBrush = Brushes.Green };

@@ -12,8 +12,6 @@ documentation: ug
 
 Maps component can be customized as the desired layout using the custom path map feature. Here, the Maps component has been showcased with normal geometry type shapes to represent the bus seat selection layout.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/custom-path/tagHelper %}
@@ -22,18 +20,6 @@ Maps component can be customized as the desired layout using the custom path map
 {% include code-snippet/chart-sdk/asp-net-core/maps/custom-path/custom-path.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/custom-path/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-path.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/custom-path/custom-path.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 Note: Refer the data values for custom shapes(https://www.syncfusion.com/downloads/support/directtrac/general/ze/seat902454209) here.
 

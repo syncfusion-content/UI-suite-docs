@@ -17,8 +17,6 @@ Heat map can be displayed using **Canvas** or **Scalable Vector Graphics (SVG)**
 N> If the **Auto** mode is enabled in the heat map and there are more than 10,000 data points, then the heat map will be rendered in a **Canvas** mode; Otherwise, the heat map will be rendered in a **SVG** mode.
 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/rendering-mode/tagHelper %}
@@ -27,16 +25,4 @@ N> If the **Auto** mode is enabled in the heat map and there are more than 10,00
 {% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/rendering-mode/rendering-mode.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/rendering-mode/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rendering-mode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/heatmap-chart/rendering-mode/rendering-mode.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

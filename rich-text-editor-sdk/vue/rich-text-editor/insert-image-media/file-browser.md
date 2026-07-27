@@ -40,17 +40,17 @@ Additionally add the styles as given below in `<style>` section of the `App.vue`
 The following example explains about how to configure the file browser within the Rich Text Editor component.
 
 * Configure the `FileManager` toolbar item in the `toolbarSettings` API `items` property.
-* Set [`enable`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/fileManagerSettings/#enable) property as `true` on [`fileManagerSettings`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#fileManagerSettings) property to make the file browser in the Rich Text Editor to appear on the `FileManager` toolbar click action.
+* Set [`enable`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/filemanagersettings#enable) property as `true` on [`fileManagerSettings`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#fileManagerSettings) property to make the file browser in the Rich Text Editor to appear on the `FileManager` toolbar click action.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To use the file browser tool, configure `FileManager` in the provider.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/file-browser-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/file-browser-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/file-browser-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/file-browser-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/file-browser-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/file-browser-cs1" %}

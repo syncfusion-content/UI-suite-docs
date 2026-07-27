@@ -36,14 +36,14 @@ The following code example illustrates how to create an icon of various shapes.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs10/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs10/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs10/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs10" %}
 
 ### Appearance and alignment of icon
 
@@ -59,14 +59,14 @@ The following code example illustrates the customization of icons.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs101/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs101/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs101/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs101/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs101" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs101" %}
 
 ## IsExpanded
 

@@ -39,7 +39,7 @@ In this sample demonstrates the full features of the File Manager that includes 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -53,10 +53,10 @@ In this sample demonstrates the full features of the File Manager that includes 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/overview/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/overview/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 

@@ -26,6 +26,7 @@ System.config({
         "@syncfusion/ej2-notifications": "syncfusion:ej2-notifications/dist/ej2-notifications.umd.min.js",
         "@syncfusion/ej2-splitbuttons": "syncfusion:ej2-splitbuttons/dist/ej2-splitbuttons.umd.min.js",
         "@syncfusion/ej2-progressbar": "syncfusion:ej2-progressbar/dist/ej2-progressbar.umd.min.js",
+        "@syncfusion/ej2-svg-base": "syncfusion:ej2-svg-base/dist/ej2-svg-base.umd.min.js",
         "@syncfusion/ej2-blockeditor": "syncfusion:ej2-blockeditor/dist/ej2-blockeditor.umd.min.js"
     }
 });

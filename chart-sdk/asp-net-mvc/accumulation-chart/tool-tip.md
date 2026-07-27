@@ -13,19 +13,6 @@ documentation: ug
 
 Tooltip for the accumulation chart can be enabled by using the [`Enable`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Enable) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/default/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/default/default.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/default/razor %}
@@ -34,26 +21,12 @@ Tooltip for the accumulation chart can be enabled by using the [`Enable`](https
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Header
 
 We can specify header for the tooltip using [`Header`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Header) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/header/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Header.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/header/header.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -63,26 +36,12 @@ We can specify header for the tooltip using [`Header`](https://help.syncfusion.c
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/header/header.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Format
 
 By default, tooltip shows information of x and y value in points. In addition to that, you can show more information in tooltip. For example the format `${series.name} ${point.x}` shows series name and point x value.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -92,7 +51,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -141,19 +99,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-inline-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-inline-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-inline-format/tooltip-inline-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-inline-format/razor %}
@@ -162,24 +107,10 @@ If the specified format does not match the resolved value type, the original val
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-inline-format/tooltip-inline-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Tooltip format
 
 Any HTML element can be displayed in the tooltip by using the [`Template`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Template) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-format/tooltip-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -189,26 +120,12 @@ Any HTML element can be displayed in the tooltip by using the [`Template`](https
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-format/tooltip-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but you can set a fixed position for the tooltip by using the [`Location`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Location) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-fixed/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-fixed.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-fixed/tooltip-fixed.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -218,26 +135,12 @@ By default, tooltip track the mouse movement, but you can set a fixed position f
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/tooltip-fixed/tooltip-fixed.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customization
 
 The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Fill) and [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_Border) properties are used to customize the background color and border of the tooltip respectively. The [`TextStyle`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_TextStyle) property in the tooltip is used to customize the font of the tooltip text. The [`HighlightColor`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_HighlightColor) property can be used to change the color of the data point when hovering.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -247,26 +150,12 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## To customize individual tooltip
 
 Using [`TooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChart.html#Syncfusion_EJ2_Charts_AccumulationChart_TooltipRender) event, you can customize a tooltip for particular point. event, you can customize a tooltip for particular point.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/individual/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Individual.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/individual/individual.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -276,26 +165,12 @@ Using [`TooltipRender`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/individual/individual.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Tooltip mapping name
 
 By default, tooltip shows information of x and y value in points. You can show more information from datasource in tooltip by using the [`TooltipMappingName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationSeries.html#Syncfusion_EJ2_Charts_AccumulationSeries_TooltipMappingName) property of the tooltip. You can use the `${point.tooltip}` as place holders to display the specified tooltip content.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/mapping/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Mapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/mapping/mapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -305,7 +180,6 @@ By default, tooltip shows information of x and y value in points. You can show m
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/mapping/mapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Enable highlight
 
@@ -332,19 +206,6 @@ The follow pointer feature enables the tooltip to follow the mouse cursor or tou
 
 Enable this feature by setting the [`FollowPointer`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.AccumulationChartTooltipSettings.html#Syncfusion_EJ2_Charts_AccumulationChartTooltipSettings_FollowPointer) property to **true** in the tooltip.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/follow-pointer/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Follow-pointer.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/follow-pointer/follow-pointer.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/follow-pointer/razor %}
@@ -353,5 +214,3 @@ Enable this feature by setting the [`FollowPointer`](https://help.syncfusion.com
 {% include code-snippet/chart-sdk/asp-net-mvc/accumulation-chart/accumulation-charts/tooltip/follow-pointer/follow-pointer.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}

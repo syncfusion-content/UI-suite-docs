@@ -26,10 +26,10 @@ You can use TreeGrid [`dataSource`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/ajax-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/ajax-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ajax.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/ajax-data/ajax.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/ajax-data/ajax.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,7 +37,7 @@ You can use TreeGrid [`dataSource`](https://help.syncfusion.com/cr/cref_files/as
 
 {% tabs %}
 {% highlight c# tabtitle="Ajax.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/ajax-data/ajax.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/ajax-data/ajax.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -63,10 +63,10 @@ The `expandStateMapping` property maps the field name in data source, that denot
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/expandstatemapping/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/expandstatemapping/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ExpandStateMapping.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/expandstatemapping/expandstatemapping.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/expandstatemapping/expandstatemapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,7 +74,7 @@ The `expandStateMapping` property maps the field name in data source, that denot
 
 {% tabs %}
 {% highlight c# tabtitle="ExpandStateMapping.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/expandstatemapping/expandstatemapping.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/expandstatemapping/expandstatemapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

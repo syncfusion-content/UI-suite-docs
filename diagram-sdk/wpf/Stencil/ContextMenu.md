@@ -16,7 +16,7 @@ Stencil includes some default context menu items to make it easier to execute so
 Context menu items can be enabled or disabled by adding or removing the `ContextMenu` constraint from
 [`StencilConstraints`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.StencilConstraints.html) property. By default, context menu items will be displayed with Cut, Copy, and Paste menu items.
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Enables the the symbols reordering.
 stencil.StencilConstraints |= StencilConstraints.ContextMenu;
@@ -40,7 +40,7 @@ The following properties should be added to custom context menu items of stencil
 * `CommandParameter` - allows you to define command parameter value to execute command for the context menu item.
 * `IsSeparator` - allows you to define the horizontal lines that separate the menu items from icon position.
 
-{% highlight C# %}
+{% highlight c# %}
 
 SfDiagram diagram = new SfDiagram();
 Stencil BasicStencil = new Stencil() { ShowDisplayModeToggleButton = false, ShowSearchTextBox = false, ExpandMode = ExpandMode.All, Constraints = StencilConstraints.Default | StencilConstraints.AllowDragDrop };
@@ -126,7 +126,7 @@ BasicStencil.SymbolSource = new SymbolCollection()
 
 You can define specific menu items to each stencil symbols by using the `Menu` property of symbols.
 
-{% highlight C# %}
+{% highlight c# %}
 
 BasicStencil.SymbolSource = new SymbolCollection()
 {

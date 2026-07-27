@@ -31,11 +31,11 @@ During the drag operation, a visual indicator will show precisely where the bloc
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/drag-drop/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/drag-drop/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/drag-drop" %}

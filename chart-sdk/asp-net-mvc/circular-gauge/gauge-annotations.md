@@ -16,16 +16,6 @@ Annotations are used to mark a specific area of interest in the gauge with texts
 
 You can place any custom element on the axis area by assigning the id of the element to [content](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html#Syncfusion_EJ2_CircularGauge_CircularGaugeAnnotation_Content) property of [annotation](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGaugeAnnotation.html) object.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/annotations/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/annotations/razor %}
@@ -34,7 +24,6 @@ You can place any custom element on the axis area by assigning the id of the ele
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/annotations/annotations.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -44,16 +33,6 @@ Annotation can be placed around the axis by using [radius](https://help.syncfusi
 
 Radius of the annotation takes value either in pixel or percentage. By setting value in percentage, annotation gets its position with respect to its axis radius.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/position/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/position/razor %}
@@ -62,26 +41,12 @@ Radius of the annotation takes value either in pixel or percentage. By setting v
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Sub Gauge
 
 As the annotation allows to place any custom element, it can initialize a gauge to the element and can be used to place that in another gauge.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/subgauge/tagHelper %}
-{% endhighlight %}
-<!-- {% highlight c# tabtitle="Subgauge.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/subgauge/subgauge.cs %}
-{% endhighlight %} -->
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -91,7 +56,6 @@ As the annotation allows to place any custom element, it can initialize a gauge 
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-annotations/subgauge/subgauge.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/AnnotationandLegendSample).
 

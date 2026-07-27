@@ -49,7 +49,7 @@ The `IsSelected` Property is used to select/unselect the elements at runtime.
 The following code example illustrates how to select/unselect an item through programmatically.
 
 {% tabs %}
-{% highlight C# %}
+{% highlight c# %}
 
 // Selects an elements 
 
@@ -100,7 +100,7 @@ The below events are common for Node, Connector, Group, Port and Annotation.
 
 Diagram provides support to drop a node/connector over another node/connector. Drop event is raised to notify that an element is dropped over another one and it is disabled by default. It can enabled with the constraints property. The following code illustrates how to enable **dropping**.
 
-{% highlight C# %}
+{% highlight c# %}
 
 // Registering an event
 (diagram.Info as IGraphInfo).ItemDropEvent += MainWindow_ItemDropEvent;

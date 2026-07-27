@@ -492,23 +492,23 @@ To localize the editor’s strings with your own localization, copy the default 
 
 ```
 
-The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#locale) property.
+The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#locale) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs3/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs3/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs3/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs3/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs3" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs3" %}
 
 ## Enable Right-to-Left (RTL) mode
 
-The [enableRtl](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
+The [enableRtl](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/index-default#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
 
 When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to the root element. Customizations can be made based on this class. Use the following CSS to customize the Rich Text Editor in RTL (right-to-left) mode.
 
@@ -522,12 +522,12 @@ When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to 
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs4/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs4/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs4/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs4/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs4" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs4" %}

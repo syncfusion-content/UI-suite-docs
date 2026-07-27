@@ -21,14 +21,14 @@ The [`length`](../../../api/diagram/orthogonalSegment) and [`direction`](../../.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs9" %}
 
 
 N> You need to mention the segment type as same as what you mentioned in connector type. There should be no contradiction between connector type and segment type.
@@ -41,14 +41,14 @@ N> You need to mention the segment type as same as what you mentioned in connect
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs9/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs9" %}
 
 
 ![Orthogonal Segment edit Gif](../../images/orthoSegEdit.gif)
@@ -60,14 +60,14 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs11/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs11/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs11/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs11/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs11" %}
 
 ## How to customize Orthogonal Segment Thumb Shape
 
@@ -92,14 +92,14 @@ The orthogonal connector can have any number of segments in between the source a
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs12/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs12/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs12/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs12/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs12" %}
 
 ![Segment Thumb Shape](../../images/thumbshape.png)
 
@@ -128,11 +128,11 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs62/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs62/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs62/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs62/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs62" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs62" %}

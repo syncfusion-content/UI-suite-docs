@@ -65,14 +65,14 @@ The following code example illustrates how to align all the selected objects at 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs13/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs13/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs13/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs13/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs13" %}
 
 ![Align Sample](images/Commands_img1.png)
 
@@ -103,14 +103,14 @@ The following code example illustrates how the nodes are distributed using the `
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs14/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs14/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs14/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs14/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs14" %}
 
 ![Distribute Sample](images/Commands_img2.png)
 
@@ -136,14 +136,14 @@ The following code example illustrates how to execute the size commands.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs15/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs15/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs15/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs15/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs15" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs15" %}
 
 
 ![Sizing Sample](images/Commands_img3.png)
@@ -164,14 +164,14 @@ The following code illustrates how to execute the clipboard commands.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs1" %}
 
 ## Grouping commands
 
@@ -186,14 +186,14 @@ The following code examples demonstrate how to use the grouping commands in diag
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs2" %}
 
 ## Rotate commands
 
@@ -210,14 +210,14 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs19/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs19/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs19" %}
 
 
 ## Z-Order command
@@ -230,14 +230,14 @@ The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram#bringt
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs3" %}
 
 ### Send to back command
 
@@ -245,14 +245,14 @@ The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram#sendtoba
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs4" %}
 
 ### Move forward command
 
@@ -260,14 +260,14 @@ The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram#movefor
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs5/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs5" %}
 
 ### send backward command
 
@@ -275,14 +275,14 @@ The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram#sendba
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs6/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs6" %}
 
 
 The Z-order commands can also be performed using keyboard shortcuts. For more information, refer to the [`keyboard commands`](./interaction#keyboard).
@@ -336,14 +336,14 @@ The following code illustrates how to execute the nudge command.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs7/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs7" %}
 
 ### Nudge by using arrow keys
 
@@ -365,14 +365,14 @@ The following code illustrates how to execute the bringIntoView command:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs8/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs8" %}
 
 ## BringToCenter
 
@@ -384,14 +384,14 @@ The following code illustrates how to execute the bringToCenter command.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs9/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs9/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs9/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs9/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs9" %}
 
 ## FitToPage
 
@@ -416,14 +416,14 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs10/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs10/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs10/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs10/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs10" %}
 
 ## Command manager
 
@@ -445,14 +445,14 @@ The following code example illustrates how to use the command manager to clone a
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs17/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs17/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs17/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs17/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs17" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs17" %}
 
 ### Disable/Modify the existing command
 
@@ -462,14 +462,14 @@ The following code example illustrates how to disable the default cut and delete
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs18/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs18/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/commands-cs18/index.html %}
+{% include code-snippet/diagram-sdk/typescript/commands-cs18/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs18" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/commands-cs18" %}
 
 ## Undo-redo
 

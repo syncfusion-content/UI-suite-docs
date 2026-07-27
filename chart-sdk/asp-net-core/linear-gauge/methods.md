@@ -22,22 +22,11 @@ To change the pointer value dynamically, use the [`setPointerValue`](https://ej2
 |     pointerIndex     |    Specifies the index of the pointer to be updated.           |
 |     pointerValue     |    Specifies the value of the pointer to be updated.           |
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/setPointerValue/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/setPointerValue/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -51,22 +40,11 @@ To change the annotation content dynamically, use the [`setAnnotationValue`](htt
 |     content          |    Specifies the text for the annotation to be updated.        |
 |     axisValue        |    Specifies the value of the axis where the annotation is to be placed.|
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/setAnnotationValue/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/setAnnotationValue/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -74,20 +52,9 @@ To change the annotation content dynamically, use the [`setAnnotationValue`](htt
 
 The [`refresh`](https://ej2.syncfusion.com/documentation/api/linear-gauge#refresh) method can be used to change the state of the component and render it again.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/refresh/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/linear-gauge/methods/refresh/razor %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

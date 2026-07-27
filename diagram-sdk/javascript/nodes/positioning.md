@@ -33,14 +33,14 @@ The following code illustrates how to change the `pivot` value.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs3" %}
 
 ## Minimum and maximum size for nodes.
 
@@ -48,13 +48,13 @@ The [`minWidth`](../../api/diagram/node#minwidth) and [`minHeight`](../../api/di
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-minWidth/index.js %}
+{% include code-snippet/diagram-sdk/javascript/nodes-minWidth/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/nodes-minWidth/index.html %}
+{% include code-snippet/diagram-sdk/javascript/nodes-minWidth/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-minWidth" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-minWidth" %}
 
 ![MinSize-MaxSize GIF](../images/minSize-MaxSizeGif.gif)

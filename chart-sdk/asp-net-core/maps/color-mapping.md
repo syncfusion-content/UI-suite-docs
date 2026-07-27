@@ -54,8 +54,6 @@ Bind the **ViewBag.populationData** data to the `DataSource` property of `MapsLa
     ];
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/colorvaluepath/tagHelper %}
@@ -64,18 +62,6 @@ Bind the **ViewBag.populationData** data to the `DataSource` property of `MapsLa
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/colorvaluepath/colorvaluepath.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/colorvaluepath/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Colorvaluepath.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/colorvaluepath/colorvaluepath.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -109,8 +95,6 @@ Equal color mapping applies the color to the shapes of the Maps when the `Value`
 
 Bind the **ViewBag.unitedCountries** data to the `DataSource` property of `MapsLayer` and set the `ColorValuePath` property of `MapsShapeSettings` as **Membership**. Set the `Value` property in the `MapsColorMapping` to **Permanent** and **Non-Permanent** in the different set of shape color mapping properties. If the corresponding value of the `ColorValuePath` property matches with the corresponding field name in the data source, then the given color will be applied.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/equalcolormapping/tagHelper %}
@@ -119,18 +103,6 @@ Bind the **ViewBag.unitedCountries** data to the `DataSource` property of `MapsL
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/equalcolormapping/equalcolormapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/equalcolormapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Equalcolormapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/equalcolormapping/equalcolormapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -144,8 +116,6 @@ N>The following example shows how to apply desaturation color mapping to the sha
 
 Bind the **Population_Density** data to the `DataSource` property of `MapsLayer` class and set the `ColorValuePath` property of `MapsShapeSettings` as **density**. The range values can be set using the `From` and `To` properties in the `MapsColorMapping`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationcolormapping/tagHelper %}
@@ -154,18 +124,6 @@ Bind the **Population_Density** data to the `DataSource` property of `MapsLayer`
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationcolormapping/desaturationcolormapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationcolormapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Desaturationcolormapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationcolormapping/desaturationcolormapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -181,8 +139,6 @@ N>The following example demonstrates how to use multiple colors in color mapping
 
 Bind the **Population_Density** data to the `DataSource` property of `MapsLayer` class and set the `ColorValuePath` property of `MapsShapeSettings` as **density**. The range values can be set using the `From` and `To` properties of `MapsColorMapping`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationwithmultiplecolors/tagHelper %}
@@ -191,18 +147,6 @@ Bind the **Population_Density** data to the `DataSource` property of `MapsLayer`
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationwithmultiplecolors/desaturationwithmultiplecolors.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationwithmultiplecolors/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Desaturationwithmultiplecolors.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/desaturationwithmultiplecolors/desaturationwithmultiplecolors.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -218,8 +162,6 @@ N>The following example shows how to set the color for items excluded from the c
 
 In the following example, color mapping is added for the ranges from 0 to 200. If there are any records in the data source that are outside of this range, the color mapping will not be applied. To apply the color for these excluded items, set the `Color` property alone in the `MapsColorMapping`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/excludedcolormapping/tagHelper %}
@@ -228,18 +170,6 @@ In the following example, color mapping is added for the ranges from 0 to 200. I
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/excludedcolormapping/excludedcolormapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/excludedcolormapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Excludedcolormapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/excludedcolormapping/excludedcolormapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -251,8 +181,6 @@ N> Refer the data values of [Population-density.json](https://www.syncfusion.com
 
 The color mapping types such as range color mapping, equal color mapping and desaturation color mapping are applicable for bubbles in the Maps. To add color mapping for bubbles of the Maps, bind the data source to the `DataSource` property of `MapsBubble` class and set the field name which contains the color value in the data source to the `ColorValuePath` property. Multiple colors for a single set of bubbles and color for excluded items from `ColorMapping` are also applicable for bubbles.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/bubble-colormapping/tagHelper %}
@@ -261,18 +189,6 @@ The color mapping types such as range color mapping, equal color mapping and des
 {% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/bubble-colormapping/bubble-colormapping.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/bubble-colormapping/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Bubble-colormapping.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/maps/colormapping/bubble-colormapping/bubble-colormapping.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

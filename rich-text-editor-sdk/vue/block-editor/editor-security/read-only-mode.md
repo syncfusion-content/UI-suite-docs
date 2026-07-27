@@ -22,13 +22,13 @@ The following example demonstrates how to enable read-only mode in the Block Edi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/readonly/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/readonly/app-composition.vue %}
 {% endhighlight %}
 
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/readonly/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/readonly/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/readonly" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/readonly" %}
         

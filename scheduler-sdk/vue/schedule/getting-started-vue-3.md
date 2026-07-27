@@ -19,7 +19,31 @@ The `Options API` is the traditional way of writing Vue.js components, where the
 
 ## Prerequisites
 
-[System requirements for Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+| Requirement | Version |
+|-------------|---------|
+| Vue | 2.6 or higher |
+| Node.js | 16.0.0 or above |
+
+### Vue supported versions
+
+| Vue version | Minimum Syncfusion Vue Schedule version |
+| ------------- | ------------------------------------------- |
+|[Vue v2.7](https://blog.vuejs.org/posts/vue-2-7-naruto) | 20.3.47 and above |
+|[Vue v3.0](https://blog.vuejs.org/posts/vue-3-as-the-new-default) | 19.2.44 and above |
+
+### Browser Support
+
+| Browser | Supported versions |
+|---|---|
+| Chrome | Latest |
+| Firefox | Latest |
+| Opera | Latest |
+| Edge | 13+ |
+| Internet Explorer (IE) | 11+ |
+| Safari | 9+ |
+| iOS Safari | 9+ |
+| Android Browser / Chrome for Android | 4.4+ |
+| Windows Mobile | IE 11+ |
 
 ## Set up the Vite project
 
@@ -56,7 +80,7 @@ Vanilla
   Others
 ```
 
-3.Choose `JavaScript` as framework variant to build this Vite project using JavaScript and Vue.
+3.Select `JavaScript` as the framework variant.
 
 ```bash
 ? Select a variant: » - Use arrow-keys. Return to submit.
@@ -100,24 +124,31 @@ yarn add @syncfusion/ej2-vue-schedule
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-You can import themes for the Vue component in various ways, such as using CSS or SASS styles from npm packages, CDN, [CRG](https://ej2.syncfusion.com/javascript/documentation/common/custom-resource-generator) and [Theme Studio](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio). Refer to [themes topic](https://ej2.syncfusion.com/vue/documentation/appearance/theme) to know more about built-in themes and different ways to refer to themes in a Vue project.
+Themes for Syncfusion<sup style="font-size:70%">&reg;</sup> Schedule component can be applied using CSS files provided through [npm theme packages](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme). For available themes, refer to the [Themes](https://ej2.syncfusion.com/vue/documentation/appearance/theme) documentation.
 
-In this article, `material3` theme is applied using CSS styles, which are available in installed packages. The necessary `material3` CSS styles for the Scheduler component and its dependents were imported into the `<style>` section of the **src/App.vue** file.
+Install the **Material 3** theme package using the following command:
 
-```html
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+ 
+npm install @syncfusion/ej2-material3-theme --save
+ 
+{% endhighlight %}
+{% endtabs %}
+ 
+Then add the following CSS reference to the **src/App.vue** file:
+
+{% tabs %}
+{% highlight html tabtitle="Options API ~/src/App.vue" %}
+
 <style>
-  @import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-calendars/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-popups/styles/material3.css';
-  @import '../node_modules/@syncfusion/ej2-vue-schedule/styles/material3.css';
+    @import '../node_modules/@syncfusion/ej2-material3-theme/styles/schedule/index.css';
 </style>
-```
 
-> **Note**: Scheduler component use other Syncfusion<sup style="font-size:70%">&reg;</sup> components too, the dependent component's CSS references need to be added for using all the Scheduler functionalities.
+{% endhighlight %}
+{% endtabs %}
+
+> **Note**: Scheduler component uses other Syncfusion<sup style="font-size:70%">&reg;</sup> components. The dependent component's CSS references need to be added to utilize all Scheduler functionalities.
 
 ## Add Vue component
 
@@ -341,14 +372,7 @@ const ownerDataSource = [
 </script>
 
 <style>
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-calendars/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-vue-schedule/styles/material3.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/schedule/index.css';
 </style>
 {% endhighlight %}
 
@@ -434,14 +458,7 @@ export default {
 </script>
 
 <style>
-@import '../node_modules/@syncfusion/ej2-base/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-buttons/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-calendars/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-inputs/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-navigations/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-popups/styles/material3.css';
-@import '../node_modules/@syncfusion/ej2-vue-schedule/styles/material3.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/schedule/index.css';
 </style>
 {% endhighlight %}
 {% endtabs %}
@@ -459,6 +476,8 @@ or
 ```bash
 yarn run dev
 ```
+
+The development server will start, typically at `http://localhost:5173`. Open this URL in your browser to view the Scheduler component. The terminal will display the exact URL and hot reload will be enabled for development.
 
 The output will appear as follows:
 

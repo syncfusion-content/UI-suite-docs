@@ -38,10 +38,10 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-expand/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-expand/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-expand/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-expand/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-expand/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-expand/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-expand/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-expand/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -65,10 +65,10 @@ By setting type: `MultiRow` in [toolbarSettings](https://help.syncfusion.com/cr/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-multirow/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-multirow/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-multirow/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-multirow/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -76,10 +76,10 @@ By setting type: `MultiRow` in [toolbarSettings](https://help.syncfusion.com/cr/
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-multirow/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-multirow/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-multirow/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-multirow/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -92,10 +92,10 @@ Use `type: 'Scrollable'` in [toolbarSettings](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-scrollable/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-scrollable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-scrollable/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-scrollable/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -103,10 +103,10 @@ Use `type: 'Scrollable'` in [toolbarSettings](https://help.syncfusion.com/cr/asp
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-scrollable/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-scrollable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/toolbar-scrollable/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/toolbar-scrollable/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -123,10 +123,10 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/floating-toolbar/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/floating-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/floating-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/floating-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/floating-toolbar/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/floating-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/floating-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/floating-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -154,10 +154,10 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/custom-toolbar/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/custom-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/custom-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/custom-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -165,10 +165,10 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/custom-toolbar/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/custom-toolbar/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/custom-toolbar/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/custom-toolbar/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

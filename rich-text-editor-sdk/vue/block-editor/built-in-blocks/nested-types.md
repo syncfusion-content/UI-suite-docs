@@ -67,14 +67,14 @@ This example shows how to configure `CollapsibleHeading` and `CollapsibleParagra
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/toggle-block/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/toggle-block/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/toggle-block/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/toggle-block/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/toggle-block" %}
 
 ### Configure placeholder
 
@@ -121,14 +121,14 @@ The following sample demonstrates how to configure quote block.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/quote/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/quote/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/quote/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/quote/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/quote" %}
 
 ## Configure callout block
 
@@ -156,11 +156,11 @@ The following sample demonstrates how to configure callout block.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/callout/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/callout/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/children/callout/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/callout/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/children/callout" %}

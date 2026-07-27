@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/grid-sdk
 
 # Getting Started with the Vue Pivotview Component in Vue 2
 
-This article provides a step-by-step guide for setting up a Vue 2 project using [Vue-CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Pivotview component
+This article provides a step-by-step guide for setting up a Vue 2 project using [Vue-CLI](https://cli.vuejs.org) and integrating the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Pivot Table component.
 
 To get started quickly with the Vue [Pivot Table](https://www.syncfusion.com/vue-components/vue-pivot-table), watch this video:
 
@@ -18,73 +18,103 @@ To get started quickly with the Vue [Pivot Table](https://www.syncfusion.com/vue
 
 ## Prerequisites
 
-[System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements)
+Ensure your development environment meets the [System requirements for Syncfusion<sup style="font-size:70%">&reg;</sup> Vue UI components](https://ej2.syncfusion.com/vue/documentation/system-requirements).
 
 ## Setting up the Vue 2 project
 
 To generate a Vue 2 project using Vue-CLI, use the [vue create](https://cli.vuejs.org#getting-started) command. Follow these steps to install Vue CLI and create a new project:
 
-```bash
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
 npm install -g @vue/cli
 vue create quickstart
-cd quickstart
-npm run serve
-```
 
-or
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
 
-```bash
 yarn global add @vue/cli
 vue create quickstart
-cd quickstart
-yarn run serve
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 When creating a new project, choose the option `Default ([Vue 2] babel, eslint)` from the menu.
 
 ![Vue 2 project](../pivotview/images/vue2-terminal.png)
 
+Once the project is created, move into the project folder and start the development server:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+cd quickstart
+npm run serve
+
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
+cd quickstart
+yarn run serve
+
+{% endhighlight %}
+{% endtabs %}
+
+The dev server starts at `http://localhost:8080` by default. Open this URL in a browser to verify the scaffold runs before adding Syncfusion<sup style="font-size:70%">&reg;</sup> components.
+
 Once the `quickstart` project is set up with default settings, proceed to add Syncfusion<sup style="font-size:70%">&reg;</sup> components to the project.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue packages
 
-To install the PivotTable component, run the following command:
+To install the Vue Pivot Table component, run the following command:
 
-```bash
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
 npm install @syncfusion/ej2-vue-pivotview --save
-```
-or
 
-```bash
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
 yarn add @syncfusion/ej2-vue-pivotview
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
 
-The following CSS files are available in the ../node_modules/@syncfusion package folder. Add them as references in **src/App.vue**.
+Themes for the Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Pivot Table can be applied using CSS or SASS files from the [npm theme packages](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages), CDN, CRG, or [Theme Studio](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio). For more information, refer to the [themes documentation](https://ej2.syncfusion.com/vue/documentation/appearance/theme).
+
+The following example demonstrates the installation of the `Tailwind 3` theme package from npm. Each component in this theme package includes an `index.css` file that automatically loads all required dependency styles.
+
+To install the [Tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme package, use the following command:
 
 {% tabs %}
-{% highlight html tabtitle="~/src/App.vue" %}
+{% highlight bash tabtitle="npm" %}
 
-<style>
-@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-pivotview/styles/tailwind3.css";
-</style>
+npm install @syncfusion/ej2-tailwind3-theme --save
+
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
+yarn add @syncfusion/ej2-tailwind3-theme
+
+{% endhighlight %}
+{% endtabs %}
+
+Import the required theme styles in the `<style>` section of the `src/App.vue` file:
+
+{% tabs %}
+{% highlight css tabtitle="~/src/App.vue" %}
+
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/pivotview/index.css';
 
 {% endhighlight %}
 {% endtabs %}
 
 ## Adding Pivot Table component
 
-The PivotTable code should be added to the **src/App.vue** file.
+The Pivot Table component code should be added to the **src/App.vue** file. Replace the default contents of `src/App.vue` with the following sample.
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
@@ -122,16 +152,7 @@ export default {
 }
 </script>
 <style>
-@import "../node_modules/@syncfusion/ej2-base/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-inputs/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-buttons/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-dropdowns/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-lists/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-navigations/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-grids/styles/tailwind3.css";
-@import "../node_modules/@syncfusion/ej2-pivotview/styles/tailwind3.css";
+@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/pivotview/index.css';
 </style>
 
 {% endhighlight %}
@@ -139,16 +160,26 @@ export default {
 
 ## Run the application
 
-```bash
+Use the following command to run the application:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
 npm run serve
-```
-or
-```bash
+
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
 yarn run serve
-```
+
+{% endhighlight %}
+{% endtabs %}
+
+> **Troubleshooting:** If the dev server fails to start, ensure no other process is using the default port (`8080`), and that the `@vue/cli` global install completed successfully (run `vue --version` to verify). If the `vue` command is not recognized, restart your terminal so the updated PATH is picked up.
 
 ## See also
 
 * [Data Binding](./data-binding)
 * [Field List](./field-list)
 * [Grouping Bar](./grouping-bar)
+* [Getting Started with the Vue Pivotview Component in Vue 3](./vue-3-getting-started)

@@ -21,10 +21,10 @@ The following sample demonstrates how to config the InsertCode button in toolbar
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/format-code-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/format-code-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/format-code-block/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/format-code-block/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ The following sample demonstrates how to config the InsertCode button in toolbar
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/format-code-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/format-code-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/how-to/format-code-block/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/how-to/format-code-block/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

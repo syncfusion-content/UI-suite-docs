@@ -10,11 +10,11 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Table in Angular Rich Text Editor Component
 
-The Syncfusion Angular Rich Text Editor allows inserting table in the edit panel, providing options to add, edit, format, and remove tables as well as perform other table related action. For inserting the table to the Rich Text Editor, the following list of options have been provided in the [tableSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/tableSettingsModel)
+The Syncfusion Angular Rich Text Editor allows inserting table in the edit panel, providing options to add, edit, format, and remove tables as well as perform other table related action. For inserting the table to the Rich Text Editor, the following list of options have been provided in the [tableSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/tablesettingsmodel)
 
 ## Configuring the table tool in toolbar
 
-You can add an `CreateTable` tool in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add an `CreateTable` tool in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 Select the number of rows and columns on the table grid to insert the table.
 
@@ -26,15 +26,15 @@ In the following sample, the table feature has been provided from table module.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs27/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs27/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs27/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs27/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs27" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs27" %}
 
 ## Table headers
 
@@ -66,15 +66,15 @@ The Rich Text Editor allows users to insert tables within other table cells, ena
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/nesting-table/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/nesting-table/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/nesting-table/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/nesting-table/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/nesting-table" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/nesting-table" %}
 
 ## Quick insert for table rows and columns
 
@@ -182,7 +182,7 @@ By Default, provides Dashed border and Alternate rows.
 
 ## Setting table and cell dimensions
 
-Sets the default width of the table when it is inserted in the Rich Text Editor using the width of [tableSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/tableSettings).
+Sets the default width of the table when it is inserted in the Rich Text Editor using the width of [tableSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/tablesettings).
 
 Users can modify the table width, cell padding, cell spacing, background color, border color, border style, and border width through the `TableEditProperties` option in the quick toolbar. By default, the border style is double and the border width is 1px. When users change these values in the dialog, the updates are instantly reflected in the editor as a live preview.
 
@@ -194,7 +194,7 @@ The Rich Text Editor provides advanced options to customize individual table cel
 
 ### Configuring the table cell properties in quick toolbar
 
-To enable individual cell dimension and border customization, configure the `TableCellProperties` item in the Table [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettings#table) property:
+To enable individual cell dimension and border customization, configure the `TableCellProperties` item in the Table [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettings#table) property:
 
 ```typescript
 quickToolbarSettings: { table: ['TableCellProperties'] }
@@ -249,19 +249,19 @@ In the following sample, the table cell properties feature has been provided fro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/table-cell-properties-sample/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/table-cell-properties-sample/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/table-cell-properties-sample/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/table-cell-properties-sample/src/main.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/table-cell-properties-sample/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/table-cell-properties-sample/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/table-cell-properties-sample" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/table-cell-properties-sample" %}
 
 ## Table cell selection and formatting
 
@@ -288,15 +288,15 @@ The text formatting feature in tables allows users to apply various styles to se
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/table-row-and-column-selection/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/table-row-and-column-selection/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/table-row-and-column-selection/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/table-row-and-column-selection/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/table-row-and-column-selection" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/table-row-and-column-selection" %}
 
 ## Copy, cut, and paste table content
 
@@ -324,7 +324,7 @@ Users can select multiple table cells by dragging the mouse or by holding the <k
 
 The Rich Text Editor allows users to modify table appearance by merging or splitting cells.
 
-Configure the `TableCell` item in the Table [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettings#table) property to display merge/split icons when selecting table cells.
+Configure the `TableCell` item in the Table [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettings#table) property to display merge/split icons when selecting table cells.
 
 ### Merging table cells
 
@@ -344,15 +344,15 @@ The following image explains the table split action.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs28/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs28/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs28/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs28/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs28" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs28" %}
 
 ## See also
 

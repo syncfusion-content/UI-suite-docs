@@ -50,11 +50,11 @@ The following example demonstrates how to configure and render a Code block with
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/code-block/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/code-block/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/blocks/block-types/code-block/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/code-block/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/code-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/blocks/block-types/code-block" %}

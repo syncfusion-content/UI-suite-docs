@@ -18,7 +18,7 @@ By default, column header title is displayed from column [`Field`](https://help.
 
 {% tabs %}
 {% highlight c# tabtitle="HeaderText.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/headerText/headerText.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/headerText/headerText.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -26,10 +26,10 @@ By default, column header title is displayed from column [`Field`](https://help.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/headerText/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/headerText/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HeaderText.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/headerText/headerText.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/headerText/headerText.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -46,7 +46,7 @@ You can customize the header element by using the [`HeaderTemplate`](https://hel
 
 {% tabs %}
 {% highlight c# tabtitle="Headertemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/header-template/headertemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/header-template/headertemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -54,10 +54,10 @@ You can customize the header element by using the [`HeaderTemplate`](https://hel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/header-template/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/header-template/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/header-template/headertemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/header-template/headertemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -86,7 +86,7 @@ Refer to the below complete code example about how to change header text dynamic
 
 {% tabs %}
 {% highlight c# tabtitle="ChangeHeaderText.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-header-text/column-header-text.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-header-text/column-header-text.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,10 +94,10 @@ Refer to the below complete code example about how to change header text dynamic
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-header-text/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-header-text/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ChangeHeaderText.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-header-text/column-header-text.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-header-text/column-header-text.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -142,7 +142,7 @@ Refer to the below complete code example about how to change the orientation of 
 
 {% tabs %}
 {% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/orientation/orientation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -150,10 +150,10 @@ Refer to the below complete code example about how to change the orientation of 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/orientation/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/orientation/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/orientation/orientation.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

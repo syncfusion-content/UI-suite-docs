@@ -14,27 +14,27 @@ To create a straight line, specify the [`type`](../../../api/diagram/segments) o
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs7" %}
 
 The [`point`](../../../api/diagram/straightSegment#point-PointModel) property of straight segment allows you to define the end point of it. The following code example illustrates how to define the end point of a straight segment.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-cs8" %}
 
 ### Straight segment editing
 
@@ -46,13 +46,13 @@ The following example shows how to add segments at runtime for the straight conn
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-straightSegEdit/index.js %}
+{% include code-snippet/diagram-sdk/javascript/connectors-straightSegEdit/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/connectors-straightSegEdit/index.html %}
+{% include code-snippet/diagram-sdk/javascript/connectors-straightSegEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-straightSegEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/connectors-straightSegEdit" %}
 
 ![Straight Segment editing GIF](../../images/StraightSegEdit.gif)

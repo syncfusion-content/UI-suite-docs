@@ -33,10 +33,10 @@ A group can be added to the diagram model through [`nodes`](https://help.syncfus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -44,7 +44,7 @@ A group can be added to the diagram model through [`nodes`](https://help.syncfus
 
 {% tabs %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -62,10 +62,10 @@ diagram.group();
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/ungroup/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ungroup.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/ungroup.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/ungroup/ungroup.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -73,7 +73,7 @@ diagram.group();
 
 {% tabs %}
 {% highlight c# tabtitle="Ungroup.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/ungroup/ungroup.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/ungroup/ungroup.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -95,10 +95,10 @@ A group node can be added at runtime by using the client-side method `diagram.ad
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/run/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -106,7 +106,7 @@ A group node can be added at runtime by using the client-side method `diagram.ad
 
 {% tabs %}
 {% highlight c# tabtitle="Run.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/run/run.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/run/run.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -132,10 +132,10 @@ diagram.add(group);
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/groupCollection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="GroupCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/groupCollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/groupCollection/groupCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -143,7 +143,7 @@ diagram.add(group);
 
 {% tabs %}
 {% highlight c# tabtitle="GroupCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/groupCollection/groupCollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/groupCollection/groupCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -177,10 +177,10 @@ Containers are used to automatically measure and arrange the size and position o
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/stack/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Stack.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/stack.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/stack/stack.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -188,7 +188,7 @@ Containers are used to automatically measure and arrange the size and position o
 
 {% tabs %}
 {% highlight c# tabtitle="Stack.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/group/stack/stack.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/group/stack/stack.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

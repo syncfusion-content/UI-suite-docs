@@ -45,17 +45,17 @@ The following example demonstrates how to enable or disable directory upload usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/directory-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/directory-upload-cs1" %}
 
 ### Physical file service provider
 
@@ -825,7 +825,7 @@ The following table outlines the request parameters for *download* operations:
             permission:null,
             _fm_created:"2019-07-22T12:15:45.081Z",
             _fm_modified:"2019-07-22T12:15:45.097Z",
-            _fm_imageUrl:"https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage?path=/1.png",
+            _fm_imageUrl:"https://physical-service.syncfusion.com/api/FileManager/GetImage?path=/1.png",
             _fm_imageAttr:
             {
                 alt:"1.png"
@@ -1063,7 +1063,7 @@ imports: [FileManagerModule, FileManagerAllModule ],
 })
 
 export class App {
-  public hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+  public hostUrl: string = 'https://physical-service.syncfusion.com/';
   public ajaxSettings: object = {
     url: this.hostUrl + 'api/FileManager/FileOperations',
     downloadUrl: this.hostUrl + 'api/FileManager/Download'
@@ -1088,7 +1088,7 @@ imports: [FileManagerModule, FileManagerAllModule ],
 })
 
 export class App {
-  public hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+  public hostUrl: string = 'https://physical-service.syncfusion.com/';
   public ajaxSettings: object = {
     url: this.hostUrl + 'api/FileManager/FileOperations',
     uploadUrl: this.hostUrl + 'api/FileManager/Upload'
@@ -1102,14 +1102,14 @@ To perform the image preview support in the File Manager component, need to init
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs2" %}

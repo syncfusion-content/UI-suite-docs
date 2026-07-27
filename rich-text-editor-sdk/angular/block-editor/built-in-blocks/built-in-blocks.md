@@ -48,18 +48,18 @@ By default, the [indent](https://ej2.syncfusion.com/angular/documentation/api/bl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/indent/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/indent/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/indent/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/indent/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/indent/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/indent/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/indent" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/indent" %}
 
 ## Configure CSS Class
 
@@ -69,21 +69,21 @@ Custom CSS classes allow you to define specialized styling for specific blocks i
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/cssClass/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/cssClass/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/cssClass/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/cssClass/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/cssClass/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/cssClass/src/app.component.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/cssClass/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/cssClass/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/cssClass" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/cssClass" %}
 
 ## Configure templates
 
@@ -91,18 +91,18 @@ The Block Editor allows you to use custom templates for specialized content usin
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/template-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/template-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/template-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block/src/app.component.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/template-block/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/template-block" %}

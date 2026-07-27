@@ -488,22 +488,22 @@ To localize the editor’s strings with your own localization, copy the default 
     }
 ```
 
-The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#locale) property.
+The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#locale) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs11/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs11/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs11/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs11/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs11" %}
 
 ## Enable Right-to-Left (RTL) mode
 
-The [enableRtl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
+The [enableRtl](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
 
 When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to the root element. Customizations can be made based on this class. Use the following CSS to customize the Rich Text Editor in RTL (right-to-left) mode.
 
@@ -517,11 +517,11 @@ When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs12/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs12/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/getting-started-cs12/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs12/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/getting-started-cs12" %}

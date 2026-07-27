@@ -489,37 +489,37 @@ To localize the editor’s strings with your own localization, copy the default 
     }
 ```
 
-The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#locale) property.
+The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#locale) property.
 
 `[Class-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs16/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs16/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs16/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs16/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs16" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs16" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs17/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs17/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs17/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs17/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs17" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs17" %}
 
 ## Enable Right-to-Left (RTL) mode
 
-The [enableRtl](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
+The [enableRtl](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
 
 When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to the root element. Customizations can be made based on this class. Use the following CSS to customize the Rich Text Editor in RTL (right-to-left) mode.
 
@@ -536,24 +536,24 @@ When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs18/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs18/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs18/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs18/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs18" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs18" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs19/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs19/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs19/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs19/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs19" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs19" %}

@@ -19,19 +19,6 @@ The following property and classes are available in the [`LinearGauge`](https://
 * [`Border`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Border) - To customize the color and width of the border in Linear Gauge.
 * [`Margin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Margin) - To customize the margins of the Linear Gauge.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-background/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Gauge-background.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-background/gauge-background.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-background/razor %}
@@ -40,7 +27,6 @@ The following property and classes are available in the [`LinearGauge`](https://
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-background/gauge-background.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -57,19 +43,6 @@ The title for the Linear Gauge can be set using [`Title`](https://help.syncfusio
 * [`Opacity`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeFont.html#Syncfusion_EJ2_LinearGauge_LinearGaugeFont_Opacity) - Specifies the opacity of the title.
 * [`Size`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeFont.html#Syncfusion_EJ2_LinearGauge_LinearGaugeFont_Size) - Specifies the font size of the title.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-title/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Gauge-title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-title/gauge-title.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-title/razor %}
@@ -78,7 +51,6 @@ The title for the Linear Gauge can be set using [`Title`](https://help.syncfusio
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-title/gauge-title.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -104,19 +76,6 @@ The type of the container can be modified by using the [`Type`](https://help.syn
 
 The **Normal** type will render the container as a rectangle and this is the default container type.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-container/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Gauge-container.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-container/gauge-container.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-container/razor %}
@@ -125,7 +84,6 @@ The **Normal** type will render the container as a rectangle and this is the def
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-container/gauge-container.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -135,19 +93,6 @@ The **Normal** type will render the container as a rectangle and this is the def
 
 The **RoundedRectangle** type will render the container as a rectangle with rounded corner radius. The rounded corner radius of the container can be customized using the [`RoundedCornerRadius`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeContainer.html#Syncfusion_EJ2_LinearGauge_LinearGaugeContainer_RoundedCornerRadius) property in [`LinearGaugeContainer`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeContainer.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/rounded-rectangle/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rounded-rectangle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/rounded-rectangle/rounded-rectangle.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/rounded-rectangle/razor %}
@@ -156,7 +101,6 @@ The **RoundedRectangle** type will render the container as a rectangle with roun
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/rounded-rectangle/rounded-rectangle.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -166,19 +110,6 @@ The **RoundedRectangle** type will render the container as a rectangle with roun
 
 The **Thermometer** type will render the container similar to the appearance of thermometer.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/thermo-meter/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Thermo-meter.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/thermo-meter/thermo-meter.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/thermo-meter/razor %}
@@ -187,7 +118,6 @@ The **Thermometer** type will render the container similar to the appearance of 
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/thermo-meter/thermo-meter.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -197,19 +127,6 @@ The **Thermometer** type will render the container similar to the appearance of 
 
 The Linear Gauge component is rendered with margin by default. To remove the margin around the Linear Gauge, the [`AllowMargin`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_AllowMargin) property in the [`LinearGauge`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html) is set as **false**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-margin/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Gauge-margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-margin/gauge-margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-margin/razor %}
@@ -218,7 +135,6 @@ The Linear Gauge component is rendered with margin by default. To remove the mar
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/lineargauge-appearance/gauge-margin/gauge-margin.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

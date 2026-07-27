@@ -23,14 +23,14 @@ By default, the File Manager renders in the Large Icons view. The example below 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs2/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs2/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs2" %}
 
 ### Customize Large Icons view
 
@@ -38,14 +38,14 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/large-icon-view-template/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/large-icon-view-template/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/large-icon-view-template/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/large-icon-view-template/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/large-icon-view-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/large-icon-view-template" %}
 
 ## Details view
 
@@ -53,11 +53,11 @@ The **DetailsView** is an injectable module in the File Manager so, it should be
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs3/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs3/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs3/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs3/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs3" %}

@@ -31,27 +31,27 @@ The default tooltip that appears while interacting with nodes can be disabled by
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-disDefTooltip/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-disDefTooltip/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-disDefTooltip/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-disDefTooltip/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-disDefTooltip" %}
 {% endif %}
 
 
@@ -63,27 +63,27 @@ The tooltip can be customized for each node and connector. To show different too
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs2" %}
 {% endif %}
 
 ## Inherit diagram tooltip
@@ -94,27 +94,27 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs1" %}
 {% endif %}
 
 ### Disable tooltip at runtime
@@ -204,27 +204,27 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs7/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs7/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs7/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs7/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs7/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs7/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs7" %}
 {% endif %}
 
 
@@ -242,27 +242,27 @@ The following code example illustrates how to add formatted HTML content to the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs3" %}
 {% endif %}
 
 ## Tooltip alignments
@@ -277,27 +277,27 @@ The following code example illustrates how to position the tooltip around object
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs4/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs4/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs4" %}
 {% endif %}
 
 ### Tooltip relative to mouse position
@@ -310,27 +310,27 @@ The following code example illustrates how to show tooltip at mouse position.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs5/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs5/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs5/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs5" %}
 {% endif %}
 
 ## Tooltip animation
@@ -343,27 +343,27 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs6" %}
 {% endif %}
 
 ## Sticky tooltip
@@ -376,27 +376,27 @@ The following example shows how to render sticky tooltip.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-isSticky/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-isSticky/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-isSticky/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-isSticky/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-isSticky" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-isSticky" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-isSticky/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-isSticky/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-isSticky/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-isSticky/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-isSticky" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-isSticky" %}
 {% endif %}
 
 ## Hide tooltip pointer
@@ -407,27 +407,27 @@ The [`showTipPointer`](../api/diagram/diagramTooltipModel#showtippointer) proper
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-tipPointer/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-tipPointer/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-tipPointer/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-tipPointer/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-tipPointer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-tipPointer" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-tipPointer/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-tipPointer/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-tipPointer/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-tipPointer/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-tipPointer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-tipPointer" %}
 {% endif %}
 
 ## Tooltip size
@@ -440,27 +440,27 @@ The following code example shows how to set the size for the tooltip:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-size/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-size/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-size/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-size/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-size" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-size" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-size/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-size/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-size/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-size/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-size" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-size" %}
 {% endif %}
 
 ## Show/Hide tooltip at runtime
@@ -473,27 +473,27 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-runtime/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-runtime/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-runtime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-runtime" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-runtime/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-runtime/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-runtime/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-runtime/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-runtime" %}
 {% endif %}
 
 ## Tooltip for Annotation
@@ -506,26 +506,26 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs8/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs8/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/tooltip-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/tooltip-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/tooltip-cs8" %}
 {% endif %}
 

@@ -41,78 +41,6 @@ To obtain the source and destination from the user, create two input fields as t
 
 To obtain the geographic coordinates (latitude and longitude) from the Google Directions API, send a request to the API with the specified address to retrieve the corresponding coordinates. These coordinates can then be used to add markers and navigation lines, allowing you to create a route on the map.
 
-{% if page.publishingplatform == "typescript" %}
-
-```
-let source: string;
-let destination: string;
-function initMap() {
-  const directionsService = new google.maps.DirectionsService();
-  const onButtonClick = function () {
-    source = (
-      document.getElementById('input') as HTMLInputElement
-    ).value.toLowerCase();
-    destination = (
-      document.getElementById('output') as HTMLInputElement
-    ).value.toLowerCase();
-    if (
-      source !== null &&
-      source !== '' &&
-      destination !== null &&
-      destination !== ''
-    ) {
-      calculateAndDisplayRoute(directionsService);
-    }
-  };
-  const routeButton = document.getElementById('route');
-  if (routeButton) {
-    routeButton.addEventListener('click', onButtonClick);
-  }
-}
-
-function calculateAndDisplayRoute(directionsService: any) {
-  directionsService
-    .route({
-      origin: {
-        query: source,
-      },
-      destination: {
-        query: destination,
-      },
-      travelMode: google.maps.TravelMode.DRIVING,
-    })
-    .then((response: any) => {
-      map.zoomSettings.shouldZoomInitially = true;
-      let markers = map.layersCollection[0].markerSettings;
-      markers[0].dataSource = [];
-      markers[0].dataSource.push({
-        latitude: response.routes[0].legs[0].start_location.lat(),
-        longitude: response.routes[0].legs[0].start_location.lng(),
-      });
-      markers[0].dataSource.push({
-        latitude: response.routes[0].legs[0].end_location.lat(),
-        longitude: response.routes[0].legs[0].end_location.lng(),
-      });
-      let navigationlines = map.layersCollection[0].navigationLineSettings;
-      let latLngs = response.routes[0].overview_path;
-      let latitudes = [];
-      let longitudes = [];
-      for (let i = 0; i < latLngs.length; i++) {
-        latitudes.push(latLngs[i].lat());
-        longitudes.push(latLngs[i].lng());
-      }
-      navigationlines[0].latitude = latitudes;
-      navigationlines[0].longitude = longitudes;
-    })
-    .catch((e : any) => window.alert('Directions request failed due to ' + status));
-}
-
-initMap();
-
-```
-
-{% elsif page.publishingplatform == "javascript" %}
-
 ```
 var source;
 var destination;
@@ -174,8 +102,6 @@ window.initMap = initMap;
 
 ```
 
-{% endif %}
-
 ### Customize the travel mode in the Google Map Directions API
 
 You can retrieve coordinates based on different travel modes, such as DRIVING, WALKING, BICYCLING, or TRANSIT, using the Google Maps Directions API. DRIVING is the default travel mode for these services. For additional information on various travel modes, you can refer to the [link](https://developers.google.com/maps/documentation/javascript/directions#TravelModes).
@@ -183,23 +109,6 @@ You can retrieve coordinates based on different travel modes, such as DRIVING, W
 ## Plot markers on the Map
 
 To plot markers on the map, use the retrieved geographic coordinates to place the markers at the source and destination locations. This allows users to easily identify the key points along the route.
-
-{% if page.publishingplatform == "typescript" %}
-
-```
-    let markers = map.layersCollection[0].markerSettings;
-    markers[0].dataSource = [];
-    markers[0].dataSource.push({
-      latitude: response.routes[0].legs[0].start_location.lat(),
-      longitude: response.routes[0].legs[0].start_location.lng(),
-    });
-    markers[0].dataSource.push({
-      latitude: response.routes[0].legs[0].end_location.lat(),
-      longitude: response.routes[0].legs[0].end_location.lng(),
-    });  
-```
-
-{% elsif page.publishingplatform == "javascript" %}
 
 ```
     var markers = maps.layersCollection[0].markerSettings;
@@ -215,29 +124,9 @@ To plot markers on the map, use the retrieved geographic coordinates to place th
 
 ```
 
-{% endif %}
-
 ## Generate and visualize the route
 
 To generate and visualize the route, use the geographic coordinates obtained from the Google Directions API to draw a navigation line between the source and destination markers on the map. This provides a clear representation of the path for users to follow.
-
-{% if page.publishingplatform == "typescript" %}
-
-```
-    let navigationlines = map.layersCollection[0].navigationLineSettings;
-    let latLngs = response.routes[0].overview_path;
-    let latitudes = [];
-    let longitudes = [];
-    for (let i = 0; i < latLngs.length; i++) {
-      latitudes.push(latLngs[i].lat());
-      longitudes.push(latLngs[i].lng());
-    }
-    navigationlines[0].latitude = latitudes;
-    navigationlines[0].longitude = longitudes;
-
-```
-
-{% elsif page.publishingplatform == "javascript" %}
 
 ```
     var navigationlines = maps.layersCollection[0].navigationLineSettings;
@@ -252,16 +141,8 @@ To generate and visualize the route, use the geographic coordinates obtained fro
     navigationlines[0].longitude = longitudes;
 ```
 
-{% endif %}
 
 You can find a demonstration of integrating the Google Maps Directions API with the Syncfusion<sup style="font-size:70%">&reg;</sup> Maps component to render navigation routes below.
 
-{% if page.publishingplatform == "typescript" %}
-
-[Sample in the GitHub](https://github.com/SyncfusionExamples/how-to-create-a-route-between-the-markers-in-the-TypeScript-maps)
-
-{% elsif page.publishingplatform == "javascript" %}
-
 [Sample in the GitHub](https://github.com/SyncfusionExamples/how-to-create-a-route-between-the-markers-in-the-JavaScript-maps)
 
-{% endif %}

@@ -21,20 +21,20 @@ The following example shows the File Manager component rendered inside the dialo
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-upload-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/file-upload-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-upload-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/file-upload-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-upload-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/file-upload-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-upload-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/file-upload-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/file-upload-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/file-upload-cs1" %}
 
 ## Adding File Manager inside the tab
 
@@ -42,17 +42,17 @@ The following example demonstrate that the File Manager component is placed insi
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-tab-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/file-tab-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-tab-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/file-tab-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-tab-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/file-tab-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/file-tab-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/file-tab-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/file-tab-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/file-tab-cs1" %}

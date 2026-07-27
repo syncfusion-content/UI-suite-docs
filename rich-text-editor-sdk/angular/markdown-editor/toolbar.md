@@ -34,15 +34,15 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/expand-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/expand-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/expand-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/expand-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/expand-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/expand-cs1" %}
 
 ### MultiRow Toolbar
 
@@ -50,15 +50,15 @@ By setting type: `MultiRow` in [toolbarSettings](https://ej2.syncfusion.com/angu
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/multirow-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/multirow-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/multirow-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/multirow-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/multirow-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/multirow-cs1" %}
 
 ### Scrollable Toolbar
 
@@ -66,15 +66,15 @@ Use `type: 'Scrollable'` in [toolbarSettings](https://ej2.syncfusion.com/angular
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/scrollable-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/scrollable-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/scrollable-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/scrollable-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/scrollable-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/scrollable-cs1" %}
 
 ### Creating a Sticky Toolbar
 
@@ -86,15 +86,15 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/floating-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/floating-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/floating-toolbar-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/floating-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/floating-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/floating-toolbar-cs1" %}
 
 ## Custom Toolbar Items
 
@@ -106,12 +106,12 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/custom-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/custom-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/angular/markdown-editor/custom-toolbar-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/markdown-editor/custom-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/custom-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/markdown-editor/custom-toolbar-cs1" %}

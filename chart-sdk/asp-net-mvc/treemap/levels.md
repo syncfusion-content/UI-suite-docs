@@ -20,19 +20,6 @@ The `groupPath` property is used to separate each level of the TreeMap by specif
 
 In the following example, three levels are added and each level is configured using the `groupPath` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-path/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group_path.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-path/group-path.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-path/razor %}
@@ -41,7 +28,6 @@ In the following example, three levels are added and each level is configured us
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-path/group-path.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -53,19 +39,6 @@ In the following example, three levels are added and each level is configured us
 
 The `groupGap` property is used to separate an item from each group or another item to differentiate the levels mentioned in the TreeMap.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-gap/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group_gap.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-gap/group-gap.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-gap/razor %}
@@ -74,7 +47,6 @@ The `groupGap` property is used to separate an item from each group or another i
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/group-gap/group-gap.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -86,19 +58,6 @@ The `groupGap` property is used to separate an item from each group or another i
 
 Customize header using the `headerFormat` property in which fields are mapping from the dataSource and align header using the `headerAlignment` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Header_format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-format/header-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-format/razor %}
@@ -107,26 +66,12 @@ Customize header using the `headerFormat` property in which fields are mapping f
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-format/header-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Header height and style
 
 Customize the font color, family, weight, opacity and size using the `headerStyle`. Based on the font settings, the header height is given using the `headerHeight` property in `levels`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-height/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Header_height.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-height/header-height.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -136,26 +81,12 @@ Customize the font color, family, weight, opacity and size using the `headerStyl
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/header-height/header-height.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Header template and position
 
 The TreeMap header supports to customize header of each item using the `headerTemplate` property. It uses Essential<sup style="font-size:70%">&reg;</sup> JS2 Template engine to render the elements. You can position the template using the `templatePosition` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/template/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -165,7 +96,6 @@ The TreeMap header supports to customize header of each item using the `headerTe
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/levels/template/template.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

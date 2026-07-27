@@ -15,19 +15,6 @@ The rendered stock chart can be exported to `JPEG`, `PNG`, `SVG`, or `PDF` forma
 
 The rendered stock chart can be printed directly using print button in period selector toolbar.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/print/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/print/razor %}
@@ -36,26 +23,12 @@ The rendered stock chart can be printed directly using print button in period se
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Disable Export and print
 
 To empty the value of `ExportType` for to disable the Export button.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/disable/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Disable.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/disable/disable.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,5 +38,4 @@ To empty the value of `ExportType` for to disable the Export button.
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/getting-started/disable/disable.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

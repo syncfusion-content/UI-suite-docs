@@ -19,27 +19,27 @@ N> If you want to use BPMN shapes in diagram, you need to inject BpmnDiagrams in
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs1" %}
 {% endif %}
 
 >Note : The default value for the property `shape` is “event”.

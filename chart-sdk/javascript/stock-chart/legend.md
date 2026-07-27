@@ -21,21 +21,6 @@ Legend provides information about the series rendered in the Stock Chart. Legend
 
 By using the [`position`](../api/stock-chart/legendSettings/#position) property, legend can be placed at `Left`, `Right`, `Top`, `Bottom` or `Custom` of the Stock Chart. The legend is positioned at the bottom of the Stock Chart, by default.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs1/index.js %}
@@ -46,24 +31,8 @@ By using the [`position`](../api/stock-chart/legendSettings/#position) property,
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs1" %}
-{% endif %}
 
 [`Custom`](../api/stock-chart/legendSettings/#position) position is used to position the legend anywhere in the Stock Chart using x, y coordinates.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,26 +44,10 @@ By using the [`position`](../api/stock-chart/legendSettings/#position) property,
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs2" %}
-{% endif %}
 
 **Legend Alignment**
 
 The legend can be align as `Center`, `Far` or `Near` to the Stock Chart using [`alignment`](../api/stock-chart/legendSettings/#alignment) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -106,26 +59,10 @@ The legend can be align as `Center`, `Far` or `Near` to the Stock Chart using [`
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs3" %}
-{% endif %}
 
 ## Customization
 
 To change the legend icon shape, [`legendShape`](../api/stock-chart/stockSeries/#legendshape-string) property in the [`series`](../api/stock-chart/stockSeries/) can be used. By default legend icon shape is `seriesType`.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -137,26 +74,10 @@ To change the legend icon shape, [`legendShape`](../api/stock-chart/stockSeries/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs4" %}
-{% endif %}
 
 **Legend Size**
 
 By default, legend takes 20% - 25% of the Stock Chart's height horizontally, when it is placed on top or bottom position and 20% - 25% of the width vertically, while placing on left or right position of the Stock Chart. The default legend size can be changed by using the [`width`](../api/stock-chart/legendSettings/#width) and [`height`](../api/stock-chart/legendSettings/#height) property of the `legendSettings`.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -168,26 +89,10 @@ By default, legend takes 20% - 25% of the Stock Chart's height horizontally, whe
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs5" %}
-{% endif %}
 
 **Legend Item Size**
 
 The size of the legend items can customized by using the [`shapeHeight`](../api/stock-chart/legendSettings/#shapeheight) and [`shapeWidth`](../api/stock-chart/legendSettings/#shapewidth) property.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs6" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -199,26 +104,10 @@ The size of the legend items can customized by using the [`shapeHeight`](../api/
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs6" %}
-{% endif %}
 
 ## Collapsing Legend Item
 
 By default, series name will be displayed as legend. To skip the legend for a particular series, empty string to the series name can be given.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs7" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -230,26 +119,10 @@ By default, series name will be displayed as legend. To skip the legend for a pa
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs7" %}
-{% endif %}
 
 ## Legend Title
 
 The title for legend can be set using [`title`](../api/stock-chart/legendSettings/#title) property in `legendSettings`. Customize the [`fontStyle`](../api/stock-chart/stockChartFont/#fontstyle), [`size`](../api/stock-chart/stockChartFont/#size), [`fontWeight`](../api/stock-chart/stockChartFont/#fontweight), [`color`](../api/stock-chart/stockChartFont/#color), [`textAlignment`](../api/stock-chart/stockChartFont/#textalignment), [`fontFamily`](../api/stock-chart/stockChartFont/#fontfamily), [`opacity`](../api/stock-chart/stockChartFont/#opacity) and [`textOverflow`](../api/stock-chart/stockChartFont/#textoverflow) of legend title. [`titlePosition`](../api/stock-chart/legendSettings/#titleposition) is used to set the legend position in `Top`, `Left` and `Right` position. [`maximumTitleWidth`](../api/stock-chart/legendSettings/#maximumtitlewidth) is used to set the width of the legend title. By default, it will be `100px`.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -261,28 +134,12 @@ The title for legend can be set using [`title`](../api/stock-chart/legendSetting
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs8" %}
-{% endif %}
 
 ## Legend Template
 
 Legend templates allow you to replace default legend icons and text with custom HTML.This enables branded styles, richer content (icons, multi-line text, badges), improved readability, and localization.The rendered content becomes the legend item and can be styled with CSS.
 
 You can customize the legend items by using the [`template`](https://ej2.syncfusion.com/documentation/api/stock-chart/legendSettingsModel) property of [`legendSettings`](https://ej2.syncfusion.com/documentation/api/stock-chart/legendSettingsModel). Legend interactions (click to toggle series) remain unless [`ToggleVisibility`](https://ej2.syncfusion.com/documentation/api/stock-chart/legendsettings#togglevisibility) is set to false. Templates work with all legend positions, alignments, and paging.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/legend-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -294,6 +151,5 @@ You can customize the legend items by using the [`template`](https://ej2.syncfus
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/legend-cs9" %}
-{% endif %}
 
 >Note: To use legend feature, we need to inject `StockLegend` using `StockChart.Inject(StockLegend)`.

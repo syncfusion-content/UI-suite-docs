@@ -126,7 +126,7 @@ You can use text, image, controls, panels, or any UIElement or template to visua
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -162,7 +162,7 @@ NodeViewModel node = new NodeViewModel()
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 Image img = new Image();
 BitmapImage bmp = new BitmapImage();
@@ -221,7 +221,7 @@ The [`Shape`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Node
    
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -272,7 +272,7 @@ xmlns:sys="clr-namespace:System;assembly=mscorlib"
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -319,7 +319,7 @@ Refer to the following code example to define data template for node's custom sh
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -364,7 +364,7 @@ Refer to the following code example to add image as node shape,
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -445,7 +445,7 @@ Refer to the following code example to add framework elements as node content,
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -494,7 +494,7 @@ The following table explains how `Pivot` relates `Offset` values with `Node` bou
         
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
 NodeViewModel node = new NodeViewModel()
@@ -540,7 +540,7 @@ The [`Flip`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.Flip.
         
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Define the Node
  NodeViewModel node = new NodeViewModel()
@@ -648,7 +648,7 @@ You can customize the appearance of a node by changing its [`ShapeStyle`](https:
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 Style style = new Style(typeof(Path));
 style.Setters.Add(new Setter(Path.FillProperty, Brushes.SteelBlue));

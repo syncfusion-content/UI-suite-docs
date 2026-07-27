@@ -14,7 +14,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 The Rich Text Editor component offers a read-only mode that prevents you from editing the content while still allowing them to view it. This feature is particularly useful when you want to display formatted content without permitting modifications.
 
-To enable the read-only mode, set the [readonly](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#readonly) property to `true`. 
+To enable the read-only mode, set the [readonly](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#readonly) property to `true`. 
 
 This will allow you to view the content without making any modifications.
 
@@ -22,14 +22,14 @@ Please refer to the sample and code snippets below to demonstrate how to enable 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/read-only-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/read-only-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/read-only-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/read-only-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/read-only-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/read-only-cs1" %}
 
 ## Disabled mode
 
@@ -37,7 +37,7 @@ The Vue Rich Text Editor component offers a feature to disable the editor, preve
 
 ### How to disable the editor
 
-To disable the editor, set the [enabled](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#enabled) property to `false`.
+To disable the editor, set the [enabled](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#enabled) property to `false`.
 
 When disabled, the editor becomes non-interactive, ensuring that users cannot edit or modify the content.
 
@@ -45,11 +45,11 @@ Below are examples and code snippets demonstrating how to disable the Rich Text 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/disable-editor-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/disable-editor-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/disable-editor-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/disable-editor-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/disable-editor-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/disable-editor-cs1" %}

@@ -20,16 +20,6 @@ You can also set size for the gauge directly through [width](https://help.syncfu
 
 You can set the size of the gauge in pixel as demonstrated below.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-dimension/gauge-dimension/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-dimension/gauge-dimension/razor %}
@@ -38,23 +28,12 @@ You can set the size of the gauge in pixel as demonstrated below.
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-dimension/gauge-dimension/gauge-dimension.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **In Percentage**
 
 By setting value in percentage, gauge gets its dimension with respect to its container. For example, when the height is ‘50%’, gauge renders to half of the container height.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-dimension/percentage/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -64,7 +43,6 @@ By setting value in percentage, gauge gets its dimension with respect to its con
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-dimension/percentage/percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

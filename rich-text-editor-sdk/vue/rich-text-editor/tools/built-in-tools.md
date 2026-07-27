@@ -175,15 +175,15 @@ This section contains miscellaneous tools such as full-screen mode, print, previ
 
 ## Removing built-in tool from toolbar
 
-Remove the build-in tools from the toolbar by using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarSettings#items) property.
+Remove the build-in tools from the toolbar by using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-buildin-tool-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-buildin-tool-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-buildin-tool-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-buildin-tool-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-buildin-tool-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-buildin-tool-cs1" %}

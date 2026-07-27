@@ -63,10 +63,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/getting-started-cs1/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/getting-started-cs1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/getting-started-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/getting-started-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/getting-started-cs1/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/getting-started-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/getting-started-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/getting-started-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -93,8 +93,6 @@ For more details on keyboard navigation, refer to the [Keyboard support](https:/
 The Markdown Editor control's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
 The accessibility compliance of the Markdown Editor control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/rich-text-editor.html) in a new window to evaluate the accessibility of the Markdown Editor control with accessibility tools.
-
-{% previewsample "https://ej2.syncfusion.com/accessibility/rich-text-editor.html" %}
 
 ## See Also
 

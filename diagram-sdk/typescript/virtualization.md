@@ -26,11 +26,11 @@ The following code example demonstrates how to enable Virtualization mode in the
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/virtualization-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/virtualization-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/virtualization-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/virtualization-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/virtualization-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/virtualization-cs1" %}

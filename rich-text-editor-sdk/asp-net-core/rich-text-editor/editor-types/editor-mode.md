@@ -19,16 +19,16 @@ The Rich Text Editor control used to create, edit and return the content in vali
 
 Rich Text Editor is a WYSIWYG editing control for formatting the word content as HTML.
 
-The HTML editing mode is the default mode of Rich Text Editor. Which is used for format the content through the available toolbar items and returns the valid HTML markup. Set the [editorMode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorBuilder.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorBuilder_EditorMode_Syncfusion_EJ2_RichTextEditor_EditorMode_) property as `HTML`.
+The HTML editing mode is the default mode of Rich Text Editor. Which is used for format the content through the available toolbar items and returns the valid HTML markup. Set the [editorMode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.EditorMode.html) property as `HTML`.
 
 {% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,17 +36,17 @@ The HTML editing mode is the default mode of Rich Text Editor. Which is used for
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/html-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/html-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
 
 ## Markdown Editor
 
-Set the [editorMode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditorBuilder.html#Syncfusion_EJ2_RichTextEditor_RichTextEditorBuilder_EditorMode_Syncfusion_EJ2_RichTextEditor_EditorMode_) property value as `Markdown` to create or edit the content and apply formatting to view markdown formatted content.
+Set the [editorMode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.EditorMode.html) property value as `Markdown` to create or edit the content and apply formatting to view markdown formatted content.
 
 The third-party library such as [`Marked`](https://marked.js.org/#/README.md#README.md) or any other library is used to convert markdown into HTML content.
 
@@ -58,10 +58,10 @@ The third-party library such as [`Marked`](https://marked.js.org/#/README.md#REA
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -69,10 +69,10 @@ The third-party library such as [`Marked`](https://marked.js.org/#/README.md#REA
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/markdown-editor/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

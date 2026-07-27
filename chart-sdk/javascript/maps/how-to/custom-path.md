@@ -14,20 +14,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 Maps component can be customized as the desired layout using the custom path map feature. Here, the Maps component has been showcased with normal geometry type shapes to represent the bus seat selection layout. Please refer to the following example to render the bus seat selection.
 
 <!-- markdownlint-disable MD031 -->
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/maps/how-to/custom-path-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/maps/how-to/custom-path-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/maps/how-to/custom-path-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -39,7 +25,6 @@ Maps component can be customized as the desired layout using the custom path map
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/maps/how-to/custom-path-cs1" %}
-{% endif %}
 
 ```
  <div class="col-lg-9 control-section">

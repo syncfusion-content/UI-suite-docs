@@ -14,7 +14,7 @@ The Syncfusion React Rich Text Editor provides features to ensure content compli
 
 ## XHTML validation
 
-The editor includes an [`enableXhtml`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#enablexhtml) property that allows for continuous validation of the Rich Text Editor's source content against the XHTML standard. When content is entered or modified in the editor, this feature ensures ongoing compliance by automatically removing invalid elements and attributes.
+The editor includes an [`enableXhtml`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#enablexhtml) property that allows for continuous validation of the Rich Text Editor's source content against the XHTML standard. When content is entered or modified in the editor, this feature ensures ongoing compliance by automatically removing invalid elements and attributes.
 
 ### Validating attributes
 
@@ -42,27 +42,27 @@ The following example demonstrates enabling XHTML validation:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs78/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs78/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs78/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs78/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs78" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs78" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs79/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs79/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/basic-cs79/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs79/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs79" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/basic-cs79" %}
 
 ## Cross-Site scripting (XSS) prevention
 
@@ -70,44 +70,44 @@ The Rich Text Editor allows users to edit the content with security by preventin
 
 ### Enabling XSS prevention
 
-The [enableHtmlSanitize](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#enablehtmlsanitizer), enabled by default, activates XSS prevention. When active, the editor automatically removes elements like `<script>` and attributes like `onmouseover` from the content.
+The [enableHtmlSanitize](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#enablehtmlsanitizer), enabled by default, activates XSS prevention. When active, the editor automatically removes elements like `<script>` and attributes like `onmouseover` from the content.
 The following example shows XSS prevention removing a `<script>` tag and `onmouseover` attribute:
 
 `[Class-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2" %}
 
-> The XSS prevention feature is only applicable when the [editorMode](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor#editormode) is set to HTML.
+> The XSS prevention feature is only applicable when the [editorMode](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#editormode) is set to HTML.
 
 ### Custom XSS prevention
 
-For more precise control over XSS prevention, you can implement custom filtering logic using the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#beforesanitizehtml) event.
+For more precise control over XSS prevention, you can implement custom filtering logic using the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#beforesanitizehtml) event.
 
 ### Implementing custom cross-site scripting and fililtering in Rich Text Editor
 
-1. Use the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#beforesanitizehtml) event to define custom filtering rules.
+1. Use the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#beforesanitizehtml) event to define custom filtering rules.
 2. Utilize the `helper` function from the event argument to apply your custom filters.
 3. Set the `cancel` argument to `true` if you want to override the built-in XSS prevention entirely.
 
@@ -117,29 +117,29 @@ The following sample demonstrates how to filter the `script` tag by value.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs2" %}
 
-You can also filter out the [`e.selectors.tags`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/sanitizeSelectors/#tags) and [`e.selector.attributes`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/sanitizeSelectors/#attributes) in the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#beforesanitizehtml) event to control which HTML tags and attributes are allowed to appear. 
+You can also filter out the [`e.selectors.tags`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/sanitizeselectors#tags) and [`e.selector.attributes`](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/sanitizeselectors#attributes) in the [beforeSanitizeHtml](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#beforesanitizehtml) event to control which HTML tags and attributes are allowed to appear. 
 
 For instance, if you want to display `<iframe>`, By manipulating the `e.selectors.tags` property in this event, you can selectively remove tags like `<iframe>`. This approach ensures that your application can safely display iframe while preventing potential security risks associated with XSS vulnerabilities.
 
@@ -149,24 +149,24 @@ The following sample demonstrates how to filter the `iframe` tag.
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs3/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs3/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs3/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs3/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs3" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs4/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs4/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/preventing-xss-cs4/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs4/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/preventing-xss-cs4" %}

@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Integrating the AI Assistant
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Integrating the AI Assistant

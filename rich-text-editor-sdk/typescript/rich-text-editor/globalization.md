@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Globalization 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Globalization in the TypeScript Rich Text Editor control
@@ -493,38 +493,38 @@ To localize the editor’s strings with your own localization, copy the default 
 
 ```
 
-The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/documentation/api/rich-text-editor#locale) property.
+The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#locale) property.
 
 {% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs4/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs4/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs4/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs4/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs4" %}
 {% endif %}
 
 ## Enable Right-to-Left (RTL) mode
 
-The [enableRtl](https://ej2.syncfusion.com/documentation/api/rich-text-editor#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
+The [enableRtl](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
 
 When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to the root element. Customizations can be made based on this class. Use the following CSS to customize the Rich Text Editor in RTL (right-to-left) mode.
 
@@ -540,25 +540,25 @@ When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs5/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs5/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs5/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs5" %}
 {% endif %}

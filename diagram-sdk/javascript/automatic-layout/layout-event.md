@@ -47,14 +47,14 @@ The following code example explains the `expandStateChange` event in the diagram
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-expState/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-expState/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-expState/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-expState/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-expState" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-expState" %}
 
 ## Animation complete event
 
@@ -63,14 +63,14 @@ The [`animationComplete`](../../api/diagram#animationcomplete) event is triggere
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-animComplete/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-animComplete/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-animComplete/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-animComplete/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-animComplete" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-animComplete" %}
 
 ## Layout updated event
 

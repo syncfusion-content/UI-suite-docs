@@ -83,20 +83,20 @@ It obviously impacts the overall performance during Pivot Table rendering becaus
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs1/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs1/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs1/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs1/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs1" %}
 
 To avoid this performance constraint, we recommend passing the input raw data along with pre-processed group field sets based on your grouping needs. For example, if your input raw data has a date field "Date" with the value "15/AUG/2019 03:41 PM" and you want to display it as the year and month alone, split out the date field as "Date_Year" = "15/AUG/2019" for the year and "Date_Month" = "15/AUG/2019" for the month. Further use the [formatSettings](https://ej2.syncfusion.com/react/documentation/api/pivotview/datasourcesettings#formatsettings) property to show these date fields with the chosen date format. Similarly, to group a number field, just alter its value based on your requirements (e.g., 1–5, 6–10).
 
@@ -104,20 +104,20 @@ Here's an example below of configuring grouping in your input raw data and assig
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs2/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs2/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="datasource.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs2/app/datasource.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2/app/datasource.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="datasource.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/performance-best-practices-cs2/app/datasource.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2/app/datasource.tsx %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/performance-best-practices-cs2" %}
 
 ### Value filtering
 

@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Slash Menu
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Slash Commands in JavaScript Rich text editor control
@@ -17,11 +17,11 @@ The Slash Menu in the Rich Text Editor provides users with an efficient way to a
 
 To use the Slash Menu feature, inject Slash Menu module using the RichTextEditor.Inject(SlashMenu).
 
-To enable the Slash Menu, set the `enable` property within [`slashMenuSettings`](https://ej2.syncfusion.com/documentation/api/rich-text-editor#slashmenusettings) to `true`. By default, this feature is disabled. Once enabled, the Slash Menu will appear when the user types the "/" character in the editor.
+To enable the Slash Menu, set the `enable` property within [`slashMenuSettings`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#slashmenusettings) to `true`. By default, this feature is disabled. Once enabled, the Slash Menu will appear when the user types the "/" character in the editor.
 
 ## Configuring the slash menu items
 
-The slashMenuSettings property allows customization of the `items` displayed in the Slash Menu. By defining the [`items`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashMenuSettingsModel#items) property, a list of available commands can be provided for users to choose from when they type a slash (/) in the Rich Text Editor.
+The slashMenuSettings property allows customization of the `items` displayed in the Slash Menu. By defining the [`items`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashmenusettingsmodel#items) property, a list of available commands can be provided for users to choose from when they type a slash (/) in the Rich Text Editor.
 
 This list can include various formatting options such as paragraph and heading levels. Here’s an code snippet of configuring the Slash Menu items:
 
@@ -36,7 +36,7 @@ slashMenuSettings: {
 
 ## Customizing the popup width and height
 
-The size of the Slash Menu popup can be customized using the [`popupWidth`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashMenuSettingsModel#popupwidth) and [`popupHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashMenuSettingsModel#popupheight) properties within slashMenuSettings. Adjusting these values allows for control over the dimensions of the menu. 
+The size of the Slash Menu popup can be customized using the [`popupWidth`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashmenusettingsmodel#popupwidth) and [`popupHeight`](https://ej2.syncfusion.com/documentation/api/rich-text-editor/slashmenusettingsmodel#popupheight) properties within slashMenuSettings. Adjusting these values allows for control over the dimensions of the menu. 
 
 Below is an code snippet showing how to customize both the width and height of the popup:
 
@@ -72,25 +72,25 @@ The following code demonstrates how to set up the Custom Slash Menu item in the 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/slash-menu-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/slash-menu-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/slash-menu-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/slash-menu-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/slash-menu-cs1" %}
 {% endif %}

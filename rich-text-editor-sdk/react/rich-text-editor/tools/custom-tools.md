@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Custom Toolbar Items in React Rich Text Editor Component
 
-The React Syncfusion Rich Text Editor allows you to customize the toolbar using the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#toolbarSettings) property. You can add custom commands with text, icons, or HTML templates and define their position in the toolbar.
+The React Syncfusion Rich Text Editor allows you to customize the toolbar using the [toolbarSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#toolbarSettings) property. You can add custom commands with text, icons, or HTML templates and define their position in the toolbar.
 
 ## Adding a custom command  
 
@@ -18,7 +18,7 @@ This example demonstrates how to add a custom “Ω” command to the toolbar fo
 
 ### Custom toolbar configuration
 
-To add a custom tool with a tooltip, define it in the [items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarSettings/#items) field of the `toolbarSettings` property.
+To add a custom tool with a tooltip, define it in the [items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/toolbarsettings#items) field of the `toolbarSettings` property.
 
 ```javascript
 {
@@ -36,32 +36,32 @@ To add a custom tool with a tooltip, define it in the [items](https://ej2.syncfu
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/custom-tool-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/custom-tool-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/custom-tool-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/custom-tool-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/custom-tool-cs2" %}
 
 > When rendering any component for the custom toolbar, like a dropdown, the focus may be lost, causing it to render outside the Rich Text Editor and triggering a blur event. This can interfere with proper functionalities like cursor focus. To prevent this issue, it is recommended to assign the `e-rte-element`s class to the component rendered in the custom toolbar.
 
 ## Enabling and disabling toolbar items
 
-You can use the [enableToolbarItem](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#enabletoolbaritem) and [disableToolbarItem](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#disabletoolbaritem) methods to control the state of toolbar items. This methods takes a single item or an array of [items](#available-toolbar-items) as parameter.
+You can use the [enableToolbarItem](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#enabletoolbaritem) and [disableToolbarItem](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#disabletoolbaritem) methods to control the state of toolbar items. This methods takes a single item or an array of [items](#available-toolbar-items) as parameter.
 
 > You can add the command name `Custom` to disable the custom toolbar items on source code view and other quick toolbar operations.

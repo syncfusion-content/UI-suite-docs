@@ -24,14 +24,14 @@ The [`keyDown`](https://ej2.syncfusion.com/documentation/api/diagram/iKeyEventAr
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-keyDown/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-keyDown/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-keyDown/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-keyDown/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyDown" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyDown" %}
 
 ## KeyUp event
 
@@ -39,14 +39,14 @@ The [`keyUp`](https://ej2.syncfusion.com/documentation/api/diagram/iKeyEventArgs
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-keyUp/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-keyUp/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-keyUp/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-keyUp/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyUp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-keyUp" %}
 
 ## Double click event
 
@@ -54,14 +54,14 @@ The [`doubleClick`](https://ej2.syncfusion.com/documentation/api/diagram/idouble
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-doubleClick/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-doubleClick/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-doubleClick/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-doubleClick/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-doubleClick" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-doubleClick" %}
 
 ## TextEdit event
 
@@ -69,14 +69,14 @@ The [`textEdit`](https://ej2.syncfusion.com/documentation/api/diagram/iTextEditE
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-textEdit/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/annotations-textEdit/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/annotations-textEdit/index.html %}
+{% include code-snippet/diagram-sdk/typescript/annotations-textEdit/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-textEdit" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-textEdit" %}
 
 You can prevent adding new text to the annotation by setting the `cancel` property of [`textEdit`](https://ej2.syncfusion.com/documentation/api/diagram/iTextEditEventArgs) to true.
 

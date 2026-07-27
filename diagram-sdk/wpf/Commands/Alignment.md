@@ -17,13 +17,13 @@ The [`AlignLeft`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignLeft" Name="AlignLeft" Command="Syncfusion:DiagramCommands.AlignLeft"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction to Left
@@ -38,13 +38,13 @@ The [`AlignRight`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignRight" Name="AlignRight" Command="Syncfusion:DiagramCommands.AlignRight"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction to Right
@@ -59,13 +59,13 @@ The [`AlignCenter`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignCenter" Name="AlignCenter" Command="Syncfusion:DiagramCommands.AlignCenter"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction to Center vertically
@@ -82,13 +82,13 @@ The [`AlignTop`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagram.I
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignTop" Name="AlignTop" Command="Syncfusion:DiagramCommands.AlignTop"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction to Top
@@ -103,13 +103,13 @@ The [`AlignBottom`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignBottom" Name="AlignBottom" Command="Syncfusion:DiagramCommands.AlignBottom"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction as Bottom
@@ -124,13 +124,13 @@ The [`AlignMiddle`](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Button Height="50" Content="AlignMiddle" Name="AlignMiddle" Command="Syncfusion:DiagramCommands.AlignMiddle"></Button>
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 IGraphInfo graphinfo = diagramcontrol.Info as IGraphInfo;
 // sets direction to Center horizontally

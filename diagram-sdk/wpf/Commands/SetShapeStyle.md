@@ -13,7 +13,7 @@ The [SetShapeStyle](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% tabs %}
 
-{% highlight Xaml%}
+{% highlight xaml%}
 
 <Style TargetType="Path" x:Key="SetShapeStyleParameter">
   <Setter Property="Stretch" Value="Fill"></Setter>
@@ -24,7 +24,7 @@ The [SetShapeStyle](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Diagra
 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 Style style = new Style();
 style.Setters.Add(new Setter() { Property = System.Windows.Shapes.Path.FillProperty, Value = new SolidColorBrush(Colors.Green) });

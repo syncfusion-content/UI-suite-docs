@@ -16,7 +16,7 @@ This feature simplifies the creation of dynamic documents by allowing users to i
 
 ## Adding custom toolbar items for inserting merge fields
 
-To enable mail merge functionality, the Rich Text Editor toolbar is extended with two custom buttons: `Insert Field` and `Merge Data`. These buttons are added using the `template` property in [toolbarSettings.items](https://helpej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarSettingsModel#items), which points to custom HTML elements (#insertField and #merge_data).
+To enable mail merge functionality, the Rich Text Editor toolbar is extended with two custom buttons: `Insert Field` and `Merge Data`. These buttons are added using the `template` property in [toolbarSettings.items](https://helpej2.syncfusion.com/angular/documentation/api/rich-text-editor/toolbarsettingsmodel#items), which points to custom HTML elements (#insertField and #merge_data).
 
 - **Insert Field:** Opens a dropdown list of merge fields for inserting placeholders like `{{FirstName}}` into the editor.
 - **Merge Data:** Replaces all placeholders in the editor with actual values from a predefined data source.
@@ -135,13 +135,13 @@ When the **Merge Data** button is clicked, the editor content is processed to re
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
 {% raw %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/mail-merge/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/mail-merge/src/app.component.ts %}
 {% endraw %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/mail-merge/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/mail-merge/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/mail-merge-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/mail-merge-cs1" %}

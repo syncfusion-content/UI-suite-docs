@@ -26,27 +26,27 @@ Diagram provides some default context menu items to ease the execution of some f
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs1/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs1" %}
 {% endif %}
 
 ## Custom context menu
@@ -68,27 +68,27 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs2/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs2" %}
 {% endif %}
 
 ### Context menu open
@@ -99,27 +99,27 @@ In certain situations, you may want to hide specific menu items based on the sel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs6/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs6" %}
 {% endif %}
 
 ### Context menu with Url
@@ -229,27 +229,27 @@ In the following example, menu items are rendered with shortcut key codes for sp
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-cs3/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-cs3" %}
 {% endif %}
 
 
@@ -267,27 +267,27 @@ The following example shows how to get these events.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.js %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/contextmenu-events/index.html %}
+{% include code-snippet/diagram-sdk/javascript/contextmenu-events/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/contextmenu-events" %}
 {% endif %}
 
 

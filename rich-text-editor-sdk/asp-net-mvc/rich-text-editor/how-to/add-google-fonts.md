@@ -17,10 +17,10 @@ To use web fonts in Rich Text Editor, it is not needed for the web fonts to be p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/google-webfonts/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/google-webfonts/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/google-webfonts/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/google-webfonts/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ To use web fonts in Rich Text Editor, it is not needed for the web fonts to be p
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/google-webfonts/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/google-webfonts/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/how-to/google-webfonts/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/how-to/google-webfonts/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

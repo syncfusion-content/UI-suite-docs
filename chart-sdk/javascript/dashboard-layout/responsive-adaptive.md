@@ -17,21 +17,6 @@ The Dashboard Layout is designed to automatically adapt to lower resolutions by 
 
 The following sample demonstrates the use of the [`mediaQuery`](../api/dashboard-layout#mediaquery) property to convert the layout into a stacked one at a user-defined resolution. In this example, the layout becomes stacked when the window width is 700px or less.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs3/index.js %}
@@ -42,14 +27,5 @@ The following sample demonstrates the use of the [`mediaQuery`](../api/dashboard
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/dashboard-layout/getting-started-cs3" %}
-{% endif %}
-
-{% if page.publishingplatform == "typescript" %}
-
-> Refer to the [TypeScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [TypeScript Dashboard Layout example](https://ej2.syncfusion.com/demos/#/fluent2/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% elsif page.publishingplatform == "javascript" %}
 
 > Refer to the [JavaScript Dashboard Layout](https://www.syncfusion.com/javascript-ui-controls/js-dashboard-layout) feature tour page for its groundbreaking feature representations. Also explore our [JavaScript Dashboard Layout example](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/dashboard-layout/default.html) to knows how to present and manipulate data.
-
-{% endif %}

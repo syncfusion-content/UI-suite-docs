@@ -17,22 +17,11 @@ Axis is used to indicate the numeric values in the linear scale. The Linear Gaug
 
 The start value and end value for the Linear Gauge can be set using the [`Minimum`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAxis_Minimum) and [`Maximum`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAxis_Maximum) properties in the [`LinearGaugeAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html) respectively. By default, the start value of the axis is **0** and the end value of the axis is **100**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/minimum-maximum/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/minimum-maximum/razor %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -47,19 +36,6 @@ The following properties in the [`LinearGaugeLine`](https://help.syncfusion.com
 * [`Color`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLine.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLine_Color) - To set the color of the axis line.
 * [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLine.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLine_Offset) - To render the axis line with the specified distance from the Linear Gauge.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/line-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/line-customization/line-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/line-customization/razor %}
@@ -68,7 +44,6 @@ The following properties in the [`LinearGaugeLine`](https://help.syncfusion.com
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/line-customization/line-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -85,19 +60,6 @@ Ticks are used to specify the interval in the axis. Ticks are of two types, majo
 
 <!-- markdownlint-disable MD036 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/ticks-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Ticks-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/ticks-customization/ticks-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/ticks-customization/razor %}
@@ -106,7 +68,6 @@ Ticks are used to specify the interval in the axis. Ticks are of two types, majo
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/ticks-customization/ticks-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -116,19 +77,6 @@ Ticks are used to specify the interval in the axis. Ticks are of two types, majo
 
 The minor and major ticks can be positioned by using the [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTick.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTick_Offset) and [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTick.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTick_Position) properties. The [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTick.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTick_Offset) is used to render the ticks with the specified distance from the axis. By default, the offset value is **0**. The possible values of the [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeTick.html#Syncfusion_EJ2_LinearGauge_LinearGaugeTick_Position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, the ticks will be placed inside the axis.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/tick-position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tick-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/tick-position/tick-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/tick-position/razor %}
@@ -137,7 +85,6 @@ The minor and major ticks can be positioned by using the [`Offset`](https://help
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/tick-position/tick-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -156,19 +103,6 @@ The style of the labels can be customized using the following properties in [`Li
 
 <!-- markdownlint-disable MD036 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/labels-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Labels-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/labels-customization/labels-customization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/labels-customization/razor %}
@@ -177,7 +111,6 @@ The style of the labels can be customized using the following properties in [`Li
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/labels-customization/labels-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -187,19 +120,6 @@ The style of the labels can be customized using the following properties in [`Li
 
 Labels can be positioned by using [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_Offset) and [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_Position) properties in the [`LinearGaugeLabel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html). The [`Offset`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_Offset) defines the distance between the labels and ticks. By default, the offset value is **0**. The possible values of [`Position`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_Position) property are **Inside**, **Outside**, **Cross**, and **Auto**. By default, the labels will be placed inside the axis.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-position/label-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-position/razor %}
@@ -208,7 +128,6 @@ Labels can be positioned by using [`Offset`](https://help.syncfusion.com/cr/aspn
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-position/label-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -220,19 +139,6 @@ If the last label is not in the visible range, it will be hidden by default. The
 
 <!-- markdownlint-disable MD036 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/showlastlabel/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Showlastlabel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/showlastlabel/showlastlabel.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/showlastlabel/razor %}
@@ -241,7 +147,6 @@ If the last label is not in the visible range, it will be hidden by default. The
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/showlastlabel/showlastlabel.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -253,19 +158,6 @@ If the last label is not in the visible range, it will be hidden by default. The
 
 Axis labels in the Linear Gauge control can be formatted using the [`Format`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html#Syncfusion_EJ2_LinearGauge_LinearGaugeLabel_Format) property in [`LinearGaugeLabel`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeLabel.html).  It is used to render the axis labels in a certain format or to add a user-defined unit in the label. It works with the help of placeholder like **{value}°C**, where **value** represents the axis value. For example, 20°C.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-format/label-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-format/razor %}
@@ -274,7 +166,6 @@ Axis labels in the Linear Gauge control can be formatted using the [`Format`](ht
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/label-format/label-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -342,19 +233,6 @@ The numeric formats such as currency, percentage, and so on can be displayed in 
 </tr>
 </table>
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/custom-label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/custom-label/custom-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/custom-label/razor %}
@@ -363,7 +241,6 @@ The numeric formats such as currency, percentage, and so on can be displayed in 
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/custom-label/custom-label.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -373,19 +250,6 @@ The numeric formats such as currency, percentage, and so on can be displayed in 
 
 By default, the Linear Gauge is rendered vertically. To change its orientation, the [`Orientation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGauge.html#Syncfusion_EJ2_LinearGauge_LinearGauge_Orientation) property must be set to **Horizontal**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/orientation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Orientation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/orientation/orientation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/orientation/razor %}
@@ -394,7 +258,6 @@ By default, the Linear Gauge is rendered vertically. To change its orientation, 
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/orientation/orientation.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -404,19 +267,6 @@ By default, the Linear Gauge is rendered vertically. To change its orientation, 
 
 The axis of the Linear Gauge component can be inversed by setting the [`IsInversed`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAxis_IsInversed) property to **true** in the [`LinearGaugeAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/inverted-axes/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Inverted-axes.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/inverted-axes/inverted-axes.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/inverted-axes/razor %}
@@ -425,7 +275,6 @@ The axis of the Linear Gauge component can be inversed by setting the [`IsInvers
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/inverted-axes/inverted-axes.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -435,19 +284,6 @@ The axis of the Linear Gauge component can be inversed by setting the [`IsInvers
 
 To place an axis opposite from its original position, [`OpposedPosition`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAxis_OpposedPosition) property in the [`LinearGaugeAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html) must be set as **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/opposed-axes/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Opposed-axes.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/opposed-axes/opposed-axes.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/opposed-axes/razor %}
@@ -456,7 +292,6 @@ To place an axis opposite from its original position, [`OpposedPosition`](https:
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/opposed-axes/opposed-axes.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -466,19 +301,6 @@ To place an axis opposite from its original position, [`OpposedPosition`](https:
 
 Multiple axes can be added to the Linear Gauge by adding multiple [`LinearGaugeAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html) in the [`LinearGaugeAxes`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxes.html) and customization can be done with the [`LinearGaugeAxis`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAxis.html). Each axis can be customized separately as shown in the following example.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/multiple-axes/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-axes.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/multiple-axes/multiple-axes.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/multiple-axes/razor %}
@@ -487,7 +309,6 @@ Multiple axes can be added to the Linear Gauge by adding multiple [`LinearGaugeA
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/axes/multiple-axes/multiple-axes.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

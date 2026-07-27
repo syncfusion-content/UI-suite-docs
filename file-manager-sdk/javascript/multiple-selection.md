@@ -17,33 +17,33 @@ The File Manager component supports multiple selection by enabling the [`allowMu
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/multiselect-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/multiselect-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/multiselect-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/multiselect-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/multiselect-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/multiselect-cs1" %}
 {% endif %}
 
 > Note: The File Manager control supports selecting files and folders initially or dynamically by specifying their names in the [`selectedItems`](../api/file-manager#selecteditems) property.
@@ -58,17 +58,17 @@ To enable range selection, you need to set the [`enableRangeSelection`](../api/f
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rangeselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rangeselection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -76,17 +76,17 @@ To enable range selection, you need to set the [`enableRangeSelection`](https://
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rangeselection-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/rangeselection-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rangeselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rangeselection-cs1" %}
 {% endif %}
 
 ## Disable multi selection
@@ -97,31 +97,31 @@ Setting the [`allowMultiSelection`](../api/file-manager#allowmultiselection) pro
 
 {% tabs %}
 {% highlight js tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/disablemultiselection-cs1/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/disablemultiselection-cs1" %}
 {% endif %}

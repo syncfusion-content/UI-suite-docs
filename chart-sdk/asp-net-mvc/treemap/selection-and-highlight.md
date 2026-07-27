@@ -16,19 +16,6 @@ Selection is used to select a particular group or item to differentiate from oth
 
 The `fill` property is used to change the selected item color. The `color` and the `width` properties are used to customize the selected item border, and the selection is enabled by using the `enable` property  to **true** in the `selectionSettings`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/selection/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/selection/selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/selection/razor %}
@@ -37,7 +24,6 @@ The `fill` property is used to change the selected item color. The `color` and t
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -49,19 +35,6 @@ Highlight is used to highlight an item or group from other items or groups. Each
 
 The `fill` property is used to change the highlighted item color. The `color` and the `width` properties are used to customize the highlighted item border, and the highlight is enabled by setting the `enable` property to **true** in the `highlightSettings`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/highlight/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Highlight.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/highlight/highlight.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/highlight/razor %}
@@ -70,7 +43,6 @@ The `fill` property is used to change the highlighted item color. The `color` an
 {% include code-snippet/chart-sdk/asp-net-mvc/treemap/selection-highlight/highlight/highlight.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

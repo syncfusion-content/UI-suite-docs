@@ -2,7 +2,7 @@ import { FileManager, Toolbar, NavigationPane, DetailsView, SuccessEventArgs, Fa
 
 FileManager.Inject(Toolbar, NavigationPane, DetailsView)
 
-let hostUrl: string = 'https://ej2-aspcore-service.azurewebsites.net/';
+let hostUrl: string = 'https://physical-service.syncfusion.com/';
 // initialize File Manager Control
 let filemanagerInstance: FileManager = new FileManager({
     ajaxSettings: {

@@ -24,10 +24,10 @@ Tables can also be inserted through the `Insert Table` option in the pop-up wher
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ Tables can also be inserted through the `Insert Table` option in the pop-up wher
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -75,10 +75,10 @@ The Rich Text Editor allows users to insert tables within other table cells, ena
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/nesting-table/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/nesting-table/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/nesting-table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/nesting-table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -86,10 +86,10 @@ The Rich Text Editor allows users to insert tables within other table cells, ena
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/nesting-table/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/nesting-table/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/nesting-table/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/nesting-table/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -127,7 +127,7 @@ Entire rows can be selected using the icons that appears on hover.
 - **What you'll see**: A selection handle appears on the left side of the corresponding row.
 - **How to select**: Click the handle to select the entire row.
 
-![Rich Text Editor table row selection](../images/table_row_selection.gif)
+![Rich Text Editor table row selection](./images/table_row_selection.gif)
 
 ### Selecting an Entire Column
 
@@ -212,7 +212,7 @@ The Rich Text Editor provides advanced options to customize individual table cel
 
 ### Configuring the table cell properties in quick toolbar
 
-To enable individual cell dimension and border customization, configure the `TableCellProperties` item in the Table [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettings#table) property:
+To enable individual cell dimension and border customization, configure the `TableCellProperties` item in the Table [quickToolbarSettings](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.RichTextEditor.RichTextEditor.html#Syncfusion_EJ2_RichTextEditor_RichTextEditor_TableSettings) property:
 
 ```typescript
 
@@ -263,7 +263,7 @@ The `TableCellProperties` enables modification of properties for both single and
 
 All changes made in the Table Cell Properties dialog are instantly reflected in the editor as a live preview, providing real-time visual feedback before finalizing the modifications.
 
-![Rich Text Editor table settings](../images/table_cell_properties.png)
+![Rich Text Editor table settings](./images/table_cell_properties.png)
 
 In the following sample, the table cell properties feature has been provided from table module.
 
@@ -271,10 +271,10 @@ In the following sample, the table cell properties feature has been provided fro
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell-properties/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell-properties/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell-properties/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell-properties/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -282,10 +282,10 @@ In the following sample, the table cell properties feature has been provided fro
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell-properties/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell-properties/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell-properties/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell-properties/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -317,10 +317,10 @@ The text formatting feature in tables allows users to apply various styles to se
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-row-and-column-selection/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-row-and-column-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-row-and-column-selection/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-row-and-column-selection/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -328,10 +328,10 @@ The text formatting feature in tables allows users to apply various styles to se
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-row-and-column-selection/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-row-and-column-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-row-and-column-selection/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-row-and-column-selection/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -384,10 +384,10 @@ The following image explains the table split action.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -395,10 +395,10 @@ The following image explains the table split action.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/table-cell/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/table-cell/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

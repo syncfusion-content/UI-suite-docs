@@ -25,7 +25,7 @@ The Rich Text Editor simplifies the conversion of Microsoft Word content to HTML
 
 When `Prompt` is set to true, pasting the content in the editor will open a dialog box that contains three options `Keep`, `Clean`, and `Plain Text` as radio buttons:
 
-![Rich Text Editor Paste options prompt dialog ](../images/richtexteditor-paste-prompt.png)
+![Rich Text Editor Paste options prompt dialog ](./images/richtexteditor-paste-prompt.png)
 
 1. `Keep`: Maintains the same format as the copied content.
 2. `Clean`: Clears all style formats from the copied content.
@@ -100,10 +100,10 @@ In the following example, the paste cleanup related settings are explained with 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -111,10 +111,10 @@ In the following example, the paste cleanup related settings are explained with 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -127,10 +127,10 @@ You can get the pasted text as HTML using the [afterPasteCleanup](https://help.s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/get-pasted-content/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/get-pasted-content/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/get-pasted-content/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/get-pasted-content/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -138,10 +138,10 @@ You can get the pasted text as HTML using the [afterPasteCleanup](https://help.s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/get-pasted-content/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/get-pasted-content/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/get-pasted-content/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/get-pasted-content/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -156,10 +156,10 @@ In the following example, the `afterPasteCleanUp` event is configured to remove 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup-customize/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup-customize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup-customize/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup-customize/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -167,10 +167,10 @@ In the following example, the `afterPasteCleanUp` event is configured to remove 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup-customize/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup-customize/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/paste-cleanup-customize/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/paste-cleanup-customize/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -21,27 +21,27 @@ To create expanded subProcess, set shape as [`activity`](../../api/diagram/bpmnA
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs21/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs21/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs21/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs21/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs21/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs21/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
 {% endif %}
 
 ### Add BPMN nodes into ExpandedSubProcess
@@ -54,27 +54,27 @@ Please refer the following code example.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs22/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs22/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs22/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs22/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs22/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-cs22/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-cs22/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
 {% endif %}
 
 ### Add BPMN nodes into ExpandedSubProcess at runtime
@@ -95,25 +95,25 @@ The process for the expanded sub-process can be added at runtime using the [`add
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-addProcess/index.ts %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-addProcess/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-addProcess/index.js %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/bpmnShapes-addProcess/index.html %}
+{% include code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
 {% endif %}

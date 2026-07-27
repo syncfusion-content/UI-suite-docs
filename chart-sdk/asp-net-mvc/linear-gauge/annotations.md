@@ -21,19 +21,6 @@ To render the custom HTML elements in the Linear Gauge component, use the [`Cont
 
 <!-- markdownlint-disable MD036 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/annotations/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Annotations.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/annotations/annotations.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/annotations/razor %}
@@ -42,7 +29,6 @@ To render the custom HTML elements in the Linear Gauge component, use the [`Cont
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/annotations/annotations.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -63,19 +49,6 @@ The following properties are used to customize the annotation.
 
 To change the stack order of an annotation element, the [`ZIndex`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_ZIndex) property of the [`LinearGaugeAnnotation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html) can be used.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/z-order/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Z-order.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/z-order/z-order.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/z-order/razor %}
@@ -84,7 +57,6 @@ To change the stack order of an annotation element, the [`ZIndex`](https://help
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/z-order/z-order.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -94,19 +66,6 @@ To change the stack order of an annotation element, the [`ZIndex`](https://help
 
 The annotation can be placed anywhere in the Linear Gauge by setting the pixel value to the [`X`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_X), and [`Y`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_Y) properties in the [`LinearGaugeAnnotation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation-position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-position/animation-position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-position/razor %}
@@ -115,7 +74,6 @@ The annotation can be placed anywhere in the Linear Gauge by setting the pixel v
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-position/animation-position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -127,19 +85,6 @@ The annotation can be placed anywhere in the Linear Gauge by setting the pixel v
 
 The annotation can be aligned horizontally and vertically by using the [`HorizontalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_HorizontalAlignment), and [`VerticalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_VerticalAlignment) properties respectively. The possible values can be **Center**, **Far**, **Near**, and **None**. The [`HorizontalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_HorizontalAlignment), and [`VerticalAlignment`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_VerticalAlignment) are not applicable when the [`X`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_X), and [`Y`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html#Syncfusion_EJ2_LinearGauge_LinearGaugeAnnotation_Y) properties are set in the [`LinearGaugeAnnotation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-alignment/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation-alignment.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-alignment/animation-alignment.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-alignment/razor %}
@@ -148,7 +93,6 @@ The annotation can be aligned horizontally and vertically by using the [`Horizon
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/animation-alignment/animation-alignment.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -158,19 +102,6 @@ The annotation can be aligned horizontally and vertically by using the [`Horizon
 
 Multiple annotations can be added to the Linear Gauge component by adding the multiple [`LinearGaugeAnnotation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html) in the [`LinearGaugeAnnotations`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotations.html) and customization for the annotation can be done with the [`LinearGaugeAnnotation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.LinearGauge.LinearGaugeAnnotation.html).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/multiple-annotations/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-annotations.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/multiple-annotations/multiple-annotations.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/multiple-annotations/razor %}
@@ -179,7 +110,6 @@ Multiple annotations can be added to the Linear Gauge component by adding the mu
 {% include code-snippet/chart-sdk/asp-net-mvc/linear-gauge/annotations/multiple-annotations/multiple-annotations.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

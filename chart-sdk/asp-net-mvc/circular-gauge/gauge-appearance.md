@@ -14,16 +14,6 @@ documentation: ug
 
 Circular gauge can be given a title by using [title](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_Title) property, to show the information about the gauge. Title can be customized by using [titleStyle](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_TitleStyle) property in gauge.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/title/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/title/razor %}
@@ -32,7 +22,6 @@ Circular gauge can be given a title by using [title](https://help.syncfusion.com
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/title/title.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -46,16 +35,6 @@ Gauge can be positioned anywhere in the container with the help of [centerX](htt
 
 You can set the mid point of the gauge in pixel as demonstrated below,
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/position/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/position/razor %}
@@ -64,23 +43,12 @@ You can set the mid point of the gauge in pixel as demonstrated below,
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **In Percentage**
 
 By setting the value in percentage, gauge gets its mid point with respect to its plot area. For example, when the [centerX](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterX) value as '0%' and [centerY](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_CenterY) value is ‘50%’, gauge will get positioned at the top left corner of the plot area.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/position-percentage/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -90,7 +58,6 @@ By setting the value in percentage, gauge gets its mid point with respect to its
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/position-percentage/position-percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -100,19 +67,6 @@ By setting the value in percentage, gauge gets its mid point with respect to its
 
 Using [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_Background) and [border](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_Border) properties, you can change the background color and border of the circular gauge.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/area-customization/tagHelper %}
-{% endhighlight %}
-<!-- {% highlight c# tabtitle="Area-customization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/area-customization/area-customization.cs %}
-{% endhighlight %} -->
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/area-customization/razor %}
@@ -121,26 +75,12 @@ Using [background](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/area-customization/area-customization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **Gauge Margin**
 
 You can set margin for gauge from its container through [margin](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.CircularGauge.CircularGauge.html#Syncfusion_EJ2_CircularGauge_CircularGauge_Margin) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/margin/tagHelper %}
-{% endhighlight %}
-<!-- {% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/margin/margin.cs %}
-{% endhighlight %} -->
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -150,23 +90,12 @@ You can set margin for gauge from its container through [margin](https://help.sy
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/margin/margin.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Radius calculation based on angles
 
 Render semi or quarter circular gauges by modifying the start and end angles. By enabling the radius based on angle option, the radius of circular gauge will be calculated based on the start and end angles to avoid excess white space.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/radiusbasedgauge/tagHelper %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -176,6 +105,5 @@ Render semi or quarter circular gauges by modifying the start and end angles. By
 {% include code-snippet/chart-sdk/asp-net-mvc/circular-gauge/gauge-appearance/radiusbasedgauge/position-percentage.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 N> [View Sample in GitHub](https://github.com/SyncfusionExamples/ASP-NET-Core-UG-Examples/tree/main/CircularGauge/PrintandExportSample).

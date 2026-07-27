@@ -115,19 +115,6 @@ The `ShapeDataPath` property is similar to the `ShapePropertyPath` property, but
 
 In the below example, both **name** fields contain the same value as **Afghanistan**, this value is matched in both shape data and data source, so that the details associated with **Afghanistan** will be mapped to the corresponding shape and used to color the corresponding shape, display data labels, display tooltips, and more.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/populate-data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Populate-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/populate-data/populate-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/populate-data/razor %}
@@ -136,7 +123,6 @@ In the below example, both **name** fields contain the same value as **Afghanist
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/populate-data/populate-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -152,19 +138,6 @@ Data from data source can be bind to the Maps in two different ways.
 
 Refer the data values for [ViewBag.bubbleData](https://www.syncfusion.com/downloads/support/directtrac/general/ze/BubbleData-103021339), [ViewBag.complexData](https://www.syncfusion.com/downloads/support/directtrac/general/ze/ComplexData1459638658) and [ViewBag.markerData](https://www.syncfusion.com/downloads/support/directtrac/general/ze/MarkerData357696841) here.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/complex-data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Complex-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/maps/complex-data/complex-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/complex-data/razor %}
@@ -173,7 +146,6 @@ Refer the data values for [ViewBag.bubbleData](https://www.syncfusion.com/downlo
 {% include code-snippet/chart-sdk/asp-net-mvc/maps/complex-data/complex-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

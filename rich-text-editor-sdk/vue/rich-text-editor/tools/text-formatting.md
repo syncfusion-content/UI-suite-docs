@@ -34,14 +34,14 @@ Please refer to the sample below to add these basic text styling options in the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/basic-text-styling-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/basic-text-styling-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/basic-text-styling-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/basic-text-styling-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/basic-text-styling-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/basic-text-styling-cs1" %}
 
 ## Text alignments
 
@@ -67,14 +67,14 @@ Please refer to the sample and code snippets below to add these alignment option
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/text-alignments-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/text-alignments-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/text-alignments-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/text-alignments-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/text-alignments-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/text-alignments-cs1" %}
 
 ## Number and bullet format list
 
@@ -105,20 +105,20 @@ For more detailed control over the numbering style, use the `numberFormatList` d
 * `Lower Alpha`: Uses lowercase letters (a, b, c, ...)
 * `Upper Roman`: Employs uppercase Roman numerals (I, II, III, ...)
 
-You can customize the available number formats using the [numberFormatList](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#numberformatlist) property of the Rich Text Editor.
+You can customize the available number formats using the [numberFormatList](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#numberformatlist) property of the Rich Text Editor.
 
 The following example demonstrates how to customize the number format lists in the Rich Text Editor:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-lists-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-lists-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs1" %}
 
 ### Unordered lists
 
@@ -143,14 +143,14 @@ The following example demonstrates how to customize the bullet format lists in t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-lists-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-lists-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-lists-cs2" %}
 
 ### Checklist
 
@@ -173,14 +173,14 @@ Below is an example of how to configure the Checklist in the Rich Text Editor:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/checklist-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/checklist-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/checklist-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/checklist-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/checklist-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/checklist-cs1" %}
 
 ## Nested list creation using Tab key
 
@@ -194,7 +194,7 @@ Please refer to the below video for visual behavior and interaction examples:
 
 The Rich Text Editor allows you to set indentation for text blocks such as paragraphs, headings, or lists. This feature helps you visually organize and structure your content, making it easier to read and understand.
 
-The Rich Text Editor allows you to configure two types of indentation tools, `Indent` and `Outdent` tool  in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarSettings#items) property.
+The Rich Text Editor allows you to configure two types of indentation tools, `Indent` and `Outdent` tool  in the Rich Text Editor toolbar using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 | Options | Description |
 |----------------|---------|
@@ -211,14 +211,14 @@ To configure the `Indent` and `Outdent` toolbar item, refer to the below code.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/indent-and-outdent-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/indent-and-outdent-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/indent-and-outdent-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/indent-and-outdent-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/indent-and-outdent-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/indent-and-outdent-cs1" %}
 
 ### Indentation in lists
 
@@ -269,14 +269,14 @@ Below are examples and code snippets demonstrating how to integrate and utilize 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/headings-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/headings-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs1" %}
 
 ### Custom format
 
@@ -293,14 +293,14 @@ Below are examples demonstrating how to customize the format dropdown.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/headings-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/headings-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/headings-cs2" %}
 
 ## Quotation formatting
 
@@ -312,14 +312,14 @@ Use the `Blockquote` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/quotation-formatting-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/quotation-formatting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/quotation-formatting-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/quotation-formatting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/quotation-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/quotation-formatting-cs1" %}
 
 > In a markdown editor, blockquotes are represented using the `>` symbol.
 
@@ -335,14 +335,14 @@ While the toolbar does not provide a direct method to apply blockquote formattin
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/nesting-blockquote/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/nesting-blockquote/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/nesting-blockquote/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/nesting-blockquote/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/nesting-blockquote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/nesting-blockquote" %}
 
 ## Line Height
 
@@ -350,37 +350,37 @@ The Rich Text Editor supports line height feature which allows users to adjust t
 
 ### Built-in line height
 
-You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add the `LineHeight` tool to the toolbar in the Rich Text Editor using [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/line-height/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/line-height/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height" %}
 
-The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#lineheight) property.
+The Rich Text Editor comes with a pre-configured set of [`lineHeight`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#lineheight) property.
 
 ### Custom line height
 
-The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#lineheight) property. This allows you to extend the available line height options beyond the default selection.
+The Rich Text Editor supports custom line height along with the existing line height dropdown list. To add additional line height to the line height dropdown, you can configure the items field of the [`lineHeight`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#lineheight) property. This allows you to extend the available line height options beyond the default selection.
 
-The [`supportAllValues`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
+The [`supportAllValues`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#supportAllValues) setting enables the line height dropdown to display and retain line-height values that are not part of the predefined options. When `supportAllValues` property is turned on, the dropdown will show the current line-height value from the selection, even if that value is not present in the configured lineHeights array. By default, `supportAllValues` will be set to false.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/line-height-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/line-height-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/line-height-cs1" %}
 
 ## Horizontal line
 
@@ -392,14 +392,14 @@ Use the `HorizontalLine` tool in the editor below to see the feature in action.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/horizontal-line/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/horizontal-line/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/horizontal-line/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/horizontal-line/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/horizontal-line" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/horizontal-line" %}
 
 ## Format painter
 
@@ -407,7 +407,7 @@ The format painter tool enables users to replicate formatting from one text segm
 
 ### Configuring format painter tool in the toolbar
 
-You can add the `FormatPainter` tool in the Rich Text Editor using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarSettings#items) property.
+You can add the `FormatPainter` tool in the Rich Text Editor using the [toolbarSettings.items](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/toolbarsettings#items) property.
 
 >To use the Format Painter feature, we need to import and configure the `FormatPainterService` in the provider section.
 
@@ -417,14 +417,14 @@ The following code example shows how to add the format painter tool in the Rich 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-painter-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-painter-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs1" %}
 
 ### Customizing copy and paste format
 
@@ -446,14 +446,14 @@ Below is an example illustrating how to define the `allowedFormats` and `deniedF
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-painter-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/format-painter-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/format-painter-cs2" %}
 
 ### Shortcut keys for copy and paste format
 
@@ -484,21 +484,21 @@ This feature is particularly useful when you need to:
 To enable the Clear Format feature in your Rich Text Editor, you need to add it to the toolbar items. Follow these steps:
 
 1. Open your component file where you've implemented the Rich Text Editor.
-2. Locate the [toolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor#toolbarsettings) property in your Rich Text Editor configuration.
+2. Locate the [toolbarSettings](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#toolbarsettings) property in your Rich Text Editor configuration.
 3. Add `'ClearFormat'` to the `items` array within `toolbarSettings`.
 
 Here's an example of how to configure the Clear Format feature:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-formatting-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-formatting-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs1" %}
 
 ### Using clear format
 
@@ -512,14 +512,14 @@ Using `Clear Format` makes it easy to undo styling changes and keep your text lo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-formatting-cs2/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/remove-formatting-cs2/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/remove-formatting-cs2" %}
 
 ## Markdown Auto Format
 
@@ -557,11 +557,11 @@ Elements such as headings, lists, blockquotes, and code block are converted **on
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-autoformat-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-autoformat-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/markdown-autoformat-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-autoformat-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-autoformat-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/markdown-autoformat-cs1" %}

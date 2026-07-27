@@ -15,6 +15,16 @@ This guide explains how to create a [**JavaScript Scheduler**](https://www.syncf
 
 > **Ready to streamline your Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript development?** Discover the full potential of Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript controls with Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like VS Code, Cursor, Syncfusion<sup style="font-size:70%">&reg;</sup> CodeStudio and more. [Explore Syncfusion<sup style="font-size:70%">&reg;</sup> AI Coding Assistant](https://ej2.syncfusion.com/javascript/documentation/ai-coding-assistant/overview)
 
+## Prerequisites
+
+Before getting started, ensure the following requirements are met:
+
+| Requirement | Notes |
+|-------------|-------|
+| Modern web browser | Chrome, Firefox, Edge, or Safari — latest version recommended |
+| Code editor | Visual Studio Code is recommended |
+| Local HTTP server | Required to serve the application. Opening HTML files directly via `file://` may block script loading in some browsers. VS Code Live Server extension is recommended |
+
 ## Dependencies
 
 The Scheduler component requires the following dependencies:

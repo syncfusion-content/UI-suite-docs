@@ -22,15 +22,15 @@ By configuring these options in the [quickToolbarSettings](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-image-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-image-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-image-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-image-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-image-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-image-cs1" %}
 
 ## Link quick toolbar
 
@@ -38,19 +38,19 @@ The link quick toolbar appears when you click on a link in the editor. You can c
 
 The Rich Text Editor provides essential tools in the link quick toolbar, including "Open", "Edit Link", "Remove Link", and "Custom Tool".
 
-The following example demonstrates how to customize the link quick toolbar using the [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettings) property.
+The following example demonstrates how to customize the link quick toolbar using the [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettings) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs17/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs17/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs17/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs17/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs17" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs17" %}
 
 ## Table quick toolbar
 
@@ -58,19 +58,19 @@ The table quick toolbar opens when you click anywhere within a table. Customize 
 
 The Rich Text Editor provides essential tools in the table quick toolbar, such as 'Tableheader', 'TableRemove', 'TableRows', 'TableColumns', 'TableCell', 'Styles', 'BackgroundColor', 'Alignments', 'TableCellVerticalAlign', 'TableEditProperties', 'TableCellProperties'.
 
-The following example demonstrates how to customize the table quick toolbar using the [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettings) property.
+The following example demonstrates how to customize the table quick toolbar using the [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettings) property.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs32/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs32/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs32/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs32/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs32" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs32" %}
 
 ## Audio quick toolbar
 
@@ -78,19 +78,19 @@ Customize the quick toolbar items for audio elements using the `audio` property 
 
 By configuring these options in the [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettingsmodel#audio) property, you can enhance the editor's capabilities, ensuring a user-friendly experience for handling audio elements efficiently.
 
-The [showOnRightClick](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettingsmodel#showonrightclick) property in [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettingsModel) determines whether the quick toolbar appears when the user right-clicks on the selected audio element.
+The [showOnRightClick](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettingsmodel#showonrightclick) property in [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettingsmodel) determines whether the quick toolbar appears when the user right-clicks on the selected audio element.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-audio-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-audio-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-audio-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-audio-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-audio-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-audio-cs1" %}
 
 ## Video quick toolbar
 
@@ -102,15 +102,15 @@ By configuring these options in the [quickToolbarSettings](https://ej2.syncfusio
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-video-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-video-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/customize-video-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/customize-video-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-video-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/customize-video-cs1" %}
 
 ## Text quick toolbar
 
@@ -120,34 +120,34 @@ Customize the quick toolbar items using the `text` property in the [quickToolbar
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/quick-format-toolbar-cs1/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/quick-format-toolbar-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/quick-format-toolbar-cs1/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/quick-format-toolbar-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/quick-format-toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/quick-format-toolbar-cs1" %}
 
 ## Render quick toolbar in document body
 
 To render the quick toolbar and inline toolbar in the document body, configure `enableAppendToBody` in [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettings). This prevents clipping and improves visibility in constrained layouts, such as when the editor's dimensions are very small.
 
-The following example demonstrates how to render the quick toolbar directly in the document body using `enableAppendToBody` in [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quickToolbarSettingsModel).
+The following example demonstrates how to render the quick toolbar directly in the document body using `enableAppendToBody` in [quickToolbarSettings](https://ej2.syncfusion.com/angular/documentation/api/rich-text-editor/quicktoolbarsettingsmodel).
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/quick-toolbar-body/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/quick-toolbar-body/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/quick-toolbar-body/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/quick-toolbar-body/src/main.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/quick-toolbar-body/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/quick-toolbar-body/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/quick-toolbar-body" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/quick-toolbar-body" %}

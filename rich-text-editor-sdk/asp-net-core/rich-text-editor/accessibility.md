@@ -63,10 +63,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/accessibility/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/accessibility/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/accessibility/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/accessibility/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/accessibility/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/accessibility/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/accessibility/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/accessibility/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -93,8 +93,6 @@ For more details on keyboard navigation, refer to the [Keyboard support](https:/
 The Rich Text Editor control's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
 The accessibility compliance of the Rich Text Editor control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/rich-text-editor.html) in a new window to evaluate the accessibility of the Rich Text Editor control with accessibility tools.
-
-{% previewsample "https://ej2.syncfusion.com/accessibility/rich-text-editor.html" %}
 
 ## See also
 

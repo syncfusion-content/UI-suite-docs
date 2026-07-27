@@ -47,14 +47,14 @@ The following example demonstrates how to customize the Slash Command menu.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/slash-command/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/slash-command/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/slash-command/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/slash-command/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/slash-command" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/slash-command" %}
 
 ## Context menu
 
@@ -88,14 +88,14 @@ The following example demonstrates how to customize the Context menu.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/context-menu/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/context-menu/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/context-menu/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/context-menu/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/context-menu" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/context-menu" %}
 
 ## Block action menu
 
@@ -132,14 +132,14 @@ The following example demonstrates how to customize the Block action menu.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/block-action/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/block-action/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/block-action/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/block-action/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/block-action" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/block-action" %}
 
 ## Inline Toolbar
 
@@ -197,14 +197,14 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/transform-item/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/transform-item/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/transform-item/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/transform-item/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/transform-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/transform-item" %}
 
 #### Font and background color support
 
@@ -214,14 +214,14 @@ The following example demonstrates how to customize the font and background colo
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/color-item/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/color-item/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/color-item/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/color-item/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/color-item" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/color-item" %}
 
 ### Customize Inline Toolbar
 
@@ -239,11 +239,11 @@ The following example demonstrates how to customize the Inline Toolbar.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/block-editor/vue/block-editor/editor-menus/inline-toolbar/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar/app.vue %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/block-editor/editor-menus/inline-toolbar" %}

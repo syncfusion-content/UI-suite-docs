@@ -21,14 +21,14 @@ The following code example illustrates how to create an mindmap layout.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs8/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-cs8/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs8" %}
 
 
 The following table outlines the various orientation types available:
@@ -46,13 +46,13 @@ You can also decide the branch for mind map using [`getBranch`](../../api/diagra
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-mindmap/index.js %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/javascript/javascript/javascript/AutomaticLayout-mindmap/index.html %}
+{% include code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-mindmap" %}
 
 ![Mind map layout](../images/mindmap.png)

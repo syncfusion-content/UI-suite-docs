@@ -41,20 +41,20 @@ In the following example, directory upload is enabled/disabled on DropDownButton
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/directory-upload-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/directory-upload-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/directory-upload-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/directory-upload-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/directory-upload-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/directory-upload-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/directory-upload-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/directory-upload-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/directory-upload-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/directory-upload-cs1" %}
 
 ### Physical file service provider
 
@@ -824,7 +824,7 @@ The following table represents the request parameters of *download* operations.
             permission:null,
             _fm_created:"2019-07-22T12:15:45.081Z",
             _fm_modified:"2019-07-22T12:15:45.097Z",
-            _fm_imageUrl:"https://ej2-aspcore-service.azurewebsites.net/api/FileManager/GetImage?path=/1.png",
+            _fm_imageUrl:"https://physical-service.syncfusion.com/api/FileManager/GetImage?path=/1.png",
             _fm_imageAttr:
             {
                 alt:"1.png"
@@ -1054,7 +1054,7 @@ To enable file download functionality in the File Manager, configure the [downlo
 import { FileManagerComponent } from '@syncfusion/ej2-react-filemanager';
 
 function App() {
-  let hostUrl: string = "https://ej2-aspcore-service.azurewebsites.net/";
+  let hostUrl: string = "https://physical-service.syncfusion.com/";
 
   return (
     <div className="control-section">
@@ -1078,7 +1078,7 @@ To enable file upload functionality in the File Manager, configure the [uploadUr
 import { FileManagerComponent } from '@syncfusion/ej2-react-filemanager';
 
 function App() {
-  let hostUrl: string = "https://ej2-aspcore-service.azurewebsites.net/";
+  let hostUrl: string = "https://physical-service.syncfusion.com/";
 
   return (
     <div className="control-section">
@@ -1102,20 +1102,20 @@ To enable image preview functionality in the File Manager, configure the [getIma
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/image-preview-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/image-preview-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/image-preview-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/image-preview-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/image-preview-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/image-preview-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/image-preview-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/image-preview-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/react/react/image-preview-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/react/image-preview-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/image-preview-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/image-preview-cs1" %}

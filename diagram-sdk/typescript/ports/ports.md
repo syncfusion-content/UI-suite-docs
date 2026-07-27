@@ -43,14 +43,14 @@ To add a connection port, define the port object and add it to node’s [`ports`
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs1/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs1/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs1" %}
 
 
 N> When setting a Port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
@@ -65,14 +65,14 @@ If ID is not set, then default ID is automatically set.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs2/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs2/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs2" %}
 
 
 ## Remove ports at runtime
@@ -82,14 +82,14 @@ You can remove ports at runtime by using diagram method [`removePorts`](https://
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs3/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs3/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs3/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs3" %}
 
 
 ## Update port at runtime
@@ -101,14 +101,14 @@ The following code example illustrates how to change the port offset at runtime.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs4/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs4/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-cs4/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-cs4/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-cs4" %}
 
 
 ## Specify connection direction to port
@@ -119,14 +119,14 @@ The [`connectionDirection`](https://ej2.syncfusion.com/documentation/api/diagram
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conDir/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-conDir/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-conDir/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-conDir/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conDir" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conDir" %}
 
 
 ![connectionDirection](../images/connectionDirection2.png)
@@ -142,14 +142,14 @@ The following code example shows how to get inEdges and outEdges of port.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-edges/index.ts %}
+{% include code-snippet/diagram-sdk/typescript/ports-edges/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/diagram-sdk/typescript/typescript/typescript/ports-edges/index.html %}
+{% include code-snippet/diagram-sdk/typescript/ports-edges/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-edges" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-edges" %}
 
 
 

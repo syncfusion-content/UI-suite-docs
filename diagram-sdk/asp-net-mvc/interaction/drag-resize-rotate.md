@@ -35,10 +35,10 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/node/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -46,7 +46,7 @@ You can change the size of the node resize thumb and the connector end point han
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/node/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/node/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -55,14 +55,14 @@ In the following example, **custom toolbar items** are added to the **Header**, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/custom-toolbar-items/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/custom-toolbar-items/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/custom-toolbar-items/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/custom-toolbar-items/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/custom-toolbar-items" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/custom-toolbar-items" %}
 
 ## Styling the Popup
 
@@ -91,14 +91,14 @@ In the following example, a CSS animation is applied to the popup while the requ
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/popup-styling/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/popup-styling/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/popup-styling/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/popup-styling/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/popup-styling" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/popup-styling" %}
 
 ## Use Case
 
@@ -122,11 +122,11 @@ The following example demonstrates a Proofread use case by rendering a button ou
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/usecase/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/usecase/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/ai-assistant/usecase/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/usecase/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/usecase" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/ai-assistant/usecase" %}

@@ -16,11 +16,11 @@ The Slash Menu in the Rich Text Editor enables users to apply formatting, insert
 
 To use the Slash Menu feature, inject Slash Menu module into the services.
 
-To enable the Slash Menu, set the `enable` property within [slashMenuSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/#slashmenusettings) to `true`. By default, this feature is disabled. Once enabled, the Slash Menu will appear when the user types the "/" character in the editor.
+To enable the Slash Menu, set the `enable` property within [slashMenuSettings](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/index-default#slashmenusettings) to `true`. By default, this feature is disabled. Once enabled, the Slash Menu will appear when the user types the "/" character in the editor.
 
 ## Configuring the slash menu items
 
-The slashMenuSettings property allows customization of the `items` displayed in the Slash Menu. By defining the [items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashMenuSettingsModel/#items) property, a list of available commands can be provided for users to choose from when they type a slash (/) in the Rich Text Editor.
+The slashMenuSettings property allows customization of the `items` displayed in the Slash Menu. By defining the [items](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashmenusettingsmodel#items) property, a list of available commands can be provided for users to choose from when they type a slash (/) in the Rich Text Editor.
 
 This list can include various formatting options such as paragraph and heading levels. Here’s an code snippet of configuring the Slash Menu items:
 
@@ -35,7 +35,7 @@ private slashMenuSettings: SlashMenuSettingsModel = {
 
 ## Customizing popup dimensions
 
-The Slash Menu popup's size can be customized using the [popupWidth](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashMenuSettingsModel/#popupwidth) and [popupHeight](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashMenuSettingsModel/#popupheight) properties within `slashMenuSettings`. Adjusting these values allows for control over the dimensions of the menu. 
+The Slash Menu popup's size can be customized using the [popupWidth](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashmenusettingsmodel#popupwidth) and [popupHeight](https://ej2.syncfusion.com/react/documentation/api/rich-text-editor/slashmenusettingsmodel#popupheight) properties within `slashMenuSettings`. Adjusting these values allows for control over the dimensions of the menu. 
 
 Below is an code snippet showing how to customize both the width and height of the popup:
 
@@ -72,24 +72,24 @@ The following code demonstrates how to set up the Custom Slash Menu item in the 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/slash-menu-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/slash-menu-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/slash-menu-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/slash-menu-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/slash-menu-cs2" %}

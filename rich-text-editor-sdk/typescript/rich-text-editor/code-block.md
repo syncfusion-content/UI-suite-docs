@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Code Block 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Code Block in TypeScript Rich Text Editor control
@@ -38,27 +38,27 @@ Below is an example of how to configure the `codeBlockSettings` using the Rich T
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-block-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-block-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
  
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-block-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/code-block-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/code-block-cs1" %}
 {% endif %}
 
 In this example:

@@ -28,7 +28,7 @@ Selection of annotation can be enabled by using the [`Constraints`](https://help
                                 
 {% endhighlight %}
 
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the AnnotationCollection
 Annotations = new ObservableCollection<IAnnotation>()
@@ -64,7 +64,7 @@ Resizing of annotation can be enabled by using the `Constraints` property of `An
 </syncfusion:AnnotationCollection>
                                 
 {% endhighlight %}
-{% highlight C# %}
+{% highlight c# %}
 
 //Initialize the Annotation Collection
 Annotations = new ObservableCollection<IAnnotation>()

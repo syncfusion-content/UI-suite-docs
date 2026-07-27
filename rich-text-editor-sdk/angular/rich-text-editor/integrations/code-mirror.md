@@ -107,21 +107,21 @@ Below is the example integration of Code Mirror with the Angular Rich Text Edito
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/code-mirror/src/app/app.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror/src/app/app.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="app.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/code-mirror/src/app/app.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror/src/app/app.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror" %}
 
 ## Additional resources
 
 - GitHub Repository: [Angular Rich Text Editor integrations samples](https://github.com/SyncfusionExamples/angular-richtexteditor-codemirror)
-- CodeMirror 6 — Official documentation and guides: https://codemirror.net/6/docs/  
+- CodeMirror 6 — Official documentation and guides: https://codemirror.net/docs/  
 - @codemirror packages on npm — state, view, language, and theme modules: https://www.npmjs.com/search?q=%40codemirror  
-- CodeMirror examples and extensions gallery: https://codemirror.net/6/examples/  
+- CodeMirror examples and extensions gallery: https://codemirror.net/examples/  
 - Syncfusion Angular Rich Text Editor — API reference and integration notes: https://ej2.syncfusion.com/angular/documentation/rich-text-editor/  
 - Syncfusion demos — CodeMirror integration sample: https://ej2.syncfusion.com/angular/demos/#/material/rich-text-editor/overview  

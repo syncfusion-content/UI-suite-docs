@@ -22,20 +22,20 @@ When set to `true`, this property enables directory upload in the File Manager, 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/directory-upload/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/directory-upload/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/directory-upload/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/directory-upload/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/directory-upload/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/directory-upload/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/directory-upload/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/directory-upload/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/directory-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/directory-upload" %}
 
 >Note: When `directoryUpload` is set to `true`, only folders can be uploaded. When it is set to `false`, only individual files can be uploaded. Simultaneous uploading of files and folders is not supported.
 
@@ -51,20 +51,20 @@ When set to `true`, this property enables sequential upload in the File Manager,
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/sequential-upload/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/sequential-upload/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/sequential-upload/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/sequential-upload/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/sequential-upload/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/sequential-upload/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/sequential-upload/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/sequential-upload/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/sequential-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/sequential-upload" %}
 
 The screenshot below shows that each file begins uploading only after the previous one completes. This demonstrates how the `sequentialUpload` property works in the File Manager component.
 
@@ -84,20 +84,20 @@ In the following example, the chunkSize is set to 5 MB (5,242,880 bytes), and th
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/chunk-upload/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/chunk-upload/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/chunk-upload/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/chunk-upload/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/chunk-upload/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/chunk-upload/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/chunk-upload/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/chunk-upload/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/chunk-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/chunk-upload" %}
 
 With chunk upload, the pause and resume options gives users enhanced control over the file upload process.
 
@@ -115,20 +115,20 @@ The default value is `true`, the File Manager will automatically upload files as
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-upload/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-upload/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-upload/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-upload/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-upload/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-upload/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-upload/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-upload/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/auto-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/auto-upload" %}
 
 ## Auto Close
 
@@ -139,20 +139,20 @@ The default value is set to `false`, the upload dialog remains open even after t
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-close/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-close/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-close/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-close/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-close/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-close/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/auto-close/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/auto-close/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/auto-close" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/auto-close" %}
 
 ## Prevent upload based on file extensions
 
@@ -167,20 +167,20 @@ If you want to allow only image files like .jpg and .png, you would set the prop
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/prevent-upload/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/prevent-upload/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/prevent-upload/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/prevent-upload/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/prevent-upload/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/prevent-upload/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/prevent-upload/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/prevent-upload/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/prevent-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/prevent-upload" %}
 
 ## Restrict drag and drop upload
 
@@ -196,20 +196,20 @@ The following example demonstrates how to prevent the external drag and drop upl
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/upload-feature-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/upload-feature-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/upload-feature-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/upload-feature-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/upload-feature-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload/upload-feature-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload/upload-feature-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload/upload-feature-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/upload-feature-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload/upload-feature-cs1" %}
 
 
 ## See also

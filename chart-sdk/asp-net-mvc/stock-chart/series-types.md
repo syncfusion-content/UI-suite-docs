@@ -39,19 +39,6 @@ To render a hilo series, use series [`Type`](https://help.syncfusion.com/cr/aspn
 
 To render a hiloOpenClose series, use series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.StockChartStockChartSeries.html#Syncfusion_EJ2_Charts_StockChartStockChartSeries_Type) as `HiloOpenClose`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/candle/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Candle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/candle/candle.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/candle/razor %}
@@ -60,6 +47,5 @@ To render a hiloOpenClose series, use series [`Type`](https://help.syncfusion.co
 {% include code-snippet/chart-sdk/asp-net-mvc/stock-chart/stockchart-feature/candle/candle.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

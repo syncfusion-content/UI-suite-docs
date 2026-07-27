@@ -17,7 +17,7 @@ Group is used to cluster multiple Nodes and Connectors into a single element. It
 
 The following code illustrates how to create a Group Node.
 
-{% highlight C# %}
+{% highlight c# %}
 
 ObservableCollection<NodeViewModel> nodes = new ObservableCollection<NodeViewModel>();
 NodeViewModel node = new NodeViewModel()

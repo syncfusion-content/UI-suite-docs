@@ -39,21 +39,6 @@ To render a hollowcandle series, use series [`type`](../api/stock-chart/stockSer
 
 To render a candle series, use series [`type`](../api/stock-chart/stockSeriesModel/#type) as `Candle` and inject `CandleSeries` module using `StockChart.Inject(CandleSeries)` method.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs24/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs24/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs24" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs24/index.js %}
@@ -64,4 +49,3 @@ To render a candle series, use series [`type`](../api/stock-chart/stockSeriesMod
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/stock-chart/getting-started-cs24" %}
-{% endif %}

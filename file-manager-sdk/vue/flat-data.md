@@ -35,9 +35,9 @@ To render the root-level folder, specify the `parentId` as null, or there is no 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/flat-data-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/flat-data-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/flat-data-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/flat-data-cs1" %}
 
