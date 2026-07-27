@@ -10,7 +10,7 @@ documentation: ug
 
 # Getting Started with ASP.NET Core Kanban Control
 
-This section briefly explains how to include the [ASP.NET Core Kanban](https://www.syncfusion.com/gantt-sdk/aspnet-core-kanban-board) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/).
+This section briefly explains how to include the [ASP.NET Core Kanban](https://www.syncfusion.com/gantt-sdk/aspnet-core-kanban-board) control in your ASP.NET Core application using [Visual Studio](https://visualstudio.microsoft.com/vs/), and [Visual Studio Code](https://code.visualstudio.com/).
 
 > **Ready to streamline your ASP.NET Core development?** Discover the full potential of ASP.NET Core controls with AI Coding Assistant. Effortlessly integrate, configure, and enhance your projects with intelligent, context-aware code suggestions, streamlined setups, and real-time insights—all seamlessly integrated into your preferred AI-powered IDEs like Visual Studio, Visual Studio Code, Cursor, Code Studio and more. [Explore AI Coding Assistant](https://ej2.syncfusion.com/aspnetcore/documentation/ai-coding-assistant/overview)
 
@@ -143,7 +143,29 @@ Add the [ASP.NET Core Kanban](https://www.syncfusion.com/gantt-sdk/aspnet-core-k
 
 ## Run the application
 
+{% tabcontents %}
+
+{% tabcontent Visual Studio %}
+
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to launch the application. The [ASP.NET Core Kanban](https://www.syncfusion.com/gantt-sdk/aspnet-core-kanban-board) control will render in your default web browser.
+
+{% endtabcontent %}
+
+{% tabcontent Visual Studio Code %}
+
+Open the terminal and run the following command.
+
+{% tabs %}
+{% highlight razor tabtitle="Terminal" %}
+
+dotnet run
+
+{% endhighlight %}
+{% endtabs %}
+
+{% endtabcontent %}
+
+{% endtabcontents %}
 
 ![ASP.NET Core Kanban Control](images/default.webp)
 
