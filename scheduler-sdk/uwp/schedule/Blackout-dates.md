@@ -2,7 +2,7 @@
 layout: post
 title: Blackout Dates | SfSchedule | uwp | Syncfusion
 description: Blackout Dates
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

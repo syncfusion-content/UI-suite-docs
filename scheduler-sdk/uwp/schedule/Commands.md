@@ -2,7 +2,7 @@
 layout: post
 title: Commands | SfSchedule | uwp | Syncfusion
 description: Commands
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

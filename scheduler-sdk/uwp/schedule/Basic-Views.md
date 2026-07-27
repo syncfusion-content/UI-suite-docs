@@ -2,7 +2,7 @@
 layout: post
 title: Basic Views | SfSchedule | uwp | Syncfusion
 description: Basic Views
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

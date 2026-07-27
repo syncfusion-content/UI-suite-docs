@@ -2,7 +2,7 @@
 layout: post
 title: Reminder | SfSchedule | uwp | Syncfusion
 description: Reminder
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

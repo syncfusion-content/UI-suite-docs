@@ -2,7 +2,7 @@
 layout: post
 title: Week Number | SfSchedule | uwp | Syncfusion
 description: Week Number
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

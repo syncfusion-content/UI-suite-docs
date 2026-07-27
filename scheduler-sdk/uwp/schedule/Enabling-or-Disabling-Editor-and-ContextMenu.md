@@ -2,7 +2,7 @@
 layout: post
 title: Enabling or Disabling Editor and ContextMenu | SfSchedule | uwp | Syncfusion
 description: Enabling or Disabling Editor and ContextMenu
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---
