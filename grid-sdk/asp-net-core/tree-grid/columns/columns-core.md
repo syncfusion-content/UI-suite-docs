@@ -28,10 +28,10 @@ To format cell values based on specific culture, use the [`format`](https://help
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/format-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/format-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/format-columns/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/format-columns/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -39,7 +39,7 @@ To format cell values based on specific culture, use the [`format`](https://help
 
 {% tabs %}
 {% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/format-columns/format.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/format-columns/format.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -80,10 +80,10 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/date-format/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/date-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Dateformat.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/date-format/dateformat.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/date-format/dateformat.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,7 +91,7 @@ Format | Formatted value
 
 {% tabs %}
 {% highlight c# tabtitle="Dateformat.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/date-format/dateformat.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/date-format/dateformat.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -106,10 +106,10 @@ In the below example, Duration column is locked and its reordering functionality
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/lock/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/lock/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Lock.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/lock/lock.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/lock/lock.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -140,10 +140,10 @@ It is also possible to select the rows hierarchically using checkboxes in TreeGr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -151,10 +151,10 @@ It is also possible to select the rows hierarchically using checkboxes in TreeGr
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -167,10 +167,10 @@ You can enable or disable treegrid action for a particular column by setting the
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/prevent-column-actions/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/prevent-column-actions/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ColumnActions.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/prevent-column-actions/columnActions.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/prevent-column-actions/columnActions.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -178,7 +178,7 @@ You can enable or disable treegrid action for a particular column by setting the
 
 {% tabs %}
 {% highlight c# tabtitle="ColumnActions.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/prevent-column-actions/columnActions.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/prevent-column-actions/columnActions.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -193,10 +193,10 @@ You can show or hide treegrid columns dynamically using external buttons by invo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ShowHide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/show-hide/showHide.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/show-hide/showHide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -204,7 +204,7 @@ You can show or hide treegrid columns dynamically using external buttons by invo
 
 {% tabs %}
 {% highlight c# tabtitle="ShowHide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/show-hide/showHide.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/show-hide/showHide.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -219,10 +219,10 @@ The [`valueAccessor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor-formats/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor-formats/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValueAccessor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor-formats/valueAccessor.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor-formats/valueAccessor.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -230,7 +230,7 @@ The [`valueAccessor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 {% tabs %}
 {% highlight c# tabtitle="ValueAccessor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor-formats/valueAccessor.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor-formats/valueAccessor.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -246,10 +246,10 @@ In this example, the name field has an array of two objects, FirstName and LastN
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ValueAccessor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor/valueAccessor.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor/valueAccessor.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -257,7 +257,7 @@ In this example, the name field has an array of two objects, FirstName and LastN
 
 {% tabs %}
 {% highlight c# tabtitle="ValueAccessor.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/value-accessor/valueAccessor.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/value-accessor/valueAccessor.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -272,10 +272,10 @@ You can achieve the expression column by using the [`valueAccessor`](https://hel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/expression-columns/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/expression-columns/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Express.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/expression-columns/express.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/expression-columns/express.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,7 +283,7 @@ You can achieve the expression column by using the [`valueAccessor`](https://hel
 
 {% tabs %}
 {% highlight c# tabtitle="Express.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/expression-columns/express.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/expression-columns/express.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -298,10 +298,10 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox-column/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox-column/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -309,7 +309,7 @@ To render boolean values as checkbox in columns, you need to set [`displayAsChec
 
 {% tabs %}
 {% highlight c# tabtitle="Checkbox.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/checkbox-column/checkbox.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/checkbox-column/checkbox.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -47,7 +47,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/config/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/config/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,7 +55,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/config/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/config/razor %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -79,7 +79,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/realtimeChanges/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/realtimeChanges/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -87,7 +87,7 @@ To enable real-time collaboration, configure SignalR HubConnection in your ASP.N
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/realtimeChanges/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/realtimeChanges/razor %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -102,7 +102,7 @@ Add the following code in the ASP.NET Core application:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/conflict/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/conflict/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,7 +110,7 @@ Add the following code in the ASP.NET Core application:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/collaborative-editing/conflict/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/collaborative-editing/conflict/razor %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -58,7 +58,7 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioImport-cs1" %}
 
 ### Import options
 
@@ -129,7 +129,7 @@ The following example exports an React Diagram to a Microsoft Visio (**.vsdx**) 
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/visioimportexport/visioExport-cs1" %}
 
 ### Export options
 

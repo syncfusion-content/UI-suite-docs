@@ -32,7 +32,7 @@ The following code example shows you how to bind the hierarchical local data int
 
 {% tabs %}
 {% highlight c# tabtitle="Local-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/local-data/local-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/local-data/local-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -40,10 +40,10 @@ The following code example shows you how to bind the hierarchical local data int
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/local-data/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/local-data/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Local-data.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/local-data/local-data.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/local-data/local-data.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -64,7 +64,7 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
 {% tabs %}
 {% highlight c# tabtitle="Self-reference.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/self-reference.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/self-reference.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -72,10 +72,10 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Self-reference.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/self-reference.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/data-binding-mvc/self-reference/self-reference.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -76,18 +76,18 @@ Below example demonstrates the usage of paste settings that allows only specific
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/allowedstyle/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/allowedstyle/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/allowedstyle/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/allowedstyle/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/allowedstyle/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/allowedstyle/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/paste-cleanup/allowedstyle" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/paste-cleanup/allowedstyle" %}
 
 ## Disable Keep format
 
@@ -116,7 +116,7 @@ export class AppComponent {
 
 ## Allowing plain text
 
-To paste content as plain text, stripping all HTML tags and inline styles, set the [plainText](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/pastecleanupsettingsmodel#plaintext) property to `true` in [pasteCleanupSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/pastecleanupsettings). This ensures that only raw text is inserted, which is ideal for maintaining strict content consistency. By default, this property is `false`.
+To paste content as plain text, stripping all HTML tags and inline styles, set the [plainText](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/pastecleanupsettingsmodel#plaintext) property to `true` in [pasteCleanupSettings](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/index-default#pastesettings). This ensures that only raw text is inserted, which is ideal for maintaining strict content consistency. By default, this property is `false`.
 
 ```typescript
 import { BlockEditorModule } from '@syncfusion/ej2-angular-blockeditor';
@@ -143,18 +143,18 @@ Below example demonstrates the usage of paste settings that disables the keep fo
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/plaintext/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/plaintext/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/plaintext/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/plaintext/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/paste-cleanup/plaintext/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/paste-cleanup/plaintext/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/paste-cleanup/plaintext" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/paste-cleanup/plaintext" %}
 
 ### Events
 

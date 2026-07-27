@@ -24,4 +24,4 @@ A group is used to frame a part of the [Vue Diagram](https://www.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/bpmn-shapes/Group-cs1" %}

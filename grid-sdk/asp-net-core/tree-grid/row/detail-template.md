@@ -16,10 +16,10 @@ The detail template provides additional information about a particular row. By e
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/detailtemplate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/detailtemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Detailtemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/detailtemplate/detailtemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/detailtemplate/detailtemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,10 +27,10 @@ The detail template provides additional information about a particular row. By e
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/detailtemplate/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/detailtemplate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Detailtemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/detailtemplate/detailtemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/detailtemplate/detailtemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

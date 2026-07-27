@@ -26,10 +26,10 @@ The following example demonstrates how to customize Markdown tags in the editor:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-custom-format/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-custom-format/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-custom-format/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-custom-format/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -37,10 +37,10 @@ The following example demonstrates how to customize Markdown tags in the editor:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-custom-format/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-custom-format/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/asp-net-mvc/markdown-editor/markdown-custom-format/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/markdown-editor/markdown-custom-format/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

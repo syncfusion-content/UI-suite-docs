@@ -57,7 +57,7 @@ In the following example, **custom toolbar items** are added to the **Header**, 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ In the following example, **custom toolbar items** are added to the **Header**, 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/custom-toolbar-items/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -101,7 +101,7 @@ In the following example, a CSS animation is applied to the popup while the requ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/popup-styling/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/popup-styling/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -109,10 +109,10 @@ In the following example, a CSS animation is applied to the popup while the requ
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/popup-styling/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/popup-styling/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/popup-styling/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/popup-styling/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -140,7 +140,7 @@ The following example demonstrates a Proofread use case by rendering a button ou
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/usecase/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/usecase/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -148,10 +148,10 @@ The following example demonstrates a Proofread use case by rendering a button ou
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/usecase/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/usecase/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/ai-assistant/usecase/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/ai-assistant/usecase/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

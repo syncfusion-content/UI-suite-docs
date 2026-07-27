@@ -38,10 +38,10 @@ Items| Description
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/default-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/default-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,10 +49,10 @@ Items| Description
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/default-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/default-contextmenu/default-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -70,10 +70,10 @@ In the below sample, we have shown context menu item for parent rows to expand o
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/custom-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/custom-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -81,10 +81,10 @@ In the below sample, we have shown context menu item for parent rows to expand o
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Custom-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/custom-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/custom-contextmenu/custom-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -99,10 +99,10 @@ You can enable and disable the context menu items using the [`enableItems`](http
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enable-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/enable-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/enable-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -110,10 +110,10 @@ You can enable and disable the context menu items using the [`enableItems`](http
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Enable-contextmenu.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/enable-contextmenu.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/contextmenu/enable-contextmenu/enable-contextmenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

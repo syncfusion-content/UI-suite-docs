@@ -45,7 +45,7 @@ The following code demonstrates how to change the pivot value:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs1" %}
 
 ## Size Constraints
 
@@ -65,6 +65,6 @@ These constraints are particularly useful when creating diagrams where nodes nee
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/nodes/node-positioning-cs2" %}
 
 ![MinSize-MaxSize GIF](../images/minSize-MaxSizeGif.gif)

@@ -33,7 +33,7 @@ The following code example illustrates how to define a swimlane with lane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
 
 
 
@@ -54,7 +54,7 @@ The following code example illustrates how to define a lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs6" %}
 
 
 
@@ -79,7 +79,7 @@ The following code example illustrates how to customize the lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs7" %}
 
 
 
@@ -98,7 +98,7 @@ The following code example illustrates how to customize the lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs8" %}
 
 
 
@@ -117,7 +117,7 @@ The following code example illustrates how to customize the lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs9" %}
 
 
 
@@ -138,7 +138,7 @@ The following code example illustrates how to add nodes to lane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs10" %}
 
 
 
@@ -158,7 +158,7 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-addChild" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-addChild" %}
 
 
 
@@ -186,7 +186,7 @@ Here is an example of how to apply these constraints:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5-prevNodeDrag" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5-prevNodeDrag" %}
 
 
 
@@ -206,7 +206,7 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs5" %}
 
 
 
@@ -241,7 +241,7 @@ The following code illustrates how to disable swimlane lane swapping.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/swimlane-cs11" %}
 
 
 

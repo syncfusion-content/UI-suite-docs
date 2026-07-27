@@ -25,10 +25,10 @@ The [`sourcePoint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,7 +36,7 @@ The [`sourcePoint`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -49,10 +49,10 @@ Connectors can be added at runtime by using public method, `diagram.add` and can
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,7 +60,7 @@ Connectors can be added at runtime by using public method, `diagram.add` and can
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -108,10 +108,10 @@ diagram.remove(connectors)
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectorCollection/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectorCollection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ConnectorCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectorCollection/connectorCollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectorCollection/connectorCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -119,7 +119,7 @@ diagram.remove(connectors)
 
 {% tabs %}
 {% highlight c# tabtitle="ConnectorCollection.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectorCollection/connectorCollection.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectorCollection/connectorCollection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -144,10 +144,10 @@ Various connector properties such as `sourcePoint`, `targetPoint`, `style`, `sou
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -155,7 +155,7 @@ Various connector properties such as `sourcePoint`, `targetPoint`, `style`, `sou
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -185,10 +185,10 @@ diagram.dataBind();
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connect/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connect/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Connect.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connect/connect.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connect/connect.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -196,7 +196,7 @@ diagram.dataBind();
 
 {% tabs %}
 {% highlight c# tabtitle="Connect.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connect/connect.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connect/connect.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -221,10 +221,10 @@ The [`sourcePortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/ports.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -232,7 +232,7 @@ The [`sourcePortID`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 
 {% tabs %}
 {% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/ports.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -245,10 +245,10 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/ports.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -256,7 +256,7 @@ Similarly, the `sourcePortID` or `targetPortID` can be changed at the runtime by
 
 {% tabs %}
 {% highlight c# tabtitle="Ports.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/ports/ports.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/ports/ports.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -292,10 +292,10 @@ To create a straight line, specify the [`type`](https://ej2.syncfusion.com/docum
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -303,10 +303,10 @@ To create a straight line, specify the [`type`](https://ej2.syncfusion.com/docum
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -319,10 +319,10 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -330,10 +330,10 @@ The [`point`](https://ej2.syncfusion.com/documentation/api/diagram/straightSegme
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/segment/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/segment/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -352,10 +352,10 @@ Multiple segments can be defined one after another. To create a connector with m
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonal/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonal/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonal/orthogonal.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonal/orthogonal.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -363,7 +363,7 @@ Multiple segments can be defined one after another. To create a connector with m
 
 {% tabs %}
 {% highlight c# tabtitle="Orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonal/orthogonal.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonal/orthogonal.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -376,10 +376,10 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/direction/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/direction/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Direction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/direction/direction.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/direction/direction.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -387,7 +387,7 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSe
 
 {% tabs %}
 {% highlight c# tabtitle="Direction.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/direction/direction.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/direction/direction.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -406,10 +406,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonalThumbSize/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonalThumbSize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonalThumbSize/orthogonal.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonalThumbSize/orthogonal.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -417,7 +417,7 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight c# tabtitle="orthogonal.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/orthogonalThumbSize/orthogonal.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/orthogonalThumbSize/orthogonal.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -430,10 +430,10 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/overlapping/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/overlapping/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Overlapping.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/overlapping/overlapping.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/overlapping/overlapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -441,7 +441,7 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 
 {% tabs %}
 {% highlight c# tabtitle="Overlapping.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/overlapping/overlapping.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/overlapping/overlapping.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -458,10 +458,10 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/vector/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/vector/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Vector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/vector/vector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/vector/vector.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -469,7 +469,7 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/docu
 
 {% tabs %}
 {% highlight c# tabtitle="Vector.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/vector/vector.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/vector/vector.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -484,10 +484,10 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/points/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/points/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Points.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/points/points.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/points/points.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -495,7 +495,7 @@ The [`vector1`](https://ej2.syncfusion.com/documentation/api/diagram/bezierSegme
 
 {% tabs %}
 {% highlight c# tabtitle="Points.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/points/points.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/points/points.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -510,10 +510,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bezierThumbSize/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bezierThumbSize/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="bezier.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bezierThumbSize/bezier.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bezierThumbSize/bezier.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -521,7 +521,7 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight c# tabtitle="bezier.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bezierThumbSize/bezier.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bezierThumbSize/bezier.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -539,10 +539,10 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/srcdecorator/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/srcdecorator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Srcdecorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/srcdecorator/srcdecorator.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/srcdecorator/srcdecorator.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -550,7 +550,7 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 
 {% tabs %}
 {% highlight c# tabtitle="Srcdecorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/srcdecorator/srcdecorator.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/srcdecorator/srcdecorator.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -569,10 +569,10 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/padding/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/padding/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Padding.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/padding/padding.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -580,7 +580,7 @@ Padding is used to leave the space between the Connector's end point and the obj
 
 {% tabs %}
 {% highlight c# tabtitle="Padding.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/padding/padding.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -603,10 +603,10 @@ The flip types are as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/flip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/flip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/flip/flip.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/flip/flip.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -614,7 +614,7 @@ The flip types are as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="Flip.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/flip/flip.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/flip/flip.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -631,10 +631,10 @@ Line bridging creates a bridge for lines to smartly cross over the other lines, 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bridging/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bridging/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bridging/bridging.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -642,7 +642,7 @@ Line bridging creates a bridge for lines to smartly cross over the other lines, 
 
 {% tabs %}
 {% highlight c# tabtitle="Bridging.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/bridging/bridging.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/bridging/bridging.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -663,10 +663,10 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/cornerradius/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/cornerradius/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Cornerradius.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/cornerradius/cornerradius.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/cornerradius/cornerradius.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -674,7 +674,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight c# tabtitle="Cornerradius.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/cornerradius/cornerradius.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/cornerradius/cornerradius.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -695,10 +695,10 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/style/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/style/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Style.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/style/style.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/style/style.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -706,7 +706,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight c# tabtitle="Style.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/style/style.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/style/style.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -725,10 +725,10 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/decorator/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/decorator/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Decorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/decorator/decorator.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/decorator/decorator.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -736,7 +736,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 {% tabs %}
 {% highlight c# tabtitle="Decorator.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/decorator/decorator.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/decorator/decorator.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -759,10 +759,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Linerouting.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting/linerouting.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting/linerouting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -770,10 +770,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Linerouting.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting/linerouting.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting/linerouting.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -786,10 +786,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting1/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Linerouting1.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting1/linerouting1.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting1/linerouting1.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -797,10 +797,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting1/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Linerouting1.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/linerouting1/linerouting1.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/linerouting1/linerouting1.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -817,10 +817,10 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/constraints/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/constraints/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Constraints.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/constraints/constraints.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/constraints/constraints.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -828,7 +828,7 @@ Diagram provides additional flexibility to re-route the diagram connectors. A co
 
 {% tabs %}
 {% highlight c# tabtitle="Constraints.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/constraints/constraints.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/constraints/constraints.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -860,10 +860,10 @@ The connectors [`zIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/zindex/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/zindex/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Zindex.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/zindex/zindex.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/zindex/zindex.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -871,7 +871,7 @@ The connectors [`zIndex`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 
 {% tabs %}
 {% highlight c# tabtitle="Zindex.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/zindex/zindex.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/zindex/zindex.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -895,10 +895,10 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectors-segundo/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectors-segundo/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectors-segundo/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectors-segundo/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -906,7 +906,7 @@ The following example demonstrates undo and redo functionality for connector seg
 
 {% tabs %}
 {% highlight c# tabtitle="segment.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/connectors/connectors-segundo/segment.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/connectors/connectors-segundo/segment.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

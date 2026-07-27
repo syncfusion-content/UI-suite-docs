@@ -20,14 +20,14 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/clipboard-cleanup/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/clipboard-cleanup/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup" %}
 
 ## Customizing Copied/Cut Content
 
@@ -37,14 +37,14 @@ In this example, the `beforeClipboardWrite` event is used to customize the selec
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/clipboard-cleanup-customize/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup-customize/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/clipboard-cleanup-customize/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup-customize/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup-customize" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/clipboard-cleanup-customize" %}
 
 ## Best Practices & Troubleshooting
 

@@ -34,14 +34,14 @@ This sample demonstrates how to add a custom "Ω" icon to the toolbar. Clicking 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs19/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs19/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/toolbar-cs19/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs19/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/toolbar-cs19" %}
 
 > When rendering any component for the custom toolbar, like a dropdown, the focus may be lost, causing it to render outside the Rich Text Editor and triggering a blur event. This can interfere with proper functionalities like cursor focus. To prevent this issue, it is recommended to assign the e-rte-elements class to the component rendered in the custom toolbar.
 

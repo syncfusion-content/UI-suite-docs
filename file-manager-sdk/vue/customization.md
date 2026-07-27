@@ -28,14 +28,14 @@ Customize the context menu items shown for files, folders, and layout clicks usi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/contextmenu-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/contextmenu-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/contextmenu-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/contextmenu-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/contextmenu-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/contextmenu-cs1" %}
 
 ## Details view customization
 
@@ -43,14 +43,14 @@ Configure details view columns (header text, width, templates, formats) using th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/detailsview-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/detailsview-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/detailsview-cs1" %}
 
 ## Navigation pane customization
 
@@ -58,14 +58,14 @@ Control navigation pane behavior—such as minimum/maximum width, visibility, an
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/navigationpane-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/navigationpane-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/navigationpane-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/navigationpane-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/navigationpane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/navigationpane-cs1" %}
 
 ## Show/Hide file extension
 
@@ -75,14 +75,14 @@ The [fileLoad](https://ej2.syncfusion.com/vue/documentation/api/file-manager#fil
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/fileextension-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/fileextension-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/fileextension-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/fileextension-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/fileextension-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/fileextension-cs1" %}
 
 ## Show/Hide hidden items
 
@@ -90,14 +90,14 @@ Show or hide hidden files and folders by toggling the [showHiddenItems](https://
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/hiddenitems-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/hiddenitems-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/hiddenitems-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/hiddenitems-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/hiddenitems-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/hiddenitems-cs1" %}
 
 ## Show/Hide thumbnail images in large icons view
 
@@ -105,14 +105,14 @@ Thumbnails are displayed by default in the large icons view. Disable them by set
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/disablethumbnail-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/disablethumbnail-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/disablethumbnail-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/disablethumbnail-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/disablethumbnail-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/disablethumbnail-cs1" %}
 
 ## Toolbar customization
 
@@ -120,14 +120,14 @@ Customize toolbar items and their visibility using the [toolbarSettings](https:/
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/toolbar-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/toolbar-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/toolbar-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/toolbar-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/toolbar-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/toolbar-cs1" %}
 
 ### See Also
 
@@ -139,14 +139,14 @@ Configure upload behavior (min/max file size, `autoUpload`, allowed extensions, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload-cs1" %}
 
 ## Tooltip customization
 
@@ -154,14 +154,14 @@ The tooltip value can be customized by adding extra content to the title of the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/tooltip-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/tooltip-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/tooltip-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/tooltip-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/tooltip-cs1" %}
 
 ## Maintaining component state on page reload
 
@@ -174,14 +174,14 @@ For every operation in File Manager, ajax request will be sent to the server whi
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/persistence-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/persistence-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/persistence-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/persistence-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/persistence-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/persistence-cs1" %}
 
 >**Note:** The files of the current folder opened in the File Manager can be refreshed programmatically by calling [refreshFiles](https://ej2.syncfusion.com/vue/documentation/api/file-manager#refreshfiles) method.
 

@@ -36,27 +36,27 @@ In this mode, any overflowing toolbar items are hidden in the next row. Users ca
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/expand-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/expand-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/expand-toolbar-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/expand-toolbar-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/expand-toolbar-cs2" %}
 
 ### Multi-row Toolbar
 
@@ -66,27 +66,27 @@ By setting type: `MultiRow` in [toolbarSettings](https://ej2.syncfusion.com/reac
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/multirow-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/multirow-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/multirow-toolbar-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/multirow-toolbar-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/multirow-toolbar-cs2" %}
 
 ### Scrollable Toolbar
 
@@ -96,27 +96,27 @@ Use `type: 'Scrollable'` in [toolbarSettings](https://ej2.syncfusion.com/react/d
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/scrollable-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/scrollable-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/scrollable-toolbar-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/scrollable-toolbar-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/scrollable-toolbar-cs2" %}
 
 ### Creating a Sticky Toolbar
 
@@ -130,27 +130,27 @@ Additionally, you can enable or disable the floating toolbar using the [enableFl
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/floating-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/floating-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/floating-toolbar-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/floating-toolbar-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/floating-toolbar-cs2" %}
 
 ## Custom Toolbar Items
 
@@ -165,24 +165,24 @@ The following code snippet demonstrates how to configure a custom toolbar item w
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-toolbar-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-toolbar-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-toolbar-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-toolbar-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-toolbar-cs2" %}

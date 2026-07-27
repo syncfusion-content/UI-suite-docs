@@ -30,10 +30,10 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/table-block/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/table-block/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Table.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/table-block/table.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/table-block/table.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/table-feature/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/table-feature/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Table.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/blocks/blockTypes/table-feature/table.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/blocks/blockTypes/table-feature/table.cs %}
 {% endhighlight %}
 {% endtabs %}
 

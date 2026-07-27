@@ -39,7 +39,7 @@ The following code illustrates how to change the `pivot` value.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-cs3" %}
 
 ## Minimum and maximum size for nodes.
 
@@ -54,7 +54,7 @@ The [`minWidth`](https://ej2.syncfusion.com/documentation/api/diagram/node#minwi
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-minWidth" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/nodes-minWidth" %}
 
 
 ![MinSize-MaxSize GIF](../images/minSize-MaxSizeGif.gif)

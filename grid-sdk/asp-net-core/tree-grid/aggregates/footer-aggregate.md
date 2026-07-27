@@ -17,10 +17,10 @@ Footer aggregate value is calculated for all the rows, and it is displayed in th
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/footer-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/footer-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FooterAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/footer-aggregate/footerAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/footer-aggregate/footerAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ Footer aggregate value is calculated for all the rows, and it is displayed in th
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/footer-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/footer-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FooterAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/footer-aggregate/footerAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/footer-aggregate/footerAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -48,10 +48,10 @@ You can format the aggregate value result by using the [`format`](https://help.s
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/format-Aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/format-Aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="FormatAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/format-Aggregate/formatAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/format-Aggregate/formatAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -59,10 +59,10 @@ You can format the aggregate value result by using the [`format`](https://help.s
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/format-Aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/format-Aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="FormatAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/aggregates/format-Aggregate/formatAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/aggregates/format-Aggregate/formatAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

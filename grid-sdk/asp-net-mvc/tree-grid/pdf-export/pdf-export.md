@@ -17,10 +17,10 @@ PDF export allows exporting TreeGrid data to PDF document. You need to use the [
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/export/export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ PDF export allows exporting TreeGrid data to PDF document. You need to use the [
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/export/export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -44,10 +44,10 @@ In the provided example, the `CustomAggregateFn` function computes the item coun
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/custom-aggregate-pdf/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/custom-aggregate-pdf/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="empty-record-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/custom-aggregate-pdf/custom-aggregate-pdf.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/custom-aggregate-pdf/custom-aggregate-pdf.cs %}
 {% endhighlight %}
 {% endtabs %}
 

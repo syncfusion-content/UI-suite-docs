@@ -47,7 +47,7 @@ To map user-defined JSON data to the diagram, configure the fields in [`dataSour
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs1" %}
 
 N> To convert the data source into nodes and connectors, `DataBinding` should be injected into the diagram.
 
@@ -70,7 +70,7 @@ When querying data, the `DataManager` will convert the query object(Query) into 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs2" %}
 
 ## CRUD
 
@@ -111,7 +111,7 @@ This feature allows you to read the data source and perform add or edit or delet
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/dataBinding-cs5" %}
 
 ## How to perform Editing at runtime
 

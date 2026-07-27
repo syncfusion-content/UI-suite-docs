@@ -32,7 +32,7 @@ The following example demonstrates how to create a connector with multiple segme
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormultiseg-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormultiseg-cs1" %}
 
 ## Use cases
 
@@ -68,7 +68,7 @@ The following example demonstrates undo and redo functionality for connector seg
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-segundo" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectors-segundo" %}
 
 ## Related topics
 

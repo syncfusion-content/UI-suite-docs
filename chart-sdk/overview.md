@@ -24,15 +24,15 @@ Available Platforms:
 
 {% doccard text="Blazor" link="https://help.syncfusion.com/chart-sdk/blazor/charts/getting-started-with-web-app" icon="/chart-sdk/images/Blazor.svg" %}
 
-{% doccard text="JavaScript" link="https://help.syncfusion.com/chart-sdk/javascript/charts/es5-getting-started" icon="/chart-sdk/images/JavaScript.svg" %}
+{% doccard text="JavaScript" link="https://help.syncfusion.com/chart-sdk/javascript/chart/es5-getting-started" icon="/chart-sdk/images/JavaScript.svg" %}
 
 {% doccard text="TypeScript" link="https://help.syncfusion.com/chart-sdk/typescript/chart/getting-started" icon="/chart-sdk/images/Typescript.svg" %}
 
-{% doccard text="Vue" link="https://help.syncfusion.com/chart-sdk/vue/charts/getting-started" icon="/chart-sdk/images/Vue.svg" %}
+{% doccard text="Vue" link="https://help.syncfusion.com/chart-sdk/vue/chart/getting-started" icon="/chart-sdk/images/Vue.svg" %}
 
-{% doccard text="ASP.NET Core" link="https://help.syncfusion.com/chart-sdk/asp-net-core/charts/getting-started" icon="/chart-sdk/images/ASP.NET Core.png" %}
+{% doccard text="ASP.NET Core" link="https://help.syncfusion.com/chart-sdk/asp-net-core/chart/getting-started" icon="/chart-sdk/images/ASP.NET Core.png" %}
 
-{% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/asp-net-mvc/charts/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
+{% doccard text="ASP.NET MVC" link="https://help.syncfusion.com/chart-sdk/asp-net-mvc/chart/getting-started" icon="/chart-sdk/images/ASP.NET MVC.png" %}
 
 {% doccard text=".NET MAUI" link="https://help.syncfusion.com/chart-sdk/maui/funnel-chart/overview" icon="/chart-sdk/images/dotnet_maui.svg" %}
 

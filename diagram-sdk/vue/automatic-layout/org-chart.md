@@ -27,7 +27,7 @@ The following code example illustrates how to create an organizational chart wit
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs1" %}
 
 N> If you want to use Organizational chart layout in diagram, you need to inject HierarchicalTree module along with DataBinding module in the diagram.
 
@@ -45,7 +45,7 @@ You can render an org-chart layout without using DataSource. The following code 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs2" %}
 
 ![Organizational chart](../images/org-chart.png)
 
@@ -100,7 +100,7 @@ The following example shows how to utilize the `getLayoutInfo` function to custo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs3" %}
 
 
 ### SubTree vertical orientation 
@@ -117,7 +117,7 @@ The following code example illustrates how to set the vertical arrangement to th
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs4" %}
 
 
 ### Assistant
@@ -136,7 +136,7 @@ The following code example illustrates how to add assistants to layout.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/organizational-cs5" %}
 
 ![Assistant](../images/assistant.png)
 

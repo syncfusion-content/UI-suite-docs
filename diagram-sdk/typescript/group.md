@@ -34,7 +34,7 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs1" %}
 
 
 
@@ -55,7 +55,7 @@ The following code illustrates how a group  at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-runtime" %}
 
 
 
@@ -74,7 +74,7 @@ Group node can be unGrouped dynamically, by using the [`diagram.unGroup`](https:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs2" %}
 
 
 
@@ -95,7 +95,7 @@ The following code illustrates how a group node is added at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs3" %}
 
 
 
@@ -116,7 +116,7 @@ The following code illustrates how to add a group nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs7" %}
 
 
 
@@ -161,7 +161,7 @@ diagram.removeChildFromGroup (groupNode, childNode);
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs6" %}
 
 
 
@@ -182,7 +182,7 @@ The following code illustrates how to add Padding to the node group.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-padding" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-padding" %}
 
 
 
@@ -208,7 +208,7 @@ The following example shows how to apply flip for group node.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flip" %}
 
 
 
@@ -232,7 +232,7 @@ As a result, the effective flipMode for both the child node and the group node w
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flipMode" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-flipMode" %}
 
 
 
@@ -252,7 +252,7 @@ Nested groups are essentially groups within groups, where a group can contain ot
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-nestedGroup" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-nestedGroup" %}
 
 
 
@@ -273,7 +273,7 @@ Group node can be added in symbol palette like the normal nodes.  The following 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-palette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-palette" %}
 
 
 
@@ -292,7 +292,7 @@ Group can be updated dynamically similar to the normal nodes.  The following cod
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-updateRuntime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-updateRuntime" %}
 
 
 
@@ -328,7 +328,7 @@ The following code illustrates how to add canvas panel.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs4" %}
 
 
 
@@ -351,7 +351,7 @@ The following code illustrates how to add a stack panel.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/group-cs5" %}
 
 
 

@@ -113,27 +113,27 @@ Programmatically highlight a portion of the text in the editor by setting the ba
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/highlight-specific-line-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/highlight-specific-line-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/highlight-specific-line-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/highlight-specific-line-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/highlight-specific-line-cs1" %}
 {% endif %}
 
 ## See also

@@ -69,15 +69,15 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/table-block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/table-block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block" %}
 
 ### Table resizing
 
@@ -91,12 +91,12 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/table-block/table-feature/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/table-feature/app/index.jsx %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/table-block/table-feature/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/table-feature/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/table-block/table-feature" %}

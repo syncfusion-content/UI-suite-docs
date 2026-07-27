@@ -32,7 +32,7 @@ Nodes can be selected at runtime by using the [`select`](https://ej2.syncfusion.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs1" %}
 ### Selection Methods Reference
 
 |Method | Parameter | Description|
@@ -59,7 +59,7 @@ Nodes can be moved programmatically using the [`drag`](https://ej2.syncfusion.co
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs2" %}
 
 ## Resize
 
@@ -80,7 +80,7 @@ Node dimensions can be modified at runtime using the  [`scale`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs3" %}
 
 ## Rotate
 
@@ -101,7 +101,7 @@ Nodes can be rotated at runtime using the [`rotate`](https://ej2.syncfusion.com/
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs4" %}
 
 ## Flip
 
@@ -131,7 +131,7 @@ The following example demonstrates how to apply flip transformations to nodes:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs5" %}
 
 N> The flip is also applicable for group and BPMN shapes.
 
@@ -150,7 +150,7 @@ The following example demonstrates how to update the flip for a node dynamically
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/node-cs4-flip" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/node-cs4-flip" %}
 
 
 ### Flip Modes
@@ -208,4 +208,4 @@ The following table demonstrates how different flip modes affect node appearance
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nInteraction-cs6" %}

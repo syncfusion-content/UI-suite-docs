@@ -42,10 +42,10 @@ The appearance of the user handle can be customized by using the [`size`](https:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -53,7 +53,7 @@ The appearance of the user handle can be customized by using the [`size`](https:
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -115,10 +115,10 @@ To create the fixed user handles, define and add them to the collection of nodes
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandle/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandle/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,7 +126,7 @@ To create the fixed user handles, define and add them to the collection of nodes
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandle/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandle/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -163,10 +163,10 @@ Diagram allows to set size for the fixed user handles by using the `width` and `
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/customizingfixeduserhandle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/customizingfixeduserhandle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Fixeduserhandle.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/customizingfixeduserhandle/fixeduserhandle.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/customizingfixeduserhandle/fixeduserhandle.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -174,7 +174,7 @@ Diagram allows to set size for the fixed user handles by using the `width` and `
 
 {% tabs %}
 {% highlight c# tabtitle="Fixeduserhandle.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/customizingfixeduserhandle/fixeduserhandle.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/customizingfixeduserhandle/fixeduserhandle.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -212,10 +212,10 @@ The following table shows all the possible alignments visually shows the fixed u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -223,7 +223,7 @@ The following table shows all the possible alignments visually shows the fixed u
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -271,10 +271,10 @@ N> Displacement will not be done if the alignment is set to be center.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/connectorfixeduserhandle/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/connectorfixeduserhandle/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Fixeduserhandle.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/connectorfixeduserhandle/fixeduserhandle.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/connectorfixeduserhandle/fixeduserhandle.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -282,7 +282,7 @@ N> Displacement will not be done if the alignment is set to be center.
 
 {% tabs %}
 {% highlight c# tabtitle="Fixeduserhandle.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/connectorfixeduserhandle/fixeduserhandle.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/connectorfixeduserhandle/fixeduserhandle.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -297,10 +297,10 @@ To show tooltip on mouse over, the [`tooltip`](../api/diagram#tooltip) property 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -308,7 +308,7 @@ To show tooltip on mouse over, the [`tooltip`](../api/diagram#tooltip) property 
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -321,10 +321,10 @@ The diagram provides support to show tooltip when the mouse hovers over any fixe
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle2/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle2/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle2/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle2/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -332,7 +332,7 @@ The diagram provides support to show tooltip when the mouse hovers over any fixe
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/nodefixeduserhandle2/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/nodefixeduserhandle2/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -345,10 +345,10 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandletemplate/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandletemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandletemplate/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandletemplate/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -356,7 +356,7 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/interaction/fixeduserhandletemplate/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/interaction/fixeduserhandletemplate/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -27,7 +27,7 @@ The `codeBlockSettings` property supports the following options:
 
 For Code blocks, you can specify the language for syntax highlighting using the [properties](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/blockmodel) property. This property supports the following options:
 
-- [language](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/codelanguagemodel#language): The default language value used for syntax highlighting.
+- [language](https://ej2.syncfusion.com/angular/documentation/api/blockeditor/codeLanguageModel#language): The default language value used for syntax highlighting.
 
 ### Block type & properties
 ```typescript
@@ -49,15 +49,15 @@ The following example demonstrates how to configure and render a Code block with
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/main.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/angular/block-editor/blocks/block-types/code-block/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block/src/app.component.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/block-editor/blocks/block-types/code-block" %}

@@ -28,7 +28,7 @@ Container nodes require specific configuration to enable child element managemen
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/container/container-1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/container/container-1" %}
 
 ### Setting a Header
 
@@ -46,7 +46,7 @@ The following example shows header configuration with custom styling:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/container/container-2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/container/container-2" %}
 
 N> Double-click the header region to enable inline text editing functionality.
 

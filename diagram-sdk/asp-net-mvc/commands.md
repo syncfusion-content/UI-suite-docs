@@ -54,10 +54,10 @@ Alignment commands enables to align the selected or defined objects such as node
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/align/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Align.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/align.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/align/align.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,7 +65,7 @@ Alignment commands enables to align the selected or defined objects such as node
 
 {% tabs %}
 {% highlight c# tabtitle="Align.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/align/align.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/align/align.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -104,10 +104,10 @@ The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/distribute/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Distribute.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/distribute.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/distribute/distribute.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -115,7 +115,7 @@ The factor to distribute the shapes [`DistributeOptions`](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight c# tabtitle="Distribute.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/distribute/distribute.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/distribute/distribute.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -148,10 +148,10 @@ Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/size/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/size.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -159,7 +159,7 @@ Sizing [`sameSize`](https://ej2.syncfusion.com/documentation/api/diagram/#samesi
 
 {% tabs %}
 {% highlight c# tabtitle="Size.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/size/size.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/size/size.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -192,10 +192,10 @@ Clipboard commands are used to cut, copy, or paste the selected elements.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/paste/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/paste.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -203,7 +203,7 @@ Clipboard commands are used to cut, copy, or paste the selected elements.
 
 {% tabs %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/paste/paste.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -232,10 +232,10 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/group/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -243,7 +243,7 @@ diagram.paste(diagram.copy() as(NodeModel | ConnectorModel)[]);
 
 {% tabs %}
 {% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/group/group.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -272,10 +272,10 @@ The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/#bring
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -283,7 +283,7 @@ The [`bringToFront`](https://ej2.syncfusion.com/documentation/api/diagram/#bring
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -311,10 +311,10 @@ The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/#sendtob
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -322,7 +322,7 @@ The [`sendToBack`](https://ej2.syncfusion.com/documentation/api/diagram/#sendtob
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -349,10 +349,10 @@ The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/#movefo
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -360,7 +360,7 @@ The [`moveForward`](https://ej2.syncfusion.com/documentation/api/diagram/#movefo
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -387,10 +387,10 @@ The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/#sendb
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -398,7 +398,7 @@ The [`sendBackward`](https://ej2.syncfusion.com/documentation/api/diagram/#sendb
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -424,10 +424,10 @@ The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/#zoom) command
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -435,7 +435,7 @@ The [`zoom`](https://ej2.syncfusion.com/documentation/api/diagram/#zoom) command
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -472,10 +472,10 @@ The accepted values of the argument "direction" are as follows:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -483,7 +483,7 @@ The accepted values of the argument "direction" are as follows:
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -516,10 +516,10 @@ The following code illustrates how to execute the `bringIntoView` command.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -527,7 +527,7 @@ The following code illustrates how to execute the `bringIntoView` command.
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -552,10 +552,10 @@ The following code illustrates how to execute the `bringToCenter` command.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -563,7 +563,7 @@ The following code illustrates how to execute the `bringToCenter` command.
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -599,10 +599,10 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -610,7 +610,7 @@ The following code illustrates how to execute `FitToPage` command.
 
 {% tabs %}
 {% highlight c# tabtitle="Order.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/order/order.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/order/order.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -651,10 +651,10 @@ To explore the properties of custom commands, refer to [`Commands`](https://ej2.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/existingCommand/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ExistingCommand.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -662,7 +662,7 @@ To explore the properties of custom commands, refer to [`Commands`](https://ej2.
 
 {% tabs %}
 {% highlight c# tabtitle="ExistingCommand.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/existingCommand/existingCommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -698,10 +698,10 @@ When any one of the default commands is not desired, they can be disabled. To ch
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/nudge/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Nudge.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/nudge.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/nudge/nudge.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -709,10 +709,10 @@ When any one of the default commands is not desired, they can be disabled. To ch
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/nudge/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Nudge.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/commands/nudge/nudge.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/commands/nudge/nudge.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

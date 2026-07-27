@@ -29,7 +29,7 @@ The following code illustrates how to change the appearance of port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -42,7 +42,7 @@ The following code illustrates how to change the appearance of port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs5" %}
 
 {% endif %}
 
@@ -62,7 +62,7 @@ The appearance of port can be changed at runtime by customizing the style of por
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -75,7 +75,7 @@ The appearance of port can be changed at runtime by customizing the style of por
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-cs6" %}
 
 {% endif %}
 
@@ -124,7 +124,7 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -137,7 +137,7 @@ If you need to render a custom shape, then you can set shape as `Custom` and def
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/ports-shapes" %}
 
 {% endif %}
 

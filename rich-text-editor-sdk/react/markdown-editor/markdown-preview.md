@@ -20,24 +20,24 @@ To enable the Markdown preview feature, integrate the third-party [Marked](https
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-preview-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-preview-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-preview-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/markdown-preview-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/markdown-preview-cs2" %}

@@ -37,27 +37,27 @@ When you customize the Enter key, the editor will create the specified tag when 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/enter-key-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/enter-key-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/enter-key-cs1" %}
 {% endif %}
 
 ## Shift+Enter key configuration
@@ -70,27 +70,27 @@ When you customize the Shift+Enter key, the editor will create the specified tag
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/shift-enter-key-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/shift-enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/shift-enter-key-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/shift-enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/shift-enter-key-cs1" %}
 {% endif %}
 
 ## Preventing enter key actions
@@ -101,25 +101,25 @@ In some cases, you may want to prevent the default Enter key behavior entirely. 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-enter-key-cs1/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-enter-key-cs1/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/prevent-enter-key-cs1/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/prevent-enter-key-cs1" %}
 {% endif %}

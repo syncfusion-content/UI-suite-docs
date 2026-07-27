@@ -28,7 +28,7 @@ The [`length`](https://ej2.syncfusion.com/documentation/api/diagram/orthogonalSe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs9" %}
 
 
 N> You need to mention the segment type as same as what you mentioned in connector type. There should be no contradiction between connector type and segment type.
@@ -48,7 +48,7 @@ N> You need to mention the segment type as same as what you mentioned in connect
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs9" %}
 
 
 ![Orthogonal Segment edit Gif](../../images//orthoSegEdit.gif)
@@ -67,7 +67,7 @@ Orthogonal segments are automatically re-routed, in order to avoid overlapping w
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs11" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs11" %}
 
 ## How to customize Orthogonal Segment Thumb Shape
 
@@ -99,7 +99,7 @@ The orthogonal connector can have any number of segments in between the source a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs12" %}
 
 ![Segment Thumb Shape](../../images//thumbshape.png)
 
@@ -134,4 +134,4 @@ To customize the thumb size for a specific connector, disable the [`InheritSegme
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs62" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/connectors-cs62" %}

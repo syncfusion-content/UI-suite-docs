@@ -83,7 +83,7 @@ The following code example illustrates how to define symbols in a palette and ho
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-cs1" %}
 
 ## Add connectors in symbol palette
 
@@ -99,7 +99,7 @@ The following example shows how to render connectors in the symbol palette:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-con" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-con" %}
 
 ## Add group nodes in symbol palette
 
@@ -114,7 +114,7 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-grp" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palettes-grp" %}
 
 ## Template-based symbols
 
@@ -136,7 +136,7 @@ Templates can be defined either as strings or functions and assigned to the node
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/Palette-contentTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/Palette-contentTemplate" %}
 
 ## Drag and drop symbols from palette to diagram
 
@@ -157,7 +157,7 @@ Symbols can be added to palette at runtime by using public method, [`addPaletteI
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-add" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-add" %}
 
 ## Remove symbols from palette at runtime
 
@@ -172,7 +172,7 @@ Symbols can be removed from palette at runtime by using public method, [`removeP
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-rmv" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/symbol-rmv" %}
 
 ## Symbol defaults
 
@@ -190,7 +190,7 @@ In the following example, the fill color of node and target decorator shape of c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/defaults-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/defaults-cs1" %}
 
 ## Add palettes at runtime
 
@@ -207,7 +207,7 @@ Follow the example below to see how to add a palette at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-add" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-add" %}
 
 ## Remove palettes at runtime
 
@@ -227,7 +227,7 @@ Follow the example below to see how to remove palettes at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-rmv" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/palette-rmv" %}
 
 ## Stretch the symbols into the palette
 
@@ -242,7 +242,7 @@ The [`fit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/symbolInfo/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/fit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/symbol-palette/palettes/fit-cs1" %}
 
 ## Refresh symbol palette
 

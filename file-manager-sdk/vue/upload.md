@@ -22,14 +22,14 @@ When set to `true`, this property enables directory upload in the File Manager, 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/directory-upload/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/directory-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/directory-upload/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/directory-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/directory-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/directory-upload" %}
 
 >Note: When `directoryUpload` is set to `true`, only folders can be uploaded. When it is set to `false`, only individual files can be uploaded. Simultaneous uploading of files and folders is not supported.
 
@@ -45,14 +45,14 @@ When set to `true`, the selected files will process sequentially (one after the 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/sequential-upload/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/sequential-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/sequential-upload/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/sequential-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/sequential-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/sequential-upload" %}
 
 The screenshot below shows that each file begins uploading only after the previous one completes. This demonstrates how the `sequentialUpload` property works in the [Vue File Manager](https://www.syncfusion.com/vue-components/vue-file-manager) component.
 
@@ -72,14 +72,14 @@ In the following example, the chunkSize is set to 5 MB (5,242,880 bytes), and th
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/chunk-upload/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/chunk-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/chunk-upload/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/chunk-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/chunk-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/chunk-upload" %}
 
 With chunk upload, the pause and resume options gives users enhanced control over the file upload process.
 
@@ -97,14 +97,14 @@ The default value is `true`, the File Manager will automatically upload files as
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/auto-upload/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/auto-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/auto-upload/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/auto-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/auto-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/auto-upload" %}
 
 ## Auto close
 
@@ -114,14 +114,14 @@ The default value is set to `false`, the upload dialog remains open even after t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/auto-close/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/auto-close/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/auto-close/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/auto-close/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/auto-close" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/auto-close" %}
 
 
 ## Prevent upload based on file extensions
@@ -136,14 +136,14 @@ If you want to allow only image files like .jpg and .png, you would set the prop
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/prevent-upload/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/prevent-upload/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/prevent-upload/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/prevent-upload/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/prevent-upload" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/prevent-upload" %}
 
 ## Restrict external drag-and-drop upload
 
@@ -157,14 +157,14 @@ The following example demonstrates how to prevent the external drag and drop upl
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/upload-feature-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/upload-feature-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/upload/upload-feature-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/upload/upload-feature-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/upload-feature-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/upload/upload-feature-cs1" %}
 
 ## See also
 

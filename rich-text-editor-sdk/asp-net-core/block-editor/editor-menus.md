@@ -50,10 +50,10 @@ Below example demonstrates the customization of the Slash Command menu.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/slash-command/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/slash-command/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SlashCommand.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/slash-command/slashCommand.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/slash-command/slashCommand.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,10 +91,10 @@ Below example demonstrates the customization of the Context menu.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/context-menu/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/context-menu/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ContextMenu.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/context-menu/contextMenu.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/context-menu/contextMenu.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -135,10 +135,10 @@ Below example demonstrates the customization of the Block action menu.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/block-action/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/block-action/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="BlockAction.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/block-action/blockAction.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/block-action/blockAction.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -200,10 +200,10 @@ The following example demonstrates how to customize the transform, inline code, 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/transform-item/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/transform-item/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Transform.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/transform-item/transform.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/transform-item/transform.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -217,10 +217,10 @@ The following example demonstrates how to customize the font and background colo
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/color-item/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/color-item/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Index.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/color-item/index.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/color-item/index.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -246,9 +246,9 @@ Below example demonstrates the customization of the Inline Toolbar.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/inline-toolbar/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/inline-toolbar/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="InlineToolbar.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/editor-menus/inline-toolbar/inlineToolbar.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/editor-menus/inline-toolbar/inlineToolbar.cs %}
 {% endhighlight %}
 {% endtabs %}

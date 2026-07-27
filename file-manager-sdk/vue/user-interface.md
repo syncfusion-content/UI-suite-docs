@@ -36,14 +36,14 @@ The following example shows you the File Manager with all feature modules.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/overview-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/overview-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/overview-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/overview-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/overview-cs1" %}
 
 ## Toolbar
 

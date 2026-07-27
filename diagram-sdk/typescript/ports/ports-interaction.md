@@ -28,7 +28,7 @@ The following code explains how to draw the connector by using the port constrai
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact1" %}
 
 
 
@@ -53,7 +53,7 @@ The following code explains how to draw different connectors by using the port c
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact2" %}
 
 
 
@@ -74,7 +74,7 @@ The following code explains how to enable port drag.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact3" %}
 
 
 
@@ -97,7 +97,7 @@ The following example shows how to enable automatic port creation:
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/automaticPortCreation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/automaticPortCreation" %}
 
 
 
@@ -118,7 +118,7 @@ The following code explains how to enable port tooltip.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact4" %}
 
 
 
@@ -146,7 +146,7 @@ The following example shows how to get these events in diagram.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-interact5" %}
 
 
 

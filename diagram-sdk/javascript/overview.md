@@ -38,7 +38,7 @@ The following code illustrates how to create an overview:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-create" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-create" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -51,7 +51,7 @@ The following code illustrates how to create an overview:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-create" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-create" %}
 {% endif %}
 
 
@@ -77,7 +77,7 @@ You can interact with the overview as follows:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -90,7 +90,7 @@ You can interact with the overview as follows:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/overview-cs1" %}
 {% endif %}
 
 The following Gif image displays the interactions with overview.

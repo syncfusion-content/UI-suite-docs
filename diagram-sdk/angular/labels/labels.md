@@ -32,7 +32,7 @@ To create and add annotations to Nodes and Connectors using the Angular Diagram,
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/annotation-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/annotation-cs1" %}
 
 N> When setting an annotation's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -52,7 +52,7 @@ The annotation's [`id`](https://ej2.syncfusion.com/angular/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/run-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/run-cs1" %}
 
 ## Update annotations at runtime
 
@@ -70,7 +70,7 @@ The following code example illustrates how to change the annotation properties.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/update-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/update-cs1" %}
 
 ## Remove annotations
 
@@ -86,4 +86,4 @@ A collection of annotations can be removed from the node by using the diagram me
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/remove-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/remove-cs1" %}

@@ -59,7 +59,7 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioImport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioImport-cs1" %}
 
 ### Import options
 
@@ -130,7 +130,7 @@ The following example exports an TypeScript Diagram to a Microsoft Visio (**.vsd
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioExport-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/visioExport-cs1" %}
 
 ### Export options
 

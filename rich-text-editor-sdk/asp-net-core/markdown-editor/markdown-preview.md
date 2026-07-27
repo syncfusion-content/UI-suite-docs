@@ -20,10 +20,10 @@ To enable the Markdown preview feature, integrate the third-party [Marked](https
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/markdown-preview/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/markdown-preview/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/markdown-preview/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/markdown-preview/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ To enable the Markdown preview feature, integrate the third-party [Marked](https
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/markdown-preview/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/markdown-preview/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/markdown-preview/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/markdown-preview/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

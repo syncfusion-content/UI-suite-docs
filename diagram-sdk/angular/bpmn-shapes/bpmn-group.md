@@ -30,4 +30,4 @@ To create a BPMN group, set the [`shape`](https://ej2.syncfusion.com/angular/doc
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/group-cs1" %}

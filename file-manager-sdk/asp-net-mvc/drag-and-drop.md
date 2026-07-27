@@ -24,10 +24,10 @@ The events triggered in drag and drop support are:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/drag-and-drop/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/drag-and-drop/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/drag-and-drop/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/drag-and-drop/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ The events triggered in drag and drop support are:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/drag-and-drop/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/drag-and-drop/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/drag-and-drop/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/drag-and-drop/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

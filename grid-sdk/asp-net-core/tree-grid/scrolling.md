@@ -27,10 +27,10 @@ To specify the [`width`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/width-height/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/width-height/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Width-height.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/width-height/width-height.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/width-height/width-height.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -38,10 +38,10 @@ To specify the [`width`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/width-height/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/width-height/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Width-height.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/width-height/width-height.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/width-height/width-height.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -56,10 +56,10 @@ Specify the [`width`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/responsive/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/responsive/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Responsive.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/responsive/responsive.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/responsive/responsive.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ Specify the [`width`](https://help.syncfusion.com/cr/cref_files/aspnetcore-js2/S
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/responsive/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/responsive/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Responsive.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/responsive/responsive.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/responsive/responsive.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -87,10 +87,10 @@ The following sample demonstrates how to enable or disable the sticky header in 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/scrolling-sticky-header/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/scrolling-sticky-header/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="sticky-header.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/scrolling-sticky-header/sticky-header.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/scrolling-sticky-header/sticky-header.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ You can scroll the treegrid content to the selected row position by using the [`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/selected-row/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/selected-row/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selected-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/selected-row/selected-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/selected-row/selected-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -113,10 +113,10 @@ You can scroll the treegrid content to the selected row position by using the [`
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/selected-row/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/selected-row/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selected-row.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/scrolling/selected-row/selected-row.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/scrolling/selected-row/selected-row.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -22,10 +22,10 @@ The following code example shows how to add the format painter tool in the Rich 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/format-painter-cs1/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/format-painter-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -49,14 +49,14 @@ Below is an example illustrating how to define the `AllowedFormats` and `DeniedF
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/format-painter-cs2/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs2/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/asp-net-mvc/rich-text-editor/format-painter-cs2/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs2/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/asp-net-mvc/rich-text-editor/format-painter-cs2" %}
 
 ## Using Shortcut Keys for Copy and Paste Format
 

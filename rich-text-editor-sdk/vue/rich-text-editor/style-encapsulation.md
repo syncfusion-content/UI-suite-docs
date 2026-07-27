@@ -36,14 +36,14 @@ Below is a sample implementation of both **encapsulated** and **non-encapsulated
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/style-encapsulation/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/style-encapsulation/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/style-encapsulation/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/style-encapsulation/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/style-encapsulation" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/style-encapsulation" %}
 
 ## See also
 

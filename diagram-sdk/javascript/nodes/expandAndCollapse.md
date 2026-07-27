@@ -43,7 +43,7 @@ The following code example illustrates how to create an icon of various shapes.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs10" %}
 
 ### Appearance and alignment of icon
 
@@ -66,7 +66,7 @@ The following code example illustrates the customization of icons.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs101" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/nodes-cs101" %}
 
 ## IsExpanded
 

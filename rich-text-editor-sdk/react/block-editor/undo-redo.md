@@ -27,11 +27,11 @@ The example below sets the undo/redo history limit to `20` actions.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/undo-redo/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/undo-redo/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/undo-redo/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/undo-redo/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/undo-redo" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/undo-redo" %}

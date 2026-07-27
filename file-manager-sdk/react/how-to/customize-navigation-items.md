@@ -16,17 +16,17 @@ You may use this template to show additional metadata, custom icons, or other UI
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigation-pane-template/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/navigation-pane-template/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigation-pane-template/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/navigation-pane-template/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigation-pane-template/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/navigation-pane-template/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigation-pane-template/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/navigation-pane-template/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/navigation-pane-template" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/navigation-pane-template" %}

@@ -29,7 +29,7 @@ The following code example demonstrates how to create a mind map layout:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs1" %}
 
 
 The following table outlines the various orientation types available:
@@ -58,7 +58,7 @@ The `getBranch` method receives a node object as a parameter and should return a
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/AutomaticLayout/mindMap-cs2" %}
 
 ![Mind map layout showing branched structure with nodes arranged around a central concept](images/mindmap.png)
 

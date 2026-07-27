@@ -16,10 +16,10 @@ An organizational chart is a diagram that displays the structure of an organizat
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/customizedOrganizational/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="CustomizedOrganization.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ An organizational chart is a diagram that displays the structure of an organizat
 
 {% tabs %}
 {% highlight c# tabtitle="CustomizedOrganization.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/layout/customizedOrganizational/customizedOrganization.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

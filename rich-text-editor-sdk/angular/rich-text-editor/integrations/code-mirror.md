@@ -107,15 +107,15 @@ Below is the example integration of Code Mirror with the Angular Rich Text Edito
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/code-mirror/src/app/app.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror/src/app/app.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="app.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/code-mirror/src/app/app.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror/src/app/app.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/Integrations/code-mirror" %}
 
 ## Additional resources
 

@@ -23,16 +23,16 @@ The following example demonstrates how to render the File Manager component insi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-dialog-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/file-dialog-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-dialog-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/file-dialog-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-dialog-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/file-dialog-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/file-dialog-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/file-dialog-cs1" %}
 
 ## Adding File Manager inside a Tab
 
@@ -40,14 +40,14 @@ The following example demonstrates how to place the File Manager component insid
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-tab-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/file-tab-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-tab-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/file-tab-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/file-tab-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/file-tab-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/file-tab-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/file-tab-cs1" %}

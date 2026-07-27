@@ -32,7 +32,7 @@ The following code example demonstrates how to create a basic BPMN data source s
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/dataSource-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/dataSource-cs1" %}
 
 ## Common Use Cases
 

@@ -26,33 +26,33 @@ By default the File Manager renders in Large Icons view. The example below demon
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs2/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs2/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs2" %}
 {% endif %}
 
 ### Customize Large Icons view
@@ -63,33 +63,33 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/large-icon-view-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/large-icon-view-template" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/large-icon-view-template/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/large-icon-view-template/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/large-icon-view-template" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/large-icon-view-template" %}
 {% endif %}
 
 ## Details view
@@ -100,31 +100,31 @@ Details view is an injectable module in the File Manager control, so it should b
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.ts %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.js %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.html %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/typescript/typescript/view-cs3/index.css %}
+{% include code-snippet/file-manager-sdk/typescript/view-cs3/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/typescript/view-cs3" %}
 {% endif %}

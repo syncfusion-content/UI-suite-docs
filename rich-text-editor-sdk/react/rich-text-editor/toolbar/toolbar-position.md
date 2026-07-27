@@ -27,27 +27,27 @@ To position the toolbar at the bottom, use the [position](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/toolbar-bottom/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/toolbar-bottom/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/toolbar-bottom/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/react/rich-text-editor/toolbar-bottom/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/rich-text-editor/toolbar-bottom" %}
 
 ## See also
 

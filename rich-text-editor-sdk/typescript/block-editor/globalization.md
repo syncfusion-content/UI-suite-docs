@@ -55,27 +55,27 @@ The below example shows adding the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/localization/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/localization/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/localization/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/localization/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/localization" %}
 {% endif %}
 
 ## RTL
@@ -86,25 +86,25 @@ The Block Editor supports Right-to-Left (RTL) mode, which reverses the layout of
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/rtl/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/rtl/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/rtl/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/globalization/rtl/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/globalization/rtl" %}
 {% endif %}

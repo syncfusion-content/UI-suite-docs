@@ -25,15 +25,15 @@ To position the toolbar at the bottom, use the [position](https://ej2.syncfusion
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/toolbar/bottom-toolbar/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/toolbar/bottom-toolbar/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/toolbar/bottom-toolbar/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/toolbar/bottom-toolbar/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/toolbar/bottom-toolbar" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/toolbar/bottom-toolbar" %}
 
 ## See also
 

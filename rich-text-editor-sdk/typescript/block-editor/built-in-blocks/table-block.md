@@ -72,27 +72,27 @@ This sample demonstrates the configuration of the `Table` block in the Block Edi
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block" %}
 {% endif %}
 
 ### Table resizing
@@ -109,25 +109,25 @@ This sample demonstrates the `Table` block multiple row and column selection and
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/table-feature/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/table-feature/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/table-block/table-feature" %}
 {% endif %}

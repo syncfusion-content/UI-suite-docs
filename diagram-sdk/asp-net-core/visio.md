@@ -53,10 +53,10 @@ The following example imports a Visio (**.vsdx**) file by passing a **File** obj
 ej2-asp-core-mvc\code-snippet\diagram\visio\visioImport\visioImport.cs
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioImport/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioImport/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="visioImport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioImport/visioImport.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioImport/visioImport.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,7 +64,7 @@ ej2-asp-core-mvc\code-snippet\diagram\visio\visioImport\visioImport.cs
 
 {% tabs %}
 {% highlight c# tabtitle="visioImport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioImport/visioImport.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioImport/visioImport.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -153,10 +153,10 @@ The following example exports a Diagram to a Microsoft Visio (**.vsdx**) file us
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioExport/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="visioExport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/visioExport.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioExport/visioExport.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -164,7 +164,7 @@ The following example exports a Diagram to a Microsoft Visio (**.vsdx**) file us
 
 {% tabs %}
 {% highlight c# tabtitle="visioExport.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/visio/visioExport/visioExport.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/visio/visioExport/visioExport.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

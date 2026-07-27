@@ -25,10 +25,10 @@ If you need to enable snapping, then inject snapping module into the diagram.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snap/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snap/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snap/snap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -36,7 +36,7 @@ If you need to enable snapping, then inject snapping module into the diagram.
 
 {% tabs %}
 {% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snap/snap.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snap/snap.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ The appearance of the gridlines can be customized by using a set of predefined p
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/appear/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/appear/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,7 +70,7 @@ The appearance of the gridlines can be customized by using a set of predefined p
 
 {% tabs %}
 {% highlight c# tabtitle="Appear.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/appear/appear.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/appear/appear.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -85,10 +85,10 @@ Thickness and the space between gridlines can be customized by using horizontal 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/intervals/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/intervals/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Intervals.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/intervals/intervals.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/intervals/intervals.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -96,7 +96,7 @@ Thickness and the space between gridlines can be customized by using horizontal 
 
 {% tabs %}
 {% highlight c# tabtitle="Intervals.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/intervals/intervals.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/intervals/intervals.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -115,10 +115,10 @@ Snapping to gridlines can be enabled or disabled with the [`snapSettings.snapCon
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/lines/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/lines/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Lines.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/lines/lines.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/lines/lines.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -126,7 +126,7 @@ Snapping to gridlines can be enabled or disabled with the [`snapSettings.snapCon
 
 {% tabs %}
 {% highlight c# tabtitle="Lines.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/lines/lines.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/lines/lines.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -141,10 +141,10 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snapIntervals/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snapIntervals/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="SnapIntervals.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snapIntervals/snapIntervals.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snapIntervals/snapIntervals.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -152,7 +152,7 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 
 {% tabs %}
 {% highlight c# tabtitle="SnapIntervals.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/snapIntervals/snapIntervals.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/snapIntervals/snapIntervals.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -175,10 +175,10 @@ The [`snapLineColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/objects/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/objects/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Objects.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/objects/objects.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/objects/objects.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -186,7 +186,7 @@ The [`snapLineColor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.E
 
 {% tabs %}
 {% highlight c# tabtitle="Objects.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/gridlines/objects/objects.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/gridlines/objects/objects.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

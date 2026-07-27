@@ -14,11 +14,11 @@ Integrating a Rich Text Editor within Tab components provides a versatile and or
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/richtexteditor-inside-tab/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-tab/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/richtexteditor-inside-tab/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-tab/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-tab" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-tab" %}

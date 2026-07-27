@@ -18,10 +18,10 @@ By default, column header title is displayed from column [`field`](https://help.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/default/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/default/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -29,7 +29,7 @@ By default, column header title is displayed from column [`field`](https://help.
 
 {% tabs %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/default/default.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -47,10 +47,10 @@ You can customize the header element by using the [`headerTemplate`](https://hel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/header-template/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/header-template/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Headertemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/header-template/headertemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/header-template/headertemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -58,7 +58,7 @@ You can customize the header element by using the [`headerTemplate`](https://hel
 
 {% tabs %}
 {% highlight c# tabtitle="Headertemplate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/header-template/headertemplate.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/header-template/headertemplate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -31,7 +31,7 @@ The [`snapConstraints`](https://ej2.syncfusion.com/documentation/api/diagram/sna
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs1" %}
 
 
 
@@ -62,7 +62,7 @@ The following code example illustrates how to customize the appearance of gridli
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs2" %}
 
 
 
@@ -85,7 +85,7 @@ The following code example illustrates how to customize the thickness of lines a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs3" %}
 
 
 
@@ -108,7 +108,7 @@ The following code illustrates how to render grid patterns as Dots.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-dots" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-dots" %}
 
 
 
@@ -136,7 +136,7 @@ Snapping to gridlines can be enabled or disabled using the [`snapConstraints`](h
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs4" %}
 
 
 
@@ -159,7 +159,7 @@ The [`snapObjectDistance`](https://ej2.syncfusion.com/documentation/api/diagram/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs6" %}
 
 
 
@@ -184,7 +184,7 @@ The following code example demonstrates how to set the `snapAngle` property and 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapAngle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapAngle" %}
 
 
 
@@ -209,7 +209,7 @@ The following code example demonstrates how to set the `snapLineColor` property 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapLineColor" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-snapLineColor" %}
 
 
 
@@ -229,7 +229,7 @@ By default, the objects are snapped towards the nearest gridline. The gridline o
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/gridlines-cs5" %}
 
 
 

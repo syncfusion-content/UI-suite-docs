@@ -51,27 +51,27 @@ By default, the [indent](https://ej2.syncfusion.com/documentation/api/blockedito
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/indent/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/indent/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/indent/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/indent/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/indent" %}
 {% endif %}
 
 ## Configure CSS Class
@@ -84,69 +84,69 @@ Custom CSS classes allow you to define specialized styling for specific blocks i
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/cssClass/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/cssClass" %}
 {% endif %}
 
 ## Configure templates
 
-The Block Editor allows you to use custom templates for specialized content using the [template](https://ej2.syncfusion.com/documentation/api/blockeditor/blockmodel#template) property. Templates can be defined as strings, functions, or HTML elements.
+The Block Editor allows you to use custom templates for specialized content using the [template](https://ej2.syncfusion.com/documentation/api/blockeditor/blockModel#template) property. Templates can be defined as strings, functions, or HTML elements.
 
 {% if page.publishingplatform == "typescript" %}
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/blocks/block-types/template-block/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/blocks/block-types/template-block" %}
 {% endif %}
 

@@ -24,10 +24,10 @@ Interaction keys |Description
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copy/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copy/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Copy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copy/copy.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copy/copy.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -35,10 +35,10 @@ Interaction keys |Description
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copy/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copy/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Copy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copy/copy.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copy/copy.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -53,10 +53,10 @@ To copy selected rows or cells data into the clipboard with help of external but
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copyButtons/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copyButtons/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Copybuttons.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copyButtons/copybuttons.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copyButtons/copybuttons.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -64,10 +64,10 @@ To copy selected rows or cells data into the clipboard with help of external but
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copyButtons/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copyButtons/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Copybuttons.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/copyButtons/copybuttons.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/copyButtons/copybuttons.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -91,10 +91,10 @@ The below are the type of copy mode available in TreeGrid.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/hierarchyMode/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/hierarchyMode/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/hierarchyMode/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/hierarchyMode/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -102,10 +102,10 @@ The below are the type of copy mode available in TreeGrid.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/hierarchyMode/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/hierarchyMode/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/hierarchyMode/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/hierarchyMode/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -120,10 +120,10 @@ AutoFill Feature allows you to copy the data of selected cells and paste it to a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/autofill/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/autofill/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofill.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/autofill/autofill.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/autofill/autofill.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -131,10 +131,10 @@ AutoFill Feature allows you to copy the data of selected cells and paste it to a
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/autofill/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/autofill/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofill.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/autofill/autofill.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/autofill/autofill.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -157,10 +157,10 @@ You can able to copy the content of a cell or a group of cells by selecting the 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/paste/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/paste/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/paste/paste.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -168,10 +168,10 @@ You can able to copy the content of a cell or a group of cells by selecting the 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/paste/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/paste/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Paste.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/clipboard/paste/paste.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/clipboard/paste/paste.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

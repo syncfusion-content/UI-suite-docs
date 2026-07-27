@@ -30,7 +30,7 @@ The following code illustrates how to create a container node:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -43,7 +43,7 @@ The following code illustrates how to create a container node:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-1" %}
 
 {% endif %}
 
@@ -64,7 +64,7 @@ The following code example explains how to define a container header and its cus
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -77,7 +77,7 @@ The following code example explains how to define a container header and its cus
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/container-2" %}
 
 {% endif %}
 

@@ -50,7 +50,7 @@ The following code example illustrates how to define symbols in a palette and ho
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs1" %}
 
 ## Add connectors in symbol palette
 
@@ -66,7 +66,7 @@ The following example shows how to render connectors in the symbol palette:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-con" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-con" %}
 
 ## Add group nodes in symbol palette
 
@@ -81,7 +81,7 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-group" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-group" %}
 
 ## Template-based symbols
 
@@ -103,7 +103,7 @@ Templates can be defined either as strings or functions and assigned to the node
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-contentFnTemplate" %}
 
 ## Drag and drop symbols from palette to diagram
 
@@ -124,7 +124,7 @@ Symbols can be added to palette at runtime by using public method, `addPaletteIt
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-add" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-add" %}
 
 ## Remove symbols from palette at runtime
 
@@ -139,7 +139,7 @@ Symbols can be removed from palette at runtime by using public method, `removePa
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-remove" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-remove" %}
 
 ## Symbol defaults
 
@@ -156,7 +156,7 @@ In the following example, the fill color of node and target decorator shape of c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs7" %}
 
 ## Add palettes at runtime
 
@@ -173,7 +173,7 @@ Follow the example below to see how to add a palette at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-addPalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-addPalette" %}
 
 
 ## Remove palettes at runtime
@@ -194,7 +194,7 @@ Follow the example below to see how to remove palettes at runtime.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-removePalette" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-removePalette" %}
 
 
 ## Stretch the symbols into the palette
@@ -210,7 +210,7 @@ The [`fit`](../../api/diagram/symbolInfo#fit-boolean) property defines whether t
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/symbol-palette-cs4" %}
 
 
 ## Refresh symbol palette

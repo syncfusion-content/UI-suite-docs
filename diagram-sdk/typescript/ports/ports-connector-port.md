@@ -26,7 +26,7 @@ The following code example shows how to create connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort1" %}
 
 
 
@@ -48,7 +48,7 @@ The following code example shows how to set alignment to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort3" %}
 
 
 
@@ -71,7 +71,7 @@ The following code example shows how to set displacement to the connector port.
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-conPort2" %}
 
 
 
@@ -96,7 +96,7 @@ The following code example explains how to connect connector to the connector po
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-connect-conPort" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/ports-connect-conPort" %}
 
 
 

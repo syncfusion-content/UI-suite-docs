@@ -28,7 +28,7 @@ To create expanded subProcess, set shape as [`activity`](../../api/diagram/bpmnA
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -41,7 +41,7 @@ To create expanded subProcess, set shape as [`activity`](../../api/diagram/bpmnA
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs21" %}
 {% endif %}
 
 ### Add BPMN nodes into ExpandedSubProcess
@@ -61,7 +61,7 @@ Please refer the following code example.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -74,7 +74,7 @@ Please refer the following code example.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-cs22" %}
 {% endif %}
 
 ### Add BPMN nodes into ExpandedSubProcess at runtime
@@ -102,7 +102,7 @@ The process for the expanded sub-process can be added at runtime using the [`add
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -115,5 +115,5 @@ The process for the expanded sub-process can be added at runtime using the [`add
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/bpmnShapes-addProcess" %}
 {% endif %}

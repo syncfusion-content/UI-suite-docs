@@ -35,10 +35,10 @@ In the following example, the `minLength` is set to 3, so the suggestion list wi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-min-length/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-min-length/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-min-length/EmployeeData.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-min-length/EmployeeData.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -52,10 +52,10 @@ In the example below, the `suggestionCount` is set to 5, so only 5 items will be
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-suggestion-count/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-suggestion-count/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-suggestion-count/EmployeeData.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-suggestion-count/EmployeeData.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,10 +94,10 @@ In the following sample, we configured the following properties:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-integration/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-integration/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/mention-integration/EmployeeData.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/mention-integration/EmployeeData.cs %}
 {% endhighlight %}
 {% endtabs %}
 

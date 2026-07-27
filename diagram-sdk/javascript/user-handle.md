@@ -30,7 +30,7 @@ The following example shows how to render user handle.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -43,7 +43,7 @@ The following example shows how to render user handle.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs1" %}
 {% endif %}
 
 ## Customize User handle click
@@ -61,7 +61,7 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](../api/diagram#on
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -74,7 +74,7 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](../api/diagram#on
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs2" %}
 {% endif %}
 
 ## Alignment
@@ -112,7 +112,7 @@ In the following example, the user handle is aligned to the bottom-right corner 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -125,7 +125,7 @@ In the following example, the user handle is aligned to the bottom-right corner 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs3" %}
 {% endif %}
 
 The following table shows all the possible alignments of user handle around the node.
@@ -156,7 +156,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -169,7 +169,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs4" %}
 {% endif %}
 
 You can also customize other properties of the tooltip, such as [`position`](../api/diagram/diagramTooltipModel#position), [`width`](../api/diagram/diagramTooltipModel#width), [`height`](../api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tool-tip) section.
@@ -192,7 +192,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -205,7 +205,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs5" %}
 {% endif %}
 
 ## Multiple user handle
@@ -230,7 +230,7 @@ In the example below, multiple user handles are utilized for various functionali
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -243,7 +243,7 @@ In the example below, multiple user handles are utilized for various functionali
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs6" %}
 {% endif %}
 
 ## Different types of user handle
@@ -277,7 +277,7 @@ The below example code demonstrating different types of user handles.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -290,7 +290,7 @@ The below example code demonstrating different types of user handles.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs7" %}
 {% endif %}
 
 ## User handle events
@@ -317,7 +317,7 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -330,7 +330,7 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/userhandle-cs8" %}
 {% endif %}
 
 ## Fixed user handles
@@ -354,7 +354,7 @@ The following code example demonstrates how to create fixed user handles for nod
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -367,7 +367,7 @@ The following code example demonstrates how to create fixed user handles for nod
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs1" %}
 {% endif %}
 
  N> The fixed user handle id need to be unique.
@@ -402,7 +402,7 @@ The following example demonstrates how to align fixed user handle for both node 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -415,7 +415,7 @@ The following example demonstrates how to align fixed user handle for both node 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs2" %}
 {% endif %}
 
 The following table shows all the possible alignments of fixed user handle around the node.
@@ -487,7 +487,7 @@ The following code explains how to customize the alignment of connector fixed us
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -500,7 +500,7 @@ The following code explains how to customize the alignment of connector fixed us
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs9" %}
 {% endif %}
 
 
@@ -519,7 +519,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -532,7 +532,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs3" %}
 {% endif %}
 
 You can also customize other properties of the tooltip, such as [`position`](../api/diagram/diagramTooltipModel#position), [`width`](../api/diagram/diagramTooltipModel#width), [`height`](../api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tool-tip) section.
@@ -568,7 +568,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -581,7 +581,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs4" %}
 {% endif %}
 
 #### Customizing Fixed User Handles with HTML Templates
@@ -599,7 +599,7 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -612,7 +612,7 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs6" %}
 {% endif %}
 
 
@@ -641,7 +641,7 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -654,5 +654,5 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/fixeduserhandle-cs5" %}
 {% endif %}

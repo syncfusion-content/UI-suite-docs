@@ -25,7 +25,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5Phase-cs1" %}
 
 ### Dynamically Add and Remove Phases from Lanes
 
@@ -42,7 +42,7 @@ The following code example illustrates how to add and remove phases at runtime.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs3" %}
 
 ### Customizing Phase Appearance and Properties
 
@@ -64,7 +64,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs4" %}
 
 #### Dynamic Customization of Phases
 
@@ -81,7 +81,7 @@ The following code example illustrates how to customize the phase at runtime.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/swimlane/es5PhaseCustomize-cs5" %}
 
 ### Phase Interaction Capabilities
 

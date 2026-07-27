@@ -28,7 +28,7 @@ Connectors can be selected programmatically at runtime using the `select` method
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorSelect-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorSelect-cs1" %}
 
 ## Drag connector
 
@@ -48,7 +48,7 @@ A connector can be dragged programmatically at runtime using the `drag` method. 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorDrag-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorDrag-cs1" %}
 
 ## Endpoint dragging
 
@@ -70,7 +70,7 @@ The following code example demonstrates how to drag connector end points at runt
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorEndPointDrag-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorEndPointDrag-cs1" %}
 
 ## Segment editing
 
@@ -107,6 +107,6 @@ The available flip types are:
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecorator-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecorator-cs2" %}
 
 >Note: The flip operation is not applicable when connectors are connected to nodes.

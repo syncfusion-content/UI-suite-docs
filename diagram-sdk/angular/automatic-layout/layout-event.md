@@ -57,7 +57,7 @@ The event provides information about the affected node, its current state, and w
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs1" %}
 
 ## Animation complete event
 
@@ -75,7 +75,7 @@ The event fires at the end of the animation cycle, ensuring that all visual upda
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/automaticlayout/layoutEvent-cs2" %}
 
 ## Layout updated event
 

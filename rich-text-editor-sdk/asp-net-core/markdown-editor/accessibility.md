@@ -63,10 +63,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/getting-started-cs1/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/getting-started-cs1/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/getting-started-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/getting-started-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,10 +74,10 @@ For more details on Toolbar ARIA attributes, refer to the [`Accessibility of Too
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/getting-started-cs1/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/getting-started-cs1/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/asp-net-core/markdown-editor/getting-started-cs1/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/markdown-editor/getting-started-cs1/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

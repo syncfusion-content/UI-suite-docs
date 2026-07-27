@@ -127,7 +127,7 @@ The [`canToggleSelection`](https://ej2.syncfusion.com/react/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs1" %}
 
 ## Select entire elements in diagram programmatically
 
@@ -214,7 +214,7 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs2" %}
 
 ## Customize the resize-thumb size
 
@@ -229,7 +229,7 @@ You can change the size of the node resize thumb and the connector end point han
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/interaction-cs3" %}
 
 The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
@@ -254,7 +254,7 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/es5Node-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/es5Node-cs4" %}
 
 ![Node interaction](./images/node-interactions.gif)
 

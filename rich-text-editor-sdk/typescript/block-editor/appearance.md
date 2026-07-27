@@ -58,31 +58,31 @@ The following example demonstrates the usage of `readOnly` and `cssClass` proper
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/appearance/index.css %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/appearance" %}
 {% endif %}

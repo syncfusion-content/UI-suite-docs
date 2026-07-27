@@ -46,7 +46,7 @@ The following code example illustrates how to define symbols in a palette and ho
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palettes-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palettes-cs1" %}
 
 ## Add connectors in symbol palette
 
@@ -63,7 +63,7 @@ The following example shows how to render connectors in the symbol palette:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-con" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-con" %}
 
 ## Add group nodes in symbol palette
 
@@ -79,7 +79,7 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-grp" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-grp" %}
 
 ## Template-based symbols
 
@@ -102,7 +102,7 @@ Templates can be defined either as strings or functions and assigned to the node
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/content-template" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/content-template" %}
 
 ## Drag and drop symbols from palette to diagram
 
@@ -128,7 +128,7 @@ In the following example, the fill color of the node and target decorator shape 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/default-cs1" %}
 
 ## Runtime palette operations
 
@@ -146,7 +146,7 @@ Symbols can be added to the palette at runtime using the public method [`addPale
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/symbol-add" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/symbol-add" %}
 
 ### Remove symbols from palette at runtime
 
@@ -162,7 +162,7 @@ Symbols can be removed from the palette at runtime using the public method [`rem
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/symbol-rmv" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/symbol-rmv" %}
 
 ## Symbol defaults
 
@@ -181,7 +181,7 @@ In the following example, the fill color of node and target decorator shape of c
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/default-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/default-cs1" %}
 
 ### Add palettes at runtime
 
@@ -198,7 +198,7 @@ Follow the example below to see how to add a palette at runtime:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-add" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-add" %}
 
 ## Remove palettes at runtime
 
@@ -219,7 +219,7 @@ Follow the example below to see how to remove palettes at runtime.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-rmv" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/palette-rmv" %}
 
 ## Stretch the symbols into the palette
 
@@ -235,7 +235,7 @@ The [`fit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/symbolI
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/fit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/symbolpalette/palettes/fit-cs1" %}
 
 ## Refresh symbol palette
 

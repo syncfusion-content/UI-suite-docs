@@ -27,7 +27,7 @@ The [`length`](https://helpej2.syncfusion.com/react/documentation/api/diagram/or
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoSegments-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoSegments-cs1" %}
 
 N> You need to mention the segment type as same as what you mentioned in connector type. There should be no contradiction between connector type and segment type.
 
@@ -46,7 +46,7 @@ N> You need to mention the segment type as same as what you mentioned in connect
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrtho-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrtho-cs1" %}
 
 ![Orthogonal Segment edit Gif](images/orthoSegEdit.gif)
 
@@ -63,7 +63,7 @@ Orthogonal segments automatically reroute themselves to avoid overlapping with t
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOverlapping-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOverlapping-cs1" %}
 
 ## How to Customize Orthogonal Segment Thumb Shape
 
@@ -95,7 +95,7 @@ You can also customize the style of the thumb shape by overriding the `e-orthogo
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsThumbshape-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsThumbshape-cs1" %}
 
 ![Segment Thumb Shape](images/thumbshape.png)
 
@@ -130,4 +130,4 @@ To customize the thumb size for a specific connector, you must first disable its
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoThumbSize-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5ConnectorsOrthoThumbSize-cs1" %}

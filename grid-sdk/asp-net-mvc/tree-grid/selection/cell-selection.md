@@ -21,10 +21,10 @@ The treegrid supports two types of cell selection mode that can be set by using 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/cell-selection/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/cell-selection/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/cell-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/cell-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ The treegrid supports two types of cell selection mode that can be set by using 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/cell-selection/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/cell-selection/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Cell-selection.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/selection/cell-selection/cell-selection.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/selection/cell-selection/cell-selection.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

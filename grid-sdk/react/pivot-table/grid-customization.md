@@ -20,14 +20,14 @@ To set the `width` and `height`, you can provide the pixel values either in numb
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs113/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs113/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs113/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs113/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs113" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs113" %}
 
 ## Grid Settings
 
@@ -43,14 +43,14 @@ In the below example, the `rowHeight` is set as '60px'.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs114/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs114/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs114/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs114/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs114" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs114" %}
 
 ### Column Width
 
@@ -60,14 +60,14 @@ In the below example, the `columnWidth` is set as '120px'.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs115/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs115/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs115/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs115/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs115" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs115" %}
 
 ### Reorder
 
@@ -75,14 +75,14 @@ Reordering can be done by simple drag and drop of a particular column header fro
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs116/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs116/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs116/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs116/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs116" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs116" %}
 
 ### Column Resizing
 
@@ -92,14 +92,14 @@ Column width can be resized by clicking and dragging the right edge of the colum
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs117/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs117/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs117/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs117/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs117" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs117" %}
 
 > In RTL mode, you can click and drag the left edge of the header cell to resize the column.
 
@@ -109,14 +109,14 @@ The text wrap allows to wrap the cell content to the next line when it exceeds t
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs118/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs118/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs118/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs118/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs118" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs118" %}
 
 ## Grid Lines
 
@@ -136,14 +136,14 @@ Available modes of grid lines are:
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs119/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs119/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs119/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs119/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs119" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs119" %}
 
 ### Selection
 
@@ -156,14 +156,14 @@ The pivot table supports two types of selection that can be set using `selection
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs120/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs120/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs120/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs120/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs120" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs120" %}
 
 #### Selection Mode
 
@@ -176,14 +176,14 @@ The pivot table supports four types of selection mode that can be set using `sel
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs121/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs121/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs121/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs121/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs121" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs121" %}
 
 #### Cell Selection
 
@@ -196,14 +196,14 @@ The pivot table supports two types of cell selection mode that can be set using 
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs122/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs122/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs122/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs122/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs122" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs122" %}
 
 > Cell selection requires `selectionSettings.mode` property to be `Cell` or `Both`, and `selectionSettings.type` property should be `Multiple`.
 
@@ -219,14 +219,14 @@ The clip mode provides options to display its overflow cell content in the pivot
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs123/app/App.jsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs123/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/grid-sdk/react/pivot-table/react/pivot-table/react/pivot-table/default-cs123/app/App.tsx %}
+{% include code-snippet/grid-sdk/react/pivot-table/default-cs123/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs123" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/react/pivot-table/default-cs123" %}
 
 ## See Also
 

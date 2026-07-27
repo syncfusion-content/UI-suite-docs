@@ -36,7 +36,7 @@ To draw a shape, set the JSON of that shape to the [`drawingObject`](../api/diag
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs1" %}
 
 The following code example illustrates how to draw a path shape.
 
@@ -49,7 +49,7 @@ The following code example illustrates how to draw a path shape.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs2" %}
 
 ### Text Nodes
 
@@ -64,7 +64,7 @@ Similarly, you can draw a text node by setting the type of shape as **Text** in 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs4" %}
 
 ### Draw Connectors
 
@@ -79,7 +79,7 @@ To draw connector, set the JSON of that connector to the [`drawingObject`](../ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs3" %}
 
 
 ### Polygon shape
@@ -99,7 +99,7 @@ The following code illustrates how to draw a polygon shape at runtime:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs5" %}
 
 ![Polygon drawing](images/polygon-drawing.gif)
 
@@ -120,7 +120,7 @@ The following code illustrates how to draw a Polyline connector at runtime:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs6" %}
 
 The segments of a polyline connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
 
@@ -143,7 +143,7 @@ The following code illustrates how to perform freehand drawing:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs9" %}
 
 The segments of a freehand connector can be adjusted at runtime by dragging the segment thumb, as shown in the image below. To enable segment editing, you should set the [`DragSegmentThumb`](../api/diagram/connectorConstraints) constraint for the connector.
 
@@ -183,7 +183,7 @@ To activate panning mode set the [`tool`](../api/diagram#tool) property of the d
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs7" %}
 
 N> Please note that panning the diagram is not possible when `multiplePage` is set to **false** if any diagram object (node or connector) is outside the defined page break area.
 
@@ -200,5 +200,5 @@ The [`elementDraw`](../api/diagram/iElementDrawEventArgs) event is triggered whe
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/Tools-cs8" %}
 

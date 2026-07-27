@@ -36,7 +36,7 @@ The following code shows how to set offset, height and width for the annotation.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs5" %}
 
 ### Update annotation offset at runtime
 
@@ -51,7 +51,7 @@ The annotation offset can be updated dynamically at runtime. To update the annot
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-offsetUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-offsetUpdate" %}
 
 N> Call [`dataBind()`](https://ej2.syncfusion.com/documentation/api/diagram#databind) after property change to reflect the changes instantly.
 
@@ -85,7 +85,7 @@ The following codes illustrates how to align annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-cs6" %}
 
 
 The following tables illustrates all the possible alignments visually with **offset (0, 0)**.
@@ -116,4 +116,4 @@ Annotation alignment can be updated dynamically at runtime. The following code e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-alignUpdate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/typescript/annotations-alignUpdate" %}

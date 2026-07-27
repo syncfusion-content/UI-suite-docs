@@ -21,10 +21,10 @@ The excel export provides an option to export hidden columns of treegrid by defi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/hidden-column/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/hidden-column/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hidden-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/hidden-column/hidden-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/hidden-column/hidden-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ The excel export provides an option to export hidden columns of treegrid by defi
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/hidden-column/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/hidden-column/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hidden-column.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/hidden-column/hidden-column.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/hidden-column/hidden-column.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -56,10 +56,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/show-hide/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/show-hide/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -67,10 +67,10 @@ In the below example, we have **Duration** as a hidden column in the treegrid. W
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/show-hide/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/show-hide/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Show-hide.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/show-hide/show-hide.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/show-hide/show-hide.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -84,10 +84,10 @@ You can assign the file name for the exported document by defining [`fileName`](
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/file-name/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/file-name/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-name.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/file-name/file-name.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/file-name/file-name.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -95,10 +95,10 @@ You can assign the file name for the exported document by defining [`fileName`](
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/file-name/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/file-name/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="File-name.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/file-name/file-name.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/file-name/file-name.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

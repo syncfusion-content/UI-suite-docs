@@ -48,27 +48,27 @@ In the below example, a set of prompts and texts are configured to demonstrate t
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/commands/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/commands/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/commands/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/commands/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/commands" %}
 {% endif %}
 
 ## Preloading Prompts, Response and Suggestions
@@ -83,27 +83,27 @@ In the below sample, the `prompts` and `suggestions` properties of the `aiAssist
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompts/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompts/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompts/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompts/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompts" %}
 {% endif %}
 
 ## Header, Prompt and Response Toolbar
@@ -136,27 +136,27 @@ In the below sample, the toolbar settings are configured to modify the order and
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/toolbar-settings" %}
 {% endif %}
 
 ## Popup Dimensions
@@ -171,27 +171,27 @@ In the below sample, the popup width and maximum height are configured.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/popup-dimensions" %}
 {% endif %}
 
 ## Setting Maximum Conversation History Length
@@ -206,27 +206,27 @@ In the below sample, the maximum prompt history is configured to `30`, and when 
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompt-history/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompt-history/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompt-history/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/prompt-history/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/prompt-history" %}
 {% endif %}
 
 ## Setting the Banner
@@ -240,25 +240,25 @@ In the below sample, a custom banner template is applied to the AI Assistant.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/banner/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/banner/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/banner/index.js %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/javascript/rich-text-editor/ai-assistant/banner/index.html %}
+{% include code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/javascript/rich-text-editor/ai-assistant/banner" %}
 {% endif %}

@@ -35,7 +35,7 @@ The following code illustrates, how to set offset for the connector.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Offset-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Offset-cs1" %}
 
 The following image shows the position of the annotation with respect to different offsets.
 
@@ -56,7 +56,7 @@ The following code example illustrates how to align connector annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Segment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Segment-cs1" %}
 
 ## Displacement of annotation
 
@@ -71,7 +71,7 @@ The following code example illustrates how to align connector annotations.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Displacement-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/Displacement-cs1" %}
 
 N> Displacement is only applicable when we use alignment as `After` or `Before`.
 
@@ -88,7 +88,7 @@ The [`segmentAngle`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pa
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/SegmentAngle-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/SegmentAngle-cs1" %}
 
 |Segment angle|Output|
 |-----|-----|

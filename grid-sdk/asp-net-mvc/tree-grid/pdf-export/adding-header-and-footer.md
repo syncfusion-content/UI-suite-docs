@@ -128,10 +128,10 @@ The below code illustrates the pdf export customization.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/insert-image/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/insert-image/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Insert-image.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/insert-image/insert-image.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/insert-image/insert-image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -139,10 +139,10 @@ The below code illustrates the pdf export customization.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/insert-image/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/insert-image/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Insert-image.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/insert-image/insert-image.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/insert-image/insert-image.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

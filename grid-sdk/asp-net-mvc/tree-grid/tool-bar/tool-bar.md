@@ -23,10 +23,10 @@ You can enable/disable toolbar items by using the **enableItems** method.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toolbar-enable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,10 +34,10 @@ You can enable/disable toolbar items by using the **enableItems** method.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Toolbar-enable.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/toolbar/toolbar-enable/toolbar-enable.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

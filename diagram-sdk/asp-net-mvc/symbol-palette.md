@@ -21,10 +21,10 @@ The [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagr
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/palette/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/palette.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/palette/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,7 +32,7 @@ The [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagr
 
 {% tabs %}
 {% highlight c# tabtitle="Palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/palette/palette.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/palette/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -49,10 +49,10 @@ To initialize a palette, define a JSON object with the property [`ID`](https://h
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -60,7 +60,7 @@ To initialize a palette, define a JSON object with the property [`ID`](https://h
 
 {% tabs %}
 {% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -80,10 +80,10 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/contentTemplate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -91,7 +91,7 @@ Templates can be defined either as strings or functions and assigned to the node
 
 {% tabs %}
 {% highlight c# tabtitle="palette.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/contentTemplate/palette.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -116,10 +116,10 @@ Also, any HTML element into a palette header can be embedded by defining the `ge
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -127,7 +127,7 @@ Also, any HTML element into a palette header can be embedded by defining the `ge
 
 {% tabs %}
 {% highlight c# tabtitle="Symbols.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symbols/symbols.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -169,10 +169,10 @@ The symbol palette panel can be restricted from getting expanded. The `cancel` a
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/restrict/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Restrict.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -180,7 +180,7 @@ The symbol palette panel can be restricted from getting expanded. The `cancel` a
 
 {% tabs %}
 {% highlight c# tabtitle="Restrict.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/restrict/restrict.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -209,10 +209,10 @@ The [`fit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagram
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/fit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Fit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/fit.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/fit/fit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -220,7 +220,7 @@ The [`fit`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Diagram
 
 {% tabs %}
 {% highlight c# tabtitle="Fit.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/fit/fit.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/fit/fit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -249,10 +249,10 @@ The size of the individual symbol can be customized. The [`symbolWidth`](https:/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/margin/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/margin.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/margin/margin.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -260,7 +260,7 @@ The size of the individual symbol can be customized. The [`symbolWidth`](https:/
 
 {% tabs %}
 {% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/margin/margin.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/margin/margin.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -277,10 +277,10 @@ The symbol preview size of the palette items can be customized using [`symbolPre
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/preview/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Preview.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/preview.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/preview/preview.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -288,7 +288,7 @@ The symbol preview size of the palette items can be customized using [`symbolPre
 
 {% tabs %}
 {% highlight c# tabtitle="Preview.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/preview/preview.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/preview/preview.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -303,10 +303,10 @@ While adding more number of symbols such as nodes and connectors to the palette,
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/default/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -314,10 +314,10 @@ While adding more number of symbols such as nodes and connectors to the palette,
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/razor %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/default/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Default.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/default/default.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/default/default.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -356,10 +356,10 @@ The diagram provides support to add symbol description below each symbol of a pa
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/description/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/description/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -367,7 +367,7 @@ The diagram provides support to add symbol description below each symbol of a pa
 
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/description/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/description/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -422,10 +422,10 @@ Here, the code provided below demonstrates how to define tooltip content to symb
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symboltooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -433,7 +433,7 @@ Here, the code provided below demonstrates how to define tooltip content to symb
 
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/symboltooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -449,10 +449,10 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/defaulttooltip/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -460,7 +460,7 @@ The following example demonstrates how to configure selective tooltip display:
 
 {% tabs %}
 {% highlight c# tabtitle="Description.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-mvc/asp-net-mvc/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
+{% include code-snippet/diagram-sdk/asp-net-mvc/symbol-palette/defaulttooltip/description.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

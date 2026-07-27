@@ -29,7 +29,7 @@ The following code example illustrates how to create an MindMap layout.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs1" %}
 
 
 The following table outlines the various orientation types available:
@@ -55,6 +55,6 @@ You can also decide the branch for mind map using [`getBranch`](https://ej2.sync
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/mindmap-cs2" %}
 
 ![Mind map layout](../images/mindmap.png)

@@ -26,7 +26,7 @@ The following example demonstrates how to create a connector with multiple segme
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/es5multipleSegment-cs1" %}
 
 ## Undo/Redo support for connector segments
 
@@ -53,4 +53,4 @@ The following example demonstrates undo and redo functionality for connector seg
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/connectors-segundo" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/connectors/connectors-segundo" %}

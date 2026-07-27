@@ -17,10 +17,10 @@ The excel export allows exporting TreeGrid data to Excel document. You need to u
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/export/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/export/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/export/export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ The excel export allows exporting TreeGrid data to Excel document. You need to u
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/export/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/export/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/export/export.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/export/export.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -46,10 +46,10 @@ You can persist the collapsed state in the exported document by defining `isColl
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/is-collapsed/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/is-collapsed/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Is-collapsed.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/is-collapsed/is-collapsed.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/is-collapsed/is-collapsed.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -57,10 +57,10 @@ You can persist the collapsed state in the exported document by defining `isColl
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/is-collapsed/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/is-collapsed/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Is-collapsed.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/is-collapsed/is-collapsed.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/is-collapsed/is-collapsed.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -73,10 +73,10 @@ In the provided example, the `CustomAggregateFn` function computes the item coun
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/custom-aggregate-excel/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/custom-aggregate-excel/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="empty-record-template.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/excel-export/custom-aggregate-excel/custom-aggregate-excel.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/excel-export/custom-aggregate-excel/custom-aggregate-excel.cs %}
 {% endhighlight %}
 {% endtabs %}
 

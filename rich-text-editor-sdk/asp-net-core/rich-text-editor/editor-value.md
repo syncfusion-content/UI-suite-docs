@@ -30,10 +30,10 @@ The below sample demonstrates the `placeholder` option in Rich Text Editor.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/placeholder/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/placeholder/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/placeholder/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/placeholder/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -41,10 +41,10 @@ The below sample demonstrates the `placeholder` option in Rich Text Editor.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/placeholder/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/placeholder/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/placeholder/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/placeholder/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -69,10 +69,10 @@ To get the content from the Rich Text Editor, use the following approaches:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/retrieve-value/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/retrieve-value/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/retrieve-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/retrieve-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -80,10 +80,10 @@ To get the content from the Rich Text Editor, use the following approaches:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/retrieve-value/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/retrieve-value/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/retrieve-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/retrieve-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -94,10 +94,10 @@ To get the content from the Rich Text Editor, use the following approaches:
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/change-retrieve-value/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/change-retrieve-value/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/change-retrieve-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/change-retrieve-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -105,10 +105,10 @@ To get the content from the Rich Text Editor, use the following approaches:
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/change-retrieve-value/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/change-retrieve-value/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/change-retrieve-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/change-retrieve-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -123,10 +123,10 @@ The change event will be triggered if the content has been modified since the la
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save-interval/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save-interval/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save-interval/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save-interval/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -134,10 +134,10 @@ The change event will be triggered if the content has been modified since the la
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save-interval/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save-interval/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/save-interval/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/save-interval/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -166,10 +166,10 @@ The [enableHtmlEncode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/encoded-editor-value/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/encoded-editor-value/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/encoded-editor-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/encoded-editor-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -177,10 +177,10 @@ The [enableHtmlEncode](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/encoded-editor-value/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/encoded-editor-value/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/encoded-editor-value/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/encoded-editor-value/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -435,10 +435,10 @@ The character count color will be modified based on the characters in the Rich T
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/character-count/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/character-count/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/character-count/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/character-count/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -446,10 +446,10 @@ The character count color will be modified based on the characters in the Rich T
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/character-count/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/character-count/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/character-count/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/character-count/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -484,10 +484,10 @@ This sample used [`Code mirror`](https://codemirror.net/) plugin helps to highli
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -495,10 +495,10 @@ This sample used [`Code mirror`](https://codemirror.net/) plugin helps to highli
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Controller.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/rich-text-editor/code-mirror/controller.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

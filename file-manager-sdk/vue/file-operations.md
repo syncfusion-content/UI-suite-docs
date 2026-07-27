@@ -41,14 +41,14 @@ In the following example, directory upload is enabled/disabled on DropDownButton
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/directory-upload-cs1/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/directory-upload-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/directory-upload-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/directory-upload-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/directory-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/directory-upload-cs1" %}
 
 ### Physical file service provider
 
@@ -1131,12 +1131,12 @@ To perform the image preview support in the [Vue File Manager](https://www.syncf
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/getting-started-cs2/app-composition.vue %}
+{% include code-snippet/file-manager-sdk/vue/getting-started-cs2/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/file-manager-sdk/vue/vue/getting-started-cs2/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/getting-started-cs2/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs2" %}
 

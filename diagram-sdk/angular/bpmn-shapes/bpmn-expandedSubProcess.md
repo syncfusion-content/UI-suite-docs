@@ -30,7 +30,7 @@ To create an expanded subprocess, configure the shape as [`activity`](https://he
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expanded-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expanded-cs1" %}
 
 ### Add BPMN Nodes into Expanded SubProcess
 
@@ -48,7 +48,7 @@ The following code example demonstrates how to define child processes within an 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expandedSub-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/expandedSub-cs1" %}
 
 ### Add BPMN Nodes into Expanded SubProcess at Runtime
 
@@ -74,4 +74,4 @@ The following example demonstrates how to implement dynamic process addition and
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/addRemove-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/addRemove-cs1" %}

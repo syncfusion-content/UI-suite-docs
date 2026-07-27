@@ -25,7 +25,7 @@ To arrange the nodes in a hierarchical structure, specify the layout [`type`](ht
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/hierarchicallayout-cs-1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/hierarchicallayout-cs-1" %}
 
 N> If you want to use hierarchical tree layout in diagram, you need to inject HierarchicalTree in the diagram.
 
@@ -42,7 +42,7 @@ You can create a hierarchical layout with data Source. The following code demons
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/hierarchicallayout-cs-2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/automatic-layout/hierarchicallayout-cs-2" %}
 
 N> If you want to convert the data source into layout, you need to inject DataBinding along with HierarchicalTree module in the diagram.
 

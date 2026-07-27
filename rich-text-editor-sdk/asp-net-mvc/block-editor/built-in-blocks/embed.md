@@ -136,10 +136,10 @@ The below sample demonstrates the configuration of image block in the Block Edit
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-block/image.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-block/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -157,10 +157,10 @@ Set the `ImageBlockSettings.saveFormat` property to determine whether the image 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-server/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-server/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-server/image.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-server/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -172,10 +172,10 @@ You can add additional data with the image uploaded from the Block Editor on the
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-authentication/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-authentication/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Image.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-authentication/image.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/image-upload-authentication/image.cs %}
 {% endhighlight %}
 {% endtabs %}
 

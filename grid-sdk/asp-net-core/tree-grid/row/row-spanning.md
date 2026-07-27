@@ -16,10 +16,10 @@ In the following demo, the "Lunch Break" cell spans multiple rows in the "1:00 P
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-span/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-span/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Span.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-span/row-spanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-span/row-spanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ In the following example, row spanning is applied to the "Status", "Permit Statu
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-spanning/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-spanning/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Span.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/row/row-spanning/row-spanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/row/row-spanning/row-spanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 

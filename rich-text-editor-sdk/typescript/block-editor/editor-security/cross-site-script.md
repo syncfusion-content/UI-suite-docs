@@ -22,25 +22,25 @@ The following example shows XSS prevention removing a `<script>` tag and `onmous
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/enable-html-sanitizer/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/enable-html-sanitizer/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/enable-html-sanitizer/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/typescript/block-editor/enable-html-sanitizer/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/block-editor/enable-html-sanitizer" %}
 {% endif %}

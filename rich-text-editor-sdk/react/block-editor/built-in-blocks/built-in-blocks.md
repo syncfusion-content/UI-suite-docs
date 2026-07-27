@@ -48,14 +48,14 @@ By default, the [indent](https://ej2.syncfusion.com/react/documentation/api/bloc
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/indent/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/indent/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/indent/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/indent/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/indent" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/indent" %}
 
 ## Configure CSS Class
 
@@ -65,17 +65,17 @@ Custom CSS classes allow you to define specialized styling for specific blocks i
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/cssClass/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/cssClass/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass/app/index.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/cssClass/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass/styles.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/cssClass" %}
 
 ## Configure templates
 
@@ -83,14 +83,14 @@ The Block Editor allows you to use custom templates for specialized content usin
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/template-block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/template-block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block/app/index.tsx %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/block-types/template-block/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block/styles.css %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/block-types/template-block" %}

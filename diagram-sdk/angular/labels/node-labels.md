@@ -41,7 +41,7 @@ The following example demonstrates how to configure offset, width, and height fo
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs1" %}
 
 ### Update annotation offset at runtime
 
@@ -57,7 +57,7 @@ Annotation offset values can be modified dynamically during application executio
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs1" %}
 
 N> Call `dataBind()` after property changes to reflect updates instantly.
 
@@ -95,7 +95,7 @@ The following example shows how to configure annotation alignment properties:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-cs2" %}
 
 ### Alignment combinations
 
@@ -127,4 +127,4 @@ Annotation alignment properties can be modified dynamically during application e
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/labels/offset-run-cs2" %}

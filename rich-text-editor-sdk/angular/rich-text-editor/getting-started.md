@@ -114,11 +114,11 @@ Modify the template in the `src/app/app.ts` file to render the Rich Text Editor 
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started/basic-editor/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started/basic-editor/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/getting-started-cs1/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/getting-started-cs1/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
 

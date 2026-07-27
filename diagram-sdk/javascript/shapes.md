@@ -38,7 +38,7 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documen
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -51,7 +51,7 @@ Texts can be added to the diagram as [`text`](https://ej2.syncfusion.com/documen
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs1" %}
 {% endif %}
 
 ## Image
@@ -71,7 +71,7 @@ The following code illustrates how an image node is created.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -84,7 +84,7 @@ The following code illustrates how an image node is created.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs2" %}
 {% endif %}
 
 ### Base64 Encoded Image Into The Image Node:
@@ -102,7 +102,7 @@ The following code illustrates how to add Base64 image into image node.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs3" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -115,7 +115,7 @@ The following code illustrates how to add Base64 image into image node.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs3" %}
 {% endif %}
 
 N> Deploy your HTML file in the web application and export the diagram (image node) or else the image node will not be exported in the Chrome and Firefox due to security issues. Refer to the following link.
@@ -143,7 +143,7 @@ The following code illustrates how to use scale and align properties to stretch 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs4" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -156,7 +156,7 @@ The following code illustrates how to use scale and align properties to stretch 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs4" %}
 {% endif %}
 
 The following table illustrates all the possible scale options for the image node.
@@ -191,7 +191,7 @@ To render an HTML node with a content template, we need to define the desired te
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs5" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -204,7 +204,7 @@ To render an HTML node with a content template, we need to define the desired te
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs5" %}
 {% endif %}
 
 #### Functional content template.
@@ -224,7 +224,7 @@ The following code illustrates how to render an HTML node using the function and
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-contentFnTemplate" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -237,7 +237,7 @@ The following code illustrates how to render an HTML node using the function and
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-contentFnTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-contentFnTemplate" %}
 {% endif %}
 
 ### HTML Node With nodeTemplate
@@ -255,7 +255,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs6" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -268,7 +268,7 @@ To render html node with nodeTemplate we need to define the nodeTemplate in the 
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs6" %}
 {% endif %}
 
 #### Functional nodeTemplate
@@ -288,7 +288,7 @@ Refer the code example below.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-fnNodeTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-fnNodeTemplate" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -301,7 +301,7 @@ Refer the code example below.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-fnNodeTemplate" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-fnNodeTemplate" %}
 {% endif %}
 
 ## Native
@@ -319,7 +319,7 @@ Diagram provides support to embed SVG element into a node. The shape property of
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs7" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -332,7 +332,7 @@ Diagram provides support to embed SVG element into a node. The shape property of
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs7" %}
 {% endif %}
 
 N> Like HTML node, the native node also cannot be exported to image format. Fill color of native node can be overridden by the inline style or fill of the SVG element specified in the template.
@@ -371,7 +371,7 @@ The following code example illustrates how to create a basic shape.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs8" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -384,7 +384,7 @@ The following code example illustrates how to create a basic shape.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs8" %}
 {% endif %}
 
 N> By default, the `shape` property of the node is set as **basic**.
@@ -414,7 +414,7 @@ To create a path node, specify the shape as Path. The [`data`](../api/diagram/pa
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs9" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -427,7 +427,7 @@ To create a path node, specify the shape as Path. The [`data`](../api/diagram/pa
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs9" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs9" %}
 {% endif %}
 
 ## Flow Shapes
@@ -445,7 +445,7 @@ The [`flow`](../api/diagram/node#shape) shapes are used to represent the process
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs10" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -458,7 +458,7 @@ The [`flow`](../api/diagram/node#shape) shapes are used to represent the process
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs10" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/shapes-cs10" %}
 {% endif %}
 
 The list of flow shapes are as follows.
