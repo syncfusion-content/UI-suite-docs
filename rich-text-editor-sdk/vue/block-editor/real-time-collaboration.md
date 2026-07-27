@@ -223,7 +223,7 @@ Set the current user's display name and cursor highlight color using the `users`
 
 ```ts
 <template>
-  <ejs-blockeditor :collaborationSettings="collaborationSettings"  :users="users" :currentUserId="currentUserId"></ejs-blockeditor>
+  <ejs-blockeditor :collaborationSettings="collaborationSettings" :users="users" :currentUserId="currentUserId"></ejs-blockeditor>
 </template>
 
 <script setup>
