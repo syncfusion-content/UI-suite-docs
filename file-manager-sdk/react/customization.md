@@ -28,20 +28,20 @@ The context menu settings like, items to be displayed on files, folders and layo
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/contextmenu-items-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/contextmenu-items-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/contextmenu-items-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/contextmenu-items-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/contextmenu-items-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/contextmenu-items-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/contextmenu-items-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/contextmenu-items-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/contextmenu-items-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/contextmenu-items-cs1" %}
 
 ## Details view customization
 
@@ -49,20 +49,20 @@ The details view settings like, column width, header text, template for each fie
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/detailsview-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/detailsview-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/detailsview-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/detailsview-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/detailsview-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/detailsview-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/detailsview-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/detailsview-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/detailsview-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/detailsview-cs1" %}
 
 ## Navigation pane customization
 
@@ -70,20 +70,20 @@ The navigation pane settings like, minimum and maximum width, visibility and sor
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigationpane-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/navigationpane-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigationpane-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/navigationpane-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigationpane-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/navigationpane-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/navigationpane-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/navigationpane-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/navigationpane-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/navigationpane-cs1" %}
 
 ## Show/Hide file extension
 
@@ -93,20 +93,20 @@ In File Manager [fileLoad](https://ej2.syncfusion.com/react/documentation/api/fi
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/fileextension-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/fileextension-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/fileextension-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/fileextension-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/fileextension-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/fileextension-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/fileextension-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/fileextension-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/fileextension-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/fileextension-cs1" %}
 
 ## Show/Hide hidden items
 
@@ -114,20 +114,20 @@ The File Manager provides support to show/hide the hidden items by enabling/disa
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/hiddenitems-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/hiddenitems-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/hiddenitems-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/hiddenitems-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/hiddenitems-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/hiddenitems-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/hiddenitems-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/hiddenitems-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/hiddenitems-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/hiddenitems-cs1" %}
 
 ## Show/Hide thumbnail images in large icons view
 
@@ -135,20 +135,20 @@ The thumbnail images are displayed in the File Manager's large icons view by def
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablethumbnail-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/disablethumbnail-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablethumbnail-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/disablethumbnail-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablethumbnail-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/disablethumbnail-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablethumbnail-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/disablethumbnail-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/disablethumbnail-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/disablethumbnail-cs1" %}
 
 ## Toolbar customization
 
@@ -156,20 +156,20 @@ The toolbar settings like, items to be displayed in toolbar and visibility can b
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/toolbar-items-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/toolbar-items-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/toolbar-items-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/toolbar-items-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/toolbar-items-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/toolbar-items-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/toolbar-items-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/toolbar-items-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/toolbar-items-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/toolbar-items-cs1" %}
 
 ### See Also
 
@@ -181,20 +181,20 @@ The upload settings like, minimum and maximum file size and enabling auto upload
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/upload-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/upload-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/upload-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/upload-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/upload-cs1" %}
 
 ## Tooltip customization
 
@@ -202,20 +202,20 @@ The tooltip value can be customized by adding extra content to the title of the 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/tooltip-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/tooltip-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/tooltip-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/tooltip-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/tooltip-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/tooltip-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/tooltip-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/tooltip-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/tooltip-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/tooltip-cs1" %}
 
 ## Maintaining Component State on Page Reload
 
@@ -228,23 +228,23 @@ For every operation in File Manager, ajax request will be sent to the server whi
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/persistence-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/persistence-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="App.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/persistence-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/persistence-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/persistence-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/persistence-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/persistence-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/persistence-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/react/react/persistence-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/react/persistence-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/persistence-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/persistence-cs1" %}
 
 >**Note:** The files of the current folder opened in the File Manager can be refreshed programatically by calling the [refreshFiles](https://ej2.syncfusion.com/react/documentation/api/file-manager#refreshfiles) method.
 

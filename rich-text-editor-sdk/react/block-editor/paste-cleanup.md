@@ -46,14 +46,14 @@ Below example demonstrates the usage of paste settings that allows only specific
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/paste-cleanup/allowedstyle/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/allowedstyle/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/paste-cleanup/allowedstyle/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/allowedstyle/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/allowedstyle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/allowedstyle" %}
 
 ## Disable Keep format
 
@@ -79,14 +79,14 @@ Below example demonstrates the usage of paste settings that disables the keep fo
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/paste-cleanup/plaintext/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/plaintext/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/paste-cleanup/plaintext/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/plaintext/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/plaintext" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/paste-cleanup/plaintext" %}
 
 ### Events
 

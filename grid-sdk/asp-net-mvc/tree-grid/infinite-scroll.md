@@ -21,10 +21,10 @@ N> * In this feature, Tree Grid will not make a new data request when you visit 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/infinite/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/infinite/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/infinite/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/infinite/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ N> * In this feature, Tree Grid will not make a new data request when you visit 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/infinite/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/infinite/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/infinite/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/infinite/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -52,10 +52,10 @@ In the below demo, we have changed this property value to load five page records
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ In the below demo, we have changed this property value to load five page records
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/initialblocks/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -83,10 +83,10 @@ To enable the cache mode in Infinite scrolling, set `EnableCache` property of `I
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/cache/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/cache/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/cache/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/cache/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,10 +94,10 @@ To enable the cache mode in Infinite scrolling, set `EnableCache` property of `I
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/cache/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/cache/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Infinitescroll.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/infinite-scroll/cache/infinitescroll.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/infinite-scroll/cache/infinitescroll.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

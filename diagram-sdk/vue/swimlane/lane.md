@@ -29,7 +29,7 @@ The following code example illustrates how to define a swimlane with lane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/emptylane-cs1" %}
 
 ### Create lane header
 
@@ -46,7 +46,7 @@ The following code example illustrates how to define a lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheader-cs1" %}
 
 ### Customizing lane and lane header
 
@@ -67,7 +67,7 @@ The following code example illustrates how to customize the lane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/laneheadercustomize-cs1" %}
 
 #### Dynamic customization of lane header
 
@@ -82,7 +82,7 @@ You can customize the lane header style and text properties dynamically. The fol
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamiclaneheader-cs1" %}
 
 ### Add/remove lane at runtime
 
@@ -97,7 +97,7 @@ You can add lanes at runtime by using the [`addLanes`](https://ej2.syncfusion.co
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs1" %}
 
 ### Add children to lane
 
@@ -114,7 +114,7 @@ The following code example illustrates how to add nodes to lane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildern-cs1" %}
 
 #### Add child dynamically into the lane
 
@@ -129,7 +129,7 @@ The child node can be inserted into the lane at runtime by using the [`addNodeto
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs2" %}
 
 We can also drag nodes from palette or diagram and drop it inside the lane. 
 
@@ -150,7 +150,7 @@ Here is an example of how to apply these constraints:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/lanechildren-cs3" %}
 
 ### AddInfo
 
@@ -165,7 +165,7 @@ AddInfo for lanes similar to the nodes. we can store additional informations abo
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addInfo-cs1" %}
 
 ### Lane interaction
 
@@ -197,7 +197,7 @@ The following code illustrates how to disable swimlane lane swapping.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/addlanes-cs2" %}
 
 #### Resize helper
 

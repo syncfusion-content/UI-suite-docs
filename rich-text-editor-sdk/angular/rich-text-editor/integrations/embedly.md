@@ -92,11 +92,11 @@ Below is the example integration of Embedly with the Angular Rich Text Editor.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/embedly/src/app/app.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/embedly/src/app/app.ts %}
 {% endhighlight %}
 
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/embedly/src/index.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/embedly/src/index.html %}
 {% endhighlight %}
 {% endtabs %}
 

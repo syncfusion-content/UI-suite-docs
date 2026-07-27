@@ -29,7 +29,7 @@ The following code example illustrates how to define a swimlane object.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs1" %}
 
 N> When setting a Swimlane's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -50,7 +50,7 @@ The following code example illustrates how to define a swimlane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/swimlaneheader-cs2" %}
 
 ### Customization of headers
 
@@ -69,7 +69,7 @@ The following code example illustrates how to customize the swimlane header.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/headercustomize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/headercustomize-cs1" %}
 
 #### Dynamic customization of swimlane header
 
@@ -84,7 +84,7 @@ You can customize the swimlane header style and text properties dynamically. The
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamicheader-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/dynamicheader-cs1" %}
 
 ### Header editing
 
@@ -103,7 +103,7 @@ Swimlanes can be oriented in two ways: horizontally or vertically. This flexibil
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/orientation-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/swimlane/orientation-cs1" %}
 
 ## Limitations
 

@@ -19,10 +19,10 @@ The appearance of cells can be customized by using the [`queryCellInfo`](https:/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/query-cell/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/query-cell/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="QueryCell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/query-cell/queryCell.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/query-cell/queryCell.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -30,10 +30,10 @@ The appearance of cells can be customized by using the [`queryCellInfo`](https:/
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/query-cell/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/query-cell/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="QueryCell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/cell/query-cell/queryCell.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/cell/query-cell/queryCell.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

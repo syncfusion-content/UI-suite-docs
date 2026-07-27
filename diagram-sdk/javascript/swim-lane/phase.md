@@ -26,7 +26,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs12" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -39,7 +39,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs12" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs12" %}
 {% endif %}
 
 ### Dynamically add/remove phase to Lane
@@ -57,7 +57,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs13" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -70,7 +70,7 @@ The following code example illustrates how to create phase.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs13" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs13" %}
 {% endif %}
 
 ### Customizing phase
@@ -93,7 +93,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs14" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -106,7 +106,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs14" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-cs14" %}
 {% endif %}
 
 #### Dynamic customization of phase
@@ -126,7 +126,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
@@ -139,7 +139,7 @@ The following code example illustrates how to customize the phase in swimlane.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/swimlane-phaseDynamic" %}
 {% endif %}
 
 ### Phase interaction

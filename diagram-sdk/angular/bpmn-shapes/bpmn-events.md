@@ -35,7 +35,7 @@ The [`event`](https://ej2.syncfusion.com/angular/documentation/api/diagram/bpmnE
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/event-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/bpmnShapes/event-cs1" %}
 
 ## BPMN event trigger
 

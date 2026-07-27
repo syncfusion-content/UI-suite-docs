@@ -48,7 +48,7 @@ The [`horizontalAlignment`](https://ej2.syncfusion.com/angular/documentation/api
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portspos-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portspos-cs1" %}
 
 The following table shows all possible alignment combinations when using offset (0, 0):
 
@@ -78,7 +78,7 @@ The [`Margin`](https://ej2.syncfusion.com/angular/documentation/api/diagram/marg
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/portspos-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/portspos-cs2" %}
 
 ## See also
 

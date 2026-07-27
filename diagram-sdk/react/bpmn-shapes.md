@@ -25,7 +25,7 @@ To create a BPMN shape, set the node's shape type property to **BPMN** and speci
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/bpmnShapes/es5bpmn-cs1" %}
 
 >Note : The default value for the property `shape` is **event**.
 

@@ -118,23 +118,23 @@ Here's a complete working example demonstrating Tailwind CSS Preflight integrati
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="app.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight/src/app.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight/src/app.css %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tailwind-preflight" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tailwind-preflight" %}
 
 ## Configuring Tailwind CSS Preflight Styles with the IFrame Editor
 
@@ -244,19 +244,19 @@ body.e-content ol[style*="list-style-type: lower-roman"]{
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/main.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/main.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/styles.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/Integrations/tailwind-preflight-iframe/src/styles.css %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tailwind-preflight" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/tailwind-preflight" %}
 
 ## Additional Resources
 

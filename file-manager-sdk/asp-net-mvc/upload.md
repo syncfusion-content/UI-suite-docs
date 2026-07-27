@@ -90,7 +90,7 @@ The following example demonstrates the uploadSettings customizations.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/upload-feature-cs1/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/upload-feature-cs1/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -98,7 +98,7 @@ The following example demonstrates the uploadSettings customizations.
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/upload-feature-cs1/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/upload-feature-cs1/razor %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -16,10 +16,10 @@ In the following example, Employee "Davolio" is scheduled for analysis from "9.0
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnspanning/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnspanning/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnspanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/columnspanning/columnspanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/columnspanning/columnspanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -31,10 +31,10 @@ In the following example, column spanning is applied to the "Status", "Permit St
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-spanning-using-property/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-spanning-using-property/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Columnspanning.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/columns-mvc/column-spanning-using-property/columnspanning.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/columns-mvc/column-spanning-using-property/columnspanning.cs %}
 {% endhighlight %}
 {% endtabs %}
 

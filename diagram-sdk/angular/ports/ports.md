@@ -48,7 +48,7 @@ The following code demonstrates how to add ports during node initialization:
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/port-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/port-cs1" %}
 
 N> When setting a port's ID, ensure that it does not contain white spaces, does not start with numbers or special characters, and does not include special characters like underscores (_) or spaces.
 
@@ -68,7 +68,7 @@ The port's ID property defines a unique identifier that can be used to reference
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/add-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/add-cs1" %}
 
 ## Remove ports at runtime
 
@@ -84,7 +84,7 @@ The [`removePorts`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/remove-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/remove-cs1" %}
 
 ## Update port at runtime
 
@@ -102,7 +102,7 @@ The following code example illustrates how to change port properties dynamically
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/node-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/node-cs1" %}
 
 
 ## Specify connection direction to port
@@ -119,7 +119,7 @@ The [`connectionDirection`](https://ej2.syncfusion.com/angular/documentation/api
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/connectionPort" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/connectionPort" %}
 
 ![Connection Direction Example](../images/connectionDirection.png)
 
@@ -139,7 +139,7 @@ The following code example demonstrates how to access the incoming and outgoing 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/edges-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/edges-cs1" %}
 
 ## Additional information to port
 

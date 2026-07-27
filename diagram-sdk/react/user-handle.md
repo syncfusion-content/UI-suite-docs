@@ -31,7 +31,7 @@ The following example shows how to render user handle.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs3" %}
 
 ## Customize User Handle Click
 
@@ -46,7 +46,7 @@ When the user handle is clicked, the [`onUserHandleMouseDown`](https://ej2.syncf
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs4" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs4" %}
 
 ## Alignment
 
@@ -79,7 +79,7 @@ In the following example, the user handle is aligned to the bottom-right corner 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs5" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs5" %}
 
 The following table shows all the possible alignments of user handle around the node.
 
@@ -107,7 +107,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any us
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs6" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs6" %}
 
 Additional tooltip properties can be customized, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
@@ -126,7 +126,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandle-cs2" %}
 
 ## Multiple User Handle
 
@@ -147,7 +147,7 @@ In the example below, multiple user handles are utilized for various functionali
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5MultipleUserHandle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5MultipleUserHandle-cs1" %}
 
 ## Different Types of User Handle
 
@@ -178,7 +178,7 @@ The below example code demonstrates different types of user handles.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandleTypes-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandleTypes-cs1" %}
 
 ## User Handle Events
 
@@ -202,7 +202,7 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandleEvents-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5UserHandleEvents-cs1" %}
 
 ## Fixed User Handles
 
@@ -223,7 +223,7 @@ The following code example demonstrates how to create fixed user handles for nod
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs1" %}
 
 N> The fixed user handle id need to be unique.
 
@@ -255,7 +255,7 @@ The following example demonstrates how to align fixed user handle for both node 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandle-cs2" %}
 
 The following table shows all the possible alignments of fixed user handle around the node.
 
@@ -324,7 +324,7 @@ The following code explains how to customize the alignment of connector fixed us
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs1" %}
 
 ### Fixed User Handle Tooltip
 
@@ -339,7 +339,7 @@ The diagram provides support to show a tooltip when the mouse hovers over any fi
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs3" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5ConnectorFixedUserHandle-cs3" %}
 
 You can also customize other properties of the tooltip, such as [`position`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#position), [`width`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#width), [`height`](https://ej2.syncfusion.com/react/documentation/api/diagram/diagramTooltipModel#height), etc. For more information refer to the [`tooltip`](./tooltip) section.
 
@@ -372,7 +372,7 @@ The following example demonstrates, how to use these properties to customize the
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5CustomizingFixedUserHandle-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5CustomizingFixedUserHandle-cs1" %}
 
 #### Customizing Fixed User Handles with HTML Templates
 
@@ -387,7 +387,7 @@ Fixed user handles are interactive elements added to nodes and connectors. Their
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleTemplate-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleTemplate-cs1" %}
 
 ### Fixed User Handle Events
 
@@ -412,4 +412,4 @@ In the following example, the above events are used to customize the appearance 
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleEvents-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/interaction/es5FixedUserHandleEvents-cs1" %}

@@ -71,7 +71,7 @@ The following code example illustrates how to align all the selected objects at 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/align-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/align-cs1" %}
 
 ![Align Sample](images/Commands_img1.png)
 
@@ -109,7 +109,7 @@ The following code example illustrates how the nodes are distributed using the `
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/distribute-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/distribute-cs1" %}
 
 ![DistributeImage](images/Commands_img2.png)
 
@@ -142,7 +142,7 @@ The following code example illustrates how to execute the size commands.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sizing-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sizing-cs1" %}
 
 ![Sizing Sample](images/Commands_img3.png)
 
@@ -169,7 +169,7 @@ The following code illustrates how to execute the clipboard commands.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/clipboard-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/clipboard-cs1" %}
 
 ## Grouping commands
 
@@ -191,7 +191,7 @@ The following code examples demonstrate how to use the grouping commands in diag
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/grouping-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/grouping-cs1" %}
 
 ## Rotate commands
 
@@ -215,7 +215,7 @@ You can also use CTRL+R to rotate clockwise and CTRL+L to rotate anti-clockwise.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/rotate-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/rotate-cs1" %}
 
 
 ## Z-Order command
@@ -235,7 +235,7 @@ The [`bringToFront`](https://ej2.syncfusion.com/vue/documentation/api/diagram#br
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringfront-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringfront-cs1" %}
 
 ### Send to back command
 
@@ -250,7 +250,7 @@ The [`sendToBack`](https://ej2.syncfusion.com/vue/documentation/api/diagram#send
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sendback-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sendback-cs1" %}
 
 ### Move forward command
 
@@ -265,7 +265,7 @@ The [`moveForward`](https://ej2.syncfusion.com/vue/documentation/api/diagram#mov
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/moveforward-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/moveforward-cs1" %}
 
 ### send backward command
 
@@ -280,7 +280,7 @@ The [`sendBackward`](https://ej2.syncfusion.com/vue/documentation/api/diagram#se
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sendbackward-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/sendbackward-cs1" %}
 
 ## Zoom
 
@@ -383,7 +383,7 @@ The following code illustrates how to execute the nudge command.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/nudge-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/nudge-cs1" %}
 
 ## Nudge by using arrow keys
 
@@ -412,7 +412,7 @@ The following code illustrates how to execute the bringIntoView command:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringView-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringView-cs1" %}
 
 ## BringToCenter
 
@@ -431,7 +431,7 @@ The following code illustrates how to execute the bringToCenter command.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringCenter-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/bringCenter-cs1" %}
 
 ## FitToPage
 
@@ -463,7 +463,7 @@ The following code illustrates how to execute `FitToPage` command.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/fitToPage-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/fitToPage-cs1" %}
 
 
 ## Command manager
@@ -493,7 +493,7 @@ The following code example illustrates how to use the command manager to clone a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/customCommand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/customCommand-cs1" %}
 
 ### Disable/Modify the existing command
 
@@ -511,7 +511,7 @@ The following code example illustrates how to disable the default cut and delete
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/modifyCommand-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/commands/modifyCommand-cs1" %}
 
 ## Undo-redo
 

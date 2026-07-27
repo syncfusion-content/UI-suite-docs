@@ -45,17 +45,17 @@ The following example demonstrates how to enable or disable directory upload usi
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/directory-upload-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/directory-upload-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/directory-upload-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/directory-upload-cs1" %}
 
 ### Physical file service provider
 
@@ -1102,14 +1102,14 @@ To perform the image preview support in the File Manager component, need to init
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs2/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/getting-started-cs2/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs2" %}

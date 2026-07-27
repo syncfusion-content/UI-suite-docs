@@ -104,7 +104,7 @@ The [`canToggleSelection`](../api/diagram/selectorModel#canToggleSelection) prop
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-toggle" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-toggle" %}
 
 ### Select entire elements in diagram programmatically
 
@@ -144,7 +144,7 @@ Maintaining aspect ratio in diagram means that when you resize a node, by draggi
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-aspect" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-aspect" %}
 
 ### Customizing resize-thumb size
 
@@ -159,7 +159,7 @@ You can change the size of the node resize thumb and the connector end point han
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-cs1" %}
 
 The appearance such as fill, stroke, and stroke width of the node resize thumb and connector end point handle can be customized by overriding the e-diagram-resize-handle and e-diagram-endpoint-handle classes respectively.
 
@@ -181,7 +181,7 @@ The position of the rotate handle can be adjusted by modifying the pivot point o
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-pivot" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/interaction-pivot" %}
 
 ![Node interaction](./images/node-interactions.gif)
 

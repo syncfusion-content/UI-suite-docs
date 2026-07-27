@@ -40,7 +40,7 @@ To draw shapes during runtime, configure the JSON representation of the desired 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/tool-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/tool-cs1" %}
 
 Path shapes can be drawn using the same approach with custom path data. The following example shows how to draw a path shape:
 
@@ -54,7 +54,7 @@ Path shapes can be drawn using the same approach with custom path data. The foll
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/path-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/path-cs1" %}
 
 ### Text nodes
 
@@ -70,7 +70,7 @@ Text nodes are created by setting the shape type as 'Text' in the [`drawingObjec
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/text-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/text-cs1" %}
 
 ### Draw connectors
 
@@ -86,7 +86,7 @@ Connectors are drawn by defining the connector configuration in the [`drawingObj
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/connector-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/connector-cs1" %}
 
 ### Polygon shapes
 
@@ -102,7 +102,7 @@ The diagram supports interactive polygon creation through point-and-click intera
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/polygon-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/polygon-cs1" %}
 
 ### Polyline connectors
 
@@ -118,7 +118,7 @@ Polyline connectors enable creation of multi-segment connections with straight l
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/polyline-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/polyline-cs1" %}
 
 ### Freehand drawing
 
@@ -134,7 +134,7 @@ Freehand drawing allows users to create custom paths and sketches by dragging th
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/freehand-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/freehand-cs1" %}
 
 Freehand connector segments can be adjusted after creation by dragging the segment thumbs. To enable this functionality, apply the [`DragSegmentThumb`](https://ej2.syncfusion.com/angular/documentation/api/diagram/connectorModel#constraints) constraint to the connector:
 
@@ -173,7 +173,7 @@ The pan tool enables users to navigate large diagrams by dragging the view area.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/zoomPan-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/zoomPan-cs1" %}
 
 N> Panning is disabled when 'multiplePage' is set to false and diagram objects exist outside the defined page boundaries.
 
@@ -191,4 +191,4 @@ The [`elementDraw`](https://ej2.syncfusion.com/angular/documentation/api/diagram
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/tools/events-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/tools/events-cs1" %}

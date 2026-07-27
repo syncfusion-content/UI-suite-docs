@@ -23,27 +23,27 @@ To set the `width` and `height`, you can provide the pixel values either in numb
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs52/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs52/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs52/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs52/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs52" %}
 {% endif %}
 
 ## Grid Settings
@@ -62,27 +62,27 @@ In the below example, the `rowHeight` is set as '60px'.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs53/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs53/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs53/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs53/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs53" %}
 {% endif %}
 
 ### Column Width
@@ -95,27 +95,27 @@ In the below example, the `columnWidth` is set as '120px'.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs54/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs54/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs54/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs54/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs54" %}
 {% endif %}
 
 ### Reorder
@@ -126,27 +126,27 @@ Reordering can be done by simple drag and drop of a particular column header fro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs55/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs55/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs55/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs55/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs55" %}
 {% endif %}
 
 ### Column Resizing
@@ -159,27 +159,27 @@ Column width can be resized by clicking and dragging the right edge of the colum
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs56/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs56/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs56/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs56/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs56" %}
 {% endif %}
 
 > In RTL mode, you can click and drag the left edge of the header cell to resize the column.
@@ -192,27 +192,27 @@ The text wrap allows to wrap the cell content to the next line when it exceeds t
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs57/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs57/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs57/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs57/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs57" %}
 {% endif %}
 
 ## Grid Lines
@@ -235,27 +235,27 @@ Available modes of grid lines are:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs58/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs58/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs58/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs58/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs58" %}
 {% endif %}
 
 ### Selection
@@ -272,27 +272,27 @@ To perform the multi-selection, press and hold CTRL key and click the desired ro
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs59/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs59/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs59/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs59/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs59" %}
 {% endif %}
 
 #### Selection Mode
@@ -308,27 +308,27 @@ The pivot table supports four types of selection mode that can be set using `sel
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs60/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs60/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs60/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs60/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs60" %}
 {% endif %}
 
 #### Cell Selection
@@ -344,27 +344,27 @@ The pivot table supports two types of cell selection mode that can be set using 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs61/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs61/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs61/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs61/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs61" %}
 {% endif %}
 
 > Cell selection requires `selectionSettings.mode` property to be `Cell` or `Both`, and `selectionSettings.type` property should be `Multiple`.
@@ -383,27 +383,27 @@ The clip mode provides options to display its overflow cell content in the pivot
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs62/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs62/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs62/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs62/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs62" %}
 {% endif %}
 
 ## See Also

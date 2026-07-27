@@ -42,10 +42,10 @@ Below example illustrates how to render the different code block in the Block Ed
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/paragraph-block/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Code.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/asp-net-mvc/block-editor/blocks/blockTypes/code-block/code.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-mvc/block-editor/blocks/blockTypes/code-block/code.cs %}
 {% endhighlight %}
 {% endtabs %}
 

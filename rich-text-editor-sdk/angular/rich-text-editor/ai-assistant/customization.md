@@ -55,14 +55,14 @@ In the following example, **custom toolbar items** are added to the **Header**, 
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/custom-toolbar-items/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/custom-toolbar-items/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/custom-toolbar-items/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/custom-toolbar-items/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/custom-toolbar-items" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/custom-toolbar-items" %}
 
 ## Styling the Popup
 
@@ -91,17 +91,17 @@ In the following example, a CSS animation is applied to the popup while the requ
 
 {% tabs %}
 {% highlight css tabtitle="app.component.css" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.css %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.css %}
 {% endhighlight %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-styling/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-styling" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/popup-styling" %}
 
 ## Use Case
 
@@ -125,11 +125,11 @@ The following example demonstrates a Proofread use case by rendering a button ou
 
 {% tabs %}
 {% highlight html tabtitle="app.component.html" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/usecase/src/app.component.html %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/usecase/src/app.component.html %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/angular/rich-text-editor/ai-assistant/usecase/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/usecase/src/app.component.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/usecase" %}
+{% previewsample "https://help.syncfusion.com/samples/rich-text-editor-sdk/angular/rich-text-editor/ai-assistant/usecase" %}

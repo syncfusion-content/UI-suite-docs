@@ -20,11 +20,11 @@ The [`beginDrillThrough`](https://ej2.syncfusion.com/vue/documentation/api/pivot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs133/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs133/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs133/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs133/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs133" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs133" %}

@@ -40,10 +40,10 @@ Aggregate value is calculated for child rows, and it is displayed in the parent 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/aggregates/child-aggregate/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/aggregates/child-aggregate/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="ChildAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/aggregates/child-aggregate/childAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/aggregates/child-aggregate/childAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -51,10 +51,10 @@ Aggregate value is calculated for child rows, and it is displayed in the parent 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/aggregates/child-aggregate/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/aggregates/child-aggregate/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="ChildAggregate.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/aggregates/child-aggregate/childAggregate.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/aggregates/child-aggregate/childAggregate.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

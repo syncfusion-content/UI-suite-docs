@@ -116,33 +116,33 @@ The example below shows how to add a `de-DE` locale for the File Manager compone
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/locale-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/locale-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.js %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="index.css" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/locale-cs2/index.css %}
+{% include code-snippet/file-manager-sdk/javascript/locale-cs2/index.css %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/locale-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/locale-cs2" %}
 {% endif %}
 
 ## Rendering control in right-to-left direction
@@ -153,23 +153,23 @@ Render the File Manager in the right-to-left direction by setting the [`enableRt
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rtl-cs1/index.ts %}
+{% include code-snippet/file-manager-sdk/javascript/rtl-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/rtl-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/rtl-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
           
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rtl-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/rtl-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/javascript/javascript/es5-getting-started-cs6/index.html %}
+{% include code-snippet/file-manager-sdk/javascript/es5-getting-started-cs6/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs6" %}
 
 {% endif %}

@@ -32,7 +32,7 @@ A node can be selected at runtime by using the [`select`](https://ej2.syncfusion
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs1" %}
 
 |Method | Parameter | Description|
 |----|----|----|
@@ -58,7 +58,7 @@ A node can be dragged at runtime by using the [`drag`](https://ej2.syncfusion.co
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs2" %}
 
 ## Resize
 
@@ -79,7 +79,7 @@ A node can be resized at runtime by using the [`scale`](https://ej2.syncfusion.c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs3" %}
 
 ## Rotate
 
@@ -100,7 +100,7 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs4" %}
 
 ## Flip
 
@@ -126,7 +126,7 @@ The following code illustrates how to provide the mirror image of the original e
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs5" %}
 
 ### Update flip at runtime
 
@@ -142,7 +142,7 @@ The following example demonstrates how to update the flip for a node dynamically
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/node-cs4-flip" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/node-cs4-flip" %}
 
 ### Flip modes
 
@@ -200,4 +200,4 @@ Below are examples of a node undergoing various FlipModes in different flip dire
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/nodes/nInteraction-cs6" %}

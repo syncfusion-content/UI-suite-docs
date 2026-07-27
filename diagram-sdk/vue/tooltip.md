@@ -35,7 +35,7 @@ The default tooltip that appears while interacting with nodes can be disabled by
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs1" %}
 
 ## Tooltip for a specific node/connector
 
@@ -50,7 +50,7 @@ The tooltip can be customized for each node and connector. Remove the **InheritT
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs2" %}
 
 ## Inherit diagram tooltip
 
@@ -65,7 +65,7 @@ The diagram supports inheriting the diagram tooltip when the mouse hovers over a
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/inheritTooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/inheritTooltip-cs1" %}
 
 ### Disable tooltip at runtime
 
@@ -126,7 +126,7 @@ Here, the code provided below demonstrates the port tooltip Interaction.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs7" %}
 
 The following image illustrates how the diagram displays tooltips during an interaction with ports:
 
@@ -147,7 +147,7 @@ The following code example illustrates how to add formatted HTML content to the 
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs3" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs3" %}
 
 ## Tooltip alignments
 
@@ -166,7 +166,7 @@ The following code example illustrates how to position the tooltip around object
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs4" %}
 
 ### Tooltip relative to mouse position
 
@@ -183,7 +183,7 @@ The following code example illustrates how to show tooltip at mouse position.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs5" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs5" %}
 
 ## Tooltip animation
 
@@ -200,7 +200,7 @@ Refer the following sample where we used zoomIn animation for tooltip open and z
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs6" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltip-cs6" %}
 
 ## Sticky tooltip
 
@@ -217,7 +217,7 @@ The following example shows how to render sticky tooltip.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/StickyTooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/StickyTooltip-cs1" %}
 
 ## Hide tooltip pointer
 
@@ -232,7 +232,7 @@ The [`showTipPointer`](https://ej2.syncfusion.com/vue/documentation/api/diagram/
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/ShowHidePointer-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/ShowHidePointer-cs1" %}
 
 ## Tooltip size
 
@@ -249,7 +249,7 @@ The following code example shows how to set the size for the tooltip:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltipSize-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/tooltipSize-cs1" %}
 
 ## Show/Hide tooltip at runtime
 
@@ -266,7 +266,7 @@ The following example demonstrates how to show or hide the tooltip at runtime:
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/ShowhideTooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/tooltip/ShowhideTooltip-cs1" %}
 
 ## Tooltip for Annotation
 
@@ -283,4 +283,4 @@ Tooltips for Annotations can be enabled or disabled by setting the [`AnnotationC
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/AnnotationTooltip-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/labels/AnnotationTooltip-cs1" %}

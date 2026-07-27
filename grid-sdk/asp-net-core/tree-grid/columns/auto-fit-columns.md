@@ -16,10 +16,10 @@ The autoFitColumns method resizes the column to fit the widest cell's content wi
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/auto-fit/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/auto-fit/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Autofit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/auto-fit/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/auto-fit/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -27,7 +27,7 @@ The autoFitColumns method resizes the column to fit the widest cell's content wi
 
 {% tabs %}
 {% highlight c# tabtitle="Autofit.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/columns-core/auto-fit/autofit.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/columns-core/auto-fit/autofit.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

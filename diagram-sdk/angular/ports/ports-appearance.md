@@ -28,7 +28,7 @@ The following code illustrates how to change the appearance of port.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/appear-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/appear-cs1" %}
 
 ### Change appearance of port at runtime
 
@@ -44,7 +44,7 @@ The appearance of port can be changed at runtime by customizing the style proper
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app1" %}
 
 ## Port visibility
 
@@ -88,7 +88,7 @@ The following code illustrates how to set custom shape to the port.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/ports/ports-app2" %}
 
 ## Constraints
 

@@ -78,3 +78,7 @@ The following available modules should be injected to extend the Chart's functio
 | [`MultiLevelLabelService`](https://helpej2.syncfusion.com/angular/documentation/api/chart/multiLevelLabels)| Inject this module to use the multi level label feature.|
 
 These modules should be injected into the `modules` section of the root `NgModule` or into a standalone component that requires the feature.
+<<<<<<<< HEAD:chart-sdk/angular/chart/feature-modules.md
+========
+
+>>>>>>>> origin/hotfix/hotfix-v34.1.29:chart-sdk/angular/charts/feature-modules.md

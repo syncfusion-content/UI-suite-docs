@@ -31,7 +31,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorDec-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorDec-cs1" %}
 
 ### Customize the decorator appearance
 
@@ -52,7 +52,7 @@ The following code example illustrates how to customize the appearance of the de
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsDecorator-cs1" %}
 
 ### Gradient style for decorator.
 
@@ -71,7 +71,7 @@ The following code example illustrates how to apply gradient for the decorator.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorGradient-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorGradient-cs1" %}
 
 ## Padding
 
@@ -92,7 +92,7 @@ Padding is used to leave the space between the Connector's end point and the obj
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectNode-cs2" %}
 
 ## Bridging
 
@@ -108,7 +108,7 @@ Bridging can be enabled/disabled either with the `connector.constraints` or `dia
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBridging-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsBridging-cs1" %}
 
 N> You need to inject connector bridging module into the diagram.
 
@@ -131,7 +131,7 @@ Limitation: Bezier segments do not support bridging.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorHitpadding-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorHitpadding-cs1" %}
 
 ## Corner radius
 
@@ -146,7 +146,7 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsCornerRadius-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsCornerRadius-cs1" %}
 
 ## Connector Appearance
 
@@ -170,7 +170,7 @@ The following code example illustrates how to customize the segment appearance.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsAppearance-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsAppearance-cs1" %}
 
 ## Connector constraints
 
@@ -189,7 +189,7 @@ The following code illustrates how to disable selection.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsConstraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorsConstraints-cs1" %}
 
 ## Add info for connector
 
@@ -222,7 +222,7 @@ The following code illustrates how to render connector based on the stack order.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/zindex-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/zindex-cs1" %}
 
 ## Connector spacing
 
@@ -237,7 +237,7 @@ The following code illustrates how to render connector based on the stack order.
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorSpacing-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorSpacing-cs1" %}
 
 ## MaxSegment thumb
 
@@ -252,7 +252,7 @@ The property [`maxSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/ap
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/MaxSegment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/MaxSegment-cs1" %}
 
 
 ![maxSegmentThumb](../images/maxSegmentThumb.png)
@@ -270,7 +270,7 @@ The [`resetSegments`](https://ej2.syncfusion.com/vue/documentation/api/diagram/i
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ResetSegment-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ResetSegment-cs1" %}
 
 ## Enable Connector Splitting
 
@@ -287,7 +287,7 @@ The following code illustrates how to split the connector and create a connectio
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorSplit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/ConnectorSplit-cs1" %}
 
 ![Enable Connector Split](../images/EnableSplit.gif)
 
@@ -306,4 +306,4 @@ The following example demonstrates how to apply the same style of the original c
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/PreserveSplit-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/vue/connectors/PreserveSplit-cs1" %}

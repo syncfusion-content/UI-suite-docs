@@ -29,27 +29,27 @@ In the following sample, the table feature has been provided from table module.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs19/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs19/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs19/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs19/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs19" %}
 {% endif %}
 
 ## Table headers
@@ -84,27 +84,27 @@ The Rich Text Editor allows users to insert tables within other table cells, ena
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nesting-table/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nesting-table/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nesting-table/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/nesting-table/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/nesting-table" %}
 {% endif %}
 
 ## Quick insert for table rows and columns
@@ -284,10 +284,10 @@ In the following sample, the table cell properties feature has been provided fro
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-cell-properties/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-cell-properties/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
 
@@ -303,16 +303,16 @@ In the following sample, the table cell properties feature has been provided fro
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-cell-properties/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-cell-properties/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties/index.html %}
 {% endhighlight %}
 {% highlight css tabtitle="styles.css" %}
 
@@ -328,7 +328,7 @@ In the following sample, the table cell properties feature has been provided fro
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-cell-properties" %}
 {% endif %}
 
 ## Table cell selection and formatting
@@ -358,27 +358,27 @@ The text formatting feature in tables allows users to apply various styles to se
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-row-and-column-selection/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-row-and-column-selection/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-row-and-column-selection/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/table-row-and-column-selection/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/table-row-and-column-selection" %}
 {% endif %}
 
 ## Copy, cut, and paste table rows and columns
@@ -429,27 +429,27 @@ The following image explains the table split action.
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs20/index.ts %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs20/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs20/index.js %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/typescript/rich-text-editor/getting-started-cs20/index.html %}
+{% include code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/typescript/rich-text-editor/getting-started-cs20" %}
 {% endif %}
 
 ## See also

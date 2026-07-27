@@ -46,7 +46,7 @@ The following code example demonstrates how to create icons with various shapes:
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs1" %}
 
 ### Styling and appearance
 
@@ -72,7 +72,7 @@ The following code example illustrates the customization of icons.
 {% endhighlight %}
 {% endtabs %}
  
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/nodes/nExpandAndCollapse-cs2" %}
 
 ## Managing node expansion state
 

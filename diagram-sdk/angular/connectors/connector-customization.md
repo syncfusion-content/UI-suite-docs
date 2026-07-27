@@ -36,7 +36,7 @@ The following code example illustrates how to create decorators of various shape
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecorator-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecorator-cs1" %}
 
 ### Customize the decorator appearance
 
@@ -56,7 +56,7 @@ The following code example illustrates how to customize the appearance of the de
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordecoratorappearnce-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectordecoratorappearnce-cs1" %}
 
 ### Gradient styling for decorators
 
@@ -78,7 +78,7 @@ The following code example illustrates how to apply gradient effects to decorato
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecoratorstyle-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsdecoratorstyle-cs1" %}
 
 ## Spacing and padding controls
 
@@ -102,7 +102,7 @@ The following code example illustrates how to leave space between the connection
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectNode-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectNode-cs2" %}
 
 ## Advanced connector features
 
@@ -122,7 +122,7 @@ Bridging can be enabled or disabled using either `connector.constraints` or `dia
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbridging-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsbridging-cs1" %}
 
 > Note: The `ConnectorBridging` module must be injected into the diagram to use this feature.
 
@@ -146,7 +146,7 @@ The following code example illustrates how to specify hit padding for connectors
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorHitPadding-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorHitPadding-cs1" %}
 
 ### Corner radius for rounded connectors
 
@@ -162,7 +162,7 @@ Corner radius creates connectors with rounded corners instead of sharp angles, p
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorscornerradius-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorscornerradius-cs1" %}
 
 ## Connector Appearance
 
@@ -186,7 +186,7 @@ The following code example illustrates how to customize the segment appearance.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegappear-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorssegappear-cs1" %}
 
 
 ## Connector constraints and behavior
@@ -207,7 +207,7 @@ The following code illustrates how to disable selection for a connector.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsconstraints-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorsconstraints-cs1" %}
 
 ## Additional connector properties
 
@@ -237,7 +237,7 @@ The following code illustrates how to render connector based on the stack order.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/zindex-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/zindex-cs1" %}
 
 ### Connector spacing for routing
 
@@ -255,7 +255,7 @@ The following code example illustrates how to configure connector spacing.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSpacing-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSpacing-cs1" %}
 
 #### Maximum segment thumbs
 
@@ -271,7 +271,7 @@ The [`maxSegmentThumb`](https://ej2.syncfusion.com/angular/documentation/api/dia
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormaxthumb-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectormaxthumb-cs1" %}
 
 ![maxSegmentThumb](../images/maxSegmentThumb.png)
 
@@ -289,7 +289,7 @@ The [`resetSegments`](https://ej2.syncfusion.com/angular/documentation/api/diagr
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorresetseg-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorresetseg-cs1" %}
 ## Dynamic connector manipulation
 
 ### Enable connector splitting
@@ -308,7 +308,7 @@ The following code illustrates how to enable connector splitting functionality.
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorSplit-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/ConnectorSplit-cs1" %}
 
 ![Enable Connector Split](../images/EnableSplit.gif)
 
@@ -328,4 +328,4 @@ The following example demonstrates how to preserve the original connector's styl
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSplitpreserve-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/connectors/connectorSplitpreserve-cs1" %}

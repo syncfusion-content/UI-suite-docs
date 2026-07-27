@@ -21,10 +21,10 @@ In the below sample, we have set the background color for **Duration** column in
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/conditional-cell/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/conditional-cell/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Conditional-cell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/conditional-cell/conditional-cell.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/conditional-cell/conditional-cell.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ In the below sample, we have set the background color for **Duration** column in
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/conditional-cell/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/conditional-cell/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Conditional-cell.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/conditional-cell/conditional-cell.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/conditional-cell/conditional-cell.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -52,10 +52,10 @@ To apply theme in exported PDF, define the [`theme`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/theme/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/theme/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/theme/theme.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -63,10 +63,10 @@ To apply theme in exported PDF, define the [`theme`](https://ej2.syncfusion.com/
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/theme/razor %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/theme/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/asp-net-mvc/tree-grid/pdf-export/theme/theme.cs %}
+{% include code-snippet/grid-sdk/asp-net-mvc/tree-grid/pdf-export/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

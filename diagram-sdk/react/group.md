@@ -30,7 +30,7 @@ A group can be added to the diagram model through [`nodes`](https://ej2.syncfusi
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-cs1" %}
 
 Connectors can be added to a group. The following code illustrates how to add connectors into a group.
 
@@ -43,7 +43,7 @@ Connectors can be added to a group. The following code illustrates how to add co
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupaddconnector-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupaddconnector-cs1" %}
 
 ## Runtime Group Operations
 
@@ -62,7 +62,7 @@ The following code illustrates how to group at runtime.
 {% endhighlight %}
 {% endtabs %}
          
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-runtime" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-runtime" %}
 
 ### Ungroup Nodes at Runtime
 
@@ -78,7 +78,7 @@ The following code example shows how to ungroup a group node at runtime:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/ungroup-runtime" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/ungroup-runtime" %}
 
 ### Add Group Node at Runtime
 
@@ -95,7 +95,7 @@ The following code illustrates how a group node is added at runtime:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupadd-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupadd-cs1" %}
 
 ### Add Collection of Group Nodes at Runtime
 
@@ -112,7 +112,7 @@ The following code illustrates how to add group nodes collection at runtime.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupcollection-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupcollection-cs1" %}
 
 ## Manage Group Children at Runtime
 
@@ -147,7 +147,7 @@ diagram.removeChildFromGroup (groupNode, childNode);
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupchild-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/groupchild-cs1" %}
 
 ## Group Styling and Layout
 
@@ -167,7 +167,7 @@ The following code illustrates how to add padding to a node group:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-padding" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-padding" %}
 
 ### Group Flip
 
@@ -188,7 +188,7 @@ The following example shows how to apply flip transformations to group nodes:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flip" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flip" %}
 
 ### Group Flip Mode
 
@@ -206,7 +206,7 @@ In the code below, the `flipMode` for the child node `Node1` is set to `LabelTex
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flipMode" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-flipMode" %}
 
 
 
@@ -227,7 +227,7 @@ Nested groups are groups within groups, where a group can contain other groups a
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-nested" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-nested" %}
 
 ### Add Groups to Symbol Palette
 
@@ -244,7 +244,7 @@ The following code illustrates how to render group nodes in the palette:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-palette" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-palette" %}
 
 ### Update Group Nodes at Runtime
 
@@ -261,7 +261,7 @@ The following code illustrates how to update group nodes at runtime:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-update" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/group-update" %}
 
 ## Container Types
 
@@ -289,7 +289,7 @@ The following code illustrates how to add canvas panel.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5canvas-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5canvas-cs1" %}
 
 ### Stack Container
 
@@ -312,7 +312,7 @@ The following code illustrates how to add a stack panel:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5stack-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/group/es5stack-cs1" %}
 
 ### Difference Between Basic Groups and Containers
 

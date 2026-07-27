@@ -67,14 +67,14 @@ This example shows how to configure `CollapsibleHeading` and `CollapsibleParagra
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/toggle-block/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/toggle-block/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/toggle-block/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/toggle-block/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/toggle-block" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/toggle-block" %}
 
 ### Configure placeholder
 
@@ -121,14 +121,14 @@ The following sample demonstrates how to configure quote block.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/quote/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/quote/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/quote/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/quote/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/quote" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/quote" %}
 
 ## Configure callout block
 
@@ -156,11 +156,11 @@ The following sample demonstrates how to configure callout block.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/callout/app/index.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/callout/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/block-editor/react/block-editor/blocks/children/callout/app/index.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/callout/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/callout" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/block-editor/blocks/children/callout" %}

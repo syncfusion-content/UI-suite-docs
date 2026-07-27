@@ -111,20 +111,20 @@ The below example shows adding the German culture locale(`de-DE`)
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/locale-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/locale-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/locale-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/locale-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/locale-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/locale-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/locale-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/locale-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/locale-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/locale-cs1" %}
 
 ## Rendering Component in Right-to-Left Direction
 
@@ -132,20 +132,20 @@ It is possible to render the File Manager in right-to-left direction by setting 
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rtl-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/rtl-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rtl-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/rtl-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rtl-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/rtl-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rtl-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/rtl-cs1/app/index.tsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
-{% include code-snippet/file-manager-sdk/react/react/rtl-cs1/index.html %}
+{% include code-snippet/file-manager-sdk/react/rtl-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/rtl-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/rtl-cs1" %}

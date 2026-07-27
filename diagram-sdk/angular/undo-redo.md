@@ -78,7 +78,7 @@ Use [`startGroupAction`](https://ej2.syncfusion.com/angular/documentation/api/di
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/groupAction-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/groupAction-cs1" %}
 
 ### Managing history stack size
 
@@ -94,7 +94,7 @@ The [`stackLimit`](https://ej2.syncfusion.com/angular/documentation/api/diagram/
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canLog-cs2" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canLog-cs2" %}
 
 ### Restricting history logging
 
@@ -110,7 +110,7 @@ Prevent specific actions from being recorded in the history using the [`canLog`]
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canLog-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canLog-cs1" %}
 
 ## History stack inspection
 
@@ -150,7 +150,7 @@ The [`canUndo`](https://ej2.syncfusion.com/angular/documentation/api/diagram/his
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canUndo-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/canUndo-cs1" %}
 
 ### Current entry tracking
 
@@ -166,7 +166,7 @@ During user interactions with nodes or connectors, the current history entry is 
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/currentEntry-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/currentEntry-cs1" %}
 
 ## History management utilities
 
@@ -209,6 +209,6 @@ The [`historyChange`](https://ej2.syncfusion.com/angular/documentation/api/diagr
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/histroyChange-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/diagram-sdk/angular/undoRedo/histroyChange-cs1" %}
 
 This event enables customization of the application behavior based on diagram interactions and history state changes.

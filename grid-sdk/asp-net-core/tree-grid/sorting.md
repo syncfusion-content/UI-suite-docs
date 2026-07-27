@@ -21,10 +21,10 @@ To enable sorting in the TreeGrid, set the [`allowSorting`](https://help.syncfus
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/default-sorting/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/default-sorting/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultSorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/default-sorting/defaultSorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/default-sorting/defaultSorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -32,10 +32,10 @@ To enable sorting in the TreeGrid, set the [`allowSorting`](https://help.syncfus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/default-sorting/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/default-sorting/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="DefaultSorting.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/default-sorting/defaultSorting.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/default-sorting/defaultSorting.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -54,10 +54,10 @@ To sort at initial rendering, set the field and direction in the [`columns`](htt
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/initial-sort/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/initial-sort/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="InitialSort.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/initial-sort/initialSort.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/initial-sort/initialSort.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -65,10 +65,10 @@ To sort at initial rendering, set the field and direction in the [`columns`](htt
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/initial-sort/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/initial-sort/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="InitialSort.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/initial-sort/initialSort.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/initial-sort/initialSort.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -83,10 +83,10 @@ During the sort action, the treegrid component triggers two events. The [`action
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/event-handlers/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/event-handlers/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="EventHandlers.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/event-handlers/eventHandlers.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/event-handlers/eventHandlers.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -94,10 +94,10 @@ During the sort action, the treegrid component triggers two events. The [`action
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/event-handlers/razor %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/event-handlers/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="EventHandlers.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/sorting/event-handlers/eventHandlers.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/sorting/event-handlers/eventHandlers.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

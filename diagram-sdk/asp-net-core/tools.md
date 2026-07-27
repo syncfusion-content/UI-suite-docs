@@ -23,10 +23,10 @@ To draw a shape, set the JSON of that shape to the drawType property of the diag
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -34,7 +34,7 @@ To draw a shape, set the JSON of that shape to the drawType property of the diag
 
 {% tabs %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -59,10 +59,10 @@ function Created() {
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -70,7 +70,7 @@ function Created() {
 
 {% tabs %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -106,10 +106,10 @@ To draw connectors, set the JSON of the connector to the drawType property. The 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -117,7 +117,7 @@ To draw connectors, set the JSON of the connector to the drawType property. The 
 
 {% tabs %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -147,10 +147,10 @@ Diagram allows to create a textNode, when you click on the diagram page.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -158,7 +158,7 @@ Diagram allows to create a textNode, when you click on the diagram page.
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -190,10 +190,10 @@ Diagram allows to create the polygon shape by clicking and moving the mouse at r
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -201,7 +201,7 @@ Diagram allows to create the polygon shape by clicking and moving the mouse at r
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -230,10 +230,10 @@ Diagram allows to create the polyline segments with straight lines and angled ve
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -241,7 +241,7 @@ Diagram allows to create the polyline segments with straight lines and angled ve
 
 {% tabs %}
 {% highlight c# tabtitle="Node.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/node/node.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/node/node.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -310,10 +310,10 @@ function Created() {
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -321,7 +321,7 @@ function Created() {
 
 {% tabs %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -354,10 +354,10 @@ The following code illustrates how to draw a freehand drawing.
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -365,7 +365,7 @@ The following code illustrates how to draw a freehand drawing.
 
 {% tabs %}
 {% highlight c# tabtitle="Shapes.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/Tools/shapes/shapes.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/Tools/shapes/shapes.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

@@ -26,17 +26,17 @@ The following example demonstrates the File Manager with details view.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icons-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/large-icons-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icons-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/large-icons-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icons-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/large-icons-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/large-icons-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/large-icons-cs1" %}
 
 ### Customize existing Large Icons View
 
@@ -44,17 +44,17 @@ The large icons view layout can be customized using the `largeIconsTemplate` pro
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icon-view-template/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/large-icon-view-template/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icon-view-template/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/large-icon-view-template/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/large-icon-view-template/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/large-icon-view-template/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/large-icon-view-template" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/large-icon-view-template" %}
 
 ## Details View
 
@@ -67,14 +67,14 @@ The following example demonstrates the File Manager with details view.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/details-view-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/details-view-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/angular/details-view-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/details-view-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/angular/details-view-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/details-view-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/details-view-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/details-view-cs1" %}

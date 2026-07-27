@@ -44,10 +44,10 @@ In the following example, directory upload is enabled/disabled on DropDownButton
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/directory-upload/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/directory-upload/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_core.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/directory-upload/HomeController_core.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/directory-upload/HomeController_core.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -55,10 +55,10 @@ In the following example, directory upload is enabled/disabled on DropDownButton
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/directory-upload/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/directory-upload/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="HomeController_mvc.cs" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/directory-upload/HomeController_mvc.cs %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/directory-upload/HomeController_mvc.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -1040,7 +1040,7 @@ To perform the download operation, initialize the `DownloadUrl` property in a [`
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-download-url/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-download-url/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1050,7 +1050,7 @@ To perform the download operation, initialize the `DownloadUrl` property in a [A
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-download-url/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-download-url/razor %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1064,7 +1064,7 @@ To perform the upload operation, initialize the `UploadUrl` property in a [`Ajax
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-upload-url/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-upload-url/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1074,7 +1074,7 @@ To perform the upload operation, initialize the [UploadUrl](https://help.syncfus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/file-upload-url/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/file-upload-url/razor %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1088,7 +1088,7 @@ To perform the image preview support in the File Manager control, need to initia
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/image-preview/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/image-preview/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -1100,7 +1100,7 @@ To perform the image preview support in the File Manager control, need to initia
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-mvc/asp-net-mvc/image-preview/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-mvc/image-preview/razor %}
 {% endhighlight %}
 {% endtabs %}
 

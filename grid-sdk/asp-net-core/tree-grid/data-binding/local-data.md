@@ -32,10 +32,10 @@ The following code example shows you how to bind the hierarchical local data int
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/hierarchy-data/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/hierarchy-data/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/hierarchy-data/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/hierarchy-data/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -43,7 +43,7 @@ The following code example shows you how to bind the hierarchical local data int
 
 {% tabs %}
 {% highlight c# tabtitle="Hierarchy.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/hierarchy-data/hierarchy.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/hierarchy-data/hierarchy.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}
@@ -63,10 +63,10 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/self-reference/tagHelper %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/self-reference/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Selfdata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/self-reference/selfdata.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/self-reference/selfdata.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -74,7 +74,7 @@ TreeGrid is rendered from Self-Referential data structures by providing two fiel
 
 {% tabs %}
 {% highlight c# tabtitle="Selfdata.cs" %}
-{% include code-snippet/grid-sdk/asp-net-core/tree-grid/asp-net-core/tree-grid/asp-net-core/tree-grid/data-binding-core/self-reference/selfdata.cs %}
+{% include code-snippet/grid-sdk/asp-net-core/tree-grid/data-binding-core/self-reference/selfdata.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

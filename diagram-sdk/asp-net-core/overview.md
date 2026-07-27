@@ -37,10 +37,10 @@ In overview, the view port of the diagram is highlighted with a red colored rect
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/overView/overView/tagHelper %}
+{% include code-snippet/diagram-sdk/asp-net-core/overView/overView/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="OverView.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/overView/overView/overView.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/overView/overView/overView.cs %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -48,10 +48,10 @@ In overview, the view port of the diagram is highlighted with a red colored rect
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/overView/overView/razor %}
+{% include code-snippet/diagram-sdk/asp-net-core/overView/overView/razor %}
 {% endhighlight %}
 {% highlight c# tabtitle="OverView.cs" %}
-{% include code-snippet/diagram-sdk/asp-net-core/asp-net-core/asp-net-core/overView/overView/overView.cs %}
+{% include code-snippet/diagram-sdk/asp-net-core/overView/overView/overView.cs %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

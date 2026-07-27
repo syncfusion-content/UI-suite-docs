@@ -55,10 +55,10 @@ You can use the [cssClass](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/appearance/tagHelper %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/appearance/tagHelper %}
 {% endhighlight %}
 {% highlight c# tabtitle="Appearance.cs" %}
-{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/asp-net-core/block-editor/appearance/appearance.cs %}
+{% include code-snippet/rich-text-editor-sdk/asp-net-core/block-editor/appearance/appearance.cs %}
 {% endhighlight %}
 {% endtabs %}
 

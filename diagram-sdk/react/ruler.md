@@ -30,7 +30,7 @@ The following code shows how to add a ruler to the diagram.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/ruler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/ruler-cs1" %}
 
 ## Customizing the Ruler
 
@@ -62,7 +62,7 @@ The following code shows how the diagram ruler can be customized.
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs1" %}
 
 
 ### Arrange Tick
@@ -80,7 +80,7 @@ The following code demonstrates how to use the `arrangeTick` function to customi
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/ruler/customRuler-cs2" %}
 
 ### Marker Color
 

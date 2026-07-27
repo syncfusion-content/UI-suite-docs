@@ -30,7 +30,7 @@ The following code illustrates how to arrange the nodes in a radial tree structu
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs7" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/javascript/AutomaticLayout-cs7" %}
 
 N> If you want to use symmetric layout in diagram, you need to inject SymmetricLayout in the diagram.
 

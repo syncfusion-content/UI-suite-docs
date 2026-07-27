@@ -40,27 +40,27 @@ Other properties include:
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs271/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs271/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs271/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs271/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs271" %}
 {% endif %}
 
 You can also format the values at runtime using the formatting dialog. This option can be enabled by setting the [`allowNumberFormatting`](https://ej2.syncfusion.com/documentation/api/pivotview/#allownumberformatting) property to **true**. The same has been discussed in some of the upcoming topics.
@@ -87,27 +87,27 @@ You can add any custom format directly to the [`format`](https://ej2.syncfusion.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs272/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs272/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs272/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs272/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs272" %}
 {% endif %}
 
 ## Toolbar
@@ -118,27 +118,27 @@ You can enable formatting dialog option in the toolbar by adding `NumberFormatti
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs273/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs273/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs273/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/pivot-table-cs273/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/pivot-table-cs273" %}
 {% endif %}
 
 ## Invoking formatting dialog through external button
@@ -149,27 +149,27 @@ You can invoke the formatting dialog by clicking an external button using the `S
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs1/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs1/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs1/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs1" %}
 {% endif %}
 
 ## Events
@@ -190,27 +190,27 @@ In the below sample, the customization done in number formatting dialog for the 
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs2/index.ts %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs2/index.js %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/grid-sdk/javascript/pivot-table/javascript/pivot-table/javascript/pivot-table/number-formatting-cs2/index.html %}
+{% include code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/pivot-table/number-formatting-cs2" %}
 {% endif %}
 
 ## See Also

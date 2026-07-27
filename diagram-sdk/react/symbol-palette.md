@@ -47,7 +47,7 @@ The following code example illustrates how to define symbols in a palette and ho
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5palettes-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5palettes-cs1" %}
 
 ## Add Connectors in Symbol Palette
 
@@ -64,7 +64,7 @@ The following example shows how to render connectors in the symbol palette:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-con" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-con" %}
 
 ## Add Group Nodes in Symbol Palette
 The symbol palette supports adding group nodes. To add group nodes to the palette, define the child nodes first, followed by the parent node. Refer to the following code to see how to render group nodes in the symbol palette:
@@ -79,7 +79,7 @@ The symbol palette supports adding group nodes. To add group nodes to the palett
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-grp" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-grp" %}
 
 ## Template-based symbols
 
@@ -102,7 +102,7 @@ Templates can be defined as strings and assigned to the node's `content` propert
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-contentTemplate" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-contentTemplate" %}
 
 ## Drag and Drop Symbols from Palette to Diagram
 To drag and drop symbols from the palette to the diagram canvas, perform a mousedown action on the desired symbol in the palette, drag it to the desired location on the diagram canvas, and release the mouse button to drop it.
@@ -121,7 +121,7 @@ Symbols can be added to palette at runtime by using public method, [`addPaletteI
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-add" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-add" %}
 
 ### Remove Symbols from Palette at Runtime
 Symbols can be removed from the palette at runtime using the public method [`removePaletteItem`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#removepaletteitem). The following example shows how to remove shapes from the palette at runtime.
@@ -136,7 +136,7 @@ Symbols can be removed from the palette at runtime using the public method [`rem
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-rmv" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/symbol-rmv" %}
 
 ## Symbol Defaults
 
@@ -155,7 +155,7 @@ In the following example, the fill color of node and target decorator shape of c
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5defaultsettings-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5defaultsettings-cs1" %}
 
 ### Add Palettes at Runtime
 You can dynamically add palettes to the symbol palette at runtime to enhance flexibility and customization. This allows you to introduce new groups of symbols as needed without having to reload or reinitialize the diagram. The [`addPalettes`](https://ej2.syncfusion.com/react/documentation/api/symbol-palette#addpalettes) method of the symbol palette enables you to create and configure new palettes programmatically. This method takes parameters that define the palette's properties, such as the palette `ID`, `title`, and the `symbols` it contains.
@@ -171,7 +171,7 @@ Follow the example below to see how to add a palette at runtime:
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-add" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-add" %}
 
 ## Remove Palettes at Runtime
 
@@ -192,7 +192,7 @@ Follow the example below to see how to remove palettes at runtime.
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-rmv" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/palette-rmv" %}
 
 ## Stretch the Symbols into the Palette
 
@@ -210,7 +210,7 @@ The following code example demonstrates how to customize symbol sizing using the
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5fit-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/diagram-sdk/react/symbol-palette/palettes/es5fit-cs1" %}
 
 ## Refresh Symbol Palette
 

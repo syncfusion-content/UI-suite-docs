@@ -108,7 +108,7 @@ The following example demonstrate the File Manager rendered with access control 
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/access-control/tagHelper %}
+{% include code-snippet/file-manager-sdk/asp-net-core/access-control/tagHelper %}
 {% endhighlight %}
 {% endtabs %}
 
@@ -116,7 +116,7 @@ The following example demonstrate the File Manager rendered with access control 
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/file-manager-sdk/asp-net-core/asp-net-core/access-control/razor %}
+{% include code-snippet/file-manager-sdk/asp-net-core/access-control/razor %}
 {% endhighlight %}
 {% endtabs %}
 {% endif %}

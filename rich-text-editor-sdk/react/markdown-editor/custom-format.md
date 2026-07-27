@@ -26,24 +26,24 @@ The following example customizes Markdown tags:
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-markdown-syntax-cs1/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-markdown-syntax-cs1/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs1/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs1" %}
 
 `[Functional-component]`
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-markdown-syntax-cs2/app/App.jsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs2/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/react/markdown-editor/custom-markdown-syntax-cs2/app/App.tsx %}
+{% include code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs2/app/App.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs2" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/react/markdown-editor/custom-markdown-syntax-cs2" %}

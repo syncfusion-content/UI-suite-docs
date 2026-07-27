@@ -14,20 +14,20 @@ The File Manager allows you to select multiple files by enabling the [allowMulti
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/multiselect-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/multiselect-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/multiselect-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/multiselect-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/multiselect-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/multiselect-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/multiselect-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/multiselect-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/multiselect-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/multiselect-cs1" %}
 
 >Note: The File Manager has support to select files and folders initially or dynamically by specifying their names in [selectedItems](https://ej2.syncfusion.com/react/documentation/api/file-manager#selecteditems) property.
 
@@ -41,20 +41,20 @@ To enable range selection, you need to set the [enableRangeSelection](https://ej
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rangeselection-cs1/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/rangeselection-cs1/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rangeselection-cs1/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/rangeselection-cs1/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rangeselection-cs1/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/rangeselection-cs1/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/rangeselection-cs1/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/rangeselection-cs1/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/rangeselection-cs1" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/rangeselection-cs1" %}
 
 ## Disable Multi selection
 
@@ -62,17 +62,17 @@ Setting the [`allowMultiSelection`](https://ej2.syncfusion.com/react/documentati
 
 {% tabs %}
 {% highlight js tabtitle="app.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablemultiselection/app/App.jsx %}
+{% include code-snippet/file-manager-sdk/react/disablemultiselection/app/App.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="app.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablemultiselection/app/App.tsx %}
+{% include code-snippet/file-manager-sdk/react/disablemultiselection/app/App.tsx %}
 {% endhighlight %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablemultiselection/app/index.jsx %}
+{% include code-snippet/file-manager-sdk/react/disablemultiselection/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/file-manager-sdk/react/react/disablemultiselection/app/index.tsx %}
+{% include code-snippet/file-manager-sdk/react/disablemultiselection/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/help.syncfusion.com/code-snippet/file-manager-sdk/react/disablemultiselection" %}
+ {% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/react/disablemultiselection" %}

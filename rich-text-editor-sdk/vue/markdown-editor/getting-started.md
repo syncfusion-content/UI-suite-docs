@@ -94,10 +94,10 @@ Now, you can start adding the Vue Markdown Editor component in the application. 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/getting-started-cs1/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/getting-started-cs1/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/vue/markdown-editor/getting-started-cs1/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/markdown-editor/getting-started-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         

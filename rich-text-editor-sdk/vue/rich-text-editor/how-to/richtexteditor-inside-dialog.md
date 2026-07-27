@@ -16,11 +16,11 @@ To resolve this issue, we can utilize the [refreshUI](https://ej2.syncfusion.com
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/richtexteditor-inside-dialog/app-composition.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-dialog/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/vue/rich-text-editor/richtexteditor-inside-dialog/app.vue %}
+{% include code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-dialog/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-dialog" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/rich-text-editor-sdk/vue/rich-text-editor/richtexteditor-inside-dialog" %}

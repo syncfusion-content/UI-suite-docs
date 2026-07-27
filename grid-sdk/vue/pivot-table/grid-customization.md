@@ -20,14 +20,14 @@ To set the `width` and `height`, you can provide the pixel values either in numb
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs99/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs99/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs99/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs99/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs99" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs99" %}
 
 ## Grid Settings
 
@@ -43,14 +43,14 @@ In the below example, the `rowHeight` is set as '60px'.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs100/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs100/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs100/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs100/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs100" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs100" %}
 
 ### Column Width
 
@@ -60,14 +60,14 @@ In the below example, the `columnWidth` is set as '120px'.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs101/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs101/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs101/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs101/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs101" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs101" %}
 
 ### Reorder
 
@@ -75,14 +75,14 @@ Reordering can be done by simple drag and drop of a particular column header fro
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs102/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs102/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs102/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs102/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs102" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs102" %}
 
 ### Column Resizing
 
@@ -92,14 +92,14 @@ Column width can be resized by clicking and dragging the right edge of the colum
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs103/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs103/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs103/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs103/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs103" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs103" %}
 
 > In RTL mode, you can click and drag the left edge of the header cell to resize the column.
 
@@ -109,14 +109,14 @@ The text wrap allows to wrap the cell content to the next line when it exceeds t
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs104/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs104/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs104/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs104/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs104" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs104" %}
 
 ## Grid Lines
 
@@ -136,14 +136,14 @@ Available modes of grid lines are:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs105/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs105/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs105/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs105/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs105" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs105" %}
 
 ### Selection
 
@@ -156,14 +156,14 @@ The pivot table supports two types of selection that can be set using `selection
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs106/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs106/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs106/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs106/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs106" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs106" %}
 
 #### Selection Mode
 
@@ -176,14 +176,14 @@ The pivot table supports four types of selection mode that can be set using `sel
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs107/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs107/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs107/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs107/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs107" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs107" %}
 
 #### Cell Selection
 
@@ -196,14 +196,14 @@ The pivot table supports two types of cell selection mode that can be set using 
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs108/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs108/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs108/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs108/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs108" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs108" %}
 
 > Cell selection requires `selectionSettings.mode` property to be `Cell` or `Both`, and `selectionSettings.type` property should be `Multiple`.
 
@@ -219,14 +219,14 @@ The clip mode provides options to display its overflow cell content in the pivot
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs109/app-composition.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs109/app-composition.vue %}
 {% endhighlight %}
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
-{% include code-snippet/grid-sdk/vue/pivot-table/vue/pivot-table/vue/pivot-table/default-cs109/app.vue %}
+{% include code-snippet/grid-sdk/vue/pivot-table/default-cs109/app.vue %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs109" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/vue/pivot-table/default-cs109" %}
 
 ## See Also
 
