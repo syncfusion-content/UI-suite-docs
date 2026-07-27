@@ -2,7 +2,7 @@
 layout: post
 title: About UWP DateTimePicker control | Syncfusion
 description: Learn here all about introduction of Syncfusion UWP DateTimePicker (SfDateTimeCombo) control, its elements and more.
-platform: scheduler-sdk
+platform: uwp
 control: SfDateTimeCombo
 documentation: ug
 ---
@@ -15,7 +15,7 @@ The SfDateTimeCombo control displays each part of a date or time in a separate D
 
 ### Key Features
 
-Formatting – The control displays the selected date value in a various formats.
+Formatting – The control displays the selected date value in various formats.
 
 Customization – Each DateTimeItem displayed in this control contains date or time parts that can be customized.
 

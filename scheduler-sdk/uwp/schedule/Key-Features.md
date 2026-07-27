@@ -2,7 +2,7 @@
 layout: post
 title: Key Features  | SfSchedule | uwp | Syncfusion
 description: Key Features 
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---

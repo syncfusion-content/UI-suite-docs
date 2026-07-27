@@ -2,7 +2,7 @@
 layout: post
 title: Visible Dates Customization | SfSchedule | uwp | Syncfusion
 description: Visible Dates Customization
-platform: scheduler-sdk
+platform: uwp
 control: SfSchedule
 documentation: ug
 ---
