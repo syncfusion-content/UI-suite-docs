@@ -25,21 +25,6 @@ The following code sample shows different types of sparklines.
 
 The [`Line`] type is used to render the sparkline series as line.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs1/index.js %}
@@ -50,26 +35,10 @@ The [`Line`] type is used to render the sparkline series as line.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs1" %}
-{% endif %}
 
 **Column**
 
 The [`Column`] type is used to render the sparkline series as column.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -81,26 +50,10 @@ The [`Column`] type is used to render the sparkline series as column.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs2" %}
-{% endif %}
 
 **Pie**
 
 The [`Pie`] type is used to render the sparkline series as pie.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -112,26 +65,10 @@ The [`Pie`] type is used to render the sparkline series as pie.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs3" %}
-{% endif %}
 
 **WinLoss**
 
 The [`WinLoss`] type is used to render the sparkline series as WinLoss.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -143,26 +80,10 @@ The [`WinLoss`] type is used to render the sparkline series as WinLoss.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs4" %}
-{% endif %}
 
 **Area**
 
 The [`Area`] type is used to render the sparkline series as area.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs5" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -174,4 +95,3 @@ The [`Area`] type is used to render the sparkline series as area.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-types-cs5" %}
-{% endif %}

@@ -23,20 +23,6 @@ Create table and rectangle shapes in the html page and set this to the `content`
 
 By setting `coordinateUnits` value to `pixel` in annotation object, you can place the legend in chart based on pixel values.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/legend-table-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/legend-table-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/legend-table-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -48,4 +34,3 @@ By setting `coordinateUnits` value to `pixel` in annotation object, you can plac
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/legend-table-cs1" %}
-{% endif %}

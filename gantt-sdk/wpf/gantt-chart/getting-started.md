@@ -362,6 +362,7 @@ The WPF GanttControl supports various built-in themes. Refer to the below links 
 
   ![theming-in-wpf-gantt-control](Getting-Started_images/theming-in-wpf-gantt-control.png)
 
+
 ## see also
 
 [How to show horizontal and vertical grid lines in WPF gantt control](https://support.syncfusion.com/kb/article/10135/how-to-show-horizontal-and-vertical-grid-lines-in-wpf-gantt-control)

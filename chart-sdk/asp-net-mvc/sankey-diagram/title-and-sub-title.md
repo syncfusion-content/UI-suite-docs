@@ -41,19 +41,6 @@ Both `TitleStyle` and `SubTitleStyle` support the following properties:
 
 Add a main title and descriptive subtitle to your Sankey Chart to provide context about the data visualization:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-subtitle/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-subtitle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-subtitle/title-subtitle.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-subtitle/razor %}
@@ -63,24 +50,9 @@ Add a main title and descriptive subtitle to your Sankey Chart to provide contex
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Customized Title and Subtitle Styling
 
 Apply custom styling to both the title and subtitle including font properties, colors, alignment, and opacity to match your design requirements:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/customized-title-subtitle/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Customized-title-subtitle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/customized-title-subtitle/customized-title-subtitle.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -91,24 +63,9 @@ Apply custom styling to both the title and subtitle including font properties, c
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Title Only (Without Subtitle)
 
 Add only a title to the Sankey Chart when a subtitle is not needed. This provides a clean, minimal header for your visualization:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-only/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-only.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-only/title-only.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -119,24 +76,9 @@ Add only a title to the Sankey Chart when a subtitle is not needed. This provide
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Title with Different Alignments
 
 Control the alignment of title and subtitle text:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-different-alignments/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title-different-alignments.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-different-alignments/title-different-alignments.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -146,8 +88,6 @@ Control the alignment of title and subtitle text:
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/title-subtitle/title-different-alignments/title-different-alignments.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## Title Best Practices
 

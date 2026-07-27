@@ -14,21 +14,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/chart-axis) is used to represent numeric values in a chart. By default, the `valueType` of an axis is set to `Double`, which is suitable for displaying continuous numerical data.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs82/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs82/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs82" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/axis-cs82/index.js %}
@@ -39,26 +24,10 @@ The [numeric axis](https://www.syncfusion.com/javascript-ui-controls/js-charts/c
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs82" %}
-{% endif %}
 
 ## Range
 
 The range of the axis is calculated automatically based on the provided data. You can also customize the visible range by using the [`minimum`](../api/chart/axisModel#minimum-object), [`maximum`](../api/chart/axisModel#maximum-object), and [`interval`](../api/chart/axisModel#interval-number) properties of the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs83/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs83/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs83" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -70,7 +39,6 @@ The range of the axis is calculated automatically based on the provided data. Yo
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs83" %}
-{% endif %}
 
 ## Range Padding
 
@@ -86,21 +54,6 @@ Padding can be applied to the minimum and maximum values of the axis range by us
 
 When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `None`, the minimum and maximum values of the axis are derived directly from the data.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs84/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs84/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs84" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/axis-cs84/index.js %}
@@ -111,26 +64,10 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs84" %}
-{% endif %}
 
 **Numeric - Round**
 
 When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Round`, the minimum and maximum values are rounded to the nearest values divisible by the interval. For example, if the minimum value is 3.5 and the interval is 1, the minimum value is rounded to 3.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs85/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs85/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs85" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -142,26 +79,10 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs85" %}
-{% endif %}
 
 **Numeric - Additional**
 
 When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Additional`, one interval is added to both the minimum and maximum values of the axis range.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs86/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs86/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs86" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -173,26 +94,10 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs86" %}
-{% endif %}
 
 **Numeric - Normal**
 
 When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Normal`, padding is applied to the axis based on the default range calculation.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs87/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs87/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs87" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -204,26 +109,10 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs87" %}
-{% endif %}
 
 **Numeric - Auto**
 
 When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property is set to `Auto`, the horizontal numeric axis uses `None` as padding, while the vertical numeric axis uses `Normal` padding.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs88/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs88/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs88" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -235,28 +124,12 @@ When the [`rangePadding`](../api/chart/axisModel#rangepadding-string) property i
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs88" %}
-{% endif %}
 
 ## Label Format
 
 **Numeric Label Format**
 
 Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/axisModel#labelformat-string) property. This property supports all Globalize numeric formats.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs89/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs89/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs89" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -268,7 +141,6 @@ Numeric axis labels can be formatted by using the [`labelFormat`](../api/chart/a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs89" %}
-{% endif %}
 
 The following table shows examples of commonly used numeric label formats and their corresponding outputs.
 
@@ -334,21 +206,6 @@ The following table shows examples of commonly used numeric label formats and th
 
 To separate groups of thousands in numeric labels, enable the [`useGroupingSeparator`](../api/chart/chartModel#useGroupingSeparator-boolean) property in the chart.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs90/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs90/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs90" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/axis-cs90/index.js %}
@@ -359,26 +216,10 @@ To separate groups of thousands in numeric labels, enable the [`useGroupingSepar
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs90" %}
-{% endif %}
 
 ## Custom Label Format
 
 The numeric axis also supports custom label formats by using placeholders such as `{value}°C`, where `{value}` represents the numeric axis label. For example, the value `20` is displayed as `20°C`.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs91/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs91/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs91" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -390,4 +231,3 @@ The numeric axis also supports custom label formats by using placeholders such a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs91" %}
-{% endif %}

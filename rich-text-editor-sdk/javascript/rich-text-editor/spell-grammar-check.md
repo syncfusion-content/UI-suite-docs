@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Spell & Grammar Check
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Integrate WProofreader into the JavaScript Rich Text Editor control

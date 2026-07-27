@@ -88,19 +88,6 @@ Also, register the script manager `EJS().ScriptManager()` at the end of `<body>`
 
 Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Sankey Chart control in `~/Home/Index.cshtml` page.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/initialize/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Initialize.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/initialize/initialize.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/initialize/razor %}
@@ -110,24 +97,9 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Sankey
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Add data to Sankey Chart
 
 Now you can add data to the Sankey Chart component by defining nodes and links. Nodes represent the categories, and links represent the flow between them.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/data/data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -137,7 +109,5 @@ Now you can add data to the Sankey Chart component by defining nodes and links. 
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/getting-started/data/data.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET MVC Chart control will be rendered in the default web browser.

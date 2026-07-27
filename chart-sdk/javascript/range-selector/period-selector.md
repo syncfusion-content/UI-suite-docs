@@ -27,18 +27,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs1/index.html %}
@@ -46,7 +34,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs1" %}
-{% endif %}
 
 >To use the period selector feature, inject the `PeriodSelector` module using the `RangeNavigator.Inject(PeriodSelector)` method.
 
@@ -54,18 +41,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 
 The `position` property allows the users to position the period selector at the **Top** or **Bottom**.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs2/index.html %}
@@ -73,24 +48,11 @@ The `position` property allows the users to position the period selector at the 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs2" %}
-{% endif %}
 
 ## Height
 
 The `height` property allows the users to specify the height of the period selector. The default value of the height property is **43px**.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs3/index.html %}
@@ -98,24 +60,11 @@ The `height` property allows the users to specify the height of the period selec
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs3" %}
-{% endif %}
 
 ## Visibility of range navigator
 
 The `disableRangeSelector` property allows the users to display only the period selector and not the Range Selector.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/periodselector-cs4/index.html %}
@@ -123,7 +72,6 @@ The `disableRangeSelector` property allows the users to display only the period 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/periodselector-cs4" %}
-{% endif %}
 
 ## See Also
 

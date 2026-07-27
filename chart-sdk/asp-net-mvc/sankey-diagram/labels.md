@@ -34,19 +34,6 @@ Configure global label styling for all nodes by setting properties like font siz
 
 Here is an example of customizing label appearance:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/label-configuration/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-configuration.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/label-configuration/label-configuration.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/label-configuration/razor %}
@@ -56,24 +43,9 @@ Here is an example of customizing label appearance:
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Hiding Labels
 
 Control label visibility using the `Visible` property in `LabelSettings`. Set it to `false` to hide all node labels, which can be useful for creating cleaner visualizations when labels take up too much space:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/hiding-labels/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Hiding-labels.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/hiding-labels/hiding-labels.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -83,8 +55,6 @@ Control label visibility using the `Visible` property in `LabelSettings`. Set it
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/hiding-labels/hiding-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## Font Styling
 
@@ -96,19 +66,6 @@ Apply custom font styling to all labels using properties such as:
 - **`FontStyle`**: Apply text styling ('normal' or 'italic')
 - **`Color`**: Set text color (hex or color names)
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/font-style/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Font-style.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/font-style/font-style.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/font-style/razor %}
@@ -118,24 +75,9 @@ Apply custom font styling to all labels using properties such as:
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Individual Node Labels
 
 Customize the appearance of specific node labels by configuring the `Label` property on each node object. This allows you to override global label settings for specific nodes, enabling data-driven label customization:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/individual-node-labels/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Individual-node-labels.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/individual-node-labels/individual-node-labels.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -146,26 +88,11 @@ Customize the appearance of specific node labels by configuring the `Label` prop
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Advanced Label Configuration
 
 ### Dynamic Label Customization
 
 Use the `LabelRendering` event to customize label text, styling, and appearance dynamically during the render process. This event is triggered for each label before rendering, allowing you to apply conditional formatting, modify text, or adjust styling based on data values:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/dynamic-label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Dynamic-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/dynamic-label/dynamic-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -175,5 +102,3 @@ Use the `LabelRendering` event to customize label text, styling, and appearance 
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/labels/dynamic-label/dynamic-label.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}

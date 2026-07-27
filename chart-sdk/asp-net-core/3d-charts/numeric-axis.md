@@ -12,8 +12,6 @@ documentation: ug
 
 The `Numeric Axis` can be used to represent the numeric values of data in 3D chart. By default, the [`ValueType`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_ValueType) of an axis is **Double**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/double/tagHelper %}
@@ -23,25 +21,11 @@ The `Numeric Axis` can be used to represent the numeric values of data in 3D cha
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/double/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Double.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/double/double.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Range
 
 The range of an axis will be calculated automatically based on the provided data, and it can also be customized by using the [`Minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Minimum), [`Maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Maximum) and [`Interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Interval) properties of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -51,18 +35,6 @@ The range of an axis will be calculated automatically based on the provided data
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/range/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -80,8 +52,6 @@ Padding can be applied to the minimum and maximum extremes of an axis range by u
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RangePadding) is set to **None**, minimum and maximum of the axis is based on the data.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/none/tagHelper %}
@@ -91,25 +61,11 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/none/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="None.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/none/none.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Numeric - Round**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RangePadding) is set to **Round**, minimum and maximum will be rounded to the nearest possible value, which is divisible by interval. For example, when the [`Minimum`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Minimum) is **3.5** and the [`Interval`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_Interval) is **1**, then the minimum will be rounded to **3**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -120,25 +76,10 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusio
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/round/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Round.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/round/round.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 **Numeric - Additional**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RangePadding) is set to **Additional**, interval of an axis will be added to the minimum and maximum of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -149,25 +90,11 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/additional/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Additional.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/additional/additional.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Numeric - Normal**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RangePadding) is set to **Normal**, padding is applied to the axis based on default range calculation.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -178,25 +105,11 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/normal/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Normal.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/normal/normal.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Numeric - Auto**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_RangePadding) is set to **Auto**, horizontal numeric axis takes **None** as padding calculation, while the vertical numeric axis takes **Normal** as padding calculation.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -207,18 +120,6 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/auto/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Auto.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/auto/auto.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Label format
@@ -226,8 +127,6 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusi
 **Numeric label format**
 
 Numeric labels can be formatted by using the [`LabelFormat`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DAxis.html#Syncfusion_EJ2_Charts_Chart3DAxis_LabelFormat) property. Also, it supports all globalize format.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -237,18 +136,6 @@ Numeric labels can be formatted by using the [`LabelFormat`](https://help.syncf
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/label-format/label-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/label-format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/label-format/label-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -317,8 +204,6 @@ The following table describes the result of applying some commonly used label fo
 
 To separate the y-axis labels to groups of thousands, set the [`UseGroupingSeparator`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3D.html#Syncfusion_EJ2_Charts_Chart3D_UseGroupingSeparator) property to **true** in the 3D chart.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/group-separator/tagHelper %}
@@ -328,25 +213,11 @@ To separate the y-axis labels to groups of thousands, set the [`UseGroupingSepar
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/group-separator/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group-separator.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/group-separator/group-separator.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Custom label format
 
 The axis supports custom label format using placeholder like **{value}°C**, in which the value represent the axis label e.g 20°C.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -356,16 +227,3 @@ The axis supports custom label format using placeholder like **{value}°C**, i
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/custom-format/custom-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/custom-format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/numeric-axis/custom-format/custom-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-

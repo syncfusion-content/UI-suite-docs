@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Link 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Link in TypeScript Rich Text Editor Control

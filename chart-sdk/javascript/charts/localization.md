@@ -50,21 +50,6 @@ To load translations in an application, use the `L10n.load()` function.
 
 For more information about localization, see the localization guide: [`localization`](https://ej2.syncfusion.com/documentation/common/localization)
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/internationalization-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/internationalization-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/internationalization-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/internationalization-cs2/index.js %}
@@ -75,4 +60,3 @@ For more information about localization, see the localization guide: [`localizat
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/internationalization-cs2" %}
-{% endif %}

@@ -23,21 +23,6 @@ Axis labels are used to denote what kind of data is bound for smithchart. Using 
 * [`labelIntersectAction`] - used to hide the labels when intersect with other one.
 * [`labelStyle`] - used to customize the properties such as font size, family, weight, opacity.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs8" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs8/index.js %}
@@ -48,7 +33,6 @@ Axis labels are used to denote what kind of data is bound for smithchart. Using 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs8" %}
-{% endif %}
 
 ## Gridlines
 
@@ -63,21 +47,6 @@ We can customize following things, in major as well as minor gridlines.
 * [`opacity`] - used to customize the opacity of the major gridlines.
 * [`count`] - used to customize the count of the minor gridlines.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs9" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs9/index.js %}
@@ -88,7 +57,6 @@ We can customize following things, in major as well as minor gridlines.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs9" %}
-{% endif %}
 
 ## Axisline
 
@@ -97,21 +65,6 @@ As name suggests that, it is a line in smithchart that can be configured to deno
 * [`width`] - used to customize the width of the axis line.
 * [`dashArray`] - used to render the axis line as dashed line.
 * [`visible`] - used to enable or disable the visibility of the axis line.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs10" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -123,4 +76,3 @@ As name suggests that, it is a line in smithchart that can be configured to deno
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/smith-chart/smithchart-axis-cs10" %}
-{% endif %}

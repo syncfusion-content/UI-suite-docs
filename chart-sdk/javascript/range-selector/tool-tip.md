@@ -26,21 +26,6 @@ Tooltip can be customized using the following properties:
 * opacity - Customizes the opacity of the tooltip.
 * textStyle - Customizes the font size, color, family, style, weight, alignment, and overflow of the tooltip.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs13/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs13" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs13/index.js %}
@@ -51,26 +36,10 @@ Tooltip can be customized using the following properties:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs13" %}
-{% endif %}
 
 ## Label Format
 
 The `labelFormat` property in the tooltip is used to format and parse the date to all globalize formats.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs14/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs14" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -82,7 +51,6 @@ The `labelFormat` property in the tooltip is used to format and parse the date t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs14" %}
-{% endif %}
 
 The following table shows the results of applying some common date and time formats to the `labelFormat` property.
 

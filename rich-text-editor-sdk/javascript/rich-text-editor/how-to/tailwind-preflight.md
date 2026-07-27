@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Integrating Rich Text Editor with Tailwind CSS Preflight Styles 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Integrating Rich Text Editor with Tailwind CSS Preflight Styles

@@ -17,8 +17,6 @@ The sparkline control supports localization. The default culture for localizatio
 
 Sparkline tooltip supports localization. The following code sample shows tooltip text with currency format based on culture.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/tagHelper %}
@@ -27,16 +25,4 @@ Sparkline tooltip supports localization. The following code sample shows tooltip
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/localization/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

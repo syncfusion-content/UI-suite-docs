@@ -36,21 +36,6 @@ The following table lists the main tooltip configuration properties:
 
 Enable tooltips with default formatting:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/basic-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/basic-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/basic-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/basic-cs1/index.js %}
@@ -61,7 +46,6 @@ Enable tooltips with default formatting:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/basic-cs1" %}
-{% endif %}
 
 ## Customizing Tooltip Appearance
 
@@ -77,21 +61,6 @@ Adjust tooltip appearance and behavior using tooltip configuration properties:
 
 Example customization:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/customization-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/customization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/customization-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/customization-cs1/index.js %}
@@ -102,7 +71,6 @@ Example customization:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/customization-cs1" %}
-{% endif %}
 
 ## Format Strings
 
@@ -127,21 +95,6 @@ Format string placeholders for link tooltips:
 
 **Example with custom format strings:**
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs1/index.js %}
@@ -152,7 +105,6 @@ Format string placeholders for link tooltips:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs1" %}
-{% endif %}
 
 ## Inline tooltip formatting
 
@@ -203,21 +155,6 @@ The following number formats are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs2/index.js %}
@@ -228,28 +165,12 @@ If the specified format does not match the resolved value type, the original val
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/format-cs2" %}
-{% endif %}
 
 ## Advanced Tooltip Configuration
 
 ### Tooltip Rendering Event
 
 Use the `tooltipRendering` event to customize tooltip content dynamically and enable custom logic based on specific conditions:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/rendering-event-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/rendering-event-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/rendering-event-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -261,7 +182,6 @@ Use the `tooltipRendering` event to customize tooltip content dynamically and en
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/tooltip/rendering-event-cs1" %}
-{% endif %}
 
 ## Disabling Tooltips
 

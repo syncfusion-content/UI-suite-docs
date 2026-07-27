@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Templates in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all the features about templates in Blazor Gantt Chart component and much more details.
-platform: gantt-sdk
+title: Templates in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about templates in Syncfusion Blazor Gantt Chart component and much more details.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
@@ -34,4 +34,4 @@ For example, the data in a column template can be accessed using `context` as sh
 
 In Blazor, when a component includes a `RenderFragment` property, it restricts the use of other child components outside that fragment. This is a framework-defined behavior [by design in Blazor](https://github.com/dotnet/aspnetcore/issues/10836), which prevents placing additional child components directly within the parent component.
 
-Due to this limitation, templates such as `TaskbarTemplate` and `MilestoneTemplate` cannot be declared directly under the Gantt Chart component. Instead, they must be wrapped inside a `GanttTemplates` component to ensure proper structure and rendering.
+Due to this limitation, templates such as [TaskbarTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTemplates-1.html#Syncfusion_Blazor_Gantt_GanttTemplates_1_TaskbarTemplate) and [MilestoneTemplate](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTemplates-1.html#Syncfusion_Blazor_Gantt_GanttTemplates_1_MilestoneTemplate) cannot be declared directly under the Gantt Chart component. Instead, they must be wrapped inside a [GanttTemplates](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTemplates-1.html) component to ensure proper structure and rendering.

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Work in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all about Work in Blazor Gantt Chart component, its configuration, usage, and key features.
-platform: gantt-sdk
+title: Work in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about Work in Syncfusion Blazor Gantt Chart component and much more details.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---
@@ -10,39 +10,31 @@ documentation: ug
 # Work in Blazor Gantt Chart Component
 
 ## Work
- 
-Work represents the total amount of time required to complete a task. Work can be mapped from the data source field using the property [GanttTaskFields.Work](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTaskFields.html#Syncfusion_Blazor_Gantt_GanttTaskFields_Work). By default, work is measured in `Hour`, and this can be changed using the `WorkUnit` property.
- 
-The Blazor Gantt Chart component supports the following work units:
- 
-* [Hour](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.WorkUnit.html#fields) - Displays work values in hours. This is the default work unit.
-* [Day](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.WorkUnit.html#fields) - Displays work values in days.
-* [Minute](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.WorkUnit.html#fields) - Displays work values in minutes.
-* [Week](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.WorkUnit.html#fields) - Displays work values in weeks.
-* [Month](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.WorkUnit.html#fields) - Displays work values in months.
+
+The work is the total hours required to complete a task. Work can be mapped from the data source field using the property [GanttTaskFields.Work](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttTaskFields.html#Syncfusion_Blazor_Gantt_GanttTaskFields_Work). Work can be measured in `Hour`, `Day`, `Minute`. By default, work is measured in `Hour` and it can be changed by using the property `WorkUnit`.
 
 N> When the work field is mapped from the data source, the default task type will be `FixedWork`.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
 <SfGantt @ref="Gantt" DataSource="@TaskCollection" Height="450px" Width="1000px" WorkUnit="WorkUnit.Hour" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress"
-                     ParentID="ParentID" Work="Work"></GanttTaskFields>
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress"
+                     ParentID="ParentId" Work="Work"></GanttTaskFields>
     <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" AllowTaskbarEditing="true" ShowDeleteConfirmDialog="true"></GanttEditSettings>
-    <GanttResource DataSource="ResourceCollection" Id="Id" Name="Name" TValue="TaskInfoModel" TResources="ResourceInfoModel"></GanttResource>
-    <GanttAssignmentFields DataSource="AssignmentCollection" PrimaryKey="PrimaryId" TaskID="TaskID" ResourceID="ResourceId" Units="Unit" TValue="TaskInfoModel" TAssignment="AssignmentModel">
+    <GanttResource DataSource="ResourceCollection" Id="Id" Name="Name" TValue="TaskData" TResources="ResourceInfoModel"></GanttResource>
+    <GanttAssignmentFields DataSource="AssignmentCollection" PrimaryKey="PrimaryId" TaskID="TaskID" ResourceID="ResourceId" Units="Unit" TValue="TaskData" TAssignment="AssignmentModel">
     </GanttAssignmentFields>
-    <GanttLabelSettings TValue="TaskInfoModel" RightLabel="Resources"></GanttLabelSettings>
+    <GanttLabelSettings TValue="TaskData" RightLabel="Resources"></GanttLabelSettings>
 </SfGantt>
 
 @code {
-    public SfGantt<TaskInfoModel> Gantt;
+    public SfGantt<TaskData>? Gantt;
     private DateTime ProjectStart = new DateTime(2026, 03, 25);
     private DateTime ProjectEnd = new DateTime(2026, 05, 10);
-    private List<TaskInfoModel> TaskCollection { get; set; }
-    private List<ResourceInfoModel> ResourceCollection { get; set; }
+    private List<TaskData>? TaskCollection { get; set; }
+    private List<ResourceInfoModel>? ResourceCollection { get; set; }
     private static List<AssignmentModel> AssignmentCollection { get; set; } = new();
     protected override void OnInitialized()
     {
@@ -51,25 +43,23 @@ N> When the work field is mapped from the data source, the default task type wil
         AssignmentCollection = GetAssignmentCollection();
     }
 
-    public class TaskInfoModel
+    public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
-        public string TaskType { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
+        public string? TaskType { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public int Progress { get; set; }
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
         public double? Work { get; set; }
     }
-
     public class ResourceInfoModel
     {
         public int Id { get; set; }
         public string? Name { get; set; }
     }
-
     public class AssignmentModel
     {
         public int PrimaryId { get; set; }
@@ -112,18 +102,17 @@ N> When the work field is mapped from the data source, the default task type wil
         };
         return assignments;
     }
-
-    public static List<TaskInfoModel> GetTaskCollection()
+    public static List<TaskData> GetTaskCollection()
     {
-        List<TaskInfoModel> Tasks = new List<TaskInfoModel>() {
-            new TaskInfoModel() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 03, 30), TaskType ="FixedDuration" },
-            new TaskInfoModel() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 03, 30), Progress = 30, ParentID = 1, Work=16 },
-            new TaskInfoModel() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 03, 30), ParentID = 1, Work=96 },
-            new TaskInfoModel() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 03, 30), Duration = "1", Progress = 30, ParentID = 1, Work=16 },
-            new TaskInfoModel() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 03, 30) },
-            new TaskInfoModel() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 03, 30), Duration = "3", Progress = 30, ParentID = 5, Work=30 },
-            new TaskInfoModel() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 01), Duration = "3", Progress = 30, ParentID = 5, Work=48 },
-            new TaskInfoModel() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 01), Duration = "2", ParentID = 5, Work=60 }
+        List<TaskData> Tasks = new List<TaskData>() {
+        new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 03, 27), EndDate = new DateTime(2026, 04, 21), TaskType ="FixedDuration" },
+        new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 03, 27), Progress = 30, ParentId = 1, Work=16 },
+        new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 03, 27), ParentId = 1, Work=96 },
+        new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 03, 27), Duration = "1", Progress = 30, ParentId = 1, Work=16 },
+        new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 03, 27), EndDate = new DateTime(2026, 04, 21) },
+        new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 03, 27), Duration = "3", Progress = 30, ParentId = 5, Work=30 },
+        new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 01), Duration = "3", Progress = 30, ParentId = 5, Work=48 },
+        new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 01), Duration = "2", ParentId = 5, Work=60 }
         };
         return Tasks;
     }
@@ -132,7 +121,7 @@ N> When the work field is mapped from the data source, the default task type wil
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZrdNQDgUFsJHXeC?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLdXHrABXfbrZmg?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Task type
 
@@ -143,26 +132,25 @@ The work, duration and resource unit fields of a task depends upon each other an
 * [FixedUnit](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.TaskType.html#Syncfusion_Blazor_Gantt_TaskType_FixedUnit) - Resource units will remain constant while updating duration or work field.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
-<SfGantt @ref="Gantt" DataSource="@TaskCollection" Height="450px" Width="1000px" WorkUnit="WorkUnit.Hour" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd">
-    <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress"
-                     ParentID="ParentID" Work="Work" TaskType="TaskType"></GanttTaskFields>
+<SfGantt DataSource="@TaskCollection" Height="450px" Width="1000px" WorkUnit="WorkUnit.Hour" ProjectStartDate="@ProjectStart" ProjectEndDate="@ProjectEnd">
+    <GanttTaskFields Id="TaskId" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress"
+                     ParentID="ParentId" Work="Work" TaskType="TaskType"></GanttTaskFields>
     <GanttEditSettings AllowAdding="true" AllowDeleting="true" AllowEditing="true" AllowTaskbarEditing="true" ShowDeleteConfirmDialog="true"></GanttEditSettings>
-    <GanttResource DataSource="ResourceCollection" Id="Id" Name="Name" TValue="TaskInfoModel" TResources="ResourceInfoModel"></GanttResource>
-    <GanttAssignmentFields DataSource="AssignmentCollection" PrimaryKey="PrimaryId" TaskID="TaskID" ResourceID="ResourceId" Units="Unit" TValue="TaskInfoModel" TAssignment="AssignmentModel">
+    <GanttResource DataSource="ResourceCollection" Id="Id" Name="Name" TValue="TaskData" TResources="ResourceInfoModel"></GanttResource>
+    <GanttAssignmentFields DataSource="AssignmentCollection" PrimaryKey="PrimaryId" TaskID="TaskID" ResourceID="ResourceId" Units="Unit" TValue="TaskData" TAssignment="AssignmentModel">
     </GanttAssignmentFields>
-    <GanttLabelSettings TValue="TaskInfoModel" RightLabel="Resources"></GanttLabelSettings>
+    <GanttLabelSettings TValue="TaskData" RightLabel="Resources"></GanttLabelSettings>
 </SfGantt>
 
 @code {
-    public SfGantt<TaskInfoModel> Gantt;
     private DateTime ProjectStart = new DateTime(2026, 03, 25);
     private DateTime ProjectEnd = new DateTime(2026, 05, 10);
-    private List<TaskInfoModel> TaskCollection { get; set; }
-    private List<ResourceInfoModel> ResourceCollection { get; set; }
-    private static List<AssignmentModel> AssignmentCollection { get; set; } = new();
+    public List<TaskData>? TaskCollection { get; set; }
+    public List<ResourceInfoModel>? ResourceCollection { get; set; }
+    public static List<AssignmentModel> AssignmentCollection { get; set; } = new();
     protected override void OnInitialized()
     {
         TaskCollection = GetTaskCollection();
@@ -170,17 +158,17 @@ The work, duration and resource unit fields of a task depends upon each other an
         AssignmentCollection = GetAssignmentCollection();
     }
 
-    public class TaskInfoModel
+    public class TaskData
     {
-        public int TaskID { get; set; }
-        public string TaskName { get; set; }
+        public int TaskId { get; set; }
+        public string? TaskName { get; set; }
         public TaskType TaskType { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string Duration { get; set; }
+        public string? Duration { get; set; }
         public double Progress { get; set; }
-        public int? ParentID { get; set; }
-        public string Notes { get; set; }
+        public int? ParentId { get; set; }
+        public string? Notes { get; set; }
         public double? Work { get; set; }
     }
 
@@ -231,17 +219,17 @@ The work, duration and resource unit fields of a task depends upon each other an
         };
         return assignments;
     }
-    public static List<TaskInfoModel> GetTaskCollection()
+    public static List<TaskData> GetTaskCollection()
     {
-        List<TaskInfoModel> Tasks = new List<TaskInfoModel>() {
-            new TaskInfoModel() { TaskID = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 03, 30), TaskType = TaskType.FixedDuration, Work=128, Duration="4" },
-            new TaskInfoModel() { TaskID = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 03, 30), Progress = 30, ParentID = 1, Duration="2", Work=16, TaskType = TaskType.FixedWork },
-            new TaskInfoModel() { TaskID = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 03, 30), ParentID = 1, Work=96, Duration="4", TaskType = TaskType.FixedWork },
-            new TaskInfoModel() { TaskID = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 03, 30), Duration = "1", Progress = 30, ParentID = 1, Work=16, TaskType = TaskType.FixedWork },
-            new TaskInfoModel() { TaskID = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 02), TaskType = TaskType.FixedDuration, Duration="4" },
-            new TaskInfoModel() { TaskID = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 02), Duration = "3", Progress = 30, ParentID = 5, Work=30, TaskType = TaskType.FixedWork },
-            new TaskInfoModel() { TaskID = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 03), Duration = "3", Progress = 30, ParentID = 5, TaskType = TaskType.FixedWork, Work=48 },
-            new TaskInfoModel() { TaskID = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 03), Duration = "2", ParentID = 5, Work=60, TaskType = TaskType.FixedWork }
+        List<TaskData> Tasks = new List<TaskData>() {
+            new TaskData() { TaskId = 1, TaskName = "Project initiation", StartDate = new DateTime(2026, 03, 27), EndDate = new DateTime(2026, 07, 27), TaskType = TaskType.FixedDuration, Work=128, Duration="4" },
+            new TaskData() { TaskId = 2, TaskName = "Identify Site location", StartDate = new DateTime(2026, 03, 27), Progress = 30, ParentId = 1, Duration="2", Work=16, TaskType = TaskType.FixedWork },
+            new TaskData() { TaskId = 3, TaskName = "Perform soil test", StartDate = new DateTime(2026, 03, 27), ParentId = 1, Work=96, Duration="4", TaskType = TaskType.FixedWork },
+            new TaskData() { TaskId = 4, TaskName = "Soil test approval", StartDate = new DateTime(2026, 03, 27), Duration = "1", Progress = 30, ParentId = 1, Work=16, TaskType = TaskType.FixedWork },
+            new TaskData() { TaskId = 5, TaskName = "Project estimation", StartDate = new DateTime(2026, 04, 02), EndDate = new DateTime(2026, 04, 06), TaskType = TaskType.FixedDuration, Duration="4" },
+            new TaskData() { TaskId = 6, TaskName = "Develop floor plan for estimation", StartDate = new DateTime(2026, 04, 02), Duration = "3", Progress = 30, ParentId = 5, Work=30, TaskType = TaskType.FixedWork },
+            new TaskData() { TaskId = 7, TaskName = "List materials", StartDate = new DateTime(2026, 04, 03), Duration = "3", Progress = 30, ParentId = 5, TaskType = TaskType.FixedWork, Work=48 },
+            new TaskData() { TaskId = 8, TaskName = "Estimation approval", StartDate = new DateTime(2026, 04, 03), Duration = "2", ParentId = 5, Work=60, TaskType = TaskType.FixedWork }
         };
         return Tasks;
     }
@@ -250,7 +238,7 @@ The work, duration and resource unit fields of a task depends upon each other an
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LZhxZHCiKonraqOn?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/BXrnZHrKrtkmBmLQ?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 The following table explains how the work, duration, and resource unit fields will get updated on changing any of the fields
 

@@ -16,8 +16,6 @@ The 3D Chart will display details about the points through tooltip, when the mou
 
 By default, tooltip is not visible. The tooltip can be enabled by setting the [`Enable`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Enable) property in `TooltipSettings` to **true**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/default-tooltip/tagHelper %}
@@ -27,25 +25,11 @@ By default, tooltip is not visible. The tooltip can be enabled by setting the [`
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/default-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Default-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/default-tooltip/default-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Fixed tooltip
 
 By default, tooltip track the mouse movement, but the tooltip can be set in fixed position by using the [`Location`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Location) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -56,25 +40,11 @@ By default, tooltip track the mouse movement, but the tooltip can be set in fixe
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/fixed-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Fixed-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/fixed-tooltip/fixed-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Format the tooltip
 
 By default, tooltip shows information of x and y value in points. In addition to that, more information can be shown in tooltip by using the [`Format`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Format) property. For example the format `${series.name} : ${point.y}` shows series name and point y value.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -84,18 +54,6 @@ By default, tooltip shows information of x and y value in points. In addition to
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/format-tooltip/format-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/format-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/format-tooltip/format-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -136,8 +94,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/tooltip-format/tagHelper %}
@@ -147,25 +103,11 @@ If the specified format does not match the resolved value type, the original val
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/tooltip-format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/tooltip-format/tooltip-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Tooltip template
 
 Any HTML elements can be displayed in the tooltip by using the [`Template`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Template) property of the tooltip. The ${x} and ${y} can be used as place holders in the HTML element to display the x and y values of the corresponding data point.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -176,25 +118,11 @@ Any HTML elements can be displayed in the tooltip by using the [`Template`](http
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/template/template.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Customize the appearance of tooltip
 
 The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Fill) and [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_Border) properties are used to customize the background color and border of the tooltip respectively. The [`TextStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DTooltipSettings.html#Syncfusion_EJ2_Charts_Chart3DTooltipSettings_TextStyle) property in the tooltip is used to customize the font of the tooltip text.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -204,17 +132,5 @@ The [`Fill`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/custom-tooltip/custom-tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/custom-tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/user-interaction/custom-tooltip/custom-tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

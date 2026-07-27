@@ -20,8 +20,6 @@ In the `ShowTooltip` method, specify the following parameters programmatically t
 * `X` - Data point x-value or x-coordinate value.
 * `Y` - Data point y-value or y-coordinate value.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/tooltip/tagHelper %}
@@ -30,18 +28,6 @@ In the `ShowTooltip` method, specify the following parameters programmatically t
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/tooltip/tooltip.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -54,8 +40,6 @@ In the `ShowCrosshair` method, specify the following parameters programmatically
 * `X` - Specifies the x-value of the point or x-coordinate.
 * `Y` - Specifies the y-value of the point or y-coordinate.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/crosshair/tagHelper %}
@@ -65,25 +49,11 @@ In the `ShowCrosshair` method, specify the following parameters programmatically
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/crosshair/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Crosshair.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/crosshair/crosshair.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Zooming synchronization
 
 You can maintain constant zoom levels across multiple charts using the [`ZoomComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_ZoomComplete) event. In the `ZoomComplete` event, obtain the [`ZoomFactor`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ZoomFactor) and [`ZoomPosition`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_ZoomPosition) values of the particular chart, and then apply those values to the other charts.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -94,25 +64,11 @@ You can maintain constant zoom levels across multiple charts using the [`ZoomCom
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/zooming/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Zooming.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/zooming/zooming.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Selection synchronization
 
 You can select the data across multiple charts using the [`SelectionComplete`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SelectionComplete) event. In the `SelectionComplete` event, obtain the selected values of the particular chart, and then apply those values to the other charts.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -122,17 +78,5 @@ You can select the data across multiple charts using the [`SelectionComplete`](h
 {% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/selection/selection.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/selection/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Selection.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/user-interaction/synchronization/selection/selection.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

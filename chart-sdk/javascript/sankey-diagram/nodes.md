@@ -36,21 +36,6 @@ Customize the global node appearance by configuring the `nodeStyle` property wit
 
 Here is an example of customizing node appearance:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/customization-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/customization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/customization-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/customization-cs1/index.js %}
@@ -61,26 +46,10 @@ Here is an example of customizing node appearance:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/customization-cs1" %}
-{% endif %}
 
 ## Individual Node Customization
 
 Beyond global styling, you can customize the appearance of specific nodes by setting individual properties. Each node can have its own `color`, styling, and appearance settings that override the global `nodeStyle` configuration. This approach is useful when you want certain nodes to stand out or follow a specific color scheme:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/individual-color-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/individual-color-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/individual-color-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -92,7 +61,6 @@ Beyond global styling, you can customize the appearance of specific nodes by set
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/individual-color-cs1" %}
-{% endif %}
 
 ## Opacity and Interaction
 
@@ -104,21 +72,6 @@ Control how nodes appear during user interactions. The Sankey Chart provides thr
 
 Configure these properties to provide visual feedback and improve the interactivity experience:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/opacity-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/opacity-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/opacity-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/opacity-cs1/index.js %}
@@ -129,7 +82,6 @@ Configure these properties to provide visual feedback and improve the interactiv
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/opacity-cs1" %}
-{% endif %}
 
 ## Node Offset
 
@@ -139,21 +91,6 @@ Use the `offset` property to adjust node positions vertically (in Horizontal ori
 - **In Vertical orientation**: Offset adjusts node positions horizontally
 
 This property is useful for manually arranging nodes to avoid overlaps or create specific flow patterns:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/offset-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/offset-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/offset-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -165,7 +102,6 @@ This property is useful for manually arranging nodes to avoid overlaps or create
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/offset-cs1" %}
-{% endif %}
 
 ## Advanced Node Configuration
 
@@ -177,21 +113,6 @@ Use the `nodeRendering` event to customize node appearance dynamically during th
 
 Use the `nodeRendering` event to customize node appearance dynamically before rendering:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/rendering-event-cs/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/rendering-event-cs/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/rendering-event-cs" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/nodes/rendering-event-cs/index.js %}
@@ -202,4 +123,3 @@ Use the `nodeRendering` event to customize node appearance dynamically before re
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/nodes/rendering-event-cs" %}
-{% endif %}

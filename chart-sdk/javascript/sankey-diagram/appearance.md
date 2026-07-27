@@ -26,21 +26,6 @@ Control the size of the Sankey Chart using the `width` and `height` properties. 
 | width | string | null | Width of the chart as a CSS value (e.g., '700px' or '100%'). |
 | height | string | null | Height of the chart as a CSS value (e.g., '420px' or '100%'). |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/dimensions-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/dimensions-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/dimensions-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/dimensions-cs1/index.js %}
@@ -51,26 +36,10 @@ Control the size of the Sankey Chart using the `width` and `height` properties. 
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/dimensions-cs1" %}
-{% endif %}
 
 ## Responsive Sizing
 
 Use percentage-based dimensions for responsive layouts that adapt to container sizes. This is recommended for applications that need to work across different device sizes and screen orientations:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/responsive-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/responsive-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/responsive-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -82,7 +51,6 @@ Use percentage-based dimensions for responsive layouts that adapt to container s
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/responsive-cs1" %}
-{% endif %}
 
 ## Background Customization
 
@@ -95,21 +63,6 @@ Customize the background of the Sankey Chart with solid colors or background ima
 | background | string | null | Background color of the chart (CSS color value). |
 | backgroundImage | string | null | Background image URL. |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/background-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/background-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/background-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/background-cs1/index.js %}
@@ -120,7 +73,6 @@ Customize the background of the Sankey Chart with solid colors or background ima
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/background-cs1" %}
-{% endif %}
 
 ## Border Customization
 
@@ -134,22 +86,6 @@ Customize the border of the Sankey Chart container.
 | border.width | number | 1 | Border width in pixels. |
 | border.dashArray | string | '' | Sets the length of dashes in the stroke of border. |
 
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/border-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/border-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/border-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/border-cs1/index.js %}
@@ -160,7 +96,6 @@ Customize the border of the Sankey Chart container.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/border-cs1" %}
-{% endif %}
 
 ## Margin Customization
 
@@ -175,21 +110,6 @@ Control the spacing around the chart content using margins.
 | margin.top | number | 10 | Top margin in pixels. |
 | margin.bottom | number | 10 | Bottom margin in pixels. |
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/margin-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/margin-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/margin-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/margin-cs1/index.js %}
@@ -200,28 +120,12 @@ Control the spacing around the chart content using margins.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/margin-cs1" %}
-{% endif %}
 
 ## Theme
 
 The Sankey Chart provides multiple built-in themes to customize the visual appearance. Apply a theme using the `theme` property.
 
 ### Theme Configuration
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/theme-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/appearance/theme-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/theme-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -233,4 +137,3 @@ The Sankey Chart provides multiple built-in themes to customize the visual appea
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/appearance/theme-cs1" %}
-{% endif %}

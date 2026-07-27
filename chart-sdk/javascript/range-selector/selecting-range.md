@@ -17,21 +17,6 @@ The Range Selector's left and right thumbs are used to indicate the selected ran
 * By tapping on the labels.
 * By setting the start and the end through the `value` property.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs12/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs12" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs12/index.js %}
@@ -42,4 +27,3 @@ The Range Selector's left and right thumbs are used to indicate the selected ran
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs12" %}
-{% endif %}

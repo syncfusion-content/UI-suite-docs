@@ -148,6 +148,9 @@ To enable file operation functionality in the File Manager, configure the [url](
 {% highlight js tabtitle="App.jsx" %}
 {% include code-snippet/file-manager-sdk/react/default-cs1/app/App.jsx %}
 {% endhighlight %}
+{% highlight js tabtitle="App.jsx" %}
+{% include code-snippet/file-manager-sdk/react/react/default-cs1/app/App.jsx %}
+{% endhighlight %}
 {% highlight css tabtitle="App.css" %}
 {% include code-snippet/file-manager-sdk/react/default-cs1/app/App.css %}
 {% endhighlight %}

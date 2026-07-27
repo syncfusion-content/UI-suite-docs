@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Editor modes 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Editor Mode in TypeScript Rich Text Editor control

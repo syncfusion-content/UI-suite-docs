@@ -21,19 +21,6 @@ To render the data, the Range Selector supports six types of series.
 
 To render a line series, use series `type` as **Line**. By default, the line series is rendered in the Range Selector.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/line/line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/line/razor %}
@@ -42,7 +29,6 @@ To render a line series, use series `type` as **Line**. By default, the line ser
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/line/line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -52,19 +38,6 @@ To render a line series, use series `type` as **Line**. By default, the line ser
 
 To render an area series, use series `type` as **Area**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/area/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Area.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/area/area.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/area/razor %}
@@ -73,7 +46,6 @@ To render an area series, use series `type` as **Area**.
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/area/area.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -83,19 +55,6 @@ To render an area series, use series `type` as **Area**.
 
 To render a Step line series, use series `type` as **Step Line**
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/step/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Step.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/step/step.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/step/razor %}
@@ -104,7 +63,6 @@ To render a Step line series, use series `type` as **Step Line**
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/step/step.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -114,19 +72,6 @@ To render a Step line series, use series `type` as **Step Line**
 
 To render a Spline series, use series `type` as **Spline**
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/spline/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Spline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/spline/spline.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/spline/razor %}
@@ -135,7 +80,6 @@ To render a Spline series, use series `type` as **Spline**
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/spline/spline.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -145,19 +89,6 @@ To render a Spline series, use series `type` as **Spline**
 
 To render a Spline area series, use series `type` as **SplineArea**
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/splinearea/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="SplineArea.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/splinearea/splinearea.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/splinearea/razor %}
@@ -166,7 +97,6 @@ To render a Spline area series, use series `type` as **SplineArea**
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/splinearea/splinearea.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -176,19 +106,6 @@ To render a Spline area series, use series `type` as **SplineArea**
 
 To render a Column series, use series `type` as **Column**
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/column/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/column/column.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/column/razor %}
@@ -197,7 +114,6 @@ To render a Column series, use series `type` as **Column**
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/series-type/column/column.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

@@ -17,19 +17,6 @@ documentation: ug
 
 Date time axis uses date time scale and displays the date time values as axis labels in the specified format.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/dateTime/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Datetime.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/dateTime/datetime.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/dateTime/razor %}
@@ -38,26 +25,12 @@ Date time axis uses date time scale and displays the date time values as axis la
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/dateTime/datetime.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## DateTimeCategory Axis
 
 Date-time category axis is used to display the date-time values with non-linear intervals. For example, the business days alone have been depicted in a week here.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/datetimeCategory/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="DateCategory.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/datetimeCategory/dateCategory.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -67,26 +40,12 @@ Date-time category axis is used to display the date-time values with non-linear 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/datetimeCategory/dateCategory.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Range
 
 Range for an axis, will be calculated automatically based on the provided data, you can also customize the range of the axis using [`Minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`Maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`Interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/range/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -96,7 +55,6 @@ Range for an axis, will be calculated automatically based on the provided data, 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -112,19 +70,6 @@ Date time intervals can be customized by using the [`Interval`](https://help.syn
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/interval/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Interval.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/interval/interval.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/interval/razor %}
@@ -133,7 +78,6 @@ Date time intervals can be customized by using the [`Interval`](https://help.syn
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/interval/interval.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -149,19 +93,6 @@ Padding can be applied to the minimum and maximum extremes of the range by using
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `None`, minimum and maximum of the axis is based on the data.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/none/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="None.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/none/none.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/none/razor %}
@@ -170,26 +101,12 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/none/none.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **DateTime - Round**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `Round`, minimum and maximum will be rounded to the nearest possible value divisible by interval. For example, when the minimum is 15th Jan, interval is 1 and the interval type is ‘month’, then the axis minimum will be Jan 1st.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/round/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Round.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/round/round.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -199,26 +116,12 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/round/round.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **DateTime - Additional**
 
 When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_RangePadding) is set to `Additional`, interval of an axis will be padded to the minimum and maximum of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/additional/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Additional.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/additional/additional.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -228,26 +131,12 @@ When the [`RangePadding`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/additional/additional.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Label Format
 
 You can format and parse the date to all globalize format using [`LabelFormat`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelFormat) property in an axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/label-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/label-format/label-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -257,7 +146,6 @@ You can format and parse the date to all globalize format using [`LabelFormat`]
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/label-format/label-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -310,19 +198,6 @@ The following table describes the result of applying some common date time forma
 
 Axis also supports custom label format using placeholder like {value}°C, in which the value represent the axis label e.g 20°C.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/custom/razor %}
@@ -331,5 +206,4 @@ Axis also supports custom label format using placeholder like {value}°C, in w
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/axis/datetime/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

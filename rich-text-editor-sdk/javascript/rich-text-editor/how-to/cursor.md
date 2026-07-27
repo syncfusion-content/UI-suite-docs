@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Cursor 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Cursor in JavaScript Rich text editor control

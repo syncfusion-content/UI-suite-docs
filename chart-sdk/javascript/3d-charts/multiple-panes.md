@@ -20,21 +20,6 @@ To split the chart area vertically into number of rows, use [`rows`](../api/char
 * The space for each row can be allocated by using the [`height`](../api/chart3d/threeDimensionRowModel/#height) property. The value can be either in percentage or in pixel.
 * To associate a vertical axis to a particular row, specify its index to [`rowIndex`](../api/chart3d/axis3DModel/#rowindex) property of the axis.
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs1/index.js %}
@@ -45,24 +30,8 @@ To split the chart area vertically into number of rows, use [`rows`](../api/char
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs1" %}
-{% endif %}
 
 For spanning the vertical axis along multiple rows, use [`span`](../api/chart3d/axis3DModel/#span)  property of an axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -74,7 +43,6 @@ For spanning the vertical axis along multiple rows, use [`span`](../api/chart3d
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs2" %}
-{% endif %}
 
 ## Columns
 
@@ -82,21 +50,6 @@ To split the chart area horizontally into number of columns, use [`columns`](../
 
 * The space for each column can be allocated by using the [`width`](../api/chart3d/threeDimensionColumnModel/#width) property. The given width can be either in percentage or in pixel.
 * To associate a horizontal axis to a particular column, specify its index to [`columnIndex`](../api/chart3d/axis3DModel/#columnindex) property of the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -108,24 +61,8 @@ To split the chart area horizontally into number of columns, use [`columns`](../
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs3" %}
-{% endif %}
 
 For spanning the vertical axis along multiple column, you can use [`span`](../api/chart3d/axis3DModel/#span) property of an axis.
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs4" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -137,4 +74,3 @@ For spanning the vertical axis along multiple column, you can use [`span`](../a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/3d-charts/multi-pane-cs4" %}
-{% endif %}

@@ -16,19 +16,6 @@ The `lastValueLabel` in a chart allows you to easily display the value of the la
 
 To show the last value label, make sure the `Enable` property inside the `LastValueLabel` settings is set to `true` within the series configuration. 
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LastValueLabel.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label/lastValueLabel.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label/razor %}
@@ -37,24 +24,10 @@ To show the last value label, make sure the `Enable` property inside the `LastVa
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label/lastValueLabel.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Customization
 
 The appearance of the last value label can be customized using style properties such as `Font`, `Background`, `Border`, `DashArray`, `LineWidth`, `LineColor`, `Rx`, and `Ry` in the lastValueLabel property of the chart series. These settings allow you to tailor the label’s look to align with your desired visual presentation.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label-customization/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="LastValueLabelCustomization.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label-customization/lastValueLabelCustomization.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -64,4 +37,3 @@ The appearance of the last value label can be customized using style properties 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/last-value-label-customization/lastValueLabelCustomization.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}

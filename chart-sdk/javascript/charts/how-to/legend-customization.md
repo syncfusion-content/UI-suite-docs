@@ -19,21 +19,6 @@ To Customize the legend shape, follow the given steps:
 
 Set the shape value for each legend using `args.shape` in [`legendRender`](../../api/chart/chartModel/#legendrender) event.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/how-to-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs11" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/how-to-cs11/index.js %}
@@ -44,4 +29,3 @@ Set the shape value for each legend using `args.shape` in [`legendRender`](../..
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/how-to-cs11" %}
-{% endif %}

@@ -19,19 +19,6 @@ The [`containerArea border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncf
 
 The following code example shows the sparkline with overall border.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/border/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/border/razor %}
@@ -40,7 +27,6 @@ The following code example shows the sparkline with overall border.
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/border/border.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -50,19 +36,6 @@ Padding is used to specify padding value between container and sparkline. By def
 
 The following code example shows the sparkline with overall padding is set to 20.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/padding/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Padding.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/padding/padding.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/padding/razor %}
@@ -71,26 +44,12 @@ The following code example shows the sparkline with overall padding is set to 20
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/padding/padding.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Sparkline area customization
 
 The background color of the sparkline area can be customized using the [`containerArea background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineContainerArea~BackGround.html) color. By default, the sparkline background color is `transparent`.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/area-custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Area_custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/area-custom/area_custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -100,7 +59,6 @@ The background color of the sparkline area can be customized using the [`contain
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/area-custom/area_custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -110,19 +68,6 @@ Datalabel and track line colors of the sparkline will be changed based on theme.
 
 The following code example shows the color for datalabel and track line is set to white for dark theme.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/theme/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/theme/theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/theme/razor %}
@@ -131,5 +76,4 @@ The following code example shows the color for datalabel and track line is set t
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/appearance/theme/theme.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

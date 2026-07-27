@@ -165,7 +165,6 @@ Open the generated local URL (for example, `/localhost:5174/`) from terminal in 
 
 ![preact](./images/preact.png)
 
-
 ## See also
 
 [Getting Started with the Syncfusion<sup style="font-size:70%">&reg;</sup> React UI Component](../getting-started/quick-start)

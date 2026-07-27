@@ -41,7 +41,7 @@ public class AzureAIServices : AzureBaseService
     /// </summary>
     public AzureAIServices()
     {
-        
+
     }
 }
 

@@ -15,19 +15,6 @@ You can customize the points by initializing the point colors. The customization
 
 <!-- markdownlint-disable MD036 -->
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/custom/razor %}
@@ -36,26 +23,12 @@ You can customize the points by initializing the point colors. The customization
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 **Tie point color**
 
 Tie point color is used to configure the win-loss series type sparkline's y-value point color. The following code sample shows the tie point color of sparkline series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/tie-point/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tie_point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/tie-point/tie-point.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,5 +38,4 @@ Tie point color is used to configure the win-loss series type sparkline's y-valu
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/specialpoints/tie-point/tie-point.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

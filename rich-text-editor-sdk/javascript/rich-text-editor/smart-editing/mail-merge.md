@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Mail Merge 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Mail merge in JavaScript Rich Text Editor Control

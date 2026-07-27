@@ -2,7 +2,7 @@
 layout: post
 title: Axis padding in .NET MAUI Cartesian Chart control | Syncfusion
 description: Learn here all about how to set padding for chart axis in Syncfusion® .NET MAUI Cartesian Chart (SfCartesianChart) control.
-platform: maui
+platform: chart-sdk
 control: SfCartesianChart
 documentation: ug
 keywords: .net maui cartesian chart axis padding, .net maui cartesian chart axis spacing, .net maui cartesian chart axis padding guide, syncfusion maui cartesian chart axis padding, cartesian chart axis padding maui, .net maui cartesian chart axis margin, customize axis padding .net maui cartesian chart.

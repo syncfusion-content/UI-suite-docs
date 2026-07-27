@@ -86,16 +86,16 @@ npm install @syncfusion/ej2-angular-kanban
 The Kanban component requires specific CSS files for proper rendering. Syncfusion provides multiple themes for the Kanban component. For a complete list of available themes, refer to the [theme packages](https://ej2.syncfusion.com/angular/documentation/appearance/overview#theme-packages).
 
 
-To apply the [tailwind 3](https://www.npmjs.com/package/@syncfusion/ej2-tailwind3-theme) theme, install the corresponding theme package by using the following command:
+To apply the [material 3](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) theme, install the corresponding theme package by using the following command:
 
 ```css
-npm install @syncfusion/ej2-tailwind3-theme
+npm install @syncfusion/ej2-material3-theme
 ```
 
 The installed theme package includes an `index.css` file that automatically imports all the required dependency styles. Import the following stylesheet into `src/styles.css`:
 
 ```css
-@import '../node_modules/@syncfusion/ej2-tailwind3-theme/styles/kanban/index.css';
+@import '../node_modules/@syncfusion/ej2-material3-theme/styles/kanban/index.css';
 ```
 
 ## Adding Kanban component
@@ -107,7 +107,7 @@ Update the `src/app.ts` file to render the Kanban component. Add the Angular Kan
 ```typescript
 import { CardSettingsModel, KanbanModule } from '@syncfusion/ej2-angular-kanban';
 import { Component } from '@angular/core';
- 
+
 @Component({
   imports: [KanbanModule],
   standalone: true,
@@ -132,7 +132,6 @@ export class App {
     contentField: 'Summary',
     headerField: 'Id'
   };
- 
   public data: Object[] = [
     {
       Id: 1,
@@ -206,7 +205,7 @@ This command builds the application and opens it in your default web browser. Th
 For reference, the complete sample used in this section is shown below. The data is extracted to a separate `datasource.ts` file to keep the component focused on configuration.
 
 {% tabs %}
-{% highlight ts tabtitle="app.ts" %}
+{% highlight ts tabtitle="app.component.ts" %}
 {% include code-snippet/gantt-sdk/angular/kanban/getting-started-key-field-cs2/src/app.component.ts %}
 {% endhighlight %}
 

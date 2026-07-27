@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 
 # Change default font family in Vue Rich text editor component
 
-By using [`default`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#fontfamily) property, you can change the default font-family of the Rich Text Editor. To change the font-family of the Rich Text Editor content while loading, we need to give the font-family in the style section with the help of [`cssClass`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/#cssclass) property.
+By using [`default`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#fontfamily) property, you can change the default font-family of the Rich Text Editor. To change the font-family of the Rich Text Editor content while loading, we need to give the font-family in the style section with the help of [`cssClass`](https://ej2.syncfusion.com/vue/documentation/api/rich-text-editor/index-default#cssclass) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

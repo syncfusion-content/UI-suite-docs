@@ -81,7 +81,7 @@ The Blazor Rich Text Editor component's accessibility is validated using the [ax
 
 The accessibility compliance of the Rich Text Editor component is demonstrated in the following sample. Open the [sample](https://blazor.syncfusion.com/accessibility/rich-text-editor) in a new window to evaluate the component with accessibility tools.
 
-N> You can explore the [Blazor Rich Text Editor feature tour page](https://www.syncfusion.com/rich-text-editor-sdk/blazor-rich-text-editor) to see its capabilities. You can also refer to the [Blazor Rich Text Editor demo](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=bootstrap5) to learn how to render and configure the component and its tools.
+N> You can explore the [Blazor Rich Text Editor feature tour page](https://www.syncfusion.com/rich-text-editor-sdk/blazor-rich-text-editor) to see its capabilities. You can also refer to the [Blazor Rich Text Editor demo](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2) to learn how to render and configure the component and its tools.
 
 ## See also
 

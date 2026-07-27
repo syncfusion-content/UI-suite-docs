@@ -18,8 +18,6 @@ This guide covers printing the chart and exporting to various formats with custo
 
 Print the Sankey Chart directly to paper or PDF using the `print()` method. This opens the browser's print dialog, allowing users to select printer settings and output format:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/print/tagHelper %}
@@ -28,19 +26,6 @@ Print the Sankey Chart directly to paper or PDF using the `print()` method. This
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/print/print.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/print/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Print.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/print/print.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Export
 
@@ -59,8 +44,6 @@ The Sankey Chart supports exporting to the following formats:
 Export the chart using default settings with a default filename:
 ### Export with Default Settings
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export/tagHelper %}
@@ -70,24 +53,9 @@ Export the chart using default settings with a default filename:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export/export.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Export with Custom Options
 
 Export the chart with a custom filename and format selection to control output file names and type:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -98,19 +66,6 @@ Export the chart with a custom filename and format selection to control output f
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export-custom/export-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Export Events
 
 ### Before Export Event
@@ -118,8 +73,6 @@ Export the chart with a custom filename and format selection to control output f
 Use the `BeforeExport` event to customize the export process before the file is generated. This allows you to modify chart properties, add watermarks, or perform pre-export calculation
 
 Use the `BeforeExport` event to customize the export process:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -130,24 +83,9 @@ Use the `BeforeExport` event to customize the export process:
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/before-export-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Before-export-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/before-export-event/before-export-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
-
 ## Export Completed Event
 
 Handle the completion of export using the `ExportCompleted` event:
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -157,19 +95,6 @@ Handle the completion of export using the `ExportCompleted` event:
 {% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export-completed-event/export-completed-event.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export-completed-event/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Export-completed-event.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sankey-diagram/print-export/export-completed-event/export-completed-event.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% endif %}
 
 ## Export Format Comparison
 

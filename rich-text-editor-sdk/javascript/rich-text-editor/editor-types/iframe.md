@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: IFrame Editing Mode  
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # IFrame Editing Mode in JavaScript Rich Text Editor control
@@ -114,7 +114,7 @@ Likewise, add the external script file to the `< iframe >` element using the [sc
 
 ## Integrating Mention with Iframe
 
-Rich Text Editor supports advanced features such as Mention control, even when it is rendered inside an iframe. To enable mention functionality within the iframe-mode Rich Text Editor, you need to correctly set the [target](https://ej2.syncfusion.com/documentation/api/mention#target) of the Mention control.
+Rich Text Editor supports advanced features such as Mention control, even when it is rendered inside an iframe. To enable mention functionality within the iframe-mode Rich Text Editor, you need to correctly set the [target](https://ej2.syncfusion.com/documentation/api/mention/index-default#target) of the Mention control.
 
 Specifically, assign the `inputElement` of the Rich Text Editor to the target property of the Mention control. This ensures that the Mention popup is triggered correctly when the user types a designated character (such as @) inside the Rich Text Editor's editable area.
 

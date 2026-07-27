@@ -15,21 +15,6 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 An axis can be positioned dynamically within the chart area using the `crossesAt` and `crossesInAxis` properties. The `crossesAt` property specifies the value (date-time, numeric, or logarithmic) at which the axis line intersects another axis, while the `crossesInAxis` property defines the name of the axis with which the current axis should intersect. This customization is useful for emphasizing specific reference points or thresholds in the chart.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs16/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs16/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs16" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/charts/axis-cs16/index.js %}
@@ -40,26 +25,10 @@ An axis can be positioned dynamically within the chart area using the `crossesAt
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs16" %}
-{% endif %}
 
 ## Title
 
 A title can be added to an axis using the [`title`](../api/chart/axis) property. Axis titles provide context and help users quickly understand the data represented along the axis.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs17/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs17/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs17" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -71,26 +40,10 @@ A title can be added to an axis using the [`title`](../api/chart/axis) property.
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs17" %}
-{% endif %}
 
 ## Title Rotation
 
 The orientation of the axis title can be adjusted using the [`titleRotation`](../api/chart/axis#titlerotation) property. This property supports rotation values from 0 to 360 degrees, allowing better alignment based on the chart layout and available space.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs18/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs18/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs18" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -102,26 +55,10 @@ The orientation of the axis title can be adjusted using the [`titleRotation`](..
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs18" %}
-{% endif %}
 
 ## Tick Lines Customization
 
 The appearance of both major and minor tick lines can be customized using the [`majorTickLines`](../api/chart/axis) and [`minorTickLines`](../api/chart/axis) properties. These properties allow customization of the `width`, `color`, and `size` of tick lines to enhance chart readability.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs19/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs19/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs19" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -133,26 +70,10 @@ The appearance of both major and minor tick lines can be customized using the [`
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs19" %}
-{% endif %}
 
 ## Grid Lines Customization
 
 Grid lines can be styled using the [`majorGridLines`](../api/chart/axis) and [`minorGridLines`](../api/chart/axis) properties. These options support customization of `width`, `color`, and `dashArray`, helping users distinguish data points and scales more effectively.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs20/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs20/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs20" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -164,26 +85,10 @@ Grid lines can be styled using the [`majorGridLines`](../api/chart/axis) and [`m
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs20" %}
-{% endif %}
 
 ## Multiple Axis
 
 In addition to the primary X and Y axes, multiple additional axes can be added to a chart. Each series can be associated with a specific axis by mapping it to the axis using a unique axis name. This is useful for visualizing datasets with different units or scales within the same chart.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs21/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs21/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs21" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -195,28 +100,12 @@ In addition to the primary X and Y axes, multiple additional axes can be added t
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs21" %}
-{% endif %}
 
 ## Inversed Axis
 
 <!-- markdownlint-disable MD033 -->
 
 When an axis is inversed, the highest value is displayed closer to the origin, and the lowest value appears farther away. This behavior can be enabled by setting the [`isInversed`](../api/chart/axis) property to `true`. Inversed axes are commonly used in scenarios such as ranking or inverted value representations.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs22/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs22/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs22" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -228,26 +117,10 @@ When an axis is inversed, the highest value is displayed closer to the origin, a
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs22" %}
-{% endif %}
 
 ## Opposed Position
 
 An axis can be placed on the opposite side of its default position by setting the [`opposedPosition`](../api/chart/axis) property to `true`. This option is useful when displaying multiple axes or when optimizing space usage in complex chart layouts.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs23/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/axis-cs23/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs23" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -259,4 +132,3 @@ An axis can be placed on the opposite side of its default position by setting th
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/axis-cs23" %}
-{% endif %}

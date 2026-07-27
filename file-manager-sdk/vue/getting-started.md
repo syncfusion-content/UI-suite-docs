@@ -127,11 +127,11 @@ To enable file operation functionality in the File Manager, configure the [url](
 
 {% tabs %}
 {% highlight html tabtitle="~/src/App.vue" %}
-{% include code-snippet/file-manager-sdk/vue/getting-started-cs1/app.vue %}
+{% include code-snippet/file-manager-sdk/vue/vue/getting-started-cs1/app.vue %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/vue/help.syncfusion.com/code-snippet/file-manager-sdk/vue/getting-started-cs1" %}
 
 ### Server-side setup
 
@@ -188,8 +188,6 @@ npx serve dist
 - **File Manager not rendering styles:** Ensure the theme CSS is imported in `src/App.vue` and that you removed any default Vue CLI starter styles that may override the File Manager styles.
 - **Trial license warning banner:** Register a license key via `registerLicense()` from `@syncfusion/ej2-base`.
 - **Port 8080 already in use:** Stop the conflicting process or run the Vue CLI dev server on a different port with `npm run serve -- --port 3000`.
-
-N> Looking for the full Vue File Manager component overview, features, pricing, and documentation? Visit the [Vue File Manager](https://www.syncfusion.com/vue-components/vue-file-manager) page.
 
 ## See also
 

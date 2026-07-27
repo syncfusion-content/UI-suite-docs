@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Accessibility 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Accessibility in JavaScript Rich text editor control

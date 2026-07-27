@@ -401,4 +401,3 @@ Schedule.FirstDayOfWeek = DayOfWeek.Monday;
 {% endtabs %}  
 
 ![change-first-day-of-week-in-winui-scheduler](GettingStarted_Images/change-first-day-of-week-in-winui-scheduler.png)
-
