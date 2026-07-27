@@ -85,7 +85,7 @@ The following example shows a default Block Editor component.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/rich-text-editor-sdk/angular/block-editor/getting-started/src/app.component.ts %}
+{% include code-snippet/rich-text-editor-sdk/angular/block-editor/getting-started/src/app.ts %}
 {% endhighlight %}
 
 {% highlight css tabtitle="styles.css" %}
