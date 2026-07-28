@@ -9,7 +9,7 @@ documentation: ug
 
 <!-- markdownlint-disable MD024 -->
 
-# Getting Started with Blazor Kanban Component
+# Getting Started with Blazor Kanban Component in the Blazor WASM App
 
 This guide briefly explains how to include the [Blazor Kanban](https://www.syncfusion.com/gantt-sdk/blazor-kanban-board) component in a Blazor WebAssembly App using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 
@@ -167,7 +167,7 @@ Include the required [script references](https://blazor.syncfusion.com/documenta
 Add the [Blazor Kanban](https://www.syncfusion.com/gantt-sdk/blazor-kanban-board) component in the **~/Pages/*.razor** (for example, **Home.razor**) file.
 
 {% tabs %}
-{% highlight razor %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Kanban
 
