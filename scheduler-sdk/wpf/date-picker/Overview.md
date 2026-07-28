@@ -21,7 +21,7 @@ The [SfDatePicker](https://help.syncfusion.com/cr/wpf/Syncfusion.Windows.Control
 
 ### Key Features
 
-Formatting – The Control displays  the selected Date value in a various formats.
+Formatting – The control displays the selected Date value in various formats.
 
 Date Selector – The drop-down portion used for selecting the date can be customized.
 
