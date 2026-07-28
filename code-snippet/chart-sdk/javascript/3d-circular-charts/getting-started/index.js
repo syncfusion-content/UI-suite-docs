@@ -10,23 +10,10 @@ var circularchart = new ej.charts.CircularChart3D({
                 { x: 'Others', y: 2.34 }
             ],
             xName: 'x',
-            yName: 'y',
-            dataLabel: {
-                visible: true,
-                name: 'x',
-                position: 'Outside',
-                font: {
-                    fontWeight: '600'
-                },
-                connectorStyle: { length: '40px' }
-            },
+            yName: 'y'
         }
     ],
     tilt: -45,
-    title: 'Browser Market Shares in November 2023',
-    legendSettings: {
-        visible: true,
-        position: 'Right'
-    }
+    title: 'Browser Market Shares in November 2023'
 }, '#element');
 

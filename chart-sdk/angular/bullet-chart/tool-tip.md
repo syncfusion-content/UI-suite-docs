@@ -12,21 +12,21 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 When the mouse is hovered over a bar in the Bullet Chart, the tooltip displays important summary about the actual and the target bar values.
 
-## Default Tooltip
+## Enable Tooltip
 
-The tooltip is not visible by default. To make it visible, set the [`enable`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletTooltipSettingsModel/#enable) property in the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/#tooltip) to **true** and injecting `BulletTooltip` module using `BulletChart.Inject(BulletTooltip)`.
+You can enable the tooltip for the Bullet Chart by setting the [`enable`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bullettooltipsettingsmodel#enable) property to `true` in the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/bullet-chart/bulletchartmodel#tooltip) object and by adding the `BulletTooltipService` to the `providers` array in your component:
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/bullet-chart/getting-started/range-cs34/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/bullet-chart/getting-started/tooltip-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/bullet-chart/getting-started/range-cs34/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/bullet-chart/getting-started/tooltip-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/bullet-chart/getting-started/range-cs34" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/bullet-chart/getting-started/tooltip-cs1" %}
 
 ## Tooltip Template
 

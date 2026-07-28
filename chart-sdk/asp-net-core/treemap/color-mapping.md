@@ -1,16 +1,28 @@
 ---
 layout: post
-title: Color Mapping in ASP.NET Core Treemap Component
-description: Learn here all about Color Mapping in Syncfusion ASP.NET Core Treemap component of Syncfusion Essential JS 2 and more.
+title: Color Mapping in ASP.NET Core Treemap Control
+description: Learn here all about Color Mapping in Syncfusion ASP.NET Core Treemap control of Syncfusion Essential JS 2 and more.
 platform: chart-sdk
 control: Color Mapping
 publishingplatform: chart-sdk
 documentation: ug
 ---
 
-# Color Mapping
+# Color Mapping in ASP.NET Core TreeMap Control
 
 Color mapping is used to customize the color for each group or item based on the specified types. The following options are available to customize the group and leaf items in the TreeMap.
+
+## Apply color mapping
+
+Use color mapping to customize item colors based on the underlying value from the bound data source. Specify the field to compare in the `equalColorValuePath` or `rangeColorValuePath` property.
+
+{% tabs %}
+{% highlight cshtml tabtitle="CSHTML" %}
+{% include code-snippet/chart-sdk/asp-net-core/treemap/getting-started/color-mapping/tagHelper %}
+{% endhighlight %}
+{% endtabs %}
+
+![ASP.NET Core TreeMap with ColorMapping](images/treemap-with-color-mapping.webp)
 
 ## Range color mapping
 

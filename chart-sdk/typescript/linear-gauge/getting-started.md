@@ -1,44 +1,72 @@
 ---
 layout: post
-title: Getting started with TypeScript Linear Gauge | Syncfusion
-description:  Checkout and learn about Getting started with TypeScript Linear Gauge Component of Syncfusion Essential JS 2 and more details.
+title: Getting started with TypeScript Linear Gauge control | Syncfusion
+description: Create and configure a Syncfusion JavaScript Linear Gauge in TypeScript using the Essential JS 2 webpack quickstart project.
 platform: chart-sdk
-control: Getting started 
+control: Linear Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript Linear Gauge Component
+# Getting Started with TypeScript Linear Gauge Control
 
-This section walks you through creating a **Linear Gauge** component and configuring its available functionalities in TypeScript using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. By the end of this guide, you will have a fully functional Linear Gauge integrated into a webpack-based TypeScript project.
+This document explains how to create a Linear Gauge and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application uses the `webpack.config.js` configuration and the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires Node.js `v14.15.0` or higher. For more information about webpack and its features, see the [webpack documentation](https://webpack.js.org/guides/getting-started/).
+> The quickstart project uses the provided `webpack.config.js` configuration to compile and bundle the TypeScript application. For more information about webpack, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+
+## Prerequisites
+
+Before you begin, ensure that the following software is installed:
+
+* Node.js with npm
+* [Visual Studio Code](https://code.visualstudio.com) or another text editor
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser such as Chrome, Edge, Firefox, or Safari
+
+> Register your Syncfusion license key before initializing the component. For more information, refer to the [license key registration documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
 
 ## Dependencies
 
-The following lists the minimum dependencies required to use the Linear Gauge:
+The Linear Gauge component is available in the `@syncfusion/ej2-lineargauge` package. The following packages are its minimum dependencies:
 
-```javascript
+```text
 |-- @syncfusion/ej2-lineargauge
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-pdf-export
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Set up development environment
+Compatible package versions are resolved from the project-root `package.json` file. Keep all Syncfusion package versions consistent to avoid dependency conflicts.
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+## Quick Setup
+
+### Step 1: Create a Project Folder
+
+Create a folder named `my-linear-gauge` in your preferred location. This folder will contain the Linear Gauge TypeScript project.
+
+### Step 2: Open a Terminal
+
+Open a terminal and navigate to the `my-linear-gauge` folder.
+
+* On Windows, use Command Prompt or PowerShell.
+* On macOS or Linux, use Terminal.
+
+### Step 3: Clone the Quickstart Repository
+
+Run the following command to clone the Syncfusion JavaScript quickstart project:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
 
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to the Project Folder
+
+Navigate to the cloned project directory:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -48,11 +76,9 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+### Step 5: Install the Required Packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
-
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+Run the following command from the project root to install the dependencies listed in `package.json`:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -62,30 +88,31 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-## Adding Linear Gauge component to the project
+### Step 6: Update the HTML Template
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS2 Linear Gauge component can be added to the application. To get started, add the Linear Gauge component to the **app.ts** and **index.html** files using the following code.
+Open the `ej2-quickstart` folder in Visual Studio Code or another text editor.
 
-Add an HTML div element to act as the Linear Gauge element in the **index.html** file using the following code.
+Locate the `src/index.html` file. Preserve the existing content generated by the seed project and add a `<div>` element with the ID `container` inside the `<body>` element.
 
 {% tabs %}
-{% highlight html tabtitle="index.html" %}
+{% highlight html tabtitle="src/index.html" %}
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>EJ2 Linear gauge</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
-    <meta name="author" content="Syncfusion" />
+    <title>Essential JS 2 Linear Gauge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syncfusion Linear Gauge TypeScript example">
+    <meta name="author" content="Syncfusion">
+    <!-- Preserve the existing head content from the seed template. -->
 </head>
 
 <body>
-    <!-- container which is going to render the linear gauge -->
-    <div id='container'>
-    </div>
+    <h1>Syncfusion Linear Gauge</h1>
+    <!-- Container for the Linear Gauge. -->
+    <div id="element"></div>
 </body>
 
 </html>
@@ -93,121 +120,93 @@ Add an HTML div element to act as the Linear Gauge element in the **index.html**
 {% endhighlight %}
 {% endtabs %}
 
-Import the LinearGauge component in the **app.ts** file to initialize the Linear Gauge and append the Linear Gauge instance to the `#container`.
+The webpack configuration supplied by the quickstart project compiles the TypeScript entry file and loads the generated bundle in this page.
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
+### Step 7: Create the Linear Gauge Component
 
-import { LinearGauge } from '@syncfusion/ej2-lineargauge';
-
-// initialize linear gauge component
-let gauge: LinearGauge = new LinearGauge();
-
-// render initialized linear gauge
-gauge.appendTo('#container');
-
-{% endhighlight %}
-{% endtabs %}
-
-## Run the application
-
-The quickstart project is configured to compile and run the application in the browser.
-
-{% tabs %}
-{% highlight bash tabtitle="NPM" %}
-
-npm start
-
-{% endhighlight %}
-{% endtabs %}
-
-The following example demonstrates a basic Linear Gauge component.
+Locate the `src/app/app.ts` file and add the following code:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs2/index.ts %}
 {% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs2/index.html %}
+{% endtabs %}
+
+The `LinearGauge` constructor creates the component and the `appendTo('#element')` call renders the component in the HTML element whose ID matches the supplied selector.
+
+### Step 8: Run the Application
+
+Run the following command from the project root:
+
+{% tabs %}
+{% highlight bash tabtitle="NPM" %}
+
+npm run start
+
 {% endhighlight %}
 {% endtabs %}
-          
+
+Wait for webpack to finish compiling the application. If the browser does not open automatically, open the local URL displayed in the terminal.
+
+The project commonly runs at:
+
+```text
+http://localhost:4000/
+```
+
+The exact port can vary based on the webpack development-server configuration. To stop the development server, press `Ctrl+C` in the terminal.
+
+## Output
+
+After completing the quick setup, the browser displays a Linear Gauge with its default axis. The additional examples demonstrate how to add a title, define the axis range, format axis labels, enable optional modules, and set the pointer value.
+
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs2" %}
+
+![Syncfusion Linear Gauge Quick Start Output](./images/linear-gauge-TS.png)
 
 ## Module Injection
 
-The Linear Gauge component uses modular architecture to optimize bundle size. Features are provided as individual modules that must be explicitly injected to enable them. This approach allows you to include only the features your application requires.
+Basic Linear Gauge rendering does not require feature-module injection. Inject a module only when its corresponding optional feature is used.
 
-**Available Feature Modules:**
+The following optional feature modules are available:
 
-  * Annotation -  Inject this module to use the annotation features.
-  * GaugeTooltip - Inject this module to use the tooltip features.
+* [`Annotations`](https://ej2.syncfusion.com/documentation/api/linear-gauge/annotationmodel) enables annotation content in the Linear Gauge.
+* [`GaugeTooltip`](https://ej2.syncfusion.com/documentation/api/linear-gauge/tooltipsettingsmodel) enables tooltips for gauge elements.
 
-Import the required feature modules from the Linear Gauge package and inject them using **LinearGauge.Inject()**.
+Import `LinearGauge` with the required modules and call `LinearGauge.Inject()` before creating the component:
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
+```typescript
+import {
+    Annotations,
+    GaugeTooltip,
+    LinearGauge
+} from '@syncfusion/ej2-lineargauge';
 
-import { GaugeTooltip, Annotations } from '@syncfusion/ej2-lineargauge';
 LinearGauge.Inject(Annotations, GaugeTooltip);
 
-{% endhighlight %}
-{% endtabs %}
+const gauge: LinearGauge = new LinearGauge({
+    tooltip: {
+        enable: true
+    },
+    axes: [{
+        annotations: [{
+            content: '<div>Temperature</div>',
+            x: 0,
+            y: 0
+        }]
+    }]
+});
 
-## Adding the Linear Gauge Title
+gauge.appendTo('#container');
+```
 
-Add a title to the Linear Gauge component using the [`title`](../api/linear-gauge/linearGaugeModel#title) property.
+Only inject [`Annotations`](https://ej2.syncfusion.com/documentation/api/linear-gauge/annotationmodel) or [`GaugeTooltip`](https://ej2.syncfusion.com/documentation/api/linear-gauge/tooltipsettingsmodel) when the application configures the corresponding annotation or tooltip feature.
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs3" %}
+## Troubleshooting
 
-## Axis Range
-
-Configure the axis range using the [`minimum`](../api/linear-gauge/axis#minimum) and [`maximum`](../api/linear-gauge/axis#maximum) properties to define the scale of your Linear Gauge.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs4" %}
-
-To add units like °C to axis labels, set the [`format`](../api/linear-gauge/labelModel#format) property in the [`labelStyle`](../api/linear-gauge/axis#labelstyle) object of the axis to **{value}°C**. The **{value}** placeholder is replaced with each axis label. To customize the pointer position, set the [`value`](../api/linear-gauge/pointer#value) property in the [`pointers`](../api/linear-gauge/pointerModel) array of the axis.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs5" %}
-
-## Setting the value of the pointer
-
-Modify the pointer value using the [`value`](../api/linear-gauge/pointer#value) property in the [`pointers`](../api/linear-gauge/pointer) array of the axis.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/linear-gauge/getting-started-cs6" %}
+* **The repository cannot be cloned.** Verify that Git is installed, confirm the internet connection, and run `git --version`.
+* **`npm install` fails.** Verify that Node.js and npm are installed by running `node --version` and `npm --version`.
+* **`Cannot find module '@syncfusion/ej2-lineargauge'`.** Run `npm install @syncfusion/ej2-lineargauge --save` from the project root.
+* **The TypeScript application does not compile.** Ensure that all Syncfusion packages use compatible versions and run `npm run build` to view the complete error.
+* **The page is blank.** Check the browser console for errors and confirm that webpack completed the build successfully.
+* **The Linear Gauge is not displayed.** Ensure that the HTML container ID is `container` and that `appendTo('#container')` uses the same ID.

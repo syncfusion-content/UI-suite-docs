@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Getting started with TypeScript Maps component | Syncfusion
-description:  Checkout and learn about Getting started with TypeScript Maps component of Syncfusion Essential JS 2 and more details.
+title: Getting Started with TypeScript Maps Component | Syncfusion
+description: Check out and learn about getting started with the TypeScript Maps component of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: Getting started 
+control: Getting started
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started with TypeScript Maps component
+# Getting Started with the ##Platform_Name## Maps Component
 
 This section explains how to create a Maps component and configure its available functionalities in TypeScript using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
 
@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed on your machine:
 * [Node.js](https://nodejs.org/en) (v14.15.0 or higher)
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
 * [Git](https://git-scm.com/) (for cloning the quickstart repository)
-* A web browser to view the result
+* A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
 * Basic knowledge of TypeScript and webpack
 
 ## Dependencies
@@ -53,12 +53,12 @@ Create a folder named `my-maps` in your desired location. This folder will conta
 
 Open the command prompt and navigate to your desired directory where you want to create the project. You can do this by:
 
-* **For Windows**: Open Command Prompt (cmd) or PowerShell
-* **For macOS/Linux**: Open Terminal
+* **Windows**: Command Prompt (cmd) or PowerShell
+* **macOS / Linux**: Terminal
 
 ### Step 3: Clone the Quickstart Repository
 
-Run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+Run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-). The repository will be cloned into a sub-folder named `ej2-quickstart`.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -68,7 +68,7 @@ git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quick
 {% endhighlight %}
 {% endtabs %}
 
-### Step 4: Navigate to Project Folder
+### Step 4: Navigate to the Project Folder
 
 After cloning the application in the `ej2-quickstart` folder, run the following command to navigate to the project directory.
 
@@ -94,11 +94,11 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-This command will download and install all necessary dependencies for your project.
+This downloads and installs every package the project needs.
 
 ### Step 6: Update the HTML Template
 
-Open the `ej2-quickstart` folder in Visual Studio Code or any text editor of your choice.
+Open the `ej2-quickstart` folder in Visual Studio Code and edit `src/index.html`. Replace its `<body>` with the snippet below, which adds a `<div id="container">` that the Maps control will render into. The container has an explicit width and height so the map is visible.
 
 > Note: Code snippets here use webpack for local development. For online demos or StackBlitz, SystemJS may be used—ignore loader/helper scripts in rendered previews.
 
@@ -109,20 +109,17 @@ Locate the `~/src/index.html` file in the project. Add the HTML div tag with its
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>EJ2 Maps</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
+    <meta name="description" content="TypeScript UI Controls" />
     <meta name="author" content="Syncfusion" />
 </head>
-
 <body>
     <h1>Syncfusion Maps</h1>
-    <!--container which is going to render the Map-->
-    <div id='container'>
-    </div>
+    <!-- Container that renders the Map -->
+    <div id="container" style="width: 100%; height: 400px;"></div>
 </body>
 
 </html>
@@ -149,7 +146,7 @@ const shapeData: object = {
     } 
 };
 
-// Initialize and render Maps
+// Create the Maps control with one layer
 const map: Maps = new Maps({
     layers: [
         {
@@ -158,7 +155,7 @@ const map: Maps = new Maps({
     ]
 });
 
-// Append Maps to container
+// Render the map into the <div> with id="container"
 map.appendTo('#container');
 
 {% endhighlight %}
@@ -166,7 +163,7 @@ map.appendTo('#container');
 
 ### Step 8: Run the Application
 
-Open the integrated terminal in Visual Studio Code or use your command prompt to run the application. Use the `npm start` command:
+Open the integrated terminal in Visual Studio Code and run:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -187,3 +184,25 @@ Wait for the webpack dev server to complete the build process. Once completed, y
 The following screenshot shows the output of the Syncfusion Maps quick start application:
 
 ![Syncfusion Maps Quick Start Output](../maps/images/MapProviders/maps.png)
+
+## Troubleshooting
+
+If the Maps control does not render as expected, review the most common issues below and apply the suggested fix for each.
+
+* **Browser console shows `Maps is not a constructor` (or `ej.maps is undefined`).**
+  *Possible cause:* the `@syncfusion/ej2-maps` package was not installed, or two different versions are present.
+  *Suggested fix:* run `npm install @syncfusion/ej2-maps` and ensure a single `@syncfusion/ej2*` version is used in `package-lock.json`.
+
+* **Map shapes are missing or only borders appear.**
+  *Possible cause:* the GeoJSON URL returned an error, or the `shapeData` path is wrong.
+  *Suggested fix:* open the `shapeData` URL directly in the browser to confirm it returns valid GeoJSON.
+
+* **`git clone` fails with `Repository not found`.**
+  *Possible cause:* the URL is outdated or the repository was renamed.
+  *Suggested fix:* confirm the URL at [github.com/SyncfusionExamples/ej2-quickstart-webpack](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
+
+## Next Steps
+
+* Explore the [Maps API reference](https://ej2.syncfusion.com/javascript/documentation/api/maps) for available properties, events, and methods.
+* Add additional [layers](https://ej2.syncfusion.com/javascript/documentation/maps/layers), [markers](https://ej2.syncfusion.com/javascript/documentation/maps/markers), and [legends](https://ej2.syncfusion.com/javascript/documentation/maps/legend).
+* Browse the [Maps samples](https://ej2.syncfusion.com/javascript/demos/#/bootstrap5/maps/default) for runnable examples.

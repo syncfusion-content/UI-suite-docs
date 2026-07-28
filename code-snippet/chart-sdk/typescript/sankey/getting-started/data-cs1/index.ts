@@ -1,6 +1,4 @@
-import { Sankey, SankeyNodeModel, SankeyLinkModel, SankeyTooltip, SankeyLegend, SankeyExport } from '@syncfusion/ej2-charts';
-
-Sankey.Inject(SankeyTooltip, SankeyLegend, SankeyExport);
+import { Sankey, SankeyNodeModel, SankeyLinkModel } from '@syncfusion/ej2-charts';
 
 const nodes: SankeyNodeModel[] = [
   { id: 'Energy Input', label: { text: 'Energy Input' } },
@@ -21,9 +19,7 @@ const sankey: Sankey = new Sankey(
     height: '420px',
     title: 'Energy Flow Diagram',
     nodes: nodes,
-    links: links,
-    tooltip: { enable: true },
-    legendSettings: { visible: true }
+    links: links
   },
   '#sankey-container'
 );

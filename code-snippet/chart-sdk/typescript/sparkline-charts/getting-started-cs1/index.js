@@ -15,7 +15,9 @@ var sparklineInstance = new ej.charts.Sparkline({
             { x: 9, xval: '2014', yval: 22507620 },
         ],
     // Assign the dataSource values to series of Sparkline 'xName and yName'
-    xName: 'xval', yName: 'yval'
+    xName: 'xval', yName: 'yval',
+    // Assign the 'area' as type of Sparkline
+    type:'Area'
 });
 //Render initialized Sparkline
 sparklineInstance.appendTo("#element");

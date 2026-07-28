@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Getting started with JavaScript Stock Chart control | Syncfusion
-description:  Check out and learn about Getting started with JavaScript Stock Chart control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about Getting started with JavaScript Stock Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: Stock Chart 
+control: Stock Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -18,11 +18,11 @@ Build your first Syncfusion JavaScript (ES5) application with a simple Stock Cha
 ## Prerequisites
 
 * [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
-* A web browser to view the result
+* A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
 
 ## Quick Setup
 
-### Step 1: Create Folder and HTML file
+### Step 1: Create Folder and HTML File
 
 * Create a folder named `quickstart` in your desired directory
 * Inside the `quickstart` folder, create a new file named `index.html`
@@ -33,57 +33,57 @@ Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style
 
 **Option 1: Using Common CDN Bundle (Recommended)**
 
-Include a single CDN link that contains all Syncfusion JavaScript controls:
+Include a single CDN link that contains all Syncfusion JavaScript controls in the `<head>` section of your HTML file:
 
 ```
-https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js
 ```
 
 **Option 2: Using Individual CDN Packages**
 
-Include the following CSS and JavaScript links in the `<head>` section:
+Include only the styles and scripts required for the Stock Chart control. Add the following CSS and JavaScript links in the `<head>` section:
 
 **Styles (CSS):**
 ```
-https://cdn.syncfusion.com/ej2/33.2.3/tailwind3.css
+https://cdn.syncfusion.com/ej2/34.1.29/tailwind3.css
 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 ```
 
 **Scripts (JavaScript):**
 ```
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-file-utils/dist/global/ej2-file-utils.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-compression/dist/global/ej2-compression.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-svg-base/dist/global/ej2-svg-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-navigations/dist/global/ej2-navigations.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-calendars/dist/global/ej2-calendars.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-popups/dist/global/ej2-popups.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-lists/dist/global/ej2-lists.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-inputs/dist/global/ej2-inputs.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-buttons/dist/global/ej2-buttons.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-charts/dist/global/ej2-charts.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-file-utils/dist/global/ej2-file-utils.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-compression/dist/global/ej2-compression.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-navigations/dist/global/ej2-navigations.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-calendars/dist/global/ej2-calendars.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-popups/dist/global/ej2-popups.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-lists/dist/global/ej2-lists.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-inputs/dist/global/ej2-inputs.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-buttons/dist/global/ej2-buttons.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-splitbuttons/dist/global/ej2-splitbuttons.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js
 ```
 
-### Step 3: Add Syncfusion<sup style="font-size:70%">&reg;</sup> Stock Chart control to the application
+### Step 3: Add Syncfusion<sup style="font-size:70%">&reg;</sup> Stock Chart Control to the Application
 
 Copy and paste the following complete code into your `index.html` file:
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Syncfusion Stock Chart - Quick Start</title>
 
     <!-- Styles -->
-    <link href="https://cdn.syncfusion.com/ej2/33.2.3/tailwind3.css" rel="stylesheet">
+    <link href="https://cdn.syncfusion.com/ej2/34.1.29/tailwind3.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/dist/ej2.min.js" type="text/javascript"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -110,8 +110,12 @@ Copy and paste the following complete code into your `index.html` file:
         var chart = new ej.charts.StockChart({
             series: [{
                 dataSource: chartData,
-                type: 'Candle',
-                high: 'high', low: 'low', open: 'open', close: 'close', xName: 'x',
+                type: 'Candle',   // Series type: renders OHLC as candlesticks
+                xName: 'x',       // Field mapped to the x-axis (date)
+                open: 'open',     // Field mapped to the open price
+                high: 'high',     // Field mapped to the high price
+                low: 'low',       // Field mapped to the low price
+                close: 'close'    // Field mapped to the close price
             }]
         });
         // Render Chart
@@ -122,12 +126,32 @@ Copy and paste the following complete code into your `index.html` file:
 </html>
 ```
 
+#### Series Property Reference
+
+| Property | Description |
+| --- | --- |
+| `dataSource` | The data array used to render the chart |
+| `type` | The series type. For Stock Chart, use `'Candle'`, `'OHLC'`, `'Line'`, `'Area'`, or `'Column'` |
+| `xName` | The field in the data source that maps to the x-axis (typically a date) |
+| `open` | The field in the data source that maps to the open price |
+| `high` | The field in the data source that maps to the high price |
+| `low` | The field in the data source that maps to the low price |
+| `close` | The field in the data source that maps to the close price |
+
+
 ### Step 4: Open in Browser
 
-Open the `quickstart/index.html` file in your web browser. You should see the Syncfusion Stock Chart control displaying the sample data.
+Open `quickstart/index.html` through a local web server (for example, right-click the file in VS Code with the Live Server extension installed and choose **Open with Live Server**). The page should display the Syncfusion Stock Chart control rendered with the candle series.
 
 ## Output
 
-The following screenshot shows the output of the Syncfusion Stock Chart quick start application:
+The page should display the Syncfusion Stock Chart control rendered with the candle series.
 
 ![Syncfusion Stock Chart Quick Start Output](./images/stockchart.png)
+
+## Troubleshooting
+
+* **Blank page, no chart** — The CDN script failed to load. Verify internet access and that the CDN URL returns a `200 OK` response.
+* **`ej is not defined`** — `ej2.min.js` did not load before the chart script. Move the `<script>` tag into the `<head>` or before your chart code.
+* **Chart renders without data** — Mismatched field names between `dataSource` and series props. Ensure `xName`, `open`, `high`, `low`, and `close` match the data keys exactly.
+
