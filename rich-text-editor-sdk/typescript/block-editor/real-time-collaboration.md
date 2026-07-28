@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Collaborative Editing in Block Editor Control | Syncfusion
-description: Enable real-time collaborative editing in the Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
+title: Real-Time Collaboration in TypeScript Block Editor | Syncfusion
+description: Enable real-time collaborative editing in the TypeScript Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
 platform: rich-text-editor-sdk
 control: Block Editor
 publishingplatform: rich-text-editor-sdk
@@ -29,15 +29,9 @@ With collaboration enabled, users can:
 
 Get real-time collaboration working in just a few minutes using `y-websocket` and a simple WebSocket server in our Block Editor component.
 
-### Prerequisites
-
-Before you begin, ensure you have:
-
-* A Vite-based Typescript project with the Block Editor component (see [Getting Started](./getting-started.md) if you haven't done this yet)
-
 ### Step 1: Set up a basic Vite Typescript Block Editor component
 
-Follow the [Getting Started guide](./getting-started.md) to create a Vite-based Typescript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](https://helpstaging.syncfusion.com/rich-text-editor-sdk/typescript/block-editor/getting-started) to create a Vite-based Typescript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 Once you have a basic Block Editor component running, proceed to Step 2.
 
@@ -49,7 +43,7 @@ See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choos
 
 | Provider | Type | Use Case |
 | -------- | ---- | -------- |
-| `y-websocket` | Self-hosted | Production deployments with your own WebSocket server. |
+| [y-websocket](https://docs.yjs.dev/ecosystem/connection-provider/y-websocket) | Self-hosted | Production deployments with your own WebSocket server. |
 | `y-webrtc` | Peer-to-peer | Quick local testing and development; no server required. |
 | `y-indexeddb` | Local storage | Offline persistence within a single browser. |
 | [Hocuspocus](https://tiptap.dev/docs/hocuspocus/getting-started/overview) | Open-source server | Scalable Node.js server with pluggable storage and Redis support. |
@@ -104,7 +98,7 @@ Create a new file named `collaboration.ts` in your `src` folder. This file will 
 
 ```typescript
 import * as Y from 'yjs';
-import { type YjsAdapter } from '@syncfusion/ej2-blockeditor';
+import type { YjsAdapter } from '@syncfusion/ej2-blockeditor';
 import { WebsocketProvider } from 'y-websocket';
 
 // Create a shared Yjs document for collaborative editing
@@ -182,7 +176,7 @@ export { yDoc, yFragment, adapter, provider, roomName };
 - It provides properties such as `provider`, `enableAwareness`, `adapter`, and `versionHistory` which allow you to customize the collaboration behavior.
 - Set `enableAwareness` to `true` in `collaborationSettings` property to display remote cursors, text selection overlays, and user details on hover.
 
-In your Typescript file, add the following code. Replace your existing Block Editor setup with this:
+In your `main.ts` file, replace the existing Block Editor code with the following:
 
 ```typescript
 import './style.css';
@@ -360,6 +354,58 @@ setInterval(renderSnapshots, 2000);
 </div>
 
 {% endhighlight %}
+{% highlight ts tabtitle="versionHistoryService.ts" %}
+
+import type { IVersionStorage, VersionSnapshot } from '@syncfusion/ej2-blockeditor';
+
+export class IndexedDBVersionStorage implements IVersionStorage {
+    private db: IDBDatabase | null = null;
+    private initPromise: Promise<void>;
+
+    constructor(dbName: string) {
+        this.initPromise = new Promise((resolve) => {
+            const req = indexedDB.open(dbName, 1);
+            req.onsuccess = () => { this.db = req.result; resolve(); };
+            req.onupgradeneeded = (e) => {
+                const db = (e.target as IDBOpenDBRequest).result;
+                if (!db.objectStoreNames.contains('snapshots')) {
+                    db.createObjectStore('snapshots', { keyPath: 'id' });
+                }
+            };
+        });
+    }
+
+    private exec(mode: 'readonly' | 'readwrite', fn: (store: IDBObjectStore) => IDBRequest): Promise<any> {
+        return this.initPromise.then(() => new Promise((resolve, reject) => {
+            const tx = this.db!.transaction('snapshots', mode);
+            const req = fn(tx.objectStore('snapshots'));
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => reject(req.error);
+        }));
+    }
+
+    async saveSnapshot(snapshot: VersionSnapshot): Promise<void> {
+        await this.exec('readwrite', (store) => store.put(snapshot));
+    }
+
+    async loadAllSnapshots(): Promise<VersionSnapshot[]> {
+        return await this.exec('readonly', (store) => store.getAll());
+    }
+
+    async loadSnapshot(id: string): Promise<VersionSnapshot | null> {
+        return await this.exec('readonly', (store) => store.get(id));
+    }
+
+    async deleteSnapshot(id: string): Promise<void> {
+        await this.exec('readwrite', (store) => store.delete(id));
+    }
+
+    async clearAll(): Promise<void> {
+        await this.exec('readwrite', (store) => store.clear());
+    }
+}
+
+{% endhighlight %}
 {% highlight css tabtitle="App.css" %}
 
 .app-container {
@@ -413,58 +459,6 @@ setInterval(renderSnapshots, 2000);
 
 .delete-btn {
     background-color: #dc3545;
-}
-
-{% endhighlight %}
-{% highlight ts tabtitle="versionHistoryService.ts" %}
-
-import type { IVersionStorage, VersionSnapshot } from '@syncfusion/ej2-blockeditor';
-
-export class IndexedDBVersionStorage implements IVersionStorage {
-    private db: IDBDatabase | null = null;
-    private initPromise: Promise<void>;
-
-    constructor(dbName: string) {
-        this.initPromise = new Promise((resolve) => {
-            const req = indexedDB.open(dbName, 1);
-            req.onsuccess = () => { this.db = req.result; resolve(); };
-            req.onupgradeneeded = (e) => {
-                const db = (e.target as IDBOpenDBRequest).result;
-                if (!db.objectStoreNames.contains('snapshots')) {
-                    db.createObjectStore('snapshots', { keyPath: 'id' });
-                }
-            };
-        });
-    }
-
-    private exec(mode: 'readonly' | 'readwrite', fn: (store: IDBObjectStore) => IDBRequest): Promise<any> {
-        return this.initPromise.then(() => new Promise((resolve, reject) => {
-            const tx = this.db!.transaction('snapshots', mode);
-            const req = fn(tx.objectStore('snapshots'));
-            req.onsuccess = () => resolve(req.result);
-            req.onerror = () => reject(req.error);
-        }));
-    }
-
-    async saveSnapshot(snapshot: VersionSnapshot): Promise<void> {
-        await this.exec('readwrite', (store) => store.put(snapshot));
-    }
-
-    async loadAllSnapshots(): Promise<VersionSnapshot[]> {
-        return await this.exec('readonly', (store) => store.getAll());
-    }
-
-    async loadSnapshot(id: string): Promise<VersionSnapshot | null> {
-        return await this.exec('readonly', (store) => store.get(id));
-    }
-
-    async deleteSnapshot(id: string): Promise<void> {
-        await this.exec('readwrite', (store) => store.delete(id));
-    }
-
-    async clearAll(): Promise<void> {
-        await this.exec('readwrite', (store) => store.clear());
-    }
 }
 
 {% endhighlight %}
@@ -590,3 +584,4 @@ const blockEditor = new BlockEditor({
     }
 });
 ```
+
