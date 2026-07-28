@@ -19,6 +19,7 @@ var treemap = new ej.treemap.TreeMap({
         leafItemSettings: {
             labelPath: 'State',
         }
-}, '#container');
+});
+treemap.appendTo('#container');
 
 

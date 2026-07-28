@@ -79,6 +79,23 @@ The color range support is used to provide a specific color for specific range i
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/palette-cs4" %}
 
+## Add custom cell palette
+
+The default palette settings of the HeatMap cells can be customized by using the [paletteSettings](../api/heatmap#palettesettings) property.
+Using the [palette](../api/heatmap/paletteSettings#palette) property in `paletteSettings` object, you can change the color set for the cells.
+You can change the color mode of the cells to fixed or gradient mode using the [type](../api/heatmap/paletteSettings#type) property.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs6/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs6/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs6" %}
+   
 ## See Also
 
 * [How to enable smart legend](./legend/#smart-legend)

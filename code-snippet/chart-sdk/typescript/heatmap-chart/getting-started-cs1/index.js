@@ -14,5 +14,6 @@ var heatmapData = [
 
 var heatmap = new ej.heatmap.HeatMap({
      dataSource: heatmapData
-}, '#element');
+});
+heatmap.appendTo('#element');
 

@@ -1,196 +1,155 @@
 ---
 layout: post
 title: Getting started with TypeScript Sparkline control | Syncfusion
-description:  Checkout and learn about Getting started with TypeScript Sparkline control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn how to get started with the TypeScript Sparkline control in Syncfusion Essential JS 2.
 platform: chart-sdk
-control: Getting started 
+control: Sparkline
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting started in TypeScript Sparkline control
+# Getting started with TypeScript Sparkline control
 
-This document explains the steps to create a simple Sparkline and demonstrates the basic usage of the TreeGrid component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+This document explains how to create a simple Sparkline and configure its basic features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
+> This application uses the `webpack.config.js` configuration included in the quickstart repository. It requires Node.js `v14.15.0` or later. For information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
+
+## Prerequisites
+
+Before you begin, ensure that the following software is installed:
+
+* Node.js `v14.15.0` or later, including npm
+* [Visual Studio Code](https://code.visualstudio.com) or another text editor
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser, such as Chrome, Edge, Firefox, or Safari
 
 ## Dependencies
 
-The following list of minimum dependencies are required to use the sparkline:
+The Sparkline control is part of the `@syncfusion/ej2-charts` package. The following minimum dependencies are installed automatically with the charts package:
 
-```javascript
+```text
 |-- @syncfusion/ej2-charts
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-data
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Set up development environment
+## Quick setup
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+### Step 1: Create a project folder
+
+Create a folder named `my-sparkline` in your desired location. This folder will contain the Syncfusion Sparkline TypeScript project.
+
+### Step 2: Open a terminal
+
+Open a terminal and navigate to the `my-sparkline` folder created in Step 1.
+
+* **Windows**: Open Command Prompt or PowerShell and navigate to the `my-sparkline` folder.
+* **macOS/Linux**: Open Terminal and navigate to the `my-sparkline` folder.
+
+### Step 3: Clone the quickstart repository
+
+Run the following command to clone the Syncfusion JavaScript quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack):
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
-
 git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
-
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to the project folder
+
+After cloning the project, navigate to the `ej2-quickstart` directory:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
-
 cd ej2-quickstart
-
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+### Step 5: Install the required packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+Syncfusion JavaScript packages are available in the [npm registry](https://www.npmjs.com/~syncfusionorg). The quickstart application is preconfigured with the [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in `package.json`.
 
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+Run the following command to install the project dependencies:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
-
 npm install
-
 {% endhighlight %}
 {% endtabs %}
 
-## Add sparkline to project
+The sample imports the Sparkline control from `@syncfusion/ej2-charts`, which is included through the preconfigured Syncfusion package. To use only the charts package in another project, install it with `npm install @syncfusion/ej2-charts` and keep all Syncfusion package versions aligned.
 
-Add an HTML div element for map into your `index.html`. `[src/index.html]`
+> If the installed Syncfusion package requires license registration, follow the [Syncfusion license key registration documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
+
+### Step 6: Update the HTML template
+
+Open the `ej2-quickstart` folder in Visual Studio Code or another text editor. Locate `src/index.html`, preserve any existing `link` and `script` elements generated by the seed project, and add a `div` element with the ID `element` inside the `body` element.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>EJ2 Sparkline</title>
+    <title>Essential JS 2 Sparkline</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
+    <meta name="description" content="Syncfusion TypeScript Sparkline control" />
     <meta name="author" content="Syncfusion" />
+    <!-- Preserve the existing head content from the seed template. -->
 </head>
-
 <body>
-     <!--container which is going to render the Sparkline-->
-     <div id='element'>
-     </div>
+    <!-- Container in which the Sparkline is rendered. -->
+    <div id="element"></div>
 </body>
-
 </html>
-
 {% endhighlight %}
 {% endtabs %}
 
-Next, import the sparkline control into `index.ts`, create a sparkline instance, and append it to the `#container`.
+### Step 7: Create the Sparkline with data
+
+Locate `src/app/app.ts`. Import the `Sparkline` class, initialize it with a data source, and append it to the `#element` container. Providing data in the initial configuration ensures that the first run produces visible output.
+
+The [`dataSource`](https://ej2.syncfusion.com/documentation/api/sparkline/index-default#datasource) property accepts numeric values or objects. When using objects, set [`xName`](https://ej2.syncfusion.com/documentation/api/sparkline/index-default#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/sparkline/index-default#yname) to the corresponding field names in the data source.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-
-import { Sparkline } from '@syncfusion/ej2-charts';
-
-// Initialize the sparkline control
-let sparkline: Sparkline = new Sparkline();
-
-// Render initialized sparkline
-sparkline.appendTo('#element');
-
+{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs1/index.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-Now, use the `npm run start` command to run the application in browser.
+The `sparkline.appendTo('#element')` call renders the control in the element whose ID is `element`.
+
+### Step 8: Run the application
+
+Run the following command from the project directory:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
-
 npm run start
-
 {% endhighlight %}
 {% endtabs %}
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
+The webpack development server compiles the project and opens it in the default browser. The application typically runs at `http://localhost:4000`. To stop the development server, press `Ctrl+C` in the terminal.
 
-import { Sparkline } from '@syncfusion/ej2-charts';
+### Step 9: View the Sparkline
 
-let sparkline: Sparkline = new Sparkline();
+Wait for webpack to complete the build. The browser displays the Sparkline using the data configured in `src/app/app.ts`.
 
-sparkline.appendTo('#element');
+## Output
 
-{% endhighlight %}
-{% endtabs %}
+After completing the quick setup, the application displays a Sparkline for the configured data. When the tooltip module is injected and `tooltipSettings.visible` is enabled, moving the pointer over a data point displays its value.
 
-Since the data source has not been specified to the sparkline, no shapes will be rendered. Only an empty SVG element is appended to the sparkline container.
-
-## Module injection
-
-The sparkline component is segregated into individual feature-wise modules. To use a particular feature, inject its feature module using the `Sparkline.Inject()` method. The module available in sparkline and its description is as follows.
-
-* SparklineTooltip - Inject this provider to use tooltip series.
-
-In this application, the basic sparkline is modified to demonstrate various sparkline types.
-
-In this application, the tooltip feature of the sparkline is used. Now, import the SparklineTooltip module from the sparkline package, and inject it into the sparkline control using the `Sparkline.Inject` method.
-
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { Sparkline, SparklineTooltip } from '@syncfusion/ej2-charts';
-Sparkline.Inject(SparklineTooltip);
-
-{% endhighlight %}
-{% endtabs %}
-
-## Bind data source to sparkline
-
-The `dataSource` property enables data binding for the sparkline. It accepts a collection of values as input, such as a list of objects.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs4" %}
 
-## Change the type of sparkline
+![Syncfusion Sparkline Quick Start Output](./images/sparkline-TS.png)
 
-The sparkline type can be configured using the `type` property, which supports `Line`, `Column`, `WinLoss`, `Pie`, and `Area`. Here, the `area` type is applied.
+## Troubleshooting
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs5" %}
-
-## Enable tooltip for sparkline
-
-The sparkline provides additional information through a tooltip that appears when the mouse pointer hovers over the chart. You can enable tooltip by setting the [`visible`] property to true in [`tooltipSettings`] and injecting `SparklineTooltip` module using the `Sparkline.Inject(SparklineTooltip )` method.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/sparkline-charts/getting-started-cs6" %}
+* **The page is blank:** Confirm that `npm install` completed successfully and check the browser console and network panel for errors.
+* **`Cannot find module '@syncfusion/ej2-charts'`:** Run `npm install` again, or install the package directly with `npm install @syncfusion/ej2-charts`.
+* **The Sparkline is not displayed:** Verify that the data source contains valid values and that the selector passed to `appendTo('#element')` matches `<div id="element"></div>`.
+* **Only an empty SVG element is rendered:** Add a valid `dataSource` and ensure that `xName` and `yName` match the fields in an object data source.
+* **TypeScript errors occur after package installation:** Ensure that all Syncfusion packages use compatible versions and remove `node_modules` and the lock file before running `npm install` again if versions are mismatched.

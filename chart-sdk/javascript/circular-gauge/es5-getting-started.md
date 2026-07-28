@@ -1,157 +1,79 @@
 ---
 layout: post
-title: Es5 getting started with JavaScript Circular Gauge Component | Syncfusion
-description:  Checkout and learn about Es5 getting started with JavaScript Circular Gauge Component of Syncfusion Essential JS 2 and more details.
+title: ES5 getting started with JavaScript Circular Gauge control | Syncfusion
+description: Create and configure your first Syncfusion JavaScript ES5 Circular Gauge using CDN resources, sample data, and pointer settings.
 platform: chart-sdk
-control: Es5 getting started 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# Getting Started in JavaScript Circular Gauge Component
+# Getting Started with Syncfusion® JavaScript (ES5) Circular Gauge Control
 
-The Syncfusion Essential<sup style="font-size:70%">&reg;</sup> JS 2 library provides ES5-compatible JavaScript components that work with global script references in modern web browsers. The Circular Gauge Component can be initialized by including script files either from a local installation or via CDN links.
+Build your first Syncfusion JavaScript (ES5) application with a simple Circular Gauge in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 Circular Gauge control from the CDN, initializes it, and displays a pointer value.
 
-## Control Initialization
+## Prerequisites
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 JavaScript controls can be initialized by using either of the following ways.
+* [Visual Studio Code](https://code.visualstudio.com) or another text editor
+* A modern web browser
+* A local web server, such as the Visual Studio Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
 
-* Using local script references in a HTML page.
-* Using CDN link for script reference.
+## Dependencies
 
-### Using local script references in a HTML page
+The Circular Gauge control is available in the `@syncfusion/ej2-circulargauge` package. The following dependencies are required:
 
-**Step 1:** Create an app folder `quickstart` for getting started.
+```text
+|-- @syncfusion/ej2-circulargauge
+    |-- @syncfusion/ej2-base
+    |-- @syncfusion/ej2-svg-base
+    |-- @syncfusion/ej2-pdf-export
+```
 
-**Step 2:** Obtain the global scripts from the [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential JS 2)](https://www.syncfusion.com/downloads/essential-js2) installation directory. The paths follow this structure:
+## Quick Setup
 
-**Syntax:**
-> Dependency Script: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{DEPENDENCY_PACKAGE_NAME}\dist\global\{DEPENDENCY_PACKAGE_NAME}.min.js`
->
-> Control Script: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\{PACKAGE_NAME}\dist\global\{PACKAGE_NAME}.min.js`
+### Step 1: Create the Folder and Files
 
-**Example:**
-> Dependency Script: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\20.1.0.58\Web (Essential JS 2)\JavaScript\ej2-base\dist\global\ej2-base.min.js`
->
-> Control Script: `C:\Program Files (x86)\Syncfusion\Essential Studio\JavaScript - EJ2\20.1.0.58\Web (Essential JS 2)\JavaScript\ej2-circulargauge\dist\global\ej2-circulargauge.min.js`
+Create a folder named `quickstart` in your preferred directory.
 
-Alternatively, a single bundled script file is available that contains all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript UI control resources:
+Inside the `quickstart` folder, create the following files:
 
-> Scripts: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\ej2\dist\ej2.min.js`
+* `index.html`
+* `index.js`
 
-The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an online web tool, which can be used to generate the custom script for a set of specific controls. This web tool is useful to combine the required control scripts in a single file.
+### Step 2: Add Syncfusion® CDN Resources
 
-**Step 3:** Create a folder `~/quickstart/resources` and copy/paste the global scripts from the above installed location to `~/quickstart/resources/package` corresponding package location.
+You can load the Circular Gauge control by using individual package scripts or the combined Syncfusion bundle. Choose only one of these approaches.
 
-**Step 4:** Create an HTML page named `index.html` in the `~/quickstart/` folder and add the Circular Gauge script references.
+#### Individual Package Scripts
+
+Add the following script references to the `<head>` section of `index.html`. Load the dependencies before the Circular Gauge control script.
 
 ```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Essential JS 2</title>
-        <!-- Essential JS 2 Base's global script (Dependency Script) -->
-        <script src="resources/base/ej2-base.min.js" type="text/javascript"></script>
-        <!-- Essential JS 2 CircularGauge's global script (Control Script) -->
-        <script src="resources/circulargauge/ej2-circulargauge.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-    </body>
-</html>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-circulargauge/dist/global/ej2-circulargauge.min.js" type="text/javascript"></script>
 ```
 
-**Step 5:** Now, initiate the **Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) Circulargauge** control in the `~/quickstart/index.html` by using following code.
+If the application uses PDF export, add the following script before the Circular Gauge script:
 
 ```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Essential JS 2</title>
-        <!-- Essential JS 2 Base's global script (Dependency Script) -->
-        <script src="resources/base/ej2-base.min.js" type="text/javascript"></script>
-        <!-- Essential JS 2 CircularGauge's global script (Control Script) -->
-        <script src="resources/circulargauge/ej2-circulargauge.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <!-- Add the HTML <circulargauge> element  -->
-        <div id="element" style="display: block;">Circular Gauge</div>
-        <script>
-            // initialize circulargauge control
-            var circulargauge = new ej.circulargauge.CircularGauge({
-                height: '400px'
-            });
-            // Render initialized circulargauge.
-            circulargauge.appendTo('#element');
-        </script>
-    </body>
-</html>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pdf-export/dist/global/ej2-pdf-export.min.js" type="text/javascript"></script>
 ```
 
-**Step 6:** Open `index.html` in a web browser to render the Circular Gauge Component.
+#### Combined Bundle
 
-### Using CDN link for script reference
+Alternatively, load all Syncfusion JavaScript components from a single combined bundle:
 
-**Step 1:** Create an app folder `quickstart` for getting started.
-
-**Step 2:** Access the Circular Gauge scripts from the Syncfusion CDN. The following link formats are available:
-
-**Common Control Script:**
-> Syntax: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/ej2.min.js`
-
-**Example:**
-> Script: [`https://cdn.syncfusion.com/ej2/32.1.19/dist/ej2.min.js`](https://cdn.syncfusion.com/ej2/32.1.19/dist/ej2.min.js)
-
-**or**
-
-**Individual Control Scripts:**
-
-**Syntax**
->`http://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-
-**Example:**
-> Circular Gauge Script: [`https://cdn.syncfusion.com/ej2/32.1.19/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`](https://cdn.syncfusion.com/ej2/32.1.19/ej2-circulargauge/dist/global/ej2-circulargauge.min.js)
->
->Dependency Scripts
->
-> [`https://cdn.syncfusion.com/ej2/32.1.19/ej2-base/dist/global/ej2-base.min.js`](https://cdn.syncfusion.com/ej2/32.1.19/ej2-base/dist/global/ej2-base.min.js)
->
-> [`https://cdn.syncfusion.com/ej2/32.1.19/ej2-svg-base/dist/global/ej2-svg-base.min.js`](https://cdn.syncfusion.com/ej2/32.1.19/ej2-svg-base/dist/global/ej2-svg-base.min.js)
->
-> [`https://cdn.syncfusion.com/ej2/32.1.19/ej2-pdf-export/dist/global/ej2-pdf-export.min.js`](https://cdn.syncfusion.com/ej2/32.1.19/ej2-pdf-export/dist/global/ej2-pdf-export.min.js)
-
-Create a HTML page (**index.html**) in **~/quickstart** location and add the CDN link references. Now, initiate the **Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) Circular Gauge** control in the **index.html** by using following code.
-
+```html
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 ```
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Essential JS 2</title>
-        <!-- Essential JS 2 Base's global script (Dependency Script) -->
-        <script src="https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-        <script src="https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-svg-base/dist/global/ej2-svg-base.min.js" type="text/javascript"></script>
-        <script src="https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-pdf-export/dist/global/ej2-pdf-export.min.js" type="text/javascript"></script>
-        <script src="https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-circulargauge/dist/global/ej2-circulargauge.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <!-- Add the HTML <circulargauge> element  -->
-        <div id="element" style="display: block;">Circular Gauge</div>
-        <script>
-            // initialize circulargauge control
-            var circulargauge = new ej.circulargauge.CircularGauge({
-                height: '400px'
-            });
-            // Render initialized circulargauge.
-            circulargauge.appendTo('#element');
-        </script>
-    </body>
-</html>
-```
-> Replace `{RELEASE_VERSION}` with the latest Syncfusion release version number. Find available versions on the [CDN releases page](https://www.syncfusion.com/downloads/essential-js2).
 
-**Step 3:** Open `index.html` in a web browser to render the Circular Gauge Component.
+### Step 3: Add the Syncfusion<sup style="font-size:70%">&reg;</sup> Circular Gauge Control
 
-The following example shows a complete, working Circular Gauge Component implementation.
+The `index.html` file contains the gauge container and references `index.js`, which contains the Circular Gauge initialization.
+
+The global scripts added in Step 2 register the `ej.circulargauge.CircularGauge` class in the `ej` namespace. Therefore, no module imports are required.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -162,19 +84,34 @@ The following example shows a complete, working Circular Gauge Component impleme
 {% endhighlight %}
 {% endtabs %}
 
+The `new ej.circulargauge.CircularGauge({...})` call creates the Circular Gauge. 
+
+`circulargauge.appendTo('#element')` renders the control inside the `<div id="element">` element declared in `index.html`.
+
+### Step 4: Open the Application in a Browser
+
+Open `quickstart/index.html` through a local web server.
+
+If you are using the Visual Studio Code **Live Server** extension:
+
+1. Right-click `index.html` in the Explorer.
+2. Select **Open with Live Server**.
+3. Open the URL displayed by Live Server, such as `http://127.0.0.1:5500/`.
+
+The browser displays the initialized Circular Gauge.
+
+## Output
+
+The following screenshot shows the output of the Syncfusion Circular Gauge quick start application:
+
+![Syncfusion Circular Gauge Quick Start Output](./images/circular-gauge.png)
+
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/es5-getting-started-cs1" %}
 
-## Set Pointer Value
+## Troubleshooting
 
-The pointer value displayed on the gauge can be controlled using the [value](../api/circular-gauge/pointer#value-number) property of the [pointers](../api/circular-gauge/pointer) API. The following example demonstrates how to set a custom pointer value.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/es5-getting-started-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/circular-gauge/es5-getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/circular-gauge/es5-getting-started-cs2" %}
+- **The page is blank.** Open `index.html` through a local web server instead of opening the file directly from the file system.
+- **`ej is not defined`.** Ensure that the Syncfusion CDN scripts are loaded before `index.js`.
+- **`ej.circulargauge` is undefined.** Verify that `ej2-circulargauge.min.js` is loaded after its required dependencies.
+- **The gauge is not displayed.** Make sure the container ID in `index.html` matches the selector passed to `appendTo('#element')`.
+- **The pointer does not appear at the expected position.** Confirm that the pointer `value` is within the axis `minimum` and `maximum` range.
