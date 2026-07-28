@@ -9,7 +9,7 @@ documentation: ug
 domainurl: https://help.syncfusion.com/rich-text-editor-sdk
 ---
 
-# Real-time Collaboration in TypeScript Block Editor control
+# Real-time Collaboration in TypeScript Block Editor Component
 
 The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by [**Yjs**](https://yjs.dev/), an open-source Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
@@ -32,8 +32,6 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 ### Step 1: Set up a basic Vite Typescript Block Editor component
 
 Follow the [Getting Started guide](https://helpstaging.syncfusion.com/rich-text-editor-sdk/typescript/block-editor/getting-started) to create a Vite-based Typescript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
-
-Once you have a basic Block Editor component running, proceed to Step 2.
 
 ### Step 2: Install Yjs and the WebSocket provider
 
@@ -202,8 +200,6 @@ blockEditor.appendTo('#blockeditor_default');
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173` (or another port if 5173 is in use).
-
 > **Important:** Make sure your WebSocket server is still running in another terminal window. You need both servers running for collaboration to work.
 
 2. **Open a tab and duplicate it** with your Typescript application
@@ -268,7 +264,6 @@ Create a `versionHistoryService.ts` file in the `src` folder, replace the `main.
 {% tabs %}
 {% highlight ts tabtitle="main.ts" %}
 
-import './style.css';
 import './App.css';
 import {
     BlockEditor,
@@ -407,6 +402,7 @@ export class IndexedDBVersionStorage implements IVersionStorage {
 
 {% endhighlight %}
 {% highlight css tabtitle="App.css" %}
+@import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/blockeditor/index.css";
 
 .app-container {
     display: flex;
