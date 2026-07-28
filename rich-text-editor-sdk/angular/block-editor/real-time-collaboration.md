@@ -30,7 +30,7 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 ### Step 1: Set up a basic Angular Block Editor component
 
-Follow the [Getting Started guide](https://help.syncfusion.com/rich-text-editor-sdk/angular/block-editor/getting-started) to create an Angular CLI-based Angular project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](https://ej2.syncfusion.com/angular/documentation/block-editor/getting-started) to create an Angular CLI-based Angular project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 ### Step 2: Install Yjs and the WebSocket provider
 
@@ -541,11 +541,12 @@ Creates a new snapshot of the current document state with an optional label and 
 Retrieves all saved snapshots or a paginated subset. Snapshots are returned in chronological order.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
-    // Retrieve all snapshots
-    const snapshots = this.versionHistory.getSnapshots();
-    // Retrieve a paginated subset — getSnapshots(skip, take)
-    const paginatedSnapshots = this.versionHistory.getSnapshots(20, 40);
+this.versionHistory = this.blockEditor.getVersionHistory();
+// Retrieve all snapshots
+const snapshots = this.versionHistory.getSnapshots();
+
+// Retrieve a paginated subset — getSnapshots(skip, take)
+const paginatedSnapshots = this.versionHistory.getSnapshots(20, 40);
 ```
 
 #### Rename a snapshot
@@ -553,8 +554,8 @@ Retrieves all saved snapshots or a paginated subset. Snapshots are returned in c
 Updates the label or metadata of an existing snapshot without modifying its content.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
-    this.versionHistory.renameSnapshot(snapshotId, newLabel);
+this.versionHistory = this.blockEditor.getVersionHistory();
+this.versionHistory.renameSnapshot(snapshotId, newLabel);
 ```
 
 #### Restore a snapshot
@@ -562,8 +563,8 @@ Updates the label or metadata of an existing snapshot without modifying its cont
 Reverts the document to a previously saved snapshot state. The current document state is automatically backed up before restoration.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
-    this.versionHistory.restoreSnapshot(snapshotId);
+this.versionHistory = this.blockEditor.getVersionHistory();
+this.versionHistory.restoreSnapshot(snapshotId);
 ```
 
 > **Note:** When a snapshot is restored, the current document state is automatically
@@ -574,7 +575,7 @@ Reverts the document to a previously saved snapshot state. The current document 
 Compares two snapshots to identify differences such as added, removed, or modified content.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
+this.versionHistory = this.blockEditor.getVersionHistory();
     this.versionHistory.compareVersions(snapshotIdA, snapshotIdB);
 ```
 
@@ -585,8 +586,8 @@ The returned `VersionDiff` object provides a summary of the differences between 
 Serializes a snapshot into a portable format that can be stored externally or transferred between systems.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
-    this.versionHistory.exportSnapshot(snapshotId);
+this.versionHistory = this.blockEditor.getVersionHistory();
+this.versionHistory.exportSnapshot(snapshotId);
 ```
 
 Exported snapshots can be stored externally or transferred between systems.
@@ -596,8 +597,8 @@ Exported snapshots can be stored externally or transferred between systems.
 Imports a previously exported snapshot back into the version history storage.
 
 ```typescript
-    this.versionHistory = this.blockEditor.getVersionHistory();
-    const imported = this.versionHistory.importSnapshot(exported);
+this.versionHistory = this.blockEditor.getVersionHistory();
+const imported = this.versionHistory.importSnapshot(exported);
 ```
 
 ### Events
