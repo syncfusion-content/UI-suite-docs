@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Real-Time Collaboration in JavaScript Block Editor | Syncfusion
-description: Enable real-time collaborative editing in the JavaScript Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
+description: Enable real-time collaborative editing in the Block Editor component of Syncfusion Essential JS 2 with user presence and version history.
 platform: rich-text-editor-sdk
 control: Block Editor
 publishingplatform: rich-text-editor-sdk
