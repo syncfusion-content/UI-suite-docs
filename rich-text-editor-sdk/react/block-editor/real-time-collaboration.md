@@ -30,7 +30,7 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 ### Step 1: Set up a basic Vite React Block Editor component
 
-Follow the [Getting Started guide](./getting-started.md) to create a Vite-based React project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](./getting-started) to create a Vite-based React project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 ### Step 2: Install Yjs and the WebSocket provider
 

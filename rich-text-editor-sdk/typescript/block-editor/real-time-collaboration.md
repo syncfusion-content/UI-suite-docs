@@ -33,11 +33,11 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 Before you begin, ensure you have:
 
-* A Vite-based Typescript project with the Block Editor component (see [Getting Started](./getting-started.md) if you haven't done this yet)
+* A Vite-based Typescript project with the Block Editor component (see [Getting Started](./getting-started) if you haven't done this yet)
 
 ### Step 1: Set up a basic Vite Typescript Block Editor component
 
-Follow the [Getting Started guide](./getting-started.md) to create a Vite-based Typescript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](./getting-started) to create a Vite-based Typescript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 Once you have a basic Block Editor component running, proceed to Step 2.
 
