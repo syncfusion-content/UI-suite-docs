@@ -61,7 +61,7 @@ npm init -y
 npm install esbuild yjs y-websocket --save-dev
 ```
 
-- Create an entry file named `yjs-entry.js`:
+- Create a file named `yjs-entry.js`.
 
 ```js
 // yjs-entry.js
