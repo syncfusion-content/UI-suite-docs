@@ -26,19 +26,6 @@ To add marker to the sparkline, specify the [`visible`](https://help.syncfusion.
 
 The following code example shows enabling markers for all points.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/allpoint/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Allpoint.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/allpoint/allpoint.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/allpoint/razor %}
@@ -47,26 +34,12 @@ The following code example shows enabling markers for all points.
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/allpoint/allpoint.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Adding marker to special point
 
 In sparkline, markers can be enabled for particular points such as the start, end, low, high, or negative. The following code examples shows enabling markers for the high and low points.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/specialpoint/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Specialpoint.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/specialpoint/specialpoint.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -76,26 +49,12 @@ In sparkline, markers can be enabled for particular points such as the start, en
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/specialpoint/specialpoint.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Customizing markers
 
 Sparkline markers can be customized in terms of fill color, border color, width, opacity, and size. The following code example shows customizing marker's fill, border, and size.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -105,5 +64,4 @@ Sparkline markers can be customized in terms of fill color, border color, width,
 {% include code-snippet/chart-sdk/asp-net-mvc/sparkline-charts/marker/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

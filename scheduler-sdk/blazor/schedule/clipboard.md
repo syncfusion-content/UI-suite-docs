@@ -6,10 +6,10 @@ platform: scheduler-sdk
 control: Scheduler
 documentation: ug
 ---
- 
+
 # Clipboard in Blazor Scheduler Component
 
-The Clipboard functionality in the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) enhances scheduling efficiency by enabling users to cut, copy, and paste appointments with ease. This feature is especially beneficial for those managing multiple appointments, as it eliminates the need for repetitive data entry and allows users to quickly adjust their schedules without hassle.
+The Clipboard functionality in the [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler) enhances scheduling efficiency by enabling users to cut, copy, and paste appointments with ease. This feature is especially beneficial for those managing multiple appointments, as it eliminates the need for repetitive data entry and allows users to quickly adjust their schedules without hassle.
 
 To activate the clipboard feature in the scheduler, simply set the [`AllowClipboard`](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Schedule.SfSchedule-1.html#Syncfusion_Blazor_Schedule_SfSchedule_1_AllowKeyboardInteraction) property to **true**.
 
@@ -107,7 +107,7 @@ To use these shortcuts, simply click on the appointment and press **Ctrl+C** to 
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rZBojgVmMamGGqYM?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htBRDGiwVHPaRVJk?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 N> For Mac users, use **Cmd** instead of **Ctrl** for copy, cut, and paste operations.
 
@@ -287,7 +287,7 @@ By using these methods, you can programmatically cut, copy, and paste appointmen
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/rNVojqVGhZgDmVrp?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/htLdDwMGVxEkzjiR?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}
 
 ## Modifying content before pasting
 
@@ -450,4 +450,4 @@ In this example, the `Paste` event can be utilized to intercept the event detail
 
 ```
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/VXroNUhmrDOIbXBe?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5 %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVntmiQBcMQVeCP?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

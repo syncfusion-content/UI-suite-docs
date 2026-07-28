@@ -15,8 +15,6 @@ documentation: ug
 
 To draw a chart in a vertical manner, change the orientation of the axis using the `isTransposed` property, which is supported by all series types.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/tagHelper %}
@@ -25,25 +23,11 @@ To draw a chart in a vertical manner, change the orientation of the axis using t
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/vertical.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Vertical.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/vertical.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `dataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `xName` and `yName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/tagHelper %}
@@ -52,18 +36,6 @@ You can bind data to the chart using the `dataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/vertical.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Vertical.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/vertical/vertical.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Empty points
 
@@ -72,8 +44,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 **Mode**
 
 Use the `mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -84,23 +54,9 @@ Use the `mode` property to define how empty or missing data points are handled i
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Fill**
 
 Use the `fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -111,23 +67,9 @@ Use the `fill` property to customize the fill color of empty points in the serie
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Border**
 
 Use the `border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -138,25 +80,11 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty-border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Events
 
 ### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -167,23 +95,9 @@ The `seriesRender` event allows you to customize series properties, such as data
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/series-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Point render
 
 The `pointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -193,18 +107,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/point-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/vertical/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## See Also
 

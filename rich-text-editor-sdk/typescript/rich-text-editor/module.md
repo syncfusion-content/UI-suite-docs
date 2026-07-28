@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Module 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Module in TypeScript Rich Text Editor control

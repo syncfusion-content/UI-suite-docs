@@ -13,8 +13,6 @@ documentation: ug
 
 Data points containing `null` or `undefined` values are considered empty points. These empty data points are ignored and not plotted in the 3D Circular Chart. You can customize the handling of empty points using the `EmptyPointSettings` property in the series. The default mode for empty points is `Gap`. Other supported modes include `Average`, `Drop`, and `Zero`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-points/tagHelper %}
@@ -24,25 +22,11 @@ Data points containing `null` or `undefined` values are considered empty points.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-points/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-points.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-points/empty-points.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Customization
 
 A specific color for an empty point can be set by using the `Fill` property in `EmptyPointSettings`.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -52,16 +36,4 @@ A specific color for an empty point can be set by using the `Fill` property in `
 {% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-point-custom/empty-point-custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-point-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-point-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-circular-charts/pie-donut/empty-point-custom/empty-point-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

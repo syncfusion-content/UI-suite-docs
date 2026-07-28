@@ -86,8 +86,6 @@ Also, register the script manager `<ejs-script>` at the end of `<body>` in the A
 
 Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core 3D Chart tag helper in `~/Pages/Index.cshtml` page.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/getting-started/tagHelper %}
@@ -96,18 +94,6 @@ Now, add the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core 3D Ch
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/getting-started/getting-started.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/getting-started/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Getting-started.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/getting-started/getting-started.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 Press <kbd>Ctrl</kbd>+<kbd>F5</kbd> (Windows) or <kbd>⌘</kbd>+<kbd>F5</kbd> (macOS) to run the app. Then, the Syncfusion<sup style="font-size:70%">&reg;</sup> ASP.NET Core Chart control will be rendered in the default web browser.
 

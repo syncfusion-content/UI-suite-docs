@@ -24,7 +24,7 @@ Ensure the following tools are installed on your machine:
 
 A list of dependencies to use the Tree Grid with all features.
 
-```
+```	
      |-- @syncfusion/ej2-treegrid
           |-- @syncfusion/ej2-base
           |-- @syncfusion/ej2-data
@@ -198,7 +198,7 @@ treeGridObj.appendTo('#TreeGrid');
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/treegrid/tree-grid-cs4" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/help.syncfusion.com/code-snippet/grid-sdk/javascript/tree-grid/tree-grid-cs4" %}
 
 ## Run the application
 

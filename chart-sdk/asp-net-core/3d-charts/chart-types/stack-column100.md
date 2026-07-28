@@ -15,8 +15,6 @@ documentation: ug
 
 To render a 100% stacked column series, use series [`Type`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Type) as [`StackingColumn100`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeriesType.html#Syncfusion_EJ2_Charts_Chart3DSeriesType_StackingColumn100).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/100perstackedcolumn/tagHelper %}
@@ -26,25 +24,11 @@ To render a 100% stacked column series, use series [`Type`](https://help.syncfus
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/100perstackedcolumn/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stackedcolumn100.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/100perstackedcolumn/stackedcolumn100.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## 100% Cylindrical stacked column chart
 
 To render a 100% cylindrical stacked column chart, set the [`ColumnFacet`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnFacet) property to `Cylinder` in the chart series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -55,18 +39,6 @@ To render a 100% cylindrical stacked column chart, set the [`ColumnFacet`](https
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn100-cylinder/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stackedcolumn100-cylinder.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn100-cylinder/stackedcolumn100-cylinder.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Series customization
@@ -76,8 +48,6 @@ The following properties can be used to customize the [`100% Stacked Column`](ht
 * [Fill](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) – Specifies the color of the series.
 * [Opacity](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Opacity) – Specifies the opacity of the [Fill](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Fill) color.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn-100-series/tagHelper %}
@@ -86,17 +56,5 @@ The following properties can be used to customize the [`100% Stacked Column`](ht
 {% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn-100-series/stackedcolumn-100-series.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn-100-series/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stackedcolumn-100-series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/3d-charts/series/column-charts/stackedcolumn-100-series/stackedcolumn-100-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 

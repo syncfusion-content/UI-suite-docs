@@ -15,8 +15,6 @@ documentation: ug
 
 The Range Selector can be customized by using the `navigatorStyleSettings`. The `selectedRegionColor` property is used to specify the color for the selected region, whereas the `unselectedRegionColor` property is used to specify the color for the unselected region.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/appearance/tagHelper %}
@@ -26,18 +24,6 @@ The Range Selector can be customized by using the `navigatorStyleSettings`. The 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/appearance/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Appearance.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/appearance/appearance.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Range Selector appearance](images/custom/appearance.png)
@@ -45,8 +31,6 @@ The Range Selector can be customized by using the `navigatorStyleSettings`. The 
 ## Thumb
 
 The thumb property allows to customize the border, fill color, size, and type of thumb. Thumbs can be of two shapes: **Circle** and **Rectangle**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,27 +41,12 @@ The thumb property allows to customize the border, fill color, size, and type of
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/thumb/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Thumb.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/thumb/thumb.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ![Thumb](images/custom/thumb.png)
 
 ## Border customization
 
 Using the `navigatorBorder`, the `width` and `color` of the Range Selector border can be customized.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -88,18 +57,6 @@ Using the `navigatorBorder`, the `width` and `color` of the Range Selector borde
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Range Selector Border](images/custom/border.png)
@@ -107,8 +64,6 @@ Using the `navigatorBorder`, the `width` and `color` of the Range Selector borde
 ## Deferred update
 
 If the `enableDeferredUpdate` property is set to **true**, then the changed event will be triggered after dragging the slider. If the `enableDeferredUpdate` is **false**, then the changed event will be triggered when dragging the slider. By default, the `enableDeferredUpdate` is set to **false**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -119,25 +74,11 @@ If the `enableDeferredUpdate` property is set to **true**, then the changed even
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/defer/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/defer/snap.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Allow snapping
 
 The `allowSnapping` property toggles the placement of the slider exactly to the left or on the nearest interval.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -148,25 +89,11 @@ The `allowSnapping` property toggles the placement of the slider exactly to the 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/snap/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Snap.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/snap/snap.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Animation
 
 The speed of the animation can be controlled using the `animationDuration` property. The default value of the `animationDuration` property is **500** milliseconds.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -176,18 +103,6 @@ The speed of the animation can be controlled using the `animationDuration` prope
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/animation/animation.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/animation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/custom/animation/animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

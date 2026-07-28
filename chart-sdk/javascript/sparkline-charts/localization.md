@@ -17,21 +17,6 @@ The sparkline control supports localization. The default culture for localizatio
 
 Sparkline tooltip supports localization. The following code sample shows tooltip text with currency format based on culture.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs1/index.js %}
@@ -42,28 +27,12 @@ Sparkline tooltip supports localization. The following code sample shows tooltip
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs1" %}
-{% endif %}
 
 ## RTL
 
 If you set the `enableRtl` property to true, then the sparkline will be rendered from right-to-left direction.
 
 The following example shows the sparkline is render from "Right-to-left".
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -75,4 +44,3 @@ The following example shows the sparkline is render from "Right-to-left".
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/localization-cs2" %}
-{% endif %}

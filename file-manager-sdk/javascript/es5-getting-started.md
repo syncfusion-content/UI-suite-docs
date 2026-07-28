@@ -161,7 +161,7 @@ filemanagerInstance.appendTo('#filemanager');
 
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/file-manager-sdk/javascript/help.syncfusion.com/code-snippet/file-manager-sdk/javascript/es5-getting-started-cs1" %}
 
 ### Server-side setup
 
@@ -196,8 +196,6 @@ ej.base.registerLicense('YOUR_LICENSE_KEY_HERE');
 **File Manager styles are not applied:** Ensure that the required Syncfusion theme CDN link is correctly included in `index.html` file. Verify that the CDN links are accessible and loaded before the File Manager is rendered.
 
 **Trial license warning message:** Register your Syncfusion license key before initializing any Syncfusion<sup style="font-size:70%">&reg;</sup> control. Refer to the [Registering a license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration#javascript-es5) section.
-
-N> Looking for the full JavaScript File Manager component overview, features, pricing, and documentation? Visit the [JavaScript File Manager](https://www.syncfusion.com/javascript-ui-controls/js-file-manager) page
 
 ## See also
 

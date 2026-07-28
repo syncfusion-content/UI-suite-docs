@@ -20,22 +20,6 @@ Sparkline can be rendered to its container size. You can set the size through in
         <div id='element' style="width:650px; height:350px;"></div>
     </div>
 ```
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs1/index.js %}
@@ -46,7 +30,6 @@ Sparkline can be rendered to its container size. You can set the size through in
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs1" %}
-{% endif %}
 
 ## Size for sparkline
 
@@ -55,21 +38,6 @@ You can also set the size for sparkline directly using the [`width`](../../api/s
 **In pixel**
 
 You can set the size for sparkline in pixel as demonstrated in the following code.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs2" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -81,26 +49,10 @@ You can set the size for sparkline in pixel as demonstrated in the following cod
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs2" %}
-{% endif %}
 
 **In percentage**
 
 By setting values in percentage, sparkline gets its dimension with respect to its container. For example, when the height is set to ‘50%’, sparkline is rendered to half of its container height.
-
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs3" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -112,4 +64,3 @@ By setting values in percentage, sparkline gets its dimension with respect to it
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/sparkline-dimensions-cs3" %}
-{% endif %}

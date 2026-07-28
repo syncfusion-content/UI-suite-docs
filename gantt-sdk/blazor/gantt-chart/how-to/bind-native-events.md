@@ -24,7 +24,7 @@ Interaction Keys |Description
 ### Example
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 <SfGantt @ref=Gantt DataSource="@TaskCollection" @onkeydown="KeyDown" @onkeyup="KeyUp" Height="450px" Width="700px">
     <GanttTaskFields Id="TaskID" Name="TaskName" StartDate="StartDate" EndDate="EndDate" Duration="Duration" Progress="Progress" ParentID="ParentID">
@@ -53,7 +53,7 @@ Interaction Keys |Description
     }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
     private async Task KeyDown(KeyboardEventArgs Args)
     {
@@ -165,4 +165,4 @@ Interaction Keys |Description
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/LtLoiDNEzWZEDHLz?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VZrxDwCcTeJkGkLA?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

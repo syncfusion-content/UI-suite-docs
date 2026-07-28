@@ -41,3 +41,4 @@ The Syncfusion [WinUI Scheduler](https://www.syncfusion.com/scheduler-sdk/winui-
 * **Localization**: Display the current date and time by following the globalized date and time formats, and localize all available static texts in the WinUI Scheduler.
 
 * **LoadOnDemand**: The WinUI Scheduler supports loading appointments on-demand with loading indicator and it improves the loading performance when there are appointments range for multiple years.
+

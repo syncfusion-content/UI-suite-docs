@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Touch Interaction in Blazor Gantt Chart Component | Syncfusion®
-description: Checkout and learn here all about Touch Interaction in Blazor Gantt Chart component and more.
-platform: gantt-sdk
+title: Touch Interaction in Blazor Gantt Chart Component | Syncfusion
+description: Checkout and learn here all about Touch Interaction in Syncfusion Blazor Gantt Chart component and more.
+platform: Blazor
 control: Gantt Chart
 documentation: ug
 ---

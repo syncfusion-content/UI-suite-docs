@@ -19,8 +19,6 @@ The sparkline provides options to display details about values of data points th
 
 The following code example shows enabling tooltip for sparkline with format.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip/tagHelper %}
@@ -30,25 +28,10 @@ The following code example shows enabling tooltip for sparkline with format.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip/tooltip.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ### Tooltip customization
 
 The fill color, text styles, format, and border of the tooltip can be customized. The following code example shows customization of tooltip's fill color and text style.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -59,19 +42,6 @@ The fill color, text styles, format, and border of the tooltip can be customized
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-custom/tooltip-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ### Inline tooltip formatting
 
@@ -81,22 +51,9 @@ A format specifier can be applied to a tooltip token by adding a colon (`:`) fol
 
 For example:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 ```cshtml
 <e-sparkline-tooltipsettings enable="true" format="${x:MMM yyyy} : ${y:n2}"></e-sparkline-tooltipsettings>
 ```
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-```cshtml
-.TooltipSettings(tool => tool
-    .Visible(true)
-    .Format("${x:MMM yyyy} : ${y:n2}")
-)
-```
-
-{% endif %}
 
 In the above example, `x` is displayed in month-year format and `y` is displayed with two decimal places.
 
@@ -118,8 +75,6 @@ The following format types are supported:
 
 If the specified format does not match the resolved value type, the original value is displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/inline-format/tagHelper %}
@@ -129,25 +84,10 @@ If the specified format does not match the resolved value type, the original val
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/inline-format/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Inline-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/inline-format/inline-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ### Tooltip template
 
 Sparkline tooltip has template support. By using tooltip template, you can customize tooltips. The following code example shows more customization options provided to  `sparkline-tooltip` class that is used in tooltip template div. Using this template, images also can be added to tooltip.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -158,19 +98,6 @@ Sparkline tooltip has template support. By using tooltip template, you can custo
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-template/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip_template.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-template/tooltip-template.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Track line
 
@@ -180,8 +107,6 @@ To enable track lines for sparkline, specify the [`visible`](https://help.syncfu
 
 To use track line in sparkline, inject the [`SparklineTooltip`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2~Syncfusion.EJ2.Charts.SparklineSparklineTooltipSettings.html) module to sparkline using the inject method.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/tagHelper %}
@@ -190,16 +115,3 @@ To use track line in sparkline, inject the [`SparklineTooltip`](https://help.syn
 {% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/tooltip-trackline.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Tooltip_trackline.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/sparkline-charts/user-interaction/tooltip-trackline/tooltip-trackline.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-

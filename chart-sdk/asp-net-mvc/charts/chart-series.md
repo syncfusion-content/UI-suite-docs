@@ -14,19 +14,6 @@ documentation: ug
 
 You can add multiple series to the chart by using [`Series`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html) property. The series are rendered in the order as it is added to the series array.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/multiple-series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multiple-series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/multiple-series/multiple-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/multiple-series/razor %}
@@ -35,7 +22,6 @@ You can add multiple series to the chart by using [`Series`](https://help.syncfu
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/multiple-series/multiple-series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -45,19 +31,6 @@ Combination of different types like Line, column etc, can be rendered in a chart
 
 N>Bar series cannot be combined with any other series as the axis orientation is different from other series.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/combination/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Combination.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/combination/combination.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/combination/razor %}
@@ -66,26 +39,12 @@ N>Bar series cannot be combined with any other series as the axis orientation is
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/combination/combination.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Enable Complex Property in Series
 
 By setting [`EnableComplexProperty`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_EnableComplexProperty) value as **true** in series you can bind complex data to the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/complex/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Complex.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/complex/complex.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -95,5 +54,4 @@ By setting [`EnableComplexProperty`](https://help.syncfusion.com/cr/aspnetmvc-js
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/complex/complex.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

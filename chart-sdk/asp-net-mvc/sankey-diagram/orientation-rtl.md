@@ -29,19 +29,6 @@ Control the layout direction of the Sankey Chart using the `Orientation` propert
 
 The default orientation displays nodes horizontally across the chart, with flows moving from left to right. This is the standard layout for most Sankey diagrams:
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/horizontal-orientation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Horizontal-orientation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/horizontal-orientation/horizontal-orientation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/horizontal-orientation/razor %}
@@ -51,24 +38,9 @@ The default orientation displays nodes horizontally across the chart, with flows
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Vertical Orientation
 
 Display nodes vertically with flows moving from top to bottom. This layout is useful for depicting hierarchical relationships or processes that flow downward:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/vertical-orientation/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Vertical-orientation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/vertical-orientation/vertical-orientation.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -79,24 +51,9 @@ Display nodes vertically with flows moving from top to bottom. This layout is us
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## Right-to-Left (RTL) Support
 
 Enable RTL rendering for languages that read from right to left (such as Arabic, Hebrew, and Persian) using the `EnableRtl` property. RTL mode reverses the horizontal flow direction and mirrors the layout:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/rtl/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rtl.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/rtl/rtl.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -107,24 +64,9 @@ Enable RTL rendering for languages that read from right to left (such as Arabic,
 {% endhighlight %}
 {% endtabs %}
 
-{% endif %}
-
 ## RTL with Horizontal Orientation
 
 Combining RTL mode with horizontal orientation creates a right-to-left flow layout. Nodes flow from right to left, and labels are right-aligned, making it suitable for RTL languages:
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/rtl-horizontal/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Rtl-horizontal.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/rtl-horizontal/rtl-horizontal.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -134,8 +76,6 @@ Combining RTL mode with horizontal orientation creates a right-to-left flow layo
 {% include code-snippet/chart-sdk/asp-net-mvc/sankey-diagram/orientation/rtl-horizontal/rtl-horizontal.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% endif %}
 
 ## RTL Effects on Layout
 

@@ -19,8 +19,6 @@ To render error bars for the series in your chart, you need to follow a few step
 
 **Set visibility:** Set the visible property to true for the error bars to be displayed.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbar/tagHelper %}
@@ -30,23 +28,9 @@ To render error bars for the series in your chart, you need to follow a few step
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbar/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Errorbar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbar/errorbar.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Customizing error bar
 
 To customize the error bar type, set the error bar `type` to **Custom**, and then change the horizontal or vertical positive and negative error values for the error bar.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -57,23 +41,9 @@ To customize the error bar type, set the error bar `type` to **Custom**, and the
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbar-custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Errorbar-custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbar-custom/errorbar-custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Error bar mode
 
 The error bar mode is used to define whether the error bar line is drawn horizontally, vertically or on both sides. To change the error bar mode, use the `mode` option.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -84,23 +54,9 @@ The error bar mode is used to define whether the error bar line is drawn horizon
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/mode/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Mode.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/mode/mode.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %} 
-
 ## Error bar direction
 
 To change the direction of the error bars to plus, minus, or both sides, use the `direction` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -111,23 +67,9 @@ To change the direction of the error bars to plus, minus, or both sides, use the
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/direction/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Direction.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/direction/direction.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Customizing error bar cap
 
 To customize the length, width, opacity, and fill color of the error bar caps, you can use the `errorBarCap` property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -138,23 +80,9 @@ To customize the length, width, opacity, and fill color of the error bar caps, y
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbarcap/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Errorbarcap.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbarcap/errorbarcap.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Customizing error bar color
 
 To customize the error bar color for individual errors, use the `errorBarColorMapping` property. You can also customize the vertical error, horizontal error, horizontal negative and positive error, and vertical negative and positive error for an individual point using the `verticalError`, `horizontalError`, `horizontalNegativeError`, `horizontalPositiveError`, `verticalNegativeError`, and `verticalPositiveError` properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -165,25 +93,11 @@ To customize the error bar color for individual errors, use the `errorBarColorMa
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbarcolor/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Errorbarcolor.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/errorbarcolor/errorbarcolor.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Events
 
 ### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -194,23 +108,9 @@ The `seriesRender` event allows you to customize series properties, such as data
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/series-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Point render
 
 The `pointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -221,17 +121,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/point-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/error-bar/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## See Also
 

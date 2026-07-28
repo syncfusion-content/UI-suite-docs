@@ -23,19 +23,6 @@ Axis labels are used to denote what kind of data is bound for smithchart. Using 
 * [`labelIntersectAction`] - used to hide the labels when intersect with other one.
 * [`labelStyle`] - used to customize the properties such as font size, family, weight, opacity.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/label/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/label/label.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/label/razor %}
@@ -44,8 +31,6 @@ Axis labels are used to denote what kind of data is bound for smithchart. Using 
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/label/label.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
-
 
 
 ## Gridlines
@@ -62,19 +47,6 @@ We can customize following things, in major as well as minor gridlines.
 * [`opacity`] - used to customize the opacity of the major gridlines.
 * [`count`] - used to customize the count of the minor gridlines.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/grid-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Grid-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/grid-line/grid-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/grid-line/razor %}
@@ -83,8 +55,6 @@ We can customize following things, in major as well as minor gridlines.
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/grid-line/grid-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
-
 
 
 ## Axisline
@@ -95,19 +65,6 @@ As name suggests that, it is a line in smithchart that can be configured to deno
 * [`dashArray`] - used to render the axis line as dashed line.
 * [`visible`] - used to enable or disable the visibility of the axis line.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/axis-line/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Axis-line.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/axis-line/axis-line.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/axis-line/razor %}
@@ -116,5 +73,4 @@ As name suggests that, it is a line in smithchart that can be configured to deno
 {% include code-snippet/chart-sdk/asp-net-mvc/smith-chart/axis/axis-line/axis-line.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 

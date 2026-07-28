@@ -96,19 +96,6 @@ Make ajax call to the GetServerData() action method in chart load event to get J
 </script>
 ```
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/how-to/ajax-data/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Ajax-data.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/how-to/ajax-data/ajax-data.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/how-to/ajax-data/razor %}
@@ -117,7 +104,6 @@ Make ajax call to the GetServerData() action method in chart load event to get J
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/how-to/ajax-data/ajax-data.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

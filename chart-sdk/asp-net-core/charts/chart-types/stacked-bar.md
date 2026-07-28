@@ -16,7 +16,6 @@ documentation: ug
 To render a [stacked bar](https://www.syncfusion.com/aspnet-core-ui-controls/charts/chart-types/stacked-bar-chart) series in your chart, you need to follow a few steps to configure it correctly. Here’s a concise guide on how to do this:
 
 * **Set the series type:** Define the series `type` as **StackingBar** in your chart configuration. This indicates that the data should be represented as a stacked bar chart, where each bar consists of multiple segments stacked horizontally on top of each other.
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -26,25 +25,11 @@ To render a [stacked bar](https://www.syncfusion.com/aspnet-core-ui-controls/cha
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/stacked-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stacked-bar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/stacked-bar.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `dataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `xName` and `yName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/tagHelper %}
@@ -53,18 +38,6 @@ You can bind data to the chart using the `dataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/stacked-bar.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stacked-bar.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar/stacked-bar.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 ## Series customization
 
@@ -73,8 +46,6 @@ The following properties can be used to customize the `stacked bar` series.
 **Fill**
 
 The `fill` property determines the color applied to the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -85,21 +56,7 @@ The `fill` property determines the color applied to the series.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stacked-bar-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar-fill/stacked-bar-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 The `fill` property can be used to apply a gradient color to the stacked bar series. By configuring this property with gradient values, you can create a visually appealing effect in which the color transitions smoothly from one shade to another.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -110,23 +67,9 @@ The `fill` property can be used to apply a gradient color to the stacked bar ser
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar-grad/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stacked-bar-grad.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stacked-bar-grad/stacked-bar-grad.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Opacity**
 
 The `opacity` property specifies the transparency level of the fill. Adjusting this property allows you to control how opaque or transparent the fill color of the series appears.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -137,23 +80,9 @@ The `opacity` property specifies the transparency level of the fill. Adjusting t
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/opacity/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Opacity.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/opacity/opacity.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Border**
 
 Use the `border` property to customize the width, color and dasharray of the series border.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -164,23 +93,9 @@ Use the `border` property to customize the width, color and dasharray of the ser
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/border/border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Stacking group
 
 Use the `stackingGroup` property to group stacked bars and 100% stacked bars. Bars with the same group name are stacked on top of each other.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -191,23 +106,9 @@ Use the `stackingGroup` property to group stacked bars and 100% stacked bars. Ba
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/group/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Cylindrical stacked bar chart
 
 To render a cylindrical stacked bar chart, set the `columnFacet` property to **Cylinder** in the chart series. This property transforms the regular stacked bars into cylindrical shapes, enhancing the visual representation of the data.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -218,18 +119,6 @@ To render a cylindrical stacked bar chart, set the `columnFacet` property to **C
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stackedbar-cylinder/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stackedbar-cylinder.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stackedbar-cylinder/stackedbar-cylinder.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Empty points
 
 Data points with **null** or **undefined** values are considered empty. Empty data points are ignored and not plotted on the chart.
@@ -237,8 +126,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 **Mode**
 
 Use the `mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -249,23 +136,9 @@ Use the `mode` property to define how empty or missing data points are handled i
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Fill**
 
 Use the `fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -276,23 +149,9 @@ Use the `fill` property to customize the fill color of empty points in the serie
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty-fill/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Border**
 
 Use the `border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -303,25 +162,11 @@ Use the `border` property to customize the width and color of the border for emp
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty-border/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Stack labels
 
 The stack labels in stacked charts display cumulative total values for stack segments directly using data labels. If a stacked point has negative values, the stack labels are displayed below the point.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -331,18 +176,6 @@ The stack labels in stacked charts display cumulative total values for stack seg
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels/stack-labels.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stack-labels.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels/stack-labels.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -360,8 +193,6 @@ Stack labels have various properties for customization to enhance the visual bas
 * [`Border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartStackLabelSettings.html#Syncfusion_EJ2_Charts_ChartStackLabelSettings_Border) - Configures the appearance of the stack label's border.
 * [`Font`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartStackLabelSettings.html#Syncfusion_EJ2_Charts_ChartStackLabelSettings_Font) - Customizes the stack label text, including font size, color, style, weight, and family.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels-cus/tagHelper %}
@@ -371,25 +202,11 @@ Stack labels have various properties for customization to enhance the visual bas
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels-cus/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Stack-labels-cus.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/stack-labels-cus/stack-labels-cus.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Corner radius
 
 The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in the chart series is used to customize the corner radius for stacked bar series. This allows you to create stacked bars with rounded corners, giving your chart a more polished appearance. You can customize each corner of the stacked bars using the topLeft, topRight, bottomLeft, and bottomRight properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -400,25 +217,11 @@ The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/corner-radius/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Corner-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/corner-radius/corner-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Point corner radius
 
 We can customize the corner radius for individual points in the chart series using the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event by setting the [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in its event argument.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -429,18 +232,6 @@ We can customize the corner radius for individual points in the chart series usi
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/point-corner-radius/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-corner-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/point-corner-radius/point-corner-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Events
@@ -448,8 +239,6 @@ We can customize the corner radius for individual points in the chart series usi
 ### Series render
 
 The `seriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -460,23 +249,9 @@ The `seriesRender` event allows you to customize series properties, such as data
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/series-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Point render
 
 The `pointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -486,18 +261,6 @@ The `pointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/point-render/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/stacked-bar/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

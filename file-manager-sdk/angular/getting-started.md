@@ -141,17 +141,17 @@ To use your own files, host a File Manager service and replace the `url` value w
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/app.component.ts %}
+{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/app.component.ts %}
 {% endhighlight %}
 {% highlight ts tabtitle="styles.css" %}
-{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/styles.css %}
+{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/styles.css %}
 {% endhighlight %}
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/file-manager-sdk/angular/getting-started-cs1/src/main.ts %}
+{% include code-snippet/file-manager-sdk/angular/angular/getting-started-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/file-manager-sdk/angular/help.syncfusion.com/samples/file-manager-sdk/angular/getting-started-cs1" %}
 
 ## Registering Your Syncfusion License
 
@@ -202,8 +202,6 @@ Then open the URL displayed in the terminal.
   ```bash
   ng serve --port 3000
   ```
-
-N> Looking for the full Angular File Manager component overview, features, pricing, and documentation? Visit the [Angular File Manager](https://www.syncfusion.com/angular-components/angular-file-manager) page.
 
 ## See also
 

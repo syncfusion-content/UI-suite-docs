@@ -17,19 +17,6 @@ documentation: ug
 
 The numeric scale is used to represent the numeric values of data in a Range Selector. By default, the `valueType` of a Range Selector is **Double**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/double/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Double.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/double/double.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/double/razor %}
@@ -38,7 +25,6 @@ The numeric scale is used to represent the numeric values of data in a Range Sel
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/double/double.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -48,19 +34,6 @@ The numeric scale is used to represent the numeric values of data in a Range Sel
 
 The minimum and the maximum of the scale will be calculated automatically based on the provided data. It can be customized by using the `minimum`, `maximum`, and `interval` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/range/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/range/razor %}
@@ -69,7 +42,6 @@ The minimum and the maximum of the scale will be calculated automatically based 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/range/range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -79,19 +51,6 @@ The minimum and the maximum of the scale will be calculated automatically based 
 
 The numeric labels can be formatted using the `labelFormat` property and it supports all the globalized formats.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/razor %}
@@ -100,7 +59,6 @@ The numeric labels can be formatted using the `labelFormat` property and it supp
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -170,19 +128,6 @@ The following table describes the result of applying some commonly used label fo
 
 The Range Selector also supports the Custom Label formats using the placeholders such as **{value}$**, in which the value represents the axis label, e.g. 20$.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/razor %}
@@ -191,7 +136,6 @@ The Range Selector also supports the Custom Label formats using the placeholders
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/format/format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -203,19 +147,6 @@ The Range Selector also supports the Custom Label formats using the placeholders
 
 The Logarithmic supports the logarithmic scale, and it is used to visualize the data when the Range Selector has numerical values in both the lower (e.g.: 10-6) and the higher (e.g.: 106) orders of the magnitude.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Log.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log/log.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log/razor %}
@@ -224,7 +155,6 @@ The Logarithmic supports the logarithmic scale, and it is used to visualize the 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log/log.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -234,19 +164,6 @@ The Logarithmic supports the logarithmic scale, and it is used to visualize the 
 
 The minimum and the maximum of the Range Selector will be calculated automatically based on the provided data. It can be customized by using the `minimum`, `maximum`, and `interval` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-range/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Log-range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-range/log-range.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-range/razor %}
@@ -255,7 +172,6 @@ The minimum and the maximum of the Range Selector will be calculated automatical
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-range/log-range.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -265,19 +181,6 @@ The minimum and the maximum of the Range Selector will be calculated automatical
 
 The Logarithmic Base can be customized using the `logBase` property. The default value of this property is **10**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-base/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Log-base.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-base/log-base.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-base/razor %}
@@ -286,7 +189,6 @@ The Logarithmic Base can be customized using the `logBase` property. The default
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/log-base/log-base.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -296,19 +198,6 @@ The Logarithmic Base can be customized using the `logBase` property. The default
 
 The Range Selector supports the DateTime scale and displays the DateTime values as labels in the specified format.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Date-time.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time/date-time.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time/razor %}
@@ -317,7 +206,6 @@ The Range Selector supports the DateTime scale and displays the DateTime values 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time/date-time.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -339,19 +227,6 @@ DateTime supports the following interval types:
 * Hours
 * Minutes
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-interval/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Date-time-interval.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-interval/date-time-interval.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-interval/razor %}
@@ -360,7 +235,6 @@ DateTime supports the following interval types:
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-interval/date-time-interval.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -370,19 +244,6 @@ DateTime supports the following interval types:
 
 The `labelFormat` property is used to format and parse the date to all globalize format.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-format/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Date-time-format.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-format/date-time-format.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-format/razor %}
@@ -391,7 +252,6 @@ The `labelFormat` property is used to format and parse the date to all globalize
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/data/date-time-format/date-time-format.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

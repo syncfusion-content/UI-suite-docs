@@ -29,6 +29,7 @@ To enable AI functionality in your .NET MAUI Scheduler, first ensure that you ha
 To connect your .NET MAUI app to Azure OpenAI, create a service class that handles communication with the AI model. 
 
 {% tabs %}
+
 {% highlight c# %}
 
 /// <summary>
@@ -46,11 +47,13 @@ public class AzureAIServices : AzureBaseService
 }
 
 {% endhighlight %}
+
 {% endtabs %}
 
 In this service, define a method called `GetResultsFromAI`. This method takes a user prompt from the SfAIAssistView control as input, sends it to the deployed model (e.g., GPT35Turbo), and returns the AI-generated response.
 
 {% tabs %}
+
 {% highlight c# %}
 
     /// <summary>
@@ -95,12 +98,14 @@ In this service, define a method called `GetResultsFromAI`. This method takes a 
     }
 
 {% endhighlight %}
+
 {% endtabs %}
 
 
 Within the base service class (AzureBaseService), initialize the OpenAIClient with your Azure endpoint, deployment name, and API key.
 
 {% tabs %}
+
 {% highlight c# %}
 
  public abstract class AzureBaseService
@@ -162,6 +167,7 @@ Within the base service class (AzureBaseService), initialize the OpenAIClient wi
  }
 
 {% endhighlight %}
+
 {% endtabs %}
 
 ## Implementing AI-powered Smart Appointment Booking in .NET MAUI Scheduler
@@ -173,6 +179,7 @@ To design the scheduling interface, add the Scheduler control to display appoint
 The Scheduler supports multiple calendar views allowing users to manage their schedules visually. Resources such as doctors can be added to the Scheduler by defining a resource collection and linked to appointments, enabling the Scheduler to group and display events based on the assigned resource. This helps users view and manage schedules for specific resources more efficiently.
 
 {% tabs %}
+
 {% highlight xaml %}
 
 xmlns:scheduler="clr-namespace:Syncfusion.Maui.Scheduler;assembly=Syncfusion.Maui.Scheduler"
@@ -236,11 +243,13 @@ xmlns:scheduler="clr-namespace:Syncfusion.Maui.Scheduler;assembly=Syncfusion.Mau
 </scheduler:SfScheduler>
  
 {% endhighlight %}
+
 {% endtabs %}
 
 The AIAssistView provides a chat-like interface that allows users to interact with AI services for scheduling assistance.
 
 {% tabs %}
+
 {% highlight c# %}
 
 xmlns:aiassistview="clr-namespace:Syncfusion.Maui.AIAssistView;assembly=Syncfusion.Maui.AIAssistView"
@@ -263,6 +272,7 @@ xmlns:aiassistview="clr-namespace:Syncfusion.Maui.AIAssistView;assembly=Syncfusi
 </aiassistview:SfAIAssistView>
  
 {% endhighlight %}
+
 {% endtabs %}
 
 Place both controls in your layout to allow users to interact with the scheduler easily and view their scheduled events.
@@ -272,6 +282,7 @@ Place both controls in your layout to allow users to interact with the scheduler
 When the user enters text in the SfAIAssistView chat panel, the request is passed to the AI service. You can capture this input by handling the `Request` event in the AssistViewBehavior.cs file:
 
 {% tabs %}
+
 {% highlight c# %}
 
 this.assistView.Request += this.OnAssistViewRequest;
@@ -295,6 +306,7 @@ private async void OnAssistViewRequest(object? sender, RequestEventArgs e)
 }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 ### Step 3: Send User Request to AI
@@ -302,6 +314,7 @@ private async void OnAssistViewRequest(object? sender, RequestEventArgs e)
 The SchedulerViewModel contains logic to process the request and fetch AI-generated responses.
 
 {% tabs %}
+
 {% highlight c# %}
 
 ///<summary>
@@ -318,6 +331,7 @@ public async Task GetAIResults(string query)
 }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 Here, the user’s request is sent to Azure OpenAI, and the response is shown in the AIAssistView chat.
@@ -327,10 +341,11 @@ Here, the user’s request is sent to Azure OpenAI, and the response is shown in
 The core logic for finding available slots is inside the `GetRecommendation` method. This builds a prompt with constraints like doctor working hours, appointment duration, and JSON output format.
 
 {% tabs %}
+
 {% highlight c# %}
 
 ///<summary>
-/// Method to contain AI response and updates.
+/// Method to handle the AI response and apply updates.
 ///</summary>
 ///<param name="userInput">The user input</param>
 ///<returns></returns>
@@ -354,6 +369,7 @@ private async Task<string> GetRecommendation(string userInput)
 }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 The AI service responds with structured appointment slot details in JSON format.
@@ -363,13 +379,14 @@ The AI service responds with structured appointment slot details in JSON format.
 Once the AI returns JSON, it is parsed into usable Scheduler collections for both doctors.
 
 {% tabs %}
+
 {% highlight c# %}
 
 var jsonObj = JObject.Parse(returnMessage);
 
 var doctorAppointments = new Dictionary<string, (List<DateTime> StartTimes, List<DateTime> EndTimes, List<string> Subjects, List<string> Locations, List<string> ResourceIds)>
 {
-    { "Doctor1", (new List<DateTime>(), new List<DateTime>(), new List<string>(), new List<string>(), new List<string<()) },
+    { "Doctor1", (new List<DateTime>(), new List<DateTime>(), new List<string>(), new List<string>(), new List<string>()) },
     { "Doctor2", (new List<DateTime>(), new List<DateTime>(), new List<string>(), new List<string>(), new List<string>()) }
 };
 
@@ -404,6 +421,7 @@ this.JohnAvailableTimeSlots = GenerateTimeSlots(JohnStartTimeCollection);
 return GenerateFinalTimeSlots(userInput);
  
 {% endhighlight %}
+
 {% endtabs %}
 
 This ensures Doctor1 and Doctor2 get separate collections of appointments.
@@ -413,11 +431,12 @@ This ensures Doctor1 and Doctor2 get separate collections of appointments.
 The parsed results are then shown to the user in natural text format via AssistView:
 
 {% tabs %}
+
 {% highlight c# %}
 
 ///<summary>
 /// Method to generate the final time slots.
-///<summary>
+///</summary>
 ///<param name="userInput">The user input</param>
 ///<returns></returns>
 private string GenerateFinalTimeSlots(string userInput)
@@ -439,6 +458,7 @@ private string GenerateFinalTimeSlots(string userInput)
 }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 The user can then select a specific time slot to confirm an appointment.
@@ -448,6 +468,7 @@ The user can then select a specific time slot to confirm an appointment.
 The communication with Azure OpenAI is handled in the `GetResultsFromAI` method:
 
 {% tabs %}
+
 {% highlight c# %}
 
 /// <summary>
@@ -478,6 +499,7 @@ public async Task<string> GetResultsFromAI(string userPrompt)
 }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 This ensures the AI always responds with structured, appointment-ready data.
@@ -487,6 +509,7 @@ This ensures the AI always responds with structured, appointment-ready data.
 Once the user selects or confirms a suggested slot, the AI finalizes the appointment details. The confirmed appointment is then programmatically added to the scheduler’s appointments collection. As a result, the scheduler UI automatically updates to reflect the newly created event.
 
 {% tabs %}
+
 {% highlight c# %}
 
 private async void OnAssistViewRequest(object? sender, RequestEventArgs e)
@@ -555,6 +578,11 @@ private async void OnAssistViewRequest(object? sender, RequestEventArgs e)
 }
  
 {% endhighlight %}
+
+{% endtabs %}
+
+{% tabs %}
+
 {% highlight c# %}
 
  /// <summary>
@@ -582,8 +610,9 @@ private async void OnAssistViewRequest(object? sender, RequestEventArgs e)
  }
  
 {% endhighlight %}
+
 {% endtabs %}
 
 ![Booking-appointments-with-AI-in-NET-MAUI-Scheduler](images/smart-ai-samples/Booking-appointments-with-AI-in-NET-MAUI-Scheduler.gif)
 
-You can download the complete sample from this [link](https://github.com/syncfusion/maui-demos/tree/master/MAUI/SmartComponents/SampleBrowser.Maui.SmartComponents/Samples/SmartScheduler)
+You can download the complete sample from this [link](https://github.com/syncfusion/maui-demos/tree/master/MAUI/SmartDemos/SampleBrowser.Maui.SmartDemos/Samples/SmartDemos/Scheduler)

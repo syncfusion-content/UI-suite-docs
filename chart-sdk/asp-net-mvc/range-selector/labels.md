@@ -15,19 +15,6 @@ documentation: ug
 
 The multi-level labels for the Range Selector can be enabled by setting the `enableGrouping` property to **true**. This is restricted to the DateTime axis alone.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/multi/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Multi.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/multi/multi.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/multi/razor %}
@@ -36,7 +23,6 @@ The multi-level labels for the Range Selector can be enabled by setting the `ena
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/multi/multi.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -56,19 +42,6 @@ The multi-level labels can be grouped using the `groupBy` property with the foll
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/group/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/group/group.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/group/razor %}
@@ -77,7 +50,6 @@ The multi-level labels can be grouped using the `groupBy` property with the foll
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/group/group.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -87,19 +59,6 @@ The multi-level labels can be grouped using the `groupBy` property with the foll
 
 The `labelIntersectAction` property is used to avoid overlapping of labels. The following code sample shows the setting of `labelIntersectAction` property to **Hide**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/smart/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Smart.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/smart/smart.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/smart/razor %}
@@ -108,7 +67,6 @@ The `labelIntersectAction` property is used to avoid overlapping of labels. The 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/smart/smart.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -118,19 +76,6 @@ The `labelIntersectAction` property is used to avoid overlapping of labels. The 
 
 By default, the labels can be placed outside the Range Selector. It can also be placed inside the Range Selector using the `labelPosition` property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/position/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/position/razor %}
@@ -139,7 +84,6 @@ By default, the labels can be placed outside the Range Selector. It can also be 
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/position/position.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -149,19 +93,6 @@ By default, the labels can be placed outside the Range Selector. It can also be 
 
 The font size, color, family, etc. can be customized using the `labelStyle` setting.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/custom/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/custom/razor %}
@@ -170,7 +101,6 @@ The font size, color, family, etc. can be customized using the `labelStyle` sett
 {% include code-snippet/chart-sdk/asp-net-mvc/range-selector/label/custom/custom.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

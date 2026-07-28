@@ -19,8 +19,6 @@ To quickly get started with ASP.NET Core Category Axis, you can check out this v
 
 {% youtube "https://www.youtube.com/watch?v=l3M5ZvM1Ozs" %}
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/column/tagHelper %}
@@ -29,18 +27,6 @@ To quickly get started with ASP.NET Core Category Axis, you can check out this v
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/column/column.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/column/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/column/column.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -52,8 +38,6 @@ To quickly get started with ASP.NET Core Category Axis, you can check out this v
 
 By default, category labels are placed between the ticks in an axis, this can also be placed on ticks using [`labelPlacement`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_LabelPlacement) property.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/placement/tagHelper %}
@@ -63,25 +47,11 @@ By default, category labels are placed between the ticks in an axis, this can al
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/placement/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Placement.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/placement/placement.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Range
 
 Range of the category axis can be customized using [`minimum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Minimum), [`maximum`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Maximum) and [`interval`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartAxis.html#Syncfusion_EJ2_Charts_ChartAxis_Interval) property of the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -92,25 +62,11 @@ Range of the category axis can be customized using [`minimum`](https://help.sync
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/range/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/range/range.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Indexed category axis
 
 Category axis also can be rendered based on the index values of data source. This can be achieved by defining the `isIndexed` property to `true` in the axis.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -120,16 +76,4 @@ Category axis also can be rendered based on the index values of data source. Thi
 {% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/index/index.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/index/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Index.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/axis/category/index/index.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 

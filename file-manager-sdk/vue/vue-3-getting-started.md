@@ -199,6 +199,30 @@ registerLicense('YOUR_LICENSE_KEY');
 
 > **Note:** A valid Syncfusion license is required for production use. Without a valid license, a trial license warning message will be displayed.
 
+### Server-side setup
+
+The sample uses `https://physical-service.syncfusion.com/api/FileManager/FileOperations` as the [`url`](https://ej2.syncfusion.com/vue/documentation/api/file-manager/ajaxsettingsmodel#url) endpoint in [`ajaxSettings`](https://ej2.syncfusion.com/vue/documentation/api/file-manager/ajaxsettings).
+
+To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
+
+## Registering Your Syncfusion License
+
+Generate a license key from the [Syncfusion License Dashboard](https://www.syncfusion.com/account/downloads) and register it before rendering your Vue 3 application:
+
+{% tabs %}
+{% highlight html tabtitle="main.js" %}
+
+```javascript
+import { registerLicense } from '@syncfusion/ej2-base';
+
+registerLicense('YOUR_LICENSE_KEY');
+```
+
+{% endhighlight %}
+{% endtabs %}
+
+> **Note:** A valid Syncfusion license is required for production use. Without a valid license, a trial license warning message will be displayed.
+
 ## Run the project
 
 To run the project, use the following command:

@@ -19,19 +19,6 @@ To render a `waterfall` series in your chart, you need to follow a few steps to 
 
 * **Configure intermediate and cumulative sums:** Use the `IntermediateSumIndexes` property to represent intermediate sum values, and the `SumIndexes` property to represent cumulative sum values.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Waterfall.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/waterfall.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/razor %}
@@ -40,25 +27,11 @@ To render a `waterfall` series in your chart, you need to follow a few steps to 
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/waterfall.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Binding data with series
 
 You can bind data to the chart using the `DataSource` property within the series configuration. This allows you to connect a JSON dataset or remote data to your chart. To display the data correctly, map the fields from the data to the chart series `XName` and `YName` properties.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Waterfall.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/waterfall.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/razor %}
@@ -67,24 +40,10 @@ You can bind data to the chart using the `DataSource` property within the series
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/waterfall/waterfall.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Series customization
 
 In waterfall charts, you can customize the appearance of different types of data changes using specific properties. The `NegativeFillColor` property is used to specify the color for negative changes, which helps visually distinguish decreases in the data. Similarly, the `SummaryFillColor` property is used to define the color for summary changes. By default, the `NegativeFillColor` is set to **green**, indicating decreases, while the `SummaryFillColor` is set to **black**, marking summary or total values.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/custom-waterfall/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-waterfall.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/custom-waterfall/custom-waterfall.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -94,7 +53,6 @@ In waterfall charts, you can customize the appearance of different types of data
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/custom-waterfall/custom-waterfall.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ## Empty points
 
@@ -104,19 +62,6 @@ Data points with **null** or **undefined** values are considered empty. Empty da
 
 Use the `Mode` property to define how empty or missing data points are handled in the series. The default mode for empty points is **Gap**.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty/empty.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty/razor %}
@@ -125,24 +70,10 @@ Use the `Mode` property to define how empty or missing data points are handled i
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty/empty.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Fill**
 
 Use the `Fill` property to customize the fill color of empty points in the series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-fill/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-fill.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-fill/empty-fill.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -152,24 +83,10 @@ Use the `Fill` property to customize the fill color of empty points in the serie
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-fill/empty-fill.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 **Border**
 
 Use the `Border` property to customize the width and color of the border for empty points.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-border/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Empty-border.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-border/empty-border.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -179,26 +96,12 @@ Use the `Border` property to customize the width and color of the border for emp
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/empty-border/empty-border.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Corner radius
 
 The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in the chart series is used to customize the corner radius for waterfall series. This allows you to create waterfalls with rounded corners, giving your chart a more polished appearance. You can customize each corner of the waterfalls using the topLeft, topRight, bottomLeft, and bottomRight properties.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/corner-radius/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Corner-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/corner-radius/corner-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -208,26 +111,12 @@ The [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/corner-radius/corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ### Point corner radius
 
 We can customize the corner radius for individual points in the chart series using the [`PointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) event by setting the [`CornerRadius`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_CornerRadius) property in its event argument.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-corner-radius/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-corner-radius.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-corner-radius/point-corner-radius.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -237,7 +126,6 @@ We can customize the corner radius for individual points in the chart series usi
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-corner-radius/point-corner-radius.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -247,19 +135,6 @@ We can customize the corner radius for individual points in the chart series usi
 
 The `SeriesRender` event allows you to customize series properties, such as data, fill, and name, before they are rendered on the chart.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/series-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Series-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/series-render/series-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/series-render/razor %}
@@ -268,24 +143,10 @@ The `SeriesRender` event allows you to customize series properties, such as data
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/series-render/series-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 ### Point render
 
 The `PointRender` event allows you to customize each data point before it is rendered on the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-render/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-render.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-render/point-render.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -295,7 +156,6 @@ The `PointRender` event allows you to customize each data point before it is ren
 {% include code-snippet/chart-sdk/asp-net-mvc/charts/series/waterfall/point-render/point-render.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 

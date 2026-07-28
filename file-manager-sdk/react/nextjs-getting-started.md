@@ -162,6 +162,7 @@ export default App;
 
 The sample uses `https://physical-service.syncfusion.com/` as the [url](https://ej2.syncfusion.com/react/documentation/api/file-manager/ajaxsettingsmodel#url) endpoint in [ajaxSettings](https://ej2.syncfusion.com/react/documentation/api/file-manager/ajaxsettings).
 
+
 To use your own files, host a File Manager service and replace the `url` value with your service endpoint. See the [File System Provider](./file-system-provider) documentation for setup details.
 
 ## Run the application

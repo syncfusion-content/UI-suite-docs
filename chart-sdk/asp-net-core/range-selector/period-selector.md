@@ -27,8 +27,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 * Minutes
 * Seconds
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/period/periods/tagHelper %}
@@ -38,18 +36,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/periods/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Periods.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/periods/periods.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Periods](images/period-selector/periods.png)
@@ -57,8 +43,6 @@ An array of objects that allows the users to specify pre-defined time intervals.
 ## Positioning period selector
 
 The `position` property allows the users to position the period selector at the **Top** or **Bottom**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -69,18 +53,6 @@ The `position` property allows the users to position the period selector at the 
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/position/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Position.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/position/position.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Positioning](images/period-selector/position.png)
@@ -88,8 +60,6 @@ The `position` property allows the users to position the period selector at the 
 ## Height
 
 The `height` property allows the users to specify the height of the period selector. The default value of the height property is **43px**.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -100,18 +70,6 @@ The `height` property allows the users to specify the height of the period selec
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/height/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Height.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/height/height.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ![Height](images/period-selector/height.png)
@@ -119,8 +77,6 @@ The `height` property allows the users to specify the height of the period selec
 ## Visibility of range navigator
 
 The `disableRangeSelector` property allows the users to display only the period selector and not the Range Selector.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -130,18 +86,6 @@ The `disableRangeSelector` property allows the users to display only the period 
 {% include code-snippet/chart-sdk/asp-net-core/range-selector/period/visible/visible.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/visible/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Visible.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/range-selector/period/visible/visible.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 

@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Execute command 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Execute command in JavaScript Rich text editor control

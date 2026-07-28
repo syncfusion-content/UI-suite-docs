@@ -12,7 +12,7 @@ documentation: ug
 In the Gantt Chart component, you can hide chart part and display Tree Grid part alone by setting the value of [GanttSplitterSettings.View](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Gantt.GanttSplitterSettings.html#Syncfusion_Blazor_Gantt_GanttSplitterSettings_View) property as `Grid`.
 
 {% tabs %}
-{% highlight razor tabtitle="Index.razor" %}
+{% highlight razor tabtitle="Home.razor" %}
 
 @using Syncfusion.Blazor.Gantt
     <SfGantt DataSource="@TaskCollection" Height="230px" Width="700px">
@@ -25,7 +25,7 @@ In the Gantt Chart component, you can hide chart part and display Tree Grid part
     private List<TaskData> TaskCollection { get; set; }
     protected override void OnInitialized()
     {
-        this.TaskCollection = GetTaskCollection();
+        TaskCollection = GetTaskCollection();
     }
 
     public class TaskData
@@ -53,4 +53,4 @@ In the Gantt Chart component, you can hide chart part and display Tree Grid part
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://blazorplayground.syncfusion.com/embed/BjVetkLHARucneHx?appbar=false&editor=false&result=true&errorlist=false&theme=bootstrap5" %}
+{% previewsample "https://blazorplayground.syncfusion.com/embed/VXVHZcWQfSFUYNwl?appbar=false&editor=false&result=true&errorlist=false&theme=fluent2" %}

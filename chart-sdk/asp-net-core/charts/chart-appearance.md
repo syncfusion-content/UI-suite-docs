@@ -15,8 +15,6 @@ documentation: ug
 
 You can customize the default theme of the chart `theme` property. There are 9 themes available. They are, `Material`, `Fabric`, `Bootstrap`, `HighContrastLight`, `MaterialDark`, `FabricDark`, `HighContrast`, `BootstrapDark` and `Bootstrap4`.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/theme/tagHelper %}
@@ -26,25 +24,11 @@ You can customize the default theme of the chart `theme` property. There are 9 t
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/theme/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Theme.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/theme/theme.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Custom color palette
 
 You can customize the default color of series or points by providing a custom color palette of your choice by using the [`palettes`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Palettes) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -55,18 +39,6 @@ You can customize the default color of series or points by providing a custom co
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/custom/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/custom/custom.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Data point customization
 
 The color of individual data point or data points within a range can be customized using the options below.
@@ -74,8 +46,6 @@ The color of individual data point or data points within a range can be customiz
 ### Point color mapping
 
 You can bind the color for the points from [`dataSource`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_DataSource) for the series using [`pointColorMapping`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartSeries.html#Syncfusion_EJ2_Charts_ChartSeries_PointColorMapping) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -86,23 +56,9 @@ You can bind the color for the points from [`dataSource`](https://help.syncfusio
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/point-color/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point-color.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/point-color/point-color.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ### Range color mapping
 
 You can differentiate data points based on their y values using [`rangeColorSettings`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartRangeColorSettings.html) in the chart.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -113,23 +69,9 @@ You can differentiate data points based on their y values using [`rangeColorSett
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/range-color/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Range-color.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/range-color/range-color.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Point level customization
 
 Marker, datalabel and fill color of each data point can be customized with [`pointRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_PointRender) and [`textRender`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TextRender) event.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -139,18 +81,6 @@ Marker, datalabel and fill color of each data point can be customized with [`poi
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/point/point.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/point/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Point.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/point/point.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -165,8 +95,6 @@ Marker, datalabel and fill color of each data point can be customized with [`poi
 <!-- markdownlint-disable MD013 -->
 Using [`background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Background) and [`border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Border) properties, you can change the background color and border of the chart.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/area/tagHelper %}
@@ -176,25 +104,11 @@ Using [`background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/area/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Area.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/area/area.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Chart margin**
 
 You can set margin for chart from its container through [`margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Margin) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -205,25 +119,11 @@ You can set margin for chart from its container through [`margin`](https://help.
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/margin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/margin/margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 **Chart area customization**
 
 Using [`background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Background) and [`border`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Border) properties, you can change the background color and border of the chart area. Width for the chart area can be customized using [`width`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Width) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -234,23 +134,9 @@ Using [`background`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/background/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Background.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/background/background.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 **Chart area margin**
 
 You can customize the space between the chart area from its chart container through [`Margin`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartArea.html#Syncfusion_EJ2_Charts_ChartArea_Margin) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -261,23 +147,9 @@ You can customize the space between the chart area from its chart container thro
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/area-margin/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Area-margin.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/area-margin/area-margin.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 ## Animation
 
 You can customize animation for a particular series using [`animation`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.ChartAnimation.html) property. You can enable or disable animation of the series using `enable` property, `duration` specifies the duration of an animation and `delay` allows us to start the animation at desire time.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -288,25 +160,10 @@ You can customize animation for a particular series using [`animation`](https://
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/animation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Animation.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/animation/animation.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ## Fluid animation
 
 Fluid animation used to animate series with updated dataSource continues animation rather than animation whole series. You can customize animation for a particular series using [`animate`] method.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -317,25 +174,11 @@ Fluid animation used to animate series with updated dataSource continues animati
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/fluid-animation/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Fluid.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/fluid-animation/fluid.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Chart title
 
 Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Title) property, to show the information about the data plotted.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -346,25 +189,11 @@ Chart can be given a title using [`title`](https://help.syncfusion.com/cr/aspnet
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/title/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Title.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/title/title.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ### Title position
 
 By using the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_Position) property in [`TitleStyle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_TitleStyle), you can position the [`Title`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_Title) at left, right, top or bottom of the chart. The title is positioned at the top of the chart, by default.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -375,23 +204,9 @@ By using the [`Position`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfus
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titleposition/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titleposition.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titleposition/titleposition.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 The custom option helps you to position the title anywhere in the chart using [`X`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_X) and [`Y`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_Y) coordinates.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -402,25 +217,10 @@ The custom option helps you to position the title anywhere in the chart using [`
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titleoption/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titleoption.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titleoption/titleoption.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
-
 
 ### Title alignment
 
 You can align the title to the near, far, or center of the chart using the [`TextAlignment`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.ChartTitleSettings.html#Syncfusion_EJ2_Charts_ChartTitleSettings_TextAlignment) property.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -431,25 +231,11 @@ You can align the title to the near, far, or center of the chart using the [`Tex
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titlealignment/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Titlealignment.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/titlealignment/titlealignment.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Chart subTitle
 
 Chart can be given a subtitle using [`subTitle`](https://help.syncfusion.com/cr/aspnetcore-js2/Syncfusion.EJ2.Charts.Chart.html#Syncfusion_EJ2_Charts_Chart_SubTitle) property, to show the information about the data plotted.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -459,15 +245,3 @@ Chart can be given a subtitle using [`subTitle`](https://help.syncfusion.com/cr/
 {% include code-snippet/chart-sdk/asp-net-core/charts/series/column/subtitle/subtitle.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/subtitle/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Subtitle.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/charts/series/column/subtitle/subtitle.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}

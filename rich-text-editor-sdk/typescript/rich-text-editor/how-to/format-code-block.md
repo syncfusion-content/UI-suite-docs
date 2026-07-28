@@ -6,12 +6,12 @@ platform: rich-text-editor-sdk
 control: Format code block 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Format code block in TypeScript Rich text editor control
 
-You can configure code block formatting as a separate toolbar button by adding the **InsertCode** keyword within the [toolbarSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/toolbarSettings#toolbarsettings) items property.
+You can configure code block formatting as a separate toolbar button by adding the **InsertCode** keyword within the [toolbarSettings](https://ej2.syncfusion.com/documentation/api/rich-text-editor/toolbarsettings#toolbarsettings) items property.
 
 The InsertCode button has a toggle state to apply code block formatting to the editor and remove code block formatting from the editor.
 

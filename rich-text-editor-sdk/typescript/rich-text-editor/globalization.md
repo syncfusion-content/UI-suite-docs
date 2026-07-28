@@ -6,7 +6,7 @@ platform: rich-text-editor-sdk
 control: Globalization 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Globalization in the TypeScript Rich Text Editor control
@@ -493,7 +493,7 @@ To localize the editor’s strings with your own localization, copy the default 
 
 ```
 
-The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/documentation/api/rich-text-editor#locale) property.
+The sample below demonstrates the Rich Text Editor component rendered in German ("de-DE") using the [locale](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#locale) property.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -524,7 +524,7 @@ The sample below demonstrates the Rich Text Editor component rendered in German 
 
 ## Enable Right-to-Left (RTL) mode
 
-The [enableRtl](https://ej2.syncfusion.com/documentation/api/rich-text-editor#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
+The [enableRtl](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#enablertl) property specifies the direction of the Rich Text Editor component. This property can be enabled for writing systems that require right-to-left direction, such as Arabic and Hebrew.
 
 When RTL (right-to-left) support is enabled, the `e-rtl` class will be added to the root element. Customizations can be made based on this class. Use the following CSS to customize the Rich Text Editor in RTL (right-to-left) mode.
 

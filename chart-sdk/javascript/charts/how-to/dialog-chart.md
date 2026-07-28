@@ -21,21 +21,6 @@ Initialize the dialog and button components, and then create a basic chart and s
 
 By setting the chart `id` in the `content` property of dialog component, you can show chart when clicking the button component.
 
-{% if page.publishingplatform == "typescript" %}
-
- {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/charts/dialog-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/charts/dialog-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/dialog-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/charts/dialog-cs1/index.html %}
@@ -43,4 +28,3 @@ By setting the chart `id` in the `content` property of dialog component, you can
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/charts/dialog-cs1" %}
-{% endif %}

@@ -33,21 +33,6 @@ The `linkStyle` property allows you to customize the visual appearance of all li
 
 Customize the appearance of all links using the `linkStyle` property to set global opacity levels, curvature, and color blending behavior:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/customization-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/customization-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/customization-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/links/customization-cs1/index.js %}
@@ -58,7 +43,6 @@ Customize the appearance of all links using the `linkStyle` property to set glob
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/customization-cs1" %}
-{% endif %}
 
 ## Link Curvature
 
@@ -70,21 +54,6 @@ The `curvature` property controls the bend of the links, affecting the visual fl
 
 Choose curvature values based on your data density and aesthetic preferences:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/curvature-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/curvature-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/curvature-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/links/curvature-cs1/index.js %}
@@ -95,7 +64,6 @@ Choose curvature values based on your data density and aesthetic preferences:
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/curvature-cs1" %}
-{% endif %}
 
 ## Link Color Type
 
@@ -107,21 +75,6 @@ The `colorType` property determines how links are colored, providing flexibility
 
 The color type you choose affects how users perceive flow relationships in the diagram:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/colortype-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/colortype-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/colortype-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/links/colortype-cs1/index.js %}
@@ -132,7 +85,6 @@ The color type you choose affects how users perceive flow relationships in the d
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/colortype-cs1" %}
-{% endif %}
 
 ## Link Value and Thickness
 
@@ -144,21 +96,6 @@ The link thickness is determined by the `value` property in the link data. This 
 
 The thickness visualization makes it easy to understand relative flow quantities at a glance:
 
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/thickness-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/thickness-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/thickness-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
-
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 {% include code-snippet/chart-sdk/javascript/sankey-diagram/links/thickness-cs1/index.js %}
@@ -169,28 +106,12 @@ The thickness visualization makes it easy to understand relative flow quantities
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/thickness-cs1" %}
-{% endif %}
 
 ## Advanced Link Configuration
 
 ### Dynamic Link Customization
 
 Use the `linkRendering` event to customize link appearance dynamically during the render process. This event is triggered for each link before rendering, allowing you to apply conditional styling based on flow values, source-target combinations, or other data attributes:
-
-{% if page.publishingplatform == "typescript" %}
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/rendering-event-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sankey-diagram/links/rendering-event-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/rendering-event-cs1" %}
-
-{% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -202,4 +123,3 @@ Use the `linkRendering` event to customize link appearance dynamically during th
 {% endtabs %}
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sankey-diagram/links/rendering-event-cs1" %}
-{% endif %}

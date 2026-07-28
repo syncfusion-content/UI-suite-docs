@@ -477,3 +477,4 @@ this.Content = dataGrid;
 {% endtabs %}
 
 <img alt="Maui DataGrid Column Chooser" src="Images\columns/maui-datagrid-columnchooser.png" width="404"/>
+

@@ -6,12 +6,12 @@ platform: rich-text-editor-sdk
 control: Clipboard cleanup 
 publishingplatform: rich-text-editor-sdk
 documentation: ug
-domainurl: https://help.syncfusion.com/rich-text-editor-sdk
+domainurl: https://help.syncfusion.com/rich-text-editor-sdk/
 ---
 
 # Clipboard Cleanup in JavaScript Rich Text Editor control
 
-The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/documentation/api/rich-text-editor#enableClipboardCleanup) property.
+The Rich Text Editor supports automatic cleanup of clipboard content during copy (`Ctrl + C`) and cut (`Ctrl + X`) operations. When this feature is enabled, unwanted inline styles are automatically removed from the clipboard content while preserving important structural elements such as tables, lists, and images. You can enable this behavior using the [enableClipboardCleanup](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#enableclipboardcleanup) property.
 
 > Rich Text Editor features are segregated into individual feature-wise modules. To use clipboard cleanup, inject ClipboardCleanup module using the `RichTextEditor.Inject(ClipboardCleanup)`.
 
@@ -48,7 +48,7 @@ When `enableClipboardCleanup` is set to `true`, copy and cut operations are inte
 
 ## Customizing Copied/Cut Content
 
-You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/documentation/api/rich-text-editor#beforeClipboardWrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
+You can use the [beforeClipboardWrite](https://ej2.syncfusion.com/documentation/api/rich-text-editor/index-default#beforeclipboardwrite) event, which fires before content is written to the clipboard during copy or cut operations. This event lets you to modify the HTML and plain-text representations of the content and also determine whether the action is a copy or a cut.
 
 In this example, the `beforeClipboardWrite` event is used to customize the selected content only during a copy operation, while the cut operation remains unaffected. To observe this behavior, try copying any text within the Rich Text Editor.
 

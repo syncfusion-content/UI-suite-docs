@@ -15,19 +15,6 @@ documentation: ug
 
 To render a column series, use series [`Type`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_Type) as [`Column`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeriesType.html#Syncfusion_EJ2_Charts_Chart3DSeriesType_Column).
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column/column.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column/razor %}
@@ -36,26 +23,12 @@ To render a column series, use series [`Type`](https://help.syncfusion.com/cr/as
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column/column.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Column space and width
 
 The [`ColumnSpacing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnSpacing) and [`ColumnWidth`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnWidth) properties are used to customize the space between columns.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-space/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column-space.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-space/column-space.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -65,26 +38,12 @@ The [`ColumnSpacing`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-space/column-space.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Grouped column
 
 The data points can be grouped in the column type charts by using the [`GroupName`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_GroupName) property. Data points with same group name are grouped together.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/group-column/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Group-column.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/group-column/group-column.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -94,26 +53,12 @@ The data points can be grouped in the column type charts by using the [`GroupNam
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/group-column/group-column.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
 ## Cylindrical column chart
 
 To render a cylindrical column chart, set the [`ColumnFacet`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Charts.Chart3DSeries.html#Syncfusion_EJ2_Charts_Chart3DSeries_ColumnFacet) property to `Cylinder` in the chart series.
-
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-cylinder/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column-cylinder.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-cylinder/column-cylinder.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
 
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
@@ -123,7 +68,6 @@ To render a cylindrical column chart, set the [`ColumnFacet`](https://help.syncf
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-cylinder/column-cylinder.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 
 
@@ -140,19 +84,6 @@ The following properties can be used to customize the `column` series.
 * [fill](../../api/chart3d/series3DModel/#fill) – Specifies the color of the series.
 * [opacity](../../api/chart3d/series3DModel/#opacity) – Specifies the opacity of the [fill](../../api/chart3d/series3DModel/#fill) color.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
-{% tabs %}
-{% highlight cshtml tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-series/tagHelper %}
-{% endhighlight %}
-{% highlight c# tabtitle="Column-series.cs" %}
-{% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-series/column-series.cs %}
-{% endhighlight %}
-{% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
 {% tabs %}
 {% highlight razor tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-series/razor %}
@@ -161,6 +92,5 @@ The following properties can be used to customize the `column` series.
 {% include code-snippet/chart-sdk/asp-net-mvc/3d-charts/series/column-charts/column-series/column-series.cs %}
 {% endhighlight %}
 {% endtabs %}
-{% endif %}
 
 

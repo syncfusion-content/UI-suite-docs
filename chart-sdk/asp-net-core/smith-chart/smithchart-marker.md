@@ -19,8 +19,6 @@ Markers and Datalabels are used to provide information about the data points in 
 
 Default visibility of marker is false. You can enable the marker by setting property visible as true in marker settings. This will add marker for each point in the series. Using marker setting, you can customize marker differently for each series in smithchart.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/marker/tagHelper %}
@@ -29,18 +27,6 @@ Default visibility of marker is false. You can enable the marker by setting prop
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/marker/marker.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/marker/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Marker.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/marker/marker.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -55,8 +41,6 @@ Using marker settings in series, you can customize the marker for each series di
 * [`border`] - Used to control the width and color of the marker's border.
 * [`shape`] - Used to change the shape of the marker.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-maker/tagHelper %}
@@ -66,25 +50,11 @@ Using marker settings in series, you can customize the marker for each series di
 {% endhighlight %}
 {% endtabs %}
 
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-maker/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Cusom-marker.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-maker/custom-maker.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
-
 
 
 ## Datalabels
 
 By default, datalabel is disabled. You can enable the datalabel by setting property visible as true in datalabel settings. For each point in series, data label is created. Datalabel for each series can be customized differently using datalabel settings.
-
-{% if page.publishingplatform == "aspnet-core" %}
 
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
@@ -94,18 +64,6 @@ By default, datalabel is disabled. You can enable the datalabel by setting prope
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/data-label/data-label.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/data-label/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Data-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/data-label/data-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
 
 
@@ -118,8 +76,6 @@ Using datalabel settings in marker, you can customize the datalabel for each ser
 * [`border`] - Used to customize the width and color of the border.
 * [`textStyle`] - Used to customize the font color, width and size.
 
-{% if page.publishingplatform == "aspnet-core" %}
-
 {% tabs %}
 {% highlight cshtml tabtitle="CSHTML" %}
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-label/tagHelper %}
@@ -128,16 +84,4 @@ Using datalabel settings in marker, you can customize the datalabel for each ser
 {% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-label/custom-label.cs %}
 {% endhighlight %}
 {% endtabs %}
-
-{% elsif page.publishingplatform == "aspnet-mvc" %}
-
-{% tabs %}
-{% highlight razor tabtitle="CSHTML" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-label/razor %}
-{% endhighlight %}
-{% highlight c# tabtitle="Custom-label.cs" %}
-{% include code-snippet/chart-sdk/asp-net-core/smith-chart/marker/custom-label/custom-label.cs %}
-{% endhighlight %}
-{% endtabs %}
-{% endif %}
 
