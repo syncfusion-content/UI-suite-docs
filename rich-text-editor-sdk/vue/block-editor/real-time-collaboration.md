@@ -93,7 +93,7 @@ Create a `collaboration.ts` file in the src folder and add the following code to
 
 ```typescript
 import * as Y from 'yjs';
-import { type YjsAdapter } from '@syncfusion/ej2-blockeditor';
+import type { YjsAdapter } from '@syncfusion/ej2-blockeditor';
 import { WebsocketProvider } from 'y-websocket';
 
 // Create a shared Yjs document for collaborative editing.
@@ -173,7 +173,7 @@ export { yDoc, yFragment, adapter, provider, roomName };
 
 In your Vue component file, replace the existing Block Editor with the following code:
 
-```ts
+```html
 <template>
   <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
@@ -221,7 +221,7 @@ If the text appears in both tabs, **real-time collaboration is achieved.**
 
 Set the current user's display name and cursor highlight color using the `users` and `currentUserId` properties. The `avatarBgColor` value is used for that user's remote cursor and text selection overlay. The users property includes `id`, `user` and `avatarBgColor`.
 
-```ts
+```html
 <template>
   <ejs-blockeditor :collaborationSettings="collaborationSettings" :users="users" :currentUserId="currentUserId"></ejs-blockeditor>
 </template>
@@ -561,7 +561,7 @@ Use the following event callbacks in `versionHistory` settings to respond to sna
 
 Triggered when a new snapshot is created.
 
-```ts
+```html
 <template>
   <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
@@ -586,7 +586,7 @@ provide('blockeditor', [Collaboration, VersionHistory]);
 
 Triggered when a snapshot is restored.
 
-```ts
+```html
 <template>
   <ejs-blockeditor :collaborationSettings="collaborationSettings"></ejs-blockeditor>
 </template>
