@@ -553,11 +553,11 @@ const versionHistory = blockEditor.getVersionHistory();
 const imported = await versionHistory.importSnapshot(exported);
 ```
 
-## Events
+### Events
 
 Use the following event callbacks in `versionHistory` settings to respond to snapshot life cycle events.
 
-### snapshotCreated
+#### snapshotCreated
 
 Triggered when a new snapshot is created.
 
@@ -574,7 +574,7 @@ const blockEditor = new BlockEditor({
 });
 ```
 
-### snapshotRestored
+#### snapshotRestored
 
 Triggered when a snapshot is restored.
 
