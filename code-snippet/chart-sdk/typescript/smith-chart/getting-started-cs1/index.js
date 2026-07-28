@@ -20,4 +20,4 @@ var smithchart = new ej.charts.Smithchart({
         }
     ]
 });
-smithchart.appendTo('#element');
+smithchart.appendTo('#container');

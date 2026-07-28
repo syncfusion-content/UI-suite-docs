@@ -13,6 +13,21 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Data Labels are used to identify the name of items or groups in the TreeMap component. Data Labels will be shown by specifying the data source properties in the `labelPath` of the `leafItemSettings`.
 
+## Add labels
+
+Labels display descriptive text directly on TreeMap items, providing immediate context without requiring a legend lookup. Labels are shown by default, but you can customize their visibility and appearance using the [`showLabels`](https://ej2.syncfusion.com/javascript/documentation/api/treemap/leafitemsettingsmodel#showlabels) property in the [`leafItemSettings`](https://ej2.syncfusion.com/javascript/documentation/api/treemap/leafitemsettingsmodel) object.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs4/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs4/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs4" %}
+
 ## Format
 
 Customize the labels for each item using the `labelFormat` property in the `leafItemSettings`.

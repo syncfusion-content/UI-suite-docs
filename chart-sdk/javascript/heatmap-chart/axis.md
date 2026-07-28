@@ -93,6 +93,21 @@ In HeatMap, you can place the axis label in an opposite position of its default 
 
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/axis-cs5" %}
 
+## Enable axis labels
+
+You can add axis labels to the HeatMap and format those labels using the [xAxis](../api/heatmap#xaxis) and [yAxis](../api/heatmap#yaxis) properties. Axis labels provide additional information about the data points populated in the HeatMap.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs2/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs2/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/heatmap-chart/getting-started-cs2" %}
+
 ## Axis labels customization
 
 ### Customizing the text style

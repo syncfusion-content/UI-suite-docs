@@ -22,61 +22,45 @@ Ensure that the development environment meets the required criteria listed in [S
 
 ## Set Up the Vite Project
 
-The recommended way to start a Vue 3 project is by scaffolding it with [Vite](https://vitejs.dev/). To create a new Vite project, use one of the commands that are specific to either NPM or Yarn.
+Create a Vite project using either npm or Yarn.
 
 **npm**
+
 ```bash
-npm create vite@latest
+npm create vite@latest my-app -- --template vue
 ```
 
 **yarn**
 
 ```bash
-yarn create vite
+yarn create vite my-app --template vue
 ```
 
-Using one of the above commands will lead you through a short interactive setup:
+If Vite prompts you to install dependencies and start the project immediately, select **No**. The Syncfusion package is installed in a later step.
 
-**Step 1:** Define the project name: We can specify the name of the project directly. Let's specify the name of the project as `my-project` for this article.
-```bash
-? Project name: » my-project
-```
-
-**Step 2:** Select `Vue` as the framework. It will create a Vue 3 project.
+Navigate to the project directory:
 
 ```bash
-? Select a framework: » - Use arrow-keys. Return to submit.
-Vanilla
-> Vue
-  React
-  Preact
-  Lit
-  Svelte
-  Others
+cd my-app
 ```
 
-**Step 3:** Choose `JavaScript` as the framework variant to build this Vite project using JavaScript and Vue.
+Install the project dependencies using either npm or Yarn.
+
+**npm**
 
 ```bash
-? Select a variant: » - Use arrow-keys. Return to submit.
-> JavaScript
-  TypeScript
-  Customize with create-vue ↗
-  Nuxt ↗
+npm install
 ```
 
-**Step 4:** Install dependencies
-
-After the project is created, the CLI prompts you to install dependencies and start the development server:
+**yarn**
 
 ```bash
-? Install with <package-manager> and start now?
-❯ Yes / No
+yarn install
 ```
 
-Select **Yes**. The CLI automatically navigates to the project directory, installs all required dependencies, and starts the development server.
+Now that `my-project` is set up, let's add Syncfusion<sup style="font-size:70%">&reg;</sup> components to the project.
 
-Now that `my-project` is ready to run with default settings, let's add Syncfusion<sup style="font-size:70%">&reg;</sup> components to the project.
+> **Note:** To create a TypeScript project, use `npm create vite@latest my-app -- --template vue-ts` or `yarn create vite my-app --template vue-ts`.
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Stock Chart Packages
 
@@ -96,7 +80,38 @@ npm install @syncfusion/ej2-vue-charts
 yarn add @syncfusion/ej2-vue-charts
 ```
 
-> Note: npm v5+ saves packages to `dependencies` by default; `--save` is not required.
+> **Note:** npm v5+ saves packages to `dependencies` by default; `--save` is not required.
+
+## Import Syncfusion<sup style="font-size:70%">&reg;</sup> CSS styles
+
+Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Stock Chart component themes can be applied using CSS or SASS from [npm theme packages](https://ej2.syncfusion.com/vue/documentation/appearance/theme#theme-packages), CDN, CRG or [Theme Studio](https://ej2.syncfusion.com/vue/documentation/appearance/theme-studio).
+
+This example uses the `Material 3` theme for the Stock Chart component. To install the [Material 3](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) theme package, use the following command:
+
+{% tabs %}
+{% highlight bash tabtitle="npm" %}
+
+npm install @syncfusion/ej2-material3-theme --save
+
+{% endhighlight %}
+{% highlight bash tabtitle="yarn" %}
+
+yarn add @syncfusion/@syncfusion/ej2-material3-theme
+
+{% endhighlight %}
+{% endtabs %}
+
+The necessary CSS styles for the Stock Chart component were imported into the `<style>` section of **src/App.vue** file. Vite app generates a default `styles.css` file which we do not need for this example. Before running the sample, delete the content of `src/style.css` or remove the file if it's unused.
+
+{% tabs %}
+{% highlight html tabtitle="App.vue" %}
+
+<style>
+  @import "../node_modules/@syncfusion/ej2-material3-theme/styles/stock-chart/index.css";
+</style>
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Add Syncfusion<sup style="font-size:70%">&reg;</sup> Vue Stock Chart Component
 
@@ -191,7 +206,9 @@ export default {
 {% endhighlight %}
 {% endtabs %}
 
-Note: Register feature modules using `provide('stockChart', [...])` (Composition API) or the `provide` option (Options API).
+**Note:** Register the feature modules using `provide('stockChart', [...])` (Composition API) or the `provide` option (Options API). This step is essential for the Stock Chart to function properly with the required series types and axes.
+
+> **Note:** If you skip module registration, the chart will not render correctly and you may encounter errors like "Module is not injected" in the browser console.
 
 **Step 3:** In the `template` section, define the Stock Chart component with the [dataSource](https://ej2.syncfusion.com/vue/documentation/api/stock-chart#datasource) property.
 
@@ -199,29 +216,29 @@ Note: Register feature modules using `provide('stockChart', [...])` (Composition
 {% highlight html tabtitle="~/src/App.vue" %}
 
 <template>
-    <ejs-stockchart>
-        <e-stockchart-series-collection>
-            <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
-            </e-stockchart-series>
-        </e-stockchart-series-collection>
-    </ejs-stockchart>
+        <ejs-stockchart>
+            <e-stockchart-series-collection>
+                <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
+                </e-stockchart-series>
+            </e-stockchart-series-collection>
+        <ejs-stockchart>
 </template>
 
 {% endhighlight %}
 {% endtabs %}
 
-Here is the summarized code for the above steps in the **src/App.vue** file:
+Here is the complete summarized code for the **src/App.vue** file:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
 
 <template>
-    <ejs-stockchart>
-        <e-stockchart-series-collection>
-            <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
-            </e-stockchart-series>
-        </e-stockchart-series-collection>
-    </ejs-stockchart>
+        <ejs-stockchart>
+            <e-stockchart-series-collection>
+                <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
+                </e-stockchart-series>
+            </e-stockchart-series-collection>
+        <ejs-stockchart>
 </template>
 
 <script setup>
@@ -255,12 +272,12 @@ provide('stockChart', stockChart);
 {% highlight html tabtitle="Options API (~/src/App.vue)" %}
 
 <template>
-    <ejs-stockchart>
-        <e-stockchart-series-collection>
-            <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
-            </e-stockchart-series>
-        </e-stockchart-series-collection>
-    </ejs-stockchart>
+        <ejs-stockchart>
+            <e-stockchart-series-collection>
+                <e-stockchart-series :dataSource="seriesData" type="Candle" volume="volume" xName="date" low="low" high="high" open="open" close="close">
+                </e-stockchart-series>
+            </e-stockchart-series-collection>
+        </ejs-stockchart>
 </template>
 
 <script>
@@ -321,11 +338,25 @@ npm run dev
 yarn run dev
 ```
 
+The development server will start and display a message indicating the port number (typically http://localhost:5173). Open your browser and navigate to `http://localhost:5173` to view the Stock Chart.
+
 The output will appear as follows:
 
 ![Vue 3 Stock Chart demo](./images/vue3-stockchart-demo.png)
 
 > **Sample**: You can explore the complete sample project in the [vue-3-stock-chart-getting-started](https://github.com/SyncfusionExamples/vue3-stock-chart-getting-started) repository.
+
+## Troubleshooting
+
+The following are common issues and solutions when integrating the Stock Chart component:
+
+- **Chart not rendering**: Ensure that all required modules (`DateTime`, `CandleSeries`) are provided using `provide('stockChart', [...])` (Composition API) or the `provide` option (Options API). Verify that the template includes the chart component with proper directives.
+
+- **Module not injected error**: This error occurs when feature modules are not registered. Confirm that the `provide` function or option includes all necessary modules: `DateTime` for date-time axis and `CandleSeries` for candle series type.
+
+- **Incorrect data display**: Verify that the data object properties match the series configuration attributes (`xName="date"`, `open="open"`, `high="high"`, `low="low"`, `close="close"`). Ensure date values are created using `new Date()`.
+
+- **OHLC data format issues**: Stock Chart expects data with `open`, `high`, `low`, and `close` properties for candle series. Verify your data structure matches this format and that all required fields are present.
 
 ## See Also
 

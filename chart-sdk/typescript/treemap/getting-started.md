@@ -1,26 +1,38 @@
 ---
 layout: post
 title: Getting started with TypeScript TreeMap Component | Syncfusion
-description:  Checkout and learn about Getting started with TypeScript TreeMap Component of Syncfusion Essential JS 2 and more details.
+description: Create and configure a Syncfusion JavaScript TreeMap in TypeScript using the Essential JS 2 webpack quickstart project.
 platform: chart-sdk
-control: Getting started 
+control: TreeMap
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
+# Getting Started with ##Platform_Name## TreeMap Component
 
-# Getting started in TypeScript TreeMap Component
+This document explains how to create a TreeMap and configure its features in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-This section explains the steps to create a simple TreeMap and demonstrates the basic usage of the TreeMap component using the Essential<sup style="font-size:70%">&reg;</sup> JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository. This seed repository is pre-configured with the Essential<sup style="font-size:70%">&reg;</sup> JS 2 package.
+> The quickstart project uses its included `webpack.config.js` file to compile and bundle the TypeScript application. For more information, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
 
-> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
+## Prerequisites
+
+Before you begin, ensure that the following software is installed:
+
+* Node.js with npm
+* [Visual Studio Code](https://code.visualstudio.com) or another text editor
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser such as Chrome, Edge, Firefox, or Safari
+
+Basic familiarity with TypeScript, npm, and webpack is recommended.
+
+> Register your Syncfusion license key before initializing the component. For more information, refer to the [license key registration documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
 
 ## Dependencies
 
-The following list of minimum dependencies are required to use the TreeMap Component:
+The TreeMap component is available in the `@syncfusion/ej2-treemap` package. The following packages are its minimum dependencies:
 
-```javascript
+```text
 |-- @syncfusion/ej2-treemap
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-data
@@ -28,19 +40,36 @@ The following list of minimum dependencies are required to use the TreeMap Compo
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Set up development environment
+Compatible package versions are resolved from the project-root `package.json` file. Keep all Syncfusion package versions consistent to avoid dependency conflicts.
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+## Quick Setup
+
+### Step 1: Create a Project Folder
+
+Create a folder named `my-treemap` in your preferred location. This folder will contain the TreeMap TypeScript project.
+
+### Step 2: Open a Terminal
+
+Open a terminal and navigate to the `my-treemap` folder.
+
+* On Windows, use Command Prompt or PowerShell.
+* On macOS or Linux, use Terminal.
+
+### Step 3: Clone the Quickstart Repository
+
+Run the following command to clone the Syncfusion JavaScript quickstart project:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
 
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to the Project Folder
+
+Navigate to the cloned project directory:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -50,11 +79,9 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+### Step 5: Install the Required Packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
-
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+Run the following command from the project root to install the dependencies listed in `package.json`:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -64,30 +91,31 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-## Add TreeMap Component to the project
+### Step 6: Update the HTML Template
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS2 TreeMap Component can be added to the application. To get started, add the TreeMap Component to the **app.ts** and **index.html** files using the following code.
+Open the `ej2-quickstart` folder in Visual Studio Code or another text editor.
 
-Add an HTML div element to act as the TreeMap element in the **index.html** file using the following code.
+Locate `src/index.html`. Preserve the existing content generated by the seed project and add a `<div>` element with the ID `container` inside the `<body>` element.
 
 {% tabs %}
-{% highlight html tabtitle="index.html" %}
+{% highlight html tabtitle="src/index.html" %}
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>EJ2 TreeMap</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
-    <meta name="author" content="Syncfusion" />
+    <title>Essential JS 2 TreeMap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syncfusion TreeMap TypeScript example">
+    <meta name="author" content="Syncfusion">
+    <!-- Preserve the existing head content from the seed template. -->
 </head>
 
 <body>
-    <!--container which is going to render the TreeMap-->
-    <div id='container'>
-    </div>
+    <h1>Syncfusion TreeMap</h1>
+    <!-- Container for the TreeMap. -->
+    <div id="container"></div>
 </body>
 
 </html>
@@ -95,180 +123,94 @@ Add an HTML div element to act as the TreeMap element in the **index.html** file
 {% endhighlight %}
 {% endtabs %}
 
-Import the TreeMap Component in the `app.ts` to initialize the TreeMap. The following properties are used in this example:
+The webpack configuration supplied by the quickstart project compiles the TypeScript entry file and loads the generated bundle in this page.
 
-* [`dataSource`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#datasource): Binds the data array containing hierarchical information about companies and sales.
-* [`weightValuePath`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#weightvaluepath): Specifies which data property ("Sales") determines the size of each item in the TreeMap.
-* [`leafItemSettings`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#leafitemsettings): Configures the appearance of leaf items (car companies), including label path, border color, and font styling.
-* [`levels`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#levels): Defines hierarchical grouping levels. This example groups data by "Continent" and applies border settings.
-* [`palette`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#palette): Sets a custom color palette to visualize the items based on their hierarchical position.
+### Step 7: Create the TreeMap Component
 
-The TreeMap is rendered using `treemap.appendTo('#container')`, which displays the control within the HTML element with the ID "container".
+Locate `src/app/app.ts` and add the following code:
+
+The following example shows a complete TreeMap with a bound data source:
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-
-import { TreeMap } from '@syncfusion/ej2-treemap';
-
-const data: Object[] = [
-    { Continent: "China", Company: "Volkswagen", Sales: 3005994 },
-    { Continent: "China", Company: "General Motors", Sales: 1230044 },
-    { Continent: "China", Company: "Honda", Sales: 1197023 },
-    { Continent: "United States", Company: "General Motors", Sales:3042775  },
-    { Continent: "United States", Company: "Ford", Sales:2599193  },
-    { Continent: "United States", Company: "Toyota", Sales:2449587  },
-    { Continent: "Japan",Company: "Toyota", Sales:1527977  },
-    { Continent: "Japan", Company: "Honda", Sales:706982 },
-    { Continent: "Japan", Company: "Suzuki", Sales:623041  },
-    { Continent: "Germany",Company: "Volkswagen", Sales:655977  },
-    { Continent: "Germany", Company: "Mercedes", Sales:310845  },
-    { Continent: "Germany", Company: "BMW", Sales:261931  },
-    { Continent: "United Kingdom", Company: "Ford ", Sales:319442  },
-    { Continent: "United Kingdom", Company: "Vauxhall", Sales: 251146 },
-    { Continent: "United Kingdom", Company: "Volkswagen", Sales:206994  },
-    { Continent: "India", Company: "Maruti Suzuki", Sales:1443654  },
-    { Continent: "India", Company: "Hyundai", Sales:476241  },
-    { Continent: "India", Company: "Mahindra", Sales:205041  },
-    { Continent: "France", Company: "Renault", Sales:408183 },
-    { Continent: "France", Company: "Peugeot", Sales:336242 },
-    { Continent: "France", Company: "Citroen", Sales:194986  },
-    { Continent: "Brazil", Company: "Flat Chrysler", Sales:368842  },
-    { Continent: "Brazil", Company: "General Motors", Sales: 348351 },
-    { Continent: "Brazil", Company: "Volkswagen", Sales: 245895 },
-    { Continent: "Italy", Company: "Flat Chrysler", Sales:386260  },
-    { Continent: "Italy", Company: "Volkswagen", Sales: 138984 },
-    { Continent: "Italy", Company: "Ford", Sales: 125144 },
-    { Continent: "Canada", Company: "Ford", Sales:305086},
-    { Continent: "Canada", Company: "FCA", Sales:278011 },
-    { Continent: "Canada", Company: "GM", Sales: 266884 }
-];
-// Initialize the tree map control
-let treemap: TreeMap = new TreeMap({
-    dataSource: data,
-    weightValuePath: 'Sales',
-    leafItemSettings: {
-        labelPath: 'Company',
-        border: { color: 'white', width: 0.5 },
-        labelStyle: {
-            fontFamily: 'Segoe UI'
-        }
-    },
-    levels: [
-        {
-            groupPath: 'Continent', border: { color: 'white', width: 0.5 },
-        }
-    ],
-    palette: ['#C33764', '#AB3566', '#993367', '#853169', '#742F6A', '#632D6C', '#532C6D', '#412A6F', '#312870', '#1D2671'],
-});
-
-// Render the initialized tree map
-treemap.appendTo('#container');
-
+{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs1/index.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-This example renders a hierarchical TreeMap with the provided data source. The items are sized proportionally based on their sales values and grouped by continent.
+The configuration uses the following properties:
 
-## Run the application
+* [`dataSource`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#datasource) binds the records displayed by the TreeMap.
+* [`weightValuePath`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#weightvaluepath) maps the numeric field that determines each item's area.
+* [`leafItemSettings`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#leafitemsettings) configures leaf-item labels and appearance.
+* [`labelPath`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel#labelpath) maps the field displayed as each leaf-item label.
 
-The quickstart project is configured to compile and run the application in the browser. Use the following command to run the application.
+The `appendTo('#container')` call renders the TreeMap in the HTML element whose ID matches the supplied selector.
+
+### Step 8: Run the Application
+
+Run the following command from the project root:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
 
-npm start
+npm run start
 
 {% endhighlight %}
 {% endtabs %}
 
-## Module injection
+Wait for webpack to finish compiling the application. If the browser does not open automatically, open the local URL displayed in the terminal.
 
-The TreeMap Component is segregated into individual feature-wise modules. To enable additional functionality beyond basic rendering, inject the required feature modules using the `TreeMap.Inject()` method. The following modules are available:
+The project commonly runs at:
 
-* TreeMapHighlight - Inject this provider to use highlight feature.
-* TreeMapSelection - Inject this provider to use selection feature.
-* TreeMapLegend - Inject this provider to use legend feature.
-* TreeMapTooltip - Inject this provider to use tooltip series.
+```text
+http://localhost:4000/
+```
 
-In current application, the above basic tree map is modified to visualize international airport counts in South America.
+The exact port can vary based on the webpack development-server configuration. To stop the development server, press `Ctrl+C` in the terminal.
 
-In this demo, the tree map is rendered with labels only. So, you need not to import any modules.
+## Output
 
-## Render tree map
+After completing the quick setup, the browser displays a TreeMap.
 
-This section demonstrates how to render a TreeMap with a bound data source.
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs1" %}
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs6" %}
+![Syncfusion TreeMap Quick Start Output](./images/treemap-Ts.png)
 
-In this example, the TreeMap is bound to a data source with [`weightValuePath`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#weightvaluepath) set to the count property, which determines item sizes. Customize the appearance of leaf-level items using [`leafItemSettings`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#leafitemsettings), where you can modify properties such as [`fill`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel#fill) (color), [`border`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel#border), and [`labelPosition`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel#labelposition).
+## Module Injection
 
-## Apply color mapping
+Basic TreeMap rendering and labels do not require feature-module injection. Inject optional modules only when their corresponding features are used.
 
-The color mapping feature enables customization of item colors based on values from the bound data source. Specify the data field to evaluate using either [`equalColorValuePath`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#equalcolorvaluepath) (for discrete values) or [`rangeColorValuePath`](https://ej2.syncfusion.com/documentation/api/treemap/index-default#rangecolorvaluepath) (for continuous ranges). Choose the appropriate property based on whether your data requires exact value matching or range-based color gradients.
+* `TreeMapHighlight` enables item highlighting.
+* `TreeMapSelection` enables item selection.
+* `TreeMapLegend` enables legends.
+* `TreeMapTooltip` enables tooltips.
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs7" %}
+Import `TreeMap` with the required modules and call `TreeMap.Inject()` before creating the component:
 
-## Enable legend
+```typescript
+import {
+    TreeMap,
+    TreeMapHighlight,
+    TreeMapLegend,
+    TreeMapSelection,
+    TreeMapTooltip
+} from '@syncfusion/ej2-treemap';
 
-Enable the legend feature by setting the [`visible`](https://ej2.syncfusion.com/documentation/api/treemap/legendsettingsmodel#visible) property to `true` in the [`legendSettings`](https://ej2.syncfusion.com/documentation/api/treemap/legendsettingsmodel) object and injecting the `TreeMapLegend` module using `TreeMap.Inject(TreeMapLegend)`.
+TreeMap.Inject(
+    TreeMapHighlight,
+    TreeMapSelection,
+    TreeMapLegend,
+    TreeMapTooltip
+);
+```
 
+Inject only the modules required by the application.
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs3" %}
+## Troubleshooting
 
-## Add labels
-
-Labels display additional information within TreeMap items and are visible by default. Control label visibility using the [`showLabels`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel#showlabels) property in [`leafItemSettings`](https://ej2.syncfusion.com/documentation/api/treemap/leafitemsettingsmodel).
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs4" %}
-
-## Enable tooltip
-
-Tooltips provide an alternative way to display information when space constraints prevent labels from showing all details. Enable tooltips by setting the [`visible`](https://ej2.syncfusion.com/documentation/api/treemap/tooltipsettingsmodel#visible) property to `true` in the [`tooltipSettings`](https://ej2.syncfusion.com/documentation/api/treemap/tooltipsettingsmodel) object and injecting the `TreeMapTooltip` module using `TreeMap.Inject(TreeMapTooltip)`.
-
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap/getting-started-cs5" %}
+* **The repository cannot be cloned.** Verify that Git is installed, confirm the internet connection, and run `git --version`.
+* **`npm install` fails.** Verify that Node.js and npm are installed by running `node --version` and `npm --version`.
+* **`Cannot find module '@syncfusion/ej2-treemap'`.** Run `npm install @syncfusion/ej2-treemap --save` from the project root.
+* **The TypeScript application does not compile.** Ensure that all Syncfusion packages use compatible versions and run `npm run build` to view the complete error.
+* **The page is blank.** Check the browser console for errors and confirm that webpack completed the build successfully.
+* **The TreeMap is empty.** Confirm that `dataSource` contains records and that `weightValuePath` maps to a numeric field in every record.

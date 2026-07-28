@@ -12,6 +12,22 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The tooltip for sliders are supported by the Range Selector. Sliders are used in the Range Selector to select data from a specific range. The tooltip displays the selected start and end values.
 
+## Enable tooltip
+
+The tooltip is useful to show the selected data. You can enable the tooltip by setting the [`enable`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/rangetooltipsettingsmodel#enable) property as `true` in the [`tooltip`](https://ej2.syncfusion.com/angular/documentation/api/range-navigator/rangenavigatormodel#tooltip) object and by injecting the `RangeTooltipService` module into the `providers` array.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/range-selector/getting-started/tooltip-cs1/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/range-selector/getting-started/tooltip-cs1/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/range-selector/getting-started/tooltip-cs1" %}
+
 ## Customization
 
 Tooltip can be customized using the following properties:

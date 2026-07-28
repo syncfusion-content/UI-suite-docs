@@ -127,18 +127,18 @@ The 3D chart can be rotated by using the [`enableRotation`](https://helpej2.sync
 
 ## Title
 
-The 3D chart can be given a title by using [`title`](https://helpej2.syncfusion.com/react/documentation/api/chart3d/chart3DModel#title) property, to show the information about the data plotted.
+You can add a title using the [`title`](https://ej2.syncfusion.com/react/documentation/api/chart3d/chart3DModel#title) property to the 3D Chart to provide quick information to the user about the data plotted in the 3D Chart.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/appearance/appearance-cs8/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/getting-started/getting-started-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/chart-sdk/react/3d-charts/appearance/appearance-cs8/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/3d-charts/getting-started/getting-started-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/appearance/appearance-cs8" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/3d-charts/getting-started/getting-started-cs3" %}
 
 ### Title position
 

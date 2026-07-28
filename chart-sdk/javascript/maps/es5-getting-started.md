@@ -33,11 +33,11 @@ Include the following JavaScript links in the `<head>` section.
 
 **Scripts (JavaScript):**
 ```
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-svg-base/dist/global/ej2-svg-base.min.js
-https://cdn.syncfusion.com/ej2/33.2.3/ej2-maps/dist/global/ej2-maps.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-pdf-export/dist/global/ej2-pdf-export.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js
+https://cdn.syncfusion.com/ej2/34.1.29/ej2-maps/dist/global/ej2-maps.min.js
 ```
 
 ### Step 3: Add Syncfusion<sup style="font-size:70%">&reg;</sup> Maps control to the application
@@ -51,11 +51,11 @@ Copy and paste the following complete code into your `index.html` file:
     <title>Syncfusion Maps - Quick Start</title>
     
     <!-- Scripts -->
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-base/dist/global/ej2-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-data/dist/global/ej2-data.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-pdf-export/dist/global/ej2-pdf-export.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/33.2.3/ej2-maps/dist/global/ej2-maps.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-pdf-export/dist/global/ej2-pdf-export.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-maps/dist/global/ej2-maps.min.js"></script>
   </head>
   
   <body>

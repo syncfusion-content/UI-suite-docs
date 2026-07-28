@@ -16,6 +16,23 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Legend provides information about the series rendered in the 3D chart.
 
+
+## Enable legend
+
+You can use legend for the 3D Chart by setting the [`visible`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/chart3dlegendsettingsmodel#visible) property to `true` in [`legendSettings`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/chart3dmodel#legendsettings) object and by injecting the `Legend3DService` into the component's `providers` array.
+
+{% tabs %}
+{% highlight ts tabtitle="app.component.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/getting-started/getting-started-cs4/src/app.component.ts %}
+{% endhighlight %}
+
+{% highlight ts tabtitle="main.ts" %}
+{% include code-snippet/chart-sdk/angular/3d-charts/getting-started/getting-started-cs4/src/main.ts %}
+{% endhighlight %}
+{% endtabs %}
+  
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/3d-charts/getting-started/getting-started-cs4/" %}
+
 ## Position and alignment
 
 By using the [`position`](https://ej2.syncfusion.com/angular/documentation/api/chart3d/threeDimensionalLegendSettingsModel/#position) property, the legend can be positioned at left, right, top or bottom of the 3D chart. The legend is positioned at the bottom of the 3D chart, by default.
