@@ -41,7 +41,7 @@ See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choos
 
 | Provider | Type | Use Case |
 | -------- | ---- | -------- |
-| `y-websocket` | Self-hosted | Production deployments with your own WebSocket server. |
+| [y-websocket](https://docs.yjs.dev/ecosystem/connection-provider/y-websocket) | Self-hosted | Production deployments with your own WebSocket server. |
 | `y-webrtc` | Peer-to-peer | Quick local testing and development; no server required. |
 | `y-indexeddb` | Local storage | Offline persistence within a single browser. |
 | [Hocuspocus](https://tiptap.dev/docs/hocuspocus/getting-started/overview) | Open-source server | Scalable Node.js server with pluggable storage and Redis support. |
@@ -171,7 +171,7 @@ export { yDoc, yFragment, adapter, provider, roomName };
 - Pass the adapter and provider to the Block Editor through the `collaborationSettings` property.
 - Set `enableAwareness` to `true` in `collaborationSettings` property to display remote cursors, text selection overlays, and user details on hover.
 
-In your Vue component file, add the following code. Replace your existing Block Editor setup with this:
+In your Vue component file, replace the existing Block Editor with the following code:
 
 ```ts
 <template>
@@ -363,6 +363,57 @@ onBeforeUnmount(() => {
 </script>
 {% endhighlight %}
 
+{% highlight ts tabtitle="versionHistoryService.ts" %}
+import type { IVersionStorage, VersionSnapshot } from '@syncfusion/ej2-vue-blockeditor';
+
+export class IndexedDBVersionStorage implements IVersionStorage {
+    private db: IDBDatabase | null = null;
+    private initPromise: Promise<void>;
+
+    constructor(dbName: string) {
+        this.initPromise = new Promise((resolve) => {
+            const req = indexedDB.open(dbName, 1);
+            req.onsuccess = () => { this.db = req.result; resolve(); };
+            req.onupgradeneeded = (e) => {
+                const db = (e.target as IDBOpenDBRequest).result;
+                if (!db.objectStoreNames.contains('snapshots')) {
+                    db.createObjectStore('snapshots', { keyPath: 'id' });
+                }
+            };
+        });
+    }
+
+    private exec(mode: 'readonly' | 'readwrite', fn: (store: IDBObjectStore) => IDBRequest): Promise<any> {
+        return this.initPromise.then(() => new Promise((resolve, reject) => {
+            const tx = this.db!.transaction('snapshots', mode);
+            const req = fn(tx.objectStore('snapshots'));
+            req.onsuccess = () => resolve(req.result);
+            req.onerror = () => reject(req.error);
+        }));
+    }
+
+    async saveSnapshot(snapshot: VersionSnapshot): Promise<void> {
+        await this.exec('readwrite', (store) => store.put(snapshot));
+    }
+
+    async loadAllSnapshots(): Promise<VersionSnapshot[]> {
+        return await this.exec('readonly', (store) => store.getAll());
+    }
+
+    async loadSnapshot(id: string): Promise<VersionSnapshot | null> {
+        return await this.exec('readonly', (store) => store.get(id));
+    }
+
+    async deleteSnapshot(id: string): Promise<void> {
+        await this.exec('readwrite', (store) => store.delete(id));
+    }
+
+    async clearAll(): Promise<void> {
+        await this.exec('readwrite', (store) => store.clear());
+    }
+}
+{% endhighlight %}
+
 {% highlight css tabtitle="App.css" %}
 .app-container {
     display: flex;
@@ -415,57 +466,6 @@ onBeforeUnmount(() => {
 
 .delete-btn {
     background-color: #dc3545;
-}
-{% endhighlight %}
-
-{% highlight ts tabtitle="versionHistoryService.ts" %}
-import type { IVersionStorage, VersionSnapshot } from '@syncfusion/ej2-vue-blockeditor';
-
-export class IndexedDBVersionStorage implements IVersionStorage {
-    private db: IDBDatabase | null = null;
-    private initPromise: Promise<void>;
-
-    constructor(dbName: string) {
-        this.initPromise = new Promise((resolve) => {
-            const req = indexedDB.open(dbName, 1);
-            req.onsuccess = () => { this.db = req.result; resolve(); };
-            req.onupgradeneeded = (e) => {
-                const db = (e.target as IDBOpenDBRequest).result;
-                if (!db.objectStoreNames.contains('snapshots')) {
-                    db.createObjectStore('snapshots', { keyPath: 'id' });
-                }
-            };
-        });
-    }
-
-    private exec(mode: 'readonly' | 'readwrite', fn: (store: IDBObjectStore) => IDBRequest): Promise<any> {
-        return this.initPromise.then(() => new Promise((resolve, reject) => {
-            const tx = this.db!.transaction('snapshots', mode);
-            const req = fn(tx.objectStore('snapshots'));
-            req.onsuccess = () => resolve(req.result);
-            req.onerror = () => reject(req.error);
-        }));
-    }
-
-    async saveSnapshot(snapshot: VersionSnapshot): Promise<void> {
-        await this.exec('readwrite', (store) => store.put(snapshot));
-    }
-
-    async loadAllSnapshots(): Promise<VersionSnapshot[]> {
-        return await this.exec('readonly', (store) => store.getAll());
-    }
-
-    async loadSnapshot(id: string): Promise<VersionSnapshot | null> {
-        return await this.exec('readonly', (store) => store.get(id));
-    }
-
-    async deleteSnapshot(id: string): Promise<void> {
-        await this.exec('readwrite', (store) => store.delete(id));
-    }
-
-    async clearAll(): Promise<void> {
-        await this.exec('readwrite', (store) => store.clear());
-    }
 }
 {% endhighlight %}
 {% endtabs %}
