@@ -10,7 +10,7 @@ domainurl: https://www.syncfusion.com/angular-components/angular-block-editor/
 
 # Real-Time Collaboration in Angular Block Editor component
 
-The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by [**Yjs**](https://yjs.dev/), an open-source Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts. 
+The Block Editor supports real-time collaborative editing, enabling multiple users to work on the same document simultaneously. Collaboration is powered by [**Yjs**](https://yjs.dev/), an open-source Conflict-free Replicated Data Type (CRDT) framework that synchronizes document changes across all connected users and automatically resolves conflicts.
 
 With collaboration enabled, users can:
 
@@ -30,7 +30,7 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 ### Step 1: Set up a basic Angular Block Editor component
 
-Follow the [Getting Started guide](https://ej2.syncfusion.com/angular/documentation/block-editor/getting-started) to create an Angular CLI-based Angular project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](https://help.syncfusion.com/rich-text-editor-sdk/angular/block-editor/getting-started) to create an Angular CLI-based Angular project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 ### Step 2: Install Yjs and the WebSocket provider
 

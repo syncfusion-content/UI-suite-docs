@@ -31,7 +31,7 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 ### Step 1: Set up a basic Javascript Block Editor component
 
-Follow the [Getting Started guide](https://ej2.syncfusion.com/javascript/documentation/block-editor/es5-getting-started) to create a Javascript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](https://help.syncfusion.com/rich-text-editor-sdk/javascript/block-editor/es5-getting-started) to create a Javascript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 ### Step 2: Creation of Yjs and websocket provider bundle file using esbuild
 
