@@ -387,7 +387,6 @@ export class App implements OnDestroy {
 
   onCreated(): void {
     this.versionHistory = this.blockEditor.getVersionHistory();
-
     this.timerId = window.setInterval(() => {
       this.snapshots = [
         ...(this.versionHistory?.getSnapshots() || [])
@@ -545,7 +544,6 @@ Retrieves all saved snapshots or a paginated subset. Snapshots are returned in c
     this.versionHistory = this.blockEditor.getVersionHistory();
     // Retrieve all snapshots
     const snapshots = this.versionHistory.getSnapshots();
-
     // Retrieve a paginated subset — getSnapshots(skip, take)
     const paginatedSnapshots = this.versionHistory.getSnapshots(20, 40);
 ```

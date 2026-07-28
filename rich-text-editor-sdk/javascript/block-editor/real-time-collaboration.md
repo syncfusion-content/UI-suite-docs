@@ -31,7 +31,7 @@ Get real-time collaboration working in just a few minutes using `y-websocket` an
 
 ### Step 1: Set up a basic Javascript Block Editor component
 
-Follow the [Getting Started guide](https://helpstaging.syncfusion.com/rich-text-editor-sdk/javascript/block-editor/es5-getting-started) to create a Javascript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
+Follow the [Getting Started guide](https://ej2.syncfusion.com/javascript/documentation/block-editor/es5-getting-started) to create a Javascript project with the Block Editor component. This ensures you have all required dependencies and the correct project structure before adding collaboration.
 
 ### Step 2: Creation of Yjs and websocket provider bundle file using esbuild
 
@@ -49,7 +49,7 @@ See [Yjs Providers](https://docs.yjs.dev/ecosystem/connection-provider) to choos
 | [PartyKit](https://www.partykit.io/) | Serverless | Serverless provider on Cloudflare; ideal for prototyping. |
 
 - In project, create a folder for bundle creation.
-- Inside folder, Initialize npm:
+- Inside the folder, Initialize npm:
 
 ```powershell
 npm init -y
@@ -61,7 +61,7 @@ npm init -y
 npm install esbuild yjs y-websocket --save-dev
 ```
 
-- Create an entry File named `yjs-entry.js`:
+- Create an entry file named `yjs-entry.js`:
 
 ```js
 // yjs-entry.js
@@ -75,7 +75,7 @@ window.WebsocketProvider = WebsocketProvider;
 console.log('Yjs and WebsocketProvider loaded globally');
 ```
 
-- Bundle using esbuild by running below command in your terminal:
+- Generate the bundle by running the following command:
 
 ```powershell
 npx esbuild yjs-entry.js --bundle --format=iife --outfile=yjs-bundle.js
@@ -95,7 +95,7 @@ npm install yjs y-websocket
 
 ### Step 3: Create a simple WebSocket server
 
-Create a folder named `server` and initialise npm:
+Create a folder named `server` and initialize npm:
 
 ```powershell
 npm init -y
@@ -239,7 +239,7 @@ var blockeditor = new ej.blockeditor.BlockEditor({
 blockeditor.appendTo('#blockeditor_default');
 ```
 
-Ensure if below scripts are properly added in `index.html`:
+Ensure that the following scripts are included in `index.html`:
 
 ```html
 <script src="yjs-bundle.js"></script>
@@ -309,8 +309,7 @@ Make Storage Room-Specific by using roomName from collaboration.js to make each 
 Create a `versionHistoryService.js` file in the src folder, replace the `index.js` file to configure the BlockEditorComponent, and replace the `index.css` file with the styles required for the version history panel.
 
 {% tabs %}
-{% highlight ts tabtitle="index.js" %}
-{% raw %}
+{% highlight js tabtitle="index.js" %}
 // Version storage for the current collaboration room
 var myStorage = new IndexedDBVersionStorage('blockeditor-versions-' + roomName);
 
@@ -396,7 +395,6 @@ function deleteSnapshot(id) {
         versionHistory.deleteSnapshot(id);
     }
 }
-{% endraw %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.html" %}
 <!DOCTYPE html>
