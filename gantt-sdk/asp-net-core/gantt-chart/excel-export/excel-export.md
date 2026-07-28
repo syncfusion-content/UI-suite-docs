@@ -37,4 +37,5 @@ Gantt supports client-side exporting, which allows you to export its data to the
 {% endif %}
 
 ## Limitations
+
 A CSV is a plain text format that does not support features such as cell rotation, font and color customization, column and row spanning, or adding formulas. CSV files store raw data without any formatting or styling.
