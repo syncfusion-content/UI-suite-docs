@@ -12,22 +12,20 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Sparkline has two user interaction features: tooltip and tracker line.
 
-## Tooltip
+## Sparkline tooltip
 
-The sparkline provides options to display details about values of data points through tooltips when hovering the mouse over data point. To use tooltip in sparkline, inject the `SparklineTooltip` module to sparkline using the inject method.
-
-The following code example shows enabling tooltip for sparkline with format.
+The Sparkline provides additional information through a tooltip that appears on hover over the chart. You can enable the tooltip by setting the [`visible`](https://ej2.syncfusion.com/react/documentation/api/sparkline/sparklinetooltipsettingsmodel#visible) property to `true` in [`tooltipSettings`](https://ej2.syncfusion.com/react/documentation/api/sparkline/sparklinemodel#tooltipsettings) and injecting the `SparklineTooltip` module into the `services`. The [`format`](https://ej2.syncfusion.com/react/documentation/api/sparkline/sparklinetooltipsettingsmodel#format) property uses placeholders such as `${XValue}` and `${YValue}` to render data fields in the tooltip.
 
 {% tabs %}
 {% highlight js tabtitle="index.jsx" %}
-{% include code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1/app/index.jsx %}
+{% include code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3/app/index.jsx %}
 {% endhighlight %}
 {% highlight ts tabtitle="index.tsx" %}
-{% include code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1/app/index.tsx %}
+{% include code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3/app/index.tsx %}
 {% endhighlight %}
 {% endtabs %}
 
- {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/user-interaction-cs1" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/sparkline-charts/code-path/getting-started-cs3" %}
 
 ### Tooltip customization
 

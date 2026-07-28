@@ -1,68 +1,74 @@
 ---
 layout: post
-title: Getting started with TypeScript Circular Gauge Component | Syncfusion
-description:  Checkout and learn about Getting started with TypeScript Circular Gauge Component of Syncfusion Essential JS 2 and more details.
+title: Getting started with TypeScript Circular Gauge control | Syncfusion
+description: Create and configure a Syncfusion JavaScript Circular Gauge in TypeScript using the Essential JS 2 webpack quickstart project.
 platform: chart-sdk
-control: Getting started 
+control: Circular Gauge
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
+# Getting Started with ##Platform_Name## Circular Gauge Control
 
-# Getting started in TypeScript Circular Gauge Component
+This document explains how to create a Circular Gauge and configure its pointer value in TypeScript using the Essential JS 2 webpack [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack) seed repository.
 
-This guide demonstrates how to create and configure a **Circular gauge** component in TypeScript using Syncfusion Essential<sup style="font-size:70%">&reg;</sup> JS 2. The Circular gauge is a data visualization control that displays values on a circular scale, useful for dashboards, monitoring systems, and data presentation applications.
-
-By the end of this guide, you will:
-- Set up a TypeScript development environment for Syncfusion components
-- Create your first Circular gauge instance
-- Configure basic properties like pointer values and axes
-- Run the application in your browser
-
-> This guide uses the Syncfusion quickstart repository, preconfigured with webpack for TypeScript compilation. The application requires Node.js `v14.15.0` or higher and leverages the [webpack-cli](https://webpack.js.org/api/cli/#commands) for bundling. Learn more about [webpack configuration and features](https://webpack.js.org/guides/getting-started/).
+> This application uses the `webpack.config.js` configuration provided by the quickstart repository. For information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
 
 ## Prerequisites
 
-Before getting started, ensure your development environment meets these requirements:
+Before you begin, ensure that the following software is installed:
 
-- **Node.js**: Version 14.15.0 or higher (verify with `node --version` in your terminal)
-- **npm**: Version 6.0 or higher (included with Node.js)
-- **TypeScript**: Basic familiarity with TypeScript syntax
-- **Code Editor**: Visual Studio Code or any preferred IDE with TypeScript support
+* Node.js with npm
+* [Visual Studio Code](https://code.visualstudio.com) or another text editor
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser such as Chrome, Edge, Firefox, or Safari
+
+> Register your Syncfusion license key before initializing the control. For more information, refer to the [license key registration documentation](https://ej2.syncfusion.com/documentation/licensing/license-key-registration).
 
 ## Dependencies
 
-The Circular gauge requires the following minimum Syncfusion packages:
+The Circular Gauge control is available in the `@syncfusion/ej2-circulargauge` package.
 
-```javascript
+The following dependencies are required:
+
+```text
 |-- @syncfusion/ej2-circulargauge
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-svg-base
     |-- @syncfusion/ej2-pdf-export
 ```
 
-These dependencies are automatically installed when you use the quickstart repository.
+Compatible package versions are resolved from the `package.json` file in the quickstart project. Keep all Syncfusion package versions consistent to avoid dependency conflicts.
 
-## Set up the development environment
+## Quick Setup
 
-### Step 1: Clone the quickstart project
+### Step 1: Create a Project Folder
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
+Create a folder named `my-circular-gauge` in your preferred location. This folder will contain the Circular Gauge TypeScript project.
+
+### Step 2: Open a Terminal
+
+Open a terminal and navigate to the `my-circular-gauge` folder.
+
+* On Windows, use Command Prompt or PowerShell.
+* On macOS or Linux, use Terminal.
+
+### Step 3: Clone the Quickstart Repository
+
+Run the following command to clone the Syncfusion JavaScript quickstart project:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
 
-git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
+git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quickstart
 
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to the Project Folder
 
-### Step 2: Navigate to the project folder
-
-Change to the newly created project directory:
+Navigate to the cloned project directory:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -72,11 +78,11 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+### Step 5: Install the Required Packages
 
-Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+The quickstart application includes its required packages in the project-root `package.json` file.
 
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+Run the following command to install the project dependencies:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -86,32 +92,29 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-This command downloads and installs all packages specified in `package.json`, including the Circular gauge and its dependencies.
+### Step 6: Add the Circular Gauge Container
 
-## Create your first Circular gauge
-
-### Step 1: Define the HTML container
-
-Add a container `<div>` element in the **index.html** file where the Circular gauge will render:
+Open the `src/index.html` file. Preserve the existing content generated by the seed project and add a `div` element with the ID `container` inside the `body` element.
 
 {% tabs %}
-{% highlight html tabtitle="index.html" %}
+{% highlight html tabtitle="src/index.html" %}
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>EJ2 Circular Gauge</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
-    <meta name="author" content="Syncfusion" />
+    <title>Essential JS 2 Circular Gauge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syncfusion Circular Gauge TypeScript example">
+    <meta name="author" content="Syncfusion">
+    <!-- Preserve the existing head content from the seed template. -->
 </head>
 
 <body>
-  <!--container which is going to render the Circular gauge-->
-  <div id='container'>
-  </div>
+    <h1>Syncfusion Circular Gauge</h1>
+    <!-- Container for the Circular Gauge. -->
+    <div id="container"></div>
 </body>
 
 </html>
@@ -119,66 +122,59 @@ Add a container `<div>` element in the **index.html** file where the Circular ga
 {% endhighlight %}
 {% endtabs %}
 
-### Step 2: Initialize the Circular gauge in TypeScript
+The webpack configuration supplied by the quickstart project compiles the TypeScript entry file and loads the generated bundle in this page.
 
-In your **app.ts** file, import the Circular gauge component and initialize it:
+### Step 7: Initialize the Circular Gauge
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { CircularGauge } from '@syncfusion/ej2-circulargauge';
-
-// initialize CircularGauge component
-let gauge: CircularGauge = new CircularGauge();
-
-// render initialized CircularGauge
-gauge.appendTo('#container');
-
-{% endhighlight %}
-{% endtabs %}
-
-The `appendTo()` method attaches the Circular gauge instance to the DOM element with the ID `container`.
-
-## Build and run the application
-
-The quickstart project uses webpack to compile TypeScript and bundle your application. To start the development server and run the application in your browser:
-
-{% tabs %}
-{% highlight bash tabtitle="NPM" %}
-
-npm start
-
-{% endhighlight %}
-{% endtabs %}
-
-The build process will compile your TypeScript code and launch the application at `http://localhost:8080/` (or another port if 8080 is busy). Your browser will automatically open to display your Circular gauge.
-
-### View a complete example
-
-The example below demonstrates a basic Circular gauge with default configuration:
+Open the `src/app/app.ts` file and add the following code:
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
 {% include code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs1/index.ts %}
 {% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs1/index.html %}
-{% endhighlight %}
 {% endtabs %}
-          
+
+The `CircularGauge` constructor creates the component and the `appendTo()` method attaches the Circular gauge instance to the DOM element with the ID `element`.
+
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs1" %}
 
-## Set Pointer Value
+### Step 8: Run the Application
 
-You can change the pointer value in the above sample using [`value`](../api/circular-gauge/pointer#value-number) property in [`pointers`](../api/circular-gauge/pointer).
+Run the following command from the project root:
 
 {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs2/index.html %}
+{% highlight bash tabtitle="NPM" %}
+
+npm run start
+
 {% endhighlight %}
 {% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs2" %}
+
+Wait for webpack to finish compiling the application. If the browser does not open automatically, open the local URL displayed in the terminal.
+
+The project commonly runs at:
+
+```text
+http://localhost:4000/
+```
+
+The exact port can vary based on the webpack development-server configuration.
+
+To stop the development server, press `Ctrl+C` in the terminal.
+
+## Output
+
+The following screenshot shows the output of the Syncfusion Circular Gauge quick start application:
+
+![Syncfusion Circular Gauge Quick Start Output](./images/circular-gauge-TS.png)
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/circular-gauge/getting-started-cs1" %}
+
+## Troubleshooting
+
+* **The repository cannot be cloned.** Verify that Git is installed, confirm your internet connection, and run `git --version`.
+* **`npm install` fails.** Verify that Node.js and npm are installed, and run `node --version` and `npm --version`.
+* **`Cannot find module '@syncfusion/ej2-circulargauge'`.** Run `npm install @syncfusion/ej2-circulargauge --save` from the project root.
+* **The TypeScript application does not compile.** Ensure that all Syncfusion packages use compatible versions and review the complete error by running `npm run build`.
+* **The page is blank.** Check the browser console for errors and confirm that webpack completed the build successfully.
+* **The gauge is not displayed.** Ensure that the HTML container ID is `container` and that `appendTo('#container')` uses the same ID.

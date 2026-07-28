@@ -30,10 +30,7 @@ import {
   SankeyNodesCollectionDirective,
   SankeyNodeDirective,
   SankeyLinksCollectionDirective,
-  SankeyLinkDirective,
-  SankeyTooltip,
-  SankeyLegend,
-  SankeyExport
+  SankeyLinkDirective
 } from "@syncfusion/ej2-vue-charts";
 
 export default {
@@ -49,9 +46,6 @@ export default {
     "e-sankey-node": SankeyNodeDirective,
     "e-sankey-links-collection": SankeyLinksCollectionDirective,
     "e-sankey-link": SankeyLinkDirective
-  },
-  provide: {
-    sankey: [SankeyTooltip, SankeyLegend, SankeyExport]
   }
 };
 </script>

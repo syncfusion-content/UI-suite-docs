@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with TypeScript Chart control | Syncfusion
-description:  Check out and learn about Getting started with TypeScript Chart control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about Getting started with TypeScript Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Chart
 publishingplatform: chart-sdk
@@ -37,22 +37,20 @@ Below is the list of minimum dependencies required to use the Chart.
     |-- @syncfusion/ej2-compression
     |-- @syncfusion/ej2-svg-base
 ```
-Note: @syncfusion/ej2-pdf-export, @syncfusion/ej2-file-utils, and @syncfusion/ej2-compression are optional—required only for PDF export features. Omit if not using exports.
+> Note: `@syncfusion/ej2-pdf-export`, `@syncfusion/ej2-file-utils`, and `@syncfusion/ej2-compression` are optional and required only for PDF export features. Omit them if you are not using exports.
+
+> Use the latest `@syncfusion/ej2-*` packages that are compatible with Node.js v14.15.0 or higher.
 
 ## Quick Setup
 
-### Step 1: Create a Project Folder
+### Step 1: Open Command Prompt
 
-Create a folder named `my-chart` in your desired location. This folder will contain your Syncfusion Chart TypeScript project.
+Open the command prompt and navigate to the directory where you want to create the project.
 
-### Step 2: Open Command Prompt
+* **For Windows**: Open Command Prompt (cmd) or PowerShell and use the `cd` command to navigate to your desired directory.
+* **For macOS/Linux**: Open Terminal and use the `cd` command to navigate to your desired directory.
 
-Open the command prompt and navigate to your desired directory where you want to create the project. You can do this by:
-
-* **For Windows**: Open Command Prompt (cmd) or PowerShell and use `cd` command to navigate to your desired directory
-* **For macOS/Linux**: Open Terminal and use `cd` command to navigate to your desired directory
-
-### Step 3: Clone the Quickstart Repository
+### Step 2: Clone the Quickstart Repository
 
 Run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
 
@@ -64,9 +62,11 @@ git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quick
 {% endhighlight %}
 {% endtabs %}
 
-### Step 4: Navigate to Project Folder
+This creates an `ej2-quickstart` folder in the current directory that contains the seed project.
 
-After cloning the application in the `ej2-quickstart` folder, run the following command to navigate to the project directory.
+### Step 3: Navigate to Project Folder
+
+Run the following command to navigate to the cloned project directory.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -76,11 +76,14 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-### Step 5: Install Required Packages
+### Step 4: Install Required Packages
 
-Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion JavaScript (Essential JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. Install either the umbrella package or the individual control package:
 
-The quickstart application is already preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install all the dependent npm packages from the command prompt.
+* Umbrella: [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) — all Syncfusion controls in a single package.
+* Individual: [`@syncfusion/ej2-charts`](https://www.npmjs.com/package/@syncfusion/ej2-charts) — the Chart and its required dependencies.
+
+The quickstart application is preconfigured with the `@syncfusion/ej2` dependency in the `~/package.json` file, including a `start` script that runs the webpack dev server. Use the following command to install all the npm packages from the command prompt.
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -90,15 +93,15 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-This command will download and install all necessary dependencies for your project.
+This command downloads and installs all the dependencies required for the project.
 
-### Step 6: Update the HTML Template
-
-> Note: Code snippets here use webpack for local development. For online demos or StackBlitz, SystemJS may be used—ignore loader/helper scripts in rendered previews.
+### Step 5: Update the HTML Template
 
 Open the `ej2-quickstart` folder in Visual Studio Code or any text editor of your choice.
 
-Locate the `~/src/index.html` file in the project. Add the HTML div tag with its `id` attribute as `element` to initialize the Chart container.
+> Note: Code snippets here use webpack for local development. For online demos or StackBlitz, SystemJS may be used—ignore loader/helper scripts in rendered previews.
+
+Locate the `~/src/index.html` file in the project and add an HTML `<div>` with its `id` attribute set to `element` to initialize the Chart container.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -110,17 +113,14 @@ Locate the `~/src/index.html` file in the project. Add the HTML div tag with its
     <title>Essential JS 2 Chart</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
+    <meta name="description" content="TypeScript UI Controls" />
     <meta name="author" content="Syncfusion" />
-    ....
-    ....
 </head>
 
 <body>
      <h1>Syncfusion Chart</h1>
-     <!--container which is going to render the Chart-->
-     <div id='element'>
-     </div>
+     <!-- Container which renders the Chart -->
+     <div id='element'></div>
 </body>
 
 </html>
@@ -128,23 +128,24 @@ Locate the `~/src/index.html` file in the project. Add the HTML div tag with its
 {% endhighlight %}
 {% endtabs %}
 
-### Step 7: Create the Chart Component with Data
+The webpack dev server injects the compiled `app.js` bundle automatically, so no manual `<script>` tag is required.
 
-Locate the `src/app/app.ts` file in your project and add the Chart component with module injection and sample data.
+### Step 6: Create the Chart Component with Data
 
-**Module Injection**: The Chart component requires specific feature modules to be injected. For displaying data with a line series and category axis, we need to inject the `LineSeries` and `Category` modules.
+Locate the `src/app/app.ts` file in your project. Import the `Chart` component along with the modules you need, prepare the sample data, and instantiate the chart.
 
-**Populate Chart with Data**: 
-Add a series object to the chart by using the [`series`](../api/chart/series) property. Map the JSON fields `month` and `sales` to the series [`xName`](../api/chart/series#xname) and [`yName`](../api/chart/series#yname) properties, and set the JSON array as the [`dataSource`](../api/chart/series#datasource) property.
+**Module Injection**: The Chart component requires specific feature modules to be registered before use. To render a line series with a category axis, inject the [`LineSeries`](../api/chart/lineseries) and [`Category`](../api/chart/category) modules.
 
-Since the JSON contains category data, set the [`valueType`](../api/chart/axisModel#valuetype) for the horizontal axis (primaryXAxis) to `Category`. By default, the axis valueType is `Numeric`.
+**Populate Chart with Data**: Add a series object to the chart by using the [`series`](../api/chart/series) property. Map the JSON fields `month` and `sales` to the series [`xName`](../api/chart/series#xname) and [`yName`](../api/chart/series#yname) properties, and assign the JSON array as the [`dataSource`](../api/chart/series#datasource) property.
+
+Since the JSON contains category data, set the [`valueType`](../api/chart/axisModel#valuetype) of the horizontal axis ([`primaryXAxis`](../api/chart/chartModel#primaryxaxis)) to `Category`. By default, the value type is `Numeric`.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
 
 import { Chart, LineSeries, Category } from '@syncfusion/ej2-charts';
 
-// Inject required modules
+// Register required feature modules
 Chart.Inject(LineSeries, Category);
 
 // Sample data for the chart
@@ -157,7 +158,7 @@ let chartData: Object[] = [
     { month: 'Nov', sales: 25 }, { month: 'Dec', sales: 32 }
 ];
 
-// Initialize and render Chart
+// Initialize the Chart
 let chart: Chart = new Chart({
     primaryXAxis: {
         valueType: 'Category'
@@ -170,14 +171,17 @@ let chart: Chart = new Chart({
         type: 'Line'
     }],
     title: 'Sales Data'
-}, '#element');
+});
+
+// Render the chart to the target container
+chart.appendTo('#element');
 
 {% endhighlight %}
 {% endtabs %}
 
-### Step 8: Run the Application
+### Step 7: Run the Application
 
-Open the integrated terminal in Visual Studio Code or use your command prompt to run the application. Use the `npm run start` command:
+Open the integrated terminal in Visual Studio Code, or use your command prompt, and run the application with the `npm run start` command.
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -187,19 +191,29 @@ npm run start
 {% endhighlight %}
 {% endtabs %}
 
-The application will compile and automatically start in your default web browser. The application typically runs at `http://localhost:4000`. You should see the Syncfusion<sup style="font-size:70%">&reg;</sup> Chart control displayed on the page.
+The application compiles and automatically opens in your default web browser. By default, the dev server runs at `http://localhost:4000`. If that port is in use, webpack selects the next available port and prints the URL in the terminal.
 
-### Step 9: View Your Chart
-
-Wait for the webpack dev server to complete the build process. Once completed, you will see the Chart control rendering in your browser. The chart is now successfully initialized and ready for further customization.
+When the build completes, the Syncfusion<sup style="font-size:70%">&reg;</sup> Chart control renders on the page and is ready for further customization.
 
 ## Output
 
 The following screenshot shows the output of the Syncfusion Chart quick start application:
 
-<<<<<<<< HEAD:chart-sdk/typescript/chart/getting-started.md
-![Syncfusion Chart Quick Start Output](./images/chart.png)
-========
-![Syncfusion Chart Quick Start Output](../images/chart.png)
+![Syncfusion Chart Quick Start Output - Line chart of monthly sales data](./images/chart.png)
 
->>>>>>>> origin/hotfix/hotfix-v34.1.29:chart-sdk/typescript/charts/getting-started.md
+## Troubleshooting
+
+* **`Cannot find module '@syncfusion/ej2-charts'`** — Dependencies are not installed. Run `npm install` in the project root.
+* **Chart renders but axis is empty** — The `Category` module was not injected. Verify that `Chart.Inject(LineSeries, Category)` is called before chart construction.
+* **Series does not appear** — The `LineSeries` module was not injected. Add `LineSeries` to the `Chart.Inject(...)` call.
+* **Port `4000` already in use** — Another process is bound to the port. Stop the conflicting process or change `devServer.port` in `webpack.config.js`.
+* **TypeScript build error** — TypeScript version mismatch. Install TypeScript as a dev dependency: `npm install typescript --save-dev`.
+
+## See also
+
+* [Working with Data](./working-with-data)
+* [Line Series](./chart-types/line)
+* [Category Axis](./category-axis)
+* [Chart Title and Subtitle](./title-and-sub-title)
+* [Chart Legend](./legend)
+* [Chart Tooltip](./tool-tip)

@@ -14,7 +14,35 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 The tooltip for sliders are supported by the Range Selector. Sliders are used in the Range Selector to select data from a specific range. The tooltip displays the selected start and end values.
 
-<!-- markdownlint-disable MD013 -->
+## Enable tooltip
+
+The tooltip is useful for showing the selected data. Enable the tooltip by setting the [`enable`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeTooltipSettingsModel#enable) property to `true` in the [`tooltip`](https://ej2.syncfusion.com/react/documentation/api/range-navigator/rangeNavigatorModel#tooltip) object, and by injecting the `RangeTooltip` module into the `services` as shown below.
+
+```javascript
+import { RangeNavigatorComponent, AreaSeries, DateTime, RangeTooltip, Inject } from "@syncfusion/ej2-react-charts";
+import * as React from "react";
+
+function App() {
+  return (
+    <RangeNavigatorComponent id="charts" tooltip={{ enable: true }}>
+      <Inject services={[AreaSeries, DateTime, RangeTooltip]} />
+    </RangeNavigatorComponent>
+  );
+}
+
+export default App;
+```
+
+{% tabs %}
+{% highlight js tabtitle="app.jsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs19/app/index.jsx %}
+{% endhighlight %}
+{% highlight ts tabtitle="app.tsx" %}
+{% include code-snippet/chart-sdk/react/range-selector/getting-started-cs19/app/index.tsx %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/react/range-selector/getting-started-cs19" %}
 
 ## Customization
 

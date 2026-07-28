@@ -102,14 +102,14 @@ If the specified format does not match the resolved value type, the original val
 
 {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/inline-format/index.ts %}
+{% include code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/tooltip-inline-format/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/inline-format/index.html %}
+{% include code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/tooltip-inline-format/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/inline-format" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-circular-charts/user-interaction/tooltip-inline-format" %}
 
 ## Tooltip template
 

@@ -17,9 +17,7 @@ const sankey = new ej.charts.Sankey(
     height: '420px',
     title: 'Energy Flow Diagram',
     nodes: nodes,
-    links: links,
-    tooltip: { enable: true },
-    legendSettings: { visible: true }
+    links: links
   },
   '#sankey-container'
 );

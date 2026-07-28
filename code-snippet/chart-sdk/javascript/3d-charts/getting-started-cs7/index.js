@@ -7,10 +7,6 @@ var chartData = [
       { month: 'Nov', sales: 25 }, { month: 'Dec', sales: 32 }
 ];
 var chart3D = new ej.charts.Chart3D({
-    // Tooltip for 3d chart
-    tooltip: {
-        enable: true
-    },
     primaryXAxis: {
         valueType: 'Category'
     },
@@ -22,12 +18,8 @@ var chart3D = new ej.charts.Chart3D({
         name:'Sales',
         xName: 'month',
         yName: 'sales',
-        type: 'Column',
-        dataLabel: {
-            visible: true
-        }
+        type: 'Column'
     }],
-    legendSettings: { visible: true },
     title: 'Sales Analysis'
 }, '#element');
 

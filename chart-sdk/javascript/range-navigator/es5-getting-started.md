@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ES5 getting started with JavaScript Range Navigator control | Syncfusion
-description:  Check out and learn about ES5 getting started with JavaScript Range Navigator control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about ES5 getting started with JavaScript Range Navigator control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
 control: Range Navigator
 publishingplatform: chart-sdk
@@ -9,13 +9,19 @@ documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# ES5 getting started with JavaScript Range Navigator control
+# Getting Started with Syncfusion® JavaScript (ES5) Range Navigator Control
 
-This section explains the steps required to create a simple range navigator and demonstrates the basic usage of the range navigator control.
+Build your first Syncfusion JavaScript (ES5) application with a simple Range Navigator in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 (ES5) Range Navigator from the CDN, initializes it with sample data, and renders an interactive navigator.
+
+## Prerequisites
+
+* [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
+* A web browser to view the result
+* A local web server such as the VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
 
 ## Dependencies
 
- The list of minimum dependencies required to use a range navigator is as follows:
+The Range Navigator control ships as part of the `@syncfusion/ej2-charts` package. The minimum dependency tree is:
 
 ```
     |-- @syncfusion/ej2-charts
@@ -26,148 +32,48 @@ This section explains the steps required to create a simple range navigator and 
     |-- @syncfusion/ej2-compression
     |-- @syncfusion/ej2-navigations
     |-- @syncfusion/ej2-calendars
-
 ```
 
-## Setup for local environment
+## Quick Setup
 
-Follow these steps to set up your local environment.
+### Step 1: Create Folder and HTML file
 
-**Step 1:** Create a root folder **myapp** for your application.
+* Create a folder named `quickstart` in your desired directory.
+* Inside the `quickstart` folder, create three new files: `index.html`, `index.js`, and `es5-datasource.js`.
 
-**Step 2:** Create **myapp/resources** folder to store local scripts and styles.
+### Step 2: Add Syncfusion<sup style="font-size:70%">&reg;</sup> CDN Resources
 
-**Step 3:** Create **myapp/index.js** and **myapp/index.html** files for initializing the Syncfusion Essential JS 2 Range Navigator control.
+Include the following JavaScript links in the `<head>` section.
 
-## Adding Syncfusion resources
-
-The Syncfusion Essential JS 2 Range Navigator control can be initialized in either of the following ways:
-
-* Using local script.
-* Using CDN links for scripts.
-
-### Using local script
-
-You can get the global scripts and styles from the [Essential Studio JavaScript (Essential JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installed location.
-
-After installing the Essential JS 2 product build, you can copy the control and its dependency scripts and style files into the **resources/scripts** and **resources/styles** folder.
-
-The following shows the path to the Range Navigator's script and style files.
-
-**Syntax:**
-
-> Dependency script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{DEPENDENCY_PACKAGE_NAME}/dist/global/{DEPENDENCY_PACKAGE_NAME}.min.js`
->
-> Script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->
-
-**Example:**
-
-> Dependency script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-base/dist/global/ej2-base.min.js`
-> Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-charts/dist/global/ej2-charts.min.js`
->
-
-After copying the files, reference the scripts from `index.html`. The following HTML shows the minimal dependencies.
-
+**Scripts (JavaScript):**
+```html
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js" type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js" type="text/javascript"></script>
 ```
 
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 Range Navigator</title>
-
-            <!-- Essential JS 2 Range Navigator's dependent scripts -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-            <script src="https://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-            <script src="https://cdn.syncfusion.com/ej2/ej2-svg-base/dist/global/ej2-svg-base.min.js" type="text/javascript"></script>
-
-            <!-- Essential JS 2 Range Navigator's global script -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-
-```
-
-### Using CDN links for scripts
-
-Using CDN links, you can reference the control's script in the `index.html`.
-
-Refer the control's CDN links as follows.
-
-**Syntax:**
-
-> Script: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-
-**Example:**
-
-> Script: [`https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js`](https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js)
-
-The following HTML shows the minimal dependencies using CDN scripts.
-
-```
-
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 Range Navigator</title>
-            <!-- Essential JS 2 Range Navigator's global script -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-charts/dist/global/ej2-charts.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-       </body>
-  </html>
-  
-```
-
-## Adding Range Navigator control
-
-Now you can add the Range Navigator control to the application. To get started, add a **div** element for the Range Navigator in **index.html**. Then reference the **index.js** file in **index.html**.
-
-This document uses `ej2.min.js`, which includes all Essential JS 2 components and dependencies.
+**Or**, to load all Syncfusion components in a single combined bundle:
 
 ```html
-<!DOCTYPE html>
-  <html xmlns="https://www.w3.org/1999/xhtml">
-       <head>
-            <title>Essential JS 2 Range Navigator</title>
-            <!-- Essential JS 2 all script -->
-            <script src="https://cdn.syncfusion.com/ej2/dist/ej2.min.js" type="text/javascript"></script>
-       </head>
-       <body>
-           <!-- Add the HTML <div> element for Range Navigator  -->
-             <div id="element"></div>
-             <script src="index.js" type="text/javascript"></script>
-       </body>
-  </html>
-
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js" type="text/javascript"></script>
 ```
 
-Place the following Range Navigator initialization code in `index.js`.
+### Step 3: Add the Syncfusion<sup style="font-size:70%">&reg;</sup> Range Navigator Control to the Application
 
-```javascript
-var range = new ej.charts.RangeNavigator();
-range.appendTo('#element');
-```
+The `index.html` file loads `es5-datasource.js` and `index.js`. The `es5-datasource.js` file contains the sample data, while `index.js` initializes the Range Navigator.
 
-The following example shows a basic Range Navigator.
+The Syncfusion scripts provide the `ej.charts.RangeNavigator` class. The Range Navigator uses the global datasrc array, displays the data as an Area series on a DateTime axis, and renders inside the `#element` container.
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs9/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs9" %}
+Key options used in the configuration object:
 
-## Populate Range Navigator with Data
+- [`valueType`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/index-default#valuetype) — Axis data type. Set to `'DateTime'` because the sample data uses date strings.
+- [`labelFormat`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/index-default#valuetype) — Format string applied to the axis labels (for example, `'dd-MMM'`).
+- [`series`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/index-default#series) — Array of series to render. Each series has a [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/rangenavigatorseriesmodel#datasource), [`xName`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/rangenavigatorseriesmodel#xname), [`yName`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/rangenavigatorseriesmodel#yname), and [`type`](https://ej2.syncfusion.com/javascript/documentation/api/range-navigator/rangenavigatorseriesmodel#type) (e.g. `'Area'`).
 
-Now, provide data to the Range Navigator. Add a series object to the Range Navigator by using the `series` property. Map the field names `x` and `y` in the JSON data to the `xName` and `yName` properties of the series, then set the JSON data to the `dataSource` property.
-Since the JSON contains DateTime data, set the `valueType` as `DateTime`. By default, the axis `valueType` is `Numeric`.
+Finally, `range.appendTo('#element')` renders the control into the `<div id="element">` element declared in `index.html`.
+
+Copy the snippets below into the matching files in your `quickstart` folder.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -176,25 +82,30 @@ Since the JSON contains DateTime data, set the `valueType` as `DateTime`. By def
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs10/index.html %}
 {% endhighlight %}
+{% highlight js tabtitle="es5-datasource.js" %}
+{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs10/es5-datasource.js %}
+{% endhighlight %}
 {% endtabs %}
         
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs10" %}
-
 > Note: Get data from [here](https://ej2.syncfusion.com/demos/src/range-navigator/data-source/default-data.json).
 
 The sample should look like the [default](https://ej2.syncfusion.com/javascript/demos/#/material/range-navigator/default.html). Don’t worry about the gradient color; let it take the default color.
 
-## Enable Tooltip
+### Step 4: Open in Browser
 
-The tooltip is useful to show the selected data. You can enable the tooltip by setting the `enable` property to `true` in the `tooltip` object.
+Open `quickstart/index.html` through a local web server. With the VS Code **Live Server** extension installed, right-click `index.html` in the Explorer and choose **Open with Live Server**, then visit the URL it prints (for example, `http://127.0.0.1:5500/`). You should see the Syncfusion Range Navigator control displaying the sample data.
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs11/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/range-selector/getting-started-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs11" %}
+## Output
+
+The Range Navigator shows 15 days of data. Drag the thumbs to select a date range.
+
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/range-selector/getting-started-cs10" %}
+
+![Syncfusion Range Navigator Quick Start Output](./images/navigator.png)
+
+## Troubleshooting
+
+- **`ej is not defined`.** Confirm that `ej2-charts.min.js` is loaded before your script. Place the `<script>` tag inside the `<head>` or just before your own `<script src="index.js">` tag.
+- **`datasrc is not defined`.** Make sure `es5-datasource.js` is loaded before `index.js` and that it assigns the data to `window.datasrc` (or `datasrc` at the top level).
+- **The container is empty.** Make sure the `id` in your markup (`#element`) matches the selector passed to `appendTo('#element')`.
+- **The selector doesn't move.** Verify that `valueType: 'DateTime'` is set and that every `x` value in your data is a valid `Date` or a date string parseable by `new Date(...)`.
