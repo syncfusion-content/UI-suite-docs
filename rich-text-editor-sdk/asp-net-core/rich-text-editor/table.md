@@ -139,7 +139,7 @@ Entire columns can be selected using the icons that appears on hover.
 - **What you'll see**: A selection handle appears at the top of the corresponding column.
 - **How to select**: Click the handle to select the entire column.
 
-![Rich Text Editor table column selection](../images/table_column_selection.gif)
+![Rich Text Editor table column selection](./images/table_column_selection.gif)
 
 ### Selecting the Entire Table
 
@@ -151,7 +151,7 @@ The entire table can be selected using the table selection icon that appears on 
 - **What you'll see**: A selection handle appears at the top-left corner of the table.
 - **How to select**: Click the handle to select the entire table.
 
-![Rich Text Editor entire table selection](../images/table_entire_selection.gif)
+![Rich Text Editor entire table selection](./images/table_entire_selection.gif)
 
 ### Keyboard Shortcuts
 
