@@ -16,6 +16,21 @@ The tooltip for sliders are supported by the Range Selector. Sliders are used in
 
 <!-- markdownlint-disable MD013 -->
 
+## Enable Tooltip
+
+The tooltip is useful to show the selected data. You can enable tooltip by setting the `enable` property as true in tooltip object and by injecting `RangeTooltip` module using `provide` method.
+
+{% tabs %}
+{% highlight html tabtitle="Composition API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/range-selector/getting-started-cs11/app-composition.vue %}
+{% endhighlight %}
+{% highlight html tabtitle="Options API (~/src/App.vue)" %}
+{% include code-snippet/chart-sdk/vue/range-selector/getting-started-cs11/app.vue %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/vue/range-selector/getting-started-cs11" %}
+
 ## Customization
 
 Tooltip can be customized using the following properties:

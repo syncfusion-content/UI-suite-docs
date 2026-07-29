@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Getting started with TypeScript 3D Chart control | Syncfusion
-description:  Check out and learn about Getting started with TypeScript 3D Chart control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about Getting started with TypeScript 3D Chart control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: 3D Chart 
+control: 3D Chart
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
@@ -15,9 +15,18 @@ This document explains how to create a simple 3D Chart and configure its feature
 
 > This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+* [Node.js](https://nodejs.org/) (v14.15.0 or higher)
+* [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
+
 ## Dependencies
 
-Below is the list of minimum dependencies required to use the 3D Chart.
+The 3D Chart control ships as part of the `@syncfusion/ej2-charts` package. Below is the list of minimum dependencies required.
 
 ```
 |-- @syncfusion/ej2-charts
@@ -29,9 +38,23 @@ Below is the list of minimum dependencies required to use the 3D Chart.
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Set up development environment
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
+## Quick Setup
+
+### Step 1: Create a Project Folder
+
+Create a folder named `my-3d-chart` in your desired location. This folder will contain your Syncfusion 3D Chart TypeScript project.
+
+### Step 2: Open Command Prompt
+
+Open the command prompt and navigate to `my-3d-chart` folder created in Step 1. You can do this by:
+
+* **For Windows**: Open Command Prompt (cmd) or PowerShell and use the `cd` command to navigate to `my-3d-chart` folder.
+* **For macOS/Linux**: Open Terminal and use the `cd` command to navigate to `my-3d-chart` folder.
+
+### Step 3: Clone the Quickstart Repository
+
+Run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -41,7 +64,9 @@ git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quick
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to Project Folder
+
+After cloning the application in the `ej2-quickstart` folder, run the following command to navigate to the project directory.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -51,11 +76,11 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion JavaScript packages
+### Step 5: Install Required Packages
 
 Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion JavaScript (Essential JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
 
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+The quickstart application is already preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install all the dependent npm packages from the command prompt:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -65,11 +90,13 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-## Add 3D Chart to the project
+This command will download and install all necessary dependencies for your project.
 
-Open the project in Visual Studio Code and add the 3D Chart to the application.
+### Step 6: Update the HTML Template
 
-Add the HTML div tag with its `id` attribute as `element` in your `~/src/index.html` file to initialize the 3D Chart.
+Open the `ej2-quickstart` folder in Visual Studio Code or any text editor of your choice.
+
+Locate the `~/src/index.html` file in the project, preserve any existing `<link>` and `<script>` tags that were generated by the seed, and add the HTML `div` tag with its `id` attribute as `element` inside `<body>` to initialize the 3D Chart container.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -78,19 +105,19 @@ Add the HTML div tag with its `id` attribute as `element` in your `~/src/index.h
 <html lang="en">
 
 <head>
-    <title>EJ2 3D Chart</title>
+    <title>Essential JS 2 3D Chart</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
+    <meta name="description" content="TypeScript UI Controls" />
     <meta name="author" content="Syncfusion" />
-    ....
-    ....
+    <!-- existing head content from the seed template remains here -->
 </head>
 
 <body>
-     <!--container which is going to render the 3D Chart-->
-     <div id='element'>
-     </div>
+    <h1>Syncfusion 3D Chart</h1>
+    <!--container which is going to render the 3D Chart-->
+    <div id='element'>
+    </div>
 </body>
 
 </html>
@@ -98,23 +125,25 @@ Add the HTML div tag with its `id` attribute as `element` in your `~/src/index.h
 {% endhighlight %}
 {% endtabs %}
 
-Import the 3D Chart component in `src/app/app.ts` to instantiate and render the 3D Chart.
+### Step 7: Create the 3D Chart Component with Data
+
+Locate the `src/app/app.ts` file in your project and add the 3D Chart component with module injection and sample data.
+
+**Module Injection**: The 3D Chart component is split into individual feature modules. To use a particular feature, inject its module using the `Chart3D.Inject()` method. The example below injects `ColumnSeries3D` and `Category3D`; add the others as needed.
+
+**Populate 3D Chart with Data**: Create a `chartData` array of objects (each with a `month` and a `sales` field) and a single `series` object on the chart. Map the `month` and `sales` fields to the series [`xName`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3dseriesmodel#xname) and [`yName`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3dseriesmodel#yname) properties, and set the array as the [`dataSource`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3dseriesmodel#datasource). Since the `month` field contains category data, set the [`valueType`](https://ej2.syncfusion.com/documentation/api/chart3d/chart3daxismodel#valuetype) for [`primaryXAxis`](https://ej2.syncfusion.com/documentation/api/chart3d/index-default#primaryxaxis) to `'Category'`. The sales values are in thousands, so set `primaryYAxis.labelFormat` to `'${value}K'` to add a `$` prefix and `K` suffix. Finally, set a chart [`title`](https://ej2.syncfusion.com/documentation/api/chart3d/index-default#title) for quick context.
 
 {% tabs %}
 {% highlight ts tabtitle="app.ts" %}
-
-import { Chart3D } from '@syncfusion/ej2-charts';
-
-// initialize 3D Chart component
-let chart: Chart3D = new Chart3D();
-
-// render initialized 3D Chart
-chart.appendTo('#element');
-
+{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7/index.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-Now use the `npm run start` command to run the application in the browser.
+> You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos/#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types.
+
+### Step 8: Run the Application
+
+Open the integrated terminal in Visual Studio Code or use your command prompt to run the application. Use the `npm run start` command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -124,145 +153,25 @@ npm run start
 {% endhighlight %}
 {% endtabs %}
 
-The below example shows a basic 3D Chart.
+The application will compile and automatically start in your default web browser. The application typically runs at `http://localhost:4000`. You should see the Syncfusion<sup style="font-size:70%">&reg;</sup> 3D Chart control displayed on the page. To stop the dev server, press `Ctrl+C` in the terminal. For a production build, use `npm run build`.
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs1/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs1/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs1" %}
+### Step 9: View Your 3D Chart
 
-## Module injection
+Wait for the webpack dev server to complete the build process. Once completed, you will see the 3D Chart control rendering in your browser with the sample monthly sales data, a Column series, a "Sales Analysis" title, and formatted axis labels.
 
-The 3D Chart component is segregated into individual feature modules. In order to use a particular feature, you need to inject its feature module using the `Chart3D.Inject()` method. The relevant feature modules are:
+## Output
 
-* ColumnSeries3D - Inject this module to use column series.
-* Legend3D - Inject this module to use the legend.
-* Tooltip3D - Inject this module to use the tooltip.
-* DataLabel3D - Inject this module to use data labels.
-* Category3D - Inject this module to use the category axis.
+The following screenshot shows the output of the Syncfusion 3D Chart quick start application — a Column series rendering 12 months of sample sales data with a Category axis on the x-axis and a formatted vertical axis.
 
-Now import the above-mentioned modules from the chart package and inject them into the Chart3D component using `Chart3D.Inject` method.
+![Syncfusion 3D Chart Quick Start Output](./images/3D-Chart-TS.png)
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { Chart3D, ColumnSeries3D, Legend3D, DataLabel3D, Category3D, Tooltip3D } from '@syncfusion/ej2-charts';
-Chart3D.Inject(ColumnSeries3D, Legend3D, DataLabel3D, Category3D, Tooltip3D);
-
-{% endhighlight %}
-{% endtabs %}
-
-## Populate 3D Chart with data
-
-This section explains how to plot the following JSON data to the 3D Chart.
-
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-let chartData: Object[] = [
-    { month: 'Jan', sales: 35 }, { month: 'Feb', sales: 28 },
-    { month: 'Mar', sales: 34 }, { month: 'Apr', sales: 32 },
-    { month: 'May', sales: 40 }, { month: 'Jun', sales: 32 },
-    { month: 'Jul', sales: 35 }, { month: 'Aug', sales: 55 },
-    { month: 'Sep', sales: 38 }, { month: 'Oct', sales: 30 },
-    { month: 'Nov', sales: 25 }, { month: 'Dec', sales: 32 }
-];
-
-{% endhighlight %}
-{% endtabs %}
-
-Add a series object to the 3D Chart by using the [`series`](../api/chart3d/chart3dseriesmodel) property. Map the JSON fields `month` and `sales` to the series [`xName`](../api/chart3d/chart3dseriesmodel#xname) and [`yName`](../api/chart3d/chart3dseriesmodel#yname) properties, and set the JSON array as the [`dataSource`](../api/chart3d/chart3dseriesmodel#datasource) property.
-
-Since the JSON contains category data, set the [`valueType`](../api/chart3d/chart3daxismodel#valuetype) for the horizontal axis (primaryXAxis) to `Category`. By default, the axis valueType is `Numeric`.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs2/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs2" %}
-
-The sales values are in thousands, so format the vertical axis label by adding `$` as a prefix and `K` as a suffix to each label. This can be achieved by setting `${value}K` to the [`labelFormat`](../api/chart3d/chart3daxismodel#labelformat) property of the axis. Here, `{value}` acts as a placeholder for each axis label.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs3/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs3" %}
-
-## Add 3D Chart title
-
-You can add a title using the [`title`](../api/chart3d/chart3DModel#title) property to the 3D Chart to provide quick information to the user about the data plotted in the 3D Chart.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs4/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs4/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs4" %}
-
-## Enable legend
-
-You can enable the legend for the 3D Chart by setting the [`visible`](../api/chart3d/chart3dlegendsettingsmodel#visible) property to `true` in the [`legendSettings`](../api/chart3d/chart3DModel#legendsettings) object and by injecting the `Legend3D` module using `Chart3D.Inject(Legend3D)`.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs5/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs5/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs5" %}
-
-## Add data label
-
-You can add data labels to improve the readability of the 3D Chart. This can be achieved by setting the [`visible`](../api/chart3d/chart3ddatalabelsettingsmodel#visible) property to `true` in the [`dataLabel`](../api/chart3d/chart3dseriesmodel#datalabel) object and by injecting the `DataLabel3D` module using `Chart3D.Inject(DataLabel3D)`. Now, the data labels are arranged smartly based on the series.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs6/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs6/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs6" %}
-
-## Enable tooltip
-
-The tooltip is useful when you cannot display information by using the data labels due to space constraints. You can enable the tooltip by setting the [`enable`](../api/chart3d/chart3dtooltipsettingsmodel#enable) property to `true` in the [`tooltip`](../api/chart3d/chart3DModel#tooltip) object and by injecting the `Tooltip3D` module using `Chart3D.Inject(Tooltip3D)`.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/3d-charts/getting-started-cs7" %}
 
+## Troubleshooting
+
+* **Blank page, no 3D Chart** — The npm package failed to load. Verify the network tab and that `npm install` finished successfully.
+* **`Cannot find module '@syncfusion/ej2-charts'`** — Dependencies were not installed. Re-run `npm install`.
+* **`Chart3D is undefined`** — `Chart3D.Inject(...)` was not called before the `new Chart3D(...)` call. Add the `Inject` line at the top of `app.ts`.
+* **The 3D chart renders without data** — Mismatched `xName`/`yName` and the field names in the data source. Ensure every series field matches the data keys exactly.
+* **TypeScript compile errors after `npm install`** — Run `npm run build` to see the full error; common causes are mismatched `ej2-charts` and theme package versions.
 > You can refer to our [JavaScript 3D Charts](https://www.syncfusion.com/javascript-ui-controls/js-3d-charts) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript 3D Charts example](https://ej2.syncfusion.com/demos/#/bootstrap5/three-dimension-chart/column.html) that shows various 3D Chart types and how to represent time-dependent data, showing trends in data at equal intervals.

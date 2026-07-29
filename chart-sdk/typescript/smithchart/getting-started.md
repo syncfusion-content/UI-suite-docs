@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with TypeScript Smith Chart control | Syncfusion
-description:  Check out and learn about Getting started with TypeScript Smith Chart control of Syncfusion Essential JS 2 and more details.
+description: Create your first Smith Chart in TypeScript using Syncfusion Essential JS 2, with step-by-step setup and configuration guidance.
 platform: chart-sdk
 control: Smith Chart
 publishingplatform: chart-sdk
@@ -15,9 +15,18 @@ This document explains how to create a simple Smith Chart and configure its feat
 
 > This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack getting-started guide](https://webpack.js.org/guides/getting-started/).
 
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+* Node.js (v14.15.0 or higher)
+* [Visual Studio Code](https://code.visualstudio.com) (or any text editor)
+* [Git](https://git-scm.com/) for cloning the quickstart repository
+* A modern web browser (Chrome, Edge, Firefox, or Safari) to view the result
+
 ## Dependencies
 
-Below is the list of minimum dependencies required to use the Smith Chart.
+The Smith Chart control ships as part of the `@syncfusion/ej2-charts` package. Below is the list of minimum dependencies required.
 
 ```
 |-- @syncfusion/ej2-charts
@@ -29,9 +38,22 @@ Below is the list of minimum dependencies required to use the Smith Chart.
     |-- @syncfusion/ej2-file-utils
 ```
 
-## Set up development environment
+## Quick Setup
 
-Open the command prompt from the required directory, and run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
+### Step 1: Create a Project Folder
+
+Create a folder named `my-smithchart` in your desired location. This folder will contain your Syncfusion Smith Chart TypeScript project.
+
+### Step 2: Open Command Prompt
+
+Open the command prompt and navigate to the `my-smithchart` folder created in Step 1. You can do this by:
+
+* **Windows**: Open Command Prompt or PowerShell and navigate to the `my-smithchart` folder.
+* **macOS/Linux**: Open Terminal and navigate to the `my-smithchart` folder.
+
+### Step 3: Clone the Quickstart Repository
+
+Run the following command to clone the Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack).
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -41,7 +63,9 @@ git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack ej2-quick
 {% endhighlight %}
 {% endtabs %}
 
-After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+### Step 4: Navigate to Project Folder
+
+After cloning the application in the `ej2-quickstart` folder, run the following command to navigate to the project directory.
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -51,11 +75,11 @@ cd ej2-quickstart
 {% endhighlight %}
 {% endtabs %}
 
-## Add Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript packages
+### Step 5: Install Required Packages
 
 Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
 
-The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+The quickstart application is already preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install all the dependent npm packages from the command prompt:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -65,11 +89,11 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-## Add smith chart to the project
+### Step 6: Update the HTML Template
 
-Open the project in Visual Studio Code and add the Smith Chart to the application.
+Open the `ej2-quickstart` folder in Visual Studio Code or any text editor of your choice.
 
-Add the HTML div tag with its `id` attribute as `container` in your `~/src/index.html` file to initialize the Smith Chart.
+Locate the `~/src/index.html` file in the project, preserve any existing `<link>` and `<script>` tags that were generated by the seed, and add the HTML `div` tag with its `id` attribute as `container` inside `<body>` to initialize the Smith Chart container.
 
 {% tabs %}
 {% highlight html tabtitle="index.html" %}
@@ -78,11 +102,12 @@ Add the HTML div tag with its `id` attribute as `container` in your `~/src/index
 <html lang="en">
 
 <head>
-    <title>EJ2 Smith Chart</title>
+    <title>Essential JS 2 Smith Chart</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Typescript UI Controls" />
+    <meta name="description" content="TypeScript UI Controls" />
     <meta name="author" content="Syncfusion" />
+    <!-- existing head content from the seed template remains here -->
 </head>
 
 <body>
@@ -96,23 +121,31 @@ Add the HTML div tag with its `id` attribute as `container` in your `~/src/index
 {% endhighlight %}
 {% endtabs %}
 
-Import the Smith Chart component into `src/app/app.ts` to instantiate and render the Smith Chart.
+### Step 7: Create the Smith Chart Component
+
+Locate the `src/app/app.ts` file in your project and add the Smith Chart component.
+
+**Module Injection**: The Smith Chart component is segregated into individual feature-specific modules. To use a particular feature, inject its module using the `Smithchart.Inject()` method. The commonly used modules are:
+
+* `SmithchartLegend` — Inject to use the legend feature.
+* `TooltipRender` — Inject to use the tooltip feature.
+
+**Populate the chart with data**: The Smith Chart supports two ways to add a series:
+
+* [`series[].dataSource`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#datasource) — Bind an array of `{ resistance, reactance }` objects. Use [`series[].resistance`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#resistance) and [`series[].reactance`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#reactance) to map the field names.
+* `series[].points` — Provide an array of `{ resistance, reactance }` points directly on the series.
+
+The `new Smithchart({...})` call creates the Smith Chart component. Pass [`series`](https://ej2.syncfusion.com/documentation/api/smithchart/index-default#series), an array of series objects, to render curves on the chart. Each series with a [`dataSource`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#datasource) needs matching [`resistance`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#resistance) and [`reactance`](https://ej2.syncfusion.com/documentation/api/smithchart/smithchartseriesmodel#reactance) field names; each series with `points` does not. Finally, `smithchart.appendTo('#container')` renders the control into the `<div id="container">` element declared in `index.html`.
 
 {% tabs %}
-{% highlight ts tabtitle="app.ts" %}
-
-import { Smithchart } from '@syncfusion/ej2-charts';
-
-// initialize Smithchart component
-let smithchart: Smithchart = new Smithchart();
-
-// render initialized Smithchart
-smithchart.appendTo('#container');
-
+{% highlight js tabtitle="index.ts" %}
+{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs1/index.ts %}
 {% endhighlight %}
 {% endtabs %}
 
-Now use the `npm run start` command to run the application in the browser.
+### Step 8: Run the Application
+
+Open the integrated terminal in Visual Studio Code or use your command prompt to run the application. Use the `npm run start` command:
 
 {% tabs %}
 {% highlight bash tabtitle="NPM" %}
@@ -122,132 +155,23 @@ npm run start
 {% endhighlight %}
 {% endtabs %}
 
-The below example shows a basic Smithchart.
+The application will compile and automatically start in your default web browser. The application typically runs at `http://localhost:4000`. You should see the Syncfusion<sup style="font-size:70%">&reg;</sup> Smith Chart control displayed on the page. To stop the dev server, press `Ctrl+C` in the terminal.
 
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs8/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs8/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs8" %}
+### Step 9: View Your Smith Chart
 
-## Module Injection
+Wait for the webpack dev server to complete the build process. Once completed, you will see the Smith Chart rendering in your browser with the transmission-line sample data. The chart is now successfully initialized and ready for further customization.
 
-The Smithchart component is segregated into individual feature-wise modules. To use a particular feature, you need to inject its module using the `Smithchart.Inject()` method. In the current application, we modify the basic Smithchart to visualize transmission lines using the tooltip and legend features. The relevant feature modules are:
+## Output
 
-* SmithchartLegend — Inject to use the legend feature.
-* TooltipRender — Inject to use the tooltip feature.
+The following screenshot shows the output of the Syncfusion Smith Chart quick start application.
 
-Now import the above-mentioned modules from smithchart package and inject it into the Smithchart component using
-`Smithchart.Inject` method.
+![Syncfusion Smith Chart Quick Start Output](./images/smithchart-TS.png)
 
-{% tabs %}
-{% highlight ts tabtitle="app.ts" %}
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs1" %}
 
-import { Smithchart, SmithchartLegend, TooltipRender } from '@syncfusion/ej2-charts';
-Smithchart.Inject(SmithchartLegend, TooltipRender);
+## Troubleshooting
 
-{% endhighlight %}
-{% endtabs %}
-
-## Add Series to Smithchart
-
-The Smithchart has two ways to add series:
-
-* dataSource — Bind a data object by specifying resistance and reactance values; the series renders from the provided dataSource.
-* points — Provide a collection of resistance and reactance value points for the series.
-
-The sample below demonstrates adding two series to the Smithchart in both ways.
-
-* First series `Transmission1` shows dataSource bound series.
-* Second series `Transmission2` shows points bound series.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs9/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs9/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs9" %}
-
-## Add title to Smith Chart
-
-You can add a title using the [`title`](../api/smithchart/smithchartmodel#title) property to the Smith Chart to provide quick information to the user about the data plotted in the Smith Chart.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs10/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs10/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs10" %}
-
-## Enable markers in the Smithchart
-
-You can add and customize markers in the Smith Chart. This can be achieved by setting the [`visible`](../api/smithchart/seriesmarkermodel#visible) property to `true` in the [`marker`](../api/smithchart/smithchartseriesmodel#marker) object. The sample below enables markers for the first series.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs11/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs11/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs11" %}
-
-## Enable data labels for Smithchart markers
-
-You can add data labels to improve the readability of the Smith Chart. This can be achieved by setting the [`visible`](../api/smithchart/seriesmarkerdatalabelmodel#visible) property to `true` in the [`dataLabel`](../api/smithchart/seriesmarkermodel#datalabel) object. The sample below enables data labels for the first series.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs12/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs12/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs12" %}
-
-## Enable legend for Smithchart
-
-You can use a legend for the Smith Chart by setting the [`visible`](../api/smithchart/smithchartlegendsettingsmodel#visible) property to `true` in the [`legendSettings`](../api/smithchart/smithchartmodel#legendsettings) object and by injecting the `SmithchartLegend` module using `Smithchart.Inject(SmithchartLegend)`. The following example shows enabling the legend for the Smithchart. The series name can be customized using the series `name`.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs13/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs13/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs13" %}
-
-## Enable tooltip for Smithchart series
-
-The tooltip is useful when you cannot display information by using data labels due to space constraints. You can enable the tooltip by setting the [`visible`](../api/smithchart/seriestooltipmodel#visible) property to `true` in the [`tooltip`](../api/smithchart/smithchartseriesmodel#tooltip) object and by injecting `TooltipRender` using `Smithchart.Inject(TooltipRender)`.
-
-{% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs14/index.ts %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs14/index.html %}
-{% endhighlight %}
-{% endtabs %}
-          
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/smith-chart/getting-started-cs14" %}
+* **`Cannot find module '@syncfusion/ej2-charts'`** — Dependencies were not installed. Re-run `npm install`.
+* **`Smithchart is undefined`** — `Smithchart.Inject(...)` was not called before the `new Smithchart(...)` call. Add the `Inject` line at the top of `app.ts`.
+* **Chart renders without data** — When using `series[].dataSource`, you must also set the matching `resistance` and `reactance` field names; otherwise the series renders empty. Use `series[].points` instead if you want to pass values directly.
+* **TypeScript compile errors after `npm install`** — Run `npm run build` to see the full error; common causes are mismatched `ej2-charts` and theme package versions.

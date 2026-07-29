@@ -1,153 +1,110 @@
 ---
 layout: post
 title: ES5 getting started with JavaScript Sparkline control | Syncfusion
-description:  Checkout and learn about ES5 getting started with JavaScript Sparkline control of Syncfusion Essential JS 2 and more details.
+description: Check out and learn about ES5 getting started with JavaScript Sparkline control of Syncfusion Essential JS 2 and more details.
 platform: chart-sdk
-control: ES5 getting started 
+control: Sparkline
 publishingplatform: chart-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/chart-sdk
 ---
 
-# ES5 getting started in JavaScript Sparkline control
+# Getting Started with Syncfusion® JavaScript (ES5) Sparkline Control
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 for JavaScript (global script) is a pure ES5-based JavaScript framework that can be used directly in the latest web browsers.
+Build your first Syncfusion JavaScript (ES5) application with a simple Sparkline in just a few minutes. This quickstart guides you through creating a minimal, runnable HTML page that loads the Syncfusion EJ2 Sparkline control from the CDN, initializes it with sample data, and renders an interactive Sparkline.
+
+## Prerequisites
+
+* [Visual Studio Code](https://code.visualstudio.com) or any text editor
+* A web browser to view the result
+* A local web server, such as the VS Code [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
 
 ## Dependencies
 
-The following list of minimum dependencies are required to use the sparkline:
+The Sparkline control ships as part of the `@syncfusion/ej2-charts` package. The following minimum dependencies are required.
 
-```javascript
+```text
 |-- @syncfusion/ej2-charts
     |-- @syncfusion/ej2-base
     |-- @syncfusion/ej2-data
     |-- @syncfusion/ej2-svg-base
 ```
 
-## Control Initialization
+## Quick Setup
 
-The Essential<sup style="font-size:70%">&reg;</sup> JS 2 JavaScript controls support initialization through either of the following approaches.
+### Step 1: Create the folder and files
 
-* Using local script references in a HTML page.
-* Using CDN link for script reference.
+* Create a folder named `quickstart` in your desired directory.
+* Inside the `quickstart` folder, create two files: `index.html` and `index.js`.
 
-### Using local script references in a HTML page
+### Step 2: Add Syncfusion® CDN resources
 
-**Step 1:** Create an app folder `quickstart` for getting started.
+Include the following JavaScript references in the `<head>` section of the `index.html` file.
 
-**Step 2:** You can get the global scripts from the [Essential Studio<sup style="font-size:70%">&reg;</sup> JavaScript (Essential<sup style="font-size:70%">&reg;</sup> JS 2)](https://www.syncfusion.com/downloads/essential-js2) build installed location.
-
-**Syntax:**
-> Dependency script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{DEPENDENCY_PACKAGE_NAME}/dist/global/{DEPENDENCY_PACKAGE_NAME}.min.js`
->
-> Script: `**(installed location)**/Syncfusion/Essential Studio/JavaScript - EJ2/{RELEASE_VERSION}/Web (Essential JS 2)/JavaScript/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
-
-**Example:**
-> Dependency script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-base/dist/global/ej2-base.min.js`
->
-> Script: `C:/Program Files (x86)/Syncfusion/Essential Studio/JavaScript - EJ2/32.1.19/Web (Essential JS 2)/JavaScript/ej2-charts/dist/global/ej2-charts.min.js`
-
-The below located script file contains all Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) UI control resources in a single file.
-
-> Scripts: `**(installed location)**\Syncfusion\Essential Studio\JavaScript - EJ2\{RELEASE_VERSION}\Web (Essential JS 2)\JavaScript\ej2\dist\ej2.min.js`
-
-The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an online web tool, which can be used to generate the custom script for a set of specific controls. This web tool is useful to combine the required control scripts in a single file.
-
-**Step 3:** Create a folder `~/quickstart/resources` and copy/paste the global scripts from the above installed location to `~/quickstart/resources/package` corresponding package location.
-
-**Step 4:** Create a HTML page (index.html) in `~/quickstart/index.html` and add the Essential<sup style="font-size:70%">&reg;</sup> JS 2 script references.
+**Scripts:**
 
 ```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Essential JS 2</title>
-
-        <!-- Essential JS 2 Base's global script (Dependency Script) -->
-        <script src="resources/base/ej2-base.min.js" 
-        type="text/javascript"></script>
-        <script src="resources/data/ej2-data.min.js" 
-        type="text/javascript"></script>
-        <script src="resources/svg-base/ej2-svg-base.min.js" 
-        type="text/javascript"></script>
-        
-        <!-- Essential JS 2 charts's global script (Control Script) -->
-        <script src="resources/charts/ej2-charts.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-    </body>
-</html>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-base/dist/global/ej2-base.min.js"
+    type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-data/dist/global/ej2-data.min.js"
+    type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-svg-base/dist/global/ej2-svg-base.min.js"
+    type="text/javascript"></script>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/ej2-charts/dist/global/ej2-charts.min.js"
+    type="text/javascript"></script>
 ```
 
-**Step 5:** Now, add the `Charts` element and initiate the **Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript (ES5) Charts** control in the `~/quickstart/index.html` by using following code.
+Alternatively, load all Syncfusion components using a single combined bundle:
 
 ```html
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Essential JS 2</title>
-
-        <!-- Essential JS 2 Base's global script (Dependency Script) -->
-        <script src="resources/base/ej2-base.min.js" type="text/javascript"></script>
-        <!-- Essential JS 2 sparkline's global script (Control Script) -->
-        <script src="resources/charts/ej2-charts.min.js" type="text/javascript"></script>
-    </head>
-    <body>
-        <!-- Add the HTML <sparkline> element  -->
-        <sparkline id="element">Sparkline</sparkline>
-        <script>
-            // initialize sparkline control
-            var sparkline = new ej.charts.Sparkline();
-            // Render initialized sparkline.
-            sparkline.appendTo('#element');
-        </script>
-    </body>
-</html>
+<script src="https://cdn.syncfusion.com/ej2/34.1.29/dist/ej2.min.js"
+    type="text/javascript"></script>
 ```
 
-**Step 6:** Now, run the `index.html` in web browser, it will render the **Syncfusion<sup style="font-size:70%">&reg;</sup> JavaScript Sparkline** control.
+### Step 3: Add the Syncfusion® Sparkline control
 
-## Bind data source to sparkline
+The `index.html` file references a separate `index.js` file that contains the Sparkline initialization. This keeps the markup and script logic separated, which is the recommended pattern for Syncfusion JavaScript (ES5) applications.
 
-The `dataSource` property enables data binding for the sparkline. It accepts a collection of values as input, such as a list of objects.
+The global scripts added in the previous step register the `ej.charts.Sparkline` class in the `ej` namespace. The `index.js` file creates a Sparkline instance with sample data and renders it inside the `#element` container declared in `index.html`.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs1/index.js %}
+{% include code-snippet/chart-sdk/javascript/sparkline-charts/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs1/index.html %}
+{% include code-snippet/chart-sdk/javascript/sparkline-charts/index.html %}
 {% endhighlight %}
 {% endtabs %}
-        
+
+The `new ej.charts.Sparkline({...})` call creates the Sparkline control. The configuration object accepts options such as the following:
+
+* [`dataSource`](https://ej2.syncfusion.com/javascript/documentation/api/sparkline/index-default#datasource): Specifies the collection of values or objects displayed by the Sparkline.
+* [`type`](https://ej2.syncfusion.com/javascript/documentation/api/sparkline/index-default#type): Specifies the Sparkline type, such as `Line`, `Column`, `WinLoss`, `Pie`, or `Area`.
+* [`height`](https://ej2.syncfusion.com/javascript/documentation/api/sparkline/index-default#height): Specifies the height of the Sparkline.
+* [`width`](https://ej2.syncfusion.com/javascript/documentation/api/sparkline/index-default#width): Specifies the width of the Sparkline.
+
+Finally, `sparkline.appendTo('#element')` renders the control inside the `<div id="element">` element declared in `index.html`.
+
+### Step 4: Open the application in a browser
+
+Open `quickstart/index.html` through a local web server.
+
+If the VS Code **Live Server** extension is installed, right-click `index.html` in the Explorer and select **Open with Live Server**. Then, open the URL generated by Live Server, such as `http://127.0.0.1:5500/`.
+
+The browser displays the Syncfusion Sparkline control with the configured sample data.
+
+## Output
+
+After completing the previous steps, the application displays a Sparkline representing the supplied data.
+
 {% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs1" %}
 
-## Change the type of sparkline
+![Syncfusion Sparkline Quick Start Output](./images/sparkline.png)
 
-The sparkline type can be configured using the `type` property, which supports `Line`, `Column`, `WinLoss`, `Pie`, and `Area`. Here, the `area` type is applied.
+## Troubleshooting
 
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs2/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs2/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs2" %}
-
-## Enable tooltip for sparkline
-
-The sparkline provides additional information through a tooltip that appears when the mouse pointer hovers over the chart. You can enable tooltip by setting the [`visible`] property to true in [`tooltipSettings`] and injecting `SparklineTooltip` module using the `Sparkline.Inject(SparklineTooltip )` method.
-
-{% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs3/index.js %}
-{% endhighlight %}
-{% highlight html tabtitle="index.html" %}
-{% include code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs3/index.html %}
-{% endhighlight %}
-{% endtabs %}
-        
-{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/javascript/sparkline-charts/getting-started-cs3" %}
+* **The page is blank:** Open the page through a local web server, such as the VS Code **Live Server** extension, instead of opening the HTML file directly.
+* **`ej is not defined`:** Make sure the Syncfusion global scripts are loaded before `index.js`.
+* **`ej.charts.Sparkline is not a constructor`:** Verify that `ej2-charts.min.js` or the combined `ej2.min.js` bundle is loaded successfully.
+* **The Sparkline container is empty:** Confirm that the element ID in `index.html` matches the selector passed to `appendTo('#element')`.
+* **The data is not displayed correctly:** When binding an object collection, verify that `xName` and `yName` match the corresponding property names in the data source.

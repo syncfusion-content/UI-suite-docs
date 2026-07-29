@@ -118,21 +118,21 @@ The title is used to provide a quick information about the data plotted in heatm
   
 {% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/heatmap-chart/appearance/celltitle-cs1" %}
 
-## Data label
+## Add data label
 
-The visibility of data labels can be toggled using the [showLabel](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings/#showlabel) property. By default, the data labels will be visible.
+Add data labels to improve the readability of the HeatMap. This can be achieved by setting the [showLabel](https://ej2.syncfusion.com/angular/documentation/api/heatmap/cellSettings#showLabel) property to **true** in the [cellSettings](https://ej2.syncfusion.com/angular/documentation/api/heatmap#cellSettings) object.
 
 {% tabs %}
 {% highlight ts tabtitle="app.component.ts" %}
-{% include code-snippet/chart-sdk/angular/heatmap-chart/appearance/datalabel-cs1/src/app.component.ts %}
+{% include code-snippet/chart-sdk/angular/heatmap-chart/getting-started/datalabel-cs1/src/app.component.ts %}
 {% endhighlight %}
 
 {% highlight ts tabtitle="main.ts" %}
-{% include code-snippet/chart-sdk/angular/heatmap-chart/appearance/datalabel-cs1/src/main.ts %}
+{% include code-snippet/chart-sdk/angular/heatmap-chart/getting-started/datalabel-cs1/src/main.ts %}
 {% endhighlight %}
 {% endtabs %}
   
-{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/heatmap-chart/appearance/datalabel-cs1" %}
+{% previewsample "https://help.syncfusion.com/samples/chart-sdk/angular/heatmap-chart/getting-started/datalabel-cs1" %}
 
 ### Customize the data label
 

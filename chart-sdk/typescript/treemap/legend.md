@@ -13,6 +13,21 @@ domainurl: https://help.syncfusion.com/chart-sdk
 
 Legend is used to provide valuable information for interpreting what the TreeMap displays. The legends can be represented in various colors, shapes or other identifiers based on the data.
 
+## Enable legend
+
+A legend helps viewers interpret the data represented in the TreeMap. Enable the legend by setting the [`visible`](https://ej2.syncfusion.com/javascript/documentation/api/treemap/legendsettingsmodel#visible) property to `true` in the [`legendSettings`](https://ej2.syncfusion.com/javascript/documentation/api/treemap/legendsettingsmodel)  object to display a visual guide for data categories or color ranges.
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs3/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/chart-sdk/typescript/treemap/getting-started-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "https://help.syncfusion.com/code-snippet/chart-sdk/typescript/treemap//getting-started-cs3" %}
+
 ## Position and alignment
 
 Legend position is used to place legend in various positions. Based on the legend position, the legend item will be aligned. For example, if the position is top or bottom, the legend items are placed by rows. If the position is left or right, the legend items are placed by columns.
