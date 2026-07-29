@@ -2,7 +2,7 @@
 layout: post
 title: Timeline Views in WinUI Scheduler control | Syncfusion
 description: Learn here all about customizing the Timeline day, week, workweek, and month views settings in Syncfusion WinUI Scheduler (SfScheduler) control, and more.
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

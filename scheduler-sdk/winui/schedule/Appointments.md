@@ -2,7 +2,7 @@
 layout: post
 title: Appointments in WinUI Scheduler control | Syncfusion
 description: Learn here all about to plan, configure and manage all day, recurrence and spanning appointments in Syncfusion WinUI Scheduler (SfScheduler) control and more.
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

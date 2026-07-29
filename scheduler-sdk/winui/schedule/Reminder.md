@@ -2,7 +2,7 @@
 layout: post
 title: Reminder in WinUI Scheduler control | Syncfusion
 description: Learn here all about the reminder support in the Syncfusion WinUI Scheduler (SfScheduler) control, its elements, and more.
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

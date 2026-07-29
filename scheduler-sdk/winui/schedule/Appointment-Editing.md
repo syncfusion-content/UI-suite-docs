@@ -2,7 +2,7 @@
 layout: post
 title: Appointment Editing in WinUI Scheduler control | Syncfusion
 description: Learn here all about handling appointment editing and resizing in Syncfusion WinUI Scheduler (SfScheduler) control, and more. 
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

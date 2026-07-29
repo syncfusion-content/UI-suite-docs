@@ -2,7 +2,7 @@
 layout: post
 title: Localization in WinUI Scheduler control | Syncfusion
 description: Learn here all about how to set calendar types and language to localize the scheduler (SfScheduler) control, its elements, and more.
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

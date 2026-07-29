@@ -2,7 +2,7 @@
 layout: post
 title: Dropdown Customization in WinUI Time Picker control | Syncfusion
 description: This section describes how to customize the Time Picker (SfTimePicker) control dropdown in a WinUI application and its basic features.
-platform: WinUI
+platform: scheduler-sdk
 control: SfTimePicker
 documentation: ug
 ---

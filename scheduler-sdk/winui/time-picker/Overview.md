@@ -2,7 +2,7 @@
 layout: post
 title: About WinUI Time Picker control | Syncfusion
 description: Learn here all about introduction of Syncfusion WinUI Time Picker (SfTimePicker) control with normal, expanded views and more.
-platform: WinUI
+platform: scheduler-sdk
 control: SfTimePicker
 documentation: ug
 ---

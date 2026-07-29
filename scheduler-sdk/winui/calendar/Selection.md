@@ -2,7 +2,7 @@
 layout: post
 title: Selection in WinUI Calendar control | Syncfusion
 description: Learn here all about selection of a date or multiple dates in the Calendar (SfCalendar) control and more.
-platform: WinUI
+platform: scheduler-sdk
 control: SfCalendar
 documentation: ug
 ---

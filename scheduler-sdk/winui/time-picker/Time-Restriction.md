@@ -2,7 +2,7 @@
 layout: post
 title: Time Restriction in WinUI Time Picker control | Syncfusion
 description: This section describes how to restrict time selection in Time Picker (SfTimePicker) control in WinUI applications.
-platform: WinUI
+platform: scheduler-sdk
 control: SfTimePicker
 documentation: ug
 ---

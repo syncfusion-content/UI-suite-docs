@@ -2,7 +2,7 @@
 layout: post
 title: Time Zone in WinUI Scheduler control | Syncfusion
 description: Learn here all about using various time zones for appointments and other functionalities in Syncfusion WinUI Scheduler (SfScheduler) control, and more.
-platform: winui
+platform: scheduler-sdk
 control: SfScheduler
 documentation: ug
 ---

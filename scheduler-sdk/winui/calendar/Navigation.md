@@ -2,7 +2,7 @@
 layout: post
 title: Navigation between views in WinUI Calendar control | Syncfusion
 description: Learn here all about how to navigate between views and perform selection in the Calendar (SfCalendar) control and more.
-platform: WinUI
+platform: scheduler-sdk
 control: SfCalendar
 documentation: ug
 ---

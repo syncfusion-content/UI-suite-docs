@@ -3,7 +3,7 @@ layout: post
 title: About WinUI Scheduler control | Syncfusion
 canonical_url: "https://www.syncfusion.com/scheduler-sdk/winui-scheduler"
 description: Learn here all about the introduction of Syncfusion WinUI Scheduler (SfScheduler) control, its features, and more.
-platform: winui
+platform: scheduler-sdk
 control: Scheduler
 documentation: ug
 ---
