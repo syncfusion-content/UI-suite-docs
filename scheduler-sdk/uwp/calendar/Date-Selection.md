@@ -2,7 +2,7 @@
 layout: post
 title: Date Selection in UWP Calendar control | Syncfusion
 description: Learn here all about Date Selection support in the Syncfusion UWP Calendar (SfCalendar) control and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfCalendar
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: UI Customization | SfSchedule | uwp | Syncfusion
 description: UI Customization
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

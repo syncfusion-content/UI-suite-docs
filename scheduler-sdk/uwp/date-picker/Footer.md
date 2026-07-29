@@ -2,7 +2,7 @@
 layout: post
 title: Footer in UWP DatePicker control | Syncfusion®
 description: Explore Footer support in Syncfusion® UWP DatePicker (SfDatePicker) control, including key features, customization options, and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfDatePicker
 documentation: ug
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: SfTimeSelector in UWP TimePicker control | Syncfusion®
 description: Learn here all about SfTimeSelector support in Syncfusion® UWP TimePicker (SfTimePicker) control and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfTimePicker
 documentation: ug
 ---

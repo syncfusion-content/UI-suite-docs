@@ -2,7 +2,7 @@
 layout: post
 title: Recurrence | SfSchedule | uwp | Syncfusion
 description: Recurrence
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

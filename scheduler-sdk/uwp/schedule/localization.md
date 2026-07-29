@@ -2,7 +2,7 @@
 layout: post
 title: Localization in UWP Scheduler control | Syncfusion
 description: Learn here all about Localization support in Syncfusion UWP Scheduler (SfSchedule) control and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

@@ -3,7 +3,7 @@
 layout: post
 title: Week View in UWP Scheduler control | Syncfusion
 description: Learn here all about Week View support in the Syncfusion UWP Scheduler (SfSchedule) control, its features, and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 

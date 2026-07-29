@@ -2,7 +2,7 @@
 layout: post     
 title: Getting Started with UWP Scheduler control | Syncfusion
 description: Learn here about getting started with Syncfusion UWP Scheduler (SfSchedule) control, its elements and more.
-platform: uwp     
+platform: scheduler-sdk     
 control: SfSchedule     
 documentation: ug     
 ---     

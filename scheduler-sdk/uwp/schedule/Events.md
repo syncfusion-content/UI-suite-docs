@@ -2,7 +2,7 @@
 layout: post
 title: Events | SfSchedule | uwp | Syncfusion
 description: Events
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

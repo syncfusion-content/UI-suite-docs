@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with UWP DateTimePicker control | Syncfusion
 description: Learn here about getting started with Syncfusion UWP DateTimePicker (SfDateTimeCombo) control, its elements and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfDateTimeCombo
 documentation: ug
 ---

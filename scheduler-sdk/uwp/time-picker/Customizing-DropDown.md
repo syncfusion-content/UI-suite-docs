@@ -2,7 +2,7 @@
 layout: post
 title: Customizing DropDown in UWP TimePicker control | Syncfusion®
 description: Learn here all about Customizing DropDown support in Syncfusion® UWP TimePicker (SfTimePicker) control and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfTimePicker
 documentation: ug
 ---

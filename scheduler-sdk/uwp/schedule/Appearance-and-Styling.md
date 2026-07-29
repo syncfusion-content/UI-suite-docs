@@ -2,7 +2,7 @@
 layout: post
 title: Appearance and Styling | SfSchedule | uwp | Syncfusion
 description: Appearance and Styling
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

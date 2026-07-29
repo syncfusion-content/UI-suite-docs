@@ -2,7 +2,7 @@
 layout: post
 title: Populating Data  | SfSchedule | uwp | Syncfusion
 description: Populating Data
-platform: uwp
+platform: scheduler-sdk
 control: SfSchedule
 documentation: ug
 ---

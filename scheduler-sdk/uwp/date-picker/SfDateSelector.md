@@ -2,7 +2,7 @@
 layout: post
 title: SfDateSelector in UWP DatePicker control | Syncfusion®
 description: Learn here all about SfDateSelector support in Syncfusion® UWP DatePicker (SfDatePicker) control and more.
-platform: uwp
+platform: scheduler-sdk
 control: SfDatePicker
 documentation: ug
 ---
