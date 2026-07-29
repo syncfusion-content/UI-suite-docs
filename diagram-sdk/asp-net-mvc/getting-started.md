@@ -240,3 +240,11 @@ The output will appear as follows:
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
 N> You can refer to our [ASP.NET MVC Diagram](https://www.syncfusion.com/diagram-sdk/aspnet-mvc-diagram) feature tour page for its groundbreaking feature representations. You can also explore our [ASP.NET MVC Diagram example](https://ej2.syncfusion.com/aspnetmvc/Diagram/DefaultFunctionalities#/material) that shows how to render the Diagram in ASP.NET MVC.
+
+## Next steps
+
+To explore the Diagram control in more depth, refer to the following topics:
+
+* [Nodes](https://help.syncfusion.com/diagram-sdk/asp-net-mvc/nodes)
+* [Connectors](https://help.syncfusion.com/diagram-sdk/asp-net-mvc/connectors)
+* [Annotations](https://help.syncfusion.com/diagram-sdk/asp-net-mvc/labels)
