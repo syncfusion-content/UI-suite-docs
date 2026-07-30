@@ -17,8 +17,6 @@ Content Security Policy (CSP) is a security standard that helps prevent cross-si
 
 The Syncfusion TypeScript Rich Text Editor supports CSP-enabled applications. When the editor is used in an environment that enforces a Content Security Policy, the policy must include the directives required by the editor so that the editor's content, formatting, themes, and UI elements render and function as expected.
 
-## Important
-
 > IMPORTANT
 >
 > Rich Text Editor requires `style-src 'unsafe-inline'` for full functionality and proper rendering of editor UI elements.
