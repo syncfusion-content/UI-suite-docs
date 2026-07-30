@@ -92,7 +92,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/sunburstchart/getting-started) shows a step‑by‑step guide to begin using the Sunburst Chart control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/sunburstchart/getting-started) shows a step‑by‑step guide to begin using the Sunburst Chart control.  
 - [Appearance](https://help.syncfusion.com/maui/sunburstchart/appearance) explains how to customize chart appearance and styling.  
 - [Labels](https://help.syncfusion.com/maui/sunburstchart/datalabels) helps configure data labels and segment display.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
