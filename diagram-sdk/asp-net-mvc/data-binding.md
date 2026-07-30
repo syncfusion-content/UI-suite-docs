@@ -86,11 +86,11 @@ This feature allows to read the data source and perform add or edit or delete th
 
 * This feature allows to define the nodes and connectors collection in the data source and connectionDataSource respectively.
 
-* You can set the data collection in the model's dataSourceSettings [`dataManager`](https://ej2.syncfusion.com/documentation/api/diagram/connectionDataSourceModel/#datamanager) property. The nodes will be generated based on the data specified in the data source.
+* You can set the data collection in the model's dataSourceSettings [`dataManager`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_DataManager) property. The nodes will be generated based on the data specified in the data source.
 
 * You can set the connector collection in the model's dataSourceSettings [`connectionDataSource`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html) property.
 
-* The dataSourceSettings connectionDataSource [`dataManager`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramDataSource.html#Syncfusion_EJ2_Diagrams_DiagramDataSource_DataManager) property is used to set the data source for the connection data source items.
+* The dataSourceSettings connectionDataSource [`dataManager`](https://help.syncfusion.com/cr/aspnetmvc-js2/Syncfusion.EJ2.Diagrams.DiagramConnectionDataSource.html#Syncfusion_EJ2_Diagrams_DiagramConnectionDataSource_DataManager) property is used to set the data source for the connection data source items.
 
 * If you have a data (data will be set in the dataSource property) with parent relationship in the database and also defined the connector in the connectionDataSource simultaneously, then the connectors set in the connectionDataSource will be considered as a priority to render the connector.
 
