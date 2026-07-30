@@ -86,7 +86,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/radial-gauge/getting-started) shows a step‑by‑step guide to begin using the Radial Gauge control.  
 - [Pointers](https://help.syncfusion.com/maui/radial-gauge/pointers) explains how to configure different pointer types and behavior.  
 - [Annotation](https://help.syncfusion.com/maui/radial-gauge/annotation) helps add labels, shapes, or custom content inside the gauge for context.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.

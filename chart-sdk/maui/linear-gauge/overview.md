@@ -9,7 +9,7 @@ documentation: ug
 
 # .NET MAUI Linear Gauge (SfLinearGauge) Overview
 
-N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started)** guide.
+N> **Prerequisite:** Ensure that the required NuGet package is installed, the necessary namespaces are imported, and the [.NET MAUI Linear Gauge](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) control is properly configured in your application. For detailed setup and configuration instructions, refer to the **[Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started)** guide.
 
 Syncfusion® [.NET MAUI Linear Gauge](https://www.syncfusion.com/maui-controls/maui-linear-gauge) is a data visualization control to display values on a linear scale. Use this control to craft high-quality mobile app user interfaces. The .NET MAUI Linear Gauge is supported on Windows, macOS, iOS, and Android.
 
@@ -90,7 +90,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/linear-gauge/getting-started) shows a step-by-step guide to begin using the Linear Gauge control.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/linear-gauge/getting-started) shows a step-by-step guide to begin using the Linear Gauge control.
 - [Range](https://help.syncfusion.com/maui/linear-gauge/range) explains how to configure ranges and scale visualization.
 - [Pointers](https://help.syncfusion.com/maui/linear-gauge/pointers) helps customize pointer types and behavior.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready-made UI examples.

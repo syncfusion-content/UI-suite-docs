@@ -89,7 +89,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/polar-charts/getting-started) shows a step‑by‑step guide to begin using the Polar Chart control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/polar-charts/getting-started) shows a step‑by‑step guide to begin using the Polar Chart control.  
 - [Chart Types](https://help.syncfusion.com/maui/polar-charts/polararea) explores different polar chart types.  
 - [Customization](https://help.syncfusion.com/maui/polar-charts/appearance) explains how to customize appearance and interaction settings.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
