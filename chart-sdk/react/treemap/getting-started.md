@@ -86,12 +86,13 @@ export function App() {
     { State: "Ecuador", Count: 7 },
     { State: "Chile", Count: 6 }
   ];
+  const leafItemSettings = { labelPath: 'State' };
   return (
     <TreeMapComponent
       height="350px"
       dataSource={dataSource}
       weightValuePath="Count"
-      leafItemSettings={{ labelPath: 'State' }}
+      leafItemSettings={leafItemSettings}
     />
   );
 }
