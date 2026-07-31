@@ -23,8 +23,9 @@ import { RangeNavigatorComponent, AreaSeries, DateTime, RangeTooltip, Inject } f
 import * as React from "react";
 
 function App() {
+  const tooltipSettings = { enable: true };
   return (
-    <RangeNavigatorComponent id="charts" tooltip={{ enable: true }}>
+    <RangeNavigatorComponent id="charts" tooltip={tooltipSettings}>
       <Inject services={[AreaSeries, DateTime, RangeTooltip]} />
     </RangeNavigatorComponent>
   );
