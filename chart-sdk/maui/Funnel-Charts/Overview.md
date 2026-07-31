@@ -89,7 +89,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/funnel-charts/getting-started) shows a step‑by‑step guide to begin using the Funnel Chart control.  
 - [Appearance](https://help.syncfusion.com/maui/funnel-charts/appearance) explains how to customize chart appearance and behavior.  
 - [Data Labels](https://help.syncfusion.com/maui/funnel-charts/datalabels) helps configure data labels and segment display.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples. 

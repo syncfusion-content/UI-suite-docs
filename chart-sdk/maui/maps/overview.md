@@ -39,7 +39,7 @@ The Syncfusion® [.NET MAUI Maps](https://www.syncfusion.com/maui-controls/maui-
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/maps/getting-started) shows a step‑by‑step guide to begin using the Maps control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/maps/getting-started) shows a step‑by‑step guide to begin using the Maps control.  
 - [Vector Layers](https://help.syncfusion.com/maui/maps/vector-layers/line-layer) lets you add line, polygon, or point layers to visualize geographic data clearly.  
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.
 

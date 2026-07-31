@@ -89,7 +89,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/treemap/getting-started) shows a step‑by‑step guide to begin using the TreeMap control.
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/treemap/getting-started) shows a step‑by‑step guide to begin using the TreeMap control.
 - [Layouts](https://help.syncfusion.com/maui/treemap/layouts) explains how to configure layout types and data arrangement.
 - [Drilldown](https://help.syncfusion.com/maui/treemap/drilldown) helps dive into details by exploring data hierarchies step by step.
 - [UI Kit](https://www.syncfusion.com/demos/maui#maui-ui-control) provides interactive demos and ready‑made UI examples.

@@ -89,7 +89,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/circular-charts/getting-started) shows a step‑by‑step guide to begin using the Circular Chart control.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/circular-charts/getting-started) shows a step‑by‑step guide to begin using the Circular Chart control.  
 - [Pie Chart](https://help.syncfusion.com/maui/circular-charts/piechart) creates simple part‑to‑whole visualizations with clear category splits.  
 - [Doughnut Chart](https://help.syncfusion.com/maui/circular-charts/doughnutchart) highlights proportions with a modern ring‑style chart for better readability.  
 - [RadialBar Chart](https://help.syncfusion.com/maui/circular-charts/radialbarchart) displays values in a circular bar style, making comparisons visually clear and engaging.
