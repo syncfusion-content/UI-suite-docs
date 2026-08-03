@@ -50,7 +50,7 @@ Different flowchart symbols have different meanings that are used to represent d
 
 ## Render Flowchart layout with data source
 
-To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layout/#type) property as `Flowchart`. The following code example displays how to render flowchart layout using data source.
+To render `flowchart` layout, you need to set the [`layoutType`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutmodel#type) property as `Flowchart`. The following code example displays how to render flowchart layout using data source.
 
 
 {% tabs %}
@@ -116,7 +116,7 @@ This structure allows for easy customization of the flowchart's visual elements 
 
 ## Render Flowchart layout with nodes and connectors
 
-The following example demonstrates how to render a flowchart layout using nodes and connectors. To achieve this, you need to define the [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeModel/) and [`connectors`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel/) collections and assign them to the diagram. Additionally, you need to set the [`layoutType`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutType/) to `Flowchart`.
+The following example demonstrates how to render a flowchart layout using nodes and connectors. To achieve this, you need to define the [`nodes`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#nodes) and [`connectors`](https://ej2.syncfusion.com/vue/documentation/api/diagram/#connectors) collections and assign them to the diagram. Additionally, you need to set the [`layoutType`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layouttype) to `Flowchart`.
 
 
 {% tabs %}
@@ -132,7 +132,7 @@ The following example demonstrates how to render a flowchart layout using nodes 
 
 ## Customize flowchart layout orientation
 
-The sequence of a node's direction can be customized by flowchart's orientation, either vertically from top to bottom or horizontally from left to right. The [orientation](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutOrientation/) property of the layout class allows you to define the flow direction for the flowchart as either `TopToBottom` or `LeftToRight`. The default orientation is `TopToBottom`.
+The sequence of a node's direction can be customized by flowchart's orientation, either vertically from top to bottom or horizontally from left to right. The [orientation](https://ej2.syncfusion.com/vue/documentation/api/diagram/layoutorientation) property of the layout class allows you to define the flow direction for the flowchart as either `TopToBottom` or `LeftToRight`. The default orientation is `TopToBottom`.
 
 
 ### TopToBottom orientation
@@ -196,7 +196,7 @@ This orientation arranges elements in the layout horizontally, flowing from left
 
 ## Customize the decision output directions
 
-The decision symbol in a flowchart represents a question or condition that leads to different paths based on a binary outcome (Yes/No, True/False). You can customize the output direction of these paths using the [`yesBranchDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/branchDirection/) and [`noBranchDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/branchDirection/) properties of the [`flowchartLayoutSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartLayoutSettingsModel/) class.
+The decision symbol in a flowchart represents a question or condition that leads to different paths based on a binary outcome (Yes/No, True/False). You can customize the output direction of these paths using the [`yesBranchDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/branchdirection) and [`noBranchDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/branchdirection) properties of the [`flowchartLayoutSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartlayoutsettings) class.
 
 - `LeftInFlow` - Arranges the Yes/No branch to the left of the decision symbol.
 - `RightInFlow` - Arranges the Yes/No branch to the right of the decision symbol.
@@ -233,7 +233,7 @@ N> If both branch directions are same, **Yes** branch will be prioritized.
 
 ## Custom Yes and No branch values
 
-The decision symbol produces two output branches: a Yes branch and a No branch. If the connector text value matches any value in the [`yesBranchValues`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartLayoutSettingsModel/#yesbranchvalues) property of the [`flowchartLayoutSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartLayoutSettingsModel/) class, it will be considered a Yes branch. Similarly, if the connector text value matches any value in the [`noBranchValues`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartLayoutSettingsModel/#nobranchvalues) property, it will be considered a No branch. By default, the `yesBranchValues` property contains the string values **Yes** and **True**, while the `noBranchValues` property contains **No** and **False**.
+The decision symbol produces two output branches: a Yes branch and a No branch. If the connector text value matches any value in the [`yesBranchValues`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartlayoutsettingsmodel#yesbranchvalues) property of the [`flowchartLayoutSettings`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartlayoutsettings) class, it will be considered a Yes branch. Similarly, if the connector text value matches any value in the [`noBranchValues`](https://ej2.syncfusion.com/vue/documentation/api/diagram/flowchartlayoutsettingsmodel#nobranchvalues) property, it will be considered a No branch. By default, the `yesBranchValues` property contains the string values **Yes** and **True**, while the `noBranchValues` property contains **No** and **False**.
 
 Any text can be used as the connector text to describe the flow. Additionally, custom string values can be assigned to the `yesBranchValues` and `noBranchValues` properties. To direct the flow based on a conditional decision (if/else), the connector text must match a value in either the `yesBranchValues` or `noBranchValues` properties.
 

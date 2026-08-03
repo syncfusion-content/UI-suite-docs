@@ -16,7 +16,7 @@ A swimlane is a type of diagram node commonly used to visualize the relationship
 
 ## Create a swimlane
 
-To create a swimlane, the type of shape should be set as [`swimlane`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimLaneModel/).By default, swimlanes are arranged horizontally.
+To create a swimlane, the type of shape should be set as [`swimlane`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimlanemodel).By default, swimlanes are arranged horizontally.
 
 The following code example illustrates how to define a swimlane object.
 
@@ -35,7 +35,7 @@ N> When setting a Swimlane's ID, ensure that it does not contain white spaces, d
 
 ## Headers
 
-Header was the primary element for swimlanes. The [`header`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/) property of swimlane allows you to define its textual description and customize its appearance.
+Header was the primary element for swimlanes. The [`header`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimlanemodel#header) property of swimlane allows you to define its textual description and customize its appearance.
 
 N> By using this header, the swimlane interaction will be performed,like selection, dragging,etc.
 
@@ -54,7 +54,7 @@ The following code example illustrates how to define a swimlane header.
 
 ### Customization of headers
 
-The height and width of swimlane header can be customized with [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#height) properties of swimlane header. set fill color of header by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headerModel/#style)property. The orientation of the swimlane can be customized with the [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimLaneModel/#orientation) property of the header.
+The height and width of swimlane header can be customized with [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headermodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headermodel#height) properties of swimlane header. set fill color of header by using the [`style`](https://ej2.syncfusion.com/vue/documentation/api/diagram/headermodel#style) property. The orientation of the swimlane can be customized with the [`orientation`](https://ej2.syncfusion.com/vue/documentation/api/diagram/swimlanemodel#orientation) property of the header.
 
 N> By default, the swimlane orientation is horizontal.
 

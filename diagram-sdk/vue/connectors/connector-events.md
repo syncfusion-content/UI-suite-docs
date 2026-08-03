@@ -13,7 +13,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Click event
 
-Triggers when the connector is clicked. The following code example explains how to get the [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iclickeventargs) event in the diagram.
+Triggers when the connector is clicked. The following code example explains how to get the [`click`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#click) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -29,7 +29,7 @@ Triggers when the connector is clicked. The following code example explains how 
 ## Selection change event
 
 When selecting/unselecting the connector, the selection change event will be triggered.
-The following code example explains how to get the [`selection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iselectionchangeeventargs) event in the diagram.
+The following code example explains how to get the [`selection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#selectionchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -56,7 +56,7 @@ The following code example explains how to get the [`selection change`](https://
 ## Position change event
 
 Triggers when the connector's position is changed in diagram.
-The following code example explains how to get the [`position change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idraggingeventargs) event in the diagram.
+The following code example explains how to get the [`position change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#positionchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -82,7 +82,7 @@ The following code example explains how to get the [`position change`](https://e
 ## Connection change event
 
 Triggers when the connector’s source or target point is connected or disconnected from the source or target.
-The following code example explains how to get the [`connection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iconnectionchangeeventargs) event in the diagram.
+The following code example explains how to get the [`connection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#connectionchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -98,7 +98,7 @@ The following code example explains how to get the [`connection change`](https:/
 ## Source Point change event
 
 Triggers when the connector's source point is changed.
-The following code example explains how to get the [`source Point change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iendchangeeventargs) event in the diagram.
+The following code example explains how to get the [`source Point change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#sourcepointchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -126,7 +126,7 @@ The following code example explains how to get the [`source Point change`](https
 ## Target Point change event
 
 Triggers when the connector's target point is changed.
-The following code example explains how to get the [`target Point change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iendchangeeventargs) event in the diagram.
+The following code example explains how to get the [`target Point change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#targetpointchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -154,7 +154,7 @@ targetPointChange  : (args) => {
 ## Segment Collection Change event
 
 Triggers when the connector's segments added or removed at runtime.
-The following code example explains how to get the [`segment collection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/isegmentcollectionchangeeventargs) event in the diagram. 
+The following code example explains how to get the [`segment collection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#segmentcollectionchange) event in the diagram. 
 
 Use `CTRL+Shift+Click` on connector to add/remove segments.
 
@@ -172,7 +172,7 @@ Use `CTRL+Shift+Click` on connector to add/remove segments.
 ## Segment Change event
 
 Triggers when the connector's segments were adjusted or edited.
-The following code example explains how to get the [`segment change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/isegmentchangeeventargs) event in the diagram.
+The following code example explains how to get the [`segment change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#segmentchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -199,7 +199,7 @@ The following code example explains how to get the [`segment change`](https://ej
 ## Collection change event
 
 Triggers when the connector is added or removed from diagram.
-The following code example explains how to get the [`collection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/icollectionchangeeventargs) event in the diagram.
+The following code example explains how to get the [`collection change`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#collectionchange) event in the diagram.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

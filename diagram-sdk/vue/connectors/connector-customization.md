@@ -14,11 +14,11 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Decorator
 
-* Starting and ending points of a connector can be decorated with some customizable shapes like arrows, circles, diamond, or path. The connection end points can be decorated with the [`sourceDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#sourcedecorator) and [`targetDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#targetdecorator) properties of the connector.
+* Starting and ending points of a connector can be decorated with some customizable shapes like arrows, circles, diamond, or path. The connection end points can be decorated with the [`sourceDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#sourcedecorator) and [`targetDecorator`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#targetdecorator) properties of the connector.
 
-* The [`shape`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratorshapes) property of `sourceDecorator` allows to define the shape of the decorators. Similarly, the [shape](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratorshapes) property of `targetDecorator` allows to define the shape of the decorators.
+* The [`shape`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#shape) property of `sourceDecorator` allows to define the shape of the decorators. Similarly, the [shape](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#shape) property of `targetDecorator` allows to define the shape of the decorators.
 
-* To create custom shape for source decorator, use [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decorator#pathdata) property. Similarly, to create custom shape for target decorator, use [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decorator#pathdata) property.
+* To create custom shape for source decorator, use [`pathData`](https://ej2.syncfusion.com/vue/documentation/api/diagram/decoratormodel#pathdata) property. Similarly, to create custom shape for target decorator, use `pathData` property.
 
 * The following code example illustrates how to create decorators of various shapes.
 
@@ -35,9 +35,9 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ### Customize the decorator appearance
 
-* The source decorator’s [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokewidth), and [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokedasharray) properties are used to customize the color, width, and appearance of the decorator.
+* The source decorator’s [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokewidth), and [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokedasharray) properties are used to customize the color, width, and appearance of the decorator.
 
-* To set the border stroke color, stroke width, and stroke dash array for the target decorator, use [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokewidth), and [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokedasharray).
+* To set the border stroke color, stroke width, and stroke dash array for the target decorator, use [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokecolor), [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokewidth), and [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokedasharray).
 
 * To set the size for source and target decorator, use width and height property.
 
@@ -57,8 +57,8 @@ The following code example illustrates how to customize the appearance of the de
 ### Gradient style for decorator.
 
 The gradient property is used to set the gradient color for the decorator. There are two types of gradient.
- * Linear
- * Radial
+* Linear
+* Radial
  
 The following code example illustrates how to apply gradient for the decorator.
 
@@ -77,9 +77,9 @@ The following code example illustrates how to apply gradient for the decorator.
 
 Padding is used to leave the space between the Connector's end point and the object to where it is connected.
 
-* The [`sourcePadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#sourcepadding) property of connector defines space between the source point and the source node of the connector.
+* The [`sourcePadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#sourcepadding) property of connector defines space between the source point and the source node of the connector.
 
-* The [`targetPadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#targetpadding) property of connector defines space between the end point and the target node of the connector.
+* The [`targetPadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#targetpadding) property of connector defines space between the end point and the target node of the connector.
 
 * The following code example illustrates how to leave space between the connection end points and source and target nodes.
 
@@ -112,13 +112,13 @@ Bridging can be enabled/disabled either with the `connector.constraints` or `dia
 
 N> You need to inject connector bridging module into the diagram.
 
-The [`bridgeSpace`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#bridgespace) property of connectors can be used to define the width for line bridging.
+The [`bridgeSpace`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#bridgespace) property of connectors can be used to define the width for line bridging.
 
 Limitation: Bezier segments do not support bridging.
 
 ## Hit padding
 
-* The [`hitPadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#hitpadding) property enables you to define the clickable area around the connector path.The default value for hitPadding is 10.
+* The [`hitPadding`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#hitpadding) property enables you to define the clickable area around the connector path.The default value for hitPadding is 10.
 
 * The following code example illustrates how to specify hit padding for connector.
 
@@ -135,7 +135,7 @@ Limitation: Bezier segments do not support bridging.
 
 ## Corner radius
 
-Corner radius allows to create connectors with rounded corners. The radius of the rounded corner is set with the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#cornerradius) property.
+Corner radius allows to create connectors with rounded corners. The radius of the rounded corner is set with the [`cornerRadius`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#cornerradius) property.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -150,9 +150,9 @@ Corner radius allows to create connectors with rounded corners. The radius of th
 
 ## Connector Appearance
 
-* The connector’s [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokewidth), [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokecolor), [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#strokedasharray), and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestyle#opacity) properties are used to customize the appearance of the connector segments.
+* The connector’s [`strokeWidth`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokewidth), [`strokeColor`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokecolor), [`strokeDashArray`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#strokedasharray), and [`opacity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/strokestylemodel#opacity) properties are used to customize the appearance of the connector segments.
 
-* The [`visible`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#visible) property of the connector enables or disables the visibility of connector.
+* The [`visible`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#visible) property of the connector enables or disables the visibility of connector.
 
 * Default values for all the `connectors` can be set using the `getConnectorDefaults` properties. For example, if all connectors have the same type or having the same property then such properties can be moved into `getConnectorDefaults`.
 
@@ -174,7 +174,7 @@ The following code example illustrates how to customize the segment appearance.
 
 ## Connector constraints
 
-* The [`constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#constraints) property of connector allows to enable/disable certain features of connectors.
+* The [`constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#constraints) property of connector allows to enable/disable certain features of connectors.
 
 * To enable or disable the constraints, refer [`constraints`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorconstraints).
 
@@ -193,7 +193,7 @@ The following code illustrates how to disable selection.
 
 ## Add info for connector
 
-The [`addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#addinfo) property of connectors allow you to maintain additional information to the connectors.
+The [`addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#addinfo) property of connectors allow you to maintain additional information to the connectors.
 
 ```ts
 var connectors = {
@@ -209,7 +209,7 @@ var connectors = {
 
 ## ZIndex for connector
 
-The connectors [`zIndex`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#zindex) property specifies the stack order of the connector. A connector with greater stack order is always in front of a connector with a lower stack order.
+The connectors [`zIndex`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#zindex) property specifies the stack order of the connector. A connector with greater stack order is always in front of a connector with a lower stack order.
 
 The following code illustrates how to render connector based on the stack order.
 
@@ -226,7 +226,7 @@ The following code illustrates how to render connector based on the stack order.
 
 ## Connector spacing
 
-* The [`connectorSpacing`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#connectorspacing) property allows you to define the distance between the source node and the connector. It is the minimum distance the connector will re-rout or the new segment will create.
+* The [`connectorSpacing`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#connectorspacing) property allows you to define the distance between the source node and the connector. It is the minimum distance the connector will re-rout or the new segment will create.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -241,7 +241,7 @@ The following code illustrates how to render connector based on the stack order.
 
 ## MaxSegment thumb
 
-The property [`maxSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#maxsegmentthumb) is used to limit the  number of segment thumb in the connector.
+The property [`maxSegmentThumb`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#maxsegmentthumb) is used to limit the  number of segment thumb in the connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

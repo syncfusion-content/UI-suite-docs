@@ -61,7 +61,7 @@ The following codes illustrates how to align annotations.
 
 ## Annotation Margin
 
-[`Margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#margin) is an absolute value used to add some blank space in any one of its four sides. The annotations can be displaced with the margin property. The following code example illustrates how to align a annotation based on its `offset`, `horizontalAlignment`, `verticalAlignment`, and [`margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/marginmodel) values.
+[`Margin`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#margin) is an absolute value used to add some blank space in any one of its four sides. The annotations can be displaced with the margin property. The following code example illustrates how to align a annotation based on its `offset`, `horizontalAlignment`, `verticalAlignment`, and `margin` values.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -76,12 +76,12 @@ The following codes illustrates how to align annotations.
 
 ## Hyperlink
 
-Diagram provides a support to add a [`hyperlink`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#hyperlink) for the nodes/connectors annotation. It can also be customized with the below properties.
+Diagram provides a support to add a [`hyperlink`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel) for the nodes/connectors annotation. It can also be customized with the below properties.
 
 A User can open the hyperlink in the new window, the same tab and the new tab by using the  [`hyperlinkOpenState`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel#hyperlinkopenstate) property.
 
 The [`content`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel#content) property of `hyperlink` is used to display the content of the hyper link display text. The [`color`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel#color) property of the `hyperlink` is used to display the color of the hyper link.
-The [`textDecoration`](https://ej2.syncfusion.com/vue/documentation/api/diagram/textdecoration) property is used to decorate the hyper link text with **Underline**, **LineThrough**, **Overline**. The following example illustrates how to define and customize hyper link in both node and connector.
+The [`textDecoration`](https://ej2.syncfusion.com/vue/documentation/api/diagram/hyperlinkmodel#textdecoration) property is used to decorate the hyper link text with **Underline**, **LineThrough**, **Overline**. The following example illustrates how to define and customize hyper link in both node and connector.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -19,7 +19,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Set annotation offset and size
 
-The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointmodel) property of an annotation is used to align annotations based on fractional values. The offset can be customized by modifying the x and y values of the offset property. By default, the annotation offset is set to 0.5 on both the x and y axes.
+The [`offset`](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeannotationmodel#offset) property of an annotation is used to align annotations based on fractional values. The offset can be customized by modifying the x and y values of the offset property. By default, the annotation offset is set to 0.5 on both the x and y axes.
 
 By default, the size of the annotation is calculated based on its content. If you want to set the size externally, you can do so using the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationmodel#height) properties of annotation.
 

@@ -18,7 +18,7 @@ There are some events which will trigger while interacting with annotation.
 
 ## KeyDown event
 
-The [`keyDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyeventargs) event is triggered whenever any key is pressed. The following example shows how to capture the keyDown event and modify the fill color of a node on each key press:
+The [`keyDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#keydown) event is triggered whenever any key is pressed. The following example shows how to capture the keyDown event and modify the fill color of a node on each key press:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -33,7 +33,7 @@ The [`keyDown`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyeve
 
 ## KeyUp event
 
-The [`keyUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyeventargs) event is triggered whenever we press and release any key. The following example shows how to capture the keyUp event and modify the fill color of a node on each key press:
+The [`keyUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#keyup) event is triggered whenever we press and release any key. The following example shows how to capture the keyUp event and modify the fill color of a node on each key press:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -48,7 +48,7 @@ The [`keyUp`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ikeyevent
 
 ## Double click event
 
-The [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idoubleclickeventargs) event is triggered when you double-click on a node, connector, or the diagram surface. Double-clicking on a diagram element activates the annotation editing mode. The following code example shows how to capture the [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/idoubleclickeventargs) event:
+The [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#doubleclick) event is triggered when you double-click on a node, connector, or the diagram surface. Double-clicking on a diagram element activates the annotation editing mode. The following code example shows how to capture the `doubleClick` event:
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -63,7 +63,7 @@ The [`doubleClick`](https://ej2.syncfusion.com/vue/documentation/api/diagram/ido
 
 ## TextEdit event
 
-The [`textEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/itextediteventargs) event triggers when you finish editing the annotation text and the focus is removed from the annotation text.
+The [`textEdit`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#textedit) event triggers when you finish editing the annotation text and the focus is removed from the annotation text.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

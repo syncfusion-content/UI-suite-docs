@@ -21,7 +21,7 @@ In a diagram, [Layers](https://ej2.syncfusion.com/vue/documentation/api/diagram/
 
 ## Objects
 
-The layer's [objects](https://ej2.syncfusion.com/vue/documentation/api/diagram/layer#objects) property specifies which diagram elements belong to that layer. This property contains a collection where you can define the categories of nodes and connectors that the layer encompasses.
+The layer's [objects](https://ej2.syncfusion.com/vue/documentation/api/diagram/layermodel#objects) property specifies which diagram elements belong to that layer. This property contains a collection where you can define the categories of nodes and connectors that the layer encompasses.
 
 In the following example, the basic shapes are categorized in layer 1, and the flow shapes are categorized in layer 2.
 
@@ -39,7 +39,7 @@ In the following example, the basic shapes are categorized in layer 1, and the f
 
 ## Visible
 
-The layer's [visible](https://ej2.syncfusion.com/vue/documentation/api/diagram/layer#visible) property is used to control the visibility of the elements assigned to the layer. You can hide objects in one layer while showing objects in another layer.
+The layer's [visible](https://ej2.syncfusion.com/vue/documentation/api/diagram/layermodel#visible) property is used to control the visibility of the elements assigned to the layer. You can hide objects in one layer while showing objects in another layer.
 
 In the following example, the visibility of layer one is set to false. By default, the `visible` property of a layer is set to **true**.
 
@@ -57,7 +57,7 @@ In the following example, the visibility of layer one is set to false. By defaul
 
 ## Lock
 
-The layer's [lock](https://ej2.syncfusion.com/vue/documentation/api/diagram/layer#lock) property is used to prevent or allow changes to the element's dimensions and positions. Locking a layer prevents any interactions with the objects in that layer, such as selecting, dragging, rotating, and connecting. 
+The layer's [lock](https://ej2.syncfusion.com/vue/documentation/api/diagram/layermodel#lock) property is used to prevent or allow changes to the element's dimensions and positions. Locking a layer prevents any interactions with the objects in that layer, such as selecting, dragging, rotating, and connecting. 
 
 In the following example the objects in layer one is locked. By default, the `lock` property of a layer is set to **false**.
 
@@ -75,7 +75,7 @@ In the following example the objects in layer one is locked. By default, the `lo
 
 ## AddInfo
 
-The [`addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layer#addinfo) property of layers allow you to maintain additional information to the layers.
+The [`addInfo`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layermodel#addinfo) property of layers allow you to maintain additional information to the layers.
 
 The following code illustrates how to add additional information to the layers.
 
@@ -183,7 +183,7 @@ The following code illustrates how to move objects from one layer to another lay
 
 ## Z-Index
 
-[`zIndex`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layer#zindex) property of a layer defines its Z order within the diagram. This property allows you to control the layer's position in the stacking order. You can adjust the layer's z-index by moving it forward or backward relative to other layers in the diagram.
+[`zIndex`](https://ej2.syncfusion.com/vue/documentation/api/diagram/layermodel#zindex) property of a layer defines its Z order within the diagram. This property allows you to control the layer's position in the stacking order. You can adjust the layer's z-index by moving it forward or backward relative to other layers in the diagram.
 
 
 ### Bring Layer Forward

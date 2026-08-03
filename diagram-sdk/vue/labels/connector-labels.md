@@ -43,7 +43,7 @@ The following image shows the position of the annotation with respect to differe
 
 ## Annotation alignment
 
-The connector’s annotation can be aligned over its segment path using the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/annotationalignment) property of annotation.
+The connector’s annotation can be aligned over its segment path using the [`alignment`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathannotationmodel#alignmentt) property of annotation.
 
 The following code example illustrates how to align connector annotations.
 
@@ -60,7 +60,7 @@ The following code example illustrates how to align connector annotations.
 
 ## Displacement of annotation
 
-[`Displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pointmodel) refers displacement of an annotation from its actual position. A connector annotation can be displaced to a particular distance by using a displacement property of the pathAnnotation. The following example shows how to set displacement for the connector annotation.
+[`Displacement`](https://ej2.syncfusion.com/vue/documentation/api/diagram/pathannotationmodel#displacement) refers displacement of an annotation from its actual position. A connector annotation can be displaced to a particular distance by using a displacement property of the pathAnnotation. The following example shows how to set displacement for the connector annotation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 # Entity Relationship Diagram Model in Vue Diagram Control
 
-An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel).
+An Entity Relationship (ER) diagram is a visual representation of a database structure. It displays entities (such as tables), their attributes (such as columns), and the relationships between those entities. In the Syncfusion® Diagram control, ER diagrams can be created by configuring nodes with [ErShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/ershapemodel) and connectors with [ErConnectorShapeModel](https://ej2.syncfusion.com/vue/documentation/api/diagram/erconnectorshapemodel).
 
 Entity nodes are added to the [nodes](https://ej2.syncfusion.com/vue/documentation/api/diagram#nodes) property, and ER relationships are defined as connectors and added to the [connectors](https://ej2.syncfusion.com/vue/documentation/api/diagram#connectors) property.
 
@@ -39,13 +39,13 @@ An ER entity node represents a database entity, such as a table or object. It ap
 
 ### Configure the entity header
 
-The header is the top section of an ER entity node that displays the entity name. The header appearance can be customized using the [header](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel#header) property.
+The header is the top section of an ER entity node that displays the entity name. The header appearance can be customized using the [header](https://ej2.syncfusion.com/vue/documentation/api/diagram/erheadermodel) property.
 
 | ER Header Property | Description |
 |---|---|
-| [annotation](https://ej2.syncfusion.com/vue/documentation/api/diagram/erHeaderModel#annotation) | Defines the text content displayed in the header. |
-| [height](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel#header) | Defines the height of the header area in pixels. |
-| [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/erHeaderModel#style) | Defines style properties such as fill color, text color, and font settings. |
+| [annotation](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#annotation) | Defines the text content displayed in the header. |
+| [height](https://ej2.syncfusion.com/vue/documentation/api/diagram/erheadermodel#height) | Defines the height of the header area in pixels. |
+| [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapestylemodel) | Defines style properties such as fill color, text color, and font settings. |
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -62,18 +62,18 @@ N> If no header is specified, a default header is automatically added to the ER 
 
 ### Define entity fields
 
-Fields represent the columns or attributes of an entity. They can be defined using the [fields](https://ej2.syncfusion.com/vue/documentation/api/diagram/erShapeModel#fields) property. Each field can display information such as the field name, data type, and key constraints, including primary key, foreign key, unique, and not null.
+Fields represent the columns or attributes of an entity. They can be defined using the [fields](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel) property. Each field can display information such as the field name, data type, and key constraints, including primary key, foreign key, unique, and not null.
 
 | ER Field Property | Description |
 |---|---|
-| [id](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#id) | Defines the unique identifier for the field within the entity. |
-| [name](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#name) | Defines the display name of the field. |
-| [dataType](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#datatype) | Defines the data type of the field, such as **INT**, **VARCHAR(255)**, or **BOOLEAN**. |
-| [isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#isprimarykey) | Indicates whether the field is the primary key of the entity. |
-| [isForeignKey](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#isforeignkey) | Indicates whether the field is a foreign key that references another entity. |
-| [constraints](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#constraints) | Defines additional constraints applied to the field. Accepts one or more [ErFieldConstraint](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldconstraint) values. |
-| [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#style) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
-| [annotation](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldModel#annotation) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeannotation#style) property is applicable. The annotation [content](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeannotation#content) property is ignored. |
+| [id](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#id) | Defines the unique identifier for the field within the entity. |
+| [name](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#name) | Defines the display name of the field. |
+| [dataType](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#datatype) | Defines the data type of the field, such as **INT**, **VARCHAR(255)**, or **BOOLEAN**. |
+| [isPrimaryKey](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#isprimarykey) | Indicates whether the field is the primary key of the entity. |
+| [isForeignKey](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#isforeignkey) | Indicates whether the field is a foreign key that references another entity. |
+| [constraints](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#constraints) | Defines additional constraints applied to the field. Accepts one or more [ErFieldConstraint](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldconstraint) values. |
+| [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#style) | Defines the visual style of the ER field row. Supports standard shape style properties such as fill, stroke color, stroke width, opacity, and other supported diagram style values. Field-level style values override applicable values from field defaults. |
+| [annotation](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#annotation) | Defines text styling for the ER field row. Only annotation [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeannotationmodel#stylel) property is applicable. The annotation [content](https://ej2.syncfusion.com/vue/documentation/api/diagram/shapeannotationmodel#content) property is ignored. |
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -90,7 +90,7 @@ N> If no fields are specified, a default single field is automatically added to 
 
 ### Add or remove ER fields at runtime
 
-ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/vue/documentation/api/diagram#addErField) and [removeErField](https://ej2.syncfusion.com/vue/documentation/api/diagram#removeErField) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
+ER fields can be updated after the diagram is rendered by using the [addErField](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#addErField) and [removeErField](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#removeErField) methods. These methods help add new fields to an ER entity node or remove existing fields without recreating the diagram.
 
 The `addErField` method adds a field to an ER entity node.
 
@@ -126,16 +126,16 @@ if (fieldToRemove) {
 
 ### Configure default field appearance
 
-The [fieldDefaults](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldDefaults) property defines the default visual appearance for all fields in an ER entity node. These settings are applied to every field unless they are overridden by individual field-level style settings.
+The [fieldDefaults](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfielddefaultsmodel) property defines the default visual appearance for all fields in an ER entity node. These settings are applied to every field unless they are overridden by individual field-level style settings.
 
 | ER Field Defaults Property | Description |
 |---|---|
-| [alternateRowColors](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldDefaults#alternaterowcolors) | Defines exactly two colors cycled across field rows in alternating order. Row 0 uses `alternateRowColors[0]`, row 1 uses `alternateRowColors[1]`, row 2 uses `alternateRowColors[0]`, and so on. |
-| [height](https://ej2.syncfusion.com/vue/documentation/api/diagram/erFieldDefaults#height) | Defines the default height of each ER entity field row. |
+| [alternateRowColors](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfielddefaults#alternaterowcolors) | Defines exactly two colors cycled across field rows in alternating order. Row 0 uses `alternateRowColors[0]`, row 1 uses `alternateRowColors[1]`, row 2 uses `alternateRowColors[0]`, and so on. |
+| [height](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfielddefaults#height) | Defines the default height of each ER entity field row. |
 
 ### Style ER entities and fields
 
-The appearance of ER entities and their fields can be customized using style properties. The node-level [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#style) property controls the overall ER entity appearance, while individual field [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfield#style) values can override applicable styles for specific field rows.
+The appearance of ER entities and their fields can be customized using style properties. The node-level [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#style) property controls the overall ER entity appearance, while individual field [style](https://ej2.syncfusion.com/vue/documentation/api/diagram/erfieldmodel#style) values can override applicable styles for specific field rows.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -164,14 +164,14 @@ erEntityChanged: (args) => {
 
 ## Creating ER relationships
 
-Relationships define how one ER entity is connected to another entity. In the Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectorshape#type) property to **Er**.
+Relationships define how one ER entity is connected to another entity. In the Diagram control, relationships are created using ER connectors. They are rendered as lines with multiplicity symbols at the connector ends.The connector shape can be defined by setting the [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectionshapes) property to **Er**.
 
 | ER Connector Shape Property | Description |
 |---|---|
-| [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel#type) | Defines the connector shape type as `'Er'`. Default: **`'Er'`**. |
-| [relationship](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel#relationship) | Defines whether the relationship is identifying or non-identifying. |
-| [sourceMultiplicity](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel#sourcemultiplicity) | Defines the Crow's Foot multiplicity rendered at the source end of the ER connector. |
-| [targetMultiplicity](https://ej2.syncfusion.com/vue/documentation/api/diagram/erConnectorShapeModel#targetmultiplicity) | Defines the Crow's Foot multiplicity rendered at the target end of the ER connector. |
+| [type](https://ej2.syncfusion.com/vue/documentation/api/diagram/erconnectorshapemodel#type) | Defines the connector shape type as `'Er'`. Default: **`'Er'`**. |
+| [relationship](https://ej2.syncfusion.com/vue/documentation/api/diagram/erconnectorshapemodel#relationship) | Defines whether the relationship is identifying or non-identifying. |
+| [sourceMultiplicity](https://ej2.syncfusion.com/vue/documentation/api/diagram/erconnectorshapemodel#sourcemultiplicity) | Defines the Crow's Foot multiplicity rendered at the source end of the ER connector. |
+| [targetMultiplicity](https://ej2.syncfusion.com/vue/documentation/api/diagram/erconnectorshapemodel#targetmultiplicity) | Defines the Crow's Foot multiplicity rendered at the target end of the ER connector. |
 
 ### Define relationship multiplicity
 

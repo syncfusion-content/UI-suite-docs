@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 Bezier segments are used to create curve segments and the curves are configurable either with the control points or with vectors.
 
-To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) is set as `bezier` and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connector#type) for the connector. The following code example illustrates how to create a default bezier segment.
+To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/segments) is set as `bezier` and need to specify [`type`](https://ej2.syncfusion.com/vue/documentation/api/diagram/connectormodel#type) for the connector. The following code example illustrates how to create a default bezier segment.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -35,12 +35,12 @@ To create a bezier segment, the [`segment.type`](https://ej2.syncfusion.com/vue/
 
 * Bezier control points can be positioned in two ways.
 
-* When setting control point positions using the The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#point1) and [`point2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#point2)  properties, the control point remains fixed in its set position while dragging connector end points.
-* When setting control point positions using the [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#vector1) and [`vector2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#vector2) properties, the control point dynamically adjusts to maintain the angle and distance originally set while moving the connector end points.
+* When setting control point positions using the The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#point1) and [`point2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#point2) properties, the control point remains fixed in its set position while dragging connector end points.
+* When setting control point positions using the [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#vector1) and [`vector2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#vector2) properties, the control point dynamically adjusts to maintain the angle and distance originally set while moving the connector end points.
 
 #### Point
 
-The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#point1) and [`point2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#point2) enable you to set the control points. The following code example illustrates how to configure the bezier segments with control points.
+The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#point1) and [`point2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#point2) enable you to set the control points. The following code example illustrates how to configure the bezier segments with control points.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
@@ -57,7 +57,7 @@ The [`point1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bezierse
 
 #### Vector
 
-The [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#vector1) and [`vector2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegment#vector2) properties of bezier segment enable you to define the vectors. The following code illustrates how to configure a bezier curve with vectors.
+The [`vector1`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#vector1) and [`vector2`](https://ej2.syncfusion.com/vue/documentation/api/diagram/beziersegmentmodel#vector2) properties of bezier segment enable you to define the vectors. The following code illustrates how to configure a bezier curve with vectors.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

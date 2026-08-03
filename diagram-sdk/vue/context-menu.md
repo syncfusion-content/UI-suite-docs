@@ -61,7 +61,7 @@ Upon clicking custom menu items, actions are handled using the [`contextMenuClic
 
 ### Context menu open
 
-In certain situations, you may want to hide specific menu items based on the selected elements in the diagram. This can be achieved using the [`contextMenuOpen`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagrambeforemenuopeneventargs) event. When the context menu is opened via right-click, the `contextMenuOpen` event is triggered. Within this event, you can create an array of menu items to hide for the selected element and pass it to the [`hiddenItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagrambeforemenuopeneventargs#hiddenitems) property of the contextMenuOpen event argument. The following example demonstrates how to display different custom menu items for nodes, connectors, and the diagram based on the selection.
+In certain situations, you may want to hide specific menu items based on the selected elements in the diagram. This can be achieved using the [`contextMenuOpen`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#contextmenuopen) event. When the context menu is opened via right-click, the `contextMenuOpen` event is triggered. Within this event, you can create an array of menu items to hide for the selected element and pass it to the [`hiddenItems`](https://ej2.syncfusion.com/vue/documentation/api/diagram/diagrambeforemenuopeneventargs#hiddenitems) property of the contextMenuOpen event argument. The following example demonstrates how to display different custom menu items for nodes, connectors, and the diagram based on the selection.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

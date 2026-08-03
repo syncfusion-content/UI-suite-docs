@@ -20,7 +20,7 @@ The following properties of the Node are used to represent the state of the node
 
 N> Icon can be created only when the node has outEdges.
 
-To explore the properties of expand and collapse icon, refer to [`expandIcon`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#expandicon) and [`collapseIcon`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#collapseicon).
+To explore the properties of expand and collapse icon, refer to [`expandIcon`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#expandicon) and [`collapseIcon`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#collapseicon).
 
 
 ## Customizing expand and collapse icon
@@ -69,7 +69,7 @@ The following code example illustrates the customization of icons.
 
 ## IsExpanded
 
-[`isExpanded`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#isexpanded) property is used to defines whether the node is expanded or not. The following example demonstrate node’s `isExpanded` property. The default value of isExpanded property is true.
+[`isExpanded`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#isexpanded) property is used to defines whether the node is expanded or not. The following example demonstrate node’s `isExpanded` property. The default value of isExpanded property is true.
 
 ``` JavaScript
 

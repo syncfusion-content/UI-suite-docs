@@ -14,19 +14,19 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 * A BPMN object can be associated with a text annotation which does not affect the flow but gives details about objects within a flow.
 
-* A TextAnnotation points to or references another BPMN shape, which we call the `textAnnotationTarget` of the textAnnotation. When a target shape is moved or deleted, any TextAnnotations attached to the shape will be moved or deleted too. Thus, the TextAnnotations remain with their target shapes though you can reposition the TextAnnotation to any offset from its target. The `textAnnotationTarget` property of the BpmnTextAnnotation is used to connect an annotation element to the BPMN Node.
+* A TextAnnotation points to or references another BPMN shape, which we call the `textAnnotationTarget` of the textAnnotation. When a target shape is moved or deleted, any TextAnnotations attached to the shape will be moved or deleted too. Thus, the TextAnnotations remain with their target shapes though you can reposition the TextAnnotation to any offset from its target. The [`textAnnotationTarget`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmntextannotation#textannotationtarget) property of the BpmnTextAnnotation is used to connect an annotation element to the BPMN Node.
 
 * The annotation element can be switched from a BPMN node to another BPMN node simply by dragging the source end of the annotation connector into the other BPMN node.
 
 * By default, the TextAnnotation shape has a connection.
 
-* The `textAnnotationDirection` property is used to set the shape direction of the text annotation.
+* The [`textAnnotationDirection`](https://ej2.syncfusion.com/vue/documentation/api/diagram/textannotationdirection) property is used to set the shape direction of the text annotation.
 
 * By default, the `textAnnotationDirection` is set to a Auto.
 
-* To set the size for text annotation, use the `width` and `height` properties of the node.
+* To set the size for text annotation, use the [`width`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#width) and [`height`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#height) properties of the node.
 
-* The `offsetX` and `offsetY` properties are used to set the distance between the BPMN node and the TextAnnotation.
+* The [`offsetX`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#offsetx) and [`offsetY`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#offsety) properties are used to set the distance between the BPMN node and the TextAnnotation.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

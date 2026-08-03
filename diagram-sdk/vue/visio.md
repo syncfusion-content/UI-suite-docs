@@ -70,7 +70,7 @@ Import behavior can be customized using the `VisioImportOptions` object.
 
 ### Import lifecycle event
 
-The [`diagramImporting`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iimportingeventargs) event is triggered during the Visio import process. This event provides information about the current import status, available pages, warnings or errors, and supports page selection or cancellation of the import operation.
+The [`diagramImporting`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#diagramimporting) event is triggered during the Visio import process. This event provides information about the current import status, available pages, warnings or errors, and supports page selection or cancellation of the import operation.
 
 **Event arguments:**
 
@@ -142,7 +142,7 @@ Export behavior can be controlled using the `VisioExportOptions` object.
 
 ### Export lifecycle event
 
-The [`diagramExporting`](https://ej2.syncfusion.com/vue/documentation/api/diagram/iexportingeventargs) event provides status updates, reports warnings or errors, and supports cancellation of the export operation.
+The [`diagramExporting`](https://ej2.syncfusion.com/vue/documentation/api/diagram/index-default#diagramexporting) event provides status updates, reports warnings or errors, and supports cancellation of the export operation.
 
 **Event arguments:**
 

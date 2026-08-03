@@ -104,7 +104,7 @@ A node can be rotated at runtime by using the [`rotate`](https://ej2.syncfusion.
 
 ## Flip
 
-The diagram Provides support to flip the node. [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/node#flip) is performed to give the mirrored image of the original element.
+The diagram Provides support to flip the node. [`flip`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodemodel#flip) is performed to give the mirrored image of the original element.
 
 The flip types are as follows:
 

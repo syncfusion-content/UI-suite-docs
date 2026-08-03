@@ -19,7 +19,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Association flow
 
-[`BPMN Association`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnflow#association) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The type of association are as follows.
+[`BPMN Association`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnassociationflows) flow is used to link flow objects with its corresponding text or artifact. An association is represented as a dotted graphical line with opened arrow. The type of association are as follows.
 
 * Directional
 * BiDirectional
@@ -50,7 +50,7 @@ N> The default value for the property `association` is **default**.
 
 ## Sequence flow
 
-A [`Sequence`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnflow#sequence) flow shows the order in which the activities are performed in a BPMN Process and is represented with a solid graphical line. The type of sequence are as follows.
+A [`Sequence`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsequenceflows) flow shows the order in which the activities are performed in a BPMN Process and is represented with a solid graphical line. The type of sequence are as follows.
 
 * Normal
 * Conditional
@@ -81,7 +81,7 @@ N> The default value for the property `sequence` is “normal”.
 
 ## Message flow
 
-A [`message`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnflow#message) flow shows the flow of messages between two Participants. A message flow is represented by dashed line. The type of message are as follows.
+A [`message`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnmessageflows) flow shows the flow of messages between two Participants. A message flow is represented by dashed line. The type of message are as follows.
 
 * InitiatingMessage
 * NonInitiatingMessage

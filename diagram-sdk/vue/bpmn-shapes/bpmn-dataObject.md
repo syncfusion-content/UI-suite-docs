@@ -12,7 +12,7 @@ domainurl: https://help.syncfusion.com/diagram-sdk
 
 ## Data Object
 
-A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnDataObjects), set the shape as **DataObject** and the type property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
+A data object represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a [`data object`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmndataobject), set the shape as **DataObject** and the type property defines whether data is an input or an output. You can create multiple instances of data object with the collection property of data.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}

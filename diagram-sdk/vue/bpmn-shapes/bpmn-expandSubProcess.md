@@ -14,7 +14,7 @@ An expanded subProcess can contain certain child processes within it.
 
 ### Create BPMN Expanded subProcess
 
-To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnactivitymodel)  and [`collapsed`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocessmodel#collapsed) as false. Enable [`AllowDrop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) constraint for node to allow child to drop inside the expanded subProcess.
+To create expanded subProcess, set shape as [`activity`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnactivitymodel) and [`collapsed`](https://ej2.syncfusion.com/vue/documentation/api/diagram/bpmnsubprocessmodel#collapsed) as false. Enable [`AllowDrop`](https://ej2.syncfusion.com/vue/documentation/api/diagram/nodeconstraints) constraint for node to allow child to drop inside the expanded subProcess.
 
 {% tabs %}
 {% highlight html tabtitle="Composition API (~/src/App.vue)" %}
