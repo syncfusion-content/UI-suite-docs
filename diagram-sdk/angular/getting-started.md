@@ -366,9 +366,7 @@ Open the generated local URL (`http://localhost:4200`) in the browser. The appli
 
 ![Rendered flowchart with four nodes connected vertically by arrows](./images/Getting-started.png)
 
-N> If port 4200 is already in use, start the app on a different port with `ng serve --port 4201`.
-
-N> To stop the development server, press `Ctrl + C` in the terminal where it is running.
+N> If port 4200 is already in use, start the app on a different port with `ng serve --port 4201`, and to stop the development server, press `Ctrl + C` in the terminal where it is running.
 
 N> To build the application for production, run `ng build`. The generated output is placed in the `dist` folder.
 
