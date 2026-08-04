@@ -150,7 +150,7 @@ N> If your application uses an older NgModule-based structure, import `DiagramMo
 
 Use [Angular CLI](https://github.com/angular/angular-cli) to create and manage Angular applications. Install Angular CLI globally using the following command:
 
-```bash
+```
 npm install -g @angular/cli
 ```
 
@@ -158,7 +158,7 @@ npm install -g @angular/cli
 
 Create a new Angular application using the following command.
 
-```bash
+```
 ng new my-diagram-app
 ```
 
@@ -170,7 +170,7 @@ During project creation, Angular CLI may prompt you to choose stylesheet, SSR/SS
 
 Navigate to the project folder:
 
-```bash
+```
 cd my-diagram-app
 ```
 
@@ -180,7 +180,7 @@ All Syncfusion Essential® JS 2 packages are available in the [npmjs.com](https:
 
 Install the Angular Diagram package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-angular-diagrams
 ```
 
@@ -194,13 +194,13 @@ N> For the latest tested version of the Diagram package, refer to the [`@syncfus
 
 The Diagram component needs Syncfusion® theme styles to display correctly. Syncfusion® theme packages include ready-to-use styles for supported components. Install the Tailwind 3 theme package using the following command:
 
-```bash
+```
 npm install @syncfusion/ej2-tailwind3-theme
 ```
 
 Then add the following CSS reference to the **src/styles.css** file:
 
-```css
+```
 @import "../node_modules/@syncfusion/ej2-tailwind3-theme/styles/diagram/index.css";
 ```
 
@@ -214,7 +214,7 @@ Import `DiagramModule` from `@syncfusion/ej2-angular-diagrams` and add it to the
 
 Update the **src/app/app.ts** file as follows:
 
-```typescript
+```
 import { Component } from '@angular/core';
 import { DiagramModule } from '@syncfusion/ej2-angular-diagrams';
 
@@ -241,7 +241,7 @@ The following example creates a flowchart with four nodes: **Start**, **Process*
 
 Replace the entire contents of **src/app/app.ts** with the following code:
 
-```typescript
+```
 import { Component } from '@angular/core';
 import {
   ConnectorModel,
@@ -356,7 +356,7 @@ In this example:
 
 Run the application using the following command:
 
-```bash
+```
 npm start
 ```
 
