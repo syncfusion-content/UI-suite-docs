@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Activity in Blazor Diagram Component | Syncfusion®
-description: Learn here all about BPMN activity such as task, sub-process in Blazor Diagram component and much more details.
+title: BPMN Activity in Blazor Diagram | Syncfusion®
+description: Create BPMN activities in Blazor Diagram using Task, Collapsed Sub-Process, loop, compensation, call, ad-hoc, and event subprocess types.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Activity in Diagram Component
+# BPMN Activity in Blazor Diagram
 
 The [Activity](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnActivity.html) is the task that is performed in a business process. It is represented by a rounded rectangle.
 

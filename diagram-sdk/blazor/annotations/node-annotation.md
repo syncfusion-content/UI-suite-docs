@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Node Annotation Position in Blazor Diagram Component | Syncfusion®
-description: Checkout and Learn how to position annotations on nodes in Blazor Diagram component and much more details.
+description: Position node annotations in the Blazor Diagram component using offset, horizontal and vertical alignment, margin, and text alignment properties.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

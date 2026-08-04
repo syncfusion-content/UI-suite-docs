@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Data Store in Blazor Diagram Component | Syncfusion®
-description: Learn here all about how to create the BPMN DataStore in Blazor Diagram component and much more details.
+title: BPMN Data Store in Blazor Diagram | Syncfusion®
+description: Add a BPMN data store in Blazor Diagram to represent persistent storage accessed by activities during a business process.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Data Store in Blazor Diagram Component
+# BPMN Data Store in Blazor Diagram
 
 A data store is used to store or access data associated with a business process. To create a data store shape, the node property [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) should be set to **BpmnDataStore**. The following code example explains how to create a data store.
 

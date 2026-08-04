@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Connector Annotation Position in Blazor Diagram | Syncfusion®
-description: Checkout and Learn how to position and align annotations on connectors in the Blazor Diagram component and much more details.
+title: Connector Annotation Position in Blazor Diagram Component | Syncfusion®
+description: Position connector annotations along the path in the Blazor Diagram component using offset, alignment, displacement, and segment angle settings.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Connector Annotation Position in Blazor Diagram 
+# Connector Annotation Position in Blazor Diagram Component
 
 Connector annotations can be precisely positioned using several properties of the `PathAnnotation` class, including:
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Text Annotation in Diagram | Syncfusion®
-description: Learn here all about how to create BPMN text annotation in Blazor Diagram component and much more details.
+title: BPMN Text Annotation in Blazor Diagram | Syncfusion®
+description: Attach BPMN text annotations in Blazor Diagram to nodes with auto, left, right, top, or bottom connector directions.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Text Annotation in Diagram Component
+# BPMN Text Annotation in Blazor Diagram
 
 * A BPMN object can be associated with a text annotation that does not affect the flow but provides information about objects within a flow. 
 

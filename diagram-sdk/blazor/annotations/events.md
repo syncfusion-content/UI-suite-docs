@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation Events in Blazor Diagram Component | Syncfusion®
-description: Checkout and Learn how to use annotation events in the Blazor Diagram component and much more details.
+description: Handle annotation events in the Blazor Diagram component, including selection, position, size, rotation, and text change notifications.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
