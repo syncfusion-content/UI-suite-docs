@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Event in Blazor Diagram | Syncfusion®
-description: Add BPMN events in Blazor Diagram with Start, Intermediate, and End types plus triggers like message, timer, signal, error, and escalation.
+title: BPMN Event in Blazor Diagram Component | Syncfusion®
+description: Model Blazor Diagram Component business processes with Start, Intermediate, and End BPMN events and trigger subtypes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Event in Blazor Diagram
+# BPMN Event in Blazor Diagram Component
 
 An [Event](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnEvent.html) is a common BPMN process model element that represents something that happens during a business process and is notated with a circle. The type of events are as follows:
 

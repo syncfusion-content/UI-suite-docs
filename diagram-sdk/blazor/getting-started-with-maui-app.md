@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with Blazor Diagram in Blazor MAUI App | Syncfusion®
+title: Getting Started with Blazor Diagram Component | Syncfusion®
 description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor MAUI App.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Getting Started with the Diagram Component in the Blazor MAUI App
+# Getting Started with Blazor Diagram Component
 
 This section explains the step-by-step process of integrating the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in your Blazor MAUI App using both [Visual Studio](https://visualstudio.microsoft.com/vs/) and [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 

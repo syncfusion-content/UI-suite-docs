@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Data Object in Blazor Diagram | Syncfusion®
-description: Model information flowing through a BPMN process in Blazor Diagram using Data Object input, output, and collective data shapes.
+title: BPMN Data Object in Blazor Diagram Component | Syncfusion®
+description: Represent Blazor Diagram Component process data with BPMN Data Object input, output, and collective data shapes.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Data Object in Blazor Diagram
+# BPMN Data Object in Blazor Diagram Component
 
 A [BpmnDataObject](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html) represents information flowing through the process, such as data placed into the process, data resulting from the process, data that needs to be collected, or data that must be stored. To define a `BpmnDataObject`, the node property [Shape](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.Shape.html) should be set as `BpmnDataObject`, and the [DataObjectType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_DataObjectType) property defines whether data is an input or output. You can indicate the collection of data object by setting the [IsCollectiveData](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnDataObject.html#Syncfusion_Blazor_Diagram_BpmnDataObject_IsCollectiveData) property of `BpmnDataObject` as **True.**
 

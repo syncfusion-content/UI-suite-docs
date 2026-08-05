@@ -1,13 +1,13 @@
 ---
 layout: post
-title: SignalR Hub for Real-Time Collaboration in Diagram | Syncfusion®
-description: Checkout and learn to implement SignalR hub services with Redis for real-time collaborative editing in Blazor Diagram.
+title: Collaborative Editing Hub in Blazor Diagram Component | Syncfusion®
+description: Configure the ASP.NET Core SignalR hub with Redis backplane that powers real-time Blazor Diagram Component collaboration.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# SignalR Hub Configuration for Collaborative Editing
+# Collaborative Editing Hub in Blazor Diagram Component
 
 ## Overview
 

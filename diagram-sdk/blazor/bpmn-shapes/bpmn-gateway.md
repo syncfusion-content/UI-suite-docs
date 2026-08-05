@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BPMN Gateway in Blazor Diagram | Syncfusion®
-description: Control BPMN process flow in Blazor Diagram using Exclusive, Parallel, Inclusive, Complex, and Event-Based gateway types.
+title: BPMN Gateway in Blazor Diagram Component | Syncfusion®
+description: Control Blazor Diagram Component process flow with Exclusive, Parallel, Inclusive, Complex, and Event-Based BPMN gateways.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# BPMN Gateway in Blazor Diagram
+# BPMN Gateway in Blazor Diagram Component
 
 A [BpmnGateway](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnGateway.html) is used to control the flow of a process and it is represented in diamond shape. The [GatewayType](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Diagram.BpmnGateway.html#Syncfusion_Blazor_Diagram_BpmnGateway_GatewayType) property of the `BpmnGateway` can be set with any of the appropriate gateways. By default, the value of `GatewayType` is **None**. The following code example explains how to create a `BPMNGateway`.
 

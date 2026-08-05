@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation in Blazor Diagram Component | Syncfusion®
-description: Create, add, remove, and update annotations on nodes and connectors in the Blazor Diagram component at design time and at runtime.
+description: Add, update, and remove editable text annotations on Blazor Diagram Component nodes and connectors at design time or runtime.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

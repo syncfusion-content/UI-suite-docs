@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flip in Blazor Diagram Component | Syncfusion®
-description: Checkout and learn here all the features about flip support in Blazor Diagram component and much more details.
+description: Flip Blazor Diagram Component nodes, groups, and connectors horizontally, vertically, or both with granular control of labels and ports.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

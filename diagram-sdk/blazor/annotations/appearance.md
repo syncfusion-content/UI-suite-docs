@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Annotation Appearance in Blazor Diagram Component | Syncfusion®
-description: Customize the appearance of annotations in the Blazor Diagram component, including size, text style, hyperlinks, wrap, overflow, and templates.
+description: Style Blazor Diagram Component annotation size, text font, hyperlinks, wrap, overflow, and custom templates for rich labels.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

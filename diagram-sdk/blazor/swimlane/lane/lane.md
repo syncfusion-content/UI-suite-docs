@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lane in Blazor Diagram Component | Syncfusion®
-description: Check out and learn here all about Lane in Blazor Diagram component, its elements and much more details.
+description: Group Blazor Diagram Component activities inside swimlane lanes to map responsibilities across departments in a process.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
