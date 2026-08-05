@@ -7,7 +7,7 @@ control: Diagram Component
 documentation: ug
 ---
 
-# Control Point Interaction in Blazor Diagram Component
+# Bezier Segments Interaction in Blazor Diagram Component
 
 ## How to Interact with the Bezier Segments Efficiently
 

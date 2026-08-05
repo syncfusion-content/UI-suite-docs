@@ -8,7 +8,6 @@ documentation: ug
 ---
 
 # Collaborative Editing Hub in Blazor Diagram Component
-
 ## Overview
 
 This guide explains how to configure ASP.NET Core SignalR with Redis for real-time collaborative editing in a Blazor application. It covers creating the app, installing packages, configuring SignalR, implementing the hub, handling conflicts, and managing Redis cleanup.

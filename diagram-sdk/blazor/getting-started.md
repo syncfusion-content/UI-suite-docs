@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started with Blazor Diagram Component | Syncfusion®
+title: Getting Started with Blazor Diagram Component in Blazor Server App | Syncfusion®
 description: Check out and learn about the documentation for getting started with Blazor Diagram Component in Blazor Server App.
 platform: diagram-sdk
 control: Diagram
 documentation: ug
 ---
 
-# Getting Started with Blazor Diagram Component
+# Getting Started with Blazor Diagram Component in Blazor Server App
 
 This section briefly explains how to include the [Blazor Diagram](https://www.syncfusion.com/diagram-sdk/blazor-diagram) component in your Blazor Server app using [Visual Studio](https://visualstudio.microsoft.com/vs/), [Visual Studio Code](https://code.visualstudio.com/), and the [.NET CLI](https://learn.microsoft.com/en-us/dotnet/core/tools/).
 

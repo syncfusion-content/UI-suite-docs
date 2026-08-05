@@ -1,13 +1,13 @@
 ---
 layout: post
-title: How to in Blazor Diagram Component | Syncfusion®
+title: How-To Guides in Blazor Diagram Component | Syncfusion®
 description: Learn common Blazor Diagram Component tasks like adding nodes, measuring elements, and loading data using core methods and properties.
 platform: diagram-sdk
 control: DiagramComponent
 documentation: ug
 ---
 
-# How to in Blazor Diagram Component
+# How-To Guides in Blazor Diagram Component
 
 The diagram's core functionalities are implemented through a comprehensive set of methods and properties, enabling robust manipulation and interaction with diagram elements.
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Migration in Blazor Diagram Component | Syncfusion®
-description: Migrate from legacy SfDiagram to the native Blazor Diagram Component with API mapping, namespace changes, and performance gains.
+title: Migrating from Classic SfDiagram to SfDiagramComponent in Blazor | Syncfusion®
+description: Learn how to migrate from the classic SfDiagram to the native SfDiagramComponent in Blazor Diagram Component, including API mapping, namespace changes, and performance gains.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Migration in Blazor Diagram Component
+# Migrating from Classic SfDiagram to SfDiagramComponent in Blazor
 
 This comprehensive guide outlines the step-by-step API migration process for transitioning from the classic SfDiagram to the modern SfDiagramComponent in Blazor applications. It provides detailed instructions, code examples, and best practices to ensure a smooth upgrade experience.
 

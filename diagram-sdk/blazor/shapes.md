@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Shapes in Blazor Diagram Component | Syncfusion®
+title: Node Shapes in Blazor Diagram Component | Syncfusion®
 description: Create Blazor Diagram Component nodes with text, image, path, basic, flow, SVG, HTML, and BPMN shapes, then customize them fully.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
 ---
 
-# Shapes in Blazor Diagram Component
+# Node Shapes in Blazor Diagram Component
 
 Diagram supports creating several kinds of nodes. The available shape types include:
 

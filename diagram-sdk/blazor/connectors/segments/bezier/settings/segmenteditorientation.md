@@ -7,7 +7,7 @@ control: Diagram Component
 documentation: ug
 ---
 
-# Segment Edit Orientation in Blazor Diagram Component
+# Bezier Segment Edit Orientation in Blazor Diagram Component
 
 ## How to Edit Bezier Segments Using Bezier Connector Settings
 
