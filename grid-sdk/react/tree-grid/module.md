@@ -24,19 +24,15 @@ Syncfusion Angular TreeGrid modules help optimize application bundle size by inc
 | [`CommandColumn`](../treegrid/editing/edit#command-column)| Inject this module to use command column feature.|
 | [`ContextMenu`](../treegrid/context-menu)| Inject this module to use context menu feature.|
 | [`DetailRow`](../treegrid/row/detail-template)| Inject this module to use detail template feature.|
-| [`Freeze`](../treegrid/frozen)| Inject this module to use frozen rows and columns feature.|
 | [`Resize`](../treegrid/columns/columns#column-resizing)| Inject this module to use resize feature.|
 | [`Reorder`](../treegrid/columns/columns#reorder)| Inject this module to use reorder feature.|
 | [`RowDD`](../treegrid/row/row-drag-and-drop)| Inject this module to use row drag and drop feature.|
 | [`Search`](../treegrid/searching)| Inject this module to use search feature and this is a default injected module.|
-| [`Selection`](../treegrid/selection/selection)| Inject this module to use selection feature and this is a default injected module.|
-| [`Print`](../treegrid/print)| Inject this module to use print feature and this is a default injected module.|
 | [`Toolbar`](../treegrid/tool-bar/tool-bar)| Inject this module to use toolbar feature.|
 | [`VirtualScroll`](../treegrid/virtual-scroll)| Inject this module to use virtual scroll feature.|
 | [`InfiniteScroll`](../treegrid/infinite-scroll)| Inject this module to use infinite scroll feature.|
 | [`ExcelExport`](../treegrid/excel-export/excel-export)| Inject this module to use excel export feature.|
 | [`PdfExport`](../treegrid/pdf-export/pdf-export)| Inject this module to use PDF export feature.|
-| [`Clipboard`](../treegrid/clipboard)| Inject this module to use clipboard feature.|
 
 
 Inject these modules into the TreeGrid using the `Inject` directive to enable these functionalities.
