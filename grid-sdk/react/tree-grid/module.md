@@ -23,7 +23,6 @@ Syncfusion React Tree Grid modules help optimize application bundle size by incl
 | [Column Menu](./columns/column-menu) | `ColumnMenu` | Inject this module to use column menu feature. |
 | [Command Column](./editing/command-column-editing) | `CommandColumn` | Inject this module to use command column feature. |
 | [Context Menu](./context-menu) | `ContextMenu` | Inject this module to use context menu feature. |
-| [Search](./searching)| `Search` | Inject this module to use search feature and this is a default injected module.|
 | [Detail Row](./row/detail-template) | `DetailRow` | Inject this module to use detail template feature. |
 | [Foreign Key](./columns/foreign-key-column) | `ForeignKey` | Inject this module to use foreign key feature. |
 | [Resize](./columns/column-resizing) | `Resize` | Inject this module to use resize feature. |
