@@ -10,7 +10,7 @@ domainurl: https://help.syncfusion.com/grid-sdk
 
 # Module in React Treegrid component
 
-Syncfusion Angular TreeGrid modules help optimize application bundle size by including only the required features. To enable a specific TreeGrid feature, import and inject the corresponding feature module into the TreeGrid configuration. The available TreeGrid feature modules include:
+Syncfusion react TreeGrid modules help optimize application bundle size by including only the required features. To enable a specific TreeGrid feature, import and inject the corresponding feature module into the TreeGrid configuration. The available TreeGrid feature modules include:
 
 | Module | Description |
 |------|-------------|
