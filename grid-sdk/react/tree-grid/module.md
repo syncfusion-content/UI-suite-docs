@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Module in React Treegrid | Syncfusion
-description: Learn here all about Module in Syncfusion React Treegrid component of Syncfusion Essential JS 2 and more.
+title: Module in React Tree Grid | Syncfusion
+description: Learn here all about Module in Syncfusion React Tree Grid component of Syncfusion Essential JS 2 and more.
 control: Module 
 platform: grid-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Module in React TreeGrid component
+# Module in React Tree Grid component
 
-Syncfusion React TreeGrid modules help optimize your application's bundle size by including only the features you need. To enable a specific TreeGrid feature, import and inject the corresponding Feature Module into your TreeGrid configuration. The available TreeGrid Feature Modules include:
+Syncfusion React Tree Grid modules help optimize application bundle size by including only the required features. To enable a specific Tree Grid feature, import and inject the corresponding feature module into the Tree Grid configuration. The available Tree Grid feature modules include:
 
 | Feature | Module | Description |
 |--------|--------|-------------|
@@ -34,9 +34,13 @@ Syncfusion React TreeGrid modules help optimize your application's bundle size b
 | [Excel Export](./excel-export/excel-export) | `ExcelExport` | Inject this module to use excel export feature. |
 | [PDF Export](./pdf-export/pdf-export) | `PdfExport` | Inject this module to use PDF export feature. |
 
+Inject these modules into the Tree Grid using the `Inject` directive to enable these functionalities.
+
+> [`React Tree Grid`](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for its groundbreaking feature representations. [`React Tree Grid example`](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to understand data presentation and interaction within a structured hierarchical grid.
+
 ## Enabling basic features
 
-The following example demonstrates how to enable basic features such as Paging, Sorting, Filtering, Toolbar and Editing by importing required modules from `@syncfusion/ej2-react-treegrid` and injecting them into the treegrid component.
+The following example demonstrates how to enable basic features such as Paging, Sorting, Filtering, Toolbar and Editing by importing required modules from `@syncfusion/ej2-react-treegrid` and injecting them into the Tree Grid component.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
