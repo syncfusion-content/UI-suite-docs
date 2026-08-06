@@ -1,46 +1,47 @@
 ---
 layout: post
-title: Module in React Treegrid | Syncfusion
-description: Learn here all about Module in Syncfusion React Treegrid component of Syncfusion Essential JS 2 and more.
+title: Module in React Tree Grid | Syncfusion
+description: Learn here all about Module in Syncfusion React Tree Grid component of Syncfusion Essential JS 2 and more.
 control: Module 
 platform: grid-sdk
 documentation: ug
 domainurl: https://help.syncfusion.com/grid-sdk
 ---
 
-# Module in React Treegrid component
+# Module in React Tree Grid component
 
-Syncfusion react TreeGrid modules help optimize application bundle size by including only the required features. To enable a specific TreeGrid feature, import and inject the corresponding feature module into the TreeGrid configuration. The available TreeGrid feature modules include:
+Syncfusion React Tree Grid modules help optimize application bundle size by including only the required features. To enable a specific Tree Grid feature, import and inject the corresponding feature module into the Tree Grid configuration. The available Tree Grid feature modules include:
 
-| Module | Description |
-|------|-------------|
-| [`Page`](../treegrid/paging)| Inject this module to use paging feature.|
-| [`Sort`](../treegrid/sorting)| Inject this module to use sorting feature.|
-| [`Filter`](../treegrid/filtering/filtering)| Inject this module to use filtering feature.|
-| [`Edit`](../treegrid/editing/edit)| Inject this module to use editing feature.|
-| [`Aggregate`](../treegrid/aggregates/aggregates)| Inject this module to use aggregate feature.|
-| [`ColumnChooser`](../treegrid/columns/columns#column-chooser)| Inject this module to use column chooser feature.|
-| [`ColumnMenu`](../treegrid/columns/columns#column-menu)| Inject this module to use column menu feature.|
-| [`CommandColumn`](../treegrid/editing/edit#command-column)| Inject this module to use command column feature.|
-| [`ContextMenu`](../treegrid/context-menu)| Inject this module to use context menu feature.|
-| [`DetailRow`](../treegrid/row/detail-template)| Inject this module to use detail template feature.|
-| [`Resize`](../treegrid/columns/columns#column-resizing)| Inject this module to use resize feature.|
-| [`Reorder`](../treegrid/columns/columns#reorder)| Inject this module to use reorder feature.|
-| [`RowDD`](../treegrid/row/row-drag-and-drop)| Inject this module to use row drag and drop feature.|
-| [`Search`](../treegrid/searching)| Inject this module to use search feature and this is a default injected module.|
-| [`Toolbar`](../treegrid/tool-bar/tool-bar)| Inject this module to use toolbar feature.|
-| [`VirtualScroll`](../treegrid/virtual-scroll)| Inject this module to use virtual scroll feature.|
-| [`InfiniteScroll`](../treegrid/infinite-scroll)| Inject this module to use infinite scroll feature.|
-| [`ExcelExport`](../treegrid/excel-export/excel-export)| Inject this module to use excel export feature.|
-| [`PdfExport`](../treegrid/pdf-export/pdf-export)| Inject this module to use PDF export feature.|
+| Feature | Module | Description |
+|--------|--------|-------------|
+| [Paging](./paging) | `Page` | Inject this module to use paging feature. |
+| [Sorting](./sorting) | `Sort` | Inject this module to use sorting feature. |
+| [Filtering](./filtering/filtering) | `Filter` | Inject this module to use filtering feature. |
+| [Editing](./editing/edit) | `Edit` | Inject this module to use editing feature. |
+| [Aggregates](./aggregates/aggregates) | `Aggregate` | Inject this module to use aggregate feature. |
+| [Column Chooser](./columns/column-chooser) | `ColumnChooser` | Inject this module to use column chooser feature. |
+| [Column Menu](./columns/column-menu) | `ColumnMenu` | Inject this module to use column menu feature. |
+| [Command Column](./editing/command-column-editing) | `CommandColumn` | Inject this module to use command column feature. |
+| [Context Menu](./context-menu) | `ContextMenu` | Inject this module to use context menu feature. |
+| [Search](./searching)| `Search` | Inject this module to use search feature and this is a default injected module.|
+| [Detail Row](./row/detail-template) | `DetailRow` | Inject this module to use detail template feature. |
+| [Foreign Key](./columns/foreign-key-column) | `ForeignKey` | Inject this module to use foreign key feature. |
+| [Resize](./columns/column-resizing) | `Resize` | Inject this module to use resize feature. |
+| [Reordering](./columns/column-reorder) | `Reorder` | Inject this module to use reorder feature. |
+| [Row Drag and Drop](./row/row-drag-and-drop) | `RowDD` | Inject this module to use row drag and drop feature. |
+| [Virtual Scrolling](./virtual-scroll) | `VirtualScroll` | Inject this module to use virtual scrolling feature. |
+| [Infinite Scrolling](./infinite-scroll) | `InfiniteScroll` | Inject this module to use infinite scrolling feature. |
+| [Toolbar](./tool-bar/tool-bar) | `Toolbar` | Inject this module to use toolbar feature. |
+| [Excel Export](./excel-export/excel-export) | `ExcelExport` | Inject this module to use excel export feature. |
+| [PDF Export](./pdf-export/pdf-export) | `PdfExport` | Inject this module to use PDF export feature. |
 
-Inject these modules into the TreeGrid using the `Inject` directive to enable these functionalities.
+Inject these modules into the Tree Grid using the `Inject` directive to enable these functionalities.
 
 > [`React Tree Grid`](https://www.syncfusion.com/react-ui-components/react-tree-grid) feature tour page for its groundbreaking feature representations. [`React Tree Grid example`](https://ej2.syncfusion.com/react/demos/#/material/treegrid/treegrid-overview) to understand data presentation and interaction within a structured hierarchical grid.
 
 ## Enabling basic features
 
-The following example demonstrates how to enable basic features such as Paging, Sorting, Filtering, Toolbar and Editing by importing required modules from `@syncfusion/ej2-react-treegrid` and injecting them into the treegrid component.
+The following example demonstrates how to enable basic features such as Paging, Sorting, Filtering, Toolbar and Editing by importing required modules from `@syncfusion/ej2-react-treegrid` and injecting them into the Tree Grid component.
 
 {% tabs %}
 {% highlight js tabtitle="App.jsx" %}
