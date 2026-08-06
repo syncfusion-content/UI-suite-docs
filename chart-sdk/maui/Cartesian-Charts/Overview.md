@@ -94,7 +94,7 @@ The following table summarizes the globalization support available in this contr
 
 ## See Also
 
-- [Getting Started](https://help.syncfusion.com/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
+- [Getting Started](https://help.syncfusion.com/chart-sdk/maui/cartesian-charts/getting-started) shows how to begin using the Cartesian chart control step by step.  
 - [Customization and Styling](https://help.syncfusion.com/maui/cartesian-charts/appearance) shows how to configure chart appearance, axes, gridlines, labels, legends, and themes.  
 - [Labels](https://help.syncfusion.com/maui/cartesian-charts/datalabels) display values directly on data points.
 - [Zooming & Panning](https://help.syncfusion.com/maui/cartesian-charts/zooming-and-panning) provides interactive navigation to focus on specific ranges and move across large datasets smoothly.
