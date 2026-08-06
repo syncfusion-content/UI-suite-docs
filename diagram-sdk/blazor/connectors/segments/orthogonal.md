@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Orthogonal Segments in Blazor Diagram Component | Syncfusion®
-description: Route Blazor Diagram Connector Component links as perpendicular orthogonal segments for clean right-angled flows and flowcharts.
+description: Route connectors in the Blazor Diagram Component as orthogonal segments to create clean, right-angled paths for flowcharts and process diagrams.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

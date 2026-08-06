@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swimlane Palette in Blazor Diagram Component | Syncfusion®
-description: Add reusable Blazor Diagram Component lanes and phases to the symbol palette for drag-and-drop swimlane construction.
+description: Add reusable swimlane lanes and phases to the Blazor Diagram Component symbol palette for drag-and-drop swimlane creation.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

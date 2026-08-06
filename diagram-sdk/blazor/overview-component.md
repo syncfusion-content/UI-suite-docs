@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overview in Blazor Diagram Component | Syncfusion®
-description: Add a miniature overview panel to the Blazor Diagram Component so users can pan and zoom large diagrams from a bird's-eye preview.
+description: Add an overview panel to the Blazor Diagram Component to enable panning and zooming of large diagrams.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

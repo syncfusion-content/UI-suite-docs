@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Symbol Palette in Blazor Diagram Component | Syncfusion®
-description: Drag and drop predefined Blazor Diagram Component nodes, connectors, and groups from the symbol palette into the diagram canvas.
+description: Drag and drop predefined nodes, connectors, and groups from the Blazor Diagram Component symbol palette onto the diagram canvas.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Connector Events in Blazor Diagram Component | Syncfusion®
-description: React to Blazor Diagram Component connector selection, drag, source, and target end events to validate or customize link behavior.
+description: Handle Blazor Diagram connector events for selection, drag, source, and target end events to validate or customize link behavior.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Container in Blazor Diagram Component | Syncfusion®
-description: Group Blazor Diagram Component nodes inside a container with a customizable header, then drag, drop, and resize it at runtime.
+description: Group nodes within a container in the Blazor Diagram Component, customize its header, and interactively drag, drop, and resize it at runtime.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug

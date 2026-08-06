@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PostgreSQL in Blazor Diagram Component | Syncfusion®
-description: Build a PostgreSQL-backed Blazor Diagram Component organizational chart using Entity Framework Core, Npgsql, and a .NET API.
+description: Build a PostgreSQL-backed organizational chart in the Blazor Diagram Component using Entity Framework Core, Npgsql, and a .NET API.
 platform: diagram-sdk
 control: Diagram
 documentation: ug

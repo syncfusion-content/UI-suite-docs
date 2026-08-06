@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Layout Events in Blazor Diagram Component | Syncfusion®
-description: Run custom logic when the Blazor Diagram Component layout finishes via the DataLoaded event and related layout callbacks.
+description: Handle layout completion in the Blazor Diagram Component to perform custom actions after rendering and initialization are complete.
 platform: diagram-sdk
 control: Diagram Component
 documentation: ug
